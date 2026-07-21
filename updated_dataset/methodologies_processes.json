@@ -1,0 +1,576 @@
+[
+  {
+    "id": 171,
+    "gid": 100000171,
+    "name": "Infrastructure as Code",
+    "entity_type": "Concept",
+    "entity_subtype": "DevOps Practice",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps & Infrastructure",
+      "sub_category": "Provisioning & Automation",
+      "specialization": "Declarative Infrastructure"
+    },
+    "aliases": [
+      "IaC",
+      "Infrastructure-as-Code"
+    ],
+    "concepts": [
+      {
+        "name": "Declarative Configuration",
+        "weight": 1.0
+      },
+      {
+        "name": "Idempotency",
+        "weight": 0.2314
+      },
+      {
+        "name": "State Management",
+        "weight": 1.0
+      },
+      {
+        "name": "Version-Controlled Infrastructure",
+        "weight": 0.1943
+      },
+      {
+        "name": "Immutable Infrastructure",
+        "weight": 0.9516
+      },
+      {
+        "name": "Configuration Drift",
+        "weight": 0.9516
+      },
+      {
+        "name": "Modules/Reusable Templates",
+        "weight": 0.9516
+      },
+      {
+        "name": "Plan and Apply Workflow",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Cloud Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Version Control (Git)",
+        "weight": 0.7
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "concept_infrastructure_as_code"
+  },
+  {
+    "id": 172,
+    "gid": 100000172,
+    "name": "Continuous Integration/Continuous Deployment",
+    "entity_type": "Concept",
+    "entity_subtype": "DevOps Practice",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps & Infrastructure",
+      "sub_category": "Delivery Pipelines",
+      "specialization": "Automation"
+    },
+    "aliases": [
+      "CI/CD",
+      "Continuous Integration",
+      "Continuous Deployment",
+      "Continuous Delivery"
+    ],
+    "concepts": [
+      {
+        "name": "Automated Build",
+        "weight": 0.8426
+      },
+      {
+        "name": "Automated Testing",
+        "weight": 0.8426
+      },
+      {
+        "name": "Pipeline as Code",
+        "weight": 1.0
+      },
+      {
+        "name": "Artifact Repositories",
+        "weight": 0.2012
+      },
+      {
+        "name": "Deployment Strategies",
+        "weight": 1.0
+      },
+      {
+        "name": "Rollback",
+        "weight": 1.0
+      },
+      {
+        "name": "Canary Releases",
+        "weight": 0.1525
+      },
+      {
+        "name": "Blue-Green Deployment",
+        "weight": 0.1362
+      },
+      {
+        "name": "Pipeline Triggers",
+        "weight": 0.8426
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Version Control (Git)",
+        "weight": 1.0
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.7
+      },
+      {
+        "name": "Containers",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "concept_ci_cd"
+  },
+  {
+    "id": 173,
+    "gid": 100000173,
+    "name": "Agile Methodology",
+    "entity_type": "Concept",
+    "entity_subtype": "Software Development Methodology",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Process & Methodology",
+      "specialization": "Iterative Development"
+    },
+    "aliases": [
+      "Agile",
+      "Agile Development",
+      "Agile Software Development"
+    ],
+    "concepts": [
+      {
+        "name": "Iterative Development",
+        "weight": 0.7174
+      },
+      {
+        "name": "Sprints",
+        "weight": 0.6326
+      },
+      {
+        "name": "Backlog Management",
+        "weight": 0.7504
+      },
+      {
+        "name": "User Stories",
+        "weight": 0.7504
+      },
+      {
+        "name": "Retrospectives",
+        "weight": 1.0
+      },
+      {
+        "name": "Standups",
+        "weight": 0.6326
+      },
+      {
+        "name": "Incremental Delivery",
+        "weight": 0.7504
+      },
+      {
+        "name": "Agile Manifesto",
+        "weight": 0.7174
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Project Management Basics",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "concept_agile"
+  },
+  {
+    "id": 174,
+    "gid": 100000174,
+    "name": "Scrum",
+    "entity_type": "Methodology",
+    "entity_subtype": "Agile Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Process & Methodology",
+      "specialization": "Agile Frameworks"
+    },
+    "aliases": [
+      "Scrum Framework"
+    ],
+    "concepts": [
+      {
+        "name": "Sprint Planning",
+        "weight": 1.0
+      },
+      {
+        "name": "Daily Scrum",
+        "weight": 1.0
+      },
+      {
+        "name": "Sprint Review",
+        "weight": 0.2175
+      },
+      {
+        "name": "Sprint Retrospective",
+        "weight": 1.0
+      },
+      {
+        "name": "Product Backlog",
+        "weight": 0.851
+      },
+      {
+        "name": "Sprint Backlog",
+        "weight": 0.1688
+      },
+      {
+        "name": "Scrum Master",
+        "weight": 0.1525
+      },
+      {
+        "name": "Product Owner",
+        "weight": 0.851
+      },
+      {
+        "name": "Story Points",
+        "weight": 0.851
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Agile Methodology",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "project_management_scrum"
+  },
+  {
+    "id": 175,
+    "gid": 100000175,
+    "name": "Kanban",
+    "entity_type": "Methodology",
+    "entity_subtype": "Agile Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Process & Methodology",
+      "specialization": "Agile Frameworks"
+    },
+    "aliases": [
+      "Kanban Method",
+      "Kanban Board"
+    ],
+    "concepts": [
+      {
+        "name": "Kanban Board",
+        "weight": 1.0
+      },
+      {
+        "name": "Work in Progress Limits",
+        "weight": 1.0
+      },
+      {
+        "name": "Continuous Flow",
+        "weight": 1.0
+      },
+      {
+        "name": "Pull System",
+        "weight": 0.8014
+      },
+      {
+        "name": "Cumulative Flow Diagram",
+        "weight": 0.146
+      },
+      {
+        "name": "Lead Time and Cycle Time",
+        "weight": 0.8014
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Agile Methodology",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "project_management_kanban"
+  },
+  {
+    "id": 176,
+    "gid": 100000176,
+    "name": "GitOps",
+    "entity_type": "Concept",
+    "entity_subtype": "DevOps Practice",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps & Infrastructure",
+      "sub_category": "Delivery Pipelines",
+      "specialization": "Declarative Deployment"
+    },
+    "aliases": [
+      "Git Ops"
+    ],
+    "concepts": [
+      {
+        "name": "Git as Source of Truth",
+        "weight": 1.0
+      },
+      {
+        "name": "Declarative Desired State",
+        "weight": 0.224
+      },
+      {
+        "name": "Reconciliation Loop",
+        "weight": 1.0
+      },
+      {
+        "name": "Pull-Based Deployment",
+        "weight": 0.9547
+      },
+      {
+        "name": "Drift Detection",
+        "weight": 1.0
+      },
+      {
+        "name": "Environment Promotion via Pull Requests",
+        "weight": 0.9547
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Git",
+        "weight": 1.0
+      },
+      {
+        "name": "Kubernetes",
+        "weight": 0.7
+      },
+      {
+        "name": "Infrastructure as Code",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "concept_gitops"
+  },
+  {
+    "id": 177,
+    "gid": 100000177,
+    "name": "DevSecOps",
+    "entity_type": "Concept",
+    "entity_subtype": "DevOps Practice",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps & Infrastructure",
+      "sub_category": "Security Practices",
+      "specialization": "Shift-Left Security"
+    },
+    "aliases": [
+      "Development Security Operations"
+    ],
+    "concepts": [
+      {
+        "name": "Shift-Left Security",
+        "weight": 0.904
+      },
+      {
+        "name": "Static Application Security Testing",
+        "weight": 1.0
+      },
+      {
+        "name": "Dynamic Application Security Testing",
+        "weight": 1.0
+      },
+      {
+        "name": "Dependency Scanning",
+        "weight": 0.185
+      },
+      {
+        "name": "Secrets Scanning",
+        "weight": 0.904
+      },
+      {
+        "name": "Security as Code",
+        "weight": 0.904
+      },
+      {
+        "name": "Compliance Automation",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "CI/CD",
+        "weight": 1.0
+      },
+      {
+        "name": "Application Security Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "concept_devsecops"
+  },
+  {
+    "id": 178,
+    "gid": 100000178,
+    "name": "Test-Driven Development",
+    "entity_type": "Concept",
+    "entity_subtype": "Software Development Practice",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Architecture & Practices",
+      "specialization": "Testing Practices"
+    },
+    "aliases": [
+      "TDD"
+    ],
+    "concepts": [
+      {
+        "name": "Red-Green-Refactor",
+        "weight": 1.0
+      },
+      {
+        "name": "Unit Testing",
+        "weight": 1.0
+      },
+      {
+        "name": "Test-First Design",
+        "weight": 1.0
+      },
+      {
+        "name": "Mocking",
+        "weight": 0.9333
+      },
+      {
+        "name": "Regression Safety Net",
+        "weight": 0.9333
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Unit Testing Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "concept_test_driven_development"
+  },
+  {
+    "id": 199,
+    "gid": 100000199,
+    "name": "Chaos Engineering",
+    "entity_type": "Concept",
+    "entity_subtype": "Reliability Practice",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps & Infrastructure",
+      "sub_category": "Site Reliability Engineering",
+      "specialization": "Resilience Testing"
+    },
+    "aliases": [
+      "Chaos Testing"
+    ],
+    "concepts": [
+      {
+        "name": "Fault Injection",
+        "weight": 1.0
+      },
+      {
+        "name": "Game Days",
+        "weight": 1.0
+      },
+      {
+        "name": "Blast Radius",
+        "weight": 0.8471
+      },
+      {
+        "name": "Steady-State Hypothesis",
+        "weight": 1.0
+      },
+      {
+        "name": "Resilience Validation",
+        "weight": 0.146
+      },
+      {
+        "name": "Failure Mode Analysis",
+        "weight": 0.8471
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Observability Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "concept_chaos_engineering"
+  },
+  {
+    "id": 201,
+    "gid": 100000201,
+    "name": "A/B Testing Framework",
+    "entity_type": "Concept",
+    "entity_subtype": "Experimentation Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data & Analytics",
+      "sub_category": "Experimentation",
+      "specialization": "Statistical Testing"
+    },
+    "aliases": [
+      "A/B Testing",
+      "Split Testing"
+    ],
+    "concepts": [
+      {
+        "name": "Control and Treatment Groups",
+        "weight": 0.9187
+      },
+      {
+        "name": "Statistical Significance",
+        "weight": 1.0
+      },
+      {
+        "name": "Sample Size Calculation",
+        "weight": 1.0
+      },
+      {
+        "name": "Feature Flags",
+        "weight": 0.9187
+      },
+      {
+        "name": "Multivariate Testing",
+        "weight": 1.0
+      },
+      {
+        "name": "Experiment Guardrail Metrics",
+        "weight": 0.9187
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Statistics Basics",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "concept_a_b_testing_framework"
+  }
+]

@@ -1,0 +1,3142 @@
+[
+  {
+    "id": 123,
+    "gid": 100000123,
+    "name": "JUnit",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Java Unit Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Java Unit Testing Frameworks"
+    },
+    "aliases": [
+      "JUnit",
+      "JUnit4",
+      "JUnit5",
+      "JUnit Jupiter",
+      "junit.org"
+    ],
+    "concepts": [
+      {
+        "name": "Test Classes",
+        "weight": 1.0
+      },
+      {
+        "name": "Test Methods",
+        "weight": 0.2476
+      },
+      {
+        "name": "@Test Annotation",
+        "weight": 0.6649
+      },
+      {
+        "name": "Assertions",
+        "weight": 0.6649
+      },
+      {
+        "name": "assertEquals",
+        "weight": 0.5245
+      },
+      {
+        "name": "assertTrue/assertFalse",
+        "weight": 0.238
+      },
+      {
+        "name": "assertThrows",
+        "weight": 0.2356
+      },
+      {
+        "name": "assertAll",
+        "weight": 0.2331
+      },
+      {
+        "name": "Setup and Teardown",
+        "weight": 0.5245
+      },
+      {
+        "name": "@BeforeEach",
+        "weight": 0.5245
+      },
+      {
+        "name": "@AfterEach",
+        "weight": 0.5245
+      },
+      {
+        "name": "@BeforeAll",
+        "weight": 0.2235
+      },
+      {
+        "name": "@AfterAll",
+        "weight": 0.2211
+      },
+      {
+        "name": "@BeforeClass/@AfterClass (JUnit4)",
+        "weight": 0.2187
+      },
+      {
+        "name": "@Before/@After (JUnit4)",
+        "weight": 0.2163
+      },
+      {
+        "name": "Test Lifecycle",
+        "weight": 0.2139
+      },
+      {
+        "name": "Parameterized Tests",
+        "weight": 0.6892
+      },
+      {
+        "name": "@ParameterizedTest",
+        "weight": 0.2091
+      },
+      {
+        "name": "@ValueSource",
+        "weight": 0.2067
+      },
+      {
+        "name": "@CsvSource",
+        "weight": 0.2043
+      },
+      {
+        "name": "@MethodSource",
+        "weight": 0.2019
+      },
+      {
+        "name": "@EnumSource",
+        "weight": 0.1994
+      },
+      {
+        "name": "Test Suites",
+        "weight": 0.5992
+      },
+      {
+        "name": "@Suite",
+        "weight": 0.1946
+      },
+      {
+        "name": "Nested Tests (@Nested)",
+        "weight": 0.5147
+      },
+      {
+        "name": "Tagging Tests (@Tag)",
+        "weight": 0.5147
+      },
+      {
+        "name": "Conditional Test Execution",
+        "weight": 0.1874
+      },
+      {
+        "name": "@Disabled",
+        "weight": 0.185
+      },
+      {
+        "name": "@EnabledOnOs",
+        "weight": 0.1826
+      },
+      {
+        "name": "Timeout Testing (@Timeout)",
+        "weight": 0.1802
+      },
+      {
+        "name": "Exception Testing",
+        "weight": 0.5245
+      },
+      {
+        "name": "Test Fixtures",
+        "weight": 0.1754
+      },
+      {
+        "name": "Mock Integration (Mockito)",
+        "weight": 0.6649
+      },
+      {
+        "name": "JUnit Extensions (JUnit5 Extension Model)",
+        "weight": 0.5147
+      },
+      {
+        "name": "@ExtendWith",
+        "weight": 0.5203
+      },
+      {
+        "name": "Custom Extensions",
+        "weight": 0.5203
+      },
+      {
+        "name": "Assertions Library (Hamcrest Integration)",
+        "weight": 0.1633
+      },
+      {
+        "name": "AssertJ Integration",
+        "weight": 0.1609
+      },
+      {
+        "name": "Test Runners (JUnit4)",
+        "weight": 0.1585
+      },
+      {
+        "name": "@RunWith",
+        "weight": 0.1561
+      },
+      {
+        "name": "Spring Test Integration (@SpringBootTest)",
+        "weight": 0.4905
+      },
+      {
+        "name": "Test Coverage (JaCoCo Integration)",
+        "weight": 0.7695
+      },
+      {
+        "name": "Maven Surefire/Failsafe Integration",
+        "weight": 0.1489
+      },
+      {
+        "name": "Gradle Test Integration",
+        "weight": 0.1465
+      },
+      {
+        "name": "IDE Test Runners (IntelliJ/Eclipse)",
+        "weight": 0.1441
+      },
+      {
+        "name": "Test-Driven Development (TDD)",
+        "weight": 0.6048
+      },
+      {
+        "name": "Behavior-Driven Development (BDD) Style Naming",
+        "weight": 0.1393
+      },
+      {
+        "name": "Dynamic Tests",
+        "weight": 0.1369
+      },
+      {
+        "name": "Repeated Tests (@RepeatedTest)",
+        "weight": 0.1344
+      },
+      {
+        "name": "Test Ordering",
+        "weight": 0.132
+      },
+      {
+        "name": "Display Names (@DisplayName)",
+        "weight": 0.1296
+      },
+      {
+        "name": "Assumptions (assumeTrue)",
+        "weight": 0.1272
+      },
+      {
+        "name": "Rule-Based Testing (JUnit4 @Rule)",
+        "weight": 0.1248
+      },
+      {
+        "name": "TestWatcher",
+        "weight": 0.1224
+      },
+      {
+        "name": "CI/CD Integration",
+        "weight": 0.7695
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Java",
+        "weight": 1.0
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.9333
+      },
+      {
+        "name": "Annotations (Java)",
+        "weight": 0.8667
+      },
+      {
+        "name": "Maven or Gradle Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Exception Handling (Java)",
+        "weight": 0.7333
+      },
+      {
+        "name": "IDE Usage (IntelliJ/Eclipse)",
+        "weight": 0.6667
+      },
+      {
+        "name": "Git",
+        "weight": 0.6
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.5333
+      },
+      {
+        "name": "Assertions Concept",
+        "weight": 0.4667
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "testing_junit"
+  },
+  {
+    "id": 124,
+    "gid": 100000124,
+    "name": "Mockito",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Java Mocking Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Mocking / Test Double Frameworks"
+    },
+    "aliases": [
+      "Mockito",
+      "Mockito Framework",
+      "site.mockito.org"
+    ],
+    "concepts": [
+      {
+        "name": "Mock Objects",
+        "weight": 1.0
+      },
+      {
+        "name": "mock()",
+        "weight": 0.489
+      },
+      {
+        "name": "@Mock Annotation",
+        "weight": 0.6252
+      },
+      {
+        "name": "Stubbing",
+        "weight": 0.8621
+      },
+      {
+        "name": "when()/thenReturn()",
+        "weight": 0.489
+      },
+      {
+        "name": "thenThrow()",
+        "weight": 0.2341
+      },
+      {
+        "name": "doReturn()/when()",
+        "weight": 0.231
+      },
+      {
+        "name": "Argument Matchers",
+        "weight": 0.489
+      },
+      {
+        "name": "any()/anyString()/anyInt()",
+        "weight": 0.2246
+      },
+      {
+        "name": "Verification",
+        "weight": 0.8621
+      },
+      {
+        "name": "verify()",
+        "weight": 0.489
+      },
+      {
+        "name": "verify(times())",
+        "weight": 0.2151
+      },
+      {
+        "name": "verifyNoInteractions()",
+        "weight": 0.212
+      },
+      {
+        "name": "verifyNoMoreInteractions()",
+        "weight": 0.2088
+      },
+      {
+        "name": "Spy Objects",
+        "weight": 0.5995
+      },
+      {
+        "name": "@Spy Annotation",
+        "weight": 0.2024
+      },
+      {
+        "name": "spy()",
+        "weight": 0.1993
+      },
+      {
+        "name": "Argument Captor",
+        "weight": 0.7248
+      },
+      {
+        "name": "@Captor",
+        "weight": 0.1929
+      },
+      {
+        "name": "ArgumentCaptor",
+        "weight": 0.1898
+      },
+      {
+        "name": "Mocking Void Methods",
+        "weight": 0.1866
+      },
+      {
+        "name": "doNothing()/doThrow()",
+        "weight": 0.1834
+      },
+      {
+        "name": "InjectMocks",
+        "weight": 0.1802
+      },
+      {
+        "name": "@InjectMocks",
+        "weight": 0.6252
+      },
+      {
+        "name": "MockitoAnnotations.openMocks()",
+        "weight": 0.1739
+      },
+      {
+        "name": "MockitoExtension (JUnit5)",
+        "weight": 0.1707
+      },
+      {
+        "name": "@ExtendWith(MockitoExtension.class)",
+        "weight": 0.1676
+      },
+      {
+        "name": "BDD Mockito Style (given/willReturn)",
+        "weight": 0.1644
+      },
+      {
+        "name": "Strict Stubbing",
+        "weight": 0.1612
+      },
+      {
+        "name": "Lenient Stubbing",
+        "weight": 0.158
+      },
+      {
+        "name": "Mocking Static Methods (Mockito-inline)",
+        "weight": 0.4879
+      },
+      {
+        "name": "Mocking Final Classes",
+        "weight": 0.1517
+      },
+      {
+        "name": "Answer Interface (Custom Answers)",
+        "weight": 0.4879
+      },
+      {
+        "name": "Deep Stubs",
+        "weight": 0.4879
+      },
+      {
+        "name": "Mocking Constructors",
+        "weight": 0.1422
+      },
+      {
+        "name": "Test Doubles Concept (Mock/Stub/Fake/Spy)",
+        "weight": 0.4616
+      },
+      {
+        "name": "Dependency Isolation",
+        "weight": 0.4862
+      },
+      {
+        "name": "Behavior Verification vs State Verification",
+        "weight": 0.4753
+      },
+      {
+        "name": "Mockito with Spring Boot Test",
+        "weight": 0.6115
+      },
+      {
+        "name": "Reset Mocks",
+        "weight": 0.1263
+      },
+      {
+        "name": "InOrder Verification",
+        "weight": 0.1232
+      },
+      {
+        "name": "Timeout Verification",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Java",
+        "weight": 1.0
+      },
+      {
+        "name": "JUnit",
+        "weight": 0.9143
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.8286
+      },
+      {
+        "name": "Interfaces (Java)",
+        "weight": 0.7429
+      },
+      {
+        "name": "Dependency Injection Concept",
+        "weight": 0.6571
+      },
+      {
+        "name": "Unit Testing Fundamentals",
+        "weight": 0.5714
+      },
+      {
+        "name": "Maven or Gradle Basics",
+        "weight": 0.4857
+      },
+      {
+        "name": "Testing Doubles Concept",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_mockito"
+  },
+  {
+    "id": 125,
+    "gid": 100000125,
+    "name": "pytest",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Python Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Python Testing Frameworks"
+    },
+    "aliases": [
+      "pytest",
+      "PyTest",
+      "py.test",
+      "docs.pytest.org"
+    ],
+    "concepts": [
+      {
+        "name": "Test Functions",
+        "weight": 0.8525
+      },
+      {
+        "name": "Assert Statements",
+        "weight": 0.5706
+      },
+      {
+        "name": "Test Discovery",
+        "weight": 0.2442
+      },
+      {
+        "name": "conftest.py",
+        "weight": 0.6319
+      },
+      {
+        "name": "Fixtures",
+        "weight": 1.0
+      },
+      {
+        "name": "@pytest.fixture",
+        "weight": 0.4993
+      },
+      {
+        "name": "Fixture Scope (function/class/module/session)",
+        "weight": 0.2327
+      },
+      {
+        "name": "Yield Fixtures",
+        "weight": 0.2298
+      },
+      {
+        "name": "Fixture Finalization",
+        "weight": 0.2269
+      },
+      {
+        "name": "Parametrization",
+        "weight": 0.8639
+      },
+      {
+        "name": "@pytest.mark.parametrize",
+        "weight": 0.4993
+      },
+      {
+        "name": "Markers",
+        "weight": 0.645
+      },
+      {
+        "name": "Custom Markers",
+        "weight": 0.2153
+      },
+      {
+        "name": "@pytest.mark.skip",
+        "weight": 0.2124
+      },
+      {
+        "name": "@pytest.mark.skipif",
+        "weight": 0.2096
+      },
+      {
+        "name": "@pytest.mark.xfail",
+        "weight": 0.2067
+      },
+      {
+        "name": "Test Classes",
+        "weight": 0.2038
+      },
+      {
+        "name": "Setup/Teardown Methods",
+        "weight": 0.2009
+      },
+      {
+        "name": "Monkeypatching",
+        "weight": 0.198
+      },
+      {
+        "name": "monkeypatch fixture",
+        "weight": 0.1951
+      },
+      {
+        "name": "Mocking (unittest.mock/pytest-mock)",
+        "weight": 0.6354
+      },
+      {
+        "name": "Exception Testing (pytest.raises)",
+        "weight": 0.6354
+      },
+      {
+        "name": "Warning Testing (pytest.warns)",
+        "weight": 0.1864
+      },
+      {
+        "name": "Plugins",
+        "weight": 0.4957
+      },
+      {
+        "name": "pytest-cov (Coverage)",
+        "weight": 0.4151
+      },
+      {
+        "name": "pytest-django",
+        "weight": 0.4861
+      },
+      {
+        "name": "pytest-asyncio",
+        "weight": 0.1749
+      },
+      {
+        "name": "pytest-xdist (Parallel Testing)",
+        "weight": 0.6433
+      },
+      {
+        "name": "pytest-mock",
+        "weight": 0.1691
+      },
+      {
+        "name": "pytest-bdd",
+        "weight": 0.1662
+      },
+      {
+        "name": "Assertion Introspection (Assertion Rewriting)",
+        "weight": 0.1633
+      },
+      {
+        "name": "Test Reports (HTML/JUnit XML)",
+        "weight": 0.5608
+      },
+      {
+        "name": "Command Line Options",
+        "weight": 0.4151
+      },
+      {
+        "name": "pytest.ini / pyproject.toml Configuration",
+        "weight": 0.4151
+      },
+      {
+        "name": "Tmp Path Fixture",
+        "weight": 0.1518
+      },
+      {
+        "name": "Capsys/Capfd (Output Capturing)",
+        "weight": 0.1489
+      },
+      {
+        "name": "Doctest Integration",
+        "weight": 0.146
+      },
+      {
+        "name": "Test Collection",
+        "weight": 0.1431
+      },
+      {
+        "name": "Test IDs",
+        "weight": 0.1402
+      },
+      {
+        "name": "Parametrized Fixtures",
+        "weight": 0.1373
+      },
+      {
+        "name": "Indirect Parametrization",
+        "weight": 0.1344
+      },
+      {
+        "name": "Hooks (pytest Plugin Hooks)",
+        "weight": 0.4975
+      },
+      {
+        "name": "Custom Plugins",
+        "weight": 0.4975
+      },
+      {
+        "name": "Test Reruns (pytest-rerunfailures)",
+        "weight": 0.1258
+      },
+      {
+        "name": "Snapshot Testing",
+        "weight": 0.1229
+      },
+      {
+        "name": "Property-Based Testing (Hypothesis Integration)",
+        "weight": 0.4975
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python",
+        "weight": 1.0
+      },
+      {
+        "name": "Functions",
+        "weight": 0.94
+      },
+      {
+        "name": "Decorators (Python)",
+        "weight": 0.88
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.82
+      },
+      {
+        "name": "Modules and Packages",
+        "weight": 0.76
+      },
+      {
+        "name": "Virtual Environments",
+        "weight": 0.7
+      },
+      {
+        "name": "pip",
+        "weight": 0.64
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.58
+      },
+      {
+        "name": "Assertions Concept",
+        "weight": 0.52
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.46
+      },
+      {
+        "name": "Git",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "testing_pytest"
+  },
+  {
+    "id": 126,
+    "gid": 100000126,
+    "name": "Jest",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "JavaScript Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "JavaScript/TypeScript Testing Frameworks"
+    },
+    "aliases": [
+      "Jest",
+      "Jest Framework",
+      "Meta Jest",
+      "jestjs.io"
+    ],
+    "concepts": [
+      {
+        "name": "Test Suites (describe)",
+        "weight": 0.8623
+      },
+      {
+        "name": "Test Cases (test/it)",
+        "weight": 0.4906
+      },
+      {
+        "name": "Assertions (expect)",
+        "weight": 0.6256
+      },
+      {
+        "name": "Matchers",
+        "weight": 0.4906
+      },
+      {
+        "name": "toBe/toEqual/toStrictEqual",
+        "weight": 0.2382
+      },
+      {
+        "name": "toContain",
+        "weight": 0.2352
+      },
+      {
+        "name": "toThrow",
+        "weight": 0.2323
+      },
+      {
+        "name": "Setup/Teardown (beforeEach/afterEach/beforeAll/afterAll)",
+        "weight": 0.2293
+      },
+      {
+        "name": "Mock Functions",
+        "weight": 1.0
+      },
+      {
+        "name": "jest.fn()",
+        "weight": 0.4906
+      },
+      {
+        "name": "jest.mock()",
+        "weight": 0.2205
+      },
+      {
+        "name": "jest.spyOn()",
+        "weight": 0.2175
+      },
+      {
+        "name": "Mock Implementations",
+        "weight": 0.2145
+      },
+      {
+        "name": "mockReturnValue/mockResolvedValue",
+        "weight": 0.2116
+      },
+      {
+        "name": "Automatic Mocking",
+        "weight": 0.2086
+      },
+      {
+        "name": "Manual Mocks (__mocks__)",
+        "weight": 0.2057
+      },
+      {
+        "name": "Module Mocking",
+        "weight": 0.2027
+      },
+      {
+        "name": "Timer Mocks (jest.useFakeTimers)",
+        "weight": 0.1998
+      },
+      {
+        "name": "Snapshot Testing",
+        "weight": 0.7552
+      },
+      {
+        "name": "toMatchSnapshot",
+        "weight": 0.1939
+      },
+      {
+        "name": "Inline Snapshots",
+        "weight": 0.1909
+      },
+      {
+        "name": "Async Testing",
+        "weight": 0.485
+      },
+      {
+        "name": "Testing Promises",
+        "weight": 0.485
+      },
+      {
+        "name": "Testing Async/Await",
+        "weight": 0.4598
+      },
+      {
+        "name": "Code Coverage (--coverage)",
+        "weight": 0.6119
+      },
+      {
+        "name": "Coverage Thresholds",
+        "weight": 0.4678
+      },
+      {
+        "name": "Test Configuration (jest.config.js)",
+        "weight": 0.4678
+      },
+      {
+        "name": "Test Environment (jsdom/node)",
+        "weight": 0.1702
+      },
+      {
+        "name": "Setup Files",
+        "weight": 0.1673
+      },
+      {
+        "name": "Watch Mode",
+        "weight": 0.1643
+      },
+      {
+        "name": "Parallel Test Execution",
+        "weight": 0.1614
+      },
+      {
+        "name": "Test Matching Patterns",
+        "weight": 0.1584
+      },
+      {
+        "name": "React Testing Library Integration",
+        "weight": 0.6283
+      },
+      {
+        "name": "Enzyme Integration (legacy)",
+        "weight": 0.1525
+      },
+      {
+        "name": "Testing React Components",
+        "weight": 0.6283
+      },
+      {
+        "name": "Testing Hooks",
+        "weight": 0.4877
+      },
+      {
+        "name": "Testing Redux",
+        "weight": 0.4877
+      },
+      {
+        "name": "Mocking Modules/APIs",
+        "weight": 0.4598
+      },
+      {
+        "name": "Mocking Fetch/Axios",
+        "weight": 0.4598
+      },
+      {
+        "name": "Babel Integration",
+        "weight": 0.1348
+      },
+      {
+        "name": "TypeScript with Jest (ts-jest)",
+        "weight": 0.1318
+      },
+      {
+        "name": "Global Setup/Teardown",
+        "weight": 0.4678
+      },
+      {
+        "name": "Custom Matchers",
+        "weight": 0.4678
+      },
+      {
+        "name": "Test Reporters",
+        "weight": 0.4769
+      },
+      {
+        "name": "CI Integration",
+        "weight": 0.5948
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JavaScript",
+        "weight": 1.0
+      },
+      {
+        "name": "ES6+ Syntax",
+        "weight": 0.9455
+      },
+      {
+        "name": "Node.js",
+        "weight": 0.8909
+      },
+      {
+        "name": "npm/yarn",
+        "weight": 0.8364
+      },
+      {
+        "name": "Asynchronous JavaScript",
+        "weight": 0.7818
+      },
+      {
+        "name": "Promises",
+        "weight": 0.7273
+      },
+      {
+        "name": "Async/Await",
+        "weight": 0.6727
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.6182
+      },
+      {
+        "name": "Assertions Concept",
+        "weight": 0.5636
+      },
+      {
+        "name": "Git",
+        "weight": 0.5091
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4545
+      },
+      {
+        "name": "React Basics (for React testing)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "testing_jest"
+  },
+  {
+    "id": 127,
+    "gid": 100000127,
+    "name": "Vitest",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "JavaScript/TypeScript Testing Framework (Vite-Native)",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "JavaScript/TypeScript Testing Frameworks"
+    },
+    "aliases": [
+      "Vitest",
+      "vitest.dev"
+    ],
+    "concepts": [
+      {
+        "name": "Test Suites (describe)",
+        "weight": 1.0
+      },
+      {
+        "name": "Test Cases (test/it)",
+        "weight": 0.2459
+      },
+      {
+        "name": "Assertions (expect)",
+        "weight": 0.5251
+      },
+      {
+        "name": "Jest-Compatible API",
+        "weight": 0.5129
+      },
+      {
+        "name": "Matchers",
+        "weight": 0.2338
+      },
+      {
+        "name": "Mock Functions (vi.fn())",
+        "weight": 0.8371
+      },
+      {
+        "name": "vi.mock()",
+        "weight": 0.2256
+      },
+      {
+        "name": "vi.spyOn()",
+        "weight": 0.2216
+      },
+      {
+        "name": "Setup/Teardown Hooks",
+        "weight": 0.2175
+      },
+      {
+        "name": "Snapshot Testing",
+        "weight": 0.5251
+      },
+      {
+        "name": "In-Source Testing",
+        "weight": 0.2094
+      },
+      {
+        "name": "Watch Mode",
+        "weight": 0.2053
+      },
+      {
+        "name": "HMR-Powered Test Reruns",
+        "weight": 0.2012
+      },
+      {
+        "name": "Native ESM Support",
+        "weight": 0.5129
+      },
+      {
+        "name": "TypeScript Support (out of the box)",
+        "weight": 0.5129
+      },
+      {
+        "name": "Vite Config Integration",
+        "weight": 0.6981
+      },
+      {
+        "name": "Test Environment (jsdom/happy-dom/node)",
+        "weight": 0.185
+      },
+      {
+        "name": "Code Coverage (c8/istanbul)",
+        "weight": 0.6519
+      },
+      {
+        "name": "UI Mode (Vitest UI)",
+        "weight": 0.475
+      },
+      {
+        "name": "Concurrent Testing",
+        "weight": 0.489
+      },
+      {
+        "name": "Workspaces (Monorepo Testing)",
+        "weight": 0.475
+      },
+      {
+        "name": "Testing Vue Components",
+        "weight": 0.6981
+      },
+      {
+        "name": "Testing React Components",
+        "weight": 0.5251
+      },
+      {
+        "name": "Testing Composables/Hooks",
+        "weight": 0.5229
+      },
+      {
+        "name": "Mocking Modules",
+        "weight": 0.1525
+      },
+      {
+        "name": "Timer Mocks",
+        "weight": 0.1484
+      },
+      {
+        "name": "Benchmarking (vitest bench)",
+        "weight": 0.475
+      },
+      {
+        "name": "Type Testing (expectTypeOf)",
+        "weight": 0.475
+      },
+      {
+        "name": "Global Test APIs",
+        "weight": 0.1362
+      },
+      {
+        "name": "Custom Matchers",
+        "weight": 0.1322
+      },
+      {
+        "name": "Test Filtering",
+        "weight": 0.1281
+      },
+      {
+        "name": "CI Integration",
+        "weight": 0.489
+      },
+      {
+        "name": "Browser Mode (Experimental)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JavaScript",
+        "weight": 1.0
+      },
+      {
+        "name": "TypeScript",
+        "weight": 0.94
+      },
+      {
+        "name": "ES Modules",
+        "weight": 0.88
+      },
+      {
+        "name": "Node.js",
+        "weight": 0.82
+      },
+      {
+        "name": "npm/yarn/pnpm",
+        "weight": 0.76
+      },
+      {
+        "name": "Vite Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.64
+      },
+      {
+        "name": "Assertions Concept",
+        "weight": 0.58
+      },
+      {
+        "name": "Async/Await",
+        "weight": 0.52
+      },
+      {
+        "name": "Git",
+        "weight": 0.46
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_vitest"
+  },
+  {
+    "id": 128,
+    "gid": 100000128,
+    "name": "Mocha",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "JavaScript Test Runner",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "JavaScript Testing Frameworks"
+    },
+    "aliases": [
+      "Mocha",
+      "Mocha.js",
+      "mochajs.org"
+    ],
+    "concepts": [
+      {
+        "name": "Test Suites (describe)",
+        "weight": 1.0
+      },
+      {
+        "name": "Test Cases (it)",
+        "weight": 0.4883
+      },
+      {
+        "name": "Hooks (before/after/beforeEach/afterEach)",
+        "weight": 0.6339
+      },
+      {
+        "name": "Asynchronous Testing (done callback)",
+        "weight": 0.4883
+      },
+      {
+        "name": "Promise Support",
+        "weight": 0.2314
+      },
+      {
+        "name": "Async/Await Support",
+        "weight": 0.5986
+      },
+      {
+        "name": "Assertion Library Agnostic",
+        "weight": 0.2221
+      },
+      {
+        "name": "Chai Integration",
+        "weight": 0.5986
+      },
+      {
+        "name": "Sinon Integration",
+        "weight": 0.4956
+      },
+      {
+        "name": "Reporters (spec/dot/nyan/json)",
+        "weight": 0.4799
+      },
+      {
+        "name": "Custom Reporters",
+        "weight": 0.476
+      },
+      {
+        "name": "Test Timeouts",
+        "weight": 0.1989
+      },
+      {
+        "name": "Retries",
+        "weight": 0.4799
+      },
+      {
+        "name": "Pending Tests (skip)",
+        "weight": 0.1896
+      },
+      {
+        "name": "Exclusive Tests (only)",
+        "weight": 0.185
+      },
+      {
+        "name": "Test Configuration (.mocharc)",
+        "weight": 0.4799
+      },
+      {
+        "name": "Root Hooks",
+        "weight": 0.476
+      },
+      {
+        "name": "Parallel Mode",
+        "weight": 0.476
+      },
+      {
+        "name": "Command Line Interface (mocha CLI)",
+        "weight": 0.4956
+      },
+      {
+        "name": "Glob Pattern Test Matching",
+        "weight": 0.1618
+      },
+      {
+        "name": "Browser Testing Support",
+        "weight": 0.4799
+      },
+      {
+        "name": "Test Coverage (nyc/Istanbul Integration)",
+        "weight": 0.6058
+      },
+      {
+        "name": "BDD Interface",
+        "weight": 0.476
+      },
+      {
+        "name": "TDD Interface",
+        "weight": 0.476
+      },
+      {
+        "name": "QUnit Interface",
+        "weight": 0.1386
+      },
+      {
+        "name": "Exports Interface",
+        "weight": 0.1339
+      },
+      {
+        "name": "Global Setup/Teardown",
+        "weight": 0.1293
+      },
+      {
+        "name": "ES Modules Support",
+        "weight": 0.1246
+      },
+      {
+        "name": "TypeScript Support (ts-node)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JavaScript",
+        "weight": 1.0
+      },
+      {
+        "name": "ES6+ Syntax",
+        "weight": 0.94
+      },
+      {
+        "name": "Node.js",
+        "weight": 0.88
+      },
+      {
+        "name": "npm",
+        "weight": 0.82
+      },
+      {
+        "name": "Asynchronous JavaScript",
+        "weight": 0.76
+      },
+      {
+        "name": "Promises",
+        "weight": 0.7
+      },
+      {
+        "name": "Async/Await",
+        "weight": 0.64
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.58
+      },
+      {
+        "name": "Assertion Libraries Concept",
+        "weight": 0.52
+      },
+      {
+        "name": "Git",
+        "weight": 0.46
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_mocha"
+  },
+  {
+    "id": 129,
+    "gid": 100000129,
+    "name": "Chai",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "JavaScript Assertion Library",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Assertion Libraries"
+    },
+    "aliases": [
+      "Chai",
+      "Chai.js",
+      "chaijs.com",
+      "Chai Assertion Library"
+    ],
+    "concepts": [
+      {
+        "name": "Assert Style",
+        "weight": 0.5191
+      },
+      {
+        "name": "Expect Style (BDD)",
+        "weight": 1.0
+      },
+      {
+        "name": "Should Style (BDD)",
+        "weight": 0.5097
+      },
+      {
+        "name": "Chainable Language (to/be/have/deep/equal)",
+        "weight": 0.6712
+      },
+      {
+        "name": "Equality Assertions (equal/eql)",
+        "weight": 0.5191
+      },
+      {
+        "name": "Type Assertions (a/an)",
+        "weight": 0.2205
+      },
+      {
+        "name": "Property Assertions (property)",
+        "weight": 0.4931
+      },
+      {
+        "name": "Include/Contain Assertions",
+        "weight": 0.4931
+      },
+      {
+        "name": "Length Assertions",
+        "weight": 0.2027
+      },
+      {
+        "name": "Boolean Assertions (true/false/null/undefined)",
+        "weight": 0.5191
+      },
+      {
+        "name": "Exception Assertions (throw)",
+        "weight": 0.5281
+      },
+      {
+        "name": "Comparison Assertions (above/below/within)",
+        "weight": 0.5097
+      },
+      {
+        "name": "Array Assertions",
+        "weight": 0.1791
+      },
+      {
+        "name": "Object Deep Equality",
+        "weight": 0.5022
+      },
+      {
+        "name": "Chai Plugins",
+        "weight": 0.5097
+      },
+      {
+        "name": "chai-as-promised (Async Assertions)",
+        "weight": 0.5281
+      },
+      {
+        "name": "sinon-chai Integration",
+        "weight": 0.5022
+      },
+      {
+        "name": "chai-http (HTTP Assertions)",
+        "weight": 0.6712
+      },
+      {
+        "name": "chai-subset",
+        "weight": 0.1436
+      },
+      {
+        "name": "Custom Assertions",
+        "weight": 0.6619
+      },
+      {
+        "name": "Negation (not)",
+        "weight": 0.1318
+      },
+      {
+        "name": "Language Chains (to/be/been/is/that/which/and/has/have)",
+        "weight": 0.1259
+      },
+      {
+        "name": "Integration with Mocha/Jest",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JavaScript",
+        "weight": 1.0
+      },
+      {
+        "name": "ES6+ Syntax",
+        "weight": 0.9
+      },
+      {
+        "name": "Node.js",
+        "weight": 0.8
+      },
+      {
+        "name": "Mocha or another test runner",
+        "weight": 0.7
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.6
+      },
+      {
+        "name": "Assertions Concept",
+        "weight": 0.5
+      },
+      {
+        "name": "Git",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_chai"
+  },
+  {
+    "id": 130,
+    "gid": 100000130,
+    "name": "Selenium",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Browser Automation / E2E Testing Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Browser Automation Frameworks"
+    },
+    "aliases": [
+      "Selenium",
+      "Selenium WebDriver",
+      "Selenium IDE",
+      "Selenium Grid",
+      "SeleniumHQ"
+    ],
+    "concepts": [
+      {
+        "name": "WebDriver API",
+        "weight": 0.8945
+      },
+      {
+        "name": "Browser Drivers (ChromeDriver/GeckoDriver/EdgeDriver)",
+        "weight": 0.2468
+      },
+      {
+        "name": "Locator Strategies",
+        "weight": 0.8216
+      },
+      {
+        "name": "By.id/By.name/By.className",
+        "weight": 0.2405
+      },
+      {
+        "name": "XPath Locators",
+        "weight": 0.5787
+      },
+      {
+        "name": "CSS Selectors",
+        "weight": 0.5787
+      },
+      {
+        "name": "Element Interaction (click/sendKeys/clear)",
+        "weight": 0.5928
+      },
+      {
+        "name": "Waits",
+        "weight": 0.6754
+      },
+      {
+        "name": "Implicit Waits",
+        "weight": 0.2246
+      },
+      {
+        "name": "Explicit Waits",
+        "weight": 0.5787
+      },
+      {
+        "name": "WebDriverWait",
+        "weight": 0.2183
+      },
+      {
+        "name": "ExpectedConditions",
+        "weight": 0.2151
+      },
+      {
+        "name": "Fluent Waits",
+        "weight": 0.212
+      },
+      {
+        "name": "Actions Class (Mouse/Keyboard Actions)",
+        "weight": 0.2088
+      },
+      {
+        "name": "Drag and Drop",
+        "weight": 0.2056
+      },
+      {
+        "name": "Handling Alerts/Popups",
+        "weight": 0.4962
+      },
+      {
+        "name": "Frame/iFrame Switching",
+        "weight": 0.1993
+      },
+      {
+        "name": "Window/Tab Switching",
+        "weight": 0.1961
+      },
+      {
+        "name": "Handling Dropdowns (Select Class)",
+        "weight": 0.1929
+      },
+      {
+        "name": "File Uploads",
+        "weight": 0.1898
+      },
+      {
+        "name": "Screenshots",
+        "weight": 0.1866
+      },
+      {
+        "name": "Selenium Grid (Distributed Testing)",
+        "weight": 1.0
+      },
+      {
+        "name": "Remote WebDriver",
+        "weight": 0.5522
+      },
+      {
+        "name": "Cross-Browser Testing",
+        "weight": 0.7809
+      },
+      {
+        "name": "Headless Browser Testing",
+        "weight": 0.1739
+      },
+      {
+        "name": "Page Object Model (POM)",
+        "weight": 1.0
+      },
+      {
+        "name": "Page Factory",
+        "weight": 0.5691
+      },
+      {
+        "name": "Selenium IDE (Record/Playback)",
+        "weight": 0.4962
+      },
+      {
+        "name": "Selenium with TestNG",
+        "weight": 0.5691
+      },
+      {
+        "name": "Selenium with JUnit",
+        "weight": 0.158
+      },
+      {
+        "name": "Selenium with pytest",
+        "weight": 0.1549
+      },
+      {
+        "name": "Data-Driven Testing",
+        "weight": 0.5787
+      },
+      {
+        "name": "Parallel Test Execution",
+        "weight": 0.5691
+      },
+      {
+        "name": "Selenium 4 Features (Relative Locators)",
+        "weight": 0.1454
+      },
+      {
+        "name": "BiDi Protocol (Selenium 4)",
+        "weight": 0.1422
+      },
+      {
+        "name": "DevTools Protocol Integration",
+        "weight": 0.139
+      },
+      {
+        "name": "Docker with Selenium",
+        "weight": 0.5522
+      },
+      {
+        "name": "Selenium Grid Hub/Node Architecture",
+        "weight": 0.1327
+      },
+      {
+        "name": "Handling Dynamic Elements",
+        "weight": 0.1295
+      },
+      {
+        "name": "Synchronization Issues",
+        "weight": 0.1263
+      },
+      {
+        "name": "Test Reporting (Extent Reports/Allure)",
+        "weight": 0.5691
+      },
+      {
+        "name": "CI/CD Integration (Jenkins/GitHub Actions)",
+        "weight": 0.7809
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Programming Language (Java/Python/C#/JavaScript)",
+        "weight": 1.0
+      },
+      {
+        "name": "HTML",
+        "weight": 0.9455
+      },
+      {
+        "name": "CSS",
+        "weight": 0.8909
+      },
+      {
+        "name": "XPath Fundamentals",
+        "weight": 0.8364
+      },
+      {
+        "name": "DOM Structure",
+        "weight": 0.7818
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.7273
+      },
+      {
+        "name": "Browser DevTools",
+        "weight": 0.6727
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.6182
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.5636
+      },
+      {
+        "name": "Git",
+        "weight": 0.5091
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4545
+      },
+      {
+        "name": "Design Patterns (Page Object Model)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "testing_selenium"
+  },
+  {
+    "id": 131,
+    "gid": 100000131,
+    "name": "Cypress",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "JavaScript End-to-End Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "End-to-End Testing Frameworks"
+    },
+    "aliases": [
+      "Cypress",
+      "Cypress.io",
+      "Cypress Test Runner"
+    ],
+    "concepts": [
+      {
+        "name": "cy Commands",
+        "weight": 0.9671
+      },
+      {
+        "name": "cy.visit()",
+        "weight": 0.5959
+      },
+      {
+        "name": "cy.get()",
+        "weight": 0.5959
+      },
+      {
+        "name": "cy.contains()",
+        "weight": 0.2403
+      },
+      {
+        "name": "cy.click()",
+        "weight": 0.237
+      },
+      {
+        "name": "cy.type()",
+        "weight": 0.2338
+      },
+      {
+        "name": "Chainable Commands",
+        "weight": 0.2305
+      },
+      {
+        "name": "Automatic Waiting/Retries",
+        "weight": 0.2273
+      },
+      {
+        "name": "Assertions (should/expect)",
+        "weight": 0.5447
+      },
+      {
+        "name": "Custom Commands",
+        "weight": 0.8235
+      },
+      {
+        "name": "Fixtures",
+        "weight": 0.5959
+      },
+      {
+        "name": "cy.intercept() (Network Stubbing)",
+        "weight": 1.0
+      },
+      {
+        "name": "API Testing with Cypress",
+        "weight": 0.5265
+      },
+      {
+        "name": "Component Testing",
+        "weight": 0.5447
+      },
+      {
+        "name": "E2E Testing",
+        "weight": 0.7906
+      },
+      {
+        "name": "Test Runner UI",
+        "weight": 0.5959
+      },
+      {
+        "name": "Time Travel Debugging",
+        "weight": 0.5447
+      },
+      {
+        "name": "Selector Playground",
+        "weight": 0.1947
+      },
+      {
+        "name": "Aliases (as())",
+        "weight": 0.1915
+      },
+      {
+        "name": "Environment Variables",
+        "weight": 0.1883
+      },
+      {
+        "name": "cypress.config.js",
+        "weight": 0.185
+      },
+      {
+        "name": "Plugins",
+        "weight": 0.55
+      },
+      {
+        "name": "Cypress Dashboard/Cloud",
+        "weight": 0.7776
+      },
+      {
+        "name": "Parallelization",
+        "weight": 0.7776
+      },
+      {
+        "name": "Cross-Browser Testing (Chrome/Firefox/Edge)",
+        "weight": 0.5959
+      },
+      {
+        "name": "Headless Mode",
+        "weight": 0.1688
+      },
+      {
+        "name": "Screenshots and Videos",
+        "weight": 0.1655
+      },
+      {
+        "name": "Visual Testing (Percy Integration)",
+        "weight": 0.1623
+      },
+      {
+        "name": "Handling iframes",
+        "weight": 0.159
+      },
+      {
+        "name": "Handling File Uploads",
+        "weight": 0.1557
+      },
+      {
+        "name": "Handling Authentication",
+        "weight": 0.5265
+      },
+      {
+        "name": "Session Management (cy.session)",
+        "weight": 0.5265
+      },
+      {
+        "name": "Data-Driven Testing",
+        "weight": 0.146
+      },
+      {
+        "name": "Page Object Pattern in Cypress",
+        "weight": 0.7776
+      },
+      {
+        "name": "TypeScript Support",
+        "weight": 0.5775
+      },
+      {
+        "name": "CI/CD Integration",
+        "weight": 0.796
+      },
+      {
+        "name": "Retry-ability",
+        "weight": 0.133
+      },
+      {
+        "name": "Testing Redux/State Management",
+        "weight": 0.1297
+      },
+      {
+        "name": "Mocking Clock (cy.clock)",
+        "weight": 0.1265
+      },
+      {
+        "name": "Cypress Studio",
+        "weight": 0.1232
+      },
+      {
+        "name": "Accessibility Testing (cypress-axe)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JavaScript",
+        "weight": 1.0
+      },
+      {
+        "name": "TypeScript (recommended)",
+        "weight": 0.9538
+      },
+      {
+        "name": "HTML",
+        "weight": 0.9077
+      },
+      {
+        "name": "CSS",
+        "weight": 0.8615
+      },
+      {
+        "name": "DOM",
+        "weight": 0.8154
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.7692
+      },
+      {
+        "name": "REST APIs Concept",
+        "weight": 0.7231
+      },
+      {
+        "name": "JSON",
+        "weight": 0.6769
+      },
+      {
+        "name": "Async JavaScript",
+        "weight": 0.6308
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.5846
+      },
+      {
+        "name": "Git",
+        "weight": 0.5385
+      },
+      {
+        "name": "npm",
+        "weight": 0.4923
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4462
+      },
+      {
+        "name": "Browser DevTools",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "testing_cypress"
+  },
+  {
+    "id": 132,
+    "gid": 100000132,
+    "name": "Playwright",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Cross-Browser End-to-End Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "End-to-End Testing Frameworks"
+    },
+    "aliases": [
+      "Playwright",
+      "Microsoft Playwright",
+      "playwright.dev",
+      "Playwright Test"
+    ],
+    "concepts": [
+      {
+        "name": "Browser Contexts",
+        "weight": 0.9222
+      },
+      {
+        "name": "Pages",
+        "weight": 0.2469
+      },
+      {
+        "name": "Locators",
+        "weight": 0.926
+      },
+      {
+        "name": "Auto-Waiting",
+        "weight": 0.6803
+      },
+      {
+        "name": "Actionability Checks",
+        "weight": 0.2376
+      },
+      {
+        "name": "page.goto()",
+        "weight": 0.2345
+      },
+      {
+        "name": "page.click()",
+        "weight": 0.5957
+      },
+      {
+        "name": "page.fill()",
+        "weight": 0.5957
+      },
+      {
+        "name": "page.locator()",
+        "weight": 0.2252
+      },
+      {
+        "name": "Assertions (expect)",
+        "weight": 0.6803
+      },
+      {
+        "name": "Web-First Assertions",
+        "weight": 0.219
+      },
+      {
+        "name": "Test Runner (@playwright/test)",
+        "weight": 0.216
+      },
+      {
+        "name": "Fixtures",
+        "weight": 1.0
+      },
+      {
+        "name": "Test Hooks (beforeEach/afterEach)",
+        "weight": 0.2098
+      },
+      {
+        "name": "Parallel Execution",
+        "weight": 0.9592
+      },
+      {
+        "name": "Cross-Browser Testing (Chromium/Firefox/WebKit)",
+        "weight": 0.6803
+      },
+      {
+        "name": "Headless/Headed Mode",
+        "weight": 0.2005
+      },
+      {
+        "name": "Network Interception (page.route())",
+        "weight": 0.9222
+      },
+      {
+        "name": "API Testing (request context)",
+        "weight": 0.592
+      },
+      {
+        "name": "Mocking Responses",
+        "weight": 0.1912
+      },
+      {
+        "name": "Screenshots and Videos",
+        "weight": 0.1881
+      },
+      {
+        "name": "Trace Viewer",
+        "weight": 0.6803
+      },
+      {
+        "name": "Codegen (Test Generator)",
+        "weight": 0.1819
+      },
+      {
+        "name": "Visual Comparisons (toHaveScreenshot)",
+        "weight": 0.5957
+      },
+      {
+        "name": "Component Testing",
+        "weight": 0.5957
+      },
+      {
+        "name": "Multi-Tab/Multi-Window Testing",
+        "weight": 0.1726
+      },
+      {
+        "name": "iFrame Handling",
+        "weight": 0.1695
+      },
+      {
+        "name": "Authentication State Reuse (storageState)",
+        "weight": 0.9117
+      },
+      {
+        "name": "Test Sharding",
+        "weight": 0.9592
+      },
+      {
+        "name": "Playwright Config (playwright.config.ts)",
+        "weight": 0.6697
+      },
+      {
+        "name": "Projects (Multi-Browser Config)",
+        "weight": 0.9592
+      },
+      {
+        "name": "Retries",
+        "weight": 0.154
+      },
+      {
+        "name": "Test Tags/Annotations",
+        "weight": 0.151
+      },
+      {
+        "name": "Page Object Model in Playwright",
+        "weight": 0.6697
+      },
+      {
+        "name": "Mobile Emulation",
+        "weight": 0.1448
+      },
+      {
+        "name": "Geolocation/Permissions Testing",
+        "weight": 0.1417
+      },
+      {
+        "name": "Accessibility Testing",
+        "weight": 0.1386
+      },
+      {
+        "name": "Downloads/Uploads Handling",
+        "weight": 0.1355
+      },
+      {
+        "name": "Dialog Handling",
+        "weight": 0.1324
+      },
+      {
+        "name": "CI/CD Integration",
+        "weight": 0.9698
+      },
+      {
+        "name": "Docker with Playwright",
+        "weight": 0.6395
+      },
+      {
+        "name": "Playwright Cloud/Reporting",
+        "weight": 0.6395
+      },
+      {
+        "name": "TypeScript Support",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JavaScript",
+        "weight": 1.0
+      },
+      {
+        "name": "TypeScript (recommended)",
+        "weight": 0.9538
+      },
+      {
+        "name": "HTML",
+        "weight": 0.9077
+      },
+      {
+        "name": "CSS",
+        "weight": 0.8615
+      },
+      {
+        "name": "DOM",
+        "weight": 0.8154
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.7692
+      },
+      {
+        "name": "REST APIs Concept",
+        "weight": 0.7231
+      },
+      {
+        "name": "JSON",
+        "weight": 0.6769
+      },
+      {
+        "name": "Async/Await",
+        "weight": 0.6308
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.5846
+      },
+      {
+        "name": "Git",
+        "weight": 0.5385
+      },
+      {
+        "name": "npm",
+        "weight": 0.4923
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4462
+      },
+      {
+        "name": "Browser DevTools",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "testing_playwright"
+  },
+  {
+    "id": 133,
+    "gid": 100000133,
+    "name": "Appium",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Mobile Automation Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Mobile Test Automation Frameworks"
+    },
+    "aliases": [
+      "Appium",
+      "Appium Server",
+      "appium.io"
+    ],
+    "concepts": [
+      {
+        "name": "WebDriver Protocol (Mobile JSON Wire Protocol/W3C)",
+        "weight": 0.9543
+      },
+      {
+        "name": "Appium Server",
+        "weight": 0.2463
+      },
+      {
+        "name": "Desired Capabilities",
+        "weight": 1.0
+      },
+      {
+        "name": "Appium Drivers (UiAutomator2/XCUITest/Espresso)",
+        "weight": 0.2389
+      },
+      {
+        "name": "Android Automation (UiAutomator2)",
+        "weight": 0.6978
+      },
+      {
+        "name": "iOS Automation (XCUITest)",
+        "weight": 0.6978
+      },
+      {
+        "name": "Locator Strategies (accessibility id/id/xpath/class name)",
+        "weight": 0.6978
+      },
+      {
+        "name": "Element Interaction (tap/sendKeys/clear)",
+        "weight": 0.7349
+      },
+      {
+        "name": "Gestures (swipe/scroll/pinch/zoom)",
+        "weight": 0.6978
+      },
+      {
+        "name": "TouchAction / W3C Actions API",
+        "weight": 0.2166
+      },
+      {
+        "name": "Native App Testing",
+        "weight": 0.7349
+      },
+      {
+        "name": "Hybrid App Testing",
+        "weight": 0.2091
+      },
+      {
+        "name": "Mobile Web Testing",
+        "weight": 0.2054
+      },
+      {
+        "name": "Emulators/Simulators",
+        "weight": 0.7349
+      },
+      {
+        "name": "Real Device Testing",
+        "weight": 0.6978
+      },
+      {
+        "name": "Appium Inspector",
+        "weight": 0.6065
+      },
+      {
+        "name": "Session Management",
+        "weight": 0.1906
+      },
+      {
+        "name": "App Installation/Uninstallation",
+        "weight": 0.1869
+      },
+      {
+        "name": "Context Switching (Native/WebView)",
+        "weight": 0.1831
+      },
+      {
+        "name": "Handling Permissions/Alerts",
+        "weight": 0.1794
+      },
+      {
+        "name": "Device Orientation Testing",
+        "weight": 0.1757
+      },
+      {
+        "name": "Appium with TestNG",
+        "weight": 0.6522
+      },
+      {
+        "name": "Appium with JUnit",
+        "weight": 0.1683
+      },
+      {
+        "name": "Appium with Selenium (shared WebDriver API)",
+        "weight": 0.1646
+      },
+      {
+        "name": "Cross-Platform Test Scripts",
+        "weight": 0.6202
+      },
+      {
+        "name": "Cloud Device Farms (BrowserStack/Sauce Labs)",
+        "weight": 0.9681
+      },
+      {
+        "name": "Parallel Test Execution",
+        "weight": 0.6522
+      },
+      {
+        "name": "Appium Server Configuration",
+        "weight": 0.6202
+      },
+      {
+        "name": "Capabilities for Cross-Platform",
+        "weight": 0.146
+      },
+      {
+        "name": "Page Object Model for Mobile",
+        "weight": 0.6522
+      },
+      {
+        "name": "Data-Driven Mobile Testing",
+        "weight": 0.1386
+      },
+      {
+        "name": "Appium 2.0 Plugin Architecture",
+        "weight": 0.6202
+      },
+      {
+        "name": "Espresso Driver",
+        "weight": 0.4784
+      },
+      {
+        "name": "Flutter Driver Integration",
+        "weight": 0.1274
+      },
+      {
+        "name": "Performance Testing (Mobile)",
+        "weight": 0.1237
+      },
+      {
+        "name": "CI/CD Integration for Mobile Testing",
+        "weight": 0.6522
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Programming Language (Java/Python/JavaScript)",
+        "weight": 1.0
+      },
+      {
+        "name": "Mobile App Fundamentals (Android/iOS)",
+        "weight": 0.9333
+      },
+      {
+        "name": "Selenium WebDriver Basics",
+        "weight": 0.8667
+      },
+      {
+        "name": "XPath Fundamentals",
+        "weight": 0.8
+      },
+      {
+        "name": "Android SDK/Xcode Basics",
+        "weight": 0.7333
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.6667
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.6
+      },
+      {
+        "name": "Git",
+        "weight": 0.5333
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4667
+      },
+      {
+        "name": "Mobile UI Concepts",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_appium"
+  },
+  {
+    "id": 134,
+    "gid": 100000134,
+    "name": "Robot Framework",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Generic Keyword-Driven Test Automation Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Keyword-Driven / BDD Test Frameworks"
+    },
+    "aliases": [
+      "Robot Framework",
+      "RF",
+      "robotframework.org"
+    ],
+    "concepts": [
+      {
+        "name": "Keyword-Driven Testing",
+        "weight": 1.0
+      },
+      {
+        "name": "Test Cases Section",
+        "weight": 1.0
+      },
+      {
+        "name": "Settings Section",
+        "weight": 0.2428
+      },
+      {
+        "name": "Variables Section",
+        "weight": 0.2392
+      },
+      {
+        "name": "Keywords Section",
+        "weight": 0.2356
+      },
+      {
+        "name": "Test Data Syntax (Tabular Format)",
+        "weight": 0.6542
+      },
+      {
+        "name": "Built-In Keywords",
+        "weight": 0.6542
+      },
+      {
+        "name": "Custom Keywords",
+        "weight": 0.9738
+      },
+      {
+        "name": "User Keywords",
+        "weight": 0.2211
+      },
+      {
+        "name": "Library Keywords",
+        "weight": 0.2175
+      },
+      {
+        "name": "SeleniumLibrary",
+        "weight": 0.6958
+      },
+      {
+        "name": "Browser Library (Playwright-based)",
+        "weight": 0.6958
+      },
+      {
+        "name": "RequestsLibrary",
+        "weight": 0.5606
+      },
+      {
+        "name": "AppiumLibrary",
+        "weight": 0.2031
+      },
+      {
+        "name": "DatabaseLibrary",
+        "weight": 0.1994
+      },
+      {
+        "name": "Resource Files",
+        "weight": 0.6088
+      },
+      {
+        "name": "Test Suites",
+        "weight": 0.1922
+      },
+      {
+        "name": "Test Libraries (Python/Java)",
+        "weight": 0.1886
+      },
+      {
+        "name": "Data-Driven Testing (Templates)",
+        "weight": 0.9064
+      },
+      {
+        "name": "Tags",
+        "weight": 0.6958
+      },
+      {
+        "name": "Setup/Teardown (Suite/Test)",
+        "weight": 0.1778
+      },
+      {
+        "name": "For Loops",
+        "weight": 0.1742
+      },
+      {
+        "name": "Conditional Execution (IF/ELSE)",
+        "weight": 0.1706
+      },
+      {
+        "name": "Variables (Scalar/List/Dictionary)",
+        "weight": 0.5606
+      },
+      {
+        "name": "Robot Framework Syntax (RST/TSV/Plain Text)",
+        "weight": 0.1633
+      },
+      {
+        "name": "Reports and Logs (HTML)",
+        "weight": 1.0
+      },
+      {
+        "name": "RIDE (Robot IDE, legacy)",
+        "weight": 0.1561
+      },
+      {
+        "name": "VS Code Robot Framework Extension",
+        "weight": 0.1525
+      },
+      {
+        "name": "Command Line Execution (robot command)",
+        "weight": 0.1489
+      },
+      {
+        "name": "Pabot (Parallel Execution)",
+        "weight": 0.8868
+      },
+      {
+        "name": "BDD Style Testing (Given/When/Then Keywords)",
+        "weight": 0.628
+      },
+      {
+        "name": "API Testing with RequestsLibrary",
+        "weight": 0.5606
+      },
+      {
+        "name": "Continuous Integration Integration",
+        "weight": 0.6088
+      },
+      {
+        "name": "Listener Interface",
+        "weight": 0.628
+      },
+      {
+        "name": "Library API (Python)",
+        "weight": 0.8868
+      },
+      {
+        "name": "Test Case Templates",
+        "weight": 0.1236
+      },
+      {
+        "name": "Documentation Generation (Libdoc)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Basic Programming Concepts",
+        "weight": 1.0
+      },
+      {
+        "name": "Python (for library extension)",
+        "weight": 0.9143
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.8286
+      },
+      {
+        "name": "Selenium Basics (for UI testing)",
+        "weight": 0.7429
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.6571
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.5714
+      },
+      {
+        "name": "Git",
+        "weight": 0.4857
+      },
+      {
+        "name": "Tabular Data Concepts",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_robot_framework"
+  },
+  {
+    "id": 135,
+    "gid": 100000135,
+    "name": "TestNG",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Java Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Java Testing Frameworks"
+    },
+    "aliases": [
+      "TestNG",
+      "testng.org"
+    ],
+    "concepts": [
+      {
+        "name": "@Test Annotation",
+        "weight": 0.896
+      },
+      {
+        "name": "Test Suites (testng.xml)",
+        "weight": 0.5931
+      },
+      {
+        "name": "Test Groups",
+        "weight": 0.5931
+      },
+      {
+        "name": "@BeforeMethod/@AfterMethod",
+        "weight": 0.5197
+      },
+      {
+        "name": "@BeforeClass/@AfterClass",
+        "weight": 0.4832
+      },
+      {
+        "name": "@BeforeSuite/@AfterSuite",
+        "weight": 0.2314
+      },
+      {
+        "name": "@BeforeTest/@AfterTest",
+        "weight": 0.2277
+      },
+      {
+        "name": "@BeforeGroups/@AfterGroups",
+        "weight": 0.224
+      },
+      {
+        "name": "Assertions (Assert class)",
+        "weight": 0.896
+      },
+      {
+        "name": "Soft Assertions",
+        "weight": 0.2166
+      },
+      {
+        "name": "Data Providers (@DataProvider)",
+        "weight": 1.0
+      },
+      {
+        "name": "Parameterization (parameters in XML)",
+        "weight": 0.2091
+      },
+      {
+        "name": "Dependency Testing (dependsOnMethods)",
+        "weight": 0.5873
+      },
+      {
+        "name": "Priority (priority attribute)",
+        "weight": 0.2017
+      },
+      {
+        "name": "Parallel Execution",
+        "weight": 0.802
+      },
+      {
+        "name": "Parallel Test Configuration (testng.xml)",
+        "weight": 0.559
+      },
+      {
+        "name": "Test Listeners",
+        "weight": 0.5873
+      },
+      {
+        "name": "ITestListener",
+        "weight": 0.1869
+      },
+      {
+        "name": "Retry Analyzer (IRetryAnalyzer)",
+        "weight": 0.5873
+      },
+      {
+        "name": "Test Reporting (TestNG HTML Reports)",
+        "weight": 0.5931
+      },
+      {
+        "name": "Selenium Integration",
+        "weight": 0.7263
+      },
+      {
+        "name": "Cross-Browser Test Configuration",
+        "weight": 0.172
+      },
+      {
+        "name": "Test Grouping and Filtering",
+        "weight": 0.1683
+      },
+      {
+        "name": "Expected Exceptions (expectedExceptions attribute)",
+        "weight": 0.1646
+      },
+      {
+        "name": "Timeout Configuration",
+        "weight": 0.1609
+      },
+      {
+        "name": "Factory Pattern (@Factory)",
+        "weight": 0.5873
+      },
+      {
+        "name": "Invocation Count",
+        "weight": 0.1534
+      },
+      {
+        "name": "Thread Pool Size",
+        "weight": 0.559
+      },
+      {
+        "name": "Suite XML Configuration",
+        "weight": 0.559
+      },
+      {
+        "name": "Includes/Excludes (Groups)",
+        "weight": 0.1423
+      },
+      {
+        "name": "Emailable Reports",
+        "weight": 0.1386
+      },
+      {
+        "name": "Custom Listeners",
+        "weight": 0.5873
+      },
+      {
+        "name": "Annotation Transformers",
+        "weight": 0.1311
+      },
+      {
+        "name": "Integration with Maven/Gradle",
+        "weight": 0.1274
+      },
+      {
+        "name": "Integration with Jenkins",
+        "weight": 0.559
+      },
+      {
+        "name": "Integration with Allure/Extent Reports",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Java",
+        "weight": 1.0
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.925
+      },
+      {
+        "name": "Annotations (Java)",
+        "weight": 0.85
+      },
+      {
+        "name": "Maven or Gradle Basics",
+        "weight": 0.775
+      },
+      {
+        "name": "Selenium Basics (for UI testing)",
+        "weight": 0.7
+      },
+      {
+        "name": "XML Basics (for testng.xml)",
+        "weight": 0.625
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.55
+      },
+      {
+        "name": "Git",
+        "weight": 0.475
+      },
+      {
+        "name": "IDE Usage (IntelliJ/Eclipse)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_testng"
+  },
+  {
+    "id": 136,
+    "gid": 100000136,
+    "name": "JMeter",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Performance and Load Testing Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Performance / Load Testing Tools"
+    },
+    "aliases": [
+      "JMeter",
+      "Apache JMeter",
+      "jmeter.apache.org"
+    ],
+    "concepts": [
+      {
+        "name": "Test Plan",
+        "weight": 0.8726
+      },
+      {
+        "name": "Thread Groups",
+        "weight": 0.8726
+      },
+      {
+        "name": "Samplers (HTTP Request/JDBC Request/FTP Request)",
+        "weight": 0.9971
+      },
+      {
+        "name": "Listeners",
+        "weight": 0.6696
+      },
+      {
+        "name": "View Results Tree",
+        "weight": 0.2389
+      },
+      {
+        "name": "Summary Report",
+        "weight": 0.2362
+      },
+      {
+        "name": "Aggregate Report",
+        "weight": 0.2334
+      },
+      {
+        "name": "Assertions (Response Assertion/Duration Assertion/JSON Assertion)",
+        "weight": 0.9971
+      },
+      {
+        "name": "Config Elements (HTTP Request Defaults/CSV Data Set Config)",
+        "weight": 0.2279
+      },
+      {
+        "name": "Pre-Processors",
+        "weight": 0.2251
+      },
+      {
+        "name": "Post-Processors",
+        "weight": 0.2223
+      },
+      {
+        "name": "Timers",
+        "weight": 0.2196
+      },
+      {
+        "name": "Constant Timer",
+        "weight": 0.2168
+      },
+      {
+        "name": "Uniform Random Timer",
+        "weight": 0.214
+      },
+      {
+        "name": "Controllers (Logic Controllers)",
+        "weight": 0.2113
+      },
+      {
+        "name": "Loop Controller",
+        "weight": 0.2085
+      },
+      {
+        "name": "If Controller",
+        "weight": 0.2057
+      },
+      {
+        "name": "While Controller",
+        "weight": 0.203
+      },
+      {
+        "name": "Transaction Controller",
+        "weight": 0.2002
+      },
+      {
+        "name": "Correlation (Extracting Dynamic Values)",
+        "weight": 0.8947
+      },
+      {
+        "name": "Regular Expression Extractor",
+        "weight": 0.1947
+      },
+      {
+        "name": "JSON Extractor",
+        "weight": 0.1919
+      },
+      {
+        "name": "XPath Extractor",
+        "weight": 0.1891
+      },
+      {
+        "name": "CSS/JQuery Extractor",
+        "weight": 0.1864
+      },
+      {
+        "name": "Parameterization (CSV Data Set Config)",
+        "weight": 0.1836
+      },
+      {
+        "name": "User Variables",
+        "weight": 0.1809
+      },
+      {
+        "name": "Load Testing",
+        "weight": 1.0
+      },
+      {
+        "name": "Stress Testing",
+        "weight": 0.6696
+      },
+      {
+        "name": "Spike Testing",
+        "weight": 0.1726
+      },
+      {
+        "name": "Soak Testing",
+        "weight": 0.1698
+      },
+      {
+        "name": "Distributed Testing (Master-Slave)",
+        "weight": 1.0
+      },
+      {
+        "name": "Non-GUI Mode (CLI Execution)",
+        "weight": 0.8527
+      },
+      {
+        "name": "Command Line Test Execution",
+        "weight": 0.1615
+      },
+      {
+        "name": "JMeter Plugins Manager",
+        "weight": 0.1587
+      },
+      {
+        "name": "Backend Listener (InfluxDB/Grafana Integration)",
+        "weight": 0.7582
+      },
+      {
+        "name": "Reporting (HTML Dashboard Report)",
+        "weight": 0.6696
+      },
+      {
+        "name": "JDBC Connection Testing",
+        "weight": 0.1504
+      },
+      {
+        "name": "REST API Load Testing",
+        "weight": 0.4745
+      },
+      {
+        "name": "SOAP/XML Testing",
+        "weight": 0.1449
+      },
+      {
+        "name": "Recording Test Scripts (HTTP(S) Test Script Recorder)",
+        "weight": 0.553
+      },
+      {
+        "name": "Proxy Server Recording",
+        "weight": 0.1394
+      },
+      {
+        "name": "BeanShell/Groovy Scripting",
+        "weight": 0.5751
+      },
+      {
+        "name": "JSR223 Sampler/PreProcessor/PostProcessor",
+        "weight": 0.5751
+      },
+      {
+        "name": "Assertions for Performance SLAs",
+        "weight": 0.1311
+      },
+      {
+        "name": "Ramp-Up Period",
+        "weight": 0.4973
+      },
+      {
+        "name": "Think Time",
+        "weight": 0.1255
+      },
+      {
+        "name": "Correlation of Session Tokens",
+        "weight": 0.1228
+      },
+      {
+        "name": "CI/CD Integration (Jenkins Performance Plugin)",
+        "weight": 0.7582
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "HTTP Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "REST APIs Concept",
+        "weight": 0.9333
+      },
+      {
+        "name": "SQL Basics (for JDBC testing)",
+        "weight": 0.8667
+      },
+      {
+        "name": "Performance Testing Concepts",
+        "weight": 0.8
+      },
+      {
+        "name": "Basic Scripting (Groovy/BeanShell)",
+        "weight": 0.7333
+      },
+      {
+        "name": "Java Basics (JMeter runs on JVM)",
+        "weight": 0.6667
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.5333
+      },
+      {
+        "name": "Git",
+        "weight": 0.4667
+      },
+      {
+        "name": "Load Testing Terminology (Throughput/Latency/Concurrency)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "testing_jmeter"
+  }
+]

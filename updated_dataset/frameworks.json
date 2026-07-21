@@ -1,0 +1,8141 @@
+[
+  {
+    "id": 1,
+    "gid": 100000001,
+    "name": "React",
+    "entity_type": "Framework",
+    "entity_subtype": "Frontend JavaScript Library",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Frontend Development",
+      "specialization": "JavaScript UI Libraries"
+    },
+    "aliases": [
+      "React",
+      "ReactJS",
+      "React.js",
+      "React JS",
+      "Facebook React",
+      "Meta React",
+      "React Library",
+      "React Framework",
+      "React 18",
+      "React 19",
+      "React DOM",
+      "React Core"
+    ],
+    "concepts": [
+      {
+        "name": "JSX",
+        "weight": 0.7582
+      },
+      {
+        "name": "Virtual DOM",
+        "weight": 0.5087
+      },
+      {
+        "name": "React Fiber",
+        "weight": 0.248
+      },
+      {
+        "name": "Components",
+        "weight": 1.0
+      },
+      {
+        "name": "Functional Components",
+        "weight": 0.4651
+      },
+      {
+        "name": "Class Components",
+        "weight": 0.245
+      },
+      {
+        "name": "Props",
+        "weight": 1.0
+      },
+      {
+        "name": "State",
+        "weight": 0.8986
+      },
+      {
+        "name": "Hooks",
+        "weight": 0.8986
+      },
+      {
+        "name": "useState",
+        "weight": 0.5736
+      },
+      {
+        "name": "useEffect",
+        "weight": 0.5736
+      },
+      {
+        "name": "useContext",
+        "weight": 0.4651
+      },
+      {
+        "name": "useReducer",
+        "weight": 0.4651
+      },
+      {
+        "name": "useRef",
+        "weight": 0.4651
+      },
+      {
+        "name": "useMemo",
+        "weight": 0.4651
+      },
+      {
+        "name": "useCallback",
+        "weight": 0.4651
+      },
+      {
+        "name": "useLayoutEffect",
+        "weight": 0.2341
+      },
+      {
+        "name": "useImperativeHandle",
+        "weight": 0.2331
+      },
+      {
+        "name": "useTransition",
+        "weight": 0.2321
+      },
+      {
+        "name": "useDeferredValue",
+        "weight": 0.2311
+      },
+      {
+        "name": "useId",
+        "weight": 0.2302
+      },
+      {
+        "name": "useSyncExternalStore",
+        "weight": 0.2292
+      },
+      {
+        "name": "Custom Hooks",
+        "weight": 0.4651
+      },
+      {
+        "name": "Context API",
+        "weight": 0.5162
+      },
+      {
+        "name": "Lifecycle Methods",
+        "weight": 0.2262
+      },
+      {
+        "name": "componentDidMount",
+        "weight": 0.2252
+      },
+      {
+        "name": "componentDidUpdate",
+        "weight": 0.2242
+      },
+      {
+        "name": "componentWillUnmount",
+        "weight": 0.2232
+      },
+      {
+        "name": "Reconciliation",
+        "weight": 0.4256
+      },
+      {
+        "name": "Diffing Algorithm",
+        "weight": 0.2212
+      },
+      {
+        "name": "Rendering",
+        "weight": 0.2202
+      },
+      {
+        "name": "Re-rendering",
+        "weight": 0.2192
+      },
+      {
+        "name": "Synthetic Events",
+        "weight": 0.4331
+      },
+      {
+        "name": "Event Delegation",
+        "weight": 0.4331
+      },
+      {
+        "name": "Fragments",
+        "weight": 0.2163
+      },
+      {
+        "name": "Portals",
+        "weight": 0.2153
+      },
+      {
+        "name": "Refs",
+        "weight": 0.2143
+      },
+      {
+        "name": "forwardRef",
+        "weight": 0.2133
+      },
+      {
+        "name": "Controlled Components",
+        "weight": 0.5736
+      },
+      {
+        "name": "Uncontrolled Components",
+        "weight": 0.4651
+      },
+      {
+        "name": "Forms Handling",
+        "weight": 0.6668
+      },
+      {
+        "name": "Conditional Rendering",
+        "weight": 0.6751
+      },
+      {
+        "name": "Lists and Keys",
+        "weight": 0.5736
+      },
+      {
+        "name": "Children Prop",
+        "weight": 0.2073
+      },
+      {
+        "name": "Composition vs Inheritance",
+        "weight": 0.2063
+      },
+      {
+        "name": "Higher Order Components",
+        "weight": 0.2053
+      },
+      {
+        "name": "Render Props",
+        "weight": 0.2044
+      },
+      {
+        "name": "Memoization",
+        "weight": 0.2034
+      },
+      {
+        "name": "React.memo",
+        "weight": 0.2024
+      },
+      {
+        "name": "Lazy Loading",
+        "weight": 0.4651
+      },
+      {
+        "name": "React.lazy",
+        "weight": 0.2004
+      },
+      {
+        "name": "Suspense",
+        "weight": 0.4651
+      },
+      {
+        "name": "Concurrent Rendering",
+        "weight": 0.4553
+      },
+      {
+        "name": "Concurrent Mode",
+        "weight": 0.1974
+      },
+      {
+        "name": "Transitions",
+        "weight": 0.1964
+      },
+      {
+        "name": "Hydration",
+        "weight": 0.1954
+      },
+      {
+        "name": "Server-Side Rendering",
+        "weight": 0.4778
+      },
+      {
+        "name": "Client-Side Rendering",
+        "weight": 0.1934
+      },
+      {
+        "name": "Static Site Generation",
+        "weight": 0.1924
+      },
+      {
+        "name": "Incremental Static Regeneration",
+        "weight": 0.1915
+      },
+      {
+        "name": "React Server Components",
+        "weight": 0.49
+      },
+      {
+        "name": "React Client Components",
+        "weight": 0.1895
+      },
+      {
+        "name": "Error Boundaries",
+        "weight": 0.4651
+      },
+      {
+        "name": "Code Splitting",
+        "weight": 0.637
+      },
+      {
+        "name": "Tree Shaking",
+        "weight": 0.4553
+      },
+      {
+        "name": "Performance Optimization",
+        "weight": 0.8548
+      },
+      {
+        "name": "Profiling",
+        "weight": 0.1845
+      },
+      {
+        "name": "React Profiler",
+        "weight": 0.1835
+      },
+      {
+        "name": "Strict Mode",
+        "weight": 0.1825
+      },
+      {
+        "name": "Accessibility (a11y)",
+        "weight": 0.7241
+      },
+      {
+        "name": "Testing Components",
+        "weight": 0.7914
+      },
+      {
+        "name": "Unit Testing",
+        "weight": 0.1795
+      },
+      {
+        "name": "Integration Testing",
+        "weight": 0.1785
+      },
+      {
+        "name": "Snapshot Testing",
+        "weight": 0.399
+      },
+      {
+        "name": "Deployment",
+        "weight": 0.4432
+      },
+      {
+        "name": "Routing",
+        "weight": 0.1756
+      },
+      {
+        "name": "React Router",
+        "weight": 0.6668
+      },
+      {
+        "name": "Redux",
+        "weight": 0.4432
+      },
+      {
+        "name": "Redux Toolkit",
+        "weight": 0.4651
+      },
+      {
+        "name": "Context + Reducer Pattern",
+        "weight": 0.1716
+      },
+      {
+        "name": "MobX",
+        "weight": 0.1706
+      },
+      {
+        "name": "Zustand",
+        "weight": 0.1696
+      },
+      {
+        "name": "Recoil",
+        "weight": 0.1686
+      },
+      {
+        "name": "Jotai",
+        "weight": 0.1676
+      },
+      {
+        "name": "React Query / TanStack Query",
+        "weight": 0.5583
+      },
+      {
+        "name": "SWR",
+        "weight": 0.1656
+      },
+      {
+        "name": "Formik",
+        "weight": 0.1647
+      },
+      {
+        "name": "React Hook Form",
+        "weight": 0.4651
+      },
+      {
+        "name": "React DevTools",
+        "weight": 0.4651
+      },
+      {
+        "name": "Prop Drilling",
+        "weight": 0.1617
+      },
+      {
+        "name": "State Lifting",
+        "weight": 0.1607
+      },
+      {
+        "name": "Immutable Data Patterns",
+        "weight": 0.1597
+      },
+      {
+        "name": "Pure Components",
+        "weight": 0.1587
+      },
+      {
+        "name": "PropTypes",
+        "weight": 0.1577
+      },
+      {
+        "name": "TypeScript with React",
+        "weight": 0.7302
+      },
+      {
+        "name": "Styled Components",
+        "weight": 0.6751
+      },
+      {
+        "name": "CSS Modules",
+        "weight": 0.6751
+      },
+      {
+        "name": "Tailwind CSS with React",
+        "weight": 0.56
+      },
+      {
+        "name": "Emotion (CSS-in-JS)",
+        "weight": 0.4514
+      },
+      {
+        "name": "Animation Libraries (Framer Motion)",
+        "weight": 0.4514
+      },
+      {
+        "name": "Build Tools Integration",
+        "weight": 0.6789
+      },
+      {
+        "name": "Babel",
+        "weight": 0.1498
+      },
+      {
+        "name": "Webpack",
+        "weight": 0.1488
+      },
+      {
+        "name": "Vite",
+        "weight": 0.4651
+      },
+      {
+        "name": "Create React App (legacy)",
+        "weight": 0.1468
+      },
+      {
+        "name": "ESLint for React",
+        "weight": 0.4651
+      },
+      {
+        "name": "Prettier",
+        "weight": 0.1448
+      },
+      {
+        "name": "Jest",
+        "weight": 0.5141
+      },
+      {
+        "name": "React Testing Library",
+        "weight": 0.5141
+      },
+      {
+        "name": "Vitest",
+        "weight": 0.1418
+      },
+      {
+        "name": "Cypress",
+        "weight": 0.399
+      },
+      {
+        "name": "Playwright",
+        "weight": 0.399
+      },
+      {
+        "name": "Next.js Integration",
+        "weight": 0.4432
+      },
+      {
+        "name": "Remix Integration",
+        "weight": 0.1379
+      },
+      {
+        "name": "React Native (mobile)",
+        "weight": 0.1369
+      },
+      {
+        "name": "Server Actions",
+        "weight": 0.1359
+      },
+      {
+        "name": "Streaming SSR",
+        "weight": 0.1349
+      },
+      {
+        "name": "Selective Hydration",
+        "weight": 0.1339
+      },
+      {
+        "name": "Automatic Batching",
+        "weight": 0.1329
+      },
+      {
+        "name": "Event Pooling (legacy)",
+        "weight": 0.1319
+      },
+      {
+        "name": "Key Prop Reconciliation Rules",
+        "weight": 0.1309
+      },
+      {
+        "name": "Component Design Patterns",
+        "weight": 0.6596
+      },
+      {
+        "name": "Compound Components",
+        "weight": 0.5567
+      },
+      {
+        "name": "Container/Presentational Pattern",
+        "weight": 0.4553
+      },
+      {
+        "name": "Custom Render Functions",
+        "weight": 0.1269
+      },
+      {
+        "name": "React Context Performance Pitfalls",
+        "weight": 0.126
+      },
+      {
+        "name": "Web Vitals Optimization",
+        "weight": 0.4553
+      },
+      {
+        "name": "Accessibility ARIA Attributes",
+        "weight": 0.124
+      },
+      {
+        "name": "Internationalization (i18n) in React",
+        "weight": 0.123
+      },
+      {
+        "name": "State Management Architecture",
+        "weight": 0.5928
+      },
+      {
+        "name": "Micro-Frontends with React",
+        "weight": 0.49
+      },
+      {
+        "name": "Module Federation",
+        "weight": 0.49
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9872
+      },
+      {
+        "name": "HTML",
+        "weight": 0.9745
+      },
+      {
+        "name": "CSS",
+        "weight": 0.9617
+      },
+      {
+        "name": "Responsive Design",
+        "weight": 0.9489
+      },
+      {
+        "name": "JavaScript",
+        "weight": 0.9362
+      },
+      {
+        "name": "ES6+ Syntax",
+        "weight": 0.9234
+      },
+      {
+        "name": "Variables and Data Types",
+        "weight": 0.9106
+      },
+      {
+        "name": "Functions",
+        "weight": 0.8979
+      },
+      {
+        "name": "Arrow Functions",
+        "weight": 0.8851
+      },
+      {
+        "name": "Objects",
+        "weight": 0.8723
+      },
+      {
+        "name": "Arrays and Array Methods",
+        "weight": 0.8596
+      },
+      {
+        "name": "Destructuring",
+        "weight": 0.8468
+      },
+      {
+        "name": "Spread and Rest Operators",
+        "weight": 0.834
+      },
+      {
+        "name": "Template Literals",
+        "weight": 0.8213
+      },
+      {
+        "name": "Modules (import/export)",
+        "weight": 0.8085
+      },
+      {
+        "name": "Closures",
+        "weight": 0.7957
+      },
+      {
+        "name": "Scope",
+        "weight": 0.783
+      },
+      {
+        "name": "this Keyword",
+        "weight": 0.7702
+      },
+      {
+        "name": "Prototypes",
+        "weight": 0.7574
+      },
+      {
+        "name": "DOM",
+        "weight": 0.7447
+      },
+      {
+        "name": "DOM Manipulation",
+        "weight": 0.7319
+      },
+      {
+        "name": "Events",
+        "weight": 0.7191
+      },
+      {
+        "name": "Event Bubbling",
+        "weight": 0.7064
+      },
+      {
+        "name": "Promises",
+        "weight": 0.6936
+      },
+      {
+        "name": "Async/Await",
+        "weight": 0.6809
+      },
+      {
+        "name": "Fetch API",
+        "weight": 0.6681
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.6553
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.6426
+      },
+      {
+        "name": "JSON",
+        "weight": 0.6298
+      },
+      {
+        "name": "Git",
+        "weight": 0.617
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.6043
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.5915
+      },
+      {
+        "name": "Node.js",
+        "weight": 0.5787
+      },
+      {
+        "name": "npm / yarn / pnpm",
+        "weight": 0.566
+      },
+      {
+        "name": "Package Managers",
+        "weight": 0.5532
+      },
+      {
+        "name": "Browser Rendering Basics",
+        "weight": 0.5404
+      },
+      {
+        "name": "Browser DevTools",
+        "weight": 0.5277
+      },
+      {
+        "name": "Debugging Skills",
+        "weight": 0.5149
+      },
+      {
+        "name": "Basic Algorithms",
+        "weight": 0.5021
+      },
+      {
+        "name": "Basic Data Structures",
+        "weight": 0.4894
+      },
+      {
+        "name": "Problem Solving",
+        "weight": 0.4766
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.4638
+      },
+      {
+        "name": "Object-Oriented Programming Basics",
+        "weight": 0.4511
+      },
+      {
+        "name": "Functional Programming Basics",
+        "weight": 0.4383
+      },
+      {
+        "name": "TypeScript Basics (recommended)",
+        "weight": 0.4255
+      },
+      {
+        "name": "Build Tools Basics (Webpack/Vite)",
+        "weight": 0.4128
+      },
+      {
+        "name": "Accessibility Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_react"
+  },
+  {
+    "id": 2,
+    "gid": 100000002,
+    "name": "Angular",
+    "entity_type": "Framework",
+    "entity_subtype": "Frontend Web Application Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Frontend Development",
+      "specialization": "JavaScript/TypeScript Frameworks"
+    },
+    "aliases": [
+      "Angular",
+      "Angular 2+",
+      "AngularJS (legacy predecessor)",
+      "Angular.io",
+      "Google Angular",
+      "Angular Framework",
+      "ng"
+    ],
+    "concepts": [
+      {
+        "name": "Components",
+        "weight": 0.9954
+      },
+      {
+        "name": "Modules (NgModules)",
+        "weight": 0.7737
+      },
+      {
+        "name": "Templates",
+        "weight": 0.6478
+      },
+      {
+        "name": "Directives",
+        "weight": 0.6478
+      },
+      {
+        "name": "Structural Directives",
+        "weight": 0.2441
+      },
+      {
+        "name": "Attribute Directives",
+        "weight": 0.2426
+      },
+      {
+        "name": "Data Binding",
+        "weight": 0.6478
+      },
+      {
+        "name": "Interpolation",
+        "weight": 0.2397
+      },
+      {
+        "name": "Property Binding",
+        "weight": 0.2382
+      },
+      {
+        "name": "Event Binding",
+        "weight": 0.2367
+      },
+      {
+        "name": "Two-Way Binding",
+        "weight": 0.2352
+      },
+      {
+        "name": "ngModel",
+        "weight": 0.2338
+      },
+      {
+        "name": "Pipes",
+        "weight": 0.4887
+      },
+      {
+        "name": "Custom Pipes",
+        "weight": 0.2308
+      },
+      {
+        "name": "Dependency Injection",
+        "weight": 1.0
+      },
+      {
+        "name": "Services",
+        "weight": 0.8566
+      },
+      {
+        "name": "Providers",
+        "weight": 0.2264
+      },
+      {
+        "name": "Injectable Decorator",
+        "weight": 0.2249
+      },
+      {
+        "name": "Component Lifecycle Hooks",
+        "weight": 0.2234
+      },
+      {
+        "name": "ngOnInit",
+        "weight": 0.2219
+      },
+      {
+        "name": "ngOnChanges",
+        "weight": 0.2205
+      },
+      {
+        "name": "ngOnDestroy",
+        "weight": 0.219
+      },
+      {
+        "name": "Change Detection",
+        "weight": 0.6525
+      },
+      {
+        "name": "Zone.js",
+        "weight": 0.216
+      },
+      {
+        "name": "OnPush Strategy",
+        "weight": 0.4934
+      },
+      {
+        "name": "Signals",
+        "weight": 0.2131
+      },
+      {
+        "name": "RxJS",
+        "weight": 0.6303
+      },
+      {
+        "name": "Observables",
+        "weight": 0.5091
+      },
+      {
+        "name": "Subjects",
+        "weight": 0.2086
+      },
+      {
+        "name": "BehaviorSubject",
+        "weight": 0.2072
+      },
+      {
+        "name": "Operators (map, filter, switchMap)",
+        "weight": 0.2057
+      },
+      {
+        "name": "Angular Router",
+        "weight": 0.7644
+      },
+      {
+        "name": "Route Guards",
+        "weight": 0.2027
+      },
+      {
+        "name": "Lazy Loaded Modules",
+        "weight": 0.2012
+      },
+      {
+        "name": "Route Resolvers",
+        "weight": 0.1998
+      },
+      {
+        "name": "Forms",
+        "weight": 0.1983
+      },
+      {
+        "name": "Template-Driven Forms",
+        "weight": 0.1968
+      },
+      {
+        "name": "Reactive Forms",
+        "weight": 0.8856
+      },
+      {
+        "name": "FormBuilder",
+        "weight": 0.1939
+      },
+      {
+        "name": "FormControl",
+        "weight": 0.1924
+      },
+      {
+        "name": "FormGroup",
+        "weight": 0.1909
+      },
+      {
+        "name": "Validators",
+        "weight": 0.1894
+      },
+      {
+        "name": "Custom Validators",
+        "weight": 0.188
+      },
+      {
+        "name": "HttpClient",
+        "weight": 0.6256
+      },
+      {
+        "name": "Interceptors",
+        "weight": 0.185
+      },
+      {
+        "name": "Angular CLI",
+        "weight": 0.5091
+      },
+      {
+        "name": "ng generate",
+        "weight": 0.182
+      },
+      {
+        "name": "ng build",
+        "weight": 0.1806
+      },
+      {
+        "name": "ng serve",
+        "weight": 0.1791
+      },
+      {
+        "name": "ng test",
+        "weight": 0.1776
+      },
+      {
+        "name": "Standalone Components",
+        "weight": 0.5091
+      },
+      {
+        "name": "Content Projection",
+        "weight": 0.1747
+      },
+      {
+        "name": "ng-content",
+        "weight": 0.1732
+      },
+      {
+        "name": "ViewChild",
+        "weight": 0.1717
+      },
+      {
+        "name": "ContentChild",
+        "weight": 0.1702
+      },
+      {
+        "name": "ElementRef",
+        "weight": 0.1688
+      },
+      {
+        "name": "Renderer2",
+        "weight": 0.1673
+      },
+      {
+        "name": "Angular Material",
+        "weight": 0.6478
+      },
+      {
+        "name": "Component Styling",
+        "weight": 0.1643
+      },
+      {
+        "name": "ViewEncapsulation",
+        "weight": 0.1628
+      },
+      {
+        "name": "Angular Universal (SSR)",
+        "weight": 0.4666
+      },
+      {
+        "name": "Ahead-of-Time (AOT) Compilation",
+        "weight": 0.1599
+      },
+      {
+        "name": "Just-in-Time (JIT) Compilation",
+        "weight": 0.1584
+      },
+      {
+        "name": "Ivy Renderer",
+        "weight": 0.1569
+      },
+      {
+        "name": "Tree Shaking",
+        "weight": 0.1555
+      },
+      {
+        "name": "Lazy Loading",
+        "weight": 0.154
+      },
+      {
+        "name": "Code Splitting",
+        "weight": 0.1525
+      },
+      {
+        "name": "Unit Testing (Jasmine/Karma)",
+        "weight": 0.6963
+      },
+      {
+        "name": "TestBed",
+        "weight": 0.416
+      },
+      {
+        "name": "E2E Testing (Protractor/Cypress)",
+        "weight": 0.416
+      },
+      {
+        "name": "NgRx",
+        "weight": 0.7208
+      },
+      {
+        "name": "State Management",
+        "weight": 0.5839
+      },
+      {
+        "name": "NgRx Store",
+        "weight": 0.4934
+      },
+      {
+        "name": "NgRx Effects",
+        "weight": 0.4934
+      },
+      {
+        "name": "Akita",
+        "weight": 0.1407
+      },
+      {
+        "name": "TypeScript Decorators",
+        "weight": 0.4597
+      },
+      {
+        "name": "Angular Animations",
+        "weight": 0.1377
+      },
+      {
+        "name": "Internationalization (i18n)",
+        "weight": 0.1362
+      },
+      {
+        "name": "Accessibility (a11y)",
+        "weight": 0.5547
+      },
+      {
+        "name": "Performance Optimization",
+        "weight": 0.7226
+      },
+      {
+        "name": "Bundle Optimization",
+        "weight": 0.4934
+      },
+      {
+        "name": "Micro-Frontends with Angular",
+        "weight": 0.4934
+      },
+      {
+        "name": "Module Federation",
+        "weight": 0.5839
+      },
+      {
+        "name": "Angular Elements",
+        "weight": 0.1274
+      },
+      {
+        "name": "Web Components",
+        "weight": 0.1259
+      },
+      {
+        "name": "Dependency Hierarchy",
+        "weight": 0.1244
+      },
+      {
+        "name": "Hierarchical Injectors",
+        "weight": 0.123
+      },
+      {
+        "name": "Angular Schematics",
+        "weight": 0.1215
+      },
+      {
+        "name": "Custom Builders",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "HTML",
+        "weight": 1.0
+      },
+      {
+        "name": "CSS",
+        "weight": 0.9769
+      },
+      {
+        "name": "JavaScript",
+        "weight": 0.9538
+      },
+      {
+        "name": "TypeScript",
+        "weight": 0.9308
+      },
+      {
+        "name": "Classes and Interfaces",
+        "weight": 0.9077
+      },
+      {
+        "name": "Decorators",
+        "weight": 0.8846
+      },
+      {
+        "name": "Generics",
+        "weight": 0.8615
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.8385
+      },
+      {
+        "name": "DOM",
+        "weight": 0.8154
+      },
+      {
+        "name": "Events",
+        "weight": 0.7923
+      },
+      {
+        "name": "Promises",
+        "weight": 0.7692
+      },
+      {
+        "name": "Async/Await",
+        "weight": 0.7462
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.7231
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.7
+      },
+      {
+        "name": "JSON",
+        "weight": 0.6769
+      },
+      {
+        "name": "Git",
+        "weight": 0.6538
+      },
+      {
+        "name": "Node.js",
+        "weight": 0.6308
+      },
+      {
+        "name": "npm",
+        "weight": 0.6077
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.5846
+      },
+      {
+        "name": "Reactive Programming Basics",
+        "weight": 0.5615
+      },
+      {
+        "name": "Design Patterns",
+        "weight": 0.5385
+      },
+      {
+        "name": "Dependency Injection Concept",
+        "weight": 0.5154
+      },
+      {
+        "name": "Browser DevTools",
+        "weight": 0.4923
+      },
+      {
+        "name": "Debugging Skills",
+        "weight": 0.4692
+      },
+      {
+        "name": "Module Systems (ES Modules)",
+        "weight": 0.4462
+      },
+      {
+        "name": "Build Tools Basics",
+        "weight": 0.4231
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_angular"
+  },
+  {
+    "id": 3,
+    "gid": 100000003,
+    "name": "Vue.js",
+    "entity_type": "Framework",
+    "entity_subtype": "Frontend Progressive JavaScript Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Frontend Development",
+      "specialization": "JavaScript Frameworks"
+    },
+    "aliases": [
+      "Vue",
+      "Vue.js",
+      "VueJS",
+      "Vue 2",
+      "Vue 3",
+      "vuejs.org"
+    ],
+    "concepts": [
+      {
+        "name": "Templates",
+        "weight": 0.8446
+      },
+      {
+        "name": "Directives",
+        "weight": 0.6451
+      },
+      {
+        "name": "v-if",
+        "weight": 0.2459
+      },
+      {
+        "name": "v-for",
+        "weight": 0.2438
+      },
+      {
+        "name": "v-bind",
+        "weight": 0.2417
+      },
+      {
+        "name": "v-model",
+        "weight": 0.2397
+      },
+      {
+        "name": "v-on",
+        "weight": 0.2376
+      },
+      {
+        "name": "v-show",
+        "weight": 0.2356
+      },
+      {
+        "name": "v-slot",
+        "weight": 0.2335
+      },
+      {
+        "name": "Components",
+        "weight": 0.9865
+      },
+      {
+        "name": "Single File Components (SFC)",
+        "weight": 0.5495
+      },
+      {
+        "name": "Props",
+        "weight": 0.7207
+      },
+      {
+        "name": "Emits",
+        "weight": 0.5495
+      },
+      {
+        "name": "Slots",
+        "weight": 0.2232
+      },
+      {
+        "name": "Scoped Slots",
+        "weight": 0.2211
+      },
+      {
+        "name": "Computed Properties",
+        "weight": 0.7207
+      },
+      {
+        "name": "Watchers",
+        "weight": 0.5495
+      },
+      {
+        "name": "Reactivity System",
+        "weight": 0.6734
+      },
+      {
+        "name": "ref",
+        "weight": 0.5495
+      },
+      {
+        "name": "reactive",
+        "weight": 0.5495
+      },
+      {
+        "name": "Composition API",
+        "weight": 0.9955
+      },
+      {
+        "name": "Options API",
+        "weight": 0.2067
+      },
+      {
+        "name": "setup() Function",
+        "weight": 0.2046
+      },
+      {
+        "name": "Lifecycle Hooks",
+        "weight": 0.5495
+      },
+      {
+        "name": "onMounted",
+        "weight": 0.2005
+      },
+      {
+        "name": "onUpdated",
+        "weight": 0.1984
+      },
+      {
+        "name": "onUnmounted",
+        "weight": 0.1963
+      },
+      {
+        "name": "Vue Router",
+        "weight": 1.0
+      },
+      {
+        "name": "Vuex",
+        "weight": 0.5495
+      },
+      {
+        "name": "Pinia",
+        "weight": 0.9955
+      },
+      {
+        "name": "State Management",
+        "weight": 0.5167
+      },
+      {
+        "name": "Provide/Inject",
+        "weight": 0.186
+      },
+      {
+        "name": "Custom Directives",
+        "weight": 0.184
+      },
+      {
+        "name": "Mixins",
+        "weight": 0.1819
+      },
+      {
+        "name": "Composables",
+        "weight": 0.5167
+      },
+      {
+        "name": "Teleport",
+        "weight": 0.1778
+      },
+      {
+        "name": "Suspense",
+        "weight": 0.1757
+      },
+      {
+        "name": "Transitions and Animations",
+        "weight": 0.5212
+      },
+      {
+        "name": "Dynamic Components",
+        "weight": 0.1716
+      },
+      {
+        "name": "Async Components",
+        "weight": 0.1695
+      },
+      {
+        "name": "Vue CLI",
+        "weight": 0.1675
+      },
+      {
+        "name": "Vite (Vue)",
+        "weight": 0.5495
+      },
+      {
+        "name": "Nuxt.js",
+        "weight": 0.796
+      },
+      {
+        "name": "Server-Side Rendering",
+        "weight": 0.796
+      },
+      {
+        "name": "Vue DevTools",
+        "weight": 0.5495
+      },
+      {
+        "name": "Testing (Vue Test Utils)",
+        "weight": 0.6283
+      },
+      {
+        "name": "Unit Testing",
+        "weight": 0.4288
+      },
+      {
+        "name": "Component Testing",
+        "weight": 0.4288
+      },
+      {
+        "name": "TypeScript with Vue",
+        "weight": 0.151
+      },
+      {
+        "name": "Template Refs",
+        "weight": 0.1489
+      },
+      {
+        "name": "Two-Way Binding",
+        "weight": 0.1468
+      },
+      {
+        "name": "Global Components",
+        "weight": 0.1448
+      },
+      {
+        "name": "Local Components",
+        "weight": 0.1427
+      },
+      {
+        "name": "Plugins",
+        "weight": 0.5167
+      },
+      {
+        "name": "Directive Modifiers",
+        "weight": 0.1386
+      },
+      {
+        "name": "Scoped CSS",
+        "weight": 0.5212
+      },
+      {
+        "name": "CSS Modules with Vue",
+        "weight": 0.1344
+      },
+      {
+        "name": "Performance Optimization",
+        "weight": 0.5167
+      },
+      {
+        "name": "Virtual DOM",
+        "weight": 0.1303
+      },
+      {
+        "name": "Reactivity Caveats",
+        "weight": 0.1283
+      },
+      {
+        "name": "Template Compilation",
+        "weight": 0.1262
+      },
+      {
+        "name": "Rendering Functions",
+        "weight": 0.1241
+      },
+      {
+        "name": "JSX with Vue",
+        "weight": 0.1221
+      },
+      {
+        "name": "Accessibility (a11y)",
+        "weight": 0.5999
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "HTML",
+        "weight": 1.0
+      },
+      {
+        "name": "CSS",
+        "weight": 0.975
+      },
+      {
+        "name": "JavaScript",
+        "weight": 0.95
+      },
+      {
+        "name": "ES6+ Syntax",
+        "weight": 0.925
+      },
+      {
+        "name": "DOM",
+        "weight": 0.9
+      },
+      {
+        "name": "Events",
+        "weight": 0.875
+      },
+      {
+        "name": "Functions",
+        "weight": 0.85
+      },
+      {
+        "name": "Objects",
+        "weight": 0.825
+      },
+      {
+        "name": "Arrays",
+        "weight": 0.8
+      },
+      {
+        "name": "Closures",
+        "weight": 0.775
+      },
+      {
+        "name": "Promises",
+        "weight": 0.75
+      },
+      {
+        "name": "Async/Await",
+        "weight": 0.725
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.675
+      },
+      {
+        "name": "JSON",
+        "weight": 0.65
+      },
+      {
+        "name": "Git",
+        "weight": 0.625
+      },
+      {
+        "name": "Node.js",
+        "weight": 0.6
+      },
+      {
+        "name": "npm/yarn",
+        "weight": 0.575
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.55
+      },
+      {
+        "name": "Module Systems (ES Modules)",
+        "weight": 0.525
+      },
+      {
+        "name": "Build Tools Basics",
+        "weight": 0.5
+      },
+      {
+        "name": "Reactive Programming Basics",
+        "weight": 0.475
+      },
+      {
+        "name": "TypeScript Basics (recommended)",
+        "weight": 0.45
+      },
+      {
+        "name": "Browser DevTools",
+        "weight": 0.425
+      },
+      {
+        "name": "Debugging Skills",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_vue_js"
+  },
+  {
+    "id": 4,
+    "gid": 100000004,
+    "name": "Next.js",
+    "entity_type": "Framework",
+    "entity_subtype": "React Meta-Framework (Full-Stack Web Framework)",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Frontend Development",
+      "specialization": "React Frameworks / Full-Stack Frameworks"
+    },
+    "aliases": [
+      "Next.js",
+      "NextJS",
+      "Next",
+      "Vercel Next.js",
+      "next"
+    ],
+    "concepts": [
+      {
+        "name": "App Router",
+        "weight": 1.0
+      },
+      {
+        "name": "Pages Router (legacy)",
+        "weight": 0.2478
+      },
+      {
+        "name": "File-Based Routing",
+        "weight": 0.4922
+      },
+      {
+        "name": "Dynamic Routes",
+        "weight": 0.2433
+      },
+      {
+        "name": "Nested Routes",
+        "weight": 0.241
+      },
+      {
+        "name": "Route Groups",
+        "weight": 0.2388
+      },
+      {
+        "name": "Parallel Routes",
+        "weight": 0.2366
+      },
+      {
+        "name": "Intercepting Routes",
+        "weight": 0.2343
+      },
+      {
+        "name": "Server Components",
+        "weight": 0.8301
+      },
+      {
+        "name": "Client Components",
+        "weight": 0.6749
+      },
+      {
+        "name": "Server Actions",
+        "weight": 0.7026
+      },
+      {
+        "name": "Data Fetching",
+        "weight": 0.8448
+      },
+      {
+        "name": "getServerSideProps (legacy)",
+        "weight": 0.2231
+      },
+      {
+        "name": "getStaticProps (legacy)",
+        "weight": 0.2209
+      },
+      {
+        "name": "getStaticPaths (legacy)",
+        "weight": 0.2186
+      },
+      {
+        "name": "Static Site Generation (SSG)",
+        "weight": 0.7795
+      },
+      {
+        "name": "Server-Side Rendering (SSR)",
+        "weight": 0.5327
+      },
+      {
+        "name": "Incremental Static Regeneration (ISR)",
+        "weight": 0.5327
+      },
+      {
+        "name": "Client-Side Rendering (CSR)",
+        "weight": 0.2097
+      },
+      {
+        "name": "Streaming SSR",
+        "weight": 0.5052
+      },
+      {
+        "name": "Suspense Integration",
+        "weight": 0.2052
+      },
+      {
+        "name": "Layouts",
+        "weight": 0.2029
+      },
+      {
+        "name": "Templates",
+        "weight": 0.2007
+      },
+      {
+        "name": "Loading UI",
+        "weight": 0.1984
+      },
+      {
+        "name": "Error Handling (error.tsx)",
+        "weight": 0.1962
+      },
+      {
+        "name": "Not Found Handling",
+        "weight": 0.194
+      },
+      {
+        "name": "Middleware",
+        "weight": 0.7026
+      },
+      {
+        "name": "API Routes",
+        "weight": 0.7026
+      },
+      {
+        "name": "Route Handlers",
+        "weight": 0.7026
+      },
+      {
+        "name": "Edge Runtime",
+        "weight": 0.5695
+      },
+      {
+        "name": "Node.js Runtime",
+        "weight": 0.1828
+      },
+      {
+        "name": "Image Optimization (next/image)",
+        "weight": 0.5327
+      },
+      {
+        "name": "Font Optimization (next/font)",
+        "weight": 0.1783
+      },
+      {
+        "name": "Link Prefetching",
+        "weight": 0.176
+      },
+      {
+        "name": "next/link",
+        "weight": 0.1738
+      },
+      {
+        "name": "Metadata API",
+        "weight": 0.6373
+      },
+      {
+        "name": "SEO Optimization",
+        "weight": 0.4546
+      },
+      {
+        "name": "Environment Variables",
+        "weight": 0.5199
+      },
+      {
+        "name": "Configuration (next.config.js)",
+        "weight": 0.4143
+      },
+      {
+        "name": "Deployment (Vercel)",
+        "weight": 0.7669
+      },
+      {
+        "name": "Static Export",
+        "weight": 0.4546
+      },
+      {
+        "name": "Caching Strategies",
+        "weight": 0.7522
+      },
+      {
+        "name": "Revalidation",
+        "weight": 0.1559
+      },
+      {
+        "name": "Fetch Caching",
+        "weight": 0.1536
+      },
+      {
+        "name": "Turbopack",
+        "weight": 0.1514
+      },
+      {
+        "name": "Webpack Customization",
+        "weight": 0.1491
+      },
+      {
+        "name": "CSS Modules",
+        "weight": 0.1469
+      },
+      {
+        "name": "Tailwind CSS Integration",
+        "weight": 0.1447
+      },
+      {
+        "name": "Styled Components with Next.js",
+        "weight": 0.1424
+      },
+      {
+        "name": "TypeScript with Next.js",
+        "weight": 0.5199
+      },
+      {
+        "name": "Authentication (NextAuth.js)",
+        "weight": 0.5199
+      },
+      {
+        "name": "Internationalization (i18n)",
+        "weight": 0.1357
+      },
+      {
+        "name": "Performance Optimization",
+        "weight": 0.5052
+      },
+      {
+        "name": "Core Web Vitals",
+        "weight": 0.6098
+      },
+      {
+        "name": "Bundle Analysis",
+        "weight": 0.129
+      },
+      {
+        "name": "Monorepo Support",
+        "weight": 0.5052
+      },
+      {
+        "name": "Testing (Jest, Playwright)",
+        "weight": 0.1245
+      },
+      {
+        "name": "Draft Mode",
+        "weight": 0.1222
+      },
+      {
+        "name": "Server-Only Code",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "HTML",
+        "weight": 1.0
+      },
+      {
+        "name": "CSS",
+        "weight": 0.9739
+      },
+      {
+        "name": "JavaScript",
+        "weight": 0.9478
+      },
+      {
+        "name": "TypeScript",
+        "weight": 0.9217
+      },
+      {
+        "name": "React",
+        "weight": 0.8957
+      },
+      {
+        "name": "Components",
+        "weight": 0.8696
+      },
+      {
+        "name": "Props",
+        "weight": 0.8435
+      },
+      {
+        "name": "State",
+        "weight": 0.8174
+      },
+      {
+        "name": "Hooks",
+        "weight": 0.7913
+      },
+      {
+        "name": "JSX",
+        "weight": 0.7652
+      },
+      {
+        "name": "DOM",
+        "weight": 0.7391
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.713
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.687
+      },
+      {
+        "name": "JSON",
+        "weight": 0.6609
+      },
+      {
+        "name": "Async/Await",
+        "weight": 0.6348
+      },
+      {
+        "name": "Promises",
+        "weight": 0.6087
+      },
+      {
+        "name": "Git",
+        "weight": 0.5826
+      },
+      {
+        "name": "Node.js",
+        "weight": 0.5565
+      },
+      {
+        "name": "npm/yarn/pnpm",
+        "weight": 0.5304
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.5043
+      },
+      {
+        "name": "Server-Side Rendering Concepts",
+        "weight": 0.4783
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.4522
+      },
+      {
+        "name": "Web Vitals Basics",
+        "weight": 0.4261
+      },
+      {
+        "name": "Build Tools Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_next_js"
+  },
+  {
+    "id": 5,
+    "gid": 100000005,
+    "name": "Spring Boot",
+    "entity_type": "Framework",
+    "entity_subtype": "Backend Java Web Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Backend Development",
+      "specialization": "Java Enterprise Frameworks"
+    },
+    "aliases": [
+      "Spring Boot",
+      "SpringBoot",
+      "Spring-Boot",
+      "Pivotal Spring Boot",
+      "VMware Spring Boot",
+      "Spring Framework (parent)"
+    ],
+    "concepts": [
+      {
+        "name": "Auto-Configuration",
+        "weight": 0.7209
+      },
+      {
+        "name": "Starter Dependencies",
+        "weight": 0.5369
+      },
+      {
+        "name": "Spring Boot CLI",
+        "weight": 0.2466
+      },
+      {
+        "name": "Embedded Servers (Tomcat, Jetty, Undertow)",
+        "weight": 0.2449
+      },
+      {
+        "name": "Application Properties/YAML",
+        "weight": 0.2432
+      },
+      {
+        "name": "Spring Boot Actuator",
+        "weight": 0.6147
+      },
+      {
+        "name": "Dependency Injection",
+        "weight": 0.6955
+      },
+      {
+        "name": "Inversion of Control (IoC)",
+        "weight": 0.2382
+      },
+      {
+        "name": "Beans",
+        "weight": 0.5369
+      },
+      {
+        "name": "Bean Lifecycle",
+        "weight": 0.2348
+      },
+      {
+        "name": "ApplicationContext",
+        "weight": 0.2331
+      },
+      {
+        "name": "Component Scanning",
+        "weight": 0.5369
+      },
+      {
+        "name": "@Component",
+        "weight": 0.2297
+      },
+      {
+        "name": "@Service",
+        "weight": 0.2281
+      },
+      {
+        "name": "@Repository",
+        "weight": 0.2264
+      },
+      {
+        "name": "@Controller",
+        "weight": 0.2247
+      },
+      {
+        "name": "@RestController",
+        "weight": 0.223
+      },
+      {
+        "name": "@Autowired",
+        "weight": 0.2213
+      },
+      {
+        "name": "@Configuration",
+        "weight": 0.2196
+      },
+      {
+        "name": "@Bean",
+        "weight": 0.2179
+      },
+      {
+        "name": "Spring MVC",
+        "weight": 0.8384
+      },
+      {
+        "name": "REST APIs",
+        "weight": 1.0
+      },
+      {
+        "name": "RequestMapping",
+        "weight": 0.2129
+      },
+      {
+        "name": "GetMapping/PostMapping/PutMapping/DeleteMapping",
+        "weight": 0.2112
+      },
+      {
+        "name": "Request/Response Handling",
+        "weight": 0.2095
+      },
+      {
+        "name": "Exception Handling",
+        "weight": 0.6955
+      },
+      {
+        "name": "@ControllerAdvice",
+        "weight": 0.2061
+      },
+      {
+        "name": "Validation (Bean Validation/JSR-380)",
+        "weight": 0.534
+      },
+      {
+        "name": "Spring Data JPA",
+        "weight": 1.0
+      },
+      {
+        "name": "Hibernate ORM",
+        "weight": 0.534
+      },
+      {
+        "name": "Repositories",
+        "weight": 0.1994
+      },
+      {
+        "name": "CrudRepository",
+        "weight": 0.1977
+      },
+      {
+        "name": "JpaRepository",
+        "weight": 0.196
+      },
+      {
+        "name": "Entity Mapping",
+        "weight": 0.1943
+      },
+      {
+        "name": "Database Migrations (Flyway/Liquibase)",
+        "weight": 0.5116
+      },
+      {
+        "name": "Transactions",
+        "weight": 0.1909
+      },
+      {
+        "name": "@Transactional",
+        "weight": 0.534
+      },
+      {
+        "name": "Spring Security",
+        "weight": 1.0
+      },
+      {
+        "name": "Authentication",
+        "weight": 0.1858
+      },
+      {
+        "name": "Authorization",
+        "weight": 0.1842
+      },
+      {
+        "name": "JWT Integration",
+        "weight": 0.1825
+      },
+      {
+        "name": "OAuth2",
+        "weight": 0.1808
+      },
+      {
+        "name": "CORS Configuration",
+        "weight": 0.1791
+      },
+      {
+        "name": "Spring Boot Testing",
+        "weight": 0.806
+      },
+      {
+        "name": "@SpringBootTest",
+        "weight": 0.4351
+      },
+      {
+        "name": "MockMvc",
+        "weight": 0.4351
+      },
+      {
+        "name": "JUnit",
+        "weight": 0.6191
+      },
+      {
+        "name": "Mockito",
+        "weight": 0.6191
+      },
+      {
+        "name": "TestContainers",
+        "weight": 0.4351
+      },
+      {
+        "name": "Profiles",
+        "weight": 0.5369
+      },
+      {
+        "name": "Spring Cloud",
+        "weight": 0.6486
+      },
+      {
+        "name": "Microservices Architecture",
+        "weight": 0.6486
+      },
+      {
+        "name": "Service Discovery (Eureka)",
+        "weight": 0.5183
+      },
+      {
+        "name": "API Gateway",
+        "weight": 0.6486
+      },
+      {
+        "name": "Circuit Breaker (Resilience4j)",
+        "weight": 0.5183
+      },
+      {
+        "name": "Config Server",
+        "weight": 0.5183
+      },
+      {
+        "name": "Messaging (Kafka/RabbitMQ Integration)",
+        "weight": 0.5183
+      },
+      {
+        "name": "Caching (Spring Cache)",
+        "weight": 0.4803
+      },
+      {
+        "name": "Redis Integration",
+        "weight": 0.1521
+      },
+      {
+        "name": "Logging (SLF4J/Logback)",
+        "weight": 0.5116
+      },
+      {
+        "name": "AOP (Aspect-Oriented Programming)",
+        "weight": 0.5369
+      },
+      {
+        "name": "Spring Boot DevTools",
+        "weight": 0.147
+      },
+      {
+        "name": "Building JARs/WARs",
+        "weight": 0.4277
+      },
+      {
+        "name": "Docker with Spring Boot",
+        "weight": 0.7829
+      },
+      {
+        "name": "Kubernetes Deployment",
+        "weight": 0.596
+      },
+      {
+        "name": "GraalVM Native Image",
+        "weight": 0.4277
+      },
+      {
+        "name": "Reactive Programming",
+        "weight": 0.4803
+      },
+      {
+        "name": "Spring WebFlux",
+        "weight": 0.4803
+      },
+      {
+        "name": "Project Reactor",
+        "weight": 0.1352
+      },
+      {
+        "name": "Mono and Flux",
+        "weight": 0.1335
+      },
+      {
+        "name": "Batch Processing (Spring Batch)",
+        "weight": 0.1318
+      },
+      {
+        "name": "Scheduling (@Scheduled)",
+        "weight": 0.1301
+      },
+      {
+        "name": "Async Processing (@Async)",
+        "weight": 0.1284
+      },
+      {
+        "name": "Swagger/OpenAPI Documentation",
+        "weight": 0.4676
+      },
+      {
+        "name": "Maven",
+        "weight": 0.534
+      },
+      {
+        "name": "Gradle",
+        "weight": 0.534
+      },
+      {
+        "name": "Dependency Management",
+        "weight": 0.1217
+      },
+      {
+        "name": "Multi-Module Projects",
+        "weight": 0.4803
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Java",
+        "weight": 1.0
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.9714
+      },
+      {
+        "name": "Collections Framework",
+        "weight": 0.9429
+      },
+      {
+        "name": "Generics",
+        "weight": 0.9143
+      },
+      {
+        "name": "Exception Handling (Java)",
+        "weight": 0.8857
+      },
+      {
+        "name": "Multithreading Basics",
+        "weight": 0.8571
+      },
+      {
+        "name": "JDBC",
+        "weight": 0.8286
+      },
+      {
+        "name": "SQL",
+        "weight": 0.8
+      },
+      {
+        "name": "Relational Databases",
+        "weight": 0.7714
+      },
+      {
+        "name": "Maven or Gradle Basics",
+        "weight": 0.7429
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.7143
+      },
+      {
+        "name": "REST APIs Concept",
+        "weight": 0.6857
+      },
+      {
+        "name": "JSON",
+        "weight": 0.6571
+      },
+      {
+        "name": "XML Basics",
+        "weight": 0.6286
+      },
+      {
+        "name": "Git",
+        "weight": 0.6
+      },
+      {
+        "name": "Annotations (Java)",
+        "weight": 0.5714
+      },
+      {
+        "name": "Design Patterns",
+        "weight": 0.5429
+      },
+      {
+        "name": "Dependency Injection Concept",
+        "weight": 0.5143
+      },
+      {
+        "name": "Unit Testing Basics",
+        "weight": 0.4857
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4571
+      },
+      {
+        "name": "IDE Usage (IntelliJ/Eclipse)",
+        "weight": 0.4286
+      },
+      {
+        "name": "Web Servers Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_spring_boot"
+  },
+  {
+    "id": 6,
+    "gid": 100000006,
+    "name": "Django",
+    "entity_type": "Framework",
+    "entity_subtype": "Backend Python Web Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Backend Development",
+      "specialization": "Python Web Frameworks"
+    },
+    "aliases": [
+      "Django",
+      "Django Framework",
+      "DjangoProject",
+      "Django Web Framework"
+    ],
+    "concepts": [
+      {
+        "name": "MTV Architecture (Model-Template-View)",
+        "weight": 0.5926
+      },
+      {
+        "name": "Models",
+        "weight": 0.8776
+      },
+      {
+        "name": "ORM (Object Relational Mapper)",
+        "weight": 0.7758
+      },
+      {
+        "name": "QuerySets",
+        "weight": 0.5086
+      },
+      {
+        "name": "Migrations",
+        "weight": 0.5086
+      },
+      {
+        "name": "Django Admin",
+        "weight": 0.5086
+      },
+      {
+        "name": "Views",
+        "weight": 0.7506
+      },
+      {
+        "name": "Function-Based Views",
+        "weight": 0.2358
+      },
+      {
+        "name": "Class-Based Views",
+        "weight": 0.5086
+      },
+      {
+        "name": "Generic Views",
+        "weight": 0.2317
+      },
+      {
+        "name": "URL Routing (URLconf)",
+        "weight": 0.6488
+      },
+      {
+        "name": "Templates",
+        "weight": 0.6104
+      },
+      {
+        "name": "Django Template Language (DTL)",
+        "weight": 0.2256
+      },
+      {
+        "name": "Template Inheritance",
+        "weight": 0.2236
+      },
+      {
+        "name": "Static Files",
+        "weight": 0.4519
+      },
+      {
+        "name": "Media Files",
+        "weight": 0.2195
+      },
+      {
+        "name": "Forms",
+        "weight": 0.6104
+      },
+      {
+        "name": "ModelForms",
+        "weight": 0.2155
+      },
+      {
+        "name": "Form Validation",
+        "weight": 0.2134
+      },
+      {
+        "name": "Django REST Framework (DRF)",
+        "weight": 1.0
+      },
+      {
+        "name": "Serializers",
+        "weight": 0.4724
+      },
+      {
+        "name": "ViewSets",
+        "weight": 0.4724
+      },
+      {
+        "name": "Routers",
+        "weight": 0.4724
+      },
+      {
+        "name": "Authentication (Django Auth)",
+        "weight": 0.7758
+      },
+      {
+        "name": "Permissions",
+        "weight": 0.2012
+      },
+      {
+        "name": "Middleware",
+        "weight": 0.6356
+      },
+      {
+        "name": "Signals",
+        "weight": 0.1972
+      },
+      {
+        "name": "Sessions",
+        "weight": 0.1952
+      },
+      {
+        "name": "Cookies",
+        "weight": 0.1931
+      },
+      {
+        "name": "CSRF Protection",
+        "weight": 0.1911
+      },
+      {
+        "name": "Security Best Practices",
+        "weight": 0.477
+      },
+      {
+        "name": "Settings Configuration",
+        "weight": 0.187
+      },
+      {
+        "name": "Apps (Django Apps)",
+        "weight": 0.185
+      },
+      {
+        "name": "Project Structure",
+        "weight": 0.183
+      },
+      {
+        "name": "Manage.py Commands",
+        "weight": 0.1809
+      },
+      {
+        "name": "Database Configuration",
+        "weight": 0.4902
+      },
+      {
+        "name": "Multiple Databases",
+        "weight": 0.434
+      },
+      {
+        "name": "Database Transactions",
+        "weight": 0.1748
+      },
+      {
+        "name": "Caching (Django Cache Framework)",
+        "weight": 0.561
+      },
+      {
+        "name": "Celery Integration (Async Tasks)",
+        "weight": 0.4902
+      },
+      {
+        "name": "Testing (Django TestCase)",
+        "weight": 0.5694
+      },
+      {
+        "name": "Fixtures",
+        "weight": 0.4108
+      },
+      {
+        "name": "Django Shell",
+        "weight": 0.4108
+      },
+      {
+        "name": "Context Processors",
+        "weight": 0.1627
+      },
+      {
+        "name": "Custom Template Tags/Filters",
+        "weight": 0.1606
+      },
+      {
+        "name": "Internationalization (i18n)",
+        "weight": 0.1586
+      },
+      {
+        "name": "Localization (l10n)",
+        "weight": 0.1566
+      },
+      {
+        "name": "File Uploads",
+        "weight": 0.1545
+      },
+      {
+        "name": "Pagination",
+        "weight": 0.4724
+      },
+      {
+        "name": "Django Channels (WebSockets)",
+        "weight": 0.434
+      },
+      {
+        "name": "REST API Design",
+        "weight": 0.4724
+      },
+      {
+        "name": "Token Authentication",
+        "weight": 0.4724
+      },
+      {
+        "name": "JWT Authentication",
+        "weight": 0.4724
+      },
+      {
+        "name": "OAuth2 with Django",
+        "weight": 0.1423
+      },
+      {
+        "name": "Deployment (Gunicorn/uWSGI)",
+        "weight": 0.4519
+      },
+      {
+        "name": "WSGI/ASGI",
+        "weight": 0.434
+      },
+      {
+        "name": "Static File Serving (WhiteNoise)",
+        "weight": 0.1362
+      },
+      {
+        "name": "Docker with Django",
+        "weight": 0.434
+      },
+      {
+        "name": "Django Signals",
+        "weight": 0.1322
+      },
+      {
+        "name": "Custom Managers",
+        "weight": 0.1302
+      },
+      {
+        "name": "Model Inheritance",
+        "weight": 0.1281
+      },
+      {
+        "name": "Abstract Models",
+        "weight": 0.1261
+      },
+      {
+        "name": "Proxy Models",
+        "weight": 0.1241
+      },
+      {
+        "name": "Content Types Framework",
+        "weight": 0.122
+      },
+      {
+        "name": "GeoDjango",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python",
+        "weight": 1.0
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.97
+      },
+      {
+        "name": "Functions",
+        "weight": 0.94
+      },
+      {
+        "name": "Modules and Packages",
+        "weight": 0.91
+      },
+      {
+        "name": "Virtual Environments",
+        "weight": 0.88
+      },
+      {
+        "name": "pip",
+        "weight": 0.85
+      },
+      {
+        "name": "SQL",
+        "weight": 0.82
+      },
+      {
+        "name": "Relational Databases",
+        "weight": 0.79
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.76
+      },
+      {
+        "name": "REST APIs Concept",
+        "weight": 0.73
+      },
+      {
+        "name": "HTML",
+        "weight": 0.7
+      },
+      {
+        "name": "CSS",
+        "weight": 0.67
+      },
+      {
+        "name": "JSON",
+        "weight": 0.64
+      },
+      {
+        "name": "Git",
+        "weight": 0.61
+      },
+      {
+        "name": "MVC/MVT Architecture Concept",
+        "weight": 0.58
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.55
+      },
+      {
+        "name": "Web Servers Basics",
+        "weight": 0.52
+      },
+      {
+        "name": "Regular Expressions",
+        "weight": 0.49
+      },
+      {
+        "name": "Decorators (Python)",
+        "weight": 0.46
+      },
+      {
+        "name": "Generators (Python)",
+        "weight": 0.43
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_django"
+  },
+  {
+    "id": 7,
+    "gid": 100000007,
+    "name": "Flask",
+    "entity_type": "Framework",
+    "entity_subtype": "Backend Python Micro Web Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Backend Development",
+      "specialization": "Python Web Frameworks"
+    },
+    "aliases": [
+      "Flask",
+      "Flask Microframework",
+      "Pallets Flask",
+      "flask.palletsprojects.com"
+    ],
+    "concepts": [
+      {
+        "name": "WSGI",
+        "weight": 0.25
+      },
+      {
+        "name": "Routing",
+        "weight": 0.8699
+      },
+      {
+        "name": "Route Decorators (@app.route)",
+        "weight": 0.4962
+      },
+      {
+        "name": "Request Object",
+        "weight": 0.2426
+      },
+      {
+        "name": "Response Object",
+        "weight": 0.2402
+      },
+      {
+        "name": "Jinja2 Templating",
+        "weight": 0.5813
+      },
+      {
+        "name": "Template Inheritance",
+        "weight": 0.2353
+      },
+      {
+        "name": "Static Files",
+        "weight": 0.4351
+      },
+      {
+        "name": "Blueprints",
+        "weight": 0.5896
+      },
+      {
+        "name": "Application Factory Pattern",
+        "weight": 0.5896
+      },
+      {
+        "name": "Flask Extensions",
+        "weight": 0.2255
+      },
+      {
+        "name": "Flask-SQLAlchemy",
+        "weight": 0.708
+      },
+      {
+        "name": "Flask-Migrate",
+        "weight": 0.4962
+      },
+      {
+        "name": "Flask-WTF",
+        "weight": 0.4962
+      },
+      {
+        "name": "Flask-Login",
+        "weight": 0.4962
+      },
+      {
+        "name": "Flask-RESTful",
+        "weight": 0.4717
+      },
+      {
+        "name": "Flask-RESTX",
+        "weight": 0.4717
+      },
+      {
+        "name": "Flask-CORS",
+        "weight": 0.4717
+      },
+      {
+        "name": "Flask-JWT-Extended",
+        "weight": 0.4717
+      },
+      {
+        "name": "Session Management",
+        "weight": 0.2034
+      },
+      {
+        "name": "Cookies",
+        "weight": 0.2009
+      },
+      {
+        "name": "Config Object",
+        "weight": 0.4962
+      },
+      {
+        "name": "Environment Configuration",
+        "weight": 0.196
+      },
+      {
+        "name": "Error Handling",
+        "weight": 0.4601
+      },
+      {
+        "name": "Custom Error Pages",
+        "weight": 0.1911
+      },
+      {
+        "name": "Middleware (WSGI Middleware)",
+        "weight": 0.4601
+      },
+      {
+        "name": "Context (Application/Request Context)",
+        "weight": 0.1862
+      },
+      {
+        "name": "g Object",
+        "weight": 0.1838
+      },
+      {
+        "name": "Flask Shell",
+        "weight": 0.1813
+      },
+      {
+        "name": "CLI Commands (Flask CLI)",
+        "weight": 0.1789
+      },
+      {
+        "name": "Testing (pytest with Flask)",
+        "weight": 0.4962
+      },
+      {
+        "name": "Test Client",
+        "weight": 0.174
+      },
+      {
+        "name": "Database Integration",
+        "weight": 0.4767
+      },
+      {
+        "name": "ORM Integration (SQLAlchemy)",
+        "weight": 0.1691
+      },
+      {
+        "name": "Migrations (Alembic)",
+        "weight": 0.1666
+      },
+      {
+        "name": "RESTful API Design",
+        "weight": 1.0
+      },
+      {
+        "name": "JSON Responses",
+        "weight": 0.6503
+      },
+      {
+        "name": "File Uploads",
+        "weight": 0.1592
+      },
+      {
+        "name": "Form Handling",
+        "weight": 0.4351
+      },
+      {
+        "name": "CSRF Protection",
+        "weight": 0.1543
+      },
+      {
+        "name": "Authentication",
+        "weight": 0.5868
+      },
+      {
+        "name": "Authorization",
+        "weight": 0.4601
+      },
+      {
+        "name": "OAuth Integration",
+        "weight": 0.147
+      },
+      {
+        "name": "Rate Limiting",
+        "weight": 0.4717
+      },
+      {
+        "name": "Caching (Flask-Caching)",
+        "weight": 0.4434
+      },
+      {
+        "name": "Celery Integration",
+        "weight": 0.1396
+      },
+      {
+        "name": "Background Tasks",
+        "weight": 0.1372
+      },
+      {
+        "name": "Logging",
+        "weight": 0.1347
+      },
+      {
+        "name": "Deployment (Gunicorn/uWSGI)",
+        "weight": 0.4018
+      },
+      {
+        "name": "Docker with Flask",
+        "weight": 0.4434
+      },
+      {
+        "name": "Async Support (Flask 2.x+)",
+        "weight": 0.1274
+      },
+      {
+        "name": "Signals (Flask Signals)",
+        "weight": 0.1249
+      },
+      {
+        "name": "Before/After Request Hooks",
+        "weight": 0.1225
+      },
+      {
+        "name": "Application Context vs Request Context",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python",
+        "weight": 1.0
+      },
+      {
+        "name": "Functions",
+        "weight": 0.9647
+      },
+      {
+        "name": "Decorators (Python)",
+        "weight": 0.9294
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.8941
+      },
+      {
+        "name": "Virtual Environments",
+        "weight": 0.8588
+      },
+      {
+        "name": "pip",
+        "weight": 0.8235
+      },
+      {
+        "name": "SQL",
+        "weight": 0.7882
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.7529
+      },
+      {
+        "name": "REST APIs Concept",
+        "weight": 0.7176
+      },
+      {
+        "name": "HTML",
+        "weight": 0.6824
+      },
+      {
+        "name": "CSS",
+        "weight": 0.6471
+      },
+      {
+        "name": "JSON",
+        "weight": 0.6118
+      },
+      {
+        "name": "Git",
+        "weight": 0.5765
+      },
+      {
+        "name": "WSGI Concept",
+        "weight": 0.5412
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.5059
+      },
+      {
+        "name": "Web Servers Basics",
+        "weight": 0.4706
+      },
+      {
+        "name": "Templating Concepts",
+        "weight": 0.4353
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_flask"
+  },
+  {
+    "id": 8,
+    "gid": 100000008,
+    "name": "FastAPI",
+    "entity_type": "Framework",
+    "entity_subtype": "Backend Python Asynchronous Web Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Backend Development",
+      "specialization": "Python Web Frameworks / API Frameworks"
+    },
+    "aliases": [
+      "FastAPI",
+      "Fast API",
+      "fastapi.tiangolo.com"
+    ],
+    "concepts": [
+      {
+        "name": "ASGI",
+        "weight": 0.4641
+      },
+      {
+        "name": "Async/Await Support",
+        "weight": 0.8552
+      },
+      {
+        "name": "Path Operations",
+        "weight": 1.0
+      },
+      {
+        "name": "Path Parameters",
+        "weight": 0.2428
+      },
+      {
+        "name": "Query Parameters",
+        "weight": 0.2404
+      },
+      {
+        "name": "Request Body",
+        "weight": 0.238
+      },
+      {
+        "name": "Pydantic Models",
+        "weight": 0.7411
+      },
+      {
+        "name": "Data Validation",
+        "weight": 0.6179
+      },
+      {
+        "name": "Type Hints",
+        "weight": 0.5004
+      },
+      {
+        "name": "Automatic Data Serialization",
+        "weight": 0.2283
+      },
+      {
+        "name": "Automatic OpenAPI Documentation",
+        "weight": 0.6419
+      },
+      {
+        "name": "Swagger UI",
+        "weight": 0.4914
+      },
+      {
+        "name": "ReDoc",
+        "weight": 0.2211
+      },
+      {
+        "name": "Dependency Injection",
+        "weight": 0.7462
+      },
+      {
+        "name": "Depends()",
+        "weight": 0.5004
+      },
+      {
+        "name": "Security Utilities",
+        "weight": 0.2139
+      },
+      {
+        "name": "OAuth2 with Password Flow",
+        "weight": 0.2115
+      },
+      {
+        "name": "JWT Authentication",
+        "weight": 0.4817
+      },
+      {
+        "name": "API Key Authentication",
+        "weight": 0.4914
+      },
+      {
+        "name": "Middleware",
+        "weight": 0.5815
+      },
+      {
+        "name": "CORS Middleware",
+        "weight": 0.4675
+      },
+      {
+        "name": "Background Tasks",
+        "weight": 0.459
+      },
+      {
+        "name": "WebSockets",
+        "weight": 0.197
+      },
+      {
+        "name": "Response Models",
+        "weight": 0.6419
+      },
+      {
+        "name": "Status Codes",
+        "weight": 0.4914
+      },
+      {
+        "name": "Exception Handling",
+        "weight": 0.6179
+      },
+      {
+        "name": "Custom Exception Handlers",
+        "weight": 0.1874
+      },
+      {
+        "name": "Routers (APIRouter)",
+        "weight": 0.5004
+      },
+      {
+        "name": "Sub-Applications",
+        "weight": 0.1826
+      },
+      {
+        "name": "Mounting",
+        "weight": 0.1802
+      },
+      {
+        "name": "Static Files",
+        "weight": 0.1778
+      },
+      {
+        "name": "Templates (Jinja2 with FastAPI)",
+        "weight": 0.1754
+      },
+      {
+        "name": "SQLAlchemy Integration",
+        "weight": 0.6322
+      },
+      {
+        "name": "SQLModel",
+        "weight": 0.1706
+      },
+      {
+        "name": "Databases (async drivers)",
+        "weight": 0.4675
+      },
+      {
+        "name": "ORM Integration",
+        "weight": 0.1657
+      },
+      {
+        "name": "Testing (TestClient/pytest)",
+        "weight": 0.5004
+      },
+      {
+        "name": "Uvicorn",
+        "weight": 0.3995
+      },
+      {
+        "name": "Gunicorn with Uvicorn Workers",
+        "weight": 0.3995
+      },
+      {
+        "name": "Docker with FastAPI",
+        "weight": 0.6225
+      },
+      {
+        "name": "Environment Configuration (Pydantic Settings)",
+        "weight": 0.3995
+      },
+      {
+        "name": "Request Validation",
+        "weight": 0.1513
+      },
+      {
+        "name": "Response Validation",
+        "weight": 0.1489
+      },
+      {
+        "name": "Nested Models",
+        "weight": 0.1465
+      },
+      {
+        "name": "Form Data Handling",
+        "weight": 0.1441
+      },
+      {
+        "name": "File Uploads",
+        "weight": 0.1417
+      },
+      {
+        "name": "Streaming Responses",
+        "weight": 0.459
+      },
+      {
+        "name": "GraphQL Integration (Strawberry)",
+        "weight": 0.1369
+      },
+      {
+        "name": "Rate Limiting",
+        "weight": 0.4914
+      },
+      {
+        "name": "Caching",
+        "weight": 0.132
+      },
+      {
+        "name": "Versioning APIs",
+        "weight": 0.4914
+      },
+      {
+        "name": "Dependency Overrides (Testing)",
+        "weight": 0.1272
+      },
+      {
+        "name": "Lifespan Events",
+        "weight": 0.4641
+      },
+      {
+        "name": "Startup/Shutdown Events",
+        "weight": 0.1224
+      },
+      {
+        "name": "Pydantic v1 vs v2",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python",
+        "weight": 1.0
+      },
+      {
+        "name": "Type Hints (Python)",
+        "weight": 0.9667
+      },
+      {
+        "name": "Async/Await (Python)",
+        "weight": 0.9333
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.9
+      },
+      {
+        "name": "Functions",
+        "weight": 0.8667
+      },
+      {
+        "name": "Decorators (Python)",
+        "weight": 0.8333
+      },
+      {
+        "name": "Virtual Environments",
+        "weight": 0.8
+      },
+      {
+        "name": "pip",
+        "weight": 0.7667
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.7333
+      },
+      {
+        "name": "REST APIs Concept",
+        "weight": 0.7
+      },
+      {
+        "name": "JSON",
+        "weight": 0.6667
+      },
+      {
+        "name": "SQL",
+        "weight": 0.6333
+      },
+      {
+        "name": "Pydantic Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Git",
+        "weight": 0.5667
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.5333
+      },
+      {
+        "name": "ASGI Concept",
+        "weight": 0.5
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.4667
+      },
+      {
+        "name": "Web Servers Basics",
+        "weight": 0.4333
+      },
+      {
+        "name": "OpenAPI/Swagger Concept",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_fastapi"
+  },
+  {
+    "id": 9,
+    "gid": 100000009,
+    "name": "Express.js",
+    "entity_type": "Framework",
+    "entity_subtype": "Backend Node.js Web Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Backend Development",
+      "specialization": "Node.js Frameworks"
+    },
+    "aliases": [
+      "Express",
+      "Express.js",
+      "ExpressJS",
+      "expressjs.com"
+    ],
+    "concepts": [
+      {
+        "name": "Routing",
+        "weight": 0.7654
+      },
+      {
+        "name": "Middleware",
+        "weight": 0.8857
+      },
+      {
+        "name": "Application-Level Middleware",
+        "weight": 0.4938
+      },
+      {
+        "name": "Router-Level Middleware",
+        "weight": 0.2415
+      },
+      {
+        "name": "Error-Handling Middleware",
+        "weight": 0.4938
+      },
+      {
+        "name": "Built-in Middleware (express.json, express.static)",
+        "weight": 0.2359
+      },
+      {
+        "name": "Third-Party Middleware",
+        "weight": 0.233
+      },
+      {
+        "name": "Request Object (req)",
+        "weight": 0.6352
+      },
+      {
+        "name": "Response Object (res)",
+        "weight": 0.6352
+      },
+      {
+        "name": "Next Function",
+        "weight": 0.2246
+      },
+      {
+        "name": "Route Parameters",
+        "weight": 0.2217
+      },
+      {
+        "name": "Query Parameters",
+        "weight": 0.2189
+      },
+      {
+        "name": "Request Body Parsing",
+        "weight": 0.2161
+      },
+      {
+        "name": "Express Router",
+        "weight": 0.6352
+      },
+      {
+        "name": "RESTful API Design",
+        "weight": 1.0
+      },
+      {
+        "name": "Template Engines (Pug/EJS)",
+        "weight": 0.2076
+      },
+      {
+        "name": "Static File Serving",
+        "weight": 0.2048
+      },
+      {
+        "name": "CORS Configuration",
+        "weight": 0.4802
+      },
+      {
+        "name": "Error Handling",
+        "weight": 0.6117
+      },
+      {
+        "name": "Custom Error Handlers",
+        "weight": 0.1963
+      },
+      {
+        "name": "HTTP Methods (GET/POST/PUT/DELETE/PATCH)",
+        "weight": 0.1935
+      },
+      {
+        "name": "Sessions",
+        "weight": 0.1907
+      },
+      {
+        "name": "Cookies",
+        "weight": 0.1878
+      },
+      {
+        "name": "Authentication (Passport.js)",
+        "weight": 0.6117
+      },
+      {
+        "name": "JWT Authentication",
+        "weight": 0.6216
+      },
+      {
+        "name": "Validation (express-validator/Joi)",
+        "weight": 0.6081
+      },
+      {
+        "name": "Rate Limiting (express-rate-limit)",
+        "weight": 0.4643
+      },
+      {
+        "name": "Helmet (Security Middleware)",
+        "weight": 0.4938
+      },
+      {
+        "name": "Logging (Morgan)",
+        "weight": 0.1709
+      },
+      {
+        "name": "Environment Variables (dotenv)",
+        "weight": 0.4703
+      },
+      {
+        "name": "MVC Pattern with Express",
+        "weight": 0.1652
+      },
+      {
+        "name": "Database Integration (MongoDB/Mongoose)",
+        "weight": 0.6216
+      },
+      {
+        "name": "Database Integration (SQL/Sequelize/Knex)",
+        "weight": 0.4703
+      },
+      {
+        "name": "REST API Versioning",
+        "weight": 0.4643
+      },
+      {
+        "name": "WebSockets (Socket.io Integration)",
+        "weight": 0.4802
+      },
+      {
+        "name": "Testing (Mocha/Chai/Jest/Supertest)",
+        "weight": 0.4938
+      },
+      {
+        "name": "Async Error Handling",
+        "weight": 0.4914
+      },
+      {
+        "name": "Promises in Express",
+        "weight": 0.1454
+      },
+      {
+        "name": "Streaming Responses",
+        "weight": 0.1426
+      },
+      {
+        "name": "File Uploads (Multer)",
+        "weight": 0.1398
+      },
+      {
+        "name": "Compression Middleware",
+        "weight": 0.137
+      },
+      {
+        "name": "Clustering",
+        "weight": 0.3929
+      },
+      {
+        "name": "PM2 Process Management",
+        "weight": 0.3929
+      },
+      {
+        "name": "Deployment",
+        "weight": 0.3929
+      },
+      {
+        "name": "Docker with Express",
+        "weight": 0.3929
+      },
+      {
+        "name": "GraphQL Integration (Apollo Server)",
+        "weight": 0.4643
+      },
+      {
+        "name": "Express Generator",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JavaScript",
+        "weight": 1.0
+      },
+      {
+        "name": "ES6+ Syntax",
+        "weight": 0.9625
+      },
+      {
+        "name": "Node.js",
+        "weight": 0.925
+      },
+      {
+        "name": "npm",
+        "weight": 0.8875
+      },
+      {
+        "name": "Asynchronous JavaScript",
+        "weight": 0.85
+      },
+      {
+        "name": "Callbacks",
+        "weight": 0.8125
+      },
+      {
+        "name": "Promises",
+        "weight": 0.775
+      },
+      {
+        "name": "Async/Await",
+        "weight": 0.7375
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "REST APIs Concept",
+        "weight": 0.6625
+      },
+      {
+        "name": "JSON",
+        "weight": 0.625
+      },
+      {
+        "name": "Git",
+        "weight": 0.5875
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.55
+      },
+      {
+        "name": "MVC Concept",
+        "weight": 0.5125
+      },
+      {
+        "name": "Middleware Concept",
+        "weight": 0.475
+      },
+      {
+        "name": "Database Basics (SQL/NoSQL)",
+        "weight": 0.4375
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_express_js"
+  },
+  {
+    "id": 10,
+    "gid": 100000010,
+    "name": "NestJS",
+    "entity_type": "Framework",
+    "entity_subtype": "Backend Node.js Enterprise Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Backend Development",
+      "specialization": "Node.js Frameworks"
+    },
+    "aliases": [
+      "NestJS",
+      "Nest.js",
+      "Nest",
+      "nestjs.com"
+    ],
+    "concepts": [
+      {
+        "name": "Modules",
+        "weight": 0.8488
+      },
+      {
+        "name": "Controllers",
+        "weight": 0.9604
+      },
+      {
+        "name": "Providers",
+        "weight": 0.545
+      },
+      {
+        "name": "Services",
+        "weight": 0.8173
+      },
+      {
+        "name": "Dependency Injection",
+        "weight": 1.0
+      },
+      {
+        "name": "Decorators (@Module, @Controller, @Injectable)",
+        "weight": 0.545
+      },
+      {
+        "name": "Routing",
+        "weight": 0.2338
+      },
+      {
+        "name": "Route Parameters",
+        "weight": 0.231
+      },
+      {
+        "name": "Query Parameters",
+        "weight": 0.2283
+      },
+      {
+        "name": "Request Lifecycle",
+        "weight": 0.2256
+      },
+      {
+        "name": "Middleware",
+        "weight": 0.2229
+      },
+      {
+        "name": "Guards",
+        "weight": 0.6962
+      },
+      {
+        "name": "Interceptors",
+        "weight": 0.545
+      },
+      {
+        "name": "Pipes",
+        "weight": 0.545
+      },
+      {
+        "name": "Exception Filters",
+        "weight": 0.5012
+      },
+      {
+        "name": "Custom Decorators",
+        "weight": 0.2094
+      },
+      {
+        "name": "DTOs (Data Transfer Objects)",
+        "weight": 0.8527
+      },
+      {
+        "name": "Validation (class-validator)",
+        "weight": 0.5012
+      },
+      {
+        "name": "Serialization (class-transformer)",
+        "weight": 0.2012
+      },
+      {
+        "name": "TypeORM Integration",
+        "weight": 0.8092
+      },
+      {
+        "name": "Prisma Integration",
+        "weight": 0.1958
+      },
+      {
+        "name": "Mongoose Integration",
+        "weight": 0.1931
+      },
+      {
+        "name": "Repository Pattern",
+        "weight": 0.5107
+      },
+      {
+        "name": "GraphQL with NestJS",
+        "weight": 0.5065
+      },
+      {
+        "name": "REST API Design",
+        "weight": 0.7707
+      },
+      {
+        "name": "Swagger/OpenAPI Integration",
+        "weight": 0.5065
+      },
+      {
+        "name": "Authentication (Passport.js)",
+        "weight": 0.8092
+      },
+      {
+        "name": "JWT Authentication",
+        "weight": 0.545
+      },
+      {
+        "name": "Guards for Authorization",
+        "weight": 0.1742
+      },
+      {
+        "name": "RBAC (Role-Based Access Control)",
+        "weight": 0.1715
+      },
+      {
+        "name": "WebSockets Gateway",
+        "weight": 0.1688
+      },
+      {
+        "name": "Microservices (NestJS)",
+        "weight": 0.6696
+      },
+      {
+        "name": "Message Patterns",
+        "weight": 0.6696
+      },
+      {
+        "name": "Transport Layers (TCP/Redis/Kafka/RabbitMQ)",
+        "weight": 0.5089
+      },
+      {
+        "name": "CQRS Pattern",
+        "weight": 0.6696
+      },
+      {
+        "name": "Event Emitters",
+        "weight": 0.5089
+      },
+      {
+        "name": "Task Scheduling (@nestjs/schedule)",
+        "weight": 0.1525
+      },
+      {
+        "name": "Caching Module",
+        "weight": 0.1498
+      },
+      {
+        "name": "Configuration Module (@nestjs/config)",
+        "weight": 0.1471
+      },
+      {
+        "name": "Testing (Jest with NestJS)",
+        "weight": 0.545
+      },
+      {
+        "name": "E2E Testing",
+        "weight": 0.1417
+      },
+      {
+        "name": "Custom Providers",
+        "weight": 0.139
+      },
+      {
+        "name": "Dynamic Modules",
+        "weight": 0.5107
+      },
+      {
+        "name": "Lifecycle Hooks",
+        "weight": 0.1335
+      },
+      {
+        "name": "Circular Dependency Resolution",
+        "weight": 0.1308
+      },
+      {
+        "name": "Monorepo Support (Nest CLI)",
+        "weight": 0.1281
+      },
+      {
+        "name": "Nest CLI",
+        "weight": 0.1254
+      },
+      {
+        "name": "Exception Handling",
+        "weight": 0.1227
+      },
+      {
+        "name": "Rate Limiting (Throttler)",
+        "weight": 0.5065
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "TypeScript",
+        "weight": 1.0
+      },
+      {
+        "name": "JavaScript",
+        "weight": 0.9647
+      },
+      {
+        "name": "Node.js",
+        "weight": 0.9294
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.8941
+      },
+      {
+        "name": "Decorators (TypeScript)",
+        "weight": 0.8588
+      },
+      {
+        "name": "Dependency Injection Concept",
+        "weight": 0.8235
+      },
+      {
+        "name": "Design Patterns",
+        "weight": 0.7882
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.7529
+      },
+      {
+        "name": "REST APIs Concept",
+        "weight": 0.7176
+      },
+      {
+        "name": "Express.js Basics (underlying)",
+        "weight": 0.6824
+      },
+      {
+        "name": "SQL/NoSQL Basics",
+        "weight": 0.6471
+      },
+      {
+        "name": "Git",
+        "weight": 0.6118
+      },
+      {
+        "name": "npm",
+        "weight": 0.5765
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.5412
+      },
+      {
+        "name": "Async/Await",
+        "weight": 0.5059
+      },
+      {
+        "name": "Promises",
+        "weight": 0.4706
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.4353
+      },
+      {
+        "name": "Middleware Concept",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_nest_js"
+  },
+  {
+    "id": 11,
+    "gid": 100000011,
+    "name": "Laravel",
+    "entity_type": "Framework",
+    "entity_subtype": "Backend PHP Web Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Backend Development",
+      "specialization": "PHP Frameworks"
+    },
+    "aliases": [
+      "Laravel",
+      "Laravel Framework",
+      "laravel.com"
+    ],
+    "concepts": [
+      {
+        "name": "MVC Architecture",
+        "weight": 0.7027
+      },
+      {
+        "name": "Routing",
+        "weight": 0.8569
+      },
+      {
+        "name": "Controllers",
+        "weight": 0.5423
+      },
+      {
+        "name": "Blade Templating Engine",
+        "weight": 0.6964
+      },
+      {
+        "name": "Eloquent ORM",
+        "weight": 1.0
+      },
+      {
+        "name": "Models",
+        "weight": 0.2382
+      },
+      {
+        "name": "Migrations",
+        "weight": 0.5423
+      },
+      {
+        "name": "Seeders",
+        "weight": 0.2335
+      },
+      {
+        "name": "Factories",
+        "weight": 0.2311
+      },
+      {
+        "name": "Query Builder",
+        "weight": 0.4931
+      },
+      {
+        "name": "Relationships (One-to-One, One-to-Many, Many-to-Many)",
+        "weight": 0.2264
+      },
+      {
+        "name": "Middleware",
+        "weight": 0.835
+      },
+      {
+        "name": "Requests (Form Requests)",
+        "weight": 0.2216
+      },
+      {
+        "name": "Validation",
+        "weight": 0.6746
+      },
+      {
+        "name": "Artisan CLI",
+        "weight": 0.5423
+      },
+      {
+        "name": "Service Providers",
+        "weight": 0.2145
+      },
+      {
+        "name": "Service Container",
+        "weight": 0.2122
+      },
+      {
+        "name": "Dependency Injection",
+        "weight": 0.2098
+      },
+      {
+        "name": "Facades",
+        "weight": 0.2075
+      },
+      {
+        "name": "Events and Listeners",
+        "weight": 0.2051
+      },
+      {
+        "name": "Jobs and Queues",
+        "weight": 0.5423
+      },
+      {
+        "name": "Task Scheduling",
+        "weight": 0.2004
+      },
+      {
+        "name": "Broadcasting",
+        "weight": 0.198
+      },
+      {
+        "name": "Notifications",
+        "weight": 0.1956
+      },
+      {
+        "name": "Mail",
+        "weight": 0.1933
+      },
+      {
+        "name": "File Storage",
+        "weight": 0.1909
+      },
+      {
+        "name": "Authentication (Laravel Breeze/Jetstream/Sanctum)",
+        "weight": 0.8396
+      },
+      {
+        "name": "Authorization (Gates/Policies)",
+        "weight": 0.6854
+      },
+      {
+        "name": "API Resources",
+        "weight": 0.6254
+      },
+      {
+        "name": "RESTful API Design",
+        "weight": 0.6427
+      },
+      {
+        "name": "Laravel Passport (OAuth2)",
+        "weight": 0.4823
+      },
+      {
+        "name": "Sessions",
+        "weight": 0.1767
+      },
+      {
+        "name": "Cookies",
+        "weight": 0.1744
+      },
+      {
+        "name": "CSRF Protection",
+        "weight": 0.172
+      },
+      {
+        "name": "Caching",
+        "weight": 0.4931
+      },
+      {
+        "name": "Redis Integration",
+        "weight": 0.1673
+      },
+      {
+        "name": "Testing (PHPUnit/Pest)",
+        "weight": 0.5423
+      },
+      {
+        "name": "Feature Tests",
+        "weight": 0.1625
+      },
+      {
+        "name": "Unit Tests",
+        "weight": 0.1602
+      },
+      {
+        "name": "Database Testing",
+        "weight": 0.1578
+      },
+      {
+        "name": "Composer",
+        "weight": 0.5104
+      },
+      {
+        "name": "Package Development",
+        "weight": 0.1531
+      },
+      {
+        "name": "Blade Components",
+        "weight": 0.1507
+      },
+      {
+        "name": "Livewire",
+        "weight": 0.5042
+      },
+      {
+        "name": "Inertia.js",
+        "weight": 0.5042
+      },
+      {
+        "name": "Vue/React with Laravel",
+        "weight": 0.5042
+      },
+      {
+        "name": "Laravel Mix / Vite",
+        "weight": 0.1413
+      },
+      {
+        "name": "Environment Configuration (.env)",
+        "weight": 0.4013
+      },
+      {
+        "name": "Config Files",
+        "weight": 0.1365
+      },
+      {
+        "name": "Route Model Binding",
+        "weight": 0.1342
+      },
+      {
+        "name": "Localization",
+        "weight": 0.1318
+      },
+      {
+        "name": "Collections",
+        "weight": 0.1295
+      },
+      {
+        "name": "Helper Functions",
+        "weight": 0.1271
+      },
+      {
+        "name": "Laravel Sail (Docker)",
+        "weight": 0.4013
+      },
+      {
+        "name": "Laravel Forge/Vapor (Deployment)",
+        "weight": 0.4013
+      },
+      {
+        "name": "Multi-Tenancy",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "PHP",
+        "weight": 1.0
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.96
+      },
+      {
+        "name": "Composer",
+        "weight": 0.92
+      },
+      {
+        "name": "SQL",
+        "weight": 0.88
+      },
+      {
+        "name": "Relational Databases",
+        "weight": 0.84
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "REST APIs Concept",
+        "weight": 0.76
+      },
+      {
+        "name": "HTML",
+        "weight": 0.72
+      },
+      {
+        "name": "CSS",
+        "weight": 0.68
+      },
+      {
+        "name": "JSON",
+        "weight": 0.64
+      },
+      {
+        "name": "Git",
+        "weight": 0.6
+      },
+      {
+        "name": "MVC Architecture Concept",
+        "weight": 0.56
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.52
+      },
+      {
+        "name": "Web Servers Basics",
+        "weight": 0.48
+      },
+      {
+        "name": "Templating Concepts",
+        "weight": 0.44
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_laravel"
+  },
+  {
+    "id": 12,
+    "gid": 100000012,
+    "name": "ASP.NET Core",
+    "entity_type": "Framework",
+    "entity_subtype": "Backend .NET Web Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Backend Development",
+      "specialization": ".NET Frameworks"
+    },
+    "aliases": [
+      "ASP.NET Core",
+      "ASP.NET",
+      "AspNetCore",
+      ".NET Core Web API",
+      "Microsoft ASP.NET Core",
+      "ASP.NET Core MVC"
+    ],
+    "concepts": [
+      {
+        "name": "MVC Pattern",
+        "weight": 0.7581
+      },
+      {
+        "name": "Razor Pages",
+        "weight": 0.6041
+      },
+      {
+        "name": "Controllers",
+        "weight": 0.5041
+      },
+      {
+        "name": "Actions",
+        "weight": 0.2424
+      },
+      {
+        "name": "Routing",
+        "weight": 0.5041
+      },
+      {
+        "name": "Attribute Routing",
+        "weight": 0.2373
+      },
+      {
+        "name": "Dependency Injection (built-in)",
+        "weight": 0.6275
+      },
+      {
+        "name": "Middleware Pipeline",
+        "weight": 0.66
+      },
+      {
+        "name": "Startup/Program.cs Configuration",
+        "weight": 0.2296
+      },
+      {
+        "name": "Minimal APIs",
+        "weight": 0.6216
+      },
+      {
+        "name": "Web API",
+        "weight": 0.8361
+      },
+      {
+        "name": "Model Binding",
+        "weight": 0.506
+      },
+      {
+        "name": "Model Validation",
+        "weight": 0.506
+      },
+      {
+        "name": "Data Annotations",
+        "weight": 0.2169
+      },
+      {
+        "name": "Entity Framework Core",
+        "weight": 1.0
+      },
+      {
+        "name": "DbContext",
+        "weight": 0.2118
+      },
+      {
+        "name": "LINQ",
+        "weight": 0.2092
+      },
+      {
+        "name": "Migrations (EF Core)",
+        "weight": 0.2067
+      },
+      {
+        "name": "Repository Pattern",
+        "weight": 0.4735
+      },
+      {
+        "name": "Authentication (Identity)",
+        "weight": 0.6224
+      },
+      {
+        "name": "Authorization (Policies/Roles)",
+        "weight": 0.5041
+      },
+      {
+        "name": "JWT Authentication",
+        "weight": 0.506
+      },
+      {
+        "name": "OAuth2/OpenID Connect",
+        "weight": 0.1939
+      },
+      {
+        "name": "Session State",
+        "weight": 0.1914
+      },
+      {
+        "name": "Cookies",
+        "weight": 0.1888
+      },
+      {
+        "name": "CORS Configuration",
+        "weight": 0.1863
+      },
+      {
+        "name": "Exception Handling Middleware",
+        "weight": 0.4684
+      },
+      {
+        "name": "Logging (ILogger)",
+        "weight": 0.4684
+      },
+      {
+        "name": "Configuration (appsettings.json)",
+        "weight": 0.5041
+      },
+      {
+        "name": "Options Pattern",
+        "weight": 0.4735
+      },
+      {
+        "name": "Dependency Injection Lifetimes (Singleton/Scoped/Transient)",
+        "weight": 0.506
+      },
+      {
+        "name": "SignalR (Real-Time Communication)",
+        "weight": 0.171
+      },
+      {
+        "name": "gRPC with ASP.NET Core",
+        "weight": 0.4656
+      },
+      {
+        "name": "Swagger/OpenAPI (Swashbuckle)",
+        "weight": 0.6216
+      },
+      {
+        "name": "Testing (xUnit/NUnit/MSTest)",
+        "weight": 0.5041
+      },
+      {
+        "name": "Integration Testing",
+        "weight": 0.1608
+      },
+      {
+        "name": "WebApplicationFactory",
+        "weight": 0.1582
+      },
+      {
+        "name": "Blazor Integration",
+        "weight": 0.4481
+      },
+      {
+        "name": "Kestrel Web Server",
+        "weight": 0.3991
+      },
+      {
+        "name": "IIS Integration",
+        "weight": 0.1506
+      },
+      {
+        "name": "Hosting Models",
+        "weight": 0.3991
+      },
+      {
+        "name": "Health Checks",
+        "weight": 0.4735
+      },
+      {
+        "name": "Rate Limiting",
+        "weight": 0.4656
+      },
+      {
+        "name": "Caching (Response/Distributed)",
+        "weight": 0.1404
+      },
+      {
+        "name": "Background Services (IHostedService)",
+        "weight": 0.4735
+      },
+      {
+        "name": "Docker with ASP.NET Core",
+        "weight": 0.3991
+      },
+      {
+        "name": "Kubernetes Deployment",
+        "weight": 0.3991
+      },
+      {
+        "name": "Azure App Service Deployment",
+        "weight": 0.3991
+      },
+      {
+        "name": "Filters (Action/Result/Exception)",
+        "weight": 0.1276
+      },
+      {
+        "name": "Areas",
+        "weight": 0.1251
+      },
+      {
+        "name": "Tag Helpers",
+        "weight": 0.1225
+      },
+      {
+        "name": "View Components",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "C#",
+        "weight": 1.0
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.9625
+      },
+      {
+        "name": ".NET Fundamentals",
+        "weight": 0.925
+      },
+      {
+        "name": "LINQ",
+        "weight": 0.8875
+      },
+      {
+        "name": "SQL",
+        "weight": 0.85
+      },
+      {
+        "name": "Relational Databases",
+        "weight": 0.8125
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.775
+      },
+      {
+        "name": "REST APIs Concept",
+        "weight": 0.7375
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7
+      },
+      {
+        "name": "Git",
+        "weight": 0.6625
+      },
+      {
+        "name": "MVC Architecture Concept",
+        "weight": 0.625
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.5875
+      },
+      {
+        "name": "Async/Await (C#)",
+        "weight": 0.55
+      },
+      {
+        "name": "Dependency Injection Concept",
+        "weight": 0.5125
+      },
+      {
+        "name": "Testing Fundamentals",
+        "weight": 0.475
+      },
+      {
+        "name": "Web Servers Basics",
+        "weight": 0.4375
+      },
+      {
+        "name": "Visual Studio / VS Code Usage",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_asp_net_core"
+  },
+  {
+    "id": 13,
+    "gid": 100000013,
+    "name": "TensorFlow",
+    "entity_type": "ML Framework",
+    "entity_subtype": "Deep Learning / Machine Learning Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Machine Learning",
+      "specialization": "Deep Learning Frameworks"
+    },
+    "aliases": [
+      "TensorFlow",
+      "TF",
+      "Google TensorFlow",
+      "TensorFlow 2.x",
+      "tensorflow.org"
+    ],
+    "concepts": [
+      {
+        "name": "Tensors",
+        "weight": 0.6012
+      },
+      {
+        "name": "Computational Graphs",
+        "weight": 0.2478
+      },
+      {
+        "name": "Eager Execution",
+        "weight": 0.2456
+      },
+      {
+        "name": "Graph Mode (tf.function)",
+        "weight": 0.2434
+      },
+      {
+        "name": "Keras API (tf.keras)",
+        "weight": 0.7932
+      },
+      {
+        "name": "Sequential API",
+        "weight": 0.7932
+      },
+      {
+        "name": "Functional API",
+        "weight": 0.6012
+      },
+      {
+        "name": "Subclassing API",
+        "weight": 0.2346
+      },
+      {
+        "name": "Layers",
+        "weight": 0.6012
+      },
+      {
+        "name": "Dense Layers",
+        "weight": 0.2302
+      },
+      {
+        "name": "Convolutional Layers",
+        "weight": 0.228
+      },
+      {
+        "name": "Pooling Layers",
+        "weight": 0.5568
+      },
+      {
+        "name": "Recurrent Layers (LSTM/GRU)",
+        "weight": 0.2236
+      },
+      {
+        "name": "Dropout",
+        "weight": 0.2214
+      },
+      {
+        "name": "Batch Normalization",
+        "weight": 0.5568
+      },
+      {
+        "name": "Activation Functions",
+        "weight": 0.2169
+      },
+      {
+        "name": "Loss Functions",
+        "weight": 0.2147
+      },
+      {
+        "name": "Optimizers (Adam/SGD/RMSprop)",
+        "weight": 0.2125
+      },
+      {
+        "name": "Gradient Tape (Automatic Differentiation)",
+        "weight": 0.8164
+      },
+      {
+        "name": "Backpropagation",
+        "weight": 0.6041
+      },
+      {
+        "name": "Model Compilation",
+        "weight": 0.6012
+      },
+      {
+        "name": "Model Training (fit)",
+        "weight": 0.7932
+      },
+      {
+        "name": "Model Evaluation",
+        "weight": 0.542
+      },
+      {
+        "name": "Callbacks (EarlyStopping/ModelCheckpoint)",
+        "weight": 0.1993
+      },
+      {
+        "name": "TensorBoard",
+        "weight": 0.542
+      },
+      {
+        "name": "Data Pipelines (tf.data)",
+        "weight": 0.6012
+      },
+      {
+        "name": "Data Augmentation",
+        "weight": 0.7488
+      },
+      {
+        "name": "Transfer Learning",
+        "weight": 1.0
+      },
+      {
+        "name": "Pretrained Models (TF Hub)",
+        "weight": 0.5568
+      },
+      {
+        "name": "Convolutional Neural Networks (CNNs)",
+        "weight": 0.8109
+      },
+      {
+        "name": "Recurrent Neural Networks (RNNs)",
+        "weight": 0.6041
+      },
+      {
+        "name": "Transformers (TF)",
+        "weight": 0.8193
+      },
+      {
+        "name": "Attention Mechanisms",
+        "weight": 0.8193
+      },
+      {
+        "name": "Embeddings",
+        "weight": 0.1773
+      },
+      {
+        "name": "Custom Training Loops",
+        "weight": 0.8193
+      },
+      {
+        "name": "Custom Layers",
+        "weight": 0.8193
+      },
+      {
+        "name": "Custom Loss Functions",
+        "weight": 0.5652
+      },
+      {
+        "name": "Model Saving/Loading (SavedModel/HDF5)",
+        "weight": 0.5274
+      },
+      {
+        "name": "TensorFlow Serving",
+        "weight": 0.7787
+      },
+      {
+        "name": "TensorFlow Lite (Mobile/Edge Deployment)",
+        "weight": 0.497
+      },
+      {
+        "name": "TensorFlow.js (Browser)",
+        "weight": 0.497
+      },
+      {
+        "name": "Distributed Training",
+        "weight": 0.7787
+      },
+      {
+        "name": "MirroredStrategy",
+        "weight": 0.1575
+      },
+      {
+        "name": "TPU Support",
+        "weight": 0.6041
+      },
+      {
+        "name": "GPU Acceleration",
+        "weight": 0.6041
+      },
+      {
+        "name": "Quantization",
+        "weight": 0.6744
+      },
+      {
+        "name": "Model Optimization",
+        "weight": 0.7482
+      },
+      {
+        "name": "Mixed Precision Training",
+        "weight": 0.6041
+      },
+      {
+        "name": "tf.Variable",
+        "weight": 0.1442
+      },
+      {
+        "name": "tf.constant",
+        "weight": 0.142
+      },
+      {
+        "name": "Broadcasting",
+        "weight": 0.1398
+      },
+      {
+        "name": "Autograd",
+        "weight": 0.1376
+      },
+      {
+        "name": "Regularization (L1/L2)",
+        "weight": 0.1354
+      },
+      {
+        "name": "Hyperparameter Tuning (Keras Tuner)",
+        "weight": 0.542
+      },
+      {
+        "name": "TFRecord Format",
+        "weight": 0.131
+      },
+      {
+        "name": "Estimators API (legacy)",
+        "weight": 0.1288
+      },
+      {
+        "name": "TensorFlow Extended (TFX)",
+        "weight": 0.5274
+      },
+      {
+        "name": "Model Deployment",
+        "weight": 0.5274
+      },
+      {
+        "name": "ONNX Conversion",
+        "weight": 0.5274
+      },
+      {
+        "name": "Reinforcement Learning (TF-Agents)",
+        "weight": 0.5652
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python",
+        "weight": 1.0
+      },
+      {
+        "name": "NumPy",
+        "weight": 0.9684
+      },
+      {
+        "name": "Linear Algebra",
+        "weight": 0.9368
+      },
+      {
+        "name": "Calculus (Gradients/Derivatives)",
+        "weight": 0.9053
+      },
+      {
+        "name": "Probability and Statistics",
+        "weight": 0.8737
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.8421
+      },
+      {
+        "name": "Neural Networks Basics",
+        "weight": 0.8105
+      },
+      {
+        "name": "Supervised Learning",
+        "weight": 0.7789
+      },
+      {
+        "name": "Unsupervised Learning",
+        "weight": 0.7474
+      },
+      {
+        "name": "Gradient Descent",
+        "weight": 0.7158
+      },
+      {
+        "name": "Loss Functions Concept",
+        "weight": 0.6842
+      },
+      {
+        "name": "Overfitting/Underfitting",
+        "weight": 0.6526
+      },
+      {
+        "name": "Data Preprocessing",
+        "weight": 0.6211
+      },
+      {
+        "name": "Pandas",
+        "weight": 0.5895
+      },
+      {
+        "name": "Matplotlib/Visualization",
+        "weight": 0.5579
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.5263
+      },
+      {
+        "name": "Git",
+        "weight": 0.4947
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4632
+      },
+      {
+        "name": "GPU/CUDA Basics",
+        "weight": 0.4316
+      },
+      {
+        "name": "Jupyter Notebooks",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_tensorflow"
+  },
+  {
+    "id": 14,
+    "gid": 100000014,
+    "name": "PyTorch",
+    "entity_type": "ML Framework",
+    "entity_subtype": "Deep Learning / Machine Learning Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Machine Learning",
+      "specialization": "Deep Learning Frameworks"
+    },
+    "aliases": [
+      "PyTorch",
+      "Torch",
+      "Meta PyTorch",
+      "pytorch.org",
+      "libtorch"
+    ],
+    "concepts": [
+      {
+        "name": "Tensors",
+        "weight": 0.5797
+      },
+      {
+        "name": "torch.Tensor",
+        "weight": 0.2476
+      },
+      {
+        "name": "Autograd",
+        "weight": 0.7988
+      },
+      {
+        "name": "Computational Graphs (Dynamic)",
+        "weight": 0.5691
+      },
+      {
+        "name": "nn.Module",
+        "weight": 0.7437
+      },
+      {
+        "name": "Sequential Model",
+        "weight": 0.2382
+      },
+      {
+        "name": "Custom Model Classes",
+        "weight": 0.7988
+      },
+      {
+        "name": "Forward Method",
+        "weight": 0.2335
+      },
+      {
+        "name": "Layers (Linear/Conv2d/LSTM)",
+        "weight": 0.2311
+      },
+      {
+        "name": "Activation Functions",
+        "weight": 0.2287
+      },
+      {
+        "name": "Loss Functions",
+        "weight": 0.2264
+      },
+      {
+        "name": "Optimizers (Adam/SGD/RMSprop)",
+        "weight": 0.5797
+      },
+      {
+        "name": "Backpropagation (loss.backward())",
+        "weight": 0.5828
+      },
+      {
+        "name": "Gradient Computation",
+        "weight": 0.2193
+      },
+      {
+        "name": "Optimizer Step",
+        "weight": 0.2169
+      },
+      {
+        "name": "Zero Grad",
+        "weight": 0.2145
+      },
+      {
+        "name": "DataLoader",
+        "weight": 0.7437
+      },
+      {
+        "name": "Dataset Class",
+        "weight": 0.5797
+      },
+      {
+        "name": "Custom Datasets",
+        "weight": 0.548
+      },
+      {
+        "name": "Transforms (torchvision)",
+        "weight": 0.5428
+      },
+      {
+        "name": "Data Augmentation",
+        "weight": 0.5428
+      },
+      {
+        "name": "Training Loop (manual)",
+        "weight": 0.7437
+      },
+      {
+        "name": "Model Evaluation Mode",
+        "weight": 0.198
+      },
+      {
+        "name": "GPU Acceleration (CUDA)",
+        "weight": 0.5797
+      },
+      {
+        "name": "Device Management (.to(device))",
+        "weight": 0.1933
+      },
+      {
+        "name": "Convolutional Neural Networks (CNNs)",
+        "weight": 0.7756
+      },
+      {
+        "name": "Recurrent Neural Networks (RNNs)",
+        "weight": 0.5828
+      },
+      {
+        "name": "Transformers (PyTorch)",
+        "weight": 0.7809
+      },
+      {
+        "name": "Attention Mechanisms",
+        "weight": 1.0
+      },
+      {
+        "name": "Embeddings",
+        "weight": 0.548
+      },
+      {
+        "name": "Transfer Learning",
+        "weight": 0.9364
+      },
+      {
+        "name": "Pretrained Models (torchvision/torch.hub)",
+        "weight": 0.7068
+      },
+      {
+        "name": "Fine-Tuning",
+        "weight": 0.548
+      },
+      {
+        "name": "Model Saving/Loading (state_dict)",
+        "weight": 0.5797
+      },
+      {
+        "name": "TorchScript",
+        "weight": 0.5051
+      },
+      {
+        "name": "Model Serialization",
+        "weight": 0.5051
+      },
+      {
+        "name": "Distributed Training (DDP)",
+        "weight": 0.7379
+      },
+      {
+        "name": "Mixed Precision Training (AMP)",
+        "weight": 0.5828
+      },
+      {
+        "name": "Multi-GPU Training",
+        "weight": 0.1602
+      },
+      {
+        "name": "PyTorch Lightning",
+        "weight": 0.1578
+      },
+      {
+        "name": "Hugging Face Transformers Integration",
+        "weight": 0.548
+      },
+      {
+        "name": "TensorBoard Integration",
+        "weight": 0.514
+      },
+      {
+        "name": "Custom Loss Functions",
+        "weight": 0.802
+      },
+      {
+        "name": "Custom Layers",
+        "weight": 0.1484
+      },
+      {
+        "name": "Regularization (Dropout/L2)",
+        "weight": 0.146
+      },
+      {
+        "name": "Batch Normalization",
+        "weight": 0.1436
+      },
+      {
+        "name": "Learning Rate Scheduling",
+        "weight": 0.5828
+      },
+      {
+        "name": "ONNX Export",
+        "weight": 0.5051
+      },
+      {
+        "name": "TorchServe (Model Deployment)",
+        "weight": 0.5051
+      },
+      {
+        "name": "Quantization",
+        "weight": 0.5051
+      },
+      {
+        "name": "Pruning",
+        "weight": 0.5051
+      },
+      {
+        "name": "torch.compile",
+        "weight": 0.1295
+      },
+      {
+        "name": "Functorch/Vmap",
+        "weight": 0.5691
+      },
+      {
+        "name": "Reinforcement Learning (PyTorch)",
+        "weight": 0.1247
+      },
+      {
+        "name": "Generative Adversarial Networks (GANs)",
+        "weight": 0.5691
+      },
+      {
+        "name": "Diffusion Models",
+        "weight": 0.5691
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python",
+        "weight": 1.0
+      },
+      {
+        "name": "NumPy",
+        "weight": 0.9625
+      },
+      {
+        "name": "Linear Algebra",
+        "weight": 0.925
+      },
+      {
+        "name": "Calculus (Gradients/Derivatives)",
+        "weight": 0.8875
+      },
+      {
+        "name": "Probability and Statistics",
+        "weight": 0.85
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.8125
+      },
+      {
+        "name": "Neural Networks Basics",
+        "weight": 0.775
+      },
+      {
+        "name": "Gradient Descent",
+        "weight": 0.7375
+      },
+      {
+        "name": "Backpropagation Concept",
+        "weight": 0.7
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.6625
+      },
+      {
+        "name": "Data Preprocessing",
+        "weight": 0.625
+      },
+      {
+        "name": "Pandas",
+        "weight": 0.5875
+      },
+      {
+        "name": "Matplotlib/Visualization",
+        "weight": 0.55
+      },
+      {
+        "name": "Git",
+        "weight": 0.5125
+      },
+      {
+        "name": "GPU/CUDA Basics",
+        "weight": 0.475
+      },
+      {
+        "name": "Jupyter Notebooks",
+        "weight": 0.4375
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_pytorch"
+  },
+  {
+    "id": 15,
+    "gid": 100000015,
+    "name": "Keras",
+    "entity_type": "ML Framework",
+    "entity_subtype": "High-Level Deep Learning API",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Machine Learning",
+      "specialization": "Deep Learning Frameworks"
+    },
+    "aliases": [
+      "Keras",
+      "tf.keras",
+      "Keras 3",
+      "Keras Core"
+    ],
+    "concepts": [
+      {
+        "name": "Sequential API",
+        "weight": 1.0
+      },
+      {
+        "name": "Functional API",
+        "weight": 0.8664
+      },
+      {
+        "name": "Model Subclassing API",
+        "weight": 0.5414
+      },
+      {
+        "name": "Layers",
+        "weight": 0.5477
+      },
+      {
+        "name": "Dense Layer",
+        "weight": 0.4911
+      },
+      {
+        "name": "Conv2D Layer",
+        "weight": 0.5065
+      },
+      {
+        "name": "MaxPooling2D",
+        "weight": 0.5065
+      },
+      {
+        "name": "LSTM Layer",
+        "weight": 0.4773
+      },
+      {
+        "name": "GRU Layer",
+        "weight": 0.4773
+      },
+      {
+        "name": "Dropout Layer",
+        "weight": 0.2256
+      },
+      {
+        "name": "BatchNormalization Layer",
+        "weight": 0.2229
+      },
+      {
+        "name": "Embedding Layer",
+        "weight": 0.4773
+      },
+      {
+        "name": "Activation Functions",
+        "weight": 0.4911
+      },
+      {
+        "name": "Model Compilation (compile())",
+        "weight": 0.6888
+      },
+      {
+        "name": "Loss Functions",
+        "weight": 0.2121
+      },
+      {
+        "name": "Optimizers",
+        "weight": 0.2094
+      },
+      {
+        "name": "Metrics",
+        "weight": 0.2067
+      },
+      {
+        "name": "Model Training (fit())",
+        "weight": 0.8727
+      },
+      {
+        "name": "Model Evaluation (evaluate())",
+        "weight": 0.675
+      },
+      {
+        "name": "Model Prediction (predict())",
+        "weight": 0.1985
+      },
+      {
+        "name": "Callbacks",
+        "weight": 0.5477
+      },
+      {
+        "name": "EarlyStopping",
+        "weight": 0.5339
+      },
+      {
+        "name": "ModelCheckpoint",
+        "weight": 0.1904
+      },
+      {
+        "name": "ReduceLROnPlateau",
+        "weight": 0.1877
+      },
+      {
+        "name": "TensorBoard Callback",
+        "weight": 0.4433
+      },
+      {
+        "name": "Custom Callbacks",
+        "weight": 0.1823
+      },
+      {
+        "name": "Data Generators (ImageDataGenerator)",
+        "weight": 0.1796
+      },
+      {
+        "name": "Data Augmentation",
+        "weight": 0.6903
+      },
+      {
+        "name": "Preprocessing Layers",
+        "weight": 0.1742
+      },
+      {
+        "name": "Transfer Learning",
+        "weight": 0.7042
+      },
+      {
+        "name": "Pretrained Models (Keras Applications)",
+        "weight": 0.6903
+      },
+      {
+        "name": "Fine-Tuning",
+        "weight": 0.5065
+      },
+      {
+        "name": "Model Saving/Loading (.h5/.keras)",
+        "weight": 0.641
+      },
+      {
+        "name": "Custom Layers",
+        "weight": 0.5477
+      },
+      {
+        "name": "Custom Loss Functions",
+        "weight": 0.5414
+      },
+      {
+        "name": "Custom Metrics",
+        "weight": 0.5414
+      },
+      {
+        "name": "Multi-Backend Support (Keras 3: TF/PyTorch/JAX)",
+        "weight": 0.1525
+      },
+      {
+        "name": "Functional Model Graphs",
+        "weight": 0.1498
+      },
+      {
+        "name": "Multi-Input/Multi-Output Models",
+        "weight": 0.5414
+      },
+      {
+        "name": "Regularization (L1/L2)",
+        "weight": 0.1444
+      },
+      {
+        "name": "Weight Initialization",
+        "weight": 0.1417
+      },
+      {
+        "name": "Keras Tuner (Hyperparameter Tuning)",
+        "weight": 0.5339
+      },
+      {
+        "name": "Model Summary/Visualization",
+        "weight": 0.1362
+      },
+      {
+        "name": "Sequential Model Building",
+        "weight": 0.1335
+      },
+      {
+        "name": "Convolutional Neural Networks (CNNs)",
+        "weight": 0.5414
+      },
+      {
+        "name": "Recurrent Neural Networks (RNNs)",
+        "weight": 0.5414
+      },
+      {
+        "name": "Autoencoders",
+        "weight": 0.1254
+      },
+      {
+        "name": "Generative Adversarial Networks (GANs)",
+        "weight": 0.1227
+      },
+      {
+        "name": "Model Export (SavedModel/ONNX)",
+        "weight": 0.4433
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python",
+        "weight": 1.0
+      },
+      {
+        "name": "NumPy",
+        "weight": 0.95
+      },
+      {
+        "name": "Basic Linear Algebra",
+        "weight": 0.9
+      },
+      {
+        "name": "Basic Calculus",
+        "weight": 0.85
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.8
+      },
+      {
+        "name": "Neural Networks Basics",
+        "weight": 0.75
+      },
+      {
+        "name": "Gradient Descent Concept",
+        "weight": 0.7
+      },
+      {
+        "name": "Data Preprocessing",
+        "weight": 0.65
+      },
+      {
+        "name": "Pandas",
+        "weight": 0.6
+      },
+      {
+        "name": "Matplotlib/Visualization",
+        "weight": 0.55
+      },
+      {
+        "name": "TensorFlow Basics (for tf.keras)",
+        "weight": 0.5
+      },
+      {
+        "name": "Jupyter Notebooks",
+        "weight": 0.45
+      },
+      {
+        "name": "Git",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_keras"
+  },
+  {
+    "id": 16,
+    "gid": 100000016,
+    "name": "Flutter",
+    "entity_type": "Framework",
+    "entity_subtype": "Cross-Platform Mobile UI Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Mobile Development",
+      "specialization": "Cross-Platform Frameworks"
+    },
+    "aliases": [
+      "Flutter",
+      "Google Flutter",
+      "Flutter SDK",
+      "flutter.dev"
+    ],
+    "concepts": [
+      {
+        "name": "Dart Language",
+        "weight": 0.7104
+      },
+      {
+        "name": "Widgets",
+        "weight": 0.986
+      },
+      {
+        "name": "StatelessWidget",
+        "weight": 0.5414
+      },
+      {
+        "name": "StatefulWidget",
+        "weight": 0.5414
+      },
+      {
+        "name": "Widget Tree",
+        "weight": 0.5414
+      },
+      {
+        "name": "Element Tree",
+        "weight": 0.2402
+      },
+      {
+        "name": "Render Tree",
+        "weight": 0.2382
+      },
+      {
+        "name": "Build Method",
+        "weight": 0.2362
+      },
+      {
+        "name": "Hot Reload",
+        "weight": 0.2342
+      },
+      {
+        "name": "Hot Restart",
+        "weight": 0.2323
+      },
+      {
+        "name": "Material Design Widgets",
+        "weight": 0.4685
+      },
+      {
+        "name": "Cupertino Widgets",
+        "weight": 0.4685
+      },
+      {
+        "name": "Layout Widgets (Row/Column/Stack)",
+        "weight": 0.2264
+      },
+      {
+        "name": "Container",
+        "weight": 0.2244
+      },
+      {
+        "name": "Scaffold",
+        "weight": 0.2224
+      },
+      {
+        "name": "Navigation (Navigator)",
+        "weight": 0.6985
+      },
+      {
+        "name": "Named Routes",
+        "weight": 0.2185
+      },
+      {
+        "name": "Go Router",
+        "weight": 0.2165
+      },
+      {
+        "name": "State Management",
+        "weight": 1.0
+      },
+      {
+        "name": "setState",
+        "weight": 0.2126
+      },
+      {
+        "name": "Provider",
+        "weight": 0.5414
+      },
+      {
+        "name": "Riverpod",
+        "weight": 0.5414
+      },
+      {
+        "name": "Bloc/Cubit Pattern",
+        "weight": 0.5414
+      },
+      {
+        "name": "GetX",
+        "weight": 0.2047
+      },
+      {
+        "name": "InheritedWidget",
+        "weight": 0.2027
+      },
+      {
+        "name": "ChangeNotifier",
+        "weight": 0.2008
+      },
+      {
+        "name": "Streams",
+        "weight": 0.1988
+      },
+      {
+        "name": "Futures",
+        "weight": 0.1968
+      },
+      {
+        "name": "Async/Await (Dart)",
+        "weight": 0.1948
+      },
+      {
+        "name": "FutureBuilder",
+        "weight": 0.1929
+      },
+      {
+        "name": "StreamBuilder",
+        "weight": 0.1909
+      },
+      {
+        "name": "Forms and Validation",
+        "weight": 0.1889
+      },
+      {
+        "name": "TextEditingController",
+        "weight": 0.187
+      },
+      {
+        "name": "Animations",
+        "weight": 0.6598
+      },
+      {
+        "name": "AnimationController",
+        "weight": 0.183
+      },
+      {
+        "name": "Implicit Animations",
+        "weight": 0.1811
+      },
+      {
+        "name": "Explicit Animations",
+        "weight": 0.1791
+      },
+      {
+        "name": "Custom Painters",
+        "weight": 0.4685
+      },
+      {
+        "name": "Themes and Styling",
+        "weight": 0.4685
+      },
+      {
+        "name": "Responsive Design",
+        "weight": 0.6375
+      },
+      {
+        "name": "MediaQuery",
+        "weight": 0.1712
+      },
+      {
+        "name": "LayoutBuilder",
+        "weight": 0.1692
+      },
+      {
+        "name": "Platform Channels",
+        "weight": 0.6762
+      },
+      {
+        "name": "Native Integration (iOS/Android)",
+        "weight": 0.5072
+      },
+      {
+        "name": "Packages and Plugins (pub.dev)",
+        "weight": 0.1633
+      },
+      {
+        "name": "HTTP Requests (http/dio packages)",
+        "weight": 0.1614
+      },
+      {
+        "name": "Local Storage (SharedPreferences/Hive)",
+        "weight": 0.6738
+      },
+      {
+        "name": "SQLite (sqflite)",
+        "weight": 0.4825
+      },
+      {
+        "name": "Firebase Integration",
+        "weight": 0.4825
+      },
+      {
+        "name": "REST API Integration",
+        "weight": 0.6738
+      },
+      {
+        "name": "GraphQL Integration",
+        "weight": 0.1515
+      },
+      {
+        "name": "Dependency Injection (get_it)",
+        "weight": 0.1495
+      },
+      {
+        "name": "Testing (Widget Tests/Unit Tests/Integration Tests)",
+        "weight": 0.6104
+      },
+      {
+        "name": "Golden Tests",
+        "weight": 0.419
+      },
+      {
+        "name": "Flutter DevTools",
+        "weight": 0.419
+      },
+      {
+        "name": "Build Flavors",
+        "weight": 0.1417
+      },
+      {
+        "name": "App Deployment (Play Store/App Store)",
+        "weight": 0.5072
+      },
+      {
+        "name": "Internationalization (i18n)",
+        "weight": 0.1377
+      },
+      {
+        "name": "Accessibility (a11y)",
+        "weight": 0.1358
+      },
+      {
+        "name": "Performance Optimization",
+        "weight": 0.1338
+      },
+      {
+        "name": "Isolates",
+        "weight": 0.1318
+      },
+      {
+        "name": "Null Safety",
+        "weight": 0.1298
+      },
+      {
+        "name": "Flutter Web",
+        "weight": 0.519
+      },
+      {
+        "name": "Flutter Desktop",
+        "weight": 0.519
+      },
+      {
+        "name": "Custom Widgets",
+        "weight": 0.1239
+      },
+      {
+        "name": "Slivers",
+        "weight": 0.122
+      },
+      {
+        "name": "Keys in Flutter",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Dart",
+        "weight": 1.0
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "weight": 0.9538
+      },
+      {
+        "name": "Mobile UI/UX Concepts",
+        "weight": 0.9077
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.8615
+      },
+      {
+        "name": "REST APIs Concept",
+        "weight": 0.8154
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7692
+      },
+      {
+        "name": "Async Programming",
+        "weight": 0.7231
+      },
+      {
+        "name": "Git",
+        "weight": 0.6769
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.6308
+      },
+      {
+        "name": "Android Studio / Xcode Basics",
+        "weight": 0.5846
+      },
+      {
+        "name": "State Management Concept",
+        "weight": 0.5385
+      },
+      {
+        "name": "Version Control",
+        "weight": 0.4923
+      },
+      {
+        "name": "Debugging Skills",
+        "weight": 0.4462
+      },
+      {
+        "name": "Responsive/Adaptive Design Concepts",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_flutter"
+  },
+  {
+    "id": 17,
+    "gid": 100000017,
+    "name": "React Native",
+    "entity_type": "Framework",
+    "entity_subtype": "Cross-Platform Mobile Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Mobile Development",
+      "specialization": "Cross-Platform Frameworks"
+    },
+    "aliases": [
+      "React Native",
+      "RN",
+      "ReactNative",
+      "Meta React Native",
+      "Facebook React Native"
+    ],
+    "concepts": [
+      {
+        "name": "Components",
+        "weight": 1.0
+      },
+      {
+        "name": "Core Components (View/Text/Image/ScrollView)",
+        "weight": 0.5442
+      },
+      {
+        "name": "Props",
+        "weight": 0.6668
+      },
+      {
+        "name": "State",
+        "weight": 0.6668
+      },
+      {
+        "name": "Hooks (useState/useEffect)",
+        "weight": 0.6668
+      },
+      {
+        "name": "JSX",
+        "weight": 0.2373
+      },
+      {
+        "name": "StyleSheet API",
+        "weight": 0.6668
+      },
+      {
+        "name": "Flexbox Layout",
+        "weight": 0.5442
+      },
+      {
+        "name": "React Navigation",
+        "weight": 0.6668
+      },
+      {
+        "name": "Stack Navigator",
+        "weight": 0.2271
+      },
+      {
+        "name": "Tab Navigator",
+        "weight": 0.2245
+      },
+      {
+        "name": "Drawer Navigator",
+        "weight": 0.222
+      },
+      {
+        "name": "Native Modules",
+        "weight": 0.8069
+      },
+      {
+        "name": "Native Bridge (Old Architecture)",
+        "weight": 0.2169
+      },
+      {
+        "name": "JSI (JavaScript Interface)",
+        "weight": 0.4507
+      },
+      {
+        "name": "New Architecture (Fabric/TurboModules)",
+        "weight": 0.622
+      },
+      {
+        "name": "Platform-Specific Code (Platform.OS)",
+        "weight": 0.6832
+      },
+      {
+        "name": "Platform-Specific Files (.ios.js/.android.js)",
+        "weight": 0.2067
+      },
+      {
+        "name": "Async Storage",
+        "weight": 0.2041
+      },
+      {
+        "name": "SecureStore",
+        "weight": 0.2016
+      },
+      {
+        "name": "Networking (fetch/axios)",
+        "weight": 0.5442
+      },
+      {
+        "name": "REST API Integration",
+        "weight": 0.1965
+      },
+      {
+        "name": "GraphQL Integration",
+        "weight": 0.1939
+      },
+      {
+        "name": "State Management (Redux/Context/Zustand)",
+        "weight": 0.5442
+      },
+      {
+        "name": "Animations (Animated API)",
+        "weight": 0.1888
+      },
+      {
+        "name": "Reanimated",
+        "weight": 0.1863
+      },
+      {
+        "name": "Gesture Handling",
+        "weight": 0.1837
+      },
+      {
+        "name": "React Native Gesture Handler",
+        "weight": 0.1812
+      },
+      {
+        "name": "Push Notifications",
+        "weight": 0.5119
+      },
+      {
+        "name": "Deep Linking",
+        "weight": 0.1761
+      },
+      {
+        "name": "Permissions Handling",
+        "weight": 0.5119
+      },
+      {
+        "name": "Camera/Media Access",
+        "weight": 0.171
+      },
+      {
+        "name": "Geolocation",
+        "weight": 0.1684
+      },
+      {
+        "name": "Expo (Managed Workflow)",
+        "weight": 0.7155
+      },
+      {
+        "name": "Expo CLI",
+        "weight": 0.1633
+      },
+      {
+        "name": "Bare Workflow",
+        "weight": 0.5213
+      },
+      {
+        "name": "EAS Build",
+        "weight": 0.1582
+      },
+      {
+        "name": "Metro Bundler",
+        "weight": 0.1557
+      },
+      {
+        "name": "Hermes Engine",
+        "weight": 0.1531
+      },
+      {
+        "name": "Debugging (Flipper/React Native Debugger)",
+        "weight": 0.4245
+      },
+      {
+        "name": "Testing (Jest/Detox)",
+        "weight": 0.6187
+      },
+      {
+        "name": "Unit Testing",
+        "weight": 0.1455
+      },
+      {
+        "name": "E2E Testing",
+        "weight": 0.4245
+      },
+      {
+        "name": "Performance Optimization",
+        "weight": 0.5213
+      },
+      {
+        "name": "FlatList Optimization",
+        "weight": 0.1378
+      },
+      {
+        "name": "Native Module Development (iOS Swift/Objective-C)",
+        "weight": 0.4507
+      },
+      {
+        "name": "Native Module Development (Android Kotlin/Java)",
+        "weight": 0.4507
+      },
+      {
+        "name": "CodePush / OTA Updates",
+        "weight": 0.1302
+      },
+      {
+        "name": "App Store / Play Store Deployment",
+        "weight": 0.5119
+      },
+      {
+        "name": "Accessibility (a11y)",
+        "weight": 0.1251
+      },
+      {
+        "name": "Internationalization (i18n)",
+        "weight": 0.1225
+      },
+      {
+        "name": "TypeScript with React Native",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JavaScript",
+        "weight": 1.0
+      },
+      {
+        "name": "ES6+ Syntax",
+        "weight": 0.9684
+      },
+      {
+        "name": "React",
+        "weight": 0.9368
+      },
+      {
+        "name": "Components",
+        "weight": 0.9053
+      },
+      {
+        "name": "Props",
+        "weight": 0.8737
+      },
+      {
+        "name": "State",
+        "weight": 0.8421
+      },
+      {
+        "name": "Hooks",
+        "weight": 0.8105
+      },
+      {
+        "name": "JSX",
+        "weight": 0.7789
+      },
+      {
+        "name": "TypeScript (recommended)",
+        "weight": 0.7474
+      },
+      {
+        "name": "Mobile UI/UX Concepts",
+        "weight": 0.7158
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.6842
+      },
+      {
+        "name": "REST APIs Concept",
+        "weight": 0.6526
+      },
+      {
+        "name": "JSON",
+        "weight": 0.6211
+      },
+      {
+        "name": "Async/Await",
+        "weight": 0.5895
+      },
+      {
+        "name": "Git",
+        "weight": 0.5579
+      },
+      {
+        "name": "npm/yarn",
+        "weight": 0.5263
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4947
+      },
+      {
+        "name": "Android Studio / Xcode Basics",
+        "weight": 0.4632
+      },
+      {
+        "name": "Flexbox",
+        "weight": 0.4316
+      },
+      {
+        "name": "Debugging Skills",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_react_native"
+  },
+  {
+    "id": 18,
+    "gid": 100000018,
+    "name": "LangChain",
+    "entity_type": "AI Framework",
+    "entity_subtype": "LLM Application Orchestration Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Generative AI",
+      "specialization": "LLM Orchestration Frameworks"
+    },
+    "aliases": [
+      "LangChain",
+      "Lang Chain",
+      "langchain.com",
+      "LangChain Python",
+      "LangChain JS"
+    ],
+    "concepts": [
+      {
+        "name": "Chains",
+        "weight": 0.8468
+      },
+      {
+        "name": "LLMChain",
+        "weight": 0.5365
+      },
+      {
+        "name": "Sequential Chains",
+        "weight": 0.2457
+      },
+      {
+        "name": "Prompt Templates",
+        "weight": 0.8468
+      },
+      {
+        "name": "PromptTemplate",
+        "weight": 0.2415
+      },
+      {
+        "name": "ChatPromptTemplate",
+        "weight": 0.2393
+      },
+      {
+        "name": "Few-Shot Prompting",
+        "weight": 0.2372
+      },
+      {
+        "name": "Output Parsers",
+        "weight": 0.5397
+      },
+      {
+        "name": "Structured Output",
+        "weight": 0.233
+      },
+      {
+        "name": "Pydantic Output Parsers",
+        "weight": 0.2308
+      },
+      {
+        "name": "Agents",
+        "weight": 1.0
+      },
+      {
+        "name": "Agent Executors",
+        "weight": 0.5397
+      },
+      {
+        "name": "ReAct Agents",
+        "weight": 0.2244
+      },
+      {
+        "name": "Tool Calling",
+        "weight": 0.5397
+      },
+      {
+        "name": "Tools",
+        "weight": 0.5365
+      },
+      {
+        "name": "Custom Tools",
+        "weight": 0.218
+      },
+      {
+        "name": "Toolkits",
+        "weight": 0.2159
+      },
+      {
+        "name": "Memory",
+        "weight": 0.8913
+      },
+      {
+        "name": "ConversationBufferMemory",
+        "weight": 0.515
+      },
+      {
+        "name": "ConversationSummaryMemory",
+        "weight": 0.515
+      },
+      {
+        "name": "Vector Store Memory",
+        "weight": 0.2074
+      },
+      {
+        "name": "Retrieval-Augmented Generation (RAG)",
+        "weight": 0.864
+      },
+      {
+        "name": "Document Loaders",
+        "weight": 0.5397
+      },
+      {
+        "name": "Text Splitters",
+        "weight": 0.5397
+      },
+      {
+        "name": "Chunking Strategies",
+        "weight": 0.1989
+      },
+      {
+        "name": "Embeddings",
+        "weight": 0.7926
+      },
+      {
+        "name": "Vector Stores",
+        "weight": 0.864
+      },
+      {
+        "name": "FAISS",
+        "weight": 0.1925
+      },
+      {
+        "name": "Chroma",
+        "weight": 0.1903
+      },
+      {
+        "name": "Pinecone Integration",
+        "weight": 0.1882
+      },
+      {
+        "name": "Weaviate Integration",
+        "weight": 0.1861
+      },
+      {
+        "name": "Retrievers",
+        "weight": 0.1839
+      },
+      {
+        "name": "Similarity Search",
+        "weight": 0.4684
+      },
+      {
+        "name": "MMR (Maximal Marginal Relevance)",
+        "weight": 0.1797
+      },
+      {
+        "name": "LCEL (LangChain Expression Language)",
+        "weight": 0.5365
+      },
+      {
+        "name": "Runnables",
+        "weight": 0.1754
+      },
+      {
+        "name": "RunnableSequence",
+        "weight": 0.1733
+      },
+      {
+        "name": "RunnableParallel",
+        "weight": 0.1711
+      },
+      {
+        "name": "Callbacks",
+        "weight": 0.169
+      },
+      {
+        "name": "Streaming",
+        "weight": 0.4705
+      },
+      {
+        "name": "LangSmith (Observability/Tracing)",
+        "weight": 0.5365
+      },
+      {
+        "name": "LangGraph (Multi-Agent Workflows)",
+        "weight": 0.4587
+      },
+      {
+        "name": "LangServe (API Deployment)",
+        "weight": 0.6603
+      },
+      {
+        "name": "Model Integrations (OpenAI/Anthropic/HuggingFace)",
+        "weight": 0.7948
+      },
+      {
+        "name": "Chat Models",
+        "weight": 0.515
+      },
+      {
+        "name": "LLM Wrappers",
+        "weight": 0.1541
+      },
+      {
+        "name": "System Prompts",
+        "weight": 0.515
+      },
+      {
+        "name": "Multi-Turn Conversations",
+        "weight": 0.515
+      },
+      {
+        "name": "Document QA",
+        "weight": 0.4684
+      },
+      {
+        "name": "Summarization Chains",
+        "weight": 0.4684
+      },
+      {
+        "name": "Question Answering Chains",
+        "weight": 0.4684
+      },
+      {
+        "name": "SQL Agents",
+        "weight": 0.1413
+      },
+      {
+        "name": "Router Chains",
+        "weight": 0.1392
+      },
+      {
+        "name": "Self-Query Retrievers",
+        "weight": 0.4587
+      },
+      {
+        "name": "Context Window Management",
+        "weight": 0.1349
+      },
+      {
+        "name": "Token Counting",
+        "weight": 0.1328
+      },
+      {
+        "name": "Caching (LLM Responses)",
+        "weight": 0.1307
+      },
+      {
+        "name": "Evaluation (LangSmith Evals)",
+        "weight": 0.5965
+      },
+      {
+        "name": "Human-in-the-Loop",
+        "weight": 0.4587
+      },
+      {
+        "name": "Guardrails",
+        "weight": 0.515
+      },
+      {
+        "name": "Multi-Modal Chains",
+        "weight": 0.1221
+      },
+      {
+        "name": "Structured Data Extraction",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python",
+        "weight": 1.0
+      },
+      {
+        "name": "JavaScript (for LangChain JS)",
+        "weight": 0.9571
+      },
+      {
+        "name": "Large Language Models (LLM) Fundamentals",
+        "weight": 0.9143
+      },
+      {
+        "name": "Prompt Engineering",
+        "weight": 0.8714
+      },
+      {
+        "name": "APIs and REST",
+        "weight": 0.8286
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7857
+      },
+      {
+        "name": "Embeddings Concept",
+        "weight": 0.7429
+      },
+      {
+        "name": "Vector Databases Concept",
+        "weight": 0.7
+      },
+      {
+        "name": "NLP Basics",
+        "weight": 0.6571
+      },
+      {
+        "name": "Async/Await",
+        "weight": 0.6143
+      },
+      {
+        "name": "Git",
+        "weight": 0.5714
+      },
+      {
+        "name": "Environment Variables / API Key Management",
+        "weight": 0.5286
+      },
+      {
+        "name": "OpenAI API Basics",
+        "weight": 0.4857
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.4429
+      },
+      {
+        "name": "Tokenization Concept",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_langchain"
+  },
+  {
+    "id": 19,
+    "gid": 100000019,
+    "name": "LlamaIndex",
+    "entity_type": "AI Framework",
+    "entity_subtype": "Data Framework for LLM Applications",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Generative AI",
+      "specialization": "Retrieval-Augmented Generation Frameworks"
+    },
+    "aliases": [
+      "LlamaIndex",
+      "Llama Index",
+      "GPT Index (legacy name)",
+      "llamaindex.ai"
+    ],
+    "concepts": [
+      {
+        "name": "Data Connectors",
+        "weight": 0.8728
+      },
+      {
+        "name": "Document Loaders (LlamaHub)",
+        "weight": 0.5455
+      },
+      {
+        "name": "Nodes",
+        "weight": 0.5524
+      },
+      {
+        "name": "Node Parsers",
+        "weight": 0.6773
+      },
+      {
+        "name": "Text Splitters",
+        "weight": 0.2407
+      },
+      {
+        "name": "Chunking Strategies",
+        "weight": 0.4749
+      },
+      {
+        "name": "Indexes",
+        "weight": 0.6621
+      },
+      {
+        "name": "Vector Store Index",
+        "weight": 1.0
+      },
+      {
+        "name": "List Index",
+        "weight": 0.2314
+      },
+      {
+        "name": "Tree Index",
+        "weight": 0.2291
+      },
+      {
+        "name": "Keyword Table Index",
+        "weight": 0.2268
+      },
+      {
+        "name": "Knowledge Graph Index",
+        "weight": 0.2245
+      },
+      {
+        "name": "Summary Index",
+        "weight": 0.2221
+      },
+      {
+        "name": "Query Engines",
+        "weight": 0.8645
+      },
+      {
+        "name": "Retriever Query Engine",
+        "weight": 0.5524
+      },
+      {
+        "name": "Router Query Engine",
+        "weight": 0.2152
+      },
+      {
+        "name": "SubQuestion Query Engine",
+        "weight": 0.5524
+      },
+      {
+        "name": "Retrievers",
+        "weight": 0.681
+      },
+      {
+        "name": "Similarity Search",
+        "weight": 0.2082
+      },
+      {
+        "name": "Top-K Retrieval",
+        "weight": 0.2059
+      },
+      {
+        "name": "Hybrid Search",
+        "weight": 0.2036
+      },
+      {
+        "name": "Reranking",
+        "weight": 0.5524
+      },
+      {
+        "name": "Response Synthesizers",
+        "weight": 0.7478
+      },
+      {
+        "name": "Compact Response Mode",
+        "weight": 0.1966
+      },
+      {
+        "name": "Tree Summarize Mode",
+        "weight": 0.1943
+      },
+      {
+        "name": "Refine Response Mode",
+        "weight": 0.192
+      },
+      {
+        "name": "Vector Stores",
+        "weight": 0.1896
+      },
+      {
+        "name": "Chroma Integration",
+        "weight": 0.1873
+      },
+      {
+        "name": "Pinecone Integration",
+        "weight": 0.185
+      },
+      {
+        "name": "Weaviate Integration",
+        "weight": 0.1827
+      },
+      {
+        "name": "FAISS Integration",
+        "weight": 0.1804
+      },
+      {
+        "name": "Embeddings",
+        "weight": 0.681
+      },
+      {
+        "name": "Embedding Models",
+        "weight": 0.4855
+      },
+      {
+        "name": "Storage Context",
+        "weight": 0.6704
+      },
+      {
+        "name": "Persisting Indexes",
+        "weight": 0.1711
+      },
+      {
+        "name": "Service Context / Settings",
+        "weight": 0.1688
+      },
+      {
+        "name": "LLM Integrations (OpenAI/Anthropic/HuggingFace)",
+        "weight": 0.5455
+      },
+      {
+        "name": "Prompt Templates",
+        "weight": 0.1641
+      },
+      {
+        "name": "Query Transformations",
+        "weight": 0.4609
+      },
+      {
+        "name": "Sub-Question Query Decomposition",
+        "weight": 0.4609
+      },
+      {
+        "name": "Agents (LlamaIndex Agents)",
+        "weight": 0.5001
+      },
+      {
+        "name": "Tool Calling",
+        "weight": 0.1548
+      },
+      {
+        "name": "ReAct Agents",
+        "weight": 0.1525
+      },
+      {
+        "name": "Chat Engines",
+        "weight": 0.7024
+      },
+      {
+        "name": "Condense Question Chat Engine",
+        "weight": 0.5001
+      },
+      {
+        "name": "Context Chat Engine",
+        "weight": 0.5001
+      },
+      {
+        "name": "Memory (Chat Memory Buffer)",
+        "weight": 0.5001
+      },
+      {
+        "name": "Multi-Document Agents",
+        "weight": 0.1409
+      },
+      {
+        "name": "Structured Data Extraction",
+        "weight": 0.4666
+      },
+      {
+        "name": "Pydantic Programs",
+        "weight": 0.1362
+      },
+      {
+        "name": "Evaluation (Faithfulness/Relevancy)",
+        "weight": 0.6022
+      },
+      {
+        "name": "Observability (LlamaTrace)",
+        "weight": 0.1316
+      },
+      {
+        "name": "Ingestion Pipelines",
+        "weight": 0.6773
+      },
+      {
+        "name": "Metadata Filtering",
+        "weight": 0.4749
+      },
+      {
+        "name": "Multi-Modal RAG (Images/Text)",
+        "weight": 0.4609
+      },
+      {
+        "name": "Property Graph Index",
+        "weight": 0.4609
+      },
+      {
+        "name": "Workflows (LlamaIndex Workflows)",
+        "weight": 0.4609
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python",
+        "weight": 1.0
+      },
+      {
+        "name": "Large Language Models (LLM) Fundamentals",
+        "weight": 0.9538
+      },
+      {
+        "name": "Prompt Engineering",
+        "weight": 0.9077
+      },
+      {
+        "name": "Embeddings Concept",
+        "weight": 0.8615
+      },
+      {
+        "name": "Vector Databases Concept",
+        "weight": 0.8154
+      },
+      {
+        "name": "NLP Basics",
+        "weight": 0.7692
+      },
+      {
+        "name": "APIs and REST",
+        "weight": 0.7231
+      },
+      {
+        "name": "JSON",
+        "weight": 0.6769
+      },
+      {
+        "name": "Async/Await",
+        "weight": 0.6308
+      },
+      {
+        "name": "Git",
+        "weight": 0.5846
+      },
+      {
+        "name": "Environment Variables / API Key Management",
+        "weight": 0.5385
+      },
+      {
+        "name": "OpenAI API Basics",
+        "weight": 0.4923
+      },
+      {
+        "name": "Retrieval-Augmented Generation (RAG) Concept",
+        "weight": 0.4462
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_llamaindex"
+  },
+  {
+    "id": 31,
+    "gid": 100000031,
+    "name": "Deep Learning",
+    "entity_type": "AI Framework",
+    "entity_subtype": "Neural Network-Based Machine Learning",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Machine Learning",
+      "specialization": "Deep Neural Networks"
+    },
+    "aliases": [
+      "DL",
+      "Deep Learning",
+      "Deep Neural Networks",
+      "DNN"
+    ],
+    "concepts": [
+      {
+        "name": "Artificial Neural Networks",
+        "weight": 0.9363
+      },
+      {
+        "name": "Perceptron",
+        "weight": 0.2472
+      },
+      {
+        "name": "Multi-Layer Perceptron",
+        "weight": 0.2445
+      },
+      {
+        "name": "Activation Functions",
+        "weight": 0.2417
+      },
+      {
+        "name": "ReLU",
+        "weight": 0.2389
+      },
+      {
+        "name": "Sigmoid",
+        "weight": 0.2362
+      },
+      {
+        "name": "Tanh",
+        "weight": 0.2334
+      },
+      {
+        "name": "Softmax",
+        "weight": 0.2306
+      },
+      {
+        "name": "Backpropagation",
+        "weight": 0.7719
+      },
+      {
+        "name": "Gradient Descent",
+        "weight": 0.2251
+      },
+      {
+        "name": "Stochastic Gradient Descent",
+        "weight": 0.2223
+      },
+      {
+        "name": "Adam Optimizer",
+        "weight": 0.2196
+      },
+      {
+        "name": "Loss Functions",
+        "weight": 0.2168
+      },
+      {
+        "name": "Convolutional Neural Networks",
+        "weight": 0.7832
+      },
+      {
+        "name": "CNN",
+        "weight": 0.2113
+      },
+      {
+        "name": "Recurrent Neural Networks",
+        "weight": 0.7807
+      },
+      {
+        "name": "RNN",
+        "weight": 0.2057
+      },
+      {
+        "name": "LSTM",
+        "weight": 0.5574
+      },
+      {
+        "name": "GRU",
+        "weight": 0.2002
+      },
+      {
+        "name": "Transformers",
+        "weight": 1.0
+      },
+      {
+        "name": "Attention Mechanism",
+        "weight": 1.0
+      },
+      {
+        "name": "Self-Attention",
+        "weight": 0.5693
+      },
+      {
+        "name": "Encoder-Decoder Architecture",
+        "weight": 0.1891
+      },
+      {
+        "name": "Generative Adversarial Networks",
+        "weight": 0.5693
+      },
+      {
+        "name": "GAN",
+        "weight": 0.1836
+      },
+      {
+        "name": "Autoencoders",
+        "weight": 0.1809
+      },
+      {
+        "name": "Variational Autoencoders",
+        "weight": 0.1781
+      },
+      {
+        "name": "Diffusion Models",
+        "weight": 0.5693
+      },
+      {
+        "name": "Transfer Learning",
+        "weight": 0.9818
+      },
+      {
+        "name": "Fine-Tuning",
+        "weight": 0.7034
+      },
+      {
+        "name": "Dropout",
+        "weight": 0.167
+      },
+      {
+        "name": "Batch Normalization",
+        "weight": 0.1643
+      },
+      {
+        "name": "Overfitting",
+        "weight": 0.5145
+      },
+      {
+        "name": "Regularization",
+        "weight": 0.713
+      },
+      {
+        "name": "Weight Initialization",
+        "weight": 0.156
+      },
+      {
+        "name": "Hyperparameter Tuning",
+        "weight": 0.5145
+      },
+      {
+        "name": "GPU Acceleration",
+        "weight": 0.7034
+      },
+      {
+        "name": "TensorFlow",
+        "weight": 0.7282
+      },
+      {
+        "name": "PyTorch",
+        "weight": 0.7282
+      },
+      {
+        "name": "Keras",
+        "weight": 0.5145
+      },
+      {
+        "name": "Model Architecture Design",
+        "weight": 0.7241
+      },
+      {
+        "name": "Large Language Models",
+        "weight": 0.7767
+      },
+      {
+        "name": "Pretraining",
+        "weight": 0.1338
+      },
+      {
+        "name": "Embeddings",
+        "weight": 0.5574
+      },
+      {
+        "name": "Sequence-to-Sequence Models",
+        "weight": 0.5574
+      },
+      {
+        "name": "Object Detection",
+        "weight": 0.5599
+      },
+      {
+        "name": "Image Segmentation",
+        "weight": 0.5599
+      },
+      {
+        "name": "Vision Transformers",
+        "weight": 0.5599
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Machine Learning",
+        "weight": 1.0
+      },
+      {
+        "name": "Python",
+        "weight": 0.94
+      },
+      {
+        "name": "Linear Algebra",
+        "weight": 0.88
+      },
+      {
+        "name": "Calculus",
+        "weight": 0.82
+      },
+      {
+        "name": "Probability and Statistics",
+        "weight": 0.76
+      },
+      {
+        "name": "Numpy",
+        "weight": 0.7
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.64
+      },
+      {
+        "name": "Algorithms",
+        "weight": 0.58
+      },
+      {
+        "name": "Neural Networks Basics",
+        "weight": 0.52
+      },
+      {
+        "name": "Optimization Basics",
+        "weight": 0.46
+      },
+      {
+        "name": "GPU Computing Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_deep_learning"
+  },
+  {
+    "id": 89,
+    "gid": 100000089,
+    "name": "MLflow",
+    "entity_type": "ML Framework",
+    "entity_subtype": "Machine Learning Lifecycle Management Platform",
+    "hierarchy": {
+      "domain": "Data",
+      "category": "Machine Learning",
+      "sub_category": "MLOps",
+      "specialization": "ML Lifecycle Management Tools"
+    },
+    "aliases": [
+      "MLflow",
+      "ML Flow",
+      "Databricks MLflow"
+    ],
+    "concepts": [
+      {
+        "name": "Experiment Tracking",
+        "weight": 0.9646
+      },
+      {
+        "name": "MLflow Tracking",
+        "weight": 0.671
+      },
+      {
+        "name": "Runs",
+        "weight": 0.2347
+      },
+      {
+        "name": "Parameters Logging",
+        "weight": 0.6436
+      },
+      {
+        "name": "Metrics Logging",
+        "weight": 0.6436
+      },
+      {
+        "name": "Artifacts",
+        "weight": 0.2118
+      },
+      {
+        "name": "MLflow Models",
+        "weight": 0.2041
+      },
+      {
+        "name": "Model Registry",
+        "weight": 1.0
+      },
+      {
+        "name": "Model Versioning",
+        "weight": 0.671
+      },
+      {
+        "name": "Model Staging (Staging/Production)",
+        "weight": 0.679
+      },
+      {
+        "name": "MLflow Projects",
+        "weight": 0.1735
+      },
+      {
+        "name": "Flavors",
+        "weight": 0.1659
+      },
+      {
+        "name": "Model Serving",
+        "weight": 0.679
+      },
+      {
+        "name": "MLflow UI",
+        "weight": 0.1506
+      },
+      {
+        "name": "Autologging",
+        "weight": 0.6436
+      },
+      {
+        "name": "REST API",
+        "weight": 0.1353
+      },
+      {
+        "name": "Model Deployment",
+        "weight": 0.671
+      },
+      {
+        "name": "Reproducibility",
+        "weight": 0.679
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Machine Learning Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Model Training Concepts",
+        "weight": 0.6
+      },
+      {
+        "name": "Version Control Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_mlflow"
+  },
+  {
+    "id": 90,
+    "gid": 100000090,
+    "name": "Kubeflow",
+    "entity_type": "ML Framework",
+    "entity_subtype": "Machine Learning Orchestration Platform on Kubernetes",
+    "hierarchy": {
+      "domain": "Data",
+      "category": "Machine Learning",
+      "sub_category": "MLOps",
+      "specialization": "ML Orchestration Platforms"
+    },
+    "aliases": [
+      "Kubeflow",
+      "Kubeflow Pipelines",
+      "KFP"
+    ],
+    "concepts": [
+      {
+        "name": "Kubeflow Pipelines",
+        "weight": 1.0
+      },
+      {
+        "name": "Notebook Servers",
+        "weight": 0.2382
+      },
+      {
+        "name": "Katib (Hyperparameter Tuning)",
+        "weight": 0.6879
+      },
+      {
+        "name": "KFServing/KServe",
+        "weight": 0.6621
+      },
+      {
+        "name": "Training Operators (TFJob, PyTorchJob)",
+        "weight": 0.9306
+      },
+      {
+        "name": "Components",
+        "weight": 0.1909
+      },
+      {
+        "name": "Pipeline DSL",
+        "weight": 0.6621
+      },
+      {
+        "name": "Experiment Tracking",
+        "weight": 0.1673
+      },
+      {
+        "name": "Metadata Store",
+        "weight": 0.6879
+      },
+      {
+        "name": "Multi-Tenancy",
+        "weight": 0.9564
+      },
+      {
+        "name": "Central Dashboard",
+        "weight": 0.6185
+      },
+      {
+        "name": "Fairing",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Kubernetes",
+        "weight": 1.0
+      },
+      {
+        "name": "Docker",
+        "weight": 0.8
+      },
+      {
+        "name": "Machine Learning Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Python Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_kubeflow"
+  },
+  {
+    "id": 148,
+    "gid": 100000148,
+    "name": "Tailwind CSS",
+    "entity_type": "Framework",
+    "entity_subtype": "Utility-First CSS Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Frontend Development",
+      "specialization": "CSS Frameworks"
+    },
+    "aliases": [
+      "Tailwind CSS",
+      "Tailwind",
+      "TailwindCSS"
+    ],
+    "concepts": [
+      {
+        "name": "Utility Classes",
+        "weight": 1.0
+      },
+      {
+        "name": "Responsive Design Utilities",
+        "weight": 0.7774
+      },
+      {
+        "name": "Configuration File (tailwind.config.js)",
+        "weight": 0.7774
+      },
+      {
+        "name": "JIT (Just-In-Time) Compiler",
+        "weight": 0.2067
+      },
+      {
+        "name": "Custom Themes",
+        "weight": 0.5726
+      },
+      {
+        "name": "Dark Mode Utilities",
+        "weight": 0.5844
+      },
+      {
+        "name": "PurgeCSS/Content Purging",
+        "weight": 0.1633
+      },
+      {
+        "name": "Component Extraction (@apply)",
+        "weight": 0.1489
+      },
+      {
+        "name": "Plugins (Tailwind)",
+        "weight": 0.1344
+      },
+      {
+        "name": "Design Tokens",
+        "weight": 0.5726
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "CSS",
+        "weight": 1.0
+      },
+      {
+        "name": "HTML",
+        "weight": 0.7
+      },
+      {
+        "name": "Node.js",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_tailwind_css"
+  },
+  {
+    "id": 150,
+    "gid": 100000150,
+    "name": "Svelte",
+    "entity_type": "Framework",
+    "entity_subtype": "Compiler-Based Frontend Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Frontend Development",
+      "specialization": "JavaScript Frameworks"
+    },
+    "aliases": [
+      "Svelte",
+      "SvelteKit",
+      "Svelte 5"
+    ],
+    "concepts": [
+      {
+        "name": "Compile-Time Reactivity",
+        "weight": 0.6909
+      },
+      {
+        "name": "Components (.svelte files)",
+        "weight": 0.6909
+      },
+      {
+        "name": "Reactive Declarations ($:)",
+        "weight": 0.6909
+      },
+      {
+        "name": "Stores",
+        "weight": 1.0
+      },
+      {
+        "name": "Props",
+        "weight": 0.6909
+      },
+      {
+        "name": "Slots",
+        "weight": 0.2
+      },
+      {
+        "name": "Events",
+        "weight": 0.19
+      },
+      {
+        "name": "Bindings (bind:)",
+        "weight": 0.18
+      },
+      {
+        "name": "SvelteKit Routing",
+        "weight": 0.6591
+      },
+      {
+        "name": "Server-Side Rendering (SvelteKit)",
+        "weight": 0.6591
+      },
+      {
+        "name": "Actions (use:)",
+        "weight": 0.15
+      },
+      {
+        "name": "Transitions and Animations",
+        "weight": 0.14
+      },
+      {
+        "name": "No Virtual DOM",
+        "weight": 0.13
+      },
+      {
+        "name": "Runes (Svelte 5)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JavaScript",
+        "weight": 1.0
+      },
+      {
+        "name": "HTML",
+        "weight": 0.8
+      },
+      {
+        "name": "CSS",
+        "weight": 0.6
+      },
+      {
+        "name": "ES6",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_svelte"
+  },
+  {
+    "id": 153,
+    "gid": 100000153,
+    "name": "Ruby on Rails",
+    "entity_type": "Framework",
+    "entity_subtype": "Full-Stack Web Application Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Backend Development",
+      "specialization": "Ruby Web Frameworks"
+    },
+    "aliases": [
+      "Ruby on Rails",
+      "Rails",
+      "RoR"
+    ],
+    "concepts": [
+      {
+        "name": "MVC Pattern",
+        "weight": 0.9811
+      },
+      {
+        "name": "ActiveRecord ORM",
+        "weight": 1.0
+      },
+      {
+        "name": "RESTful Routing",
+        "weight": 1.0
+      },
+      {
+        "name": "Convention over Configuration",
+        "weight": 0.7012
+      },
+      {
+        "name": "Migrations",
+        "weight": 1.0
+      },
+      {
+        "name": "ERB Templating",
+        "weight": 0.63
+      },
+      {
+        "name": "Action Controller",
+        "weight": 0.6488
+      },
+      {
+        "name": "Action View",
+        "weight": 0.1893
+      },
+      {
+        "name": "Gemfile / Bundler",
+        "weight": 0.7012
+      },
+      {
+        "name": "Rake Tasks",
+        "weight": 0.172
+      },
+      {
+        "name": "Asset Pipeline",
+        "weight": 0.63
+      },
+      {
+        "name": "Turbo/Hotwire",
+        "weight": 0.63
+      },
+      {
+        "name": "RSpec Testing",
+        "weight": 0.146
+      },
+      {
+        "name": "ActionCable (WebSockets)",
+        "weight": 0.1373
+      },
+      {
+        "name": "Scaffolding",
+        "weight": 0.1287
+      },
+      {
+        "name": "Rails Console",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Ruby",
+        "weight": 1.0
+      },
+      {
+        "name": "Object-Oriented Programming Concepts",
+        "weight": 0.85
+      },
+      {
+        "name": "SQL",
+        "weight": 0.7
+      },
+      {
+        "name": "HTTP",
+        "weight": 0.55
+      },
+      {
+        "name": "MVC Pattern Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_ruby_on_rails"
+  },
+  {
+    "id": 154,
+    "gid": 100000154,
+    "name": "DVC",
+    "entity_type": "ML Framework",
+    "entity_subtype": "Data and ML Pipeline Version Control Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "MLOps",
+      "sub_category": "ML Pipeline Tools",
+      "specialization": "Data Version Control"
+    },
+    "aliases": [
+      "DVC",
+      "Data Version Control"
+    ],
+    "concepts": [
+      {
+        "name": "Data Versioning",
+        "weight": 1.0
+      },
+      {
+        "name": "Pipeline Stages (dvc.yaml)",
+        "weight": 0.6948
+      },
+      {
+        "name": "Remote Storage Backends (S3, GCS, Azure)",
+        "weight": 0.9515
+      },
+      {
+        "name": "Reproducible Pipelines",
+        "weight": 0.6948
+      },
+      {
+        "name": "Experiment Tracking (DVC)",
+        "weight": 0.6552
+      },
+      {
+        "name": "Data Registries",
+        "weight": 0.6067
+      },
+      {
+        "name": "Metrics Tracking",
+        "weight": 0.6552
+      },
+      {
+        "name": "Cache Management",
+        "weight": 0.6067
+      },
+      {
+        "name": "Git Integration",
+        "weight": 0.1344
+      },
+      {
+        "name": "DVC Studio",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Git",
+        "weight": 1.0
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.8
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.6
+      },
+      {
+        "name": "Python Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_dvc"
+  },
+  {
+    "id": 155,
+    "gid": 100000155,
+    "name": "Weights & Biases",
+    "entity_type": "ML Framework",
+    "entity_subtype": "Experiment Tracking and Model Management Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "MLOps",
+      "sub_category": "Experiment Tracking Tools",
+      "specialization": "ML Experiment Management"
+    },
+    "aliases": [
+      "Weights & Biases",
+      "W&B",
+      "WandB"
+    ],
+    "concepts": [
+      {
+        "name": "Experiment Tracking",
+        "weight": 1.0
+      },
+      {
+        "name": "Run Logging",
+        "weight": 0.6972
+      },
+      {
+        "name": "Hyperparameter Sweeps",
+        "weight": 0.6972
+      },
+      {
+        "name": "Model Versioning (W&B Artifacts)",
+        "weight": 0.6794
+      },
+      {
+        "name": "Dashboards and Visualization",
+        "weight": 0.9822
+      },
+      {
+        "name": "Team Collaboration",
+        "weight": 0.1688
+      },
+      {
+        "name": "Integration with PyTorch/TensorFlow",
+        "weight": 0.6972
+      },
+      {
+        "name": "Reports (W&B)",
+        "weight": 0.6528
+      },
+      {
+        "name": "Model Registry (W&B)",
+        "weight": 0.6794
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.7
+      },
+      {
+        "name": "Deep Learning Basics (Recommended)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_weights_biases"
+  },
+  {
+    "id": 156,
+    "gid": 100000156,
+    "name": "TensorBoard",
+    "entity_type": "ML Framework",
+    "entity_subtype": "ML Experiment Visualization Toolkit",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "MLOps",
+      "sub_category": "Experiment Tracking Tools",
+      "specialization": "Training Visualization"
+    },
+    "aliases": [
+      "TensorBoard"
+    ],
+    "concepts": [
+      {
+        "name": "Scalar Metrics Logging",
+        "weight": 1.0
+      },
+      {
+        "name": "Graph Visualization",
+        "weight": 0.6934
+      },
+      {
+        "name": "Histogram Dashboard",
+        "weight": 0.6566
+      },
+      {
+        "name": "Embedding Projector",
+        "weight": 0.185
+      },
+      {
+        "name": "Profiler (TensorBoard)",
+        "weight": 0.1633
+      },
+      {
+        "name": "Hyperparameter Tuning Visualization",
+        "weight": 0.1417
+      },
+      {
+        "name": "Integration with TensorFlow/PyTorch",
+        "weight": 0.6934
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "TensorFlow or PyTorch Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_tensorboard"
+  },
+  {
+    "id": 157,
+    "gid": 100000157,
+    "name": "BentoML",
+    "entity_type": "ML Framework",
+    "entity_subtype": "Model Serving and Deployment Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "MLOps",
+      "sub_category": "Model Serving Tools",
+      "specialization": "ML Model Deployment"
+    },
+    "aliases": [
+      "BentoML"
+    ],
+    "concepts": [
+      {
+        "name": "Bento (Deployable Artifact)",
+        "weight": 1.0
+      },
+      {
+        "name": "Model Packaging",
+        "weight": 1.0
+      },
+      {
+        "name": "Service Definitions (BentoML)",
+        "weight": 0.9333
+      },
+      {
+        "name": "API Serving",
+        "weight": 1.0
+      },
+      {
+        "name": "Adaptive Batching",
+        "weight": 0.9333
+      },
+      {
+        "name": "Model Runners",
+        "weight": 0.9333
+      },
+      {
+        "name": "Containerization Integration (Docker)",
+        "weight": 1.0
+      },
+      {
+        "name": "Multi-Framework Support",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.8
+      },
+      {
+        "name": "Docker",
+        "weight": 0.6
+      },
+      {
+        "name": "REST API Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_bentoml"
+  },
+  {
+    "id": 158,
+    "gid": 100000158,
+    "name": "Scikit-learn",
+    "entity_type": "ML Framework",
+    "entity_subtype": "General-Purpose Machine Learning Library",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Machine Learning Libraries",
+      "specialization": "Classical Machine Learning"
+    },
+    "aliases": [
+      "Scikit-learn",
+      "sklearn",
+      "Scikit Learn"
+    ],
+    "concepts": [
+      {
+        "name": "Estimators API",
+        "weight": 0.688
+      },
+      {
+        "name": "Fit/Predict/Transform Pattern",
+        "weight": 0.2413
+      },
+      {
+        "name": "Classification Algorithms",
+        "weight": 0.9259
+      },
+      {
+        "name": "Regression Algorithms",
+        "weight": 0.688
+      },
+      {
+        "name": "Clustering Algorithms (K-Means, DBSCAN)",
+        "weight": 0.688
+      },
+      {
+        "name": "Model Selection (Train/Test Split, Cross-Validation)",
+        "weight": 0.688
+      },
+      {
+        "name": "Pipelines (Scikit-learn)",
+        "weight": 1.0
+      },
+      {
+        "name": "Feature Scaling",
+        "weight": 0.1893
+      },
+      {
+        "name": "Feature Engineering",
+        "weight": 0.662
+      },
+      {
+        "name": "Hyperparameter Tuning (GridSearchCV)",
+        "weight": 0.662
+      },
+      {
+        "name": "Decision Trees",
+        "weight": 0.1633
+      },
+      {
+        "name": "Random Forests",
+        "weight": 0.1547
+      },
+      {
+        "name": "Support Vector Machines (SVM)",
+        "weight": 0.5879
+      },
+      {
+        "name": "Dimensionality Reduction (PCA)",
+        "weight": 0.5879
+      },
+      {
+        "name": "Metrics and Evaluation",
+        "weight": 0.662
+      },
+      {
+        "name": "Preprocessing Utilities",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python",
+        "weight": 1.0
+      },
+      {
+        "name": "NumPy",
+        "weight": 0.85
+      },
+      {
+        "name": "Pandas",
+        "weight": 0.7
+      },
+      {
+        "name": "Statistics Fundamentals",
+        "weight": 0.55
+      },
+      {
+        "name": "Linear Algebra",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "framework_scikit_learn"
+  },
+  {
+    "id": 159,
+    "gid": 100000159,
+    "name": "Hugging Face Transformers",
+    "entity_type": "AI Framework",
+    "entity_subtype": "NLP and Transformer Model Library",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "NLP / LLM Frameworks",
+      "specialization": "Transformer-Based Models"
+    },
+    "aliases": [
+      "Hugging Face Transformers",
+      "Transformers Library",
+      "HF Transformers",
+      "Hugging Face"
+    ],
+    "concepts": [
+      {
+        "name": "Pretrained Models",
+        "weight": 0.6663
+      },
+      {
+        "name": "Model Hub",
+        "weight": 0.9543
+      },
+      {
+        "name": "Tokenizers",
+        "weight": 1.0
+      },
+      {
+        "name": "Pipelines (Hugging Face)",
+        "weight": 0.9716
+      },
+      {
+        "name": "Fine-Tuning",
+        "weight": 1.0
+      },
+      {
+        "name": "AutoModel / AutoTokenizer Classes",
+        "weight": 0.6663
+      },
+      {
+        "name": "Attention Mechanism",
+        "weight": 0.6837
+      },
+      {
+        "name": "BERT",
+        "weight": 0.6837
+      },
+      {
+        "name": "GPT Architecture",
+        "weight": 0.6522
+      },
+      {
+        "name": "Transfer Learning",
+        "weight": 0.6522
+      },
+      {
+        "name": "PEFT (Parameter-Efficient Fine-Tuning)",
+        "weight": 0.6522
+      },
+      {
+        "name": "LoRA",
+        "weight": 0.6522
+      },
+      {
+        "name": "Datasets Library",
+        "weight": 0.1525
+      },
+      {
+        "name": "Accelerate Library",
+        "weight": 0.1444
+      },
+      {
+        "name": "Model Cards",
+        "weight": 0.1362
+      },
+      {
+        "name": "Inference API",
+        "weight": 0.638
+      },
+      {
+        "name": "Quantization",
+        "weight": 0.638
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python",
+        "weight": 1.0
+      },
+      {
+        "name": "PyTorch or TensorFlow Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Deep Learning Fundamentals",
+        "weight": 0.6
+      },
+      {
+        "name": "NLP Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_hugging_face_transformers"
+  },
+  {
+    "id": 163,
+    "gid": 100000163,
+    "name": "XGBoost",
+    "entity_type": "ML Framework",
+    "entity_subtype": "Gradient Boosting Library",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Machine Learning Libraries",
+      "specialization": "Gradient Boosted Trees"
+    },
+    "aliases": [
+      "XGBoost",
+      "Extreme Gradient Boosting"
+    ],
+    "concepts": [
+      {
+        "name": "Gradient Boosting",
+        "weight": 1.0
+      },
+      {
+        "name": "Decision Trees Ensemble",
+        "weight": 0.237
+      },
+      {
+        "name": "Regularization (L1/L2)",
+        "weight": 0.5596
+      },
+      {
+        "name": "Feature Importance",
+        "weight": 0.7904
+      },
+      {
+        "name": "Early Stopping",
+        "weight": 0.5596
+      },
+      {
+        "name": "Hyperparameter Tuning (XGBoost)",
+        "weight": 0.7904
+      },
+      {
+        "name": "DMatrix",
+        "weight": 0.5596
+      },
+      {
+        "name": "Cross-Validation (XGBoost)",
+        "weight": 0.5755
+      },
+      {
+        "name": "Handling Missing Values",
+        "weight": 0.146
+      },
+      {
+        "name": "Parallel Tree Boosting",
+        "weight": 0.133
+      },
+      {
+        "name": "XGBoost vs LightGBM vs CatBoost",
+        "weight": 0.5649
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python",
+        "weight": 1.0
+      },
+      {
+        "name": "Scikit-learn",
+        "weight": 0.8
+      },
+      {
+        "name": "Statistics Fundamentals",
+        "weight": 0.6
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_xgboost"
+  }
+]

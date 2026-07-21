@@ -1,0 +1,132 @@
+[
+  {
+    "target": "Express.js",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "NestJS",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "GraphQL",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "SQL",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "PostgreSQL",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "MySQL",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "MongoDB",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "Amazon DynamoDB",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "Redis",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "Amazon Web Services",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "Microsoft Azure",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "Google Cloud Platform",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "OAuth 2.0",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "JWT",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "Apache Kafka",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "RabbitMQ",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "Jest",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "Mocha",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "Chai",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "TypeScript",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "Docker",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "Kubernetes",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "Terraform",
+    "relation_type": null,
+    "category": "tool"
+  },
+  {
+    "target": "Microservices Architecture",
+    "relation_type": null,
+    "category": "concept"
+  },
+  {
+    "target": "Continuous Integration/Continuous Deployment",
+    "relation_type": null,
+    "category": "concept"
+  },
+  {
+    "target": "Infrastructure as Code",
+    "relation_type": null,
+    "category": "concept"
+  }
+]

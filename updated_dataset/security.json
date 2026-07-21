@@ -1,0 +1,266 @@
+[
+  {
+    "id": 192,
+    "gid": 100000192,
+    "name": "Firewall",
+    "entity_type": "Security Tool",
+    "entity_subtype": "Network Security Device",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Network Security",
+      "specialization": "Perimeter Defense"
+    },
+    "aliases": [
+      "Network Firewall",
+      "Firewall Appliance"
+    ],
+    "concepts": [
+      {
+        "name": "Packet Filtering",
+        "weight": 0.9261
+      },
+      {
+        "name": "Stateful Inspection",
+        "weight": 1.0
+      },
+      {
+        "name": "Next-Generation Firewall",
+        "weight": 1.0
+      },
+      {
+        "name": "Access Control Lists",
+        "weight": 0.9261
+      },
+      {
+        "name": "Ingress/Egress Rules",
+        "weight": 0.9261
+      },
+      {
+        "name": "Intrusion Prevention",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Networking Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "TCP/IP",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "security_firewall"
+  },
+  {
+    "id": 198,
+    "gid": 100000198,
+    "name": "Authentication & Authorization Module",
+    "entity_type": "Concept",
+    "entity_subtype": "Security Component",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Application Security",
+      "specialization": "Identity & Access Management"
+    },
+    "aliases": [
+      "AuthN/AuthZ Module",
+      "Auth Module"
+    ],
+    "concepts": [
+      {
+        "name": "Authentication vs Authorization",
+        "weight": 1.0
+      },
+      {
+        "name": "Session Management",
+        "weight": 0.9847
+      },
+      {
+        "name": "Token-Based Auth",
+        "weight": 0.9847
+      },
+      {
+        "name": "Single Sign-On",
+        "weight": 1.0
+      },
+      {
+        "name": "Multi-Factor Authentication",
+        "weight": 1.0
+      },
+      {
+        "name": "Access Control Enforcement",
+        "weight": 0.9847
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Web Security Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "HTTP",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "security_authentication_authorization_module"
+  },
+  {
+    "id": 216,
+    "gid": 100000216,
+    "name": "OWASP Top 10",
+    "entity_type": "Standard",
+    "entity_subtype": "Security Standard",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Application Security",
+      "specialization": "Vulnerability Classification"
+    },
+    "aliases": [
+      "OWASP Top Ten"
+    ],
+    "concepts": [
+      {
+        "name": "Injection",
+        "weight": 1.0
+      },
+      {
+        "name": "Broken Authentication",
+        "weight": 0.2314
+      },
+      {
+        "name": "Sensitive Data Exposure",
+        "weight": 0.2129
+      },
+      {
+        "name": "Broken Access Control",
+        "weight": 1.0
+      },
+      {
+        "name": "Security Misconfiguration",
+        "weight": 0.7694
+      },
+      {
+        "name": "Cross-Site Scripting",
+        "weight": 1.0
+      },
+      {
+        "name": "Insecure Deserialization",
+        "weight": 0.1386
+      },
+      {
+        "name": "Vulnerable Components",
+        "weight": 0.7694
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Web Security Basics",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "security_owasp_top_10"
+  },
+  {
+    "id": 217,
+    "gid": 100000217,
+    "name": "Zero Trust Architecture",
+    "entity_type": "Concept",
+    "entity_subtype": "Security Architecture Model",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Security Architecture",
+      "specialization": "Identity-Centric Security"
+    },
+    "aliases": [
+      "Zero Trust",
+      "ZTA"
+    ],
+    "concepts": [
+      {
+        "name": "Never Trust Always Verify",
+        "weight": 0.8411
+      },
+      {
+        "name": "Least Privilege Access",
+        "weight": 1.0
+      },
+      {
+        "name": "Micro-Segmentation",
+        "weight": 1.0
+      },
+      {
+        "name": "Continuous Verification",
+        "weight": 1.0
+      },
+      {
+        "name": "Identity-Aware Proxies",
+        "weight": 0.8411
+      },
+      {
+        "name": "Device Trust",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Network Security Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Identity and Access Management",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "concept_zero_trust_architecture"
+  },
+  {
+    "id": 218,
+    "gid": 100000218,
+    "name": "Role-Based Access Control",
+    "entity_type": "Concept",
+    "entity_subtype": "Access Control Model",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Identity & Access Management",
+      "specialization": "Authorization Models"
+    },
+    "aliases": [
+      "RBAC"
+    ],
+    "concepts": [
+      {
+        "name": "Roles and Permissions",
+        "weight": 1.0
+      },
+      {
+        "name": "Least Privilege",
+        "weight": 0.8471
+      },
+      {
+        "name": "Role Hierarchies",
+        "weight": 0.8471
+      },
+      {
+        "name": "Policy Enforcement Points",
+        "weight": 1.0
+      },
+      {
+        "name": "Separation of Duties",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Authentication & Authorization Module",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "security_role_based_access_control"
+  }
+]

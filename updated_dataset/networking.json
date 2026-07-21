@@ -1,0 +1,276 @@
+[
+  {
+    "id": 189,
+    "gid": 100000189,
+    "name": "Load Balancer",
+    "entity_type": "Infrastructure Component",
+    "entity_subtype": "Traffic Distribution",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps & Infrastructure",
+      "sub_category": "Networking & Traffic Management",
+      "specialization": "High Availability"
+    },
+    "aliases": [
+      "Load Balancing",
+      "L4/L7 Load Balancer"
+    ],
+    "concepts": [
+      {
+        "name": "Round Robin",
+        "weight": 0.9618
+      },
+      {
+        "name": "Least Connections",
+        "weight": 0.9618
+      },
+      {
+        "name": "Health Checks",
+        "weight": 1.0
+      },
+      {
+        "name": "Layer 4 Load Balancing",
+        "weight": 0.185
+      },
+      {
+        "name": "Layer 7 Load Balancing",
+        "weight": 1.0
+      },
+      {
+        "name": "Session Affinity",
+        "weight": 0.9618
+      },
+      {
+        "name": "SSL Termination",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Networking Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "HTTP",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_load_balancing"
+  },
+  {
+    "id": 190,
+    "gid": 100000190,
+    "name": "Content Delivery Network",
+    "entity_type": "Infrastructure Component",
+    "entity_subtype": "Content Distribution",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps & Infrastructure",
+      "sub_category": "Networking & Traffic Management",
+      "specialization": "Edge Delivery"
+    },
+    "aliases": [
+      "CDN"
+    ],
+    "concepts": [
+      {
+        "name": "Edge Caching",
+        "weight": 0.8917
+      },
+      {
+        "name": "Points of Presence",
+        "weight": 1.0
+      },
+      {
+        "name": "Origin Server",
+        "weight": 1.0
+      },
+      {
+        "name": "Cache Invalidation",
+        "weight": 0.8917
+      },
+      {
+        "name": "Geo-Distribution",
+        "weight": 1.0
+      },
+      {
+        "name": "TTL Configuration",
+        "weight": 0.8917
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Networking Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "HTTP",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_cdn"
+  },
+  {
+    "id": 191,
+    "gid": 100000191,
+    "name": "Virtual Private Network",
+    "entity_type": "Concept",
+    "entity_subtype": "Network Security",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Network Security",
+      "specialization": "Secure Tunneling"
+    },
+    "aliases": [
+      "VPN"
+    ],
+    "concepts": [
+      {
+        "name": "Tunneling Protocols",
+        "weight": 1.0
+      },
+      {
+        "name": "Site-to-Site VPN",
+        "weight": 0.9393
+      },
+      {
+        "name": "Remote Access VPN",
+        "weight": 0.9393
+      },
+      {
+        "name": "IPsec",
+        "weight": 1.0
+      },
+      {
+        "name": "Split Tunneling",
+        "weight": 0.9393
+      },
+      {
+        "name": "VPN Gateways",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Networking Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "TLS",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_virtual_private_network"
+  },
+  {
+    "id": 193,
+    "gid": 100000193,
+    "name": "Reverse Proxy",
+    "entity_type": "Infrastructure Component",
+    "entity_subtype": "Traffic Routing",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps & Infrastructure",
+      "sub_category": "Networking & Traffic Management",
+      "specialization": "Request Routing"
+    },
+    "aliases": [
+      "Reverse Proxy Server"
+    ],
+    "concepts": [
+      {
+        "name": "Request Forwarding",
+        "weight": 1.0
+      },
+      {
+        "name": "Load Distribution",
+        "weight": 0.224
+      },
+      {
+        "name": "SSL Termination",
+        "weight": 0.786
+      },
+      {
+        "name": "Caching",
+        "weight": 0.786
+      },
+      {
+        "name": "Path-Based Routing",
+        "weight": 1.0
+      },
+      {
+        "name": "Rate Limiting",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Networking Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "HTTP",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_reverse_proxy"
+  },
+  {
+    "id": 195,
+    "gid": 100000195,
+    "name": "API Gateway",
+    "entity_type": "Infrastructure Component",
+    "entity_subtype": "API Management",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Architecture & Practices",
+      "specialization": "API Management"
+    },
+    "aliases": [
+      "API Management Gateway"
+    ],
+    "concepts": [
+      {
+        "name": "Request Routing",
+        "weight": 0.9594
+      },
+      {
+        "name": "Rate Limiting",
+        "weight": 0.9594
+      },
+      {
+        "name": "Authentication Enforcement",
+        "weight": 0.9594
+      },
+      {
+        "name": "Request/Response Transformation",
+        "weight": 0.185
+      },
+      {
+        "name": "API Composition",
+        "weight": 1.0
+      },
+      {
+        "name": "Throttling",
+        "weight": 1.0
+      },
+      {
+        "name": "Analytics and Logging",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "RESTful API Design",
+        "weight": 1.0
+      },
+      {
+        "name": "Microservices Architecture",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "concept_api_gateway"
+  }
+]

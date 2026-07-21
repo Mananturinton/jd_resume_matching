@@ -1,0 +1,268 @@
+[
+  {
+    "id": 179,
+    "gid": 100000179,
+    "name": "DORA Metrics",
+    "entity_type": "Concept",
+    "entity_subtype": "Engineering Metrics",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps & Infrastructure",
+      "sub_category": "Engineering Metrics",
+      "specialization": "Delivery Performance"
+    },
+    "aliases": [
+      "DevOps Research and Assessment Metrics"
+    ],
+    "concepts": [
+      {
+        "name": "Deployment Frequency",
+        "weight": 1.0
+      },
+      {
+        "name": "Lead Time for Changes",
+        "weight": 1.0
+      },
+      {
+        "name": "Change Failure Rate",
+        "weight": 0.9049
+      },
+      {
+        "name": "Mean Time to Recovery",
+        "weight": 1.0
+      },
+      {
+        "name": "Elite vs Low Performer Benchmarks",
+        "weight": 0.9049
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "CI/CD",
+        "weight": 1.0
+      },
+      {
+        "name": "Software Delivery Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "concept_dora_metrics"
+  },
+  {
+    "id": 180,
+    "gid": 100000180,
+    "name": "SLA/SLO/SLI Framework",
+    "entity_type": "Concept",
+    "entity_subtype": "Reliability Engineering Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps & Infrastructure",
+      "sub_category": "Site Reliability Engineering",
+      "specialization": "Reliability Targets"
+    },
+    "aliases": [
+      "SLA",
+      "SLO",
+      "SLI",
+      "Service Level Objectives"
+    ],
+    "concepts": [
+      {
+        "name": "Service Level Agreement",
+        "weight": 0.8532
+      },
+      {
+        "name": "Service Level Objective",
+        "weight": 1.0
+      },
+      {
+        "name": "Service Level Indicator",
+        "weight": 0.198
+      },
+      {
+        "name": "Error Budgets",
+        "weight": 1.0
+      },
+      {
+        "name": "Uptime Targets",
+        "weight": 0.8532
+      },
+      {
+        "name": "Alerting Thresholds",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Observability Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Site Reliability Engineering",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "concept_sla_slo_sli_framework"
+  },
+  {
+    "id": 181,
+    "gid": 100000181,
+    "name": "Model Evaluation Metrics",
+    "entity_type": "Concept",
+    "entity_subtype": "ML Metrics",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Machine Learning",
+      "specialization": "Model Evaluation"
+    },
+    "aliases": [
+      "ML Evaluation Metrics",
+      "Model Metrics"
+    ],
+    "concepts": [
+      {
+        "name": "Accuracy",
+        "weight": 0.25
+      },
+      {
+        "name": "Precision and Recall",
+        "weight": 1.0
+      },
+      {
+        "name": "F1 Score",
+        "weight": 1.0
+      },
+      {
+        "name": "ROC-AUC",
+        "weight": 0.9856
+      },
+      {
+        "name": "Confusion Matrix",
+        "weight": 0.9856
+      },
+      {
+        "name": "Mean Squared Error",
+        "weight": 0.9856
+      },
+      {
+        "name": "Cross-Validation",
+        "weight": 1.0
+      },
+      {
+        "name": "Overfitting vs Underfitting",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Statistics Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_model_evaluation_metrics"
+  },
+  {
+    "id": 182,
+    "gid": 100000182,
+    "name": "Code Coverage",
+    "entity_type": "Concept",
+    "entity_subtype": "Testing Metric",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Testing Practices",
+      "specialization": "Quality Metrics"
+    },
+    "aliases": [
+      "Test Coverage"
+    ],
+    "concepts": [
+      {
+        "name": "Line Coverage",
+        "weight": 1.0
+      },
+      {
+        "name": "Branch Coverage",
+        "weight": 1.0
+      },
+      {
+        "name": "Statement Coverage",
+        "weight": 0.8375
+      },
+      {
+        "name": "Coverage Thresholds",
+        "weight": 0.8375
+      },
+      {
+        "name": "Coverage Reports",
+        "weight": 1.0
+      },
+      {
+        "name": "Mutation Testing",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Unit Testing Basics",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "concept_code_coverage"
+  },
+  {
+    "id": 183,
+    "gid": 100000183,
+    "name": "Latency and Throughput",
+    "entity_type": "Concept",
+    "entity_subtype": "Performance Metric",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps & Infrastructure",
+      "sub_category": "Performance Engineering",
+      "specialization": "System Performance"
+    },
+    "aliases": [
+      "Latency",
+      "Throughput"
+    ],
+    "concepts": [
+      {
+        "name": "Response Time",
+        "weight": 0.8301
+      },
+      {
+        "name": "Requests per Second",
+        "weight": 0.8301
+      },
+      {
+        "name": "Percentile Latency (p50/p95/p99)",
+        "weight": 1.0
+      },
+      {
+        "name": "Bottleneck Analysis",
+        "weight": 1.0
+      },
+      {
+        "name": "Load Testing",
+        "weight": 0.8301
+      },
+      {
+        "name": "Capacity Planning",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Performance Engineering Basics",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "observability_latency_and_throughput"
+  }
+]

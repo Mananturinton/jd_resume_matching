@@ -1,0 +1,357 @@
+[
+  {
+    "id": 202,
+    "gid": 100000202,
+    "name": "Full Stack Developer",
+    "entity_type": "Role",
+    "entity_subtype": "Engineering Role",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Careers & Roles",
+      "specialization": "Full Stack Engineering"
+    },
+    "aliases": [
+      "Full-Stack Developer",
+      "Full Stack Engineer"
+    ],
+    "concepts": [
+      {
+        "name": "Frontend Development",
+        "weight": 1.0
+      },
+      {
+        "name": "Backend Development",
+        "weight": 1.0
+      },
+      {
+        "name": "Database Design",
+        "weight": 0.198
+      },
+      {
+        "name": "API Integration",
+        "weight": 1.0
+      },
+      {
+        "name": "Deployment",
+        "weight": 0.146
+      },
+      {
+        "name": "End-to-End Ownership",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JavaScript",
+        "weight": 1.0
+      },
+      {
+        "name": "A Backend Language",
+        "weight": 0.8
+      },
+      {
+        "name": "SQL",
+        "weight": 0.6
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "role_full_stack_developer"
+  },
+  {
+    "id": 203,
+    "gid": 100000203,
+    "name": "Backend Developer",
+    "entity_type": "Role",
+    "entity_subtype": "Engineering Role",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Careers & Roles",
+      "specialization": "Backend Engineering"
+    },
+    "aliases": [
+      "Backend Engineer",
+      "Server-Side Developer"
+    ],
+    "concepts": [
+      {
+        "name": "Server-Side Logic",
+        "weight": 1.0
+      },
+      {
+        "name": "Database Design",
+        "weight": 1.0
+      },
+      {
+        "name": "API Design",
+        "weight": 1.0
+      },
+      {
+        "name": "Authentication",
+        "weight": 0.172
+      },
+      {
+        "name": "Performance Tuning",
+        "weight": 0.146
+      },
+      {
+        "name": "Scalability",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "A Backend Language",
+        "weight": 1.0
+      },
+      {
+        "name": "SQL",
+        "weight": 0.7
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "role_backend_developer"
+  },
+  {
+    "id": 204,
+    "gid": 100000204,
+    "name": "Frontend Developer",
+    "entity_type": "Role",
+    "entity_subtype": "Engineering Role",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Careers & Roles",
+      "specialization": "Frontend Engineering"
+    },
+    "aliases": [
+      "Frontend Engineer",
+      "Client-Side Developer"
+    ],
+    "concepts": [
+      {
+        "name": "UI Development",
+        "weight": 1.0
+      },
+      {
+        "name": "State Management",
+        "weight": 1.0
+      },
+      {
+        "name": "Responsive Design",
+        "weight": 1.0
+      },
+      {
+        "name": "Accessibility (a11y)",
+        "weight": 0.172
+      },
+      {
+        "name": "Browser Performance",
+        "weight": 0.146
+      },
+      {
+        "name": "Component Architecture",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "HTML",
+        "weight": 1.0
+      },
+      {
+        "name": "CSS",
+        "weight": 0.7
+      },
+      {
+        "name": "JavaScript",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "role_frontend_developer"
+  },
+  {
+    "id": 205,
+    "gid": 100000205,
+    "name": "DevOps Engineer",
+    "entity_type": "Role",
+    "entity_subtype": "Engineering Role",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps & Infrastructure",
+      "sub_category": "Careers & Roles",
+      "specialization": "DevOps Engineering"
+    },
+    "aliases": [
+      "DevOps Specialist"
+    ],
+    "concepts": [
+      {
+        "name": "CI/CD Pipelines",
+        "weight": 1.0
+      },
+      {
+        "name": "Infrastructure Automation",
+        "weight": 1.0
+      },
+      {
+        "name": "Container Orchestration",
+        "weight": 1.0
+      },
+      {
+        "name": "Monitoring",
+        "weight": 0.172
+      },
+      {
+        "name": "Incident Response",
+        "weight": 0.146
+      },
+      {
+        "name": "Cloud Provisioning",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Linux",
+        "weight": 1.0
+      },
+      {
+        "name": "Cloud Fundamentals",
+        "weight": 0.7
+      },
+      {
+        "name": "Scripting",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "role_devops_engineer"
+  },
+  {
+    "id": 206,
+    "gid": 100000206,
+    "name": "MLOps Engineer",
+    "entity_type": "Role",
+    "entity_subtype": "Engineering Role",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Careers & Roles",
+      "specialization": "ML Operations"
+    },
+    "aliases": [
+      "Machine Learning Operations Engineer",
+      "ML Infrastructure Engineer"
+    ],
+    "concepts": [
+      {
+        "name": "Model Deployment",
+        "weight": 1.0
+      },
+      {
+        "name": "Model Monitoring",
+        "weight": 1.0
+      },
+      {
+        "name": "Feature Stores",
+        "weight": 0.198
+      },
+      {
+        "name": "Experiment Tracking",
+        "weight": 0.172
+      },
+      {
+        "name": "Pipeline Orchestration",
+        "weight": 1.0
+      },
+      {
+        "name": "Model Versioning",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python",
+        "weight": 1.0
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.8
+      },
+      {
+        "name": "Containers",
+        "weight": 0.6
+      },
+      {
+        "name": "CI/CD",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "role_mlops_engineer"
+  },
+  {
+    "id": 207,
+    "gid": 100000207,
+    "name": "AI/ML Engineer",
+    "entity_type": "Role",
+    "entity_subtype": "Engineering Role",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Careers & Roles",
+      "specialization": "Machine Learning Engineering"
+    },
+    "aliases": [
+      "Machine Learning Engineer",
+      "AI Engineer"
+    ],
+    "concepts": [
+      {
+        "name": "Model Development",
+        "weight": 1.0
+      },
+      {
+        "name": "Feature Engineering",
+        "weight": 0.224
+      },
+      {
+        "name": "Model Training",
+        "weight": 1.0
+      },
+      {
+        "name": "Model Evaluation Metrics",
+        "weight": 1.0
+      },
+      {
+        "name": "Model Deployment",
+        "weight": 0.146
+      },
+      {
+        "name": "Data Preprocessing",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python",
+        "weight": 1.0
+      },
+      {
+        "name": "Statistics Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "role_ai_ml_engineer"
+  }
+]

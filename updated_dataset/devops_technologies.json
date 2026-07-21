@@ -1,0 +1,3288 @@
+[
+  {
+    "id": 70,
+    "gid": 100000070,
+    "name": "Pulumi",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Infrastructure as Code Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Infrastructure as Code",
+      "specialization": "Programmatic Provisioning Tools"
+    },
+    "aliases": [
+      "Pulumi",
+      "Pulumi IaC"
+    ],
+    "concepts": [
+      {
+        "name": "Programmatic IaC",
+        "weight": 0.25
+      },
+      {
+        "name": "Stacks",
+        "weight": 0.9903
+      },
+      {
+        "name": "Resources",
+        "weight": 0.9903
+      },
+      {
+        "name": "Providers",
+        "weight": 0.224
+      },
+      {
+        "name": "State Management",
+        "weight": 0.9635
+      },
+      {
+        "name": "Pulumi Cloud (Backend)",
+        "weight": 0.2067
+      },
+      {
+        "name": "Config and Secrets",
+        "weight": 0.9903
+      },
+      {
+        "name": "Component Resources",
+        "weight": 1.0
+      },
+      {
+        "name": "Multi-Language Support (TypeScript, Python, Go, C#)",
+        "weight": 1.0
+      },
+      {
+        "name": "Pulumi CLI",
+        "weight": 0.172
+      },
+      {
+        "name": "pulumi up",
+        "weight": 0.9903
+      },
+      {
+        "name": "pulumi preview",
+        "weight": 0.9903
+      },
+      {
+        "name": "pulumi destroy",
+        "weight": 0.146
+      },
+      {
+        "name": "Cross-Cloud Deployments",
+        "weight": 1.0
+      },
+      {
+        "name": "Policy as Code (CrossGuard)",
+        "weight": 0.9635
+      },
+      {
+        "name": "Automation API",
+        "weight": 0.9635
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Cloud Computing Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Programming Fundamentals (TypeScript/Python/Go)",
+        "weight": 0.8
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Terraform Concepts (helpful)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_pulumi"
+  },
+  {
+    "id": 71,
+    "gid": 100000071,
+    "name": "GitHub Actions",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "CI/CD Automation Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "CI/CD",
+      "specialization": "Cloud-Native CI/CD Platforms"
+    },
+    "aliases": [
+      "GitHub Actions",
+      "GH Actions",
+      "Actions (GitHub)"
+    ],
+    "concepts": [
+      {
+        "name": "Workflows",
+        "weight": 1.0
+      },
+      {
+        "name": "YAML Workflow Files",
+        "weight": 0.2432
+      },
+      {
+        "name": "Jobs",
+        "weight": 0.7004
+      },
+      {
+        "name": "Steps",
+        "weight": 0.6496
+      },
+      {
+        "name": "Actions (Marketplace Actions)",
+        "weight": 0.6496
+      },
+      {
+        "name": "Runners (GitHub-Hosted, Self-Hosted)",
+        "weight": 0.7004
+      },
+      {
+        "name": "Triggers (Events)",
+        "weight": 0.6496
+      },
+      {
+        "name": "Secrets",
+        "weight": 0.7004
+      },
+      {
+        "name": "Environment Variables",
+        "weight": 0.1953
+      },
+      {
+        "name": "Matrix Builds",
+        "weight": 0.7004
+      },
+      {
+        "name": "Reusable Workflows",
+        "weight": 0.7004
+      },
+      {
+        "name": "Composite Actions",
+        "weight": 0.1747
+      },
+      {
+        "name": "Artifacts",
+        "weight": 0.675
+      },
+      {
+        "name": "Caching",
+        "weight": 0.675
+      },
+      {
+        "name": "Environments (Deployment Protection Rules)",
+        "weight": 0.675
+      },
+      {
+        "name": "Workflow Dispatch",
+        "weight": 0.1474
+      },
+      {
+        "name": "Scheduled Workflows (Cron)",
+        "weight": 0.1405
+      },
+      {
+        "name": "GITHUB_TOKEN",
+        "weight": 0.1337
+      },
+      {
+        "name": "Concurrency Groups",
+        "weight": 0.675
+      },
+      {
+        "name": "Job Dependencies (needs)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Git",
+        "weight": 1.0
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.85
+      },
+      {
+        "name": "YAML",
+        "weight": 0.7
+      },
+      {
+        "name": "CI/CD Concepts",
+        "weight": 0.55
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "devop_github_actions"
+  },
+  {
+    "id": 72,
+    "gid": 100000072,
+    "name": "GitLab CI",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "CI/CD Automation Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "CI/CD",
+      "specialization": "Cloud-Native CI/CD Platforms"
+    },
+    "aliases": [
+      "GitLab CI",
+      "GitLab CI/CD",
+      ".gitlab-ci.yml"
+    ],
+    "concepts": [
+      {
+        "name": ".gitlab-ci.yml",
+        "weight": 0.6393
+      },
+      {
+        "name": "Stages",
+        "weight": 0.7107
+      },
+      {
+        "name": "Jobs",
+        "weight": 0.7107
+      },
+      {
+        "name": "GitLab Runners",
+        "weight": 0.7107
+      },
+      {
+        "name": "Pipelines",
+        "weight": 1.0
+      },
+      {
+        "name": "Artifacts",
+        "weight": 0.6838
+      },
+      {
+        "name": "Cache",
+        "weight": 0.2067
+      },
+      {
+        "name": "Variables",
+        "weight": 0.1994
+      },
+      {
+        "name": "Rules and Only/Except",
+        "weight": 0.7107
+      },
+      {
+        "name": "Include (Templates)",
+        "weight": 0.7107
+      },
+      {
+        "name": "Multi-Project Pipelines",
+        "weight": 0.6838
+      },
+      {
+        "name": "Child/Parent Pipelines",
+        "weight": 0.1706
+      },
+      {
+        "name": "DAG Pipelines (needs)",
+        "weight": 0.1633
+      },
+      {
+        "name": "Environments",
+        "weight": 0.6838
+      },
+      {
+        "name": "Review Apps",
+        "weight": 0.1489
+      },
+      {
+        "name": "Auto DevOps",
+        "weight": 0.1417
+      },
+      {
+        "name": "Merge Request Pipelines",
+        "weight": 0.6393
+      },
+      {
+        "name": "Manual Jobs",
+        "weight": 0.6838
+      },
+      {
+        "name": "Scheduled Pipelines",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Git",
+        "weight": 1.0
+      },
+      {
+        "name": "GitLab",
+        "weight": 0.85
+      },
+      {
+        "name": "YAML",
+        "weight": 0.7
+      },
+      {
+        "name": "CI/CD Concepts",
+        "weight": 0.55
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "devop_gitlab_ci"
+  },
+  {
+    "id": 73,
+    "gid": 100000073,
+    "name": "CircleCI",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "CI/CD Automation Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "CI/CD",
+      "specialization": "Cloud-Native CI/CD Platforms"
+    },
+    "aliases": [
+      "CircleCI",
+      "Circle CI"
+    ],
+    "concepts": [
+      {
+        "name": "config.yml",
+        "weight": 1.0
+      },
+      {
+        "name": "Orbs",
+        "weight": 0.7161
+      },
+      {
+        "name": "Workflows",
+        "weight": 0.7161
+      },
+      {
+        "name": "Jobs",
+        "weight": 0.6339
+      },
+      {
+        "name": "Steps",
+        "weight": 0.6339
+      },
+      {
+        "name": "Executors (Docker, Machine, macOS)",
+        "weight": 0.7161
+      },
+      {
+        "name": "Contexts",
+        "weight": 0.7161
+      },
+      {
+        "name": "Caching",
+        "weight": 0.6339
+      },
+      {
+        "name": "Artifacts",
+        "weight": 0.1807
+      },
+      {
+        "name": "Parallelism",
+        "weight": 0.7007
+      },
+      {
+        "name": "Workspaces",
+        "weight": 0.7007
+      },
+      {
+        "name": "Approval Jobs",
+        "weight": 0.7007
+      },
+      {
+        "name": "Pipeline Parameters",
+        "weight": 0.146
+      },
+      {
+        "name": "Self-Hosted Runners",
+        "weight": 0.1373
+      },
+      {
+        "name": "Insights (Analytics)",
+        "weight": 0.7007
+      },
+      {
+        "name": "Scheduled Pipelines",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Git",
+        "weight": 1.0
+      },
+      {
+        "name": "YAML",
+        "weight": 0.85
+      },
+      {
+        "name": "CI/CD Concepts",
+        "weight": 0.7
+      },
+      {
+        "name": "Docker Basics",
+        "weight": 0.55
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "devop_circleci"
+  },
+  {
+    "id": 74,
+    "gid": 100000074,
+    "name": "Grafana Loki",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Log Aggregation System",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Monitoring and Observability",
+      "specialization": "Log Aggregation Systems"
+    },
+    "aliases": [
+      "Loki",
+      "Grafana Loki"
+    ],
+    "concepts": [
+      {
+        "name": "LogQL",
+        "weight": 1.0
+      },
+      {
+        "name": "Log Streams",
+        "weight": 0.6664
+      },
+      {
+        "name": "Labels",
+        "weight": 0.6664
+      },
+      {
+        "name": "Promtail",
+        "weight": 0.6664
+      },
+      {
+        "name": "Chunks",
+        "weight": 0.636
+      },
+      {
+        "name": "Index",
+        "weight": 0.636
+      },
+      {
+        "name": "Ingesters",
+        "weight": 0.6836
+      },
+      {
+        "name": "Distributors",
+        "weight": 0.185
+      },
+      {
+        "name": "Querier",
+        "weight": 0.1757
+      },
+      {
+        "name": "Log Aggregation",
+        "weight": 0.1664
+      },
+      {
+        "name": "Multi-Tenancy",
+        "weight": 0.6836
+      },
+      {
+        "name": "Retention Policy",
+        "weight": 0.6836
+      },
+      {
+        "name": "Grafana Integration",
+        "weight": 0.1386
+      },
+      {
+        "name": "Object Storage Backend",
+        "weight": 0.636
+      },
+      {
+        "name": "Log Parsing (LogQL Parsers)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Logging Concepts",
+        "weight": 1.0
+      },
+      {
+        "name": "Prometheus Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Grafana Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Kubernetes (helpful)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_loki"
+  },
+  {
+    "id": 76,
+    "gid": 100000076,
+    "name": "OpenTelemetry",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Observability Framework and Instrumentation Standard",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Monitoring and Observability",
+      "specialization": "Observability Instrumentation Standards"
+    },
+    "aliases": [
+      "OpenTelemetry",
+      "OTel",
+      "OTEL"
+    ],
+    "concepts": [
+      {
+        "name": "Traces",
+        "weight": 0.9743
+      },
+      {
+        "name": "Spans",
+        "weight": 0.6925
+      },
+      {
+        "name": "Metrics",
+        "weight": 0.2356
+      },
+      {
+        "name": "Logs (Signals)",
+        "weight": 0.2283
+      },
+      {
+        "name": "Context Propagation",
+        "weight": 0.2211
+      },
+      {
+        "name": "OTLP (OpenTelemetry Protocol)",
+        "weight": 0.6664
+      },
+      {
+        "name": "Instrumentation Libraries",
+        "weight": 0.6317
+      },
+      {
+        "name": "Auto-Instrumentation",
+        "weight": 0.6317
+      },
+      {
+        "name": "Manual Instrumentation",
+        "weight": 0.6317
+      },
+      {
+        "name": "OpenTelemetry Collector",
+        "weight": 1.0
+      },
+      {
+        "name": "Exporters",
+        "weight": 0.6575
+      },
+      {
+        "name": "Receivers",
+        "weight": 0.6575
+      },
+      {
+        "name": "Processors",
+        "weight": 0.6575
+      },
+      {
+        "name": "Semantic Conventions",
+        "weight": 0.6664
+      },
+      {
+        "name": "SDKs",
+        "weight": 0.1489
+      },
+      {
+        "name": "Distributed Tracing",
+        "weight": 0.6925
+      },
+      {
+        "name": "Sampling",
+        "weight": 0.6925
+      },
+      {
+        "name": "Resource Attributes",
+        "weight": 0.6664
+      },
+      {
+        "name": "Baggage",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Observability Concepts",
+        "weight": 1.0
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Prometheus/Grafana Basics (helpful)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "observability_opentelemetry"
+  },
+  {
+    "id": 80,
+    "gid": 100000080,
+    "name": "Apache Kafka",
+    "entity_type": "Message Broker",
+    "entity_subtype": "Distributed Event Streaming Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Engineering",
+      "sub_category": "Messaging Systems",
+      "specialization": "Distributed Streaming Platforms"
+    },
+    "aliases": [
+      "Apache Kafka",
+      "Kafka",
+      "Confluent Kafka"
+    ],
+    "concepts": [
+      {
+        "name": "Topics",
+        "weight": 0.6591
+      },
+      {
+        "name": "Partitions",
+        "weight": 0.732
+      },
+      {
+        "name": "Producers",
+        "weight": 0.6591
+      },
+      {
+        "name": "Consumers",
+        "weight": 0.6591
+      },
+      {
+        "name": "Consumer Groups",
+        "weight": 0.6591
+      },
+      {
+        "name": "Broker",
+        "weight": 0.6725
+      },
+      {
+        "name": "Cluster",
+        "weight": 0.6725
+      },
+      {
+        "name": "Zookeeper",
+        "weight": 0.6725
+      },
+      {
+        "name": "KRaft Mode",
+        "weight": 0.6725
+      },
+      {
+        "name": "Offset",
+        "weight": 0.205
+      },
+      {
+        "name": "Replication",
+        "weight": 1.0
+      },
+      {
+        "name": "Leader and Follower Partitions",
+        "weight": 0.6775
+      },
+      {
+        "name": "Kafka Connect",
+        "weight": 0.732
+      },
+      {
+        "name": "Kafka Streams",
+        "weight": 0.732
+      },
+      {
+        "name": "Schema Registry",
+        "weight": 0.732
+      },
+      {
+        "name": "Serialization (Avro, Protobuf, JSON)",
+        "weight": 0.6591
+      },
+      {
+        "name": "Producer Acknowledgments",
+        "weight": 0.17
+      },
+      {
+        "name": "Consumer Rebalancing",
+        "weight": 0.6775
+      },
+      {
+        "name": "Retention Policy",
+        "weight": 0.732
+      },
+      {
+        "name": "Compaction",
+        "weight": 0.155
+      },
+      {
+        "name": "Exactly-Once Semantics",
+        "weight": 0.15
+      },
+      {
+        "name": "At-Least-Once Delivery",
+        "weight": 0.145
+      },
+      {
+        "name": "Idempotent Producer",
+        "weight": 0.14
+      },
+      {
+        "name": "ksqlDB",
+        "weight": 0.135
+      },
+      {
+        "name": "Partition Key",
+        "weight": 0.13
+      },
+      {
+        "name": "Throughput Tuning",
+        "weight": 0.6775
+      },
+      {
+        "name": "Kafka CLI Tools",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.85
+      },
+      {
+        "name": "Java Fundamentals",
+        "weight": 0.7
+      },
+      {
+        "name": "Messaging Concepts",
+        "weight": 0.55
+      },
+      {
+        "name": "JSON",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "data_engineering_apache_kafka"
+  },
+  {
+    "id": 81,
+    "gid": 100000081,
+    "name": "RabbitMQ",
+    "entity_type": "Message Broker",
+    "entity_subtype": "Message Queue Broker",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Engineering",
+      "sub_category": "Messaging Systems",
+      "specialization": "Message Queue Brokers"
+    },
+    "aliases": [
+      "RabbitMQ",
+      "Rabbit MQ"
+    ],
+    "concepts": [
+      {
+        "name": "Queues",
+        "weight": 1.0
+      },
+      {
+        "name": "Exchanges",
+        "weight": 1.0
+      },
+      {
+        "name": "Direct Exchange",
+        "weight": 0.892
+      },
+      {
+        "name": "Fanout Exchange",
+        "weight": 0.892
+      },
+      {
+        "name": "Topic Exchange",
+        "weight": 0.892
+      },
+      {
+        "name": "Headers Exchange",
+        "weight": 0.2175
+      },
+      {
+        "name": "Bindings",
+        "weight": 1.0
+      },
+      {
+        "name": "Routing Keys",
+        "weight": 1.0
+      },
+      {
+        "name": "Producers",
+        "weight": 0.198
+      },
+      {
+        "name": "Consumers",
+        "weight": 0.1915
+      },
+      {
+        "name": "AMQP Protocol",
+        "weight": 0.185
+      },
+      {
+        "name": "Message Acknowledgment",
+        "weight": 1.0
+      },
+      {
+        "name": "Durable Queues",
+        "weight": 0.172
+      },
+      {
+        "name": "Dead Letter Exchange",
+        "weight": 0.892
+      },
+      {
+        "name": "Publisher Confirms",
+        "weight": 0.159
+      },
+      {
+        "name": "Prefetch Count",
+        "weight": 0.1525
+      },
+      {
+        "name": "Clustering",
+        "weight": 0.9504
+      },
+      {
+        "name": "High Availability Queues (Mirrored/Quorum)",
+        "weight": 0.9504
+      },
+      {
+        "name": "Management Plugin",
+        "weight": 0.133
+      },
+      {
+        "name": "Virtual Hosts",
+        "weight": 0.9504
+      },
+      {
+        "name": "RabbitMQ CLI",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Messaging Concepts",
+        "weight": 1.0
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_rabbitmq"
+  },
+  {
+    "id": 83,
+    "gid": 100000083,
+    "name": "Grafana",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Observability and Visualization Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Monitoring and Observability",
+      "specialization": "Metrics Visualization Tools"
+    },
+    "aliases": [
+      "Grafana",
+      "Grafana Labs",
+      "Grafana Cloud",
+      "Grafana OSS"
+    ],
+    "concepts": [
+      {
+        "name": "Dashboards",
+        "weight": 1.0
+      },
+      {
+        "name": "Panels",
+        "weight": 0.6858
+      },
+      {
+        "name": "Data Sources",
+        "weight": 1.0
+      },
+      {
+        "name": "Alerting",
+        "weight": 0.6858
+      },
+      {
+        "name": "Alert Rules",
+        "weight": 0.6936
+      },
+      {
+        "name": "Variables",
+        "weight": 0.2067
+      },
+      {
+        "name": "Annotations",
+        "weight": 0.198
+      },
+      {
+        "name": "Grafana Loki (Logs)",
+        "weight": 0.6936
+      },
+      {
+        "name": "Grafana Tempo (Tracing)",
+        "weight": 0.6936
+      },
+      {
+        "name": "PromQL Integration",
+        "weight": 0.6858
+      },
+      {
+        "name": "Plugins",
+        "weight": 0.1633
+      },
+      {
+        "name": "Provisioning",
+        "weight": 0.6642
+      },
+      {
+        "name": "Organizations",
+        "weight": 0.146
+      },
+      {
+        "name": "Notification Channels",
+        "weight": 0.6936
+      },
+      {
+        "name": "Time Series Panels",
+        "weight": 0.1287
+      },
+      {
+        "name": "Explore View",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Monitoring Concepts",
+        "weight": 1.0
+      },
+      {
+        "name": "Time Series Data Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "Prometheus Basics or Metrics Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "observability_grafana"
+  },
+  {
+    "id": 84,
+    "gid": 100000084,
+    "name": "Prometheus",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Metrics Monitoring and Alerting Toolkit",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Monitoring and Observability",
+      "specialization": "Metrics Collection Systems"
+    },
+    "aliases": [
+      "Prometheus",
+      "Prometheus Monitoring",
+      "PromQL"
+    ],
+    "concepts": [
+      {
+        "name": "Time Series Database",
+        "weight": 0.25
+      },
+      {
+        "name": "PromQL",
+        "weight": 0.6834
+      },
+      {
+        "name": "Scraping",
+        "weight": 0.6834
+      },
+      {
+        "name": "Exporters",
+        "weight": 0.6834
+      },
+      {
+        "name": "Node Exporter",
+        "weight": 0.6666
+      },
+      {
+        "name": "Service Discovery",
+        "weight": 1.0
+      },
+      {
+        "name": "Alertmanager",
+        "weight": 0.6957
+      },
+      {
+        "name": "Alert Rules",
+        "weight": 0.6834
+      },
+      {
+        "name": "Recording Rules",
+        "weight": 0.6957
+      },
+      {
+        "name": "Metrics Types (Counter, Gauge, Histogram, Summary)",
+        "weight": 0.6957
+      },
+      {
+        "name": "Pull-Based Model",
+        "weight": 0.1633
+      },
+      {
+        "name": "Labels",
+        "weight": 0.1547
+      },
+      {
+        "name": "Targets",
+        "weight": 0.146
+      },
+      {
+        "name": "Federation",
+        "weight": 0.6957
+      },
+      {
+        "name": "Remote Write",
+        "weight": 0.6666
+      },
+      {
+        "name": "Client Libraries",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Monitoring Concepts",
+        "weight": 1.0
+      },
+      {
+        "name": "Linux Fundamentals",
+        "weight": 0.8
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Time Series Data Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "observability_prometheus"
+  },
+  {
+    "id": 85,
+    "gid": 100000085,
+    "name": "SonarQube",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Static Code Analysis and Code Quality Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality",
+      "sub_category": "Static Analysis",
+      "specialization": "Code Quality Platforms"
+    },
+    "aliases": [
+      "SonarQube",
+      "Sonar",
+      "SonarCloud",
+      "SonarLint"
+    ],
+    "concepts": [
+      {
+        "name": "Code Smells",
+        "weight": 0.6752
+      },
+      {
+        "name": "Bugs Detection",
+        "weight": 0.6752
+      },
+      {
+        "name": "Vulnerabilities Detection",
+        "weight": 0.7161
+      },
+      {
+        "name": "Security Hotspots",
+        "weight": 0.7161
+      },
+      {
+        "name": "Code Coverage",
+        "weight": 0.9898
+      },
+      {
+        "name": "Technical Debt",
+        "weight": 0.2139
+      },
+      {
+        "name": "Quality Gates",
+        "weight": 1.0
+      },
+      {
+        "name": "Quality Profiles",
+        "weight": 0.1994
+      },
+      {
+        "name": "Duplications Detection",
+        "weight": 0.6646
+      },
+      {
+        "name": "Static Application Security Testing (SAST)",
+        "weight": 0.7161
+      },
+      {
+        "name": "Rulesets",
+        "weight": 0.1778
+      },
+      {
+        "name": "SonarScanner",
+        "weight": 0.6854
+      },
+      {
+        "name": "CI/CD Integration",
+        "weight": 0.6854
+      },
+      {
+        "name": "SonarLint IDE Plugin",
+        "weight": 0.6752
+      },
+      {
+        "name": "Maintainability Rating",
+        "weight": 0.1489
+      },
+      {
+        "name": "Reliability Rating",
+        "weight": 0.1417
+      },
+      {
+        "name": "Security Rating",
+        "weight": 0.7161
+      },
+      {
+        "name": "Branch Analysis",
+        "weight": 0.1272
+      },
+      {
+        "name": "Pull Request Decoration",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Software Testing Concepts",
+        "weight": 1.0
+      },
+      {
+        "name": "CI/CD Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_sonarqube"
+  },
+  {
+    "id": 86,
+    "gid": 100000086,
+    "name": "Burp Suite",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Web Application Security Testing Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Application Security Testing",
+      "specialization": "Penetration Testing Tools"
+    },
+    "aliases": [
+      "Burp Suite",
+      "Burp",
+      "Burp Suite Professional",
+      "Burp Suite Community Edition",
+      "PortSwigger Burp Suite"
+    ],
+    "concepts": [
+      {
+        "name": "Proxy Interception",
+        "weight": 0.6806
+      },
+      {
+        "name": "Repeater",
+        "weight": 1.0
+      },
+      {
+        "name": "Intruder",
+        "weight": 1.0
+      },
+      {
+        "name": "Scanner",
+        "weight": 0.9886
+      },
+      {
+        "name": "Spider/Crawler",
+        "weight": 0.2226
+      },
+      {
+        "name": "Decoder",
+        "weight": 0.2158
+      },
+      {
+        "name": "Comparer",
+        "weight": 0.2089
+      },
+      {
+        "name": "Extender",
+        "weight": 0.2021
+      },
+      {
+        "name": "BApp Store",
+        "weight": 0.1953
+      },
+      {
+        "name": "Sequencer",
+        "weight": 0.1884
+      },
+      {
+        "name": "Target Site Map",
+        "weight": 0.6581
+      },
+      {
+        "name": "Session Handling Rules",
+        "weight": 0.6581
+      },
+      {
+        "name": "SSL/TLS Interception",
+        "weight": 0.1679
+      },
+      {
+        "name": "SQL Injection Testing",
+        "weight": 1.0
+      },
+      {
+        "name": "XSS Testing",
+        "weight": 0.6806
+      },
+      {
+        "name": "CSRF Testing",
+        "weight": 0.6694
+      },
+      {
+        "name": "Vulnerability Scanning",
+        "weight": 0.6581
+      },
+      {
+        "name": "Collaborator Client",
+        "weight": 0.6694
+      },
+      {
+        "name": "Macros",
+        "weight": 0.1268
+      },
+      {
+        "name": "Burp Suite Extensions (BApps)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "HTTP",
+        "weight": 1.0
+      },
+      {
+        "name": "Web Application Basics",
+        "weight": 0.85
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "OWASP Top 10",
+        "weight": 0.55
+      },
+      {
+        "name": "Browser Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_burp_suite"
+  },
+  {
+    "id": 87,
+    "gid": 100000087,
+    "name": "Wireshark",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Network Protocol Analyzer",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Network Analysis",
+      "specialization": "Packet Analysis Tools"
+    },
+    "aliases": [
+      "Wireshark",
+      "Ethereal (legacy name)"
+    ],
+    "concepts": [
+      {
+        "name": "Packet Capture",
+        "weight": 1.0
+      },
+      {
+        "name": "Protocol Dissection",
+        "weight": 0.5894
+      },
+      {
+        "name": "Display Filters",
+        "weight": 0.7785
+      },
+      {
+        "name": "Capture Filters",
+        "weight": 0.2256
+      },
+      {
+        "name": "TCP Stream Follow",
+        "weight": 0.5894
+      },
+      {
+        "name": "OSI Model Analysis",
+        "weight": 0.5894
+      },
+      {
+        "name": "Network Interfaces",
+        "weight": 0.2012
+      },
+      {
+        "name": "Promiscuous Mode",
+        "weight": 0.1931
+      },
+      {
+        "name": "pcap Files",
+        "weight": 0.185
+      },
+      {
+        "name": "TShark (CLI)",
+        "weight": 0.1769
+      },
+      {
+        "name": "Statistics (I/O Graphs, Conversations)",
+        "weight": 0.1688
+      },
+      {
+        "name": "SSL/TLS Decryption",
+        "weight": 0.5715
+      },
+      {
+        "name": "ARP Analysis",
+        "weight": 0.5715
+      },
+      {
+        "name": "DNS Analysis",
+        "weight": 0.5715
+      },
+      {
+        "name": "HTTP Analysis",
+        "weight": 0.5391
+      },
+      {
+        "name": "VoIP Analysis",
+        "weight": 0.1281
+      },
+      {
+        "name": "Coloring Rules",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Networking Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "OSI Model",
+        "weight": 0.8
+      },
+      {
+        "name": "TCP/IP",
+        "weight": 0.6
+      },
+      {
+        "name": "Protocols (HTTP, DNS, ARP)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_wireshark"
+  },
+  {
+    "id": 88,
+    "gid": 100000088,
+    "name": "Nmap",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Network Scanning and Security Auditing Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Network Analysis",
+      "specialization": "Network Scanning Tools"
+    },
+    "aliases": [
+      "Nmap",
+      "Network Mapper",
+      "Zenmap (GUI)"
+    ],
+    "concepts": [
+      {
+        "name": "Port Scanning",
+        "weight": 1.0
+      },
+      {
+        "name": "Host Discovery",
+        "weight": 0.9681
+      },
+      {
+        "name": "Service/Version Detection",
+        "weight": 0.6909
+      },
+      {
+        "name": "OS Fingerprinting",
+        "weight": 0.7228
+      },
+      {
+        "name": "NSE (Nmap Scripting Engine)",
+        "weight": 0.7228
+      },
+      {
+        "name": "TCP SYN Scan",
+        "weight": 0.2
+      },
+      {
+        "name": "TCP Connect Scan",
+        "weight": 0.19
+      },
+      {
+        "name": "UDP Scan",
+        "weight": 0.18
+      },
+      {
+        "name": "Stealth Scanning",
+        "weight": 0.7228
+      },
+      {
+        "name": "Ping Sweep",
+        "weight": 0.6272
+      },
+      {
+        "name": "Scan Timing Templates",
+        "weight": 0.15
+      },
+      {
+        "name": "Output Formats (XML, Grepable)",
+        "weight": 0.14
+      },
+      {
+        "name": "Firewall Evasion Techniques",
+        "weight": 0.13
+      },
+      {
+        "name": "Vulnerability Scanning Scripts",
+        "weight": 0.6909
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Networking Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "TCP/IP",
+        "weight": 0.8
+      },
+      {
+        "name": "Ports and Protocols",
+        "weight": 0.6
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_nmap"
+  },
+  {
+    "id": 91,
+    "gid": 100000091,
+    "name": "Apache Airflow",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Workflow Orchestration Platform",
+    "hierarchy": {
+      "domain": "Data",
+      "category": "Data Engineering",
+      "sub_category": "Workflow Orchestration",
+      "specialization": "Batch Pipeline Orchestrators"
+    },
+    "aliases": [
+      "Apache Airflow",
+      "Airflow"
+    ],
+    "concepts": [
+      {
+        "name": "DAG (Directed Acyclic Graph)",
+        "weight": 1.0
+      },
+      {
+        "name": "Operators",
+        "weight": 0.7165
+      },
+      {
+        "name": "Tasks",
+        "weight": 0.2356
+      },
+      {
+        "name": "Task Dependencies",
+        "weight": 0.7165
+      },
+      {
+        "name": "Scheduler",
+        "weight": 0.6073
+      },
+      {
+        "name": "Executor (Local, Celery, Kubernetes)",
+        "weight": 0.8908
+      },
+      {
+        "name": "Sensors",
+        "weight": 0.7165
+      },
+      {
+        "name": "XComs",
+        "weight": 0.7165
+      },
+      {
+        "name": "Hooks",
+        "weight": 0.7165
+      },
+      {
+        "name": "Connections",
+        "weight": 0.6073
+      },
+      {
+        "name": "Variables",
+        "weight": 0.1778
+      },
+      {
+        "name": "Airflow UI",
+        "weight": 0.1706
+      },
+      {
+        "name": "Backfilling",
+        "weight": 0.1633
+      },
+      {
+        "name": "SLA Miss Alerts",
+        "weight": 0.1561
+      },
+      {
+        "name": "Dynamic DAG Generation",
+        "weight": 0.1489
+      },
+      {
+        "name": "TaskFlow API",
+        "weight": 0.1417
+      },
+      {
+        "name": "Airflow Providers",
+        "weight": 0.1344
+      },
+      {
+        "name": "Retry Logic",
+        "weight": 0.6335
+      },
+      {
+        "name": "Trigger Rules",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "ETL Concepts",
+        "weight": 0.8
+      },
+      {
+        "name": "Scheduling Concepts",
+        "weight": 0.6
+      },
+      {
+        "name": "SQL Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "data_engineering_apache_airflow"
+  },
+  {
+    "id": 92,
+    "gid": 100000092,
+    "name": "Apache Spark",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Distributed Data Processing Engine",
+    "hierarchy": {
+      "domain": "Data",
+      "category": "Data Engineering",
+      "sub_category": "Big Data Processing",
+      "specialization": "Distributed Compute Engines"
+    },
+    "aliases": [
+      "Apache Spark",
+      "Spark",
+      "PySpark",
+      "Spark SQL",
+      "Databricks Spark"
+    ],
+    "concepts": [
+      {
+        "name": "RDD (Resilient Distributed Dataset)",
+        "weight": 0.6212
+      },
+      {
+        "name": "DataFrame API",
+        "weight": 1.0
+      },
+      {
+        "name": "Dataset API",
+        "weight": 0.2376
+      },
+      {
+        "name": "Spark SQL",
+        "weight": 0.8264
+      },
+      {
+        "name": "Spark Streaming",
+        "weight": 0.2252
+      },
+      {
+        "name": "Structured Streaming",
+        "weight": 0.219
+      },
+      {
+        "name": "MLlib",
+        "weight": 0.7318
+      },
+      {
+        "name": "GraphX",
+        "weight": 0.2067
+      },
+      {
+        "name": "Cluster Manager (YARN, Mesos, Kubernetes, Standalone)",
+        "weight": 0.6212
+      },
+      {
+        "name": "Driver and Executors",
+        "weight": 0.1943
+      },
+      {
+        "name": "Partitioning",
+        "weight": 0.6182
+      },
+      {
+        "name": "Shuffling",
+        "weight": 0.6182
+      },
+      {
+        "name": "Lazy Evaluation",
+        "weight": 0.1757
+      },
+      {
+        "name": "Transformations and Actions",
+        "weight": 0.6182
+      },
+      {
+        "name": "Catalyst Optimizer",
+        "weight": 0.6212
+      },
+      {
+        "name": "Tungsten Execution Engine",
+        "weight": 0.6212
+      },
+      {
+        "name": "Broadcast Variables",
+        "weight": 0.151
+      },
+      {
+        "name": "Accumulators",
+        "weight": 0.1448
+      },
+      {
+        "name": "PySpark",
+        "weight": 0.7318
+      },
+      {
+        "name": "Spark Submit",
+        "weight": 0.6182
+      },
+      {
+        "name": "Caching and Persistence",
+        "weight": 0.1262
+      },
+      {
+        "name": "Window Functions",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Scala Basics or Python Fundamentals",
+        "weight": 0.85
+      },
+      {
+        "name": "SQL Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "Big Data Concepts",
+        "weight": 0.55
+      },
+      {
+        "name": "Hadoop Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "data_engineering_apache_spark"
+  },
+  {
+    "id": 93,
+    "gid": 100000093,
+    "name": "Helm",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Kubernetes Package Manager",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Container Orchestration",
+      "specialization": "Kubernetes Package Management"
+    },
+    "aliases": [
+      "Helm",
+      "Helm Charts",
+      "Kubernetes Helm",
+      "helm3"
+    ],
+    "concepts": [
+      {
+        "name": "Charts",
+        "weight": 0.9906
+      },
+      {
+        "name": "Chart.yaml",
+        "weight": 0.2432
+      },
+      {
+        "name": "values.yaml",
+        "weight": 0.9906
+      },
+      {
+        "name": "Templates",
+        "weight": 0.9906
+      },
+      {
+        "name": "Releases",
+        "weight": 0.9906
+      },
+      {
+        "name": "Helm Repository",
+        "weight": 0.2158
+      },
+      {
+        "name": "Helm Hub / Artifact Hub",
+        "weight": 0.2089
+      },
+      {
+        "name": "helm install",
+        "weight": 0.9906
+      },
+      {
+        "name": "helm upgrade",
+        "weight": 0.9906
+      },
+      {
+        "name": "helm rollback",
+        "weight": 0.9148
+      },
+      {
+        "name": "Subcharts",
+        "weight": 1.0
+      },
+      {
+        "name": "Dependencies",
+        "weight": 1.0
+      },
+      {
+        "name": "Hooks",
+        "weight": 0.9148
+      },
+      {
+        "name": "Helmfile",
+        "weight": 1.0
+      },
+      {
+        "name": "Chart Templating (Go Templates)",
+        "weight": 1.0
+      },
+      {
+        "name": "Chart Testing",
+        "weight": 1.0
+      },
+      {
+        "name": "Tiller (Helm 2 legacy)",
+        "weight": 0.1405
+      },
+      {
+        "name": "Helm Secrets Plugin",
+        "weight": 0.1337
+      },
+      {
+        "name": "Release Revision History",
+        "weight": 0.9148
+      },
+      {
+        "name": "Chart Versioning",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Kubernetes",
+        "weight": 1.0
+      },
+      {
+        "name": "YAML",
+        "weight": 0.8
+      },
+      {
+        "name": "Docker",
+        "weight": 0.6
+      },
+      {
+        "name": "Go Templates Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "devop_helm"
+  },
+  {
+    "id": 94,
+    "gid": 100000094,
+    "name": "Istio",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Service Mesh Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Service Mesh",
+      "specialization": "Cloud Native Networking"
+    },
+    "aliases": [
+      "Istio",
+      "Istio Service Mesh"
+    ],
+    "concepts": [
+      {
+        "name": "Sidecar Proxy",
+        "weight": 1.0
+      },
+      {
+        "name": "Envoy Proxy",
+        "weight": 0.2438
+      },
+      {
+        "name": "Control Plane (Istiod)",
+        "weight": 1.0
+      },
+      {
+        "name": "Data Plane",
+        "weight": 0.2314
+      },
+      {
+        "name": "Virtual Service",
+        "weight": 1.0
+      },
+      {
+        "name": "Destination Rule",
+        "weight": 1.0
+      },
+      {
+        "name": "Gateway",
+        "weight": 0.9191
+      },
+      {
+        "name": "Traffic Management",
+        "weight": 1.0
+      },
+      {
+        "name": "Canary Deployments",
+        "weight": 0.9191
+      },
+      {
+        "name": "Circuit Breaking",
+        "weight": 0.9912
+      },
+      {
+        "name": "Retries and Timeouts",
+        "weight": 0.9912
+      },
+      {
+        "name": "mTLS (Mutual TLS)",
+        "weight": 0.8794
+      },
+      {
+        "name": "Authorization Policy",
+        "weight": 0.8794
+      },
+      {
+        "name": "Peer Authentication",
+        "weight": 0.8794
+      },
+      {
+        "name": "Observability (Tracing, Metrics)",
+        "weight": 0.9912
+      },
+      {
+        "name": "Istio Ingress Gateway",
+        "weight": 0.1571
+      },
+      {
+        "name": "Istio Egress Gateway",
+        "weight": 0.151
+      },
+      {
+        "name": "Service Entry",
+        "weight": 0.1448
+      },
+      {
+        "name": "Fault Injection",
+        "weight": 0.9912
+      },
+      {
+        "name": "Traffic Mirroring",
+        "weight": 0.1324
+      },
+      {
+        "name": "Kiali",
+        "weight": 0.9191
+      },
+      {
+        "name": "Sidecar Injection",
+        "weight": 0.9191
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Kubernetes",
+        "weight": 1.0
+      },
+      {
+        "name": "Docker",
+        "weight": 0.85
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "Microservices Architecture",
+        "weight": 0.55
+      },
+      {
+        "name": "YAML",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_istio"
+  },
+  {
+    "id": 95,
+    "gid": 100000095,
+    "name": "Argo CD",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "GitOps Continuous Delivery Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "GitOps",
+      "specialization": "Continuous Deployment Tools"
+    },
+    "aliases": [
+      "Argo CD",
+      "ArgoCD",
+      "Argo-CD"
+    ],
+    "concepts": [
+      {
+        "name": "GitOps",
+        "weight": 0.9843
+      },
+      {
+        "name": "Application CRD",
+        "weight": 0.9843
+      },
+      {
+        "name": "Sync Policy",
+        "weight": 0.9843
+      },
+      {
+        "name": "Auto-Sync",
+        "weight": 0.9843
+      },
+      {
+        "name": "Self-Healing",
+        "weight": 0.9071
+      },
+      {
+        "name": "App of Apps Pattern",
+        "weight": 1.0
+      },
+      {
+        "name": "Sync Waves",
+        "weight": 1.0
+      },
+      {
+        "name": "Health Checks",
+        "weight": 0.9071
+      },
+      {
+        "name": "Rollback",
+        "weight": 0.9843
+      },
+      {
+        "name": "ArgoCD UI",
+        "weight": 0.185
+      },
+      {
+        "name": "ArgoCD CLI",
+        "weight": 0.1778
+      },
+      {
+        "name": "RBAC",
+        "weight": 0.1706
+      },
+      {
+        "name": "SSO Integration",
+        "weight": 0.1633
+      },
+      {
+        "name": "Projects",
+        "weight": 1.0
+      },
+      {
+        "name": "Diffing (Desired vs Live State)",
+        "weight": 0.9071
+      },
+      {
+        "name": "Helm Integration",
+        "weight": 0.1417
+      },
+      {
+        "name": "Kustomize Integration",
+        "weight": 0.1344
+      },
+      {
+        "name": "Notifications",
+        "weight": 0.1272
+      },
+      {
+        "name": "ApplicationSet",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Kubernetes",
+        "weight": 1.0
+      },
+      {
+        "name": "Git",
+        "weight": 0.85
+      },
+      {
+        "name": "Helm Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "YAML",
+        "weight": 0.55
+      },
+      {
+        "name": "CI/CD Concepts",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "devop_argocd"
+  },
+  {
+    "id": 96,
+    "gid": 100000096,
+    "name": "Flux CD",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "GitOps Continuous Delivery Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "GitOps",
+      "specialization": "Continuous Deployment Tools"
+    },
+    "aliases": [
+      "Flux CD",
+      "FluxCD",
+      "Flux",
+      "Flux2"
+    ],
+    "concepts": [
+      {
+        "name": "GitOps Toolkit",
+        "weight": 0.25
+      },
+      {
+        "name": "Source Controller",
+        "weight": 0.717
+      },
+      {
+        "name": "Kustomize Controller",
+        "weight": 0.2314
+      },
+      {
+        "name": "Helm Controller",
+        "weight": 0.717
+      },
+      {
+        "name": "Notification Controller",
+        "weight": 0.2129
+      },
+      {
+        "name": "Image Automation Controller",
+        "weight": 0.6518
+      },
+      {
+        "name": "GitRepository CRD",
+        "weight": 0.6982
+      },
+      {
+        "name": "HelmRelease CRD",
+        "weight": 0.185
+      },
+      {
+        "name": "Kustomization CRD",
+        "weight": 0.6982
+      },
+      {
+        "name": "Reconciliation",
+        "weight": 1.0
+      },
+      {
+        "name": "Multi-Tenancy",
+        "weight": 0.717
+      },
+      {
+        "name": "Flux CLI",
+        "weight": 0.6982
+      },
+      {
+        "name": "Image Update Automation",
+        "weight": 0.1386
+      },
+      {
+        "name": "Bootstrap",
+        "weight": 0.717
+      },
+      {
+        "name": "Progressive Delivery (Flagger Integration)",
+        "weight": 0.6518
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Kubernetes",
+        "weight": 1.0
+      },
+      {
+        "name": "Git",
+        "weight": 0.85
+      },
+      {
+        "name": "Helm Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "YAML",
+        "weight": 0.55
+      },
+      {
+        "name": "CI/CD Concepts",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_flux_cd"
+  },
+  {
+    "id": 137,
+    "gid": 100000137,
+    "name": "Docker",
+    "entity_type": "Container Technology",
+    "entity_subtype": "Container Runtime and Image Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Containerization",
+      "specialization": "Application Containerization"
+    },
+    "aliases": [
+      "Docker",
+      "Docker Engine",
+      "Docker CE",
+      "Docker Desktop",
+      "Dockerd"
+    ],
+    "concepts": [
+      {
+        "name": "Containers vs Virtual Machines",
+        "weight": 0.25
+      },
+      {
+        "name": "Docker Images",
+        "weight": 0.5755
+      },
+      {
+        "name": "Dockerfile",
+        "weight": 1.0
+      },
+      {
+        "name": "Docker Layers and Caching",
+        "weight": 0.2338
+      },
+      {
+        "name": "Docker Compose",
+        "weight": 1.0
+      },
+      {
+        "name": "Multi-Stage Builds",
+        "weight": 0.7954
+      },
+      {
+        "name": "Docker Hub / Container Registries",
+        "weight": 0.8268
+      },
+      {
+        "name": "Volumes",
+        "weight": 0.5546
+      },
+      {
+        "name": "Bind Mounts",
+        "weight": 0.2067
+      },
+      {
+        "name": "Docker Networking (Bridge, Host, Overlay)",
+        "weight": 0.8242
+      },
+      {
+        "name": "Container Lifecycle",
+        "weight": 0.1958
+      },
+      {
+        "name": "Docker Build Context",
+        "weight": 0.1904
+      },
+      {
+        "name": "Base Images",
+        "weight": 0.5441
+      },
+      {
+        "name": "Image Tagging",
+        "weight": 0.5755
+      },
+      {
+        "name": "docker-compose.yml",
+        "weight": 0.6013
+      },
+      {
+        "name": "Environment Variables in Containers",
+        "weight": 0.5546
+      },
+      {
+        "name": "Health Checks",
+        "weight": 0.5729
+      },
+      {
+        "name": "Docker CLI",
+        "weight": 0.5546
+      },
+      {
+        "name": "Docker Swarm",
+        "weight": 0.5755
+      },
+      {
+        "name": "Resource Limits (CPU/Memory)",
+        "weight": 0.5729
+      },
+      {
+        "name": "Container Isolation (Namespaces, cgroups)",
+        "weight": 0.7277
+      },
+      {
+        "name": "Entrypoint vs CMD",
+        "weight": 0.1362
+      },
+      {
+        "name": "Image Vulnerability Scanning",
+        "weight": 0.5049
+      },
+      {
+        "name": "Docker Buildx",
+        "weight": 0.1254
+      },
+      {
+        "name": "OCI (Open Container Initiative) Standard",
+        "weight": 0.5049
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Linux Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.8
+      },
+      {
+        "name": "Operating System Fundamentals",
+        "weight": 0.6
+      },
+      {
+        "name": "Networking Basics (TCP/IP, DNS)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "devop_docker"
+  },
+  {
+    "id": 138,
+    "gid": 100000138,
+    "name": "Kubernetes",
+    "entity_type": "Container Technology",
+    "entity_subtype": "Container Orchestration Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Container Orchestration",
+      "specialization": "Cloud-Native Infrastructure"
+    },
+    "aliases": [
+      "Kubernetes",
+      "K8s",
+      "K8",
+      "Kube"
+    ],
+    "concepts": [
+      {
+        "name": "Pods",
+        "weight": 0.8894
+      },
+      {
+        "name": "Deployments",
+        "weight": 0.8894
+      },
+      {
+        "name": "ReplicaSets",
+        "weight": 0.2421
+      },
+      {
+        "name": "Services",
+        "weight": 0.8894
+      },
+      {
+        "name": "Ingress",
+        "weight": 0.6873
+      },
+      {
+        "name": "ConfigMaps",
+        "weight": 0.8894
+      },
+      {
+        "name": "Secrets",
+        "weight": 0.6873
+      },
+      {
+        "name": "Namespaces",
+        "weight": 0.6665
+      },
+      {
+        "name": "StatefulSets",
+        "weight": 0.611
+      },
+      {
+        "name": "DaemonSets",
+        "weight": 0.2145
+      },
+      {
+        "name": "Jobs and CronJobs",
+        "weight": 0.611
+      },
+      {
+        "name": "Persistent Volumes (PV)",
+        "weight": 0.6665
+      },
+      {
+        "name": "Persistent Volume Claims (PVC)",
+        "weight": 0.611
+      },
+      {
+        "name": "Horizontal Pod Autoscaler (HPA)",
+        "weight": 0.6765
+      },
+      {
+        "name": "Vertical Pod Autoscaler (VPA)",
+        "weight": 0.1948
+      },
+      {
+        "name": "Cluster Architecture (Control Plane, Nodes)",
+        "weight": 0.9931
+      },
+      {
+        "name": "kubelet",
+        "weight": 0.187
+      },
+      {
+        "name": "kube-apiserver",
+        "weight": 0.183
+      },
+      {
+        "name": "etcd",
+        "weight": 0.1791
+      },
+      {
+        "name": "kube-scheduler",
+        "weight": 0.1752
+      },
+      {
+        "name": "kube-controller-manager",
+        "weight": 0.1712
+      },
+      {
+        "name": "kubectl CLI",
+        "weight": 0.6873
+      },
+      {
+        "name": "Helm Charts",
+        "weight": 1.0
+      },
+      {
+        "name": "RBAC (Role-Based Access Control)",
+        "weight": 0.9792
+      },
+      {
+        "name": "Network Policies",
+        "weight": 0.6765
+      },
+      {
+        "name": "Service Mesh (Istio, Linkerd)",
+        "weight": 0.6627
+      },
+      {
+        "name": "CustomResourceDefinitions (CRDs)",
+        "weight": 0.6627
+      },
+      {
+        "name": "Operators",
+        "weight": 0.6627
+      },
+      {
+        "name": "Rolling Updates and Rollbacks",
+        "weight": 0.6873
+      },
+      {
+        "name": "Liveness and Readiness Probes",
+        "weight": 0.6765
+      },
+      {
+        "name": "Taints and Tolerations",
+        "weight": 0.1318
+      },
+      {
+        "name": "Node Affinity/Anti-Affinity",
+        "weight": 0.6665
+      },
+      {
+        "name": "Resource Requests and Limits",
+        "weight": 0.9376
+      },
+      {
+        "name": "kubeconfig",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Docker",
+        "weight": 1.0
+      },
+      {
+        "name": "Linux Basics",
+        "weight": 0.85
+      },
+      {
+        "name": "Networking Basics (TCP/IP, DNS)",
+        "weight": 0.7
+      },
+      {
+        "name": "YAML",
+        "weight": 0.55
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "devop_kubernetes"
+  },
+  {
+    "id": 139,
+    "gid": 100000139,
+    "name": "Terraform",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Infrastructure as Code Provisioning Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Infrastructure as Code",
+      "specialization": "Multi-Cloud Infrastructure Provisioning"
+    },
+    "aliases": [
+      "Terraform",
+      "HashiCorp Terraform",
+      "TF"
+    ],
+    "concepts": [
+      {
+        "name": "HCL (HashiCorp Configuration Language)",
+        "weight": 0.5786
+      },
+      {
+        "name": "Providers",
+        "weight": 1.0
+      },
+      {
+        "name": "Resources",
+        "weight": 0.5786
+      },
+      {
+        "name": "Data Sources",
+        "weight": 0.2295
+      },
+      {
+        "name": "State Files",
+        "weight": 0.776
+      },
+      {
+        "name": "Remote State (S3, Terraform Cloud)",
+        "weight": 0.5813
+      },
+      {
+        "name": "State Locking",
+        "weight": 0.5813
+      },
+      {
+        "name": "Modules",
+        "weight": 1.0
+      },
+      {
+        "name": "Variables and Outputs",
+        "weight": 0.1953
+      },
+      {
+        "name": "terraform plan",
+        "weight": 0.776
+      },
+      {
+        "name": "terraform apply",
+        "weight": 0.5786
+      },
+      {
+        "name": "terraform destroy",
+        "weight": 0.1747
+      },
+      {
+        "name": "Workspaces",
+        "weight": 0.5813
+      },
+      {
+        "name": "Provisioners",
+        "weight": 0.1611
+      },
+      {
+        "name": "Import (terraform import)",
+        "weight": 0.1542
+      },
+      {
+        "name": "Drift Detection",
+        "weight": 0.5473
+      },
+      {
+        "name": "Terraform Registry",
+        "weight": 0.54
+      },
+      {
+        "name": "Dependency Graph",
+        "weight": 0.7714
+      },
+      {
+        "name": "terraform init",
+        "weight": 0.1268
+      },
+      {
+        "name": "Backend Configuration",
+        "weight": 0.5473
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Cloud Computing Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Infrastructure as Code Concepts",
+        "weight": 0.8
+      },
+      {
+        "name": "YAML/JSON Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "devop_terraform"
+  },
+  {
+    "id": 140,
+    "gid": 100000140,
+    "name": "Jenkins",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Continuous Integration/Continuous Delivery Automation Server",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "CI/CD Tools",
+      "specialization": "Build and Deployment Automation"
+    },
+    "aliases": [
+      "Jenkins",
+      "Jenkins CI",
+      "Jenkins Automation Server"
+    ],
+    "concepts": [
+      {
+        "name": "Jenkinsfile",
+        "weight": 1.0
+      },
+      {
+        "name": "Declarative Pipeline",
+        "weight": 1.0
+      },
+      {
+        "name": "Scripted Pipeline",
+        "weight": 0.6786
+      },
+      {
+        "name": "Jobs and Builds",
+        "weight": 0.224
+      },
+      {
+        "name": "Plugins",
+        "weight": 0.2153
+      },
+      {
+        "name": "Agents/Nodes (Master-Agent Architecture)",
+        "weight": 0.9027
+      },
+      {
+        "name": "Build Triggers",
+        "weight": 0.9027
+      },
+      {
+        "name": "Webhooks",
+        "weight": 0.1893
+      },
+      {
+        "name": "Pipeline Stages",
+        "weight": 0.6714
+      },
+      {
+        "name": "Blue Ocean UI",
+        "weight": 0.172
+      },
+      {
+        "name": "Credentials Management",
+        "weight": 0.6714
+      },
+      {
+        "name": "Distributed Builds",
+        "weight": 0.6786
+      },
+      {
+        "name": "Artifact Archiving",
+        "weight": 0.5814
+      },
+      {
+        "name": "Groovy Scripting (Jenkins)",
+        "weight": 0.1373
+      },
+      {
+        "name": "Shared Libraries",
+        "weight": 0.6786
+      },
+      {
+        "name": "Multibranch Pipelines",
+        "weight": 0.6786
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Version Control with Git",
+        "weight": 1.0
+      },
+      {
+        "name": "CI/CD Concepts",
+        "weight": 0.8
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.6
+      },
+      {
+        "name": "Groovy Basics (Recommended)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "devop_jenkins"
+  },
+  {
+    "id": 141,
+    "gid": 100000141,
+    "name": "Ansible",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Agentless Configuration Management and Automation Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Configuration Management",
+      "specialization": "IT Automation"
+    },
+    "aliases": [
+      "Ansible",
+      "Red Hat Ansible",
+      "Ansible Automation Platform"
+    ],
+    "concepts": [
+      {
+        "name": "Playbooks",
+        "weight": 1.0
+      },
+      {
+        "name": "Roles",
+        "weight": 0.9588
+      },
+      {
+        "name": "Inventory Files",
+        "weight": 1.0
+      },
+      {
+        "name": "Modules (Ansible)",
+        "weight": 0.6806
+      },
+      {
+        "name": "Tasks",
+        "weight": 0.2153
+      },
+      {
+        "name": "Handlers",
+        "weight": 0.2067
+      },
+      {
+        "name": "Variables (Ansible)",
+        "weight": 0.198
+      },
+      {
+        "name": "Jinja2 Templating",
+        "weight": 0.6282
+      },
+      {
+        "name": "Idempotency",
+        "weight": 0.6806
+      },
+      {
+        "name": "Ansible Vault",
+        "weight": 0.6806
+      },
+      {
+        "name": "Ansible Galaxy",
+        "weight": 0.6282
+      },
+      {
+        "name": "Ad-Hoc Commands",
+        "weight": 0.6694
+      },
+      {
+        "name": "SSH-Based Agentless Architecture",
+        "weight": 0.6694
+      },
+      {
+        "name": "Facts Gathering",
+        "weight": 0.6282
+      },
+      {
+        "name": "Tags (Ansible)",
+        "weight": 0.1287
+      },
+      {
+        "name": "Ansible Tower/AWX",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "YAML",
+        "weight": 1.0
+      },
+      {
+        "name": "Linux Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "SSH",
+        "weight": 0.6
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "devop_ansible"
+  },
+  {
+    "id": 142,
+    "gid": 100000142,
+    "name": "Nginx",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Web Server, Reverse Proxy, and Load Balancer",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Web Servers",
+      "specialization": "Web Serving / Reverse Proxy / Load Balancing"
+    },
+    "aliases": [
+      "Nginx",
+      "NGINX",
+      "Nginx Web Server",
+      "Engine X"
+    ],
+    "concepts": [
+      {
+        "name": "Reverse Proxy",
+        "weight": 0.9501
+      },
+      {
+        "name": "Load Balancing (Round Robin, Least Connections)",
+        "weight": 1.0
+      },
+      {
+        "name": "Static File Serving",
+        "weight": 0.6117
+      },
+      {
+        "name": "Server Blocks (Virtual Hosts)",
+        "weight": 0.8964
+      },
+      {
+        "name": "Location Blocks",
+        "weight": 0.6117
+      },
+      {
+        "name": "SSL/TLS Termination",
+        "weight": 0.9732
+      },
+      {
+        "name": "Caching (Nginx)",
+        "weight": 0.6616
+      },
+      {
+        "name": "Rate Limiting",
+        "weight": 0.6616
+      },
+      {
+        "name": "gzip Compression",
+        "weight": 0.17
+      },
+      {
+        "name": "Upstream Servers",
+        "weight": 0.6884
+      },
+      {
+        "name": "nginx.conf Configuration",
+        "weight": 0.9732
+      },
+      {
+        "name": "WebSocket Proxying",
+        "weight": 0.14
+      },
+      {
+        "name": "HTTP/2 Support",
+        "weight": 0.13
+      },
+      {
+        "name": "Access and Error Logs",
+        "weight": 0.6616
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "HTTP",
+        "weight": 1.0
+      },
+      {
+        "name": "HTTPS",
+        "weight": 0.8
+      },
+      {
+        "name": "Linux Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Networking Basics (TCP/IP, DNS)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_nginx"
+  },
+  {
+    "id": 143,
+    "gid": 100000143,
+    "name": "HashiCorp Vault",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Secrets Management and Data Protection Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Security Tools",
+      "specialization": "Secrets Management"
+    },
+    "aliases": [
+      "Vault",
+      "HashiCorp Vault"
+    ],
+    "concepts": [
+      {
+        "name": "Secrets Engines",
+        "weight": 1.0
+      },
+      {
+        "name": "Dynamic Secrets",
+        "weight": 0.9633
+      },
+      {
+        "name": "Static Secrets",
+        "weight": 0.2264
+      },
+      {
+        "name": "Auth Methods",
+        "weight": 0.6689
+      },
+      {
+        "name": "Policies (Vault)",
+        "weight": 0.6811
+      },
+      {
+        "name": "Sealing/Unsealing",
+        "weight": 0.6811
+      },
+      {
+        "name": "Encryption as a Service (Transit Engine)",
+        "weight": 0.6811
+      },
+      {
+        "name": "PKI Secrets Engine",
+        "weight": 0.6322
+      },
+      {
+        "name": "Lease and Renewal",
+        "weight": 0.6322
+      },
+      {
+        "name": "Audit Devices",
+        "weight": 0.1436
+      },
+      {
+        "name": "Vault Agent",
+        "weight": 0.6689
+      },
+      {
+        "name": "KV Secrets Engine",
+        "weight": 0.6689
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Cryptography Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Security Fundamentals",
+        "weight": 0.7
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "security_hashicorp_vault"
+  },
+  {
+    "id": 146,
+    "gid": 100000146,
+    "name": "Webpack",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "JavaScript Module Bundler",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Build Tools",
+      "specialization": "Frontend Build Tooling"
+    },
+    "aliases": [
+      "Webpack",
+      "webpack.js"
+    ],
+    "concepts": [
+      {
+        "name": "Entry and Output",
+        "weight": 0.9502
+      },
+      {
+        "name": "Loaders",
+        "weight": 0.6863
+      },
+      {
+        "name": "Plugins",
+        "weight": 0.6863
+      },
+      {
+        "name": "Module Resolution",
+        "weight": 0.22
+      },
+      {
+        "name": "Code Splitting",
+        "weight": 1.0
+      },
+      {
+        "name": "Tree Shaking",
+        "weight": 0.6637
+      },
+      {
+        "name": "Hot Module Replacement (HMR)",
+        "weight": 0.6863
+      },
+      {
+        "name": "webpack.config.js",
+        "weight": 0.6138
+      },
+      {
+        "name": "Bundle Optimization",
+        "weight": 0.6637
+      },
+      {
+        "name": "Source Maps",
+        "weight": 0.16
+      },
+      {
+        "name": "Asset Modules",
+        "weight": 0.15
+      },
+      {
+        "name": "Dev Server",
+        "weight": 0.6138
+      },
+      {
+        "name": "Chunking",
+        "weight": 0.6637
+      },
+      {
+        "name": "Lazy Loading",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JavaScript",
+        "weight": 1.0
+      },
+      {
+        "name": "Node.js",
+        "weight": 0.8
+      },
+      {
+        "name": "npm",
+        "weight": 0.6
+      },
+      {
+        "name": "ES Modules",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_webpack"
+  },
+  {
+    "id": 147,
+    "gid": 100000147,
+    "name": "Vite",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Frontend Build Tool and Development Server",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Build Tools",
+      "specialization": "Frontend Build Tooling"
+    },
+    "aliases": [
+      "Vite",
+      "Vite.js",
+      "ViteJS"
+    ],
+    "concepts": [
+      {
+        "name": "Native ES Modules (Dev Server)",
+        "weight": 1.0
+      },
+      {
+        "name": "Rollup (Production Bundling)",
+        "weight": 0.2338
+      },
+      {
+        "name": "Hot Module Replacement (HMR)",
+        "weight": 0.6972
+      },
+      {
+        "name": "vite.config.js",
+        "weight": 0.6972
+      },
+      {
+        "name": "Plugins (Vite)",
+        "weight": 0.185
+      },
+      {
+        "name": "Pre-Bundling (esbuild)",
+        "weight": 0.1688
+      },
+      {
+        "name": "Fast Cold Start",
+        "weight": 0.6972
+      },
+      {
+        "name": "Framework Templates (React, Vue, Svelte)",
+        "weight": 0.6528
+      },
+      {
+        "name": "Build Optimization",
+        "weight": 0.6528
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JavaScript",
+        "weight": 1.0
+      },
+      {
+        "name": "Node.js",
+        "weight": 0.8
+      },
+      {
+        "name": "npm",
+        "weight": 0.6
+      },
+      {
+        "name": "ES Modules",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_vite"
+  }
+]

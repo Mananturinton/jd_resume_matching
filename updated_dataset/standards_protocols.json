@@ -1,0 +1,1868 @@
+[
+  {
+    "id": 104,
+    "gid": 100000104,
+    "name": "HTTP",
+    "entity_type": "Protocol",
+    "entity_subtype": "Application-Layer Web Communication Protocol",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Application-Layer Protocols",
+      "specialization": "Web Communication"
+    },
+    "aliases": [
+      "HTTP",
+      "HyperText Transfer Protocol",
+      "HTTP/1.0",
+      "HTTP/1.1",
+      "HTTP/2",
+      "HTTP/3"
+    ],
+    "concepts": [
+      {
+        "name": "Request-Response Model",
+        "weight": 0.5761
+      },
+      {
+        "name": "HTTP Methods (GET, POST, PUT, DELETE, PATCH)",
+        "weight": 1.0
+      },
+      {
+        "name": "HTTP Status Codes",
+        "weight": 1.0
+      },
+      {
+        "name": "HTTP Headers",
+        "weight": 0.5761
+      },
+      {
+        "name": "Request Headers",
+        "weight": 0.2307
+      },
+      {
+        "name": "Response Headers",
+        "weight": 0.2259
+      },
+      {
+        "name": "Cookies",
+        "weight": 0.5547
+      },
+      {
+        "name": "Sessions",
+        "weight": 0.2163
+      },
+      {
+        "name": "Content-Type",
+        "weight": 0.5761
+      },
+      {
+        "name": "MIME Types",
+        "weight": 0.2067
+      },
+      {
+        "name": "Query Parameters",
+        "weight": 0.2019
+      },
+      {
+        "name": "URL Structure",
+        "weight": 0.197
+      },
+      {
+        "name": "Statelessness",
+        "weight": 0.1922
+      },
+      {
+        "name": "Caching (Cache-Control, ETag)",
+        "weight": 0.7808
+      },
+      {
+        "name": "Persistent Connections (Keep-Alive)",
+        "weight": 0.7018
+      },
+      {
+        "name": "HTTP/1.1 vs HTTP/2 vs HTTP/3",
+        "weight": 0.5379
+      },
+      {
+        "name": "Multiplexing (HTTP/2)",
+        "weight": 0.5379
+      },
+      {
+        "name": "Server Push (HTTP/2)",
+        "weight": 0.1681
+      },
+      {
+        "name": "QUIC (HTTP/3 Transport)",
+        "weight": 0.5379
+      },
+      {
+        "name": "CORS (Cross-Origin Resource Sharing)",
+        "weight": 0.5547
+      },
+      {
+        "name": "Content Negotiation",
+        "weight": 0.5692
+      },
+      {
+        "name": "Chunked Transfer Encoding",
+        "weight": 0.1489
+      },
+      {
+        "name": "Redirects (3xx)",
+        "weight": 0.1441
+      },
+      {
+        "name": "Authentication Headers",
+        "weight": 0.5692
+      },
+      {
+        "name": "RESTful API Design",
+        "weight": 0.7953
+      },
+      {
+        "name": "CDN Interaction with HTTP",
+        "weight": 0.5139
+      },
+      {
+        "name": "HTTP Proxies",
+        "weight": 0.5139
+      },
+      {
+        "name": "Compression (gzip, Brotli)",
+        "weight": 0.5139
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Networking Basics (TCP/IP)",
+        "weight": 1.0
+      },
+      {
+        "name": "URL Structure",
+        "weight": 0.8
+      },
+      {
+        "name": "Client-Server Model",
+        "weight": 0.6
+      },
+      {
+        "name": "Basic Web Development Concepts",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_http"
+  },
+  {
+    "id": 105,
+    "gid": 100000105,
+    "name": "HTTPS",
+    "entity_type": "Protocol",
+    "entity_subtype": "Secure Application-Layer Web Communication Protocol",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Application-Layer Protocols",
+      "specialization": "Secure Web Communication"
+    },
+    "aliases": [
+      "HTTPS",
+      "HTTP Secure",
+      "HTTP over TLS",
+      "HTTP over SSL"
+    ],
+    "concepts": [
+      {
+        "name": "TLS Handshake",
+        "weight": 1.0
+      },
+      {
+        "name": "Certificate Validation",
+        "weight": 0.5624
+      },
+      {
+        "name": "Public Key Infrastructure (PKI)",
+        "weight": 0.5935
+      },
+      {
+        "name": "SSL/TLS Encryption",
+        "weight": 0.2221
+      },
+      {
+        "name": "HSTS (HTTP Strict Transport Security)",
+        "weight": 0.7827
+      },
+      {
+        "name": "Mixed Content",
+        "weight": 0.2036
+      },
+      {
+        "name": "Certificate Authorities (CAs)",
+        "weight": 0.5702
+      },
+      {
+        "name": "Man-in-the-Middle Attack Prevention",
+        "weight": 0.5935
+      },
+      {
+        "name": "Port 443",
+        "weight": 0.7565
+      },
+      {
+        "name": "SNI (Server Name Indication)",
+        "weight": 0.7643
+      },
+      {
+        "name": "Perfect Forward Secrecy",
+        "weight": 0.5441
+      },
+      {
+        "name": "Certificate Pinning",
+        "weight": 0.5935
+      },
+      {
+        "name": "Let's Encrypt / Free Certificates",
+        "weight": 0.5702
+      },
+      {
+        "name": "OCSP (Online Certificate Status Protocol)",
+        "weight": 0.5935
+      },
+      {
+        "name": "Mutual TLS (mTLS)",
+        "weight": 0.5935
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "HTTP",
+        "weight": 1.0
+      },
+      {
+        "name": "TLS",
+        "weight": 0.8
+      },
+      {
+        "name": "Cryptography Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Public Key Infrastructure Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_https"
+  },
+  {
+    "id": 106,
+    "gid": 100000106,
+    "name": "TCP/IP",
+    "entity_type": "Protocol Suite",
+    "entity_subtype": "Foundational Internet Networking Protocol Suite",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Transport and Internet-Layer Protocols",
+      "specialization": "Core Internet Protocols"
+    },
+    "aliases": [
+      "TCP/IP",
+      "Transmission Control Protocol/Internet Protocol",
+      "Internet Protocol Suite"
+    ],
+    "concepts": [
+      {
+        "name": "OSI Model vs TCP/IP Model",
+        "weight": 0.7297
+      },
+      {
+        "name": "IP Addressing (IPv4, IPv6)",
+        "weight": 0.7297
+      },
+      {
+        "name": "Subnetting",
+        "weight": 0.7297
+      },
+      {
+        "name": "CIDR Notation",
+        "weight": 0.7297
+      },
+      {
+        "name": "Three-Way Handshake",
+        "weight": 0.8789
+      },
+      {
+        "name": "TCP Flow Control",
+        "weight": 0.6399
+      },
+      {
+        "name": "TCP Congestion Control",
+        "weight": 0.6555
+      },
+      {
+        "name": "Sequence Numbers and Acknowledgments",
+        "weight": 0.2045
+      },
+      {
+        "name": "Ports and Sockets",
+        "weight": 0.8789
+      },
+      {
+        "name": "Routing",
+        "weight": 0.7297
+      },
+      {
+        "name": "Packet Fragmentation",
+        "weight": 0.6555
+      },
+      {
+        "name": "MTU (Maximum Transmission Unit)",
+        "weight": 0.6555
+      },
+      {
+        "name": "TCP Retransmission",
+        "weight": 0.6555
+      },
+      {
+        "name": "TCP Window Scaling",
+        "weight": 0.1655
+      },
+      {
+        "name": "NAT (Network Address Translation)",
+        "weight": 1.0
+      },
+      {
+        "name": "ICMP (Internet Control Message Protocol)",
+        "weight": 0.6203
+      },
+      {
+        "name": "ARP (Address Resolution Protocol)",
+        "weight": 0.6203
+      },
+      {
+        "name": "Reliable Delivery",
+        "weight": 0.1395
+      },
+      {
+        "name": "Connection Termination (FIN/RST)",
+        "weight": 0.133
+      },
+      {
+        "name": "TCP State Machine",
+        "weight": 0.7297
+      },
+      {
+        "name": "Socket Programming",
+        "weight": 0.8789
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Networking Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Binary Number Systems",
+        "weight": 0.7
+      },
+      {
+        "name": "OSI Model Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_tcp_ip"
+  },
+  {
+    "id": 107,
+    "gid": 100000107,
+    "name": "UDP",
+    "entity_type": "Protocol",
+    "entity_subtype": "Connectionless Transport-Layer Protocol",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Transport-Layer Protocols",
+      "specialization": "Low-Latency Data Transmission"
+    },
+    "aliases": [
+      "UDP",
+      "User Datagram Protocol"
+    ],
+    "concepts": [
+      {
+        "name": "Connectionless Communication",
+        "weight": 0.8438
+      },
+      {
+        "name": "Datagrams",
+        "weight": 0.6555
+      },
+      {
+        "name": "No Guaranteed Delivery",
+        "weight": 0.6828
+      },
+      {
+        "name": "No Congestion Control",
+        "weight": 0.6672
+      },
+      {
+        "name": "Low Latency Transmission",
+        "weight": 1.0
+      },
+      {
+        "name": "Ports (UDP)",
+        "weight": 0.5383
+      },
+      {
+        "name": "Use Cases (DNS, VoIP, Gaming, Streaming)",
+        "weight": 1.0
+      },
+      {
+        "name": "Checksum (UDP)",
+        "weight": 0.1489
+      },
+      {
+        "name": "Multicast/Broadcast Support",
+        "weight": 0.6555
+      },
+      {
+        "name": "Comparison with TCP",
+        "weight": 0.8438
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "TCP/IP",
+        "weight": 1.0
+      },
+      {
+        "name": "Computer Networking Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_udp"
+  },
+  {
+    "id": 108,
+    "gid": 100000108,
+    "name": "DNS",
+    "entity_type": "Protocol",
+    "entity_subtype": "Application-Layer Name Resolution Protocol",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Application-Layer Protocols",
+      "specialization": "Domain Name Resolution"
+    },
+    "aliases": [
+      "DNS",
+      "Domain Name System",
+      "Domain Name Service"
+    ],
+    "concepts": [
+      {
+        "name": "Domain Name Hierarchy",
+        "weight": 0.6919
+      },
+      {
+        "name": "Root Servers",
+        "weight": 0.2428
+      },
+      {
+        "name": "TLD (Top-Level Domain) Servers",
+        "weight": 0.2356
+      },
+      {
+        "name": "Authoritative Name Servers",
+        "weight": 0.2283
+      },
+      {
+        "name": "Recursive Resolvers",
+        "weight": 0.6919
+      },
+      {
+        "name": "DNS Records (A, AAAA, CNAME, MX, TXT, NS)",
+        "weight": 0.981
+      },
+      {
+        "name": "DNS Zones",
+        "weight": 0.6919
+      },
+      {
+        "name": "DNS Caching and TTL",
+        "weight": 0.6581
+      },
+      {
+        "name": "DNS Propagation",
+        "weight": 0.6581
+      },
+      {
+        "name": "Reverse DNS Lookup",
+        "weight": 0.185
+      },
+      {
+        "name": "DNSSEC (DNS Security Extensions)",
+        "weight": 0.6316
+      },
+      {
+        "name": "DNS over HTTPS (DoH)",
+        "weight": 0.6316
+      },
+      {
+        "name": "DNS over TLS (DoT)",
+        "weight": 0.6316
+      },
+      {
+        "name": "DNS Load Balancing",
+        "weight": 0.9473
+      },
+      {
+        "name": "Anycast DNS",
+        "weight": 1.0
+      },
+      {
+        "name": "DNS Spoofing / Cache Poisoning",
+        "weight": 0.6316
+      },
+      {
+        "name": "SOA (Start of Authority) Record",
+        "weight": 0.1344
+      },
+      {
+        "name": "Dynamic DNS",
+        "weight": 0.6392
+      },
+      {
+        "name": "Split-Horizon DNS",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "TCP/IP",
+        "weight": 1.0
+      },
+      {
+        "name": "Networking Basics (TCP/IP, DNS)",
+        "weight": 0.7
+      },
+      {
+        "name": "Client-Server Model",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_dns"
+  },
+  {
+    "id": 109,
+    "gid": 100000109,
+    "name": "DHCP",
+    "entity_type": "Protocol",
+    "entity_subtype": "Application-Layer Network Configuration Protocol",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Application-Layer Protocols",
+      "specialization": "Automatic IP Address Assignment"
+    },
+    "aliases": [
+      "DHCP",
+      "Dynamic Host Configuration Protocol"
+    ],
+    "concepts": [
+      {
+        "name": "DORA Process (Discover, Offer, Request, Acknowledge)",
+        "weight": 1.0
+      },
+      {
+        "name": "IP Address Leasing",
+        "weight": 0.6806
+      },
+      {
+        "name": "DHCP Scope",
+        "weight": 0.9588
+      },
+      {
+        "name": "DHCP Relay Agent",
+        "weight": 0.6806
+      },
+      {
+        "name": "Static vs Dynamic IP Assignment",
+        "weight": 0.6282
+      },
+      {
+        "name": "Lease Renewal",
+        "weight": 0.6282
+      },
+      {
+        "name": "DHCP Options",
+        "weight": 0.1633
+      },
+      {
+        "name": "Subnet Configuration via DHCP",
+        "weight": 0.6694
+      },
+      {
+        "name": "DHCP Server Failover",
+        "weight": 0.6694
+      },
+      {
+        "name": "Reservation (MAC Binding)",
+        "weight": 0.6806
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "TCP/IP",
+        "weight": 1.0
+      },
+      {
+        "name": "Networking Basics (TCP/IP, DNS)",
+        "weight": 0.7
+      },
+      {
+        "name": "Subnetting Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_dhcp"
+  },
+  {
+    "id": 110,
+    "gid": 100000110,
+    "name": "FTP",
+    "entity_type": "Protocol",
+    "entity_subtype": "Application-Layer File Transfer Protocol",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Application-Layer Protocols",
+      "specialization": "File Transfer"
+    },
+    "aliases": [
+      "FTP",
+      "File Transfer Protocol",
+      "FTPS",
+      "SFTP (related but distinct)"
+    ],
+    "concepts": [
+      {
+        "name": "Control Connection and Data Connection",
+        "weight": 0.7154
+      },
+      {
+        "name": "Active Mode vs Passive Mode",
+        "weight": 0.7154
+      },
+      {
+        "name": "Authentication (Username/Password)",
+        "weight": 0.7424
+      },
+      {
+        "name": "Anonymous FTP",
+        "weight": 0.7424
+      },
+      {
+        "name": "FTPS (FTP over SSL/TLS)",
+        "weight": 1.0
+      },
+      {
+        "name": "File Upload/Download Commands",
+        "weight": 0.6076
+      },
+      {
+        "name": "Directory Listing",
+        "weight": 0.1525
+      },
+      {
+        "name": "Port 21 (Control) and Port 20 (Data)",
+        "weight": 0.7154
+      },
+      {
+        "name": "Binary vs ASCII Transfer Mode",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "TCP/IP",
+        "weight": 1.0
+      },
+      {
+        "name": "Networking Basics (TCP/IP, DNS)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_ftp"
+  },
+  {
+    "id": 111,
+    "gid": 100000111,
+    "name": "SSH",
+    "entity_type": "Protocol",
+    "entity_subtype": "Secure Remote Access and Command Execution Protocol",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Application-Layer Protocols",
+      "specialization": "Secure Remote Administration"
+    },
+    "aliases": [
+      "SSH",
+      "Secure Shell",
+      "SSH2"
+    ],
+    "concepts": [
+      {
+        "name": "Public-Key Authentication",
+        "weight": 1.0
+      },
+      {
+        "name": "Password Authentication",
+        "weight": 0.24
+      },
+      {
+        "name": "SSH Key Pairs (Public/Private)",
+        "weight": 0.7859
+      },
+      {
+        "name": "SSH Agent",
+        "weight": 0.5715
+      },
+      {
+        "name": "Port Forwarding (Tunneling)",
+        "weight": 0.7785
+      },
+      {
+        "name": "SSH Config File",
+        "weight": 0.5789
+      },
+      {
+        "name": "Known Hosts File",
+        "weight": 0.19
+      },
+      {
+        "name": "SCP (Secure Copy Protocol)",
+        "weight": 0.5715
+      },
+      {
+        "name": "SFTP (SSH File Transfer Protocol)",
+        "weight": 0.5715
+      },
+      {
+        "name": "Port 22",
+        "weight": 0.16
+      },
+      {
+        "name": "Host Key Verification",
+        "weight": 0.7785
+      },
+      {
+        "name": "SSH Certificates",
+        "weight": 0.5496
+      },
+      {
+        "name": "Jump Hosts / Bastion Hosts",
+        "weight": 0.9855
+      },
+      {
+        "name": "X11 Forwarding",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "TCP/IP",
+        "weight": 1.0
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.8
+      },
+      {
+        "name": "Cryptography Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Linux Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_ssh"
+  },
+  {
+    "id": 112,
+    "gid": 100000112,
+    "name": "TLS",
+    "entity_type": "Protocol",
+    "entity_subtype": "Cryptographic Transport-Layer Security Protocol",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Cryptographic Protocols",
+      "specialization": "Transport Encryption"
+    },
+    "aliases": [
+      "TLS",
+      "Transport Layer Security",
+      "TLS 1.2",
+      "TLS 1.3"
+    ],
+    "concepts": [
+      {
+        "name": "TLS Handshake Protocol",
+        "weight": 0.9924
+      },
+      {
+        "name": "Cipher Suites",
+        "weight": 0.7091
+      },
+      {
+        "name": "Symmetric vs Asymmetric Encryption",
+        "weight": 0.2314
+      },
+      {
+        "name": "Key Exchange (Diffie-Hellman, ECDHE)",
+        "weight": 0.6485
+      },
+      {
+        "name": "Certificate Chains",
+        "weight": 1.0
+      },
+      {
+        "name": "X.509 Certificates",
+        "weight": 0.6332
+      },
+      {
+        "name": "Session Resumption",
+        "weight": 0.6332
+      },
+      {
+        "name": "0-RTT (TLS 1.3)",
+        "weight": 0.185
+      },
+      {
+        "name": "Perfect Forward Secrecy",
+        "weight": 0.7091
+      },
+      {
+        "name": "Record Protocol",
+        "weight": 0.6485
+      },
+      {
+        "name": "Alert Protocol",
+        "weight": 0.1571
+      },
+      {
+        "name": "SNI (Server Name Indication)",
+        "weight": 0.6409
+      },
+      {
+        "name": "Mutual TLS (mTLS)",
+        "weight": 0.7091
+      },
+      {
+        "name": "Downgrade Attack Prevention",
+        "weight": 0.7091
+      },
+      {
+        "name": "TLS Versions and Deprecation (SSLv3, TLS 1.0/1.1)",
+        "weight": 0.9394
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Cryptography Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Public Key Infrastructure Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "TCP/IP",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "security_tls"
+  },
+  {
+    "id": 113,
+    "gid": 100000113,
+    "name": "SSL",
+    "entity_type": "Protocol",
+    "entity_subtype": "Legacy Cryptographic Transport-Layer Security Protocol",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Cryptographic Protocols",
+      "specialization": "Transport Encryption (Legacy)"
+    },
+    "aliases": [
+      "SSL",
+      "Secure Sockets Layer",
+      "SSLv2",
+      "SSLv3"
+    ],
+    "concepts": [
+      {
+        "name": "SSL Handshake (Legacy)",
+        "weight": 0.25
+      },
+      {
+        "name": "Cipher Suites (Legacy)",
+        "weight": 0.2283
+      },
+      {
+        "name": "Certificate Chains",
+        "weight": 0.2067
+      },
+      {
+        "name": "SSL Deprecation",
+        "weight": 0.7193
+      },
+      {
+        "name": "POODLE Vulnerability",
+        "weight": 0.7193
+      },
+      {
+        "name": "SSL Certificates (Terminology Legacy)",
+        "weight": 0.6307
+      },
+      {
+        "name": "Transition to TLS",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Cryptography Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "TLS",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "security_ssl"
+  },
+  {
+    "id": 114,
+    "gid": 100000114,
+    "name": "SMTP",
+    "entity_type": "Protocol",
+    "entity_subtype": "Application-Layer Email Transmission Protocol",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Application-Layer Protocols",
+      "specialization": "Email Communication"
+    },
+    "aliases": [
+      "SMTP",
+      "Simple Mail Transfer Protocol"
+    ],
+    "concepts": [
+      {
+        "name": "Mail Transfer Agent (MTA)",
+        "weight": 0.6459
+      },
+      {
+        "name": "Mail Submission Agent (MSA)",
+        "weight": 0.2382
+      },
+      {
+        "name": "SMTP Commands (HELO, MAIL FROM, RCPT TO, DATA)",
+        "weight": 0.6168
+      },
+      {
+        "name": "Port 25 / 587 / 465",
+        "weight": 0.6168
+      },
+      {
+        "name": "SMTP Authentication",
+        "weight": 0.6168
+      },
+      {
+        "name": "SPF (Sender Policy Framework)",
+        "weight": 1.0
+      },
+      {
+        "name": "DKIM (DomainKeys Identified Mail)",
+        "weight": 1.0
+      },
+      {
+        "name": "DMARC",
+        "weight": 1.0
+      },
+      {
+        "name": "Email Relaying",
+        "weight": 0.6459
+      },
+      {
+        "name": "Bounce Handling",
+        "weight": 0.7041
+      },
+      {
+        "name": "TLS for SMTP (STARTTLS)",
+        "weight": 0.6168
+      },
+      {
+        "name": "Email Headers",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "TCP/IP",
+        "weight": 1.0
+      },
+      {
+        "name": "Networking Basics (TCP/IP, DNS)",
+        "weight": 0.7
+      },
+      {
+        "name": "Email Systems Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_smtp"
+  },
+  {
+    "id": 115,
+    "gid": 100000115,
+    "name": "IMAP",
+    "entity_type": "Protocol",
+    "entity_subtype": "Application-Layer Email Retrieval Protocol",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Application-Layer Protocols",
+      "specialization": "Email Retrieval"
+    },
+    "aliases": [
+      "IMAP",
+      "Internet Message Access Protocol",
+      "IMAP4"
+    ],
+    "concepts": [
+      {
+        "name": "Mailbox Synchronization",
+        "weight": 1.0
+      },
+      {
+        "name": "Folder/Mailbox Structure",
+        "weight": 0.594
+      },
+      {
+        "name": "Message Flags (Read, Seen, Flagged)",
+        "weight": 0.6244
+      },
+      {
+        "name": "IMAP IDLE (Push Notifications)",
+        "weight": 0.7256
+      },
+      {
+        "name": "Port 143 / 993",
+        "weight": 0.594
+      },
+      {
+        "name": "TLS for IMAP",
+        "weight": 0.594
+      },
+      {
+        "name": "Comparison with POP3",
+        "weight": 0.6244
+      },
+      {
+        "name": "Multi-Device Sync",
+        "weight": 0.7256
+      },
+      {
+        "name": "Server-Side Search",
+        "weight": 0.7256
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "TCP/IP",
+        "weight": 1.0
+      },
+      {
+        "name": "SMTP",
+        "weight": 0.7
+      },
+      {
+        "name": "Email Systems Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_imap"
+  },
+  {
+    "id": 116,
+    "gid": 100000116,
+    "name": "MQTT",
+    "entity_type": "Protocol",
+    "entity_subtype": "Lightweight Publish-Subscribe Messaging Protocol",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Messaging Protocols",
+      "specialization": "IoT Communication"
+    },
+    "aliases": [
+      "MQTT",
+      "Message Queuing Telemetry Transport"
+    ],
+    "concepts": [
+      {
+        "name": "Publish-Subscribe Model",
+        "weight": 0.7064
+      },
+      {
+        "name": "Broker Architecture",
+        "weight": 0.9763
+      },
+      {
+        "name": "Topics and Topic Hierarchies",
+        "weight": 0.9763
+      },
+      {
+        "name": "QoS Levels (0, 1, 2)",
+        "weight": 1.0
+      },
+      {
+        "name": "Retained Messages",
+        "weight": 0.2027
+      },
+      {
+        "name": "Last Will and Testament (LWT)",
+        "weight": 0.7064
+      },
+      {
+        "name": "MQTT-SN (Sensor Networks)",
+        "weight": 0.1791
+      },
+      {
+        "name": "Persistent Sessions",
+        "weight": 0.6198
+      },
+      {
+        "name": "Keep-Alive Mechanism",
+        "weight": 0.6436
+      },
+      {
+        "name": "Payload Format",
+        "weight": 0.1436
+      },
+      {
+        "name": "TLS for MQTT",
+        "weight": 0.6198
+      },
+      {
+        "name": "Lightweight Overhead (IoT Optimization)",
+        "weight": 0.6436
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "TCP/IP",
+        "weight": 1.0
+      },
+      {
+        "name": "Publish-Subscribe Pattern Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "Networking Basics (TCP/IP, DNS)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_mqtt"
+  },
+  {
+    "id": 117,
+    "gid": 100000117,
+    "name": "AMQP",
+    "entity_type": "Protocol",
+    "entity_subtype": "Message-Oriented Middleware Protocol",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Messaging Protocols",
+      "specialization": "Enterprise Message Queuing"
+    },
+    "aliases": [
+      "AMQP",
+      "Advanced Message Queuing Protocol"
+    ],
+    "concepts": [
+      {
+        "name": "Exchanges",
+        "weight": 0.9668
+      },
+      {
+        "name": "Queues",
+        "weight": 0.9668
+      },
+      {
+        "name": "Bindings",
+        "weight": 0.9668
+      },
+      {
+        "name": "Routing Keys",
+        "weight": 0.9668
+      },
+      {
+        "name": "Message Acknowledgment",
+        "weight": 0.9668
+      },
+      {
+        "name": "Publisher Confirms",
+        "weight": 1.0
+      },
+      {
+        "name": "Durable vs Transient Queues",
+        "weight": 0.8006
+      },
+      {
+        "name": "Dead Letter Exchanges",
+        "weight": 1.0
+      },
+      {
+        "name": "RabbitMQ Implementation",
+        "weight": 0.8006
+      },
+      {
+        "name": "Virtual Hosts",
+        "weight": 0.8006
+      },
+      {
+        "name": "Delivery Guarantees (At-Most-Once, At-Least-Once)",
+        "weight": 1.0
+      },
+      {
+        "name": "Consumer Prefetch",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "TCP/IP",
+        "weight": 1.0
+      },
+      {
+        "name": "Message Queue Concepts",
+        "weight": 0.7
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_amqp"
+  },
+  {
+    "id": 118,
+    "gid": 100000118,
+    "name": "OAuth 2.0",
+    "entity_type": "Protocol",
+    "entity_subtype": "Authorization Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Authorization Protocols",
+      "specialization": "Delegated Authorization"
+    },
+    "aliases": [
+      "OAuth2",
+      "OAuth 2.0",
+      "OAuth"
+    ],
+    "concepts": [
+      {
+        "name": "Authorization Code Grant",
+        "weight": 0.9603
+      },
+      {
+        "name": "Implicit Grant (Deprecated)",
+        "weight": 0.2413
+      },
+      {
+        "name": "Client Credentials Grant",
+        "weight": 1.0
+      },
+      {
+        "name": "Resource Owner Password Credentials Grant (Deprecated)",
+        "weight": 0.224
+      },
+      {
+        "name": "Refresh Tokens",
+        "weight": 0.9603
+      },
+      {
+        "name": "Access Tokens",
+        "weight": 0.9603
+      },
+      {
+        "name": "Scopes",
+        "weight": 0.9858
+      },
+      {
+        "name": "PKCE (Proof Key for Code Exchange)",
+        "weight": 0.6894
+      },
+      {
+        "name": "Authorization Server",
+        "weight": 0.6894
+      },
+      {
+        "name": "Resource Server",
+        "weight": 0.6606
+      },
+      {
+        "name": "Redirect URIs",
+        "weight": 0.6351
+      },
+      {
+        "name": "State Parameter (CSRF Protection)",
+        "weight": 0.6894
+      },
+      {
+        "name": "Token Introspection",
+        "weight": 0.6606
+      },
+      {
+        "name": "Token Revocation",
+        "weight": 0.6894
+      },
+      {
+        "name": "Device Authorization Grant",
+        "weight": 0.1287
+      },
+      {
+        "name": "Bearer Tokens",
+        "weight": 0.6752
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "HTTP",
+        "weight": 1.0
+      },
+      {
+        "name": "HTTPS",
+        "weight": 0.8
+      },
+      {
+        "name": "Web Security Fundamentals",
+        "weight": 0.6
+      },
+      {
+        "name": "Client-Server Model",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "security_oauth2"
+  },
+  {
+    "id": 119,
+    "gid": 100000119,
+    "name": "OpenID Connect",
+    "entity_type": "Protocol",
+    "entity_subtype": "Identity Layer on Top of OAuth 2.0",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Authentication Protocols",
+      "specialization": "Federated Identity"
+    },
+    "aliases": [
+      "OIDC",
+      "OpenID Connect"
+    ],
+    "concepts": [
+      {
+        "name": "ID Token",
+        "weight": 0.6426
+      },
+      {
+        "name": "UserInfo Endpoint",
+        "weight": 0.6426
+      },
+      {
+        "name": "Claims",
+        "weight": 0.6426
+      },
+      {
+        "name": "Discovery Document (.well-known/openid-configuration)",
+        "weight": 0.6786
+      },
+      {
+        "name": "Authentication Flows (Authorization Code, Implicit, Hybrid)",
+        "weight": 0.6426
+      },
+      {
+        "name": "Single Sign-On (SSO)",
+        "weight": 1.0
+      },
+      {
+        "name": "Identity Provider (IdP)",
+        "weight": 1.0
+      },
+      {
+        "name": "Relying Party",
+        "weight": 0.6786
+      },
+      {
+        "name": "Nonce Parameter",
+        "weight": 0.6714
+      },
+      {
+        "name": "JWKS (JSON Web Key Set)",
+        "weight": 0.6714
+      },
+      {
+        "name": "Session Management (OIDC)",
+        "weight": 0.6786
+      },
+      {
+        "name": "Logout (RP-Initiated Logout)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "OAuth 2.0",
+        "weight": 1.0
+      },
+      {
+        "name": "JWT",
+        "weight": 0.8
+      },
+      {
+        "name": "HTTP",
+        "weight": 0.6
+      },
+      {
+        "name": "Web Security Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_openid_connect"
+  },
+  {
+    "id": 120,
+    "gid": 100000120,
+    "name": "JWT",
+    "entity_type": "Standard",
+    "entity_subtype": "Compact Token Format for Claims Representation",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Token Standards",
+      "specialization": "Stateless Authentication"
+    },
+    "aliases": [
+      "JWT",
+      "JSON Web Token"
+    ],
+    "concepts": [
+      {
+        "name": "Header",
+        "weight": 0.9852
+      },
+      {
+        "name": "Payload",
+        "weight": 0.9852
+      },
+      {
+        "name": "Signature",
+        "weight": 0.9852
+      },
+      {
+        "name": "Claims (Registered, Public, Private)",
+        "weight": 0.6622
+      },
+      {
+        "name": "Base64URL Encoding",
+        "weight": 0.21
+      },
+      {
+        "name": "Signing Algorithms (HS256, RS256, ES256)",
+        "weight": 1.0
+      },
+      {
+        "name": "Token Expiration (exp)",
+        "weight": 0.6841
+      },
+      {
+        "name": "Token Verification",
+        "weight": 0.9963
+      },
+      {
+        "name": "Stateless Authentication",
+        "weight": 0.6511
+      },
+      {
+        "name": "Token Revocation Challenges",
+        "weight": 0.6659
+      },
+      {
+        "name": "JWKS (JSON Web Key Set)",
+        "weight": 0.15
+      },
+      {
+        "name": "Refresh Token Pattern",
+        "weight": 0.6622
+      },
+      {
+        "name": "JWT vs Session Tokens",
+        "weight": 0.6511
+      },
+      {
+        "name": "Token Storage Security (localStorage vs Cookies)",
+        "weight": 0.6659
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Cryptography Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "JSON",
+        "weight": 0.8
+      },
+      {
+        "name": "Web Security Fundamentals",
+        "weight": 0.6
+      },
+      {
+        "name": "OAuth 2.0 (Recommended)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "security_jwt"
+  },
+  {
+    "id": 121,
+    "gid": 100000121,
+    "name": "SAML",
+    "entity_type": "Protocol",
+    "entity_subtype": "XML-Based Federated Identity Standard",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Authentication Protocols",
+      "specialization": "Enterprise Federated Identity"
+    },
+    "aliases": [
+      "SAML",
+      "Security Assertion Markup Language",
+      "SAML 2.0"
+    ],
+    "concepts": [
+      {
+        "name": "Assertions",
+        "weight": 1.0
+      },
+      {
+        "name": "Identity Provider (IdP)",
+        "weight": 0.7225
+      },
+      {
+        "name": "Service Provider (SP)",
+        "weight": 0.7225
+      },
+      {
+        "name": "SSO (Single Sign-On)",
+        "weight": 0.6275
+      },
+      {
+        "name": "SP-Initiated vs IdP-Initiated Flow",
+        "weight": 0.7009
+      },
+      {
+        "name": "XML Signatures",
+        "weight": 0.7009
+      },
+      {
+        "name": "Metadata Exchange",
+        "weight": 0.7225
+      },
+      {
+        "name": "Single Logout (SLO)",
+        "weight": 0.7225
+      },
+      {
+        "name": "Binding Types (HTTP-POST, HTTP-Redirect)",
+        "weight": 0.7009
+      },
+      {
+        "name": "SAML Assertions Consumer Service (ACS)",
+        "weight": 0.6275
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "XML",
+        "weight": 1.0
+      },
+      {
+        "name": "HTTP",
+        "weight": 0.8
+      },
+      {
+        "name": "Cryptography Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Web Security Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "security_saml"
+  },
+  {
+    "id": 122,
+    "gid": 100000122,
+    "name": "OpenAPI",
+    "entity_type": "Specification",
+    "entity_subtype": "API Description Format",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "API Specifications",
+      "specialization": "API Documentation and Design"
+    },
+    "aliases": [
+      "OpenAPI",
+      "OpenAPI Specification",
+      "OAS",
+      "Swagger (former name)"
+    ],
+    "concepts": [
+      {
+        "name": "Paths and Operations",
+        "weight": 1.0
+      },
+      {
+        "name": "Schemas (Data Models)",
+        "weight": 0.9568
+      },
+      {
+        "name": "Components/Definitions",
+        "weight": 0.5103
+      },
+      {
+        "name": "Parameters",
+        "weight": 0.2221
+      },
+      {
+        "name": "Request Bodies",
+        "weight": 0.5427
+      },
+      {
+        "name": "Response Objects",
+        "weight": 0.5427
+      },
+      {
+        "name": "Security Schemes",
+        "weight": 0.519
+      },
+      {
+        "name": "Swagger UI",
+        "weight": 0.6275
+      },
+      {
+        "name": "Swagger Editor",
+        "weight": 0.1757
+      },
+      {
+        "name": "Code Generation from OpenAPI",
+        "weight": 0.519
+      },
+      {
+        "name": "API Versioning",
+        "weight": 0.1571
+      },
+      {
+        "name": "YAML/JSON Representation",
+        "weight": 0.1479
+      },
+      {
+        "name": "API Mocking",
+        "weight": 0.5951
+      },
+      {
+        "name": "Contract-First API Design",
+        "weight": 0.5427
+      },
+      {
+        "name": "API Gateway Integration",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JSON",
+        "weight": 1.0
+      },
+      {
+        "name": "YAML",
+        "weight": 0.8
+      },
+      {
+        "name": "HTTP",
+        "weight": 0.6
+      },
+      {
+        "name": "REST API Design Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_openapi"
+  },
+  {
+    "id": 152,
+    "gid": 100000152,
+    "name": "gRPC",
+    "entity_type": "Protocol",
+    "entity_subtype": "High-Performance RPC Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "API Technologies",
+      "specialization": "Remote Procedure Call"
+    },
+    "aliases": [
+      "gRPC",
+      "Google RPC"
+    ],
+    "concepts": [
+      {
+        "name": "Protocol Buffers (Protobuf)",
+        "weight": 0.6607
+      },
+      {
+        "name": "Service Definitions (.proto files)",
+        "weight": 0.6607
+      },
+      {
+        "name": "Unary RPC",
+        "weight": 0.6607
+      },
+      {
+        "name": "Server Streaming RPC",
+        "weight": 0.6689
+      },
+      {
+        "name": "Client Streaming RPC",
+        "weight": 0.6689
+      },
+      {
+        "name": "Bidirectional Streaming RPC",
+        "weight": 0.6811
+      },
+      {
+        "name": "HTTP/2 as Transport",
+        "weight": 0.6689
+      },
+      {
+        "name": "Code Generation (protoc)",
+        "weight": 0.6607
+      },
+      {
+        "name": "Interceptors",
+        "weight": 0.6811
+      },
+      {
+        "name": "Deadlines/Timeouts",
+        "weight": 0.6811
+      },
+      {
+        "name": "gRPC-Web",
+        "weight": 0.1318
+      },
+      {
+        "name": "Load Balancing (gRPC)",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "HTTP",
+        "weight": 1.0
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.8
+      },
+      {
+        "name": "Protocol Buffers Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Networking Basics (TCP/IP, DNS)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_grpc"
+  },
+  {
+    "id": 194,
+    "gid": 100000194,
+    "name": "WebSocket",
+    "entity_type": "Protocol",
+    "entity_subtype": "Full-Duplex Communication Protocol",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Application-Layer Protocols",
+      "specialization": "Real-Time Communication"
+    },
+    "aliases": [
+      "WebSockets",
+      "WS Protocol"
+    ],
+    "concepts": [
+      {
+        "name": "Full-Duplex Communication",
+        "weight": 1.0
+      },
+      {
+        "name": "Handshake Upgrade",
+        "weight": 0.95
+      },
+      {
+        "name": "Persistent Connections",
+        "weight": 1.0
+      },
+      {
+        "name": "Real-Time Messaging",
+        "weight": 1.0
+      },
+      {
+        "name": "Ping/Pong Frames",
+        "weight": 0.146
+      },
+      {
+        "name": "Socket.IO",
+        "weight": 0.95
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "HTTP",
+        "weight": 1.0
+      },
+      {
+        "name": "TCP/IP",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_websockets"
+  }
+]

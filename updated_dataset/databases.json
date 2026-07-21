@@ -1,0 +1,5061 @@
+[
+  {
+    "id": 32,
+    "gid": 100000032,
+    "name": "PostgreSQL",
+    "entity_type": "Database",
+    "entity_subtype": "Open Source Relational Database (RDBMS)",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "Relational Databases",
+      "specialization": "Open Source Object-Relational Database"
+    },
+    "aliases": [
+      "PostgreSQL",
+      "Postgres",
+      "PSQL",
+      "PgSQL",
+      "Postgres DB",
+      "Postgre",
+      "PostgreSQL RDBMS",
+      "pg"
+    ],
+    "concepts": [
+      {
+        "name": "Relational Model",
+        "weight": 0.25
+      },
+      {
+        "name": "SQL",
+        "weight": 0.8151
+      },
+      {
+        "name": "DDL",
+        "weight": 0.5505
+      },
+      {
+        "name": "DML",
+        "weight": 0.5505
+      },
+      {
+        "name": "Tables",
+        "weight": 0.2442
+      },
+      {
+        "name": "Schemas",
+        "weight": 0.2427
+      },
+      {
+        "name": "Views",
+        "weight": 0.2412
+      },
+      {
+        "name": "Materialized Views",
+        "weight": 0.5349
+      },
+      {
+        "name": "Indexes",
+        "weight": 0.7226
+      },
+      {
+        "name": "B-Tree Index",
+        "weight": 0.2369
+      },
+      {
+        "name": "Hash Index",
+        "weight": 0.2354
+      },
+      {
+        "name": "GIN Index",
+        "weight": 0.2339
+      },
+      {
+        "name": "GiST Index",
+        "weight": 0.2325
+      },
+      {
+        "name": "BRIN Index",
+        "weight": 0.231
+      },
+      {
+        "name": "Primary Keys",
+        "weight": 0.2296
+      },
+      {
+        "name": "Foreign Keys",
+        "weight": 0.2281
+      },
+      {
+        "name": "Constraints",
+        "weight": 0.2266
+      },
+      {
+        "name": "Check Constraints",
+        "weight": 0.2252
+      },
+      {
+        "name": "Unique Constraints",
+        "weight": 0.2237
+      },
+      {
+        "name": "Transactions",
+        "weight": 0.7226
+      },
+      {
+        "name": "ACID",
+        "weight": 0.7097
+      },
+      {
+        "name": "MVCC (Multi-Version Concurrency Control)",
+        "weight": 0.5092
+      },
+      {
+        "name": "Isolation Levels",
+        "weight": 0.2179
+      },
+      {
+        "name": "Serializable Snapshot Isolation",
+        "weight": 0.2164
+      },
+      {
+        "name": "Locking",
+        "weight": 0.2149
+      },
+      {
+        "name": "Deadlocks",
+        "weight": 0.2135
+      },
+      {
+        "name": "Joins",
+        "weight": 0.7226
+      },
+      {
+        "name": "Inner Join",
+        "weight": 0.2106
+      },
+      {
+        "name": "Outer Join",
+        "weight": 0.2091
+      },
+      {
+        "name": "Cross Join",
+        "weight": 0.2076
+      },
+      {
+        "name": "Subqueries",
+        "weight": 0.2062
+      },
+      {
+        "name": "CTEs (Common Table Expressions)",
+        "weight": 0.5349
+      },
+      {
+        "name": "Recursive CTEs",
+        "weight": 0.5349
+      },
+      {
+        "name": "Window Functions",
+        "weight": 0.6274
+      },
+      {
+        "name": "Aggregate Functions",
+        "weight": 0.4425
+      },
+      {
+        "name": "Stored Procedures",
+        "weight": 0.5505
+      },
+      {
+        "name": "Functions",
+        "weight": 0.1974
+      },
+      {
+        "name": "PL/pgSQL",
+        "weight": 0.5505
+      },
+      {
+        "name": "Triggers",
+        "weight": 0.1945
+      },
+      {
+        "name": "Rules",
+        "weight": 0.193
+      },
+      {
+        "name": "Extensions",
+        "weight": 0.1916
+      },
+      {
+        "name": "pgAdmin",
+        "weight": 0.1901
+      },
+      {
+        "name": "psql CLI",
+        "weight": 0.1887
+      },
+      {
+        "name": "JSONB",
+        "weight": 1.0
+      },
+      {
+        "name": "JSON Support",
+        "weight": 0.1857
+      },
+      {
+        "name": "Arrays",
+        "weight": 0.1843
+      },
+      {
+        "name": "hstore",
+        "weight": 0.1828
+      },
+      {
+        "name": "Full Text Search",
+        "weight": 0.5349
+      },
+      {
+        "name": "tsvector",
+        "weight": 0.1799
+      },
+      {
+        "name": "tsquery",
+        "weight": 0.1784
+      },
+      {
+        "name": "Partitioning",
+        "weight": 0.5349
+      },
+      {
+        "name": "Table Inheritance",
+        "weight": 0.1755
+      },
+      {
+        "name": "Foreign Data Wrappers (FDW)",
+        "weight": 0.5349
+      },
+      {
+        "name": "Replication",
+        "weight": 0.9999
+      },
+      {
+        "name": "Streaming Replication",
+        "weight": 0.5669
+      },
+      {
+        "name": "Logical Replication",
+        "weight": 0.5669
+      },
+      {
+        "name": "WAL (Write-Ahead Logging)",
+        "weight": 0.5669
+      },
+      {
+        "name": "Point-in-Time Recovery",
+        "weight": 0.5669
+      },
+      {
+        "name": "Backup and Restore",
+        "weight": 0.7105
+      },
+      {
+        "name": "pg_dump",
+        "weight": 0.5669
+      },
+      {
+        "name": "pg_restore",
+        "weight": 0.5669
+      },
+      {
+        "name": "VACUUM",
+        "weight": 0.6971
+      },
+      {
+        "name": "ANALYZE",
+        "weight": 0.1594
+      },
+      {
+        "name": "Autovacuum",
+        "weight": 0.5669
+      },
+      {
+        "name": "Query Planner",
+        "weight": 0.5669
+      },
+      {
+        "name": "Query Optimizer",
+        "weight": 0.5505
+      },
+      {
+        "name": "EXPLAIN ANALYZE",
+        "weight": 0.5505
+      },
+      {
+        "name": "Connection Pooling",
+        "weight": 0.8533
+      },
+      {
+        "name": "PgBouncer",
+        "weight": 0.4936
+      },
+      {
+        "name": "PgPool-II",
+        "weight": 0.1492
+      },
+      {
+        "name": "Roles and Permissions",
+        "weight": 0.5669
+      },
+      {
+        "name": "Row-Level Security",
+        "weight": 0.5092
+      },
+      {
+        "name": "Tablespaces",
+        "weight": 0.5669
+      },
+      {
+        "name": "Sequences",
+        "weight": 0.1434
+      },
+      {
+        "name": "UUID Generation",
+        "weight": 0.1419
+      },
+      {
+        "name": "Extensions (PostGIS, pg_trgm, pg_stat_statements)",
+        "weight": 0.1404
+      },
+      {
+        "name": "pgvector Extension",
+        "weight": 0.4425
+      },
+      {
+        "name": "High Availability",
+        "weight": 0.9999
+      },
+      {
+        "name": "Failover",
+        "weight": 0.8407
+      },
+      {
+        "name": "Sharding (Citus)",
+        "weight": 0.6941
+      },
+      {
+        "name": "ORMs (SQLAlchemy, Sequelize, TypeORM, Hibernate)",
+        "weight": 0.7226
+      },
+      {
+        "name": "Performance Tuning",
+        "weight": 0.6971
+      },
+      {
+        "name": "Database Migrations",
+        "weight": 0.7226
+      },
+      {
+        "name": "Data Types (numeric, text, timestamp, interval)",
+        "weight": 0.5349
+      },
+      {
+        "name": "Enum Types",
+        "weight": 0.1273
+      },
+      {
+        "name": "Custom Types",
+        "weight": 0.1258
+      },
+      {
+        "name": "Domains",
+        "weight": 0.1244
+      },
+      {
+        "name": "Event Triggers",
+        "weight": 0.1229
+      },
+      {
+        "name": "Logical Decoding",
+        "weight": 0.5349
+      },
+      {
+        "name": "Publication and Subscription",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9812
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.9625
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9437
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.925
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.9062
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.8875
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.8688
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.85
+      },
+      {
+        "name": "Git",
+        "weight": 0.8313
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.8125
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7937
+      },
+      {
+        "name": "CSV",
+        "weight": 0.775
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.7563
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.7375
+      },
+      {
+        "name": "Relational Algebra",
+        "weight": 0.7188
+      },
+      {
+        "name": "Set Theory",
+        "weight": 0.7
+      },
+      {
+        "name": "Entity Relationship Modeling",
+        "weight": 0.6813
+      },
+      {
+        "name": "Normalization",
+        "weight": 0.6625
+      },
+      {
+        "name": "SQL Fundamentals",
+        "weight": 0.6438
+      },
+      {
+        "name": "DDL",
+        "weight": 0.625
+      },
+      {
+        "name": "DML",
+        "weight": 0.6062
+      },
+      {
+        "name": "DCL",
+        "weight": 0.5875
+      },
+      {
+        "name": "TCL",
+        "weight": 0.5687
+      },
+      {
+        "name": "Primary Keys",
+        "weight": 0.55
+      },
+      {
+        "name": "Foreign Keys",
+        "weight": 0.5312
+      },
+      {
+        "name": "Joins",
+        "weight": 0.5125
+      },
+      {
+        "name": "Indexes",
+        "weight": 0.4938
+      },
+      {
+        "name": "Transactions",
+        "weight": 0.475
+      },
+      {
+        "name": "ACID Properties",
+        "weight": 0.4563
+      },
+      {
+        "name": "Views and Materialized Views",
+        "weight": 0.4375
+      },
+      {
+        "name": "Window Functions",
+        "weight": 0.4188
+      },
+      {
+        "name": "Query Planning Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "database_postgresql"
+  },
+  {
+    "id": 33,
+    "gid": 100000033,
+    "name": "MySQL",
+    "entity_type": "Database",
+    "entity_subtype": "Open Source Relational Database (RDBMS)",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "Relational Databases",
+      "specialization": "Open Source RDBMS"
+    },
+    "aliases": [
+      "MySQL",
+      "MySQL DB",
+      "Oracle MySQL",
+      "MySQL Server",
+      "MariaDB (fork)",
+      "My-SQL"
+    ],
+    "concepts": [
+      {
+        "name": "Relational Model",
+        "weight": 0.25
+      },
+      {
+        "name": "SQL",
+        "weight": 0.825
+      },
+      {
+        "name": "DDL",
+        "weight": 0.6069
+      },
+      {
+        "name": "DML",
+        "weight": 0.6069
+      },
+      {
+        "name": "Storage Engines",
+        "weight": 0.5359
+      },
+      {
+        "name": "InnoDB",
+        "weight": 0.6069
+      },
+      {
+        "name": "MyISAM",
+        "weight": 0.2353
+      },
+      {
+        "name": "Memory Engine",
+        "weight": 0.2328
+      },
+      {
+        "name": "Indexes",
+        "weight": 0.6069
+      },
+      {
+        "name": "Primary Keys",
+        "weight": 0.2279
+      },
+      {
+        "name": "Foreign Keys",
+        "weight": 0.2255
+      },
+      {
+        "name": "Constraints",
+        "weight": 0.223
+      },
+      {
+        "name": "Transactions",
+        "weight": 0.825
+      },
+      {
+        "name": "ACID",
+        "weight": 0.2181
+      },
+      {
+        "name": "Isolation Levels",
+        "weight": 0.2157
+      },
+      {
+        "name": "Locking (Row-Level, Table-Level)",
+        "weight": 0.2132
+      },
+      {
+        "name": "Joins",
+        "weight": 0.825
+      },
+      {
+        "name": "Subqueries",
+        "weight": 0.2083
+      },
+      {
+        "name": "Views",
+        "weight": 0.2058
+      },
+      {
+        "name": "Stored Procedures",
+        "weight": 0.6069
+      },
+      {
+        "name": "Stored Functions",
+        "weight": 0.2009
+      },
+      {
+        "name": "Triggers",
+        "weight": 0.1985
+      },
+      {
+        "name": "Events (Scheduler)",
+        "weight": 0.196
+      },
+      {
+        "name": "Replication",
+        "weight": 1.0
+      },
+      {
+        "name": "Master-Slave Replication",
+        "weight": 0.6373
+      },
+      {
+        "name": "Master-Master Replication",
+        "weight": 0.1887
+      },
+      {
+        "name": "Group Replication",
+        "weight": 0.6373
+      },
+      {
+        "name": "Binary Log (binlog)",
+        "weight": 0.6373
+      },
+      {
+        "name": "Query Cache (deprecated)",
+        "weight": 0.1813
+      },
+      {
+        "name": "Query Optimizer",
+        "weight": 0.1789
+      },
+      {
+        "name": "EXPLAIN",
+        "weight": 0.1764
+      },
+      {
+        "name": "Partitioning",
+        "weight": 0.5564
+      },
+      {
+        "name": "Sharding",
+        "weight": 0.7423
+      },
+      {
+        "name": "MySQL Cluster (NDB)",
+        "weight": 0.5359
+      },
+      {
+        "name": "Backup and Restore",
+        "weight": 0.8141
+      },
+      {
+        "name": "mysqldump",
+        "weight": 0.6373
+      },
+      {
+        "name": "Percona XtraBackup",
+        "weight": 0.6373
+      },
+      {
+        "name": "Connection Pooling",
+        "weight": 0.1592
+      },
+      {
+        "name": "User Management",
+        "weight": 0.6373
+      },
+      {
+        "name": "Privileges and Grants",
+        "weight": 0.6373
+      },
+      {
+        "name": "Character Sets and Collations",
+        "weight": 0.1519
+      },
+      {
+        "name": "JSON Data Type",
+        "weight": 0.8133
+      },
+      {
+        "name": "Full Text Search",
+        "weight": 0.5564
+      },
+      {
+        "name": "Spatial Data Types",
+        "weight": 0.1445
+      },
+      {
+        "name": "Performance Schema",
+        "weight": 0.6373
+      },
+      {
+        "name": "Slow Query Log",
+        "weight": 0.6373
+      },
+      {
+        "name": "Buffer Pool Tuning",
+        "weight": 0.6373
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.5564
+      },
+      {
+        "name": "ORMs (Sequelize, Hibernate, Django ORM)",
+        "weight": 0.825
+      },
+      {
+        "name": "Database Migrations",
+        "weight": 0.825
+      },
+      {
+        "name": "High Availability",
+        "weight": 0.8232
+      },
+      {
+        "name": "MySQL Router",
+        "weight": 0.5268
+      },
+      {
+        "name": "ProxySQL",
+        "weight": 0.5268
+      },
+      {
+        "name": "Point-in-Time Recovery",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9806
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.9613
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9419
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.9226
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.9032
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.8839
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.8645
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.8452
+      },
+      {
+        "name": "Git",
+        "weight": 0.8258
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.8065
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7871
+      },
+      {
+        "name": "CSV",
+        "weight": 0.7677
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.7484
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.729
+      },
+      {
+        "name": "Relational Algebra",
+        "weight": 0.7097
+      },
+      {
+        "name": "Set Theory",
+        "weight": 0.6903
+      },
+      {
+        "name": "Entity Relationship Modeling",
+        "weight": 0.671
+      },
+      {
+        "name": "Normalization",
+        "weight": 0.6516
+      },
+      {
+        "name": "SQL Fundamentals",
+        "weight": 0.6323
+      },
+      {
+        "name": "DDL",
+        "weight": 0.6129
+      },
+      {
+        "name": "DML",
+        "weight": 0.5935
+      },
+      {
+        "name": "DCL",
+        "weight": 0.5742
+      },
+      {
+        "name": "TCL",
+        "weight": 0.5548
+      },
+      {
+        "name": "Primary Keys",
+        "weight": 0.5355
+      },
+      {
+        "name": "Foreign Keys",
+        "weight": 0.5161
+      },
+      {
+        "name": "Joins",
+        "weight": 0.4968
+      },
+      {
+        "name": "Indexes",
+        "weight": 0.4774
+      },
+      {
+        "name": "Transactions",
+        "weight": 0.4581
+      },
+      {
+        "name": "ACID Properties",
+        "weight": 0.4387
+      },
+      {
+        "name": "Storage Engine Concepts",
+        "weight": 0.4194
+      },
+      {
+        "name": "Character Encoding Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "database_mysql"
+  },
+  {
+    "id": 34,
+    "gid": 100000034,
+    "name": "SQL Server",
+    "entity_type": "Database",
+    "entity_subtype": "Enterprise Relational Database (RDBMS)",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "Relational Databases",
+      "specialization": "Microsoft Enterprise RDBMS"
+    },
+    "aliases": [
+      "SQL Server",
+      "Microsoft SQL Server",
+      "MSSQL",
+      "MS SQL",
+      "T-SQL Server",
+      "SQL Server RDBMS",
+      "SSMS (tooling)"
+    ],
+    "concepts": [
+      {
+        "name": "Relational Model",
+        "weight": 0.25
+      },
+      {
+        "name": "T-SQL (Transact-SQL)",
+        "weight": 0.6049
+      },
+      {
+        "name": "DDL",
+        "weight": 0.2457
+      },
+      {
+        "name": "DML",
+        "weight": 0.2435
+      },
+      {
+        "name": "Tables",
+        "weight": 0.2413
+      },
+      {
+        "name": "Views",
+        "weight": 0.2392
+      },
+      {
+        "name": "Indexed Views",
+        "weight": 0.237
+      },
+      {
+        "name": "Indexes",
+        "weight": 0.6049
+      },
+      {
+        "name": "Clustered Index",
+        "weight": 0.2327
+      },
+      {
+        "name": "Non-Clustered Index",
+        "weight": 0.2305
+      },
+      {
+        "name": "Columnstore Index",
+        "weight": 0.2283
+      },
+      {
+        "name": "Primary Keys",
+        "weight": 0.2262
+      },
+      {
+        "name": "Foreign Keys",
+        "weight": 0.224
+      },
+      {
+        "name": "Constraints",
+        "weight": 0.2218
+      },
+      {
+        "name": "Transactions",
+        "weight": 0.6049
+      },
+      {
+        "name": "ACID",
+        "weight": 0.2175
+      },
+      {
+        "name": "Isolation Levels",
+        "weight": 0.2153
+      },
+      {
+        "name": "Locking",
+        "weight": 0.2132
+      },
+      {
+        "name": "Deadlocks",
+        "weight": 0.211
+      },
+      {
+        "name": "Joins",
+        "weight": 0.2088
+      },
+      {
+        "name": "Subqueries",
+        "weight": 0.2067
+      },
+      {
+        "name": "CTEs",
+        "weight": 0.583
+      },
+      {
+        "name": "Window Functions",
+        "weight": 0.583
+      },
+      {
+        "name": "Stored Procedures",
+        "weight": 0.6049
+      },
+      {
+        "name": "User-Defined Functions",
+        "weight": 0.6049
+      },
+      {
+        "name": "Triggers",
+        "weight": 0.1958
+      },
+      {
+        "name": "SQL Server Agent",
+        "weight": 0.631
+      },
+      {
+        "name": "Jobs and Scheduling",
+        "weight": 0.1915
+      },
+      {
+        "name": "SSMS (SQL Server Management Studio)",
+        "weight": 0.1893
+      },
+      {
+        "name": "SSIS (Integration Services)",
+        "weight": 0.8015
+      },
+      {
+        "name": "SSRS (Reporting Services)",
+        "weight": 0.583
+      },
+      {
+        "name": "SSAS (Analysis Services)",
+        "weight": 0.583
+      },
+      {
+        "name": "Replication",
+        "weight": 0.5273
+      },
+      {
+        "name": "Always On Availability Groups",
+        "weight": 1.0
+      },
+      {
+        "name": "Failover Clustering",
+        "weight": 0.631
+      },
+      {
+        "name": "Database Mirroring (legacy)",
+        "weight": 0.1742
+      },
+      {
+        "name": "Log Shipping",
+        "weight": 0.631
+      },
+      {
+        "name": "Backup and Restore",
+        "weight": 0.8227
+      },
+      {
+        "name": "Recovery Models",
+        "weight": 0.631
+      },
+      {
+        "name": "Query Optimizer",
+        "weight": 0.1655
+      },
+      {
+        "name": "Execution Plans",
+        "weight": 0.631
+      },
+      {
+        "name": "Statistics",
+        "weight": 0.631
+      },
+      {
+        "name": "Partitioning",
+        "weight": 0.7457
+      },
+      {
+        "name": "In-Memory OLTP",
+        "weight": 0.7457
+      },
+      {
+        "name": "Columnstore Storage",
+        "weight": 0.5684
+      },
+      {
+        "name": "Dynamic Management Views (DMVs)",
+        "weight": 0.1525
+      },
+      {
+        "name": "Security",
+        "weight": 0.8083
+      },
+      {
+        "name": "Logins and Users",
+        "weight": 0.631
+      },
+      {
+        "name": "Roles and Permissions",
+        "weight": 0.146
+      },
+      {
+        "name": "Row-Level Security",
+        "weight": 0.1438
+      },
+      {
+        "name": "Transparent Data Encryption",
+        "weight": 0.631
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.1395
+      },
+      {
+        "name": "JSON Support",
+        "weight": 0.6049
+      },
+      {
+        "name": "XML Support",
+        "weight": 0.1352
+      },
+      {
+        "name": "Linked Servers",
+        "weight": 0.133
+      },
+      {
+        "name": "Change Data Capture",
+        "weight": 0.5684
+      },
+      {
+        "name": "Change Tracking",
+        "weight": 0.1287
+      },
+      {
+        "name": "Azure SQL Database",
+        "weight": 0.5417
+      },
+      {
+        "name": "Azure SQL Managed Instance",
+        "weight": 0.5417
+      },
+      {
+        "name": "Database Migrations",
+        "weight": 0.6049
+      },
+      {
+        "name": "ORMs (Entity Framework, Dapper)",
+        "weight": 0.6049
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9812
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.9625
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9437
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.925
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.9062
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.8875
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.8688
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.85
+      },
+      {
+        "name": "Git",
+        "weight": 0.8313
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.8125
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7937
+      },
+      {
+        "name": "CSV",
+        "weight": 0.775
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.7563
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.7375
+      },
+      {
+        "name": "Relational Algebra",
+        "weight": 0.7188
+      },
+      {
+        "name": "Set Theory",
+        "weight": 0.7
+      },
+      {
+        "name": "Entity Relationship Modeling",
+        "weight": 0.6813
+      },
+      {
+        "name": "Normalization",
+        "weight": 0.6625
+      },
+      {
+        "name": "SQL Fundamentals",
+        "weight": 0.6438
+      },
+      {
+        "name": "DDL",
+        "weight": 0.625
+      },
+      {
+        "name": "DML",
+        "weight": 0.6062
+      },
+      {
+        "name": "DCL",
+        "weight": 0.5875
+      },
+      {
+        "name": "TCL",
+        "weight": 0.5687
+      },
+      {
+        "name": "Primary Keys",
+        "weight": 0.55
+      },
+      {
+        "name": "Foreign Keys",
+        "weight": 0.5312
+      },
+      {
+        "name": "Joins",
+        "weight": 0.5125
+      },
+      {
+        "name": "Indexes",
+        "weight": 0.4938
+      },
+      {
+        "name": "Transactions",
+        "weight": 0.475
+      },
+      {
+        "name": "ACID Properties",
+        "weight": 0.4563
+      },
+      {
+        "name": "Windows Server Basics",
+        "weight": 0.4375
+      },
+      {
+        "name": "T-SQL Syntax",
+        "weight": 0.4188
+      },
+      {
+        "name": "Execution Plan Reading",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_sql_server"
+  },
+  {
+    "id": 35,
+    "gid": 100000035,
+    "name": "Oracle Database",
+    "entity_type": "Database",
+    "entity_subtype": "Enterprise Relational Database (RDBMS)",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "Relational Databases",
+      "specialization": "Enterprise RDBMS"
+    },
+    "aliases": [
+      "Oracle",
+      "Oracle DB",
+      "Oracle Database",
+      "OracleDB",
+      "Oracle RDBMS",
+      "Oracle 19c",
+      "Oracle 21c",
+      "OCI Database"
+    ],
+    "concepts": [
+      {
+        "name": "Relational Model",
+        "weight": 0.25
+      },
+      {
+        "name": "PL/SQL",
+        "weight": 0.5734
+      },
+      {
+        "name": "SQL",
+        "weight": 0.5734
+      },
+      {
+        "name": "DDL",
+        "weight": 0.2434
+      },
+      {
+        "name": "DML",
+        "weight": 0.2412
+      },
+      {
+        "name": "Tables",
+        "weight": 0.239
+      },
+      {
+        "name": "Views",
+        "weight": 0.2368
+      },
+      {
+        "name": "Materialized Views",
+        "weight": 0.5522
+      },
+      {
+        "name": "Indexes",
+        "weight": 0.2324
+      },
+      {
+        "name": "B-Tree Index",
+        "weight": 0.2302
+      },
+      {
+        "name": "Bitmap Index",
+        "weight": 0.228
+      },
+      {
+        "name": "Primary Keys",
+        "weight": 0.2258
+      },
+      {
+        "name": "Foreign Keys",
+        "weight": 0.2236
+      },
+      {
+        "name": "Constraints",
+        "weight": 0.2214
+      },
+      {
+        "name": "Transactions",
+        "weight": 0.5734
+      },
+      {
+        "name": "ACID",
+        "weight": 0.2169
+      },
+      {
+        "name": "Isolation Levels",
+        "weight": 0.2147
+      },
+      {
+        "name": "Locking",
+        "weight": 0.2125
+      },
+      {
+        "name": "Joins",
+        "weight": 0.2103
+      },
+      {
+        "name": "Subqueries",
+        "weight": 0.2081
+      },
+      {
+        "name": "CTEs",
+        "weight": 0.2059
+      },
+      {
+        "name": "Window Functions",
+        "weight": 0.2037
+      },
+      {
+        "name": "Stored Procedures",
+        "weight": 0.5734
+      },
+      {
+        "name": "Packages",
+        "weight": 0.5734
+      },
+      {
+        "name": "Triggers",
+        "weight": 0.5734
+      },
+      {
+        "name": "Sequences",
+        "weight": 0.5734
+      },
+      {
+        "name": "Synonyms",
+        "weight": 0.1927
+      },
+      {
+        "name": "Tablespaces",
+        "weight": 0.1905
+      },
+      {
+        "name": "Data Dictionary",
+        "weight": 0.1883
+      },
+      {
+        "name": "RMAN (Recovery Manager)",
+        "weight": 0.6432
+      },
+      {
+        "name": "Backup and Restore",
+        "weight": 0.8099
+      },
+      {
+        "name": "Flashback Technology",
+        "weight": 0.6432
+      },
+      {
+        "name": "Data Guard",
+        "weight": 1.0
+      },
+      {
+        "name": "RAC (Real Application Clusters)",
+        "weight": 1.0
+      },
+      {
+        "name": "Partitioning",
+        "weight": 0.5522
+      },
+      {
+        "name": "ASM (Automatic Storage Management)",
+        "weight": 0.6432
+      },
+      {
+        "name": "Undo and Redo Logs",
+        "weight": 0.6432
+      },
+      {
+        "name": "Archive Logs",
+        "weight": 0.1685
+      },
+      {
+        "name": "Query Optimizer",
+        "weight": 0.1663
+      },
+      {
+        "name": "Execution Plans",
+        "weight": 0.1641
+      },
+      {
+        "name": "Explain Plan",
+        "weight": 0.1619
+      },
+      {
+        "name": "SQL Tuning",
+        "weight": 0.1597
+      },
+      {
+        "name": "AWR Reports",
+        "weight": 0.6432
+      },
+      {
+        "name": "Statspack",
+        "weight": 0.6432
+      },
+      {
+        "name": "Security",
+        "weight": 0.8333
+      },
+      {
+        "name": "Roles and Privileges",
+        "weight": 0.6432
+      },
+      {
+        "name": "Virtual Private Database",
+        "weight": 0.1486
+      },
+      {
+        "name": "Transparent Data Encryption",
+        "weight": 0.1464
+      },
+      {
+        "name": "Multitenant Architecture (CDB/PDB)",
+        "weight": 0.8333
+      },
+      {
+        "name": "Exadata",
+        "weight": 0.5401
+      },
+      {
+        "name": "Oracle Cloud Infrastructure (OCI)",
+        "weight": 0.5167
+      },
+      {
+        "name": "JSON Support",
+        "weight": 0.5522
+      },
+      {
+        "name": "XML DB",
+        "weight": 0.1354
+      },
+      {
+        "name": "Data Pump (expdp/impdp)",
+        "weight": 0.5522
+      },
+      {
+        "name": "SQL*Plus",
+        "weight": 0.131
+      },
+      {
+        "name": "Toad",
+        "weight": 0.1288
+      },
+      {
+        "name": "SQL Developer",
+        "weight": 0.1266
+      },
+      {
+        "name": "ORMs (Hibernate)",
+        "weight": 0.1244
+      },
+      {
+        "name": "Database Links",
+        "weight": 0.1222
+      },
+      {
+        "name": "Materialized View Replication",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9812
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.9625
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9437
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.925
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.9062
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.8875
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.8688
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.85
+      },
+      {
+        "name": "Git",
+        "weight": 0.8313
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.8125
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7937
+      },
+      {
+        "name": "CSV",
+        "weight": 0.775
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.7563
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.7375
+      },
+      {
+        "name": "Relational Algebra",
+        "weight": 0.7188
+      },
+      {
+        "name": "Set Theory",
+        "weight": 0.7
+      },
+      {
+        "name": "Entity Relationship Modeling",
+        "weight": 0.6813
+      },
+      {
+        "name": "Normalization",
+        "weight": 0.6625
+      },
+      {
+        "name": "SQL Fundamentals",
+        "weight": 0.6438
+      },
+      {
+        "name": "DDL",
+        "weight": 0.625
+      },
+      {
+        "name": "DML",
+        "weight": 0.6062
+      },
+      {
+        "name": "DCL",
+        "weight": 0.5875
+      },
+      {
+        "name": "TCL",
+        "weight": 0.5687
+      },
+      {
+        "name": "Primary Keys",
+        "weight": 0.55
+      },
+      {
+        "name": "Foreign Keys",
+        "weight": 0.5312
+      },
+      {
+        "name": "Joins",
+        "weight": 0.5125
+      },
+      {
+        "name": "Indexes",
+        "weight": 0.4938
+      },
+      {
+        "name": "Transactions",
+        "weight": 0.475
+      },
+      {
+        "name": "ACID Properties",
+        "weight": 0.4563
+      },
+      {
+        "name": "PL/SQL Basics",
+        "weight": 0.4375
+      },
+      {
+        "name": "Enterprise IT Concepts",
+        "weight": 0.4188
+      },
+      {
+        "name": "Storage Concepts",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_oracle_database"
+  },
+  {
+    "id": 36,
+    "gid": 100000036,
+    "name": "SQLite",
+    "entity_type": "Database",
+    "entity_subtype": "Embedded Relational Database",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "Relational Databases",
+      "specialization": "Embedded / File-Based Database"
+    },
+    "aliases": [
+      "SQLite",
+      "SQLite3",
+      "sqlite3 module",
+      "Lite SQL",
+      "Embedded SQL DB"
+    ],
+    "concepts": [
+      {
+        "name": "Relational Model",
+        "weight": 0.25
+      },
+      {
+        "name": "SQL",
+        "weight": 1.0
+      },
+      {
+        "name": "DDL",
+        "weight": 0.241
+      },
+      {
+        "name": "DML",
+        "weight": 0.2366
+      },
+      {
+        "name": "Single-File Database",
+        "weight": 0.9869
+      },
+      {
+        "name": "Serverless Architecture",
+        "weight": 0.5975
+      },
+      {
+        "name": "Dynamic Typing",
+        "weight": 0.2231
+      },
+      {
+        "name": "Type Affinity",
+        "weight": 0.2186
+      },
+      {
+        "name": "Indexes",
+        "weight": 0.611
+      },
+      {
+        "name": "Primary Keys",
+        "weight": 0.2097
+      },
+      {
+        "name": "Foreign Keys",
+        "weight": 0.2052
+      },
+      {
+        "name": "Transactions",
+        "weight": 0.7524
+      },
+      {
+        "name": "ACID",
+        "weight": 0.1962
+      },
+      {
+        "name": "Journal Mode",
+        "weight": 0.4914
+      },
+      {
+        "name": "WAL Mode (Write-Ahead Logging)",
+        "weight": 0.1872
+      },
+      {
+        "name": "Locking Mechanisms",
+        "weight": 0.1828
+      },
+      {
+        "name": "Triggers",
+        "weight": 0.1783
+      },
+      {
+        "name": "Views",
+        "weight": 0.1738
+      },
+      {
+        "name": "Virtual Tables",
+        "weight": 0.1693
+      },
+      {
+        "name": "FTS (Full Text Search) Extension",
+        "weight": 0.1648
+      },
+      {
+        "name": "In-Memory Databases",
+        "weight": 0.7167
+      },
+      {
+        "name": "Backup API",
+        "weight": 0.1559
+      },
+      {
+        "name": "VACUUM",
+        "weight": 0.1514
+      },
+      {
+        "name": "PRAGMA Statements",
+        "weight": 0.5975
+      },
+      {
+        "name": "SQLite CLI",
+        "weight": 0.1424
+      },
+      {
+        "name": "Embedded Use Cases (Mobile, IoT)",
+        "weight": 0.1379
+      },
+      {
+        "name": "ORMs (Room, Core Data via bridging, SQLAlchemy)",
+        "weight": 0.7394
+      },
+      {
+        "name": "Database Migrations",
+        "weight": 0.7524
+      },
+      {
+        "name": "Concurrency Limitations",
+        "weight": 0.5975
+      },
+      {
+        "name": "Cross-Platform Compatibility",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9806
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.9613
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9419
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.9226
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.9032
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.8839
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.8645
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.8452
+      },
+      {
+        "name": "Git",
+        "weight": 0.8258
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.8065
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7871
+      },
+      {
+        "name": "CSV",
+        "weight": 0.7677
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.7484
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.729
+      },
+      {
+        "name": "Relational Algebra",
+        "weight": 0.7097
+      },
+      {
+        "name": "Set Theory",
+        "weight": 0.6903
+      },
+      {
+        "name": "Entity Relationship Modeling",
+        "weight": 0.671
+      },
+      {
+        "name": "Normalization",
+        "weight": 0.6516
+      },
+      {
+        "name": "SQL Fundamentals",
+        "weight": 0.6323
+      },
+      {
+        "name": "DDL",
+        "weight": 0.6129
+      },
+      {
+        "name": "DML",
+        "weight": 0.5935
+      },
+      {
+        "name": "DCL",
+        "weight": 0.5742
+      },
+      {
+        "name": "TCL",
+        "weight": 0.5548
+      },
+      {
+        "name": "Primary Keys",
+        "weight": 0.5355
+      },
+      {
+        "name": "Foreign Keys",
+        "weight": 0.5161
+      },
+      {
+        "name": "Joins",
+        "weight": 0.4968
+      },
+      {
+        "name": "Indexes",
+        "weight": 0.4774
+      },
+      {
+        "name": "Transactions",
+        "weight": 0.4581
+      },
+      {
+        "name": "ACID Properties",
+        "weight": 0.4387
+      },
+      {
+        "name": "File I/O Basics",
+        "weight": 0.4194
+      },
+      {
+        "name": "Mobile/Embedded Development Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "database_sqlite"
+  },
+  {
+    "id": 37,
+    "gid": 100000037,
+    "name": "MongoDB",
+    "entity_type": "Database",
+    "entity_subtype": "NoSQL Document Database",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "NoSQL Databases",
+      "specialization": "Document-Oriented Database"
+    },
+    "aliases": [
+      "MongoDB",
+      "Mongo",
+      "Mongo DB",
+      "MongoDB Atlas",
+      "Mongo NoSQL"
+    ],
+    "concepts": [
+      {
+        "name": "Document Model",
+        "weight": 0.7166
+      },
+      {
+        "name": "BSON",
+        "weight": 0.2467
+      },
+      {
+        "name": "Collections",
+        "weight": 0.2435
+      },
+      {
+        "name": "Documents",
+        "weight": 0.2403
+      },
+      {
+        "name": "Schema-less Design",
+        "weight": 0.237
+      },
+      {
+        "name": "CRUD Operations",
+        "weight": 0.7166
+      },
+      {
+        "name": "Indexes",
+        "weight": 0.5313
+      },
+      {
+        "name": "Compound Indexes",
+        "weight": 0.2273
+      },
+      {
+        "name": "Text Indexes",
+        "weight": 0.224
+      },
+      {
+        "name": "Geospatial Indexes",
+        "weight": 0.2208
+      },
+      {
+        "name": "Aggregation Framework",
+        "weight": 0.7166
+      },
+      {
+        "name": "Aggregation Pipeline",
+        "weight": 0.4958
+      },
+      {
+        "name": "MapReduce (legacy)",
+        "weight": 0.211
+      },
+      {
+        "name": "Replication",
+        "weight": 0.2077
+      },
+      {
+        "name": "Replica Sets",
+        "weight": 0.7507
+      },
+      {
+        "name": "Sharding",
+        "weight": 0.639
+      },
+      {
+        "name": "Shard Keys",
+        "weight": 0.5015
+      },
+      {
+        "name": "Mongos Router",
+        "weight": 0.1947
+      },
+      {
+        "name": "Config Servers",
+        "weight": 0.1915
+      },
+      {
+        "name": "Consistency Models",
+        "weight": 0.4875
+      },
+      {
+        "name": "Read Concerns",
+        "weight": 0.185
+      },
+      {
+        "name": "Write Concerns",
+        "weight": 0.1817
+      },
+      {
+        "name": "Transactions (multi-document)",
+        "weight": 0.5313
+      },
+      {
+        "name": "Change Streams",
+        "weight": 0.4958
+      },
+      {
+        "name": "GridFS",
+        "weight": 0.4958
+      },
+      {
+        "name": "Atlas Search",
+        "weight": 0.4958
+      },
+      {
+        "name": "Data Modeling (Embedding vs Referencing)",
+        "weight": 1.0
+      },
+      {
+        "name": "Mongoose (ODM)",
+        "weight": 0.7166
+      },
+      {
+        "name": "MongoDB Compass",
+        "weight": 0.159
+      },
+      {
+        "name": "mongosh",
+        "weight": 0.1557
+      },
+      {
+        "name": "MongoDB Driver",
+        "weight": 0.1525
+      },
+      {
+        "name": "Query Language",
+        "weight": 0.1492
+      },
+      {
+        "name": "Aggregation Operators",
+        "weight": 0.146
+      },
+      {
+        "name": "Backup and Restore (mongodump/mongorestore)",
+        "weight": 0.6132
+      },
+      {
+        "name": "Security (RBAC, TLS)",
+        "weight": 0.6132
+      },
+      {
+        "name": "Capped Collections",
+        "weight": 0.1362
+      },
+      {
+        "name": "TTL Indexes",
+        "weight": 0.133
+      },
+      {
+        "name": "Performance Tuning",
+        "weight": 0.5015
+      },
+      {
+        "name": "Explain Plans",
+        "weight": 0.1265
+      },
+      {
+        "name": "Atlas Cloud Service",
+        "weight": 0.4617
+      },
+      {
+        "name": "Vector Search (Atlas Vector Search)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.976
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.952
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.928
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.904
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.88
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.856
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.832
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.808
+      },
+      {
+        "name": "Git",
+        "weight": 0.784
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.76
+      },
+      {
+        "name": "JSON",
+        "weight": 0.736
+      },
+      {
+        "name": "CSV",
+        "weight": 0.712
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.688
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.664
+      },
+      {
+        "name": "CAP Theorem",
+        "weight": 0.64
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.616
+      },
+      {
+        "name": "Data Modeling",
+        "weight": 0.592
+      },
+      {
+        "name": "Denormalization",
+        "weight": 0.568
+      },
+      {
+        "name": "Eventual Consistency",
+        "weight": 0.544
+      },
+      {
+        "name": "Sharding Concepts",
+        "weight": 0.52
+      },
+      {
+        "name": "Replication Concepts",
+        "weight": 0.496
+      },
+      {
+        "name": "API Basics",
+        "weight": 0.472
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.448
+      },
+      {
+        "name": "JavaScript Basics (for query syntax)",
+        "weight": 0.424
+      },
+      {
+        "name": "Document-Oriented Modeling",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "database_mongodb"
+  },
+  {
+    "id": 38,
+    "gid": 100000038,
+    "name": "Redis",
+    "entity_type": "Database",
+    "entity_subtype": "In-Memory Key-Value Store",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "NoSQL Databases",
+      "specialization": "In-Memory Data Structure Store"
+    },
+    "aliases": [
+      "Redis",
+      "Redis Cache",
+      "Remote Dictionary Server",
+      "Redis DB",
+      "Redis Labs",
+      "Redis Enterprise"
+    ],
+    "concepts": [
+      {
+        "name": "Key-Value Store",
+        "weight": 0.6893
+      },
+      {
+        "name": "In-Memory Storage",
+        "weight": 0.2459
+      },
+      {
+        "name": "Data Structures (Strings, Lists, Sets, Sorted Sets, Hashes)",
+        "weight": 0.8661
+      },
+      {
+        "name": "Bitmaps",
+        "weight": 0.2378
+      },
+      {
+        "name": "HyperLogLog",
+        "weight": 0.2338
+      },
+      {
+        "name": "Streams",
+        "weight": 0.2297
+      },
+      {
+        "name": "Pub/Sub Messaging",
+        "weight": 0.9756
+      },
+      {
+        "name": "Persistence",
+        "weight": 0.6292
+      },
+      {
+        "name": "RDB Snapshotting",
+        "weight": 0.6292
+      },
+      {
+        "name": "AOF (Append-Only File)",
+        "weight": 0.6292
+      },
+      {
+        "name": "Replication",
+        "weight": 0.6292
+      },
+      {
+        "name": "Master-Replica Replication",
+        "weight": 0.2053
+      },
+      {
+        "name": "Redis Sentinel",
+        "weight": 0.9532
+      },
+      {
+        "name": "Redis Cluster",
+        "weight": 0.9532
+      },
+      {
+        "name": "Sharding (Hash Slots)",
+        "weight": 0.1931
+      },
+      {
+        "name": "Expiration (TTL)",
+        "weight": 0.6893
+      },
+      {
+        "name": "Eviction Policies (LRU, LFU)",
+        "weight": 0.9217
+      },
+      {
+        "name": "Transactions (MULTI/EXEC)",
+        "weight": 0.6893
+      },
+      {
+        "name": "Lua Scripting",
+        "weight": 0.1769
+      },
+      {
+        "name": "Pipelining",
+        "weight": 0.1728
+      },
+      {
+        "name": "Caching Strategies (Cache-Aside, Write-Through)",
+        "weight": 1.0
+      },
+      {
+        "name": "Session Storage",
+        "weight": 0.1647
+      },
+      {
+        "name": "Rate Limiting",
+        "weight": 0.6648
+      },
+      {
+        "name": "Distributed Locks (Redlock)",
+        "weight": 0.9756
+      },
+      {
+        "name": "Redis Modules (RedisJSON, RediSearch, RedisGraph, RedisTimeSeries)",
+        "weight": 0.1525
+      },
+      {
+        "name": "Redis as Message Broker",
+        "weight": 0.5268
+      },
+      {
+        "name": "Redis Streams for Event Sourcing",
+        "weight": 0.8416
+      },
+      {
+        "name": "Connection Pooling",
+        "weight": 0.1403
+      },
+      {
+        "name": "Redis CLI",
+        "weight": 0.1362
+      },
+      {
+        "name": "Client Libraries (ioredis, redis-py, Jedis, StackExchange.Redis)",
+        "weight": 0.6893
+      },
+      {
+        "name": "Vector Search (Redis Vector)",
+        "weight": 0.1281
+      },
+      {
+        "name": "High Availability",
+        "weight": 0.9532
+      },
+      {
+        "name": "Monitoring (Redis Insight)",
+        "weight": 0.9217
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9769
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.9538
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9308
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.9077
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.8846
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.8615
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.8385
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.8154
+      },
+      {
+        "name": "Git",
+        "weight": 0.7923
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.7692
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7462
+      },
+      {
+        "name": "CSV",
+        "weight": 0.7231
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.7
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.6769
+      },
+      {
+        "name": "CAP Theorem",
+        "weight": 0.6538
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.6308
+      },
+      {
+        "name": "Data Modeling",
+        "weight": 0.6077
+      },
+      {
+        "name": "Denormalization",
+        "weight": 0.5846
+      },
+      {
+        "name": "Eventual Consistency",
+        "weight": 0.5615
+      },
+      {
+        "name": "Sharding Concepts",
+        "weight": 0.5385
+      },
+      {
+        "name": "Replication Concepts",
+        "weight": 0.5154
+      },
+      {
+        "name": "API Basics",
+        "weight": 0.4923
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.4692
+      },
+      {
+        "name": "In-Memory Computing Concepts",
+        "weight": 0.4462
+      },
+      {
+        "name": "Caching Fundamentals",
+        "weight": 0.4231
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "database_redis"
+  },
+  {
+    "id": 39,
+    "gid": 100000039,
+    "name": "Apache Cassandra",
+    "entity_type": "Database",
+    "entity_subtype": "NoSQL Wide-Column Database",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "NoSQL Databases",
+      "specialization": "Distributed Wide-Column Store"
+    },
+    "aliases": [
+      "Cassandra",
+      "Apache Cassandra",
+      "CassandraDB",
+      "DataStax Cassandra"
+    ],
+    "concepts": [
+      {
+        "name": "Wide-Column Store",
+        "weight": 0.25
+      },
+      {
+        "name": "Distributed Architecture",
+        "weight": 0.2461
+      },
+      {
+        "name": "Peer-to-Peer Architecture",
+        "weight": 0.2421
+      },
+      {
+        "name": "Ring Topology",
+        "weight": 0.6053
+      },
+      {
+        "name": "Partition Key",
+        "weight": 0.594
+      },
+      {
+        "name": "Clustering Key",
+        "weight": 0.594
+      },
+      {
+        "name": "Primary Key Design",
+        "weight": 0.2264
+      },
+      {
+        "name": "Consistent Hashing",
+        "weight": 0.6053
+      },
+      {
+        "name": "Replication Factor",
+        "weight": 0.5843
+      },
+      {
+        "name": "Replication Strategy (SimpleStrategy, NetworkTopologyStrategy)",
+        "weight": 0.5657
+      },
+      {
+        "name": "Tunable Consistency",
+        "weight": 0.821
+      },
+      {
+        "name": "Consistency Levels (ONE, QUORUM, ALL)",
+        "weight": 0.5403
+      },
+      {
+        "name": "CQL (Cassandra Query Language)",
+        "weight": 0.7843
+      },
+      {
+        "name": "Gossip Protocol",
+        "weight": 0.6053
+      },
+      {
+        "name": "Hinted Handoff",
+        "weight": 0.6053
+      },
+      {
+        "name": "Read Repair",
+        "weight": 0.5843
+      },
+      {
+        "name": "Anti-Entropy Repair",
+        "weight": 0.5843
+      },
+      {
+        "name": "Compaction Strategies",
+        "weight": 0.8283
+      },
+      {
+        "name": "SSTables",
+        "weight": 0.1791
+      },
+      {
+        "name": "Memtable",
+        "weight": 0.1752
+      },
+      {
+        "name": "Commit Log",
+        "weight": 0.1712
+      },
+      {
+        "name": "Bloom Filters",
+        "weight": 0.1673
+      },
+      {
+        "name": "Tombstones",
+        "weight": 0.1633
+      },
+      {
+        "name": "Vnodes (Virtual Nodes)",
+        "weight": 0.6053
+      },
+      {
+        "name": "Denormalization",
+        "weight": 0.594
+      },
+      {
+        "name": "Data Modeling (Query-First Design)",
+        "weight": 1.0
+      },
+      {
+        "name": "Materialized Views",
+        "weight": 0.1476
+      },
+      {
+        "name": "Secondary Indexes",
+        "weight": 0.1436
+      },
+      {
+        "name": "Lightweight Transactions (LWT)",
+        "weight": 0.1397
+      },
+      {
+        "name": "Multi-Datacenter Replication",
+        "weight": 0.5843
+      },
+      {
+        "name": "Backup and Restore (nodetool snapshot)",
+        "weight": 0.5843
+      },
+      {
+        "name": "nodetool",
+        "weight": 0.5843
+      },
+      {
+        "name": "DataStax Driver",
+        "weight": 0.5403
+      },
+      {
+        "name": "Cassandra Cluster Management",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9769
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.9538
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9308
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.9077
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.8846
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.8615
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.8385
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.8154
+      },
+      {
+        "name": "Git",
+        "weight": 0.7923
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.7692
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7462
+      },
+      {
+        "name": "CSV",
+        "weight": 0.7231
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.7
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.6769
+      },
+      {
+        "name": "CAP Theorem",
+        "weight": 0.6538
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.6308
+      },
+      {
+        "name": "Data Modeling",
+        "weight": 0.6077
+      },
+      {
+        "name": "Denormalization",
+        "weight": 0.5846
+      },
+      {
+        "name": "Eventual Consistency",
+        "weight": 0.5615
+      },
+      {
+        "name": "Sharding Concepts",
+        "weight": 0.5385
+      },
+      {
+        "name": "Replication Concepts",
+        "weight": 0.5154
+      },
+      {
+        "name": "API Basics",
+        "weight": 0.4923
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.4692
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.4462
+      },
+      {
+        "name": "Consistent Hashing Concepts",
+        "weight": 0.4231
+      },
+      {
+        "name": "Data Modeling for NoSQL",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_apache_cassandra"
+  },
+  {
+    "id": 40,
+    "gid": 100000040,
+    "name": "Amazon DynamoDB",
+    "entity_type": "Database",
+    "entity_subtype": "Managed NoSQL Key-Value/Document Database",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "NoSQL Databases",
+      "specialization": "Fully Managed Cloud NoSQL Database"
+    },
+    "aliases": [
+      "DynamoDB",
+      "Amazon DynamoDB",
+      "AWS DynamoDB",
+      "Dynamo DB"
+    ],
+    "concepts": [
+      {
+        "name": "Key-Value Store",
+        "weight": 0.25
+      },
+      {
+        "name": "Document Store",
+        "weight": 0.2457
+      },
+      {
+        "name": "Partition Key",
+        "weight": 0.5597
+      },
+      {
+        "name": "Sort Key",
+        "weight": 0.5597
+      },
+      {
+        "name": "Primary Key Design",
+        "weight": 0.2327
+      },
+      {
+        "name": "Global Secondary Index (GSI)",
+        "weight": 0.5597
+      },
+      {
+        "name": "Local Secondary Index (LSI)",
+        "weight": 0.224
+      },
+      {
+        "name": "Provisioned Throughput",
+        "weight": 0.4952
+      },
+      {
+        "name": "On-Demand Capacity Mode",
+        "weight": 0.5731
+      },
+      {
+        "name": "Read/Write Capacity Units (RCU/WCU)",
+        "weight": 0.211
+      },
+      {
+        "name": "Auto Scaling",
+        "weight": 0.4952
+      },
+      {
+        "name": "DynamoDB Streams",
+        "weight": 0.7276
+      },
+      {
+        "name": "Global Tables",
+        "weight": 0.7336
+      },
+      {
+        "name": "Multi-Region Replication",
+        "weight": 0.1937
+      },
+      {
+        "name": "Consistency Models (Eventually Consistent, Strongly Consistent)",
+        "weight": 0.1893
+      },
+      {
+        "name": "Transactions (TransactWriteItems, TransactGetItems)",
+        "weight": 0.185
+      },
+      {
+        "name": "Conditional Writes",
+        "weight": 0.5597
+      },
+      {
+        "name": "Batch Operations",
+        "weight": 0.5105
+      },
+      {
+        "name": "DynamoDB Accelerator (DAX)",
+        "weight": 0.5731
+      },
+      {
+        "name": "Single-Table Design",
+        "weight": 1.0
+      },
+      {
+        "name": "Data Modeling (Access Pattern-Driven)",
+        "weight": 0.7828
+      },
+      {
+        "name": "TTL (Time to Live)",
+        "weight": 0.5672
+      },
+      {
+        "name": "IAM Integration",
+        "weight": 0.5672
+      },
+      {
+        "name": "Backup and Restore (Point-in-Time Recovery)",
+        "weight": 0.4952
+      },
+      {
+        "name": "AWS SDK",
+        "weight": 0.5597
+      },
+      {
+        "name": "PartiQL",
+        "weight": 0.5105
+      },
+      {
+        "name": "CloudFormation/CDK Integration",
+        "weight": 0.4952
+      },
+      {
+        "name": "Serverless Architecture Integration (Lambda)",
+        "weight": 0.5672
+      },
+      {
+        "name": "Cost Optimization",
+        "weight": 0.5731
+      },
+      {
+        "name": "Hot Partition Problem",
+        "weight": 0.1243
+      },
+      {
+        "name": "Adaptive Capacity",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9778
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.9556
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9333
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.9111
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.8889
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.8667
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.8444
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.8222
+      },
+      {
+        "name": "Git",
+        "weight": 0.8
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.7778
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7556
+      },
+      {
+        "name": "CSV",
+        "weight": 0.7333
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.7111
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.6889
+      },
+      {
+        "name": "CAP Theorem",
+        "weight": 0.6667
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.6444
+      },
+      {
+        "name": "Data Modeling",
+        "weight": 0.6222
+      },
+      {
+        "name": "Denormalization",
+        "weight": 0.6
+      },
+      {
+        "name": "Eventual Consistency",
+        "weight": 0.5778
+      },
+      {
+        "name": "Sharding Concepts",
+        "weight": 0.5556
+      },
+      {
+        "name": "Replication Concepts",
+        "weight": 0.5333
+      },
+      {
+        "name": "API Basics",
+        "weight": 0.5111
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.4889
+      },
+      {
+        "name": "AWS Fundamentals",
+        "weight": 0.4667
+      },
+      {
+        "name": "IAM Basics",
+        "weight": 0.4444
+      },
+      {
+        "name": "Access Pattern Design",
+        "weight": 0.4222
+      },
+      {
+        "name": "Serverless Concepts",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_amazon_dynamodb"
+  },
+  {
+    "id": 41,
+    "gid": 100000041,
+    "name": "Neo4j",
+    "entity_type": "Database",
+    "entity_subtype": "Graph Database",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "Graph Databases",
+      "specialization": "Native Property Graph Database"
+    },
+    "aliases": [
+      "Neo4j",
+      "Neo4j Graph DB",
+      "Neo4j AuraDB",
+      "Neo4j Graph Database"
+    ],
+    "concepts": [
+      {
+        "name": "Graph Data Model",
+        "weight": 0.25
+      },
+      {
+        "name": "Nodes",
+        "weight": 0.4932
+      },
+      {
+        "name": "Relationships",
+        "weight": 0.4932
+      },
+      {
+        "name": "Properties",
+        "weight": 0.2378
+      },
+      {
+        "name": "Labels",
+        "weight": 0.2338
+      },
+      {
+        "name": "Property Graph Model",
+        "weight": 0.602
+      },
+      {
+        "name": "Cypher Query Language",
+        "weight": 0.9917
+      },
+      {
+        "name": "Pattern Matching",
+        "weight": 0.2216
+      },
+      {
+        "name": "Traversals",
+        "weight": 0.5965
+      },
+      {
+        "name": "Graph Algorithms",
+        "weight": 0.7615
+      },
+      {
+        "name": "Shortest Path Algorithms",
+        "weight": 0.2094
+      },
+      {
+        "name": "PageRank",
+        "weight": 0.515
+      },
+      {
+        "name": "Community Detection",
+        "weight": 0.515
+      },
+      {
+        "name": "Centrality Algorithms",
+        "weight": 0.515
+      },
+      {
+        "name": "Graph Data Science Library (GDS)",
+        "weight": 0.7615
+      },
+      {
+        "name": "Indexes",
+        "weight": 0.1891
+      },
+      {
+        "name": "Constraints",
+        "weight": 0.185
+      },
+      {
+        "name": "ACID Transactions",
+        "weight": 0.4932
+      },
+      {
+        "name": "Causal Clustering",
+        "weight": 0.5015
+      },
+      {
+        "name": "Replication",
+        "weight": 0.1728
+      },
+      {
+        "name": "Sharding (Fabric)",
+        "weight": 0.1688
+      },
+      {
+        "name": "APOC Library",
+        "weight": 0.5965
+      },
+      {
+        "name": "Import/Export (neo4j-admin, LOAD CSV)",
+        "weight": 0.5015
+      },
+      {
+        "name": "Bolt Protocol",
+        "weight": 0.1566
+      },
+      {
+        "name": "Neo4j Browser",
+        "weight": 0.1525
+      },
+      {
+        "name": "Neo4j Desktop",
+        "weight": 0.1484
+      },
+      {
+        "name": "Knowledge Graphs",
+        "weight": 0.602
+      },
+      {
+        "name": "Graph Data Modeling",
+        "weight": 1.0
+      },
+      {
+        "name": "Schema-Optional Design",
+        "weight": 0.602
+      },
+      {
+        "name": "AuraDB (Managed Cloud)",
+        "weight": 0.1322
+      },
+      {
+        "name": "Vector Index (Neo4j Vector Search)",
+        "weight": 0.602
+      },
+      {
+        "name": "GraphQL Integration",
+        "weight": 0.1241
+      },
+      {
+        "name": "Drivers (Python, Java, JS)",
+        "weight": 0.4932
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9769
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.9538
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9308
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.9077
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.8846
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.8615
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.8385
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.8154
+      },
+      {
+        "name": "Git",
+        "weight": 0.7923
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.7692
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7462
+      },
+      {
+        "name": "CSV",
+        "weight": 0.7231
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.7
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.6769
+      },
+      {
+        "name": "CAP Theorem",
+        "weight": 0.6538
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.6308
+      },
+      {
+        "name": "Data Modeling",
+        "weight": 0.6077
+      },
+      {
+        "name": "Denormalization",
+        "weight": 0.5846
+      },
+      {
+        "name": "Eventual Consistency",
+        "weight": 0.5615
+      },
+      {
+        "name": "Sharding Concepts",
+        "weight": 0.5385
+      },
+      {
+        "name": "Replication Concepts",
+        "weight": 0.5154
+      },
+      {
+        "name": "API Basics",
+        "weight": 0.4923
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.4692
+      },
+      {
+        "name": "Graph Theory Basics",
+        "weight": 0.4462
+      },
+      {
+        "name": "Nodes and Edges Concepts",
+        "weight": 0.4231
+      },
+      {
+        "name": "Query Languages",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "database_neo4j"
+  },
+  {
+    "id": 42,
+    "gid": 100000042,
+    "name": "Pinecone",
+    "entity_type": "Database",
+    "entity_subtype": "Managed Vector Database",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "Vector Databases",
+      "specialization": "Fully Managed Vector Search Database"
+    },
+    "aliases": [
+      "Pinecone",
+      "Pinecone DB",
+      "Pinecone Vector DB",
+      "Pinecone.io"
+    ],
+    "concepts": [
+      {
+        "name": "Vector Embeddings",
+        "weight": 1.0
+      },
+      {
+        "name": "Vector Similarity Search",
+        "weight": 0.2448
+      },
+      {
+        "name": "Approximate Nearest Neighbor (ANN) Search",
+        "weight": 0.6712
+      },
+      {
+        "name": "Indexes (Pod-based, Serverless)",
+        "weight": 0.2344
+      },
+      {
+        "name": "Cosine Similarity",
+        "weight": 0.2292
+      },
+      {
+        "name": "Euclidean Distance",
+        "weight": 0.224
+      },
+      {
+        "name": "Dot Product Similarity",
+        "weight": 0.2188
+      },
+      {
+        "name": "Namespaces",
+        "weight": 0.8701
+      },
+      {
+        "name": "Metadata Filtering",
+        "weight": 0.8625
+      },
+      {
+        "name": "Upsert Operations",
+        "weight": 0.743
+      },
+      {
+        "name": "Hybrid Search (Sparse-Dense)",
+        "weight": 0.6712
+      },
+      {
+        "name": "Sparse Vectors",
+        "weight": 0.1928
+      },
+      {
+        "name": "Dense Vectors",
+        "weight": 0.1876
+      },
+      {
+        "name": "Embedding Models Integration (OpenAI, Cohere, HuggingFace)",
+        "weight": 0.6712
+      },
+      {
+        "name": "RAG (Retrieval-Augmented Generation)",
+        "weight": 1.0
+      },
+      {
+        "name": "Semantic Search",
+        "weight": 0.6788
+      },
+      {
+        "name": "Real-Time Indexing",
+        "weight": 0.5517
+      },
+      {
+        "name": "Pinecone Client SDK (Python, Node.js)",
+        "weight": 0.5413
+      },
+      {
+        "name": "Serverless Architecture",
+        "weight": 0.7717
+      },
+      {
+        "name": "Pod Types",
+        "weight": 0.57
+      },
+      {
+        "name": "Scaling and Sharding",
+        "weight": 0.7717
+      },
+      {
+        "name": "Consistency Guarantees",
+        "weight": 0.1408
+      },
+      {
+        "name": "Query Performance Tuning",
+        "weight": 0.57
+      },
+      {
+        "name": "LangChain Integration",
+        "weight": 0.6788
+      },
+      {
+        "name": "LlamaIndex Integration",
+        "weight": 0.6788
+      },
+      {
+        "name": "Vector Database Benchmarking (Recall, Latency)",
+        "weight": 0.57
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9778
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.9556
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9333
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.9111
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.8889
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.8667
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.8444
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.8222
+      },
+      {
+        "name": "Git",
+        "weight": 0.8
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.7778
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7556
+      },
+      {
+        "name": "CSV",
+        "weight": 0.7333
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.7111
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.6889
+      },
+      {
+        "name": "CAP Theorem",
+        "weight": 0.6667
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.6444
+      },
+      {
+        "name": "Data Modeling",
+        "weight": 0.6222
+      },
+      {
+        "name": "Denormalization",
+        "weight": 0.6
+      },
+      {
+        "name": "Eventual Consistency",
+        "weight": 0.5778
+      },
+      {
+        "name": "Sharding Concepts",
+        "weight": 0.5556
+      },
+      {
+        "name": "Replication Concepts",
+        "weight": 0.5333
+      },
+      {
+        "name": "API Basics",
+        "weight": 0.5111
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.4889
+      },
+      {
+        "name": "Vector Embeddings Basics",
+        "weight": 0.4667
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.4444
+      },
+      {
+        "name": "Linear Algebra Basics (Vectors, Distance Metrics)",
+        "weight": 0.4222
+      },
+      {
+        "name": "NLP Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_pinecone"
+  },
+  {
+    "id": 43,
+    "gid": 100000043,
+    "name": "Weaviate",
+    "entity_type": "Database",
+    "entity_subtype": "Open Source Vector Database",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "Vector Databases",
+      "specialization": "Open Source Vector Search Engine"
+    },
+    "aliases": [
+      "Weaviate",
+      "Weaviate Vector DB",
+      "Weaviate Cloud (WCD)"
+    ],
+    "concepts": [
+      {
+        "name": "Vector Embeddings",
+        "weight": 0.6695
+      },
+      {
+        "name": "Vector Similarity Search",
+        "weight": 0.245
+      },
+      {
+        "name": "HNSW Index (Hierarchical Navigable Small World)",
+        "weight": 0.6695
+      },
+      {
+        "name": "Schema Definition",
+        "weight": 0.7521
+      },
+      {
+        "name": "Classes and Properties",
+        "weight": 0.5562
+      },
+      {
+        "name": "GraphQL API",
+        "weight": 0.8867
+      },
+      {
+        "name": "REST API",
+        "weight": 0.5562
+      },
+      {
+        "name": "Hybrid Search (BM25 + Vector)",
+        "weight": 1.0
+      },
+      {
+        "name": "Modules (text2vec, img2vec, qna)",
+        "weight": 0.21
+      },
+      {
+        "name": "Vectorizer Modules (OpenAI, Cohere, HuggingFace, transformers)",
+        "weight": 0.6695
+      },
+      {
+        "name": "Multi-Tenancy",
+        "weight": 0.5458
+      },
+      {
+        "name": "CRUD Operations",
+        "weight": 0.5562
+      },
+      {
+        "name": "Filters (where clauses)",
+        "weight": 0.19
+      },
+      {
+        "name": "RAG (Retrieval-Augmented Generation)",
+        "weight": 1.0
+      },
+      {
+        "name": "Generative Search Module",
+        "weight": 0.6805
+      },
+      {
+        "name": "Cross-References (Object Relationships)",
+        "weight": 0.5458
+      },
+      {
+        "name": "Batch Import",
+        "weight": 0.5458
+      },
+      {
+        "name": "Replication",
+        "weight": 0.5268
+      },
+      {
+        "name": "Sharding",
+        "weight": 0.5268
+      },
+      {
+        "name": "Consistency Levels",
+        "weight": 0.155
+      },
+      {
+        "name": "Weaviate Client SDK (Python, JS, Go, Java)",
+        "weight": 0.5562
+      },
+      {
+        "name": "Docker Deployment",
+        "weight": 0.5268
+      },
+      {
+        "name": "Kubernetes Deployment",
+        "weight": 0.5268
+      },
+      {
+        "name": "Weaviate Cloud Service",
+        "weight": 0.135
+      },
+      {
+        "name": "LangChain Integration",
+        "weight": 0.6805
+      },
+      {
+        "name": "LlamaIndex Integration",
+        "weight": 0.6805
+      },
+      {
+        "name": "Vector Compression (PQ - Product Quantization)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9778
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.9556
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9333
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.9111
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.8889
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.8667
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.8444
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.8222
+      },
+      {
+        "name": "Git",
+        "weight": 0.8
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.7778
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7556
+      },
+      {
+        "name": "CSV",
+        "weight": 0.7333
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.7111
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.6889
+      },
+      {
+        "name": "CAP Theorem",
+        "weight": 0.6667
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.6444
+      },
+      {
+        "name": "Data Modeling",
+        "weight": 0.6222
+      },
+      {
+        "name": "Denormalization",
+        "weight": 0.6
+      },
+      {
+        "name": "Eventual Consistency",
+        "weight": 0.5778
+      },
+      {
+        "name": "Sharding Concepts",
+        "weight": 0.5556
+      },
+      {
+        "name": "Replication Concepts",
+        "weight": 0.5333
+      },
+      {
+        "name": "API Basics",
+        "weight": 0.5111
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.4889
+      },
+      {
+        "name": "Vector Embeddings Basics",
+        "weight": 0.4667
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.4444
+      },
+      {
+        "name": "GraphQL Basics",
+        "weight": 0.4222
+      },
+      {
+        "name": "NLP Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_weaviate"
+  },
+  {
+    "id": 44,
+    "gid": 100000044,
+    "name": "Milvus",
+    "entity_type": "Database",
+    "entity_subtype": "Open Source Vector Database",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "Vector Databases",
+      "specialization": "Cloud-Native Vector Database for Large-Scale AI"
+    },
+    "aliases": [
+      "Milvus",
+      "Milvus Vector DB",
+      "Zilliz Milvus",
+      "Zilliz Cloud (managed Milvus)"
+    ],
+    "concepts": [
+      {
+        "name": "Vector Embeddings",
+        "weight": 0.8618
+      },
+      {
+        "name": "Vector Similarity Search",
+        "weight": 0.2458
+      },
+      {
+        "name": "ANN Search Algorithms",
+        "weight": 0.8618
+      },
+      {
+        "name": "HNSW",
+        "weight": 0.2374
+      },
+      {
+        "name": "IVF (Inverted File Index)",
+        "weight": 0.8618
+      },
+      {
+        "name": "IVF_FLAT",
+        "weight": 0.229
+      },
+      {
+        "name": "IVF_PQ",
+        "weight": 0.2248
+      },
+      {
+        "name": "DiskANN",
+        "weight": 0.2206
+      },
+      {
+        "name": "Scalar Quantization",
+        "weight": 0.2165
+      },
+      {
+        "name": "Product Quantization",
+        "weight": 0.2123
+      },
+      {
+        "name": "Collections",
+        "weight": 0.6326
+      },
+      {
+        "name": "Partitions",
+        "weight": 0.6628
+      },
+      {
+        "name": "Schema Definition",
+        "weight": 0.6326
+      },
+      {
+        "name": "Distance Metrics (L2, Cosine, IP)",
+        "weight": 0.8618
+      },
+      {
+        "name": "Hybrid Search",
+        "weight": 0.1913
+      },
+      {
+        "name": "Metadata Filtering",
+        "weight": 0.6326
+      },
+      {
+        "name": "Attu (GUI Tool)",
+        "weight": 0.1829
+      },
+      {
+        "name": "Milvus SDK (PyMilvus)",
+        "weight": 0.6326
+      },
+      {
+        "name": "Distributed Architecture",
+        "weight": 0.8372
+      },
+      {
+        "name": "Milvus Standalone vs Cluster Mode",
+        "weight": 0.8372
+      },
+      {
+        "name": "Kubernetes Deployment",
+        "weight": 0.6872
+      },
+      {
+        "name": "Object Storage Integration (MinIO, S3)",
+        "weight": 1.0
+      },
+      {
+        "name": "Message Queue Integration (Pulsar, Kafka)",
+        "weight": 1.0
+      },
+      {
+        "name": "etcd (Metadata Storage)",
+        "weight": 0.6872
+      },
+      {
+        "name": "Query Nodes",
+        "weight": 0.8372
+      },
+      {
+        "name": "Data Nodes",
+        "weight": 0.8372
+      },
+      {
+        "name": "Index Nodes",
+        "weight": 0.8372
+      },
+      {
+        "name": "Proxy Nodes",
+        "weight": 0.1368
+      },
+      {
+        "name": "GPU Acceleration",
+        "weight": 0.8372
+      },
+      {
+        "name": "RAG (Retrieval-Augmented Generation)",
+        "weight": 0.8618
+      },
+      {
+        "name": "LangChain Integration",
+        "weight": 0.1242
+      },
+      {
+        "name": "Zilliz Cloud",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9778
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.9556
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9333
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.9111
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.8889
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.8667
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.8444
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.8222
+      },
+      {
+        "name": "Git",
+        "weight": 0.8
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.7778
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7556
+      },
+      {
+        "name": "CSV",
+        "weight": 0.7333
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.7111
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.6889
+      },
+      {
+        "name": "CAP Theorem",
+        "weight": 0.6667
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.6444
+      },
+      {
+        "name": "Data Modeling",
+        "weight": 0.6222
+      },
+      {
+        "name": "Denormalization",
+        "weight": 0.6
+      },
+      {
+        "name": "Eventual Consistency",
+        "weight": 0.5778
+      },
+      {
+        "name": "Sharding Concepts",
+        "weight": 0.5556
+      },
+      {
+        "name": "Replication Concepts",
+        "weight": 0.5333
+      },
+      {
+        "name": "API Basics",
+        "weight": 0.5111
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.4889
+      },
+      {
+        "name": "Vector Embeddings Basics",
+        "weight": 0.4667
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.4444
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.4222
+      },
+      {
+        "name": "Kubernetes Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_milvus"
+  },
+  {
+    "id": 45,
+    "gid": 100000045,
+    "name": "Qdrant",
+    "entity_type": "Database",
+    "entity_subtype": "Open Source Vector Database",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "Vector Databases",
+      "specialization": "High-Performance Vector Similarity Search Engine"
+    },
+    "aliases": [
+      "Qdrant",
+      "Qdrant Vector DB",
+      "Qdrant Cloud"
+    ],
+    "concepts": [
+      {
+        "name": "Vector Embeddings",
+        "weight": 0.671
+      },
+      {
+        "name": "Vector Similarity Search",
+        "weight": 0.245
+      },
+      {
+        "name": "HNSW Index",
+        "weight": 0.671
+      },
+      {
+        "name": "Payload (Metadata)",
+        "weight": 0.5358
+      },
+      {
+        "name": "Collections",
+        "weight": 0.5464
+      },
+      {
+        "name": "Points",
+        "weight": 0.5464
+      },
+      {
+        "name": "Filtering (Payload-based Filters)",
+        "weight": 0.679
+      },
+      {
+        "name": "Distance Metrics (Cosine, Euclidean, Dot Product)",
+        "weight": 0.215
+      },
+      {
+        "name": "Quantization (Scalar, Product, Binary)",
+        "weight": 0.671
+      },
+      {
+        "name": "Hybrid Search (Sparse + Dense Vectors)",
+        "weight": 0.671
+      },
+      {
+        "name": "Named Vectors (Multi-Vector Support)",
+        "weight": 0.5358
+      },
+      {
+        "name": "Sharding",
+        "weight": 0.71
+      },
+      {
+        "name": "Replication",
+        "weight": 0.5241
+      },
+      {
+        "name": "Consistency Levels",
+        "weight": 0.185
+      },
+      {
+        "name": "Snapshot and Backup",
+        "weight": 0.5241
+      },
+      {
+        "name": "Qdrant Client SDK (Python, Rust, Go, JS)",
+        "weight": 0.5464
+      },
+      {
+        "name": "REST API",
+        "weight": 0.5464
+      },
+      {
+        "name": "gRPC API",
+        "weight": 0.5464
+      },
+      {
+        "name": "Rust-based Architecture",
+        "weight": 0.16
+      },
+      {
+        "name": "Docker Deployment",
+        "weight": 0.5241
+      },
+      {
+        "name": "Kubernetes Deployment",
+        "weight": 0.5241
+      },
+      {
+        "name": "Qdrant Cloud (Managed Service)",
+        "weight": 0.145
+      },
+      {
+        "name": "RAG (Retrieval-Augmented Generation)",
+        "weight": 1.0
+      },
+      {
+        "name": "LangChain Integration",
+        "weight": 0.679
+      },
+      {
+        "name": "LlamaIndex Integration",
+        "weight": 0.679
+      },
+      {
+        "name": "Recommendation API",
+        "weight": 0.679
+      },
+      {
+        "name": "Discovery API",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9769
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.9538
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9308
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.9077
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.8846
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.8615
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.8385
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.8154
+      },
+      {
+        "name": "Git",
+        "weight": 0.7923
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.7692
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7462
+      },
+      {
+        "name": "CSV",
+        "weight": 0.7231
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.7
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.6769
+      },
+      {
+        "name": "CAP Theorem",
+        "weight": 0.6538
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.6308
+      },
+      {
+        "name": "Data Modeling",
+        "weight": 0.6077
+      },
+      {
+        "name": "Denormalization",
+        "weight": 0.5846
+      },
+      {
+        "name": "Eventual Consistency",
+        "weight": 0.5615
+      },
+      {
+        "name": "Sharding Concepts",
+        "weight": 0.5385
+      },
+      {
+        "name": "Replication Concepts",
+        "weight": 0.5154
+      },
+      {
+        "name": "API Basics",
+        "weight": 0.4923
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.4692
+      },
+      {
+        "name": "Vector Embeddings Basics",
+        "weight": 0.4462
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.4231
+      },
+      {
+        "name": "REST/gRPC API Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_qdrant"
+  },
+  {
+    "id": 46,
+    "gid": 100000046,
+    "name": "Chroma",
+    "entity_type": "Database",
+    "entity_subtype": "Open Source Embedding/Vector Database",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "Vector Databases",
+      "specialization": "Lightweight Embedding Database for AI Applications"
+    },
+    "aliases": [
+      "Chroma",
+      "ChromaDB",
+      "Chroma Vector DB",
+      "Chroma Embedding Database"
+    ],
+    "concepts": [
+      {
+        "name": "Vector Embeddings",
+        "weight": 0.6628
+      },
+      {
+        "name": "Collections",
+        "weight": 0.8598
+      },
+      {
+        "name": "Embedding Functions",
+        "weight": 0.6628
+      },
+      {
+        "name": "Similarity Search",
+        "weight": 0.6628
+      },
+      {
+        "name": "Distance Metrics (Cosine, L2, IP)",
+        "weight": 0.2226
+      },
+      {
+        "name": "Metadata Filtering",
+        "weight": 0.5226
+      },
+      {
+        "name": "Document Storage",
+        "weight": 0.2089
+      },
+      {
+        "name": "Persistent Client",
+        "weight": 0.6396
+      },
+      {
+        "name": "In-Memory Client",
+        "weight": 0.6396
+      },
+      {
+        "name": "Ephemeral Client",
+        "weight": 0.1884
+      },
+      {
+        "name": "Chroma Client SDK (Python, JS)",
+        "weight": 0.8122
+      },
+      {
+        "name": "HTTP API",
+        "weight": 0.5226
+      },
+      {
+        "name": "Embedding Model Integration (OpenAI, Sentence Transformers, HuggingFace)",
+        "weight": 0.6628
+      },
+      {
+        "name": "RAG (Retrieval-Augmented Generation)",
+        "weight": 1.0
+      },
+      {
+        "name": "LangChain Integration",
+        "weight": 0.6872
+      },
+      {
+        "name": "LlamaIndex Integration",
+        "weight": 0.6872
+      },
+      {
+        "name": "Local-First Architecture",
+        "weight": 0.9769
+      },
+      {
+        "name": "Chroma Cloud",
+        "weight": 0.1337
+      },
+      {
+        "name": "Multi-Modal Embeddings",
+        "weight": 0.1268
+      },
+      {
+        "name": "Query Filtering (where, where_document)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9769
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.9538
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9308
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.9077
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.8846
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.8615
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.8385
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.8154
+      },
+      {
+        "name": "Git",
+        "weight": 0.7923
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.7692
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7462
+      },
+      {
+        "name": "CSV",
+        "weight": 0.7231
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.7
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.6769
+      },
+      {
+        "name": "CAP Theorem",
+        "weight": 0.6538
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.6308
+      },
+      {
+        "name": "Data Modeling",
+        "weight": 0.6077
+      },
+      {
+        "name": "Denormalization",
+        "weight": 0.5846
+      },
+      {
+        "name": "Eventual Consistency",
+        "weight": 0.5615
+      },
+      {
+        "name": "Sharding Concepts",
+        "weight": 0.5385
+      },
+      {
+        "name": "Replication Concepts",
+        "weight": 0.5154
+      },
+      {
+        "name": "API Basics",
+        "weight": 0.4923
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.4692
+      },
+      {
+        "name": "Vector Embeddings Basics",
+        "weight": 0.4462
+      },
+      {
+        "name": "Python Basics",
+        "weight": 0.4231
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_chroma"
+  },
+  {
+    "id": 47,
+    "gid": 100000047,
+    "name": "pgvector",
+    "entity_type": "Database Extension",
+    "entity_subtype": "PostgreSQL Vector Search Extension",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Storage & Management",
+      "sub_category": "Vector Databases",
+      "specialization": "Relational Database Extension for Vector Similarity Search"
+    },
+    "aliases": [
+      "pgvector",
+      "pg_vector",
+      "Postgres Vector Extension",
+      "PGVector Extension"
+    ],
+    "concepts": [
+      {
+        "name": "Vector Data Type",
+        "weight": 0.9678
+      },
+      {
+        "name": "Vector Embeddings",
+        "weight": 0.7078
+      },
+      {
+        "name": "Similarity Search within PostgreSQL",
+        "weight": 0.2376
+      },
+      {
+        "name": "Distance Operators (<->, <#>, <=>)",
+        "weight": 0.699
+      },
+      {
+        "name": "L2 Distance",
+        "weight": 0.2252
+      },
+      {
+        "name": "Cosine Distance",
+        "weight": 0.219
+      },
+      {
+        "name": "Inner Product Distance",
+        "weight": 0.2129
+      },
+      {
+        "name": "IVFFlat Index",
+        "weight": 0.699
+      },
+      {
+        "name": "HNSW Index",
+        "weight": 0.7078
+      },
+      {
+        "name": "Exact Nearest Neighbor Search",
+        "weight": 0.1943
+      },
+      {
+        "name": "Approximate Nearest Neighbor Search",
+        "weight": 0.1881
+      },
+      {
+        "name": "Hybrid Search (SQL + Vector)",
+        "weight": 0.6337
+      },
+      {
+        "name": "Integration with Relational Data",
+        "weight": 0.6337
+      },
+      {
+        "name": "SQL Joins with Vector Columns",
+        "weight": 0.9678
+      },
+      {
+        "name": "RAG (Retrieval-Augmented Generation)",
+        "weight": 0.9767
+      },
+      {
+        "name": "LangChain Integration (PGVector store)",
+        "weight": 0.7078
+      },
+      {
+        "name": "LlamaIndex Integration",
+        "weight": 0.151
+      },
+      {
+        "name": "Embedding Storage",
+        "weight": 0.1448
+      },
+      {
+        "name": "Index Tuning (lists, probes for IVFFlat; m, ef_construction for HNSW)",
+        "weight": 1.0
+      },
+      {
+        "name": "Extension Installation (CREATE EXTENSION)",
+        "weight": 0.9911
+      },
+      {
+        "name": "Supabase Vector (built on pgvector)",
+        "weight": 0.6189
+      },
+      {
+        "name": "Performance Considerations vs Dedicated Vector DBs",
+        "weight": 0.9258
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.9812
+      },
+      {
+        "name": "Command Line Interface",
+        "weight": 0.9625
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9437
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.925
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.9062
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.8875
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.8688
+      },
+      {
+        "name": "Client-Server Architecture",
+        "weight": 0.85
+      },
+      {
+        "name": "Git",
+        "weight": 0.8313
+      },
+      {
+        "name": "GitHub",
+        "weight": 0.8125
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7937
+      },
+      {
+        "name": "CSV",
+        "weight": 0.775
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.7563
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.7375
+      },
+      {
+        "name": "Relational Algebra",
+        "weight": 0.7188
+      },
+      {
+        "name": "Set Theory",
+        "weight": 0.7
+      },
+      {
+        "name": "Entity Relationship Modeling",
+        "weight": 0.6813
+      },
+      {
+        "name": "Normalization",
+        "weight": 0.6625
+      },
+      {
+        "name": "SQL Fundamentals",
+        "weight": 0.6438
+      },
+      {
+        "name": "DDL",
+        "weight": 0.625
+      },
+      {
+        "name": "DML",
+        "weight": 0.6062
+      },
+      {
+        "name": "DCL",
+        "weight": 0.5875
+      },
+      {
+        "name": "TCL",
+        "weight": 0.5687
+      },
+      {
+        "name": "Primary Keys",
+        "weight": 0.55
+      },
+      {
+        "name": "Foreign Keys",
+        "weight": 0.5312
+      },
+      {
+        "name": "Joins",
+        "weight": 0.5125
+      },
+      {
+        "name": "Indexes",
+        "weight": 0.4938
+      },
+      {
+        "name": "Transactions",
+        "weight": 0.475
+      },
+      {
+        "name": "ACID Properties",
+        "weight": 0.4563
+      },
+      {
+        "name": "PostgreSQL Fundamentals",
+        "weight": 0.4375
+      },
+      {
+        "name": "Vector Embeddings Basics",
+        "weight": 0.4188
+      },
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_pgvector"
+  },
+  {
+    "id": 82,
+    "gid": 100000082,
+    "name": "Elasticsearch",
+    "entity_type": "Database",
+    "entity_subtype": "Distributed Search and Analytics Engine",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Engineering",
+      "sub_category": "Search Engines",
+      "specialization": "Distributed Search Platforms"
+    },
+    "aliases": [
+      "Elasticsearch",
+      "ElasticSearch",
+      "ES",
+      "Elastic Stack (ELK)"
+    ],
+    "concepts": [
+      {
+        "name": "Index",
+        "weight": 0.6268
+      },
+      {
+        "name": "Document",
+        "weight": 0.6268
+      },
+      {
+        "name": "Shard",
+        "weight": 0.6529
+      },
+      {
+        "name": "Replica",
+        "weight": 0.6529
+      },
+      {
+        "name": "Mapping",
+        "weight": 0.6268
+      },
+      {
+        "name": "Analyzer",
+        "weight": 0.7232
+      },
+      {
+        "name": "Tokenizer",
+        "weight": 0.7232
+      },
+      {
+        "name": "Inverted Index",
+        "weight": 0.2121
+      },
+      {
+        "name": "Query DSL",
+        "weight": 1.0
+      },
+      {
+        "name": "Full-Text Search",
+        "weight": 0.6268
+      },
+      {
+        "name": "Aggregations",
+        "weight": 0.675
+      },
+      {
+        "name": "Bulk API",
+        "weight": 0.675
+      },
+      {
+        "name": "Cluster Health",
+        "weight": 0.6529
+      },
+      {
+        "name": "Node Roles",
+        "weight": 0.1796
+      },
+      {
+        "name": "Kibana",
+        "weight": 0.1742
+      },
+      {
+        "name": "Logstash",
+        "weight": 0.6529
+      },
+      {
+        "name": "Beats",
+        "weight": 0.1633
+      },
+      {
+        "name": "ELK Stack",
+        "weight": 0.6529
+      },
+      {
+        "name": "Relevance Scoring (BM25)",
+        "weight": 0.7232
+      },
+      {
+        "name": "Fuzzy Search",
+        "weight": 0.1471
+      },
+      {
+        "name": "Vector Search",
+        "weight": 0.7232
+      },
+      {
+        "name": "kNN Search",
+        "weight": 0.7232
+      },
+      {
+        "name": "Reindexing",
+        "weight": 0.675
+      },
+      {
+        "name": "Index Lifecycle Management (ILM)",
+        "weight": 0.675
+      },
+      {
+        "name": "Snapshot and Restore",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JSON",
+        "weight": 1.0
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.85
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.7
+      },
+      {
+        "name": "Search Fundamentals",
+        "weight": 0.55
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "database_elasticsearch"
+  },
+  {
+    "id": 212,
+    "gid": 100000212,
+    "name": "MariaDB",
+    "entity_type": "Database",
+    "entity_subtype": "Relational Database",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Database Engineering",
+      "specialization": "Relational Databases"
+    },
+    "aliases": [
+      "MariaDB Server"
+    ],
+    "concepts": [
+      {
+        "name": "SQL Queries",
+        "weight": 0.8256
+      },
+      {
+        "name": "Storage Engines (InnoDB, Aria)",
+        "weight": 1.0
+      },
+      {
+        "name": "Replication",
+        "weight": 1.0
+      },
+      {
+        "name": "Galera Cluster",
+        "weight": 1.0
+      },
+      {
+        "name": "Indexing",
+        "weight": 0.8256
+      },
+      {
+        "name": "MySQL Compatibility",
+        "weight": 0.8256
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "SQL",
+        "weight": 1.0
+      },
+      {
+        "name": "Relational Database Concepts",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "database_mariadb"
+  },
+  {
+    "id": 213,
+    "gid": 100000213,
+    "name": "ClickHouse",
+    "entity_type": "Database",
+    "entity_subtype": "Columnar Analytics Database",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Engineering",
+      "sub_category": "Analytical Databases",
+      "specialization": "OLAP Databases"
+    },
+    "aliases": [
+      "ClickHouse DB"
+    ],
+    "concepts": [
+      {
+        "name": "Columnar Storage",
+        "weight": 1.0
+      },
+      {
+        "name": "MergeTree Engine",
+        "weight": 1.0
+      },
+      {
+        "name": "Real-Time Analytics",
+        "weight": 0.8652
+      },
+      {
+        "name": "Materialized Views",
+        "weight": 0.8652
+      },
+      {
+        "name": "Distributed Tables",
+        "weight": 1.0
+      },
+      {
+        "name": "Data Compression",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "SQL",
+        "weight": 1.0
+      },
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_clickhouse"
+  },
+  {
+    "id": 214,
+    "gid": 100000214,
+    "name": "InfluxDB",
+    "entity_type": "Database",
+    "entity_subtype": "Time Series Database",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Engineering",
+      "sub_category": "Time Series Databases",
+      "specialization": "Metrics Storage"
+    },
+    "aliases": [
+      "Influx",
+      "InfluxDB TSDB"
+    ],
+    "concepts": [
+      {
+        "name": "Time Series Data Model",
+        "weight": 1.0
+      },
+      {
+        "name": "Measurements and Tags",
+        "weight": 0.87
+      },
+      {
+        "name": "Flux Query Language",
+        "weight": 0.87
+      },
+      {
+        "name": "Retention Policies",
+        "weight": 1.0
+      },
+      {
+        "name": "Continuous Queries",
+        "weight": 0.146
+      },
+      {
+        "name": "Downsampling",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Observability Basics",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "tool_influxdb"
+  }
+]

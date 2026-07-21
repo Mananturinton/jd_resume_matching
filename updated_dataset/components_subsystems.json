@@ -1,0 +1,109 @@
+[
+  {
+    "id": 196,
+    "gid": 100000196,
+    "name": "Message Queue",
+    "entity_type": "Concept",
+    "entity_subtype": "Asynchronous Messaging Pattern",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Architecture & Practices",
+      "specialization": "Asynchronous Communication"
+    },
+    "aliases": [
+      "Message Queuing"
+    ],
+    "concepts": [
+      {
+        "name": "Producer/Consumer Pattern",
+        "weight": 1.0
+      },
+      {
+        "name": "Publish/Subscribe",
+        "weight": 0.95
+      },
+      {
+        "name": "Message Durability",
+        "weight": 0.2067
+      },
+      {
+        "name": "Dead Letter Queue",
+        "weight": 1.0
+      },
+      {
+        "name": "At-Least-Once Delivery",
+        "weight": 0.95
+      },
+      {
+        "name": "Message Ordering",
+        "weight": 1.0
+      },
+      {
+        "name": "Backpressure",
+        "weight": 0.95
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "concept_message_queue"
+  },
+  {
+    "id": 197,
+    "gid": 100000197,
+    "name": "Caching Layer",
+    "entity_type": "Concept",
+    "entity_subtype": "Performance Optimization Pattern",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Architecture & Practices",
+      "specialization": "Performance Optimization"
+    },
+    "aliases": [
+      "Cache Layer",
+      "Application Caching"
+    ],
+    "concepts": [
+      {
+        "name": "Cache-Aside Pattern",
+        "weight": 1.0
+      },
+      {
+        "name": "Write-Through Cache",
+        "weight": 0.8537
+      },
+      {
+        "name": "Write-Back Cache",
+        "weight": 0.198
+      },
+      {
+        "name": "Cache Invalidation",
+        "weight": 1.0
+      },
+      {
+        "name": "TTL/Expiration Policies",
+        "weight": 1.0
+      },
+      {
+        "name": "Cache Eviction Policies",
+        "weight": 0.8537
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Databases",
+        "weight": 1.0
+      },
+      {
+        "name": "Performance Engineering Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "concept_caching_layer"
+  }
+]

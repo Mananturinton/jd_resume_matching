@@ -1,0 +1,5370 @@
+[
+  {
+    "id": 48,
+    "gid": 100000048,
+    "name": "C",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Procedural Systems Programming Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "Systems Programming"
+    },
+    "aliases": [
+      "C",
+      "C Language",
+      "C Programming Language",
+      "ISO C",
+      "ANSI C",
+      "Standard C",
+      "K&R C",
+      "C89",
+      "C90",
+      "C99",
+      "C11",
+      "C17",
+      "C18",
+      "C23",
+      "GNU C",
+      "GNU C11",
+      "Classic C",
+      "Bell Labs C",
+      "Dennis Ritchie C",
+      "C (programming language)"
+    ],
+    "concepts": [
+      {
+        "name": "Variables and Data Types",
+        "weight": 0.4811
+      },
+      {
+        "name": "Primitive Types",
+        "weight": 0.2487
+      },
+      {
+        "name": "Operators",
+        "weight": 0.2475
+      },
+      {
+        "name": "Control Flow",
+        "weight": 0.4811
+      },
+      {
+        "name": "if-else",
+        "weight": 0.2449
+      },
+      {
+        "name": "switch-case",
+        "weight": 0.2436
+      },
+      {
+        "name": "for loop",
+        "weight": 0.2424
+      },
+      {
+        "name": "while loop",
+        "weight": 0.2411
+      },
+      {
+        "name": "do-while loop",
+        "weight": 0.2398
+      },
+      {
+        "name": "Functions",
+        "weight": 0.4811
+      },
+      {
+        "name": "Function Prototypes",
+        "weight": 0.2373
+      },
+      {
+        "name": "Recursion",
+        "weight": 0.236
+      },
+      {
+        "name": "Pointers",
+        "weight": 0.945
+      },
+      {
+        "name": "Pointer Arithmetic",
+        "weight": 0.4244
+      },
+      {
+        "name": "Arrays",
+        "weight": 0.4811
+      },
+      {
+        "name": "Multi-dimensional Arrays",
+        "weight": 0.2309
+      },
+      {
+        "name": "Strings (char arrays)",
+        "weight": 0.2296
+      },
+      {
+        "name": "Structs",
+        "weight": 0.6691
+      },
+      {
+        "name": "Unions",
+        "weight": 0.4305
+      },
+      {
+        "name": "Enums",
+        "weight": 0.4305
+      },
+      {
+        "name": "Typedef",
+        "weight": 0.2245
+      },
+      {
+        "name": "Bit Fields",
+        "weight": 0.2232
+      },
+      {
+        "name": "Bitwise Operators",
+        "weight": 0.5639
+      },
+      {
+        "name": "Bit Manipulation",
+        "weight": 0.507
+      },
+      {
+        "name": "Storage Classes",
+        "weight": 0.4846
+      },
+      {
+        "name": "auto",
+        "weight": 0.2181
+      },
+      {
+        "name": "static",
+        "weight": 0.2169
+      },
+      {
+        "name": "extern",
+        "weight": 0.2156
+      },
+      {
+        "name": "register",
+        "weight": 0.2143
+      },
+      {
+        "name": "const Correctness",
+        "weight": 0.213
+      },
+      {
+        "name": "volatile Keyword",
+        "weight": 0.2118
+      },
+      {
+        "name": "sizeof Operator",
+        "weight": 0.2105
+      },
+      {
+        "name": "Preprocessor",
+        "weight": 0.5096
+      },
+      {
+        "name": "Macros",
+        "weight": 0.4305
+      },
+      {
+        "name": "Header Files",
+        "weight": 0.5096
+      },
+      {
+        "name": "Include Guards",
+        "weight": 0.2054
+      },
+      {
+        "name": "Conditional Compilation",
+        "weight": 0.2041
+      },
+      {
+        "name": "Memory Management",
+        "weight": 1.0
+      },
+      {
+        "name": "Stack Memory",
+        "weight": 0.2016
+      },
+      {
+        "name": "Heap Memory",
+        "weight": 0.2003
+      },
+      {
+        "name": "malloc",
+        "weight": 0.4305
+      },
+      {
+        "name": "calloc",
+        "weight": 0.4305
+      },
+      {
+        "name": "realloc",
+        "weight": 0.4305
+      },
+      {
+        "name": "free",
+        "weight": 0.4305
+      },
+      {
+        "name": "Memory Leaks",
+        "weight": 0.1939
+      },
+      {
+        "name": "Dangling Pointers",
+        "weight": 0.4168
+      },
+      {
+        "name": "Segmentation Fault",
+        "weight": 0.4168
+      },
+      {
+        "name": "Buffer Overflow",
+        "weight": 0.4168
+      },
+      {
+        "name": "Undefined Behavior",
+        "weight": 0.549
+      },
+      {
+        "name": "Function Pointers",
+        "weight": 0.4081
+      },
+      {
+        "name": "Callback Functions",
+        "weight": 0.1863
+      },
+      {
+        "name": "Standard Library",
+        "weight": 0.5555
+      },
+      {
+        "name": "stdio.h",
+        "weight": 0.1837
+      },
+      {
+        "name": "stdlib.h",
+        "weight": 0.1825
+      },
+      {
+        "name": "string.h",
+        "weight": 0.1812
+      },
+      {
+        "name": "math.h",
+        "weight": 0.1799
+      },
+      {
+        "name": "ctype.h",
+        "weight": 0.1786
+      },
+      {
+        "name": "File I/O",
+        "weight": 0.505
+      },
+      {
+        "name": "Binary File I/O",
+        "weight": 0.1761
+      },
+      {
+        "name": "Command-Line Arguments",
+        "weight": 0.1748
+      },
+      {
+        "name": "Variadic Functions",
+        "weight": 0.1735
+      },
+      {
+        "name": "Compilation Process",
+        "weight": 0.7019
+      },
+      {
+        "name": "Preprocessing",
+        "weight": 0.4056
+      },
+      {
+        "name": "Compilation",
+        "weight": 0.1697
+      },
+      {
+        "name": "Assembly Generation",
+        "weight": 0.4056
+      },
+      {
+        "name": "Linking",
+        "weight": 0.5567
+      },
+      {
+        "name": "Static Linking",
+        "weight": 0.4848
+      },
+      {
+        "name": "Dynamic Linking",
+        "weight": 0.4081
+      },
+      {
+        "name": "Object Files",
+        "weight": 0.1633
+      },
+      {
+        "name": "Makefiles",
+        "weight": 0.5377
+      },
+      {
+        "name": "CMake",
+        "weight": 0.1608
+      },
+      {
+        "name": "GCC",
+        "weight": 0.4861
+      },
+      {
+        "name": "Clang",
+        "weight": 0.4056
+      },
+      {
+        "name": "TinyCC",
+        "weight": 0.157
+      },
+      {
+        "name": "Cross-Compilation",
+        "weight": 0.507
+      },
+      {
+        "name": "Debugging",
+        "weight": 0.5555
+      },
+      {
+        "name": "GDB Debugger",
+        "weight": 0.5837
+      },
+      {
+        "name": "Valgrind",
+        "weight": 0.4244
+      },
+      {
+        "name": "Memory Profiling",
+        "weight": 0.1506
+      },
+      {
+        "name": "Endianness",
+        "weight": 0.507
+      },
+      {
+        "name": "Structure Padding and Alignment",
+        "weight": 0.507
+      },
+      {
+        "name": "Inline Assembly",
+        "weight": 0.6319
+      },
+      {
+        "name": "System Calls",
+        "weight": 0.5544
+      },
+      {
+        "name": "POSIX APIs",
+        "weight": 0.5544
+      },
+      {
+        "name": "Signal Handling",
+        "weight": 0.4291
+      },
+      {
+        "name": "Multi-threading (pthreads)",
+        "weight": 0.6125
+      },
+      {
+        "name": "Process Management (fork/exec)",
+        "weight": 0.5011
+      },
+      {
+        "name": "Inter-Process Communication",
+        "weight": 0.4799
+      },
+      {
+        "name": "Sockets Programming",
+        "weight": 0.4777
+      },
+      {
+        "name": "Embedded Programming",
+        "weight": 0.1366
+      },
+      {
+        "name": "Microcontroller Programming",
+        "weight": 0.507
+      },
+      {
+        "name": "Bare-Metal Programming",
+        "weight": 0.507
+      },
+      {
+        "name": "Real-Time Operating Systems",
+        "weight": 0.507
+      },
+      {
+        "name": "Interrupt Handling",
+        "weight": 0.5837
+      },
+      {
+        "name": "Device Drivers",
+        "weight": 0.5837
+      },
+      {
+        "name": "Kernel Programming",
+        "weight": 0.4267
+      },
+      {
+        "name": "MISRA C Guidelines",
+        "weight": 0.4618
+      },
+      {
+        "name": "Secure Coding in C",
+        "weight": 0.4168
+      },
+      {
+        "name": "Format String Vulnerabilities",
+        "weight": 0.4168
+      },
+      {
+        "name": "Stack Overflow Exploits",
+        "weight": 0.4168
+      },
+      {
+        "name": "Unit Testing (CUnit/Check)",
+        "weight": 0.3827
+      },
+      {
+        "name": "Version Control with Git",
+        "weight": 0.4333
+      },
+      {
+        "name": "ABI (Application Binary Interface)",
+        "weight": 0.4723
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Operating System Fundamentals",
+        "weight": 0.97
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.94
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.91
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.88
+      },
+      {
+        "name": "Problem Solving",
+        "weight": 0.85
+      },
+      {
+        "name": "Algorithms",
+        "weight": 0.82
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.79
+      },
+      {
+        "name": "Binary and Hexadecimal Number Systems",
+        "weight": 0.76
+      },
+      {
+        "name": "Boolean Logic",
+        "weight": 0.73
+      },
+      {
+        "name": "Variables and Constants",
+        "weight": 0.7
+      },
+      {
+        "name": "Basic Math for Programming",
+        "weight": 0.67
+      },
+      {
+        "name": "ASCII and Character Encoding",
+        "weight": 0.64
+      },
+      {
+        "name": "Computer Architecture Basics",
+        "weight": 0.61
+      },
+      {
+        "name": "CPU and Memory Basics",
+        "weight": 0.58
+      },
+      {
+        "name": "Compilers vs Interpreters",
+        "weight": 0.55
+      },
+      {
+        "name": "File Systems",
+        "weight": 0.52
+      },
+      {
+        "name": "Version Control Concepts",
+        "weight": 0.49
+      },
+      {
+        "name": "Git Basics",
+        "weight": 0.46
+      },
+      {
+        "name": "Debugging Fundamentals",
+        "weight": 0.43
+      },
+      {
+        "name": "Software Development Life Cycle",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_cpp"
+  },
+  {
+    "id": 49,
+    "gid": 100000049,
+    "name": "C++",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Multi-Paradigm Systems and Application Programming Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "Systems and Application Programming"
+    },
+    "aliases": [
+      "C++",
+      "CPP",
+      "Cplusplus",
+      "C Plus Plus",
+      "ISO C++",
+      "Standard C++",
+      "C++98",
+      "C++03",
+      "C++11",
+      "C++14",
+      "C++17",
+      "C++20",
+      "C++23",
+      "C++26",
+      "Modern C++",
+      "C with Classes",
+      "GNU C++",
+      "g++"
+    ],
+    "concepts": [
+      {
+        "name": "Variables and Data Types",
+        "weight": 0.25
+      },
+      {
+        "name": "Control Flow",
+        "weight": 0.2487
+      },
+      {
+        "name": "Functions",
+        "weight": 0.2473
+      },
+      {
+        "name": "Function Overloading",
+        "weight": 0.246
+      },
+      {
+        "name": "Default Arguments",
+        "weight": 0.2446
+      },
+      {
+        "name": "Pointers",
+        "weight": 0.5162
+      },
+      {
+        "name": "References",
+        "weight": 0.5162
+      },
+      {
+        "name": "Arrays",
+        "weight": 0.2406
+      },
+      {
+        "name": "Strings (std::string)",
+        "weight": 0.2393
+      },
+      {
+        "name": "Classes and Objects",
+        "weight": 0.498
+      },
+      {
+        "name": "Constructors",
+        "weight": 0.2366
+      },
+      {
+        "name": "Destructors",
+        "weight": 0.2353
+      },
+      {
+        "name": "Copy Constructor",
+        "weight": 0.2339
+      },
+      {
+        "name": "Move Constructor",
+        "weight": 0.2326
+      },
+      {
+        "name": "Copy Assignment Operator",
+        "weight": 0.2312
+      },
+      {
+        "name": "Move Assignment Operator",
+        "weight": 0.2299
+      },
+      {
+        "name": "Rule of Three",
+        "weight": 0.2286
+      },
+      {
+        "name": "Rule of Five",
+        "weight": 0.2272
+      },
+      {
+        "name": "Rule of Zero",
+        "weight": 0.2259
+      },
+      {
+        "name": "Encapsulation",
+        "weight": 0.2245
+      },
+      {
+        "name": "Inheritance",
+        "weight": 0.498
+      },
+      {
+        "name": "Multiple Inheritance",
+        "weight": 0.2219
+      },
+      {
+        "name": "Virtual Functions",
+        "weight": 0.2205
+      },
+      {
+        "name": "Pure Virtual Functions",
+        "weight": 0.2192
+      },
+      {
+        "name": "Abstract Classes",
+        "weight": 0.2178
+      },
+      {
+        "name": "Polymorphism",
+        "weight": 0.498
+      },
+      {
+        "name": "Operator Overloading",
+        "weight": 0.2152
+      },
+      {
+        "name": "Friend Functions",
+        "weight": 0.2138
+      },
+      {
+        "name": "Static Members",
+        "weight": 0.2125
+      },
+      {
+        "name": "Templates",
+        "weight": 0.8599
+      },
+      {
+        "name": "Function Templates",
+        "weight": 0.2098
+      },
+      {
+        "name": "Class Templates",
+        "weight": 0.2085
+      },
+      {
+        "name": "Template Specialization",
+        "weight": 0.2071
+      },
+      {
+        "name": "Variadic Templates",
+        "weight": 0.2058
+      },
+      {
+        "name": "Template Metaprogramming",
+        "weight": 0.4142
+      },
+      {
+        "name": "Generic Programming",
+        "weight": 0.2031
+      },
+      {
+        "name": "STL (Standard Template Library)",
+        "weight": 0.8059
+      },
+      {
+        "name": "Containers",
+        "weight": 0.2004
+      },
+      {
+        "name": "std::vector",
+        "weight": 0.1991
+      },
+      {
+        "name": "std::map",
+        "weight": 0.1977
+      },
+      {
+        "name": "std::unordered_map",
+        "weight": 0.1964
+      },
+      {
+        "name": "std::set",
+        "weight": 0.1951
+      },
+      {
+        "name": "std::list",
+        "weight": 0.1937
+      },
+      {
+        "name": "std::deque",
+        "weight": 0.1924
+      },
+      {
+        "name": "std::stack",
+        "weight": 0.191
+      },
+      {
+        "name": "std::queue",
+        "weight": 0.1897
+      },
+      {
+        "name": "Iterators",
+        "weight": 0.1884
+      },
+      {
+        "name": "STL Algorithms",
+        "weight": 0.187
+      },
+      {
+        "name": "Lambda Expressions",
+        "weight": 0.4391
+      },
+      {
+        "name": "std::function",
+        "weight": 0.1843
+      },
+      {
+        "name": "Smart Pointers",
+        "weight": 0.5832
+      },
+      {
+        "name": "std::unique_ptr",
+        "weight": 0.1816
+      },
+      {
+        "name": "std::shared_ptr",
+        "weight": 0.1803
+      },
+      {
+        "name": "std::weak_ptr",
+        "weight": 0.179
+      },
+      {
+        "name": "RAII (Resource Acquisition Is Initialization)",
+        "weight": 0.7482
+      },
+      {
+        "name": "Exception Handling",
+        "weight": 0.498
+      },
+      {
+        "name": "try-catch-throw",
+        "weight": 0.1749
+      },
+      {
+        "name": "Custom Exceptions",
+        "weight": 0.1736
+      },
+      {
+        "name": "Memory Management",
+        "weight": 1.0
+      },
+      {
+        "name": "new and delete",
+        "weight": 0.1709
+      },
+      {
+        "name": "Placement New",
+        "weight": 0.1696
+      },
+      {
+        "name": "Move Semantics",
+        "weight": 0.5992
+      },
+      {
+        "name": "Rvalue References",
+        "weight": 0.1669
+      },
+      {
+        "name": "Perfect Forwarding",
+        "weight": 0.1656
+      },
+      {
+        "name": "Namespaces",
+        "weight": 0.1642
+      },
+      {
+        "name": "Header Files",
+        "weight": 0.1629
+      },
+      {
+        "name": "Preprocessor Directives",
+        "weight": 0.1615
+      },
+      {
+        "name": "Compilation Model",
+        "weight": 0.5694
+      },
+      {
+        "name": "Linking",
+        "weight": 0.4312
+      },
+      {
+        "name": "Static Linking",
+        "weight": 0.1575
+      },
+      {
+        "name": "Dynamic Linking",
+        "weight": 0.1562
+      },
+      {
+        "name": "Multi-threading",
+        "weight": 0.7391
+      },
+      {
+        "name": "std::thread",
+        "weight": 0.4312
+      },
+      {
+        "name": "Mutexes and Locks",
+        "weight": 0.4312
+      },
+      {
+        "name": "Condition Variables",
+        "weight": 0.1508
+      },
+      {
+        "name": "Atomics",
+        "weight": 0.4289
+      },
+      {
+        "name": "Concurrency",
+        "weight": 0.1481
+      },
+      {
+        "name": "constexpr",
+        "weight": 0.509
+      },
+      {
+        "name": "consteval",
+        "weight": 0.1455
+      },
+      {
+        "name": "Type Deduction (auto)",
+        "weight": 0.4142
+      },
+      {
+        "name": "decltype",
+        "weight": 0.1428
+      },
+      {
+        "name": "Structured Bindings",
+        "weight": 0.1414
+      },
+      {
+        "name": "Concepts (C++20)",
+        "weight": 0.4142
+      },
+      {
+        "name": "Ranges (C++20)",
+        "weight": 0.1388
+      },
+      {
+        "name": "Coroutines (C++20)",
+        "weight": 0.1374
+      },
+      {
+        "name": "Modules (C++20)",
+        "weight": 0.1361
+      },
+      {
+        "name": "SFINAE",
+        "weight": 0.4142
+      },
+      {
+        "name": "Undefined Behavior",
+        "weight": 0.4954
+      },
+      {
+        "name": "Const Correctness",
+        "weight": 0.5052
+      },
+      {
+        "name": "Casting (static_cast, dynamic_cast, etc.)",
+        "weight": 0.1307
+      },
+      {
+        "name": "CMake",
+        "weight": 0.478
+      },
+      {
+        "name": "GCC/Clang/MSVC",
+        "weight": 0.128
+      },
+      {
+        "name": "Debugging (GDB/LLDB)",
+        "weight": 0.498
+      },
+      {
+        "name": "Unit Testing (Google Test, Catch2)",
+        "weight": 0.4477
+      },
+      {
+        "name": "Design Patterns",
+        "weight": 0.4738
+      },
+      {
+        "name": "Boost Library",
+        "weight": 0.1227
+      },
+      {
+        "name": "ABI Compatibility",
+        "weight": 0.4142
+      },
+      {
+        "name": "Compiler Optimization",
+        "weight": 0.589
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "C Programming Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.9625
+      },
+      {
+        "name": "Problem Solving",
+        "weight": 0.925
+      },
+      {
+        "name": "Algorithms",
+        "weight": 0.8875
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.85
+      },
+      {
+        "name": "Object-Oriented Programming Concepts",
+        "weight": 0.8125
+      },
+      {
+        "name": "Pointers and Memory Concepts",
+        "weight": 0.775
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.7375
+      },
+      {
+        "name": "Compilers vs Interpreters",
+        "weight": 0.7
+      },
+      {
+        "name": "Computer Architecture Basics",
+        "weight": 0.6625
+      },
+      {
+        "name": "Binary and Hexadecimal Number Systems",
+        "weight": 0.625
+      },
+      {
+        "name": "Version Control with Git",
+        "weight": 0.5875
+      },
+      {
+        "name": "Debugging Fundamentals",
+        "weight": 0.55
+      },
+      {
+        "name": "Build Systems",
+        "weight": 0.5125
+      },
+      {
+        "name": "Makefiles",
+        "weight": 0.475
+      },
+      {
+        "name": "Software Development Life Cycle",
+        "weight": 0.4375
+      },
+      {
+        "name": "Basic Math for Programming",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_cpp"
+  },
+  {
+    "id": 50,
+    "gid": 100000050,
+    "name": "C#",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Managed Object-Oriented Programming Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": ".NET Application Development"
+    },
+    "aliases": [
+      "C#",
+      "C Sharp",
+      "CSharp",
+      "C-Sharp",
+      "C# .NET",
+      "Microsoft C#",
+      "C# Language",
+      "C# 6",
+      "C# 7",
+      "C# 8",
+      "C# 9",
+      "C# 10",
+      "C# 11",
+      "C# 12",
+      "C# 13"
+    ],
+    "concepts": [
+      {
+        "name": "Variables and Data Types",
+        "weight": 0.25
+      },
+      {
+        "name": "Control Flow",
+        "weight": 0.2484
+      },
+      {
+        "name": "Methods",
+        "weight": 0.2468
+      },
+      {
+        "name": "Classes and Objects",
+        "weight": 0.7703
+      },
+      {
+        "name": "Constructors",
+        "weight": 0.2436
+      },
+      {
+        "name": "Properties",
+        "weight": 0.242
+      },
+      {
+        "name": "Fields",
+        "weight": 0.2404
+      },
+      {
+        "name": "Access Modifiers",
+        "weight": 0.2388
+      },
+      {
+        "name": "Inheritance",
+        "weight": 0.2372
+      },
+      {
+        "name": "Interfaces",
+        "weight": 0.5786
+      },
+      {
+        "name": "Abstract Classes",
+        "weight": 0.234
+      },
+      {
+        "name": "Polymorphism",
+        "weight": 0.2323
+      },
+      {
+        "name": "Encapsulation",
+        "weight": 0.2307
+      },
+      {
+        "name": "Static Members",
+        "weight": 0.2291
+      },
+      {
+        "name": "Sealed Classes",
+        "weight": 0.2275
+      },
+      {
+        "name": "Partial Classes",
+        "weight": 0.2259
+      },
+      {
+        "name": "Structs",
+        "weight": 0.4697
+      },
+      {
+        "name": "Enums",
+        "weight": 0.2227
+      },
+      {
+        "name": "Delegates",
+        "weight": 0.578
+      },
+      {
+        "name": "Events",
+        "weight": 0.578
+      },
+      {
+        "name": "Lambda Expressions",
+        "weight": 0.2179
+      },
+      {
+        "name": "Anonymous Methods",
+        "weight": 0.2163
+      },
+      {
+        "name": "LINQ (Language Integrated Query)",
+        "weight": 0.803
+      },
+      {
+        "name": "Extension Methods",
+        "weight": 0.2131
+      },
+      {
+        "name": "Generics",
+        "weight": 0.6081
+      },
+      {
+        "name": "Nullable Types",
+        "weight": 0.2099
+      },
+      {
+        "name": "Nullable Reference Types",
+        "weight": 0.2083
+      },
+      {
+        "name": "Exception Handling",
+        "weight": 0.5786
+      },
+      {
+        "name": "try-catch-finally",
+        "weight": 0.2051
+      },
+      {
+        "name": "Custom Exceptions",
+        "weight": 0.2035
+      },
+      {
+        "name": "Garbage Collection",
+        "weight": 0.4697
+      },
+      {
+        "name": "Memory Management (Managed)",
+        "weight": 0.4697
+      },
+      {
+        "name": "Boxing and Unboxing",
+        "weight": 0.1986
+      },
+      {
+        "name": "Value Types vs Reference Types",
+        "weight": 0.197
+      },
+      {
+        "name": "Async/Await",
+        "weight": 1.0
+      },
+      {
+        "name": "Task Parallel Library (TPL)",
+        "weight": 0.1938
+      },
+      {
+        "name": "Threading",
+        "weight": 0.4583
+      },
+      {
+        "name": "Concurrent Collections",
+        "weight": 0.1906
+      },
+      {
+        "name": "Attributes and Reflection",
+        "weight": 0.189
+      },
+      {
+        "name": "Namespaces",
+        "weight": 0.1874
+      },
+      {
+        "name": "Assemblies",
+        "weight": 0.1858
+      },
+      {
+        "name": "CLR (Common Language Runtime)",
+        "weight": 0.1842
+      },
+      {
+        "name": ".NET Standard Library",
+        "weight": 0.1826
+      },
+      {
+        "name": ".NET Core",
+        "weight": 0.4884
+      },
+      {
+        "name": ".NET Framework",
+        "weight": 0.1794
+      },
+      {
+        "name": ".NET 5+",
+        "weight": 0.1778
+      },
+      {
+        "name": "ASP.NET Core",
+        "weight": 0.9087
+      },
+      {
+        "name": "MVC Pattern",
+        "weight": 0.1746
+      },
+      {
+        "name": "Web API Development",
+        "weight": 0.5744
+      },
+      {
+        "name": "Entity Framework Core",
+        "weight": 0.8144
+      },
+      {
+        "name": "LINQ to SQL",
+        "weight": 0.1698
+      },
+      {
+        "name": "Dependency Injection",
+        "weight": 0.9637
+      },
+      {
+        "name": "Middleware",
+        "weight": 0.4783
+      },
+      {
+        "name": "Razor Pages",
+        "weight": 0.4461
+      },
+      {
+        "name": "Blazor",
+        "weight": 0.4461
+      },
+      {
+        "name": "WPF (Windows Presentation Foundation)",
+        "weight": 0.4583
+      },
+      {
+        "name": "WinForms",
+        "weight": 0.4583
+      },
+      {
+        "name": "Xamarin",
+        "weight": 0.4474
+      },
+      {
+        "name": ".NET MAUI",
+        "weight": 0.4474
+      },
+      {
+        "name": "Unit Testing (xUnit, NUnit, MSTest)",
+        "weight": 0.838
+      },
+      {
+        "name": "Mocking (Moq)",
+        "weight": 0.4219
+      },
+      {
+        "name": "Design Patterns",
+        "weight": 0.6305
+      },
+      {
+        "name": "SOLID Principles",
+        "weight": 0.601
+      },
+      {
+        "name": "Dependency Injection Containers",
+        "weight": 0.4516
+      },
+      {
+        "name": "NuGet Package Manager",
+        "weight": 0.1473
+      },
+      {
+        "name": "IDisposable and using Statement",
+        "weight": 0.1457
+      },
+      {
+        "name": "String Interpolation",
+        "weight": 0.1441
+      },
+      {
+        "name": "Pattern Matching",
+        "weight": 0.1425
+      },
+      {
+        "name": "Records",
+        "weight": 0.1409
+      },
+      {
+        "name": "Tuples",
+        "weight": 0.1393
+      },
+      {
+        "name": "Span<T> and Memory<T>",
+        "weight": 0.1377
+      },
+      {
+        "name": "Unsafe Code",
+        "weight": 0.136
+      },
+      {
+        "name": "Visual Studio",
+        "weight": 0.1344
+      },
+      {
+        "name": "Visual Studio Code",
+        "weight": 0.1328
+      },
+      {
+        "name": "Debugging (Visual Studio Debugger)",
+        "weight": 0.1312
+      },
+      {
+        "name": "Serialization (JSON/XML)",
+        "weight": 0.1296
+      },
+      {
+        "name": "Reflection",
+        "weight": 0.128
+      },
+      {
+        "name": "Multi-threading",
+        "weight": 0.1264
+      },
+      {
+        "name": "gRPC",
+        "weight": 0.4516
+      },
+      {
+        "name": "SignalR",
+        "weight": 0.4443
+      },
+      {
+        "name": "Microservices with .NET",
+        "weight": 0.7333
+      },
+      {
+        "name": "Docker for .NET Applications",
+        "weight": 0.4443
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Programming Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Object-Oriented Programming Concepts",
+        "weight": 0.9571
+      },
+      {
+        "name": "Problem Solving",
+        "weight": 0.9143
+      },
+      {
+        "name": "Algorithms",
+        "weight": 0.8714
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.8286
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.7857
+      },
+      {
+        "name": "Basic Math for Programming",
+        "weight": 0.7429
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7
+      },
+      {
+        "name": "HTTP and REST APIs Basics",
+        "weight": 0.6571
+      },
+      {
+        "name": "SQL Basics",
+        "weight": 0.6143
+      },
+      {
+        "name": "Version Control with Git",
+        "weight": 0.5714
+      },
+      {
+        "name": "Debugging Fundamentals",
+        "weight": 0.5286
+      },
+      {
+        "name": "Software Development Life Cycle",
+        "weight": 0.4857
+      },
+      {
+        "name": "IDE Usage (Visual Studio)",
+        "weight": 0.4429
+      },
+      {
+        "name": "Package Managers (NuGet)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_cpp"
+  },
+  {
+    "id": 51,
+    "gid": 100000051,
+    "name": "Java",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Object-Oriented Managed Programming Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "Enterprise and Backend Development"
+    },
+    "aliases": [
+      "Java",
+      "Java Programming Language",
+      "Java SE",
+      "Java EE",
+      "Jakarta EE",
+      "OpenJDK",
+      "Oracle Java",
+      "Java 8",
+      "Java 11",
+      "Java 17",
+      "Java 21",
+      "Core Java",
+      "Advanced Java",
+      "J2SE",
+      "J2EE"
+    ],
+    "concepts": [
+      {
+        "name": "Variables and Data Types",
+        "weight": 0.25
+      },
+      {
+        "name": "Control Flow",
+        "weight": 0.2486
+      },
+      {
+        "name": "Methods",
+        "weight": 0.2471
+      },
+      {
+        "name": "Classes and Objects",
+        "weight": 0.7565
+      },
+      {
+        "name": "Constructors",
+        "weight": 0.2442
+      },
+      {
+        "name": "Access Modifiers",
+        "weight": 0.2428
+      },
+      {
+        "name": "Inheritance",
+        "weight": 0.2413
+      },
+      {
+        "name": "Interfaces",
+        "weight": 0.7565
+      },
+      {
+        "name": "Abstract Classes",
+        "weight": 0.2384
+      },
+      {
+        "name": "Polymorphism",
+        "weight": 0.237
+      },
+      {
+        "name": "Encapsulation",
+        "weight": 0.2356
+      },
+      {
+        "name": "Static Members",
+        "weight": 0.2341
+      },
+      {
+        "name": "Final Keyword",
+        "weight": 0.2327
+      },
+      {
+        "name": "Packages",
+        "weight": 0.2312
+      },
+      {
+        "name": "Exception Handling",
+        "weight": 0.7565
+      },
+      {
+        "name": "try-catch-finally",
+        "weight": 0.2283
+      },
+      {
+        "name": "Checked vs Unchecked Exceptions",
+        "weight": 0.2269
+      },
+      {
+        "name": "Custom Exceptions",
+        "weight": 0.2254
+      },
+      {
+        "name": "Collections Framework",
+        "weight": 0.8529
+      },
+      {
+        "name": "List, Set, Map Interfaces",
+        "weight": 0.2226
+      },
+      {
+        "name": "ArrayList",
+        "weight": 0.2211
+      },
+      {
+        "name": "LinkedList",
+        "weight": 0.2197
+      },
+      {
+        "name": "HashMap",
+        "weight": 0.2182
+      },
+      {
+        "name": "TreeMap",
+        "weight": 0.2168
+      },
+      {
+        "name": "HashSet",
+        "weight": 0.2153
+      },
+      {
+        "name": "TreeSet",
+        "weight": 0.2139
+      },
+      {
+        "name": "Iterators",
+        "weight": 0.2124
+      },
+      {
+        "name": "Generics",
+        "weight": 0.6545
+      },
+      {
+        "name": "Wrapper Classes",
+        "weight": 0.2096
+      },
+      {
+        "name": "Autoboxing and Unboxing",
+        "weight": 0.2081
+      },
+      {
+        "name": "String Pool",
+        "weight": 0.2067
+      },
+      {
+        "name": "StringBuilder",
+        "weight": 0.2052
+      },
+      {
+        "name": "StringBuffer",
+        "weight": 0.2038
+      },
+      {
+        "name": "Multi-threading",
+        "weight": 0.9698
+      },
+      {
+        "name": "Thread Class",
+        "weight": 0.2009
+      },
+      {
+        "name": "Runnable Interface",
+        "weight": 0.1994
+      },
+      {
+        "name": "Synchronization",
+        "weight": 0.198
+      },
+      {
+        "name": "Concurrency Utilities (java.util.concurrent)",
+        "weight": 0.4631
+      },
+      {
+        "name": "ExecutorService",
+        "weight": 0.1951
+      },
+      {
+        "name": "Lambda Expressions",
+        "weight": 0.6312
+      },
+      {
+        "name": "Functional Interfaces",
+        "weight": 0.1922
+      },
+      {
+        "name": "Stream API",
+        "weight": 0.6423
+      },
+      {
+        "name": "Optional",
+        "weight": 0.1893
+      },
+      {
+        "name": "Method References",
+        "weight": 0.1879
+      },
+      {
+        "name": "Annotations",
+        "weight": 0.1864
+      },
+      {
+        "name": "Reflection",
+        "weight": 0.185
+      },
+      {
+        "name": "JVM (Java Virtual Machine)",
+        "weight": 0.5612
+      },
+      {
+        "name": "Garbage Collection",
+        "weight": 0.4792
+      },
+      {
+        "name": "JIT Compilation",
+        "weight": 0.4792
+      },
+      {
+        "name": "Bytecode",
+        "weight": 0.4792
+      },
+      {
+        "name": "Class Loaders",
+        "weight": 0.4792
+      },
+      {
+        "name": "Memory Management (Heap/Stack)",
+        "weight": 0.4792
+      },
+      {
+        "name": "JDK vs JRE vs JVM",
+        "weight": 0.1749
+      },
+      {
+        "name": "Maven",
+        "weight": 0.6112
+      },
+      {
+        "name": "Gradle",
+        "weight": 0.6112
+      },
+      {
+        "name": "Spring Framework",
+        "weight": 0.6717
+      },
+      {
+        "name": "Spring Boot",
+        "weight": 0.5991
+      },
+      {
+        "name": "Spring MVC",
+        "weight": 0.5209
+      },
+      {
+        "name": "Spring Data JPA",
+        "weight": 0.5209
+      },
+      {
+        "name": "Spring Security",
+        "weight": 0.5209
+      },
+      {
+        "name": "Dependency Injection",
+        "weight": 0.6634
+      },
+      {
+        "name": "Inversion of Control",
+        "weight": 0.4925
+      },
+      {
+        "name": "Hibernate ORM",
+        "weight": 0.5209
+      },
+      {
+        "name": "JPA (Java Persistence API)",
+        "weight": 0.159
+      },
+      {
+        "name": "JDBC",
+        "weight": 0.5209
+      },
+      {
+        "name": "RESTful Web Services",
+        "weight": 0.5209
+      },
+      {
+        "name": "SOAP Web Services",
+        "weight": 0.1547
+      },
+      {
+        "name": "Microservices Architecture",
+        "weight": 0.7416
+      },
+      {
+        "name": "Unit Testing (JUnit, TestNG)",
+        "weight": 1.0
+      },
+      {
+        "name": "Mockito",
+        "weight": 0.6172
+      },
+      {
+        "name": "Design Patterns",
+        "weight": 0.6961
+      },
+      {
+        "name": "SOLID Principles",
+        "weight": 0.5707
+      },
+      {
+        "name": "Serialization",
+        "weight": 0.146
+      },
+      {
+        "name": "I/O Streams",
+        "weight": 0.4631
+      },
+      {
+        "name": "NIO (New I/O)",
+        "weight": 0.4631
+      },
+      {
+        "name": "Records (Java 16+)",
+        "weight": 0.1417
+      },
+      {
+        "name": "Sealed Classes",
+        "weight": 0.1402
+      },
+      {
+        "name": "Pattern Matching",
+        "weight": 0.1388
+      },
+      {
+        "name": "Modules (Java 9+)",
+        "weight": 0.1373
+      },
+      {
+        "name": "Enums",
+        "weight": 0.1359
+      },
+      {
+        "name": "Varargs",
+        "weight": 0.1344
+      },
+      {
+        "name": "Try-with-resources",
+        "weight": 0.133
+      },
+      {
+        "name": "Immutability",
+        "weight": 0.1316
+      },
+      {
+        "name": "Builder Pattern",
+        "weight": 0.1301
+      },
+      {
+        "name": "Singleton Pattern",
+        "weight": 0.1287
+      },
+      {
+        "name": "Servlets",
+        "weight": 0.1272
+      },
+      {
+        "name": "JSP (JavaServer Pages)",
+        "weight": 0.1258
+      },
+      {
+        "name": "Application Servers (Tomcat, WildFly)",
+        "weight": 0.432
+      },
+      {
+        "name": "Kafka Integration",
+        "weight": 0.6056
+      },
+      {
+        "name": "Message Queues (JMS)",
+        "weight": 0.4925
+      },
+      {
+        "name": "Docker for Java Applications",
+        "weight": 0.432
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Programming Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Object-Oriented Programming Concepts",
+        "weight": 0.96
+      },
+      {
+        "name": "Problem Solving",
+        "weight": 0.92
+      },
+      {
+        "name": "Algorithms",
+        "weight": 0.88
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.84
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.8
+      },
+      {
+        "name": "Basic Math for Programming",
+        "weight": 0.76
+      },
+      {
+        "name": "JSON",
+        "weight": 0.72
+      },
+      {
+        "name": "XML Basics",
+        "weight": 0.68
+      },
+      {
+        "name": "HTTP and REST APIs Basics",
+        "weight": 0.64
+      },
+      {
+        "name": "SQL Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Version Control with Git",
+        "weight": 0.56
+      },
+      {
+        "name": "Debugging Fundamentals",
+        "weight": 0.52
+      },
+      {
+        "name": "Software Development Life Cycle",
+        "weight": 0.48
+      },
+      {
+        "name": "Build Tools (Maven/Gradle)",
+        "weight": 0.44
+      },
+      {
+        "name": "IDE Usage (IntelliJ IDEA/Eclipse)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_java"
+  },
+  {
+    "id": 52,
+    "gid": 100000052,
+    "name": "JavaScript",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Dynamic Scripting Language for the Web",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "Web Development"
+    },
+    "aliases": [
+      "JavaScript",
+      "JS",
+      "ECMAScript",
+      "ES5",
+      "ES6",
+      "ES2015",
+      "ES2020",
+      "ES2021",
+      "ES2022",
+      "ES2023",
+      "Vanilla JS",
+      "Node.js Language",
+      "Netscape JavaScript",
+      "LiveScript"
+    ],
+    "concepts": [
+      {
+        "name": "Variables (var, let, const)",
+        "weight": 0.25
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.2477
+      },
+      {
+        "name": "Functions",
+        "weight": 0.4314
+      },
+      {
+        "name": "Arrow Functions",
+        "weight": 0.243
+      },
+      {
+        "name": "Closures",
+        "weight": 0.7311
+      },
+      {
+        "name": "Hoisting",
+        "weight": 0.2384
+      },
+      {
+        "name": "this Keyword",
+        "weight": 0.464
+      },
+      {
+        "name": "Prototypes",
+        "weight": 0.464
+      },
+      {
+        "name": "Prototypal Inheritance",
+        "weight": 0.2314
+      },
+      {
+        "name": "Classes (ES6)",
+        "weight": 0.5454
+      },
+      {
+        "name": "Objects",
+        "weight": 0.2268
+      },
+      {
+        "name": "Arrays",
+        "weight": 0.2245
+      },
+      {
+        "name": "Array Methods (map, filter, reduce)",
+        "weight": 0.7311
+      },
+      {
+        "name": "Destructuring",
+        "weight": 0.464
+      },
+      {
+        "name": "Spread and Rest Operators",
+        "weight": 0.2175
+      },
+      {
+        "name": "Template Literals",
+        "weight": 0.2152
+      },
+      {
+        "name": "Promises",
+        "weight": 0.8591
+      },
+      {
+        "name": "Async/Await",
+        "weight": 1.0
+      },
+      {
+        "name": "Event Loop",
+        "weight": 0.6735
+      },
+      {
+        "name": "Call Stack",
+        "weight": 0.2059
+      },
+      {
+        "name": "Callback Queue",
+        "weight": 0.2036
+      },
+      {
+        "name": "Microtasks and Macrotasks",
+        "weight": 0.2012
+      },
+      {
+        "name": "DOM Manipulation",
+        "weight": 0.6287
+      },
+      {
+        "name": "Event Handling",
+        "weight": 0.5692
+      },
+      {
+        "name": "Event Bubbling and Capturing",
+        "weight": 0.1943
+      },
+      {
+        "name": "Fetch API",
+        "weight": 0.6773
+      },
+      {
+        "name": "XMLHttpRequest",
+        "weight": 0.1896
+      },
+      {
+        "name": "JSON",
+        "weight": 0.564
+      },
+      {
+        "name": "ES Modules",
+        "weight": 0.6438
+      },
+      {
+        "name": "CommonJS Modules",
+        "weight": 0.4514
+      },
+      {
+        "name": "Node.js",
+        "weight": 0.5595
+      },
+      {
+        "name": "npm",
+        "weight": 0.5595
+      },
+      {
+        "name": "Package Managers",
+        "weight": 0.1757
+      },
+      {
+        "name": "Webpack",
+        "weight": 0.4633
+      },
+      {
+        "name": "Babel",
+        "weight": 0.1711
+      },
+      {
+        "name": "ESLint",
+        "weight": 0.1688
+      },
+      {
+        "name": "Prettier",
+        "weight": 0.1664
+      },
+      {
+        "name": "Error Handling (try-catch)",
+        "weight": 0.7003
+      },
+      {
+        "name": "Generators and Iterators",
+        "weight": 0.464
+      },
+      {
+        "name": "Symbols",
+        "weight": 0.1595
+      },
+      {
+        "name": "Map and Set",
+        "weight": 0.1571
+      },
+      {
+        "name": "WeakMap and WeakSet",
+        "weight": 0.1548
+      },
+      {
+        "name": "Regular Expressions",
+        "weight": 0.1525
+      },
+      {
+        "name": "Strict Mode",
+        "weight": 0.1502
+      },
+      {
+        "name": "Immediately Invoked Function Expressions (IIFE)",
+        "weight": 0.1479
+      },
+      {
+        "name": "Currying",
+        "weight": 0.1455
+      },
+      {
+        "name": "Debouncing and Throttling",
+        "weight": 0.1432
+      },
+      {
+        "name": "Web APIs",
+        "weight": 0.1409
+      },
+      {
+        "name": "LocalStorage/SessionStorage",
+        "weight": 0.4559
+      },
+      {
+        "name": "Cookies",
+        "weight": 0.4559
+      },
+      {
+        "name": "AJAX",
+        "weight": 0.1339
+      },
+      {
+        "name": "Service Workers",
+        "weight": 0.1316
+      },
+      {
+        "name": "WebSockets",
+        "weight": 0.1293
+      },
+      {
+        "name": "Testing (Jest, Mocha)",
+        "weight": 0.5228
+      },
+      {
+        "name": "TypeScript Interop",
+        "weight": 0.1246
+      },
+      {
+        "name": "Functional Programming Concepts",
+        "weight": 0.1223
+      },
+      {
+        "name": "Higher-Order Functions",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "HTML",
+        "weight": 1.0
+      },
+      {
+        "name": "CSS",
+        "weight": 0.9455
+      },
+      {
+        "name": "Computer Basics",
+        "weight": 0.8909
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.8364
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.7818
+      },
+      {
+        "name": "Problem Solving",
+        "weight": 0.7273
+      },
+      {
+        "name": "DOM Basics",
+        "weight": 0.6727
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.6182
+      },
+      {
+        "name": "Browser DevTools",
+        "weight": 0.5636
+      },
+      {
+        "name": "Version Control with Git",
+        "weight": 0.5091
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.4545
+      },
+      {
+        "name": "JSON",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_javascript"
+  },
+  {
+    "id": 53,
+    "gid": 100000053,
+    "name": "TypeScript",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Statically Typed Superset of JavaScript",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "Web Development"
+    },
+    "aliases": [
+      "TypeScript",
+      "TS",
+      "Microsoft TypeScript",
+      "TypeScript Language",
+      "tsc"
+    ],
+    "concepts": [
+      {
+        "name": "Static Typing",
+        "weight": 0.25
+      },
+      {
+        "name": "Type Annotations",
+        "weight": 0.8981
+      },
+      {
+        "name": "Interfaces",
+        "weight": 1.0
+      },
+      {
+        "name": "Type Aliases",
+        "weight": 0.2389
+      },
+      {
+        "name": "Generics",
+        "weight": 1.0
+      },
+      {
+        "name": "Union Types",
+        "weight": 0.5947
+      },
+      {
+        "name": "Intersection Types",
+        "weight": 0.4748
+      },
+      {
+        "name": "Enums",
+        "weight": 0.224
+      },
+      {
+        "name": "Tuples",
+        "weight": 0.2203
+      },
+      {
+        "name": "Type Inference",
+        "weight": 0.5547
+      },
+      {
+        "name": "Type Guards",
+        "weight": 0.4748
+      },
+      {
+        "name": "Narrowing",
+        "weight": 0.2091
+      },
+      {
+        "name": "Utility Types (Partial, Pick, Omit)",
+        "weight": 0.6966
+      },
+      {
+        "name": "Mapped Types",
+        "weight": 0.4748
+      },
+      {
+        "name": "Conditional Types",
+        "weight": 0.4748
+      },
+      {
+        "name": "Decorators",
+        "weight": 0.4555
+      },
+      {
+        "name": "Modules",
+        "weight": 0.5686
+      },
+      {
+        "name": "Namespaces",
+        "weight": 0.1869
+      },
+      {
+        "name": "Classes",
+        "weight": 0.548
+      },
+      {
+        "name": "Access Modifiers",
+        "weight": 0.1794
+      },
+      {
+        "name": "Abstract Classes",
+        "weight": 0.1757
+      },
+      {
+        "name": "tsconfig.json",
+        "weight": 0.6885
+      },
+      {
+        "name": "Compilation to JavaScript",
+        "weight": 0.4631
+      },
+      {
+        "name": "Strict Mode",
+        "weight": 0.1646
+      },
+      {
+        "name": "Null and Undefined Handling",
+        "weight": 0.1609
+      },
+      {
+        "name": "Optional Chaining",
+        "weight": 0.4699
+      },
+      {
+        "name": "Nullish Coalescing",
+        "weight": 0.1534
+      },
+      {
+        "name": "Ambient Declarations (.d.ts files)",
+        "weight": 0.4519
+      },
+      {
+        "name": "Declaration Merging",
+        "weight": 0.4519
+      },
+      {
+        "name": "Generics Constraints",
+        "weight": 0.1423
+      },
+      {
+        "name": "keyof Operator",
+        "weight": 0.1386
+      },
+      {
+        "name": "typeof Operator",
+        "weight": 0.1349
+      },
+      {
+        "name": "Discriminated Unions",
+        "weight": 0.4748
+      },
+      {
+        "name": "Type Assertions",
+        "weight": 0.1274
+      },
+      {
+        "name": "Structural Typing",
+        "weight": 0.4519
+      },
+      {
+        "name": "Function Overloads",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JavaScript",
+        "weight": 1.0
+      },
+      {
+        "name": "ES6",
+        "weight": 0.9143
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.8286
+      },
+      {
+        "name": "Object-Oriented Programming Concepts",
+        "weight": 0.7429
+      },
+      {
+        "name": "npm",
+        "weight": 0.6571
+      },
+      {
+        "name": "Node.js",
+        "weight": 0.5714
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.4857
+      },
+      {
+        "name": "JSON",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_typescript"
+  },
+  {
+    "id": 54,
+    "gid": 100000054,
+    "name": "Python",
+    "entity_type": "Programming Language",
+    "entity_subtype": "General-Purpose High-Level Interpreted Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "General Purpose / Data Science / Backend"
+    },
+    "aliases": [
+      "Python",
+      "Python3",
+      "Py",
+      "CPython Language",
+      "Python Programming Language",
+      "Python 2",
+      "Python 3"
+    ],
+    "concepts": [
+      {
+        "name": "Variables and Data Types",
+        "weight": 0.25
+      },
+      {
+        "name": "Control Flow",
+        "weight": 0.2475
+      },
+      {
+        "name": "Functions",
+        "weight": 0.7378
+      },
+      {
+        "name": "Lambda Functions",
+        "weight": 0.2424
+      },
+      {
+        "name": "List Comprehensions",
+        "weight": 0.6689
+      },
+      {
+        "name": "Dictionary Comprehensions",
+        "weight": 0.2373
+      },
+      {
+        "name": "Generators",
+        "weight": 0.2347
+      },
+      {
+        "name": "Iterators",
+        "weight": 0.2322
+      },
+      {
+        "name": "Decorators",
+        "weight": 0.5131
+      },
+      {
+        "name": "Classes and Objects",
+        "weight": 0.6346
+      },
+      {
+        "name": "Inheritance",
+        "weight": 0.2245
+      },
+      {
+        "name": "Multiple Inheritance",
+        "weight": 0.222
+      },
+      {
+        "name": "Magic/Dunder Methods",
+        "weight": 0.2194
+      },
+      {
+        "name": "Modules and Packages",
+        "weight": 0.8654
+      },
+      {
+        "name": "pip",
+        "weight": 0.5131
+      },
+      {
+        "name": "Virtual Environments (venv)",
+        "weight": 0.5131
+      },
+      {
+        "name": "Exception Handling",
+        "weight": 1.0
+      },
+      {
+        "name": "Context Managers (with statement)",
+        "weight": 0.2067
+      },
+      {
+        "name": "File I/O",
+        "weight": 0.5808
+      },
+      {
+        "name": "String Formatting (f-strings)",
+        "weight": 0.2016
+      },
+      {
+        "name": "Type Hints",
+        "weight": 0.6346
+      },
+      {
+        "name": "Duck Typing",
+        "weight": 0.1965
+      },
+      {
+        "name": "*args and **kwargs",
+        "weight": 0.1939
+      },
+      {
+        "name": "Mutable vs Immutable Types",
+        "weight": 0.1914
+      },
+      {
+        "name": "Global Interpreter Lock (GIL)",
+        "weight": 0.1888
+      },
+      {
+        "name": "Multi-threading",
+        "weight": 0.1863
+      },
+      {
+        "name": "Multi-processing",
+        "weight": 0.6422
+      },
+      {
+        "name": "Asyncio",
+        "weight": 0.7915
+      },
+      {
+        "name": "Async/Await",
+        "weight": 0.4993
+      },
+      {
+        "name": "Data Structures (list, tuple, dict, set)",
+        "weight": 0.5058
+      },
+      {
+        "name": "Standard Library",
+        "weight": 0.1735
+      },
+      {
+        "name": "NumPy",
+        "weight": 0.7979
+      },
+      {
+        "name": "Pandas",
+        "weight": 0.7979
+      },
+      {
+        "name": "Matplotlib",
+        "weight": 0.5058
+      },
+      {
+        "name": "Scikit-learn",
+        "weight": 0.6635
+      },
+      {
+        "name": "TensorFlow",
+        "weight": 0.5078
+      },
+      {
+        "name": "PyTorch",
+        "weight": 0.5078
+      },
+      {
+        "name": "Django",
+        "weight": 0.4993
+      },
+      {
+        "name": "Flask",
+        "weight": 0.4993
+      },
+      {
+        "name": "FastAPI",
+        "weight": 0.4993
+      },
+      {
+        "name": "SQLAlchemy",
+        "weight": 0.6337
+      },
+      {
+        "name": "pytest",
+        "weight": 0.8871
+      },
+      {
+        "name": "unittest",
+        "weight": 0.4532
+      },
+      {
+        "name": "Regular Expressions",
+        "weight": 0.4679
+      },
+      {
+        "name": "JSON Handling",
+        "weight": 0.1378
+      },
+      {
+        "name": "Web Scraping (BeautifulSoup, Scrapy)",
+        "weight": 0.4679
+      },
+      {
+        "name": "Package Distribution (setuptools, PyPI)",
+        "weight": 0.1327
+      },
+      {
+        "name": "Metaclasses",
+        "weight": 0.1302
+      },
+      {
+        "name": "Property Decorators",
+        "weight": 0.1276
+      },
+      {
+        "name": "Namedtuples",
+        "weight": 0.1251
+      },
+      {
+        "name": "Dataclasses",
+        "weight": 0.1225
+      },
+      {
+        "name": "Enumerations",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Programming Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Problem Solving",
+        "weight": 0.9333
+      },
+      {
+        "name": "Algorithms",
+        "weight": 0.8667
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.8
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.7333
+      },
+      {
+        "name": "Basic Math for Programming",
+        "weight": 0.6667
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.6
+      },
+      {
+        "name": "Version Control with Git",
+        "weight": 0.5333
+      },
+      {
+        "name": "Package Managers",
+        "weight": 0.4667
+      },
+      {
+        "name": "JSON",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_python"
+  },
+  {
+    "id": 55,
+    "gid": 100000055,
+    "name": "Go",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Statically Typed Compiled Systems Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "Backend / Cloud Infrastructure"
+    },
+    "aliases": [
+      "Go",
+      "Golang",
+      "Go Language",
+      "Google Go"
+    ],
+    "concepts": [
+      {
+        "name": "Variables and Data Types",
+        "weight": 0.25
+      },
+      {
+        "name": "Control Flow",
+        "weight": 0.2467
+      },
+      {
+        "name": "Functions",
+        "weight": 0.2433
+      },
+      {
+        "name": "Multiple Return Values",
+        "weight": 0.24
+      },
+      {
+        "name": "Structs",
+        "weight": 0.5713
+      },
+      {
+        "name": "Interfaces",
+        "weight": 0.695
+      },
+      {
+        "name": "Methods",
+        "weight": 0.23
+      },
+      {
+        "name": "Pointers",
+        "weight": 0.4814
+      },
+      {
+        "name": "Slices",
+        "weight": 0.4814
+      },
+      {
+        "name": "Arrays",
+        "weight": 0.22
+      },
+      {
+        "name": "Maps",
+        "weight": 0.2167
+      },
+      {
+        "name": "Goroutines",
+        "weight": 1.0
+      },
+      {
+        "name": "Channels",
+        "weight": 0.8132
+      },
+      {
+        "name": "Select Statement",
+        "weight": 0.2067
+      },
+      {
+        "name": "sync Package",
+        "weight": 0.2033
+      },
+      {
+        "name": "Mutexes",
+        "weight": 0.2
+      },
+      {
+        "name": "WaitGroups",
+        "weight": 0.1967
+      },
+      {
+        "name": "Error Handling (error interface)",
+        "weight": 1.0
+      },
+      {
+        "name": "Panic and Recover",
+        "weight": 0.19
+      },
+      {
+        "name": "Defer Statement",
+        "weight": 0.1867
+      },
+      {
+        "name": "Packages and Modules",
+        "weight": 0.5783
+      },
+      {
+        "name": "go.mod",
+        "weight": 0.4814
+      },
+      {
+        "name": "GOPATH",
+        "weight": 0.1767
+      },
+      {
+        "name": "Embedding (Composition)",
+        "weight": 0.1733
+      },
+      {
+        "name": "Type Assertions",
+        "weight": 0.17
+      },
+      {
+        "name": "Generics (Go 1.18+)",
+        "weight": 0.1667
+      },
+      {
+        "name": "Context Package",
+        "weight": 0.6818
+      },
+      {
+        "name": "Standard Library",
+        "weight": 0.5611
+      },
+      {
+        "name": "net/http Package",
+        "weight": 0.5676
+      },
+      {
+        "name": "JSON Encoding/Decoding",
+        "weight": 0.4737
+      },
+      {
+        "name": "Testing (go test)",
+        "weight": 0.5713
+      },
+      {
+        "name": "Benchmarking",
+        "weight": 0.1467
+      },
+      {
+        "name": "Go Routines Scheduling (GOMAXPROCS)",
+        "weight": 0.1433
+      },
+      {
+        "name": "Garbage Collection",
+        "weight": 0.14
+      },
+      {
+        "name": "Cross-Compilation",
+        "weight": 0.5611
+      },
+      {
+        "name": "gofmt",
+        "weight": 0.1333
+      },
+      {
+        "name": "go vet",
+        "weight": 0.13
+      },
+      {
+        "name": "Dependency Management (Go Modules)",
+        "weight": 0.1267
+      },
+      {
+        "name": "Buffered vs Unbuffered Channels",
+        "weight": 0.1233
+      },
+      {
+        "name": "CSP (Communicating Sequential Processes)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Programming Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Problem Solving",
+        "weight": 0.925
+      },
+      {
+        "name": "Algorithms",
+        "weight": 0.85
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.775
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.7
+      },
+      {
+        "name": "Concurrency Concepts",
+        "weight": 0.625
+      },
+      {
+        "name": "Version Control with Git",
+        "weight": 0.55
+      },
+      {
+        "name": "JSON",
+        "weight": 0.475
+      },
+      {
+        "name": "HTTP and REST APIs Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_go"
+  },
+  {
+    "id": 56,
+    "gid": 100000056,
+    "name": "Rust",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Systems Programming Language with Memory Safety Guarantees",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "Systems Programming"
+    },
+    "aliases": [
+      "Rust",
+      "Rust Language",
+      "Rust-lang",
+      "Mozilla Rust"
+    ],
+    "concepts": [
+      {
+        "name": "Variables and Mutability",
+        "weight": 0.25
+      },
+      {
+        "name": "Ownership",
+        "weight": 1.0
+      },
+      {
+        "name": "Borrowing",
+        "weight": 0.882
+      },
+      {
+        "name": "References",
+        "weight": 0.2403
+      },
+      {
+        "name": "Lifetimes",
+        "weight": 0.5102
+      },
+      {
+        "name": "Structs",
+        "weight": 0.6168
+      },
+      {
+        "name": "Enums",
+        "weight": 0.6168
+      },
+      {
+        "name": "Pattern Matching",
+        "weight": 0.6378
+      },
+      {
+        "name": "Match Expressions",
+        "weight": 0.224
+      },
+      {
+        "name": "Traits",
+        "weight": 0.7506
+      },
+      {
+        "name": "Trait Objects",
+        "weight": 0.2175
+      },
+      {
+        "name": "Generics",
+        "weight": 0.4776
+      },
+      {
+        "name": "Option and Result Types",
+        "weight": 0.5102
+      },
+      {
+        "name": "Error Handling",
+        "weight": 0.7444
+      },
+      {
+        "name": "Panic",
+        "weight": 0.2045
+      },
+      {
+        "name": "Closures",
+        "weight": 0.4627
+      },
+      {
+        "name": "Iterators",
+        "weight": 0.198
+      },
+      {
+        "name": "Vectors",
+        "weight": 0.1947
+      },
+      {
+        "name": "HashMap",
+        "weight": 0.1915
+      },
+      {
+        "name": "String vs &str",
+        "weight": 0.1883
+      },
+      {
+        "name": "Modules",
+        "weight": 0.185
+      },
+      {
+        "name": "Crates",
+        "weight": 0.1817
+      },
+      {
+        "name": "Cargo",
+        "weight": 0.8572
+      },
+      {
+        "name": "Cargo.toml",
+        "weight": 0.1753
+      },
+      {
+        "name": "Package Registry (crates.io)",
+        "weight": 0.172
+      },
+      {
+        "name": "Concurrency",
+        "weight": 0.5024
+      },
+      {
+        "name": "Threads",
+        "weight": 0.1655
+      },
+      {
+        "name": "Channels (mpsc)",
+        "weight": 0.1623
+      },
+      {
+        "name": "Mutex and Arc",
+        "weight": 0.159
+      },
+      {
+        "name": "async/await in Rust",
+        "weight": 0.1557
+      },
+      {
+        "name": "Unsafe Rust",
+        "weight": 0.6204
+      },
+      {
+        "name": "Smart Pointers (Box, Rc, RefCell)",
+        "weight": 0.63
+      },
+      {
+        "name": "Derive Macros",
+        "weight": 0.146
+      },
+      {
+        "name": "Macro Rules",
+        "weight": 0.1427
+      },
+      {
+        "name": "Testing (cargo test)",
+        "weight": 0.1395
+      },
+      {
+        "name": "Zero-Cost Abstractions",
+        "weight": 0.5024
+      },
+      {
+        "name": "Borrow Checker",
+        "weight": 0.6204
+      },
+      {
+        "name": "Move Semantics",
+        "weight": 0.1297
+      },
+      {
+        "name": "Copy vs Clone Traits",
+        "weight": 0.1265
+      },
+      {
+        "name": "Slices",
+        "weight": 0.1232
+      },
+      {
+        "name": "impl Blocks",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Programming Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Problem Solving",
+        "weight": 0.925
+      },
+      {
+        "name": "Algorithms",
+        "weight": 0.85
+      },
+      {
+        "name": "Data Structures",
+        "weight": 0.775
+      },
+      {
+        "name": "C or C++ Basics (Recommended)",
+        "weight": 0.7
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.625
+      },
+      {
+        "name": "Memory Management Concepts",
+        "weight": 0.55
+      },
+      {
+        "name": "Version Control with Git",
+        "weight": 0.475
+      },
+      {
+        "name": "Concurrency Concepts",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_rust"
+  },
+  {
+    "id": 57,
+    "gid": 100000057,
+    "name": "Swift",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Compiled Language for Apple Platform Development",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "Mobile / Apple Ecosystem Development"
+    },
+    "aliases": [
+      "Swift",
+      "Swift Language",
+      "Apple Swift",
+      "Swift Programming Language"
+    ],
+    "concepts": [
+      {
+        "name": "Variables and Constants",
+        "weight": 0.25
+      },
+      {
+        "name": "Optionals",
+        "weight": 1.0
+      },
+      {
+        "name": "Optional Binding",
+        "weight": 0.2428
+      },
+      {
+        "name": "Optional Chaining",
+        "weight": 0.2392
+      },
+      {
+        "name": "Structs",
+        "weight": 0.6495
+      },
+      {
+        "name": "Classes",
+        "weight": 0.6495
+      },
+      {
+        "name": "Enums",
+        "weight": 0.2283
+      },
+      {
+        "name": "Protocols",
+        "weight": 0.7273
+      },
+      {
+        "name": "Protocol Extensions",
+        "weight": 0.4882
+      },
+      {
+        "name": "Generics",
+        "weight": 0.5365
+      },
+      {
+        "name": "Closures",
+        "weight": 1.0
+      },
+      {
+        "name": "Extensions",
+        "weight": 0.5365
+      },
+      {
+        "name": "Error Handling (try/catch)",
+        "weight": 0.6495
+      },
+      {
+        "name": "Guard Statements",
+        "weight": 0.2031
+      },
+      {
+        "name": "Pattern Matching",
+        "weight": 0.1994
+      },
+      {
+        "name": "ARC (Automatic Reference Counting)",
+        "weight": 0.679
+      },
+      {
+        "name": "Value Types vs Reference Types",
+        "weight": 0.1922
+      },
+      {
+        "name": "Property Wrappers",
+        "weight": 0.1886
+      },
+      {
+        "name": "Computed Properties",
+        "weight": 0.185
+      },
+      {
+        "name": "Access Control",
+        "weight": 0.1814
+      },
+      {
+        "name": "SwiftUI",
+        "weight": 0.7005
+      },
+      {
+        "name": "UIKit",
+        "weight": 0.7005
+      },
+      {
+        "name": "Combine Framework",
+        "weight": 0.4882
+      },
+      {
+        "name": "Async/Await (Swift Concurrency)",
+        "weight": 0.7005
+      },
+      {
+        "name": "Actors",
+        "weight": 0.4882
+      },
+      {
+        "name": "结构化并发 Task Groups",
+        "weight": 0.1597
+      },
+      {
+        "name": "Codable Protocol",
+        "weight": 0.5408
+      },
+      {
+        "name": "JSON Parsing",
+        "weight": 0.1525
+      },
+      {
+        "name": "Core Data",
+        "weight": 0.1489
+      },
+      {
+        "name": "CocoaPods",
+        "weight": 0.1453
+      },
+      {
+        "name": "Swift Package Manager",
+        "weight": 0.1417
+      },
+      {
+        "name": "Xcode",
+        "weight": 0.5408
+      },
+      {
+        "name": "Interface Builder",
+        "weight": 0.1344
+      },
+      {
+        "name": "MVVM Pattern",
+        "weight": 0.679
+      },
+      {
+        "name": "Delegation Pattern",
+        "weight": 0.1272
+      },
+      {
+        "name": "Memory Management (Retain Cycles)",
+        "weight": 0.1236
+      },
+      {
+        "name": "Unit Testing (XCTest)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Programming Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Object-Oriented Programming Concepts",
+        "weight": 0.9143
+      },
+      {
+        "name": "Problem Solving",
+        "weight": 0.8286
+      },
+      {
+        "name": "Xcode Basics",
+        "weight": 0.7429
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.6571
+      },
+      {
+        "name": "Version Control with Git",
+        "weight": 0.5714
+      },
+      {
+        "name": "JSON",
+        "weight": 0.4857
+      },
+      {
+        "name": "Mobile UI/UX Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_swift"
+  },
+  {
+    "id": 58,
+    "gid": 100000058,
+    "name": "Kotlin",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Statically Typed JVM Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "Android / JVM Development"
+    },
+    "aliases": [
+      "Kotlin",
+      "Kotlin Language",
+      "JetBrains Kotlin"
+    ],
+    "concepts": [
+      {
+        "name": "Variables (val, var)",
+        "weight": 0.25
+      },
+      {
+        "name": "Null Safety",
+        "weight": 1.0
+      },
+      {
+        "name": "Nullable Types",
+        "weight": 0.2413
+      },
+      {
+        "name": "Safe Calls",
+        "weight": 0.237
+      },
+      {
+        "name": "Elvis Operator",
+        "weight": 0.2327
+      },
+      {
+        "name": "Data Classes",
+        "weight": 0.8696
+      },
+      {
+        "name": "Classes and Objects",
+        "weight": 0.224
+      },
+      {
+        "name": "Interfaces",
+        "weight": 0.2197
+      },
+      {
+        "name": "Sealed Classes",
+        "weight": 0.6635
+      },
+      {
+        "name": "Extension Functions",
+        "weight": 0.7813
+      },
+      {
+        "name": "Higher-Order Functions",
+        "weight": 0.5935
+      },
+      {
+        "name": "Lambda Expressions",
+        "weight": 0.2023
+      },
+      {
+        "name": "Coroutines",
+        "weight": 1.0
+      },
+      {
+        "name": "Suspend Functions",
+        "weight": 0.1937
+      },
+      {
+        "name": "Flow API",
+        "weight": 0.5083
+      },
+      {
+        "name": "Companion Objects",
+        "weight": 0.185
+      },
+      {
+        "name": "Object Declarations",
+        "weight": 0.1807
+      },
+      {
+        "name": "Generics",
+        "weight": 0.5052
+      },
+      {
+        "name": "Smart Casts",
+        "weight": 0.172
+      },
+      {
+        "name": "When Expression",
+        "weight": 0.1677
+      },
+      {
+        "name": "Delegation",
+        "weight": 0.1633
+      },
+      {
+        "name": "Inline Functions",
+        "weight": 0.159
+      },
+      {
+        "name": "Kotlin Multiplatform",
+        "weight": 0.4804
+      },
+      {
+        "name": "Jetpack Compose",
+        "weight": 0.6387
+      },
+      {
+        "name": "Android SDK Integration",
+        "weight": 0.5083
+      },
+      {
+        "name": "Interoperability with Java",
+        "weight": 0.4678
+      },
+      {
+        "name": "Kotlin DSLs",
+        "weight": 0.1373
+      },
+      {
+        "name": "Scope Functions (let, run, with, apply, also)",
+        "weight": 0.133
+      },
+      {
+        "name": "Collections API",
+        "weight": 0.1287
+      },
+      {
+        "name": "Sequences",
+        "weight": 0.1243
+      },
+      {
+        "name": "Unit Testing (JUnit, Kotest)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Programming Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Object-Oriented Programming Concepts",
+        "weight": 0.9
+      },
+      {
+        "name": "Java Basics (Recommended)",
+        "weight": 0.8
+      },
+      {
+        "name": "Problem Solving",
+        "weight": 0.7
+      },
+      {
+        "name": "Android SDK Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Version Control with Git",
+        "weight": 0.5
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_kotlin"
+  },
+  {
+    "id": 59,
+    "gid": 100000059,
+    "name": "PHP",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Server-Side Scripting Language for Web Development",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "Web Development"
+    },
+    "aliases": [
+      "PHP",
+      "PHP: Hypertext Preprocessor",
+      "PHP7",
+      "PHP8",
+      "Personal Home Page (historical)"
+    ],
+    "concepts": [
+      {
+        "name": "Variables",
+        "weight": 0.25
+      },
+      {
+        "name": "Control Flow",
+        "weight": 0.2458
+      },
+      {
+        "name": "Functions",
+        "weight": 0.6376
+      },
+      {
+        "name": "Arrays",
+        "weight": 1.0
+      },
+      {
+        "name": "Associative Arrays",
+        "weight": 0.2332
+      },
+      {
+        "name": "Classes and Objects",
+        "weight": 0.8121
+      },
+      {
+        "name": "Interfaces",
+        "weight": 0.2248
+      },
+      {
+        "name": "Traits",
+        "weight": 0.2206
+      },
+      {
+        "name": "Namespaces",
+        "weight": 0.5644
+      },
+      {
+        "name": "Composer",
+        "weight": 0.9135
+      },
+      {
+        "name": "Autoloading (PSR-4)",
+        "weight": 0.2081
+      },
+      {
+        "name": "Superglobals ($_GET, $_POST, $_SESSION)",
+        "weight": 0.5379
+      },
+      {
+        "name": "Sessions and Cookies",
+        "weight": 0.1997
+      },
+      {
+        "name": "Error Handling (try-catch)",
+        "weight": 0.6641
+      },
+      {
+        "name": "PDO (PHP Data Objects)",
+        "weight": 0.7655
+      },
+      {
+        "name": "MySQLi",
+        "weight": 0.1871
+      },
+      {
+        "name": "Laravel Framework",
+        "weight": 0.9135
+      },
+      {
+        "name": "Symfony Framework",
+        "weight": 0.5511
+      },
+      {
+        "name": "WordPress Development",
+        "weight": 0.5379
+      },
+      {
+        "name": "Eloquent ORM",
+        "weight": 0.5511
+      },
+      {
+        "name": "Blade Templating",
+        "weight": 0.498
+      },
+      {
+        "name": "RESTful API Development",
+        "weight": 0.7655
+      },
+      {
+        "name": "Middleware",
+        "weight": 0.5511
+      },
+      {
+        "name": "Dependency Injection",
+        "weight": 0.1535
+      },
+      {
+        "name": "Magic Methods (__construct, __get, __set)",
+        "weight": 0.1494
+      },
+      {
+        "name": "Type Declarations",
+        "weight": 0.1452
+      },
+      {
+        "name": "Anonymous Functions",
+        "weight": 0.141
+      },
+      {
+        "name": "Closures",
+        "weight": 0.1368
+      },
+      {
+        "name": "Generators",
+        "weight": 0.1326
+      },
+      {
+        "name": "PHPUnit Testing",
+        "weight": 0.1284
+      },
+      {
+        "name": "Security (SQL Injection Prevention, XSS Prevention)",
+        "weight": 0.1242
+      },
+      {
+        "name": "Package Management (Composer)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "HTML",
+        "weight": 1.0
+      },
+      {
+        "name": "CSS",
+        "weight": 0.925
+      },
+      {
+        "name": "JavaScript Basics",
+        "weight": 0.85
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.775
+      },
+      {
+        "name": "SQL Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.625
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.55
+      },
+      {
+        "name": "Version Control with Git",
+        "weight": 0.475
+      },
+      {
+        "name": "Web Server Basics (Apache/Nginx)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_php"
+  },
+  {
+    "id": 60,
+    "gid": 100000060,
+    "name": "Ruby",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Dynamic Object-Oriented Scripting Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "Web Development / Scripting"
+    },
+    "aliases": [
+      "Ruby",
+      "Ruby Language",
+      "MRI Ruby",
+      "CRuby"
+    ],
+    "concepts": [
+      {
+        "name": "Variables and Data Types",
+        "weight": 0.25
+      },
+      {
+        "name": "Control Flow",
+        "weight": 0.2457
+      },
+      {
+        "name": "Methods",
+        "weight": 0.2413
+      },
+      {
+        "name": "Blocks",
+        "weight": 0.7225
+      },
+      {
+        "name": "Procs and Lambdas",
+        "weight": 0.6107
+      },
+      {
+        "name": "Classes and Objects",
+        "weight": 0.7225
+      },
+      {
+        "name": "Modules",
+        "weight": 0.7225
+      },
+      {
+        "name": "Mixins",
+        "weight": 0.6107
+      },
+      {
+        "name": "Inheritance",
+        "weight": 0.2153
+      },
+      {
+        "name": "Duck Typing",
+        "weight": 0.211
+      },
+      {
+        "name": "Symbols",
+        "weight": 0.2067
+      },
+      {
+        "name": "Hashes",
+        "weight": 0.2023
+      },
+      {
+        "name": "Arrays",
+        "weight": 0.198
+      },
+      {
+        "name": "Iterators",
+        "weight": 0.1937
+      },
+      {
+        "name": "Exception Handling",
+        "weight": 0.9536
+      },
+      {
+        "name": "Ruby on Rails",
+        "weight": 1.0
+      },
+      {
+        "name": "ActiveRecord",
+        "weight": 1.0
+      },
+      {
+        "name": "MVC Pattern",
+        "weight": 0.7689
+      },
+      {
+        "name": "RESTful Routing",
+        "weight": 0.8394
+      },
+      {
+        "name": "Gems (RubyGems)",
+        "weight": 0.8418
+      },
+      {
+        "name": "Bundler",
+        "weight": 0.6082
+      },
+      {
+        "name": "Metaprogramming",
+        "weight": 0.159
+      },
+      {
+        "name": "Method Missing",
+        "weight": 0.1547
+      },
+      {
+        "name": "Rake Tasks",
+        "weight": 0.1503
+      },
+      {
+        "name": "RSpec Testing",
+        "weight": 0.6082
+      },
+      {
+        "name": "Minitest",
+        "weight": 0.1417
+      },
+      {
+        "name": "ERB Templating",
+        "weight": 0.7689
+      },
+      {
+        "name": "Sinatra Framework",
+        "weight": 0.133
+      },
+      {
+        "name": "Attribute Accessors (attr_accessor)",
+        "weight": 0.1287
+      },
+      {
+        "name": "Enumerable Module",
+        "weight": 0.1243
+      },
+      {
+        "name": "Comparable Module",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Programming Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Object-Oriented Programming Concepts",
+        "weight": 0.9
+      },
+      {
+        "name": "SQL Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "HTTP Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.6
+      },
+      {
+        "name": "Version Control with Git",
+        "weight": 0.5
+      },
+      {
+        "name": "Web Server Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_ruby"
+  },
+  {
+    "id": 61,
+    "gid": 100000061,
+    "name": "Scala",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Hybrid Object-Oriented and Functional JVM Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "Big Data / Functional Programming"
+    },
+    "aliases": [
+      "Scala",
+      "Scala Language",
+      "Scalable Language"
+    ],
+    "concepts": [
+      {
+        "name": "Variables (val, var)",
+        "weight": 0.25
+      },
+      {
+        "name": "Functions",
+        "weight": 0.245
+      },
+      {
+        "name": "Higher-Order Functions",
+        "weight": 0.7506
+      },
+      {
+        "name": "Pattern Matching",
+        "weight": 1.0
+      },
+      {
+        "name": "Case Classes",
+        "weight": 0.9693
+      },
+      {
+        "name": "Traits",
+        "weight": 0.8345
+      },
+      {
+        "name": "Companion Objects",
+        "weight": 0.22
+      },
+      {
+        "name": "Immutability",
+        "weight": 0.215
+      },
+      {
+        "name": "Collections (List, Seq, Map)",
+        "weight": 1.0
+      },
+      {
+        "name": "For Comprehensions",
+        "weight": 0.205
+      },
+      {
+        "name": "Option Type",
+        "weight": 0.6158
+      },
+      {
+        "name": "Either Type",
+        "weight": 0.195
+      },
+      {
+        "name": "Implicits",
+        "weight": 0.6158
+      },
+      {
+        "name": "Type Classes",
+        "weight": 0.5686
+      },
+      {
+        "name": "Generics",
+        "weight": 0.18
+      },
+      {
+        "name": "Variance (Covariance/Contravariance)",
+        "weight": 0.175
+      },
+      {
+        "name": "Futures and Promises",
+        "weight": 0.818
+      },
+      {
+        "name": "Akka Actors",
+        "weight": 0.5686
+      },
+      {
+        "name": "Apache Spark Integration",
+        "weight": 0.5994
+      },
+      {
+        "name": "SBT (Simple Build Tool)",
+        "weight": 0.155
+      },
+      {
+        "name": "Currying",
+        "weight": 0.15
+      },
+      {
+        "name": "Partial Functions",
+        "weight": 0.145
+      },
+      {
+        "name": "Sealed Traits",
+        "weight": 0.14
+      },
+      {
+        "name": "Monads",
+        "weight": 0.135
+      },
+      {
+        "name": "Functional Composition",
+        "weight": 0.5994
+      },
+      {
+        "name": "ScalaTest",
+        "weight": 0.125
+      },
+      {
+        "name": "Tail Recursion",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Java Basics (Recommended)",
+        "weight": 1.0
+      },
+      {
+        "name": "Functional Programming Concepts",
+        "weight": 0.88
+      },
+      {
+        "name": "Object-Oriented Programming Concepts",
+        "weight": 0.76
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.64
+      },
+      {
+        "name": "JVM Basics",
+        "weight": 0.52
+      },
+      {
+        "name": "Version Control with Git",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_scala"
+  },
+  {
+    "id": 62,
+    "gid": 100000062,
+    "name": "Dart",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Client-Optimized Object-Oriented Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "Mobile / Cross-Platform Development"
+    },
+    "aliases": [
+      "Dart",
+      "Dart Language",
+      "Google Dart"
+    ],
+    "concepts": [
+      {
+        "name": "Variables and Data Types",
+        "weight": 0.25
+      },
+      {
+        "name": "Null Safety",
+        "weight": 1.0
+      },
+      {
+        "name": "Functions",
+        "weight": 0.4325
+      },
+      {
+        "name": "Classes and Objects",
+        "weight": 0.6172
+      },
+      {
+        "name": "Mixins",
+        "weight": 0.5347
+      },
+      {
+        "name": "Interfaces",
+        "weight": 0.2217
+      },
+      {
+        "name": "Async/Await",
+        "weight": 1.0
+      },
+      {
+        "name": "Futures",
+        "weight": 0.7292
+      },
+      {
+        "name": "Streams",
+        "weight": 0.7292
+      },
+      {
+        "name": "Generics",
+        "weight": 0.5347
+      },
+      {
+        "name": "Extension Methods",
+        "weight": 0.1935
+      },
+      {
+        "name": "Getters and Setters",
+        "weight": 0.1878
+      },
+      {
+        "name": "Factory Constructors",
+        "weight": 0.1822
+      },
+      {
+        "name": "Named Constructors",
+        "weight": 0.1765
+      },
+      {
+        "name": "Flutter Widgets",
+        "weight": 0.7328
+      },
+      {
+        "name": "StatefulWidget",
+        "weight": 0.5445
+      },
+      {
+        "name": "StatelessWidget",
+        "weight": 0.5445
+      },
+      {
+        "name": "State Management",
+        "weight": 0.7328
+      },
+      {
+        "name": "Isolates",
+        "weight": 0.1483
+      },
+      {
+        "name": "pub Package Manager",
+        "weight": 0.5383
+      },
+      {
+        "name": "Cascade Notation",
+        "weight": 0.137
+      },
+      {
+        "name": "Collection Literals",
+        "weight": 0.1313
+      },
+      {
+        "name": "Pattern Matching (Dart 3)",
+        "weight": 0.1257
+      },
+      {
+        "name": "Records (Dart 3)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Programming Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Object-Oriented Programming Concepts",
+        "weight": 0.88
+      },
+      {
+        "name": "Mobile UI/UX Basics",
+        "weight": 0.76
+      },
+      {
+        "name": "Asynchronous Programming Concepts",
+        "weight": 0.64
+      },
+      {
+        "name": "Version Control with Git",
+        "weight": 0.52
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_dart"
+  },
+  {
+    "id": 63,
+    "gid": 100000063,
+    "name": "Lua",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Lightweight Embeddable Scripting Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "Game Scripting / Embedded Scripting"
+    },
+    "aliases": [
+      "Lua",
+      "Lua Language",
+      "LuaJIT"
+    ],
+    "concepts": [
+      {
+        "name": "Variables and Data Types",
+        "weight": 0.25
+      },
+      {
+        "name": "Tables",
+        "weight": 1.0
+      },
+      {
+        "name": "Control Flow",
+        "weight": 0.4205
+      },
+      {
+        "name": "Functions",
+        "weight": 0.8233
+      },
+      {
+        "name": "Closures",
+        "weight": 0.2153
+      },
+      {
+        "name": "Metatables",
+        "weight": 0.9295
+      },
+      {
+        "name": "Metamethods",
+        "weight": 0.198
+      },
+      {
+        "name": "Coroutines",
+        "weight": 0.7327
+      },
+      {
+        "name": "Modules",
+        "weight": 0.1807
+      },
+      {
+        "name": "Object-Oriented Programming in Lua",
+        "weight": 0.7528
+      },
+      {
+        "name": "String Manipulation",
+        "weight": 0.1633
+      },
+      {
+        "name": "Embedding Lua in C/C++",
+        "weight": 0.5267
+      },
+      {
+        "name": "Garbage Collection",
+        "weight": 0.146
+      },
+      {
+        "name": "Scripting for Game Engines (Roblox, LOVE2D)",
+        "weight": 0.7528
+      },
+      {
+        "name": "Weak Tables",
+        "weight": 0.1287
+      },
+      {
+        "name": "Error Handling (pcall/xpcall)",
+        "weight": 0.5267
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Programming Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Problem Solving",
+        "weight": 0.8
+      },
+      {
+        "name": "Basic Data Structures",
+        "weight": 0.6
+      },
+      {
+        "name": "C Basics (for embedding, recommended)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_lua"
+  },
+  {
+    "id": 64,
+    "gid": 100000064,
+    "name": "R",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Statistical Computing and Graphics Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Science",
+      "sub_category": "Programming Languages",
+      "specialization": "Statistical Computing"
+    },
+    "aliases": [
+      "R",
+      "R Language",
+      "R Statistical Software",
+      "R Programming Language",
+      "GNU R"
+    ],
+    "concepts": [
+      {
+        "name": "Vectors",
+        "weight": 0.25
+      },
+      {
+        "name": "Data Frames",
+        "weight": 0.7349
+      },
+      {
+        "name": "Lists",
+        "weight": 0.2392
+      },
+      {
+        "name": "Matrices",
+        "weight": 0.2338
+      },
+      {
+        "name": "Factors",
+        "weight": 0.2283
+      },
+      {
+        "name": "Control Flow",
+        "weight": 0.2229
+      },
+      {
+        "name": "Functions",
+        "weight": 0.2175
+      },
+      {
+        "name": "Apply Family (sapply, lapply, mapply)",
+        "weight": 0.2121
+      },
+      {
+        "name": "Statistical Modeling",
+        "weight": 1.0
+      },
+      {
+        "name": "Linear Regression",
+        "weight": 0.5745
+      },
+      {
+        "name": "Data Visualization (ggplot2)",
+        "weight": 0.5199
+      },
+      {
+        "name": "dplyr",
+        "weight": 0.7349
+      },
+      {
+        "name": "tidyr",
+        "weight": 0.185
+      },
+      {
+        "name": "tidyverse",
+        "weight": 0.565
+      },
+      {
+        "name": "RMarkdown",
+        "weight": 0.5605
+      },
+      {
+        "name": "Shiny Apps",
+        "weight": 0.1688
+      },
+      {
+        "name": "CRAN Package Repository",
+        "weight": 0.1633
+      },
+      {
+        "name": "Data Cleaning",
+        "weight": 0.7304
+      },
+      {
+        "name": "Hypothesis Testing",
+        "weight": 1.0
+      },
+      {
+        "name": "ANOVA",
+        "weight": 0.785
+      },
+      {
+        "name": "Time Series Analysis",
+        "weight": 0.5745
+      },
+      {
+        "name": "Machine Learning in R (caret, randomForest)",
+        "weight": 0.1362
+      },
+      {
+        "name": "RStudio",
+        "weight": 0.1308
+      },
+      {
+        "name": "Vectorized Operations",
+        "weight": 0.1254
+      },
+      {
+        "name": "NA Handling",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Statistics Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.85
+      },
+      {
+        "name": "Basic Math for Programming",
+        "weight": 0.7
+      },
+      {
+        "name": "Data Analysis Concepts",
+        "weight": 0.55
+      },
+      {
+        "name": "RStudio Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_r"
+  },
+  {
+    "id": 65,
+    "gid": 100000065,
+    "name": "SQL",
+    "entity_type": "Query Language",
+    "entity_subtype": "Structured Query Language for Relational Databases",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Management",
+      "sub_category": "Query Languages",
+      "specialization": "Relational Database Management"
+    },
+    "aliases": [
+      "SQL",
+      "Structured Query Language",
+      "T-SQL (dialect)",
+      "PL/SQL (dialect)",
+      "MySQL SQL",
+      "PostgreSQL SQL",
+      "ANSI SQL"
+    ],
+    "concepts": [
+      {
+        "name": "SELECT Statements",
+        "weight": 0.9835
+      },
+      {
+        "name": "WHERE Clause",
+        "weight": 0.2452
+      },
+      {
+        "name": "JOIN Operations",
+        "weight": 1.0
+      },
+      {
+        "name": "Inner Join",
+        "weight": 0.2356
+      },
+      {
+        "name": "Left/Right/Outer Join",
+        "weight": 0.2307
+      },
+      {
+        "name": "GROUP BY",
+        "weight": 0.7764
+      },
+      {
+        "name": "HAVING Clause",
+        "weight": 0.2211
+      },
+      {
+        "name": "ORDER BY",
+        "weight": 0.2163
+      },
+      {
+        "name": "Subqueries",
+        "weight": 0.5763
+      },
+      {
+        "name": "Common Table Expressions (CTEs)",
+        "weight": 0.5666
+      },
+      {
+        "name": "Window Functions",
+        "weight": 0.993
+      },
+      {
+        "name": "Aggregate Functions",
+        "weight": 0.7764
+      },
+      {
+        "name": "INSERT/UPDATE/DELETE",
+        "weight": 0.5571
+      },
+      {
+        "name": "Transactions",
+        "weight": 0.7907
+      },
+      {
+        "name": "ACID Properties",
+        "weight": 0.5836
+      },
+      {
+        "name": "Indexes",
+        "weight": 0.7907
+      },
+      {
+        "name": "Primary Keys and Foreign Keys",
+        "weight": 0.173
+      },
+      {
+        "name": "Normalization",
+        "weight": 0.1681
+      },
+      {
+        "name": "Views",
+        "weight": 0.5501
+      },
+      {
+        "name": "Stored Procedures",
+        "weight": 0.5571
+      },
+      {
+        "name": "Triggers",
+        "weight": 0.1537
+      },
+      {
+        "name": "Constraints",
+        "weight": 0.1489
+      },
+      {
+        "name": "Data Types",
+        "weight": 0.1441
+      },
+      {
+        "name": "Schema Design",
+        "weight": 0.8002
+      },
+      {
+        "name": "Query Optimization",
+        "weight": 0.8002
+      },
+      {
+        "name": "Execution Plans",
+        "weight": 0.5836
+      },
+      {
+        "name": "Database Locking",
+        "weight": 0.5836
+      },
+      {
+        "name": "UNION and INTERSECT",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Database Concepts",
+        "weight": 1.0
+      },
+      {
+        "name": "Relational Model Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Programming Fundamentals (Recommended)",
+        "weight": 0.6
+      },
+      {
+        "name": "Set Theory Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_sql"
+  },
+  {
+    "id": 66,
+    "gid": 100000066,
+    "name": "Bash",
+    "entity_type": "Scripting Language",
+    "entity_subtype": "Unix Shell Scripting Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Scripting Languages",
+      "specialization": "System Administration / Automation"
+    },
+    "aliases": [
+      "Bash",
+      "Bash Scripting",
+      "Shell Scripting",
+      "sh",
+      "GNU Bash",
+      "Bourne Again Shell"
+    ],
+    "concepts": [
+      {
+        "name": "Variables",
+        "weight": 0.4547
+      },
+      {
+        "name": "Control Flow (if/case)",
+        "weight": 0.5404
+      },
+      {
+        "name": "Loops (for/while)",
+        "weight": 0.6413
+      },
+      {
+        "name": "Functions",
+        "weight": 0.2295
+      },
+      {
+        "name": "Command Substitution",
+        "weight": 0.4547
+      },
+      {
+        "name": "Pipes and Redirection",
+        "weight": 1.0
+      },
+      {
+        "name": "Environment Variables",
+        "weight": 0.5365
+      },
+      {
+        "name": "Exit Codes",
+        "weight": 0.7049
+      },
+      {
+        "name": "Argument Parsing",
+        "weight": 0.1953
+      },
+      {
+        "name": "String Manipulation",
+        "weight": 0.1884
+      },
+      {
+        "name": "Arrays",
+        "weight": 0.1816
+      },
+      {
+        "name": "Regular Expressions (grep/sed)",
+        "weight": 0.1747
+      },
+      {
+        "name": "File Testing Operators",
+        "weight": 0.5404
+      },
+      {
+        "name": "Process Substitution",
+        "weight": 0.5183
+      },
+      {
+        "name": "Here Documents",
+        "weight": 0.1542
+      },
+      {
+        "name": "Shell Scripting Best Practices",
+        "weight": 0.1474
+      },
+      {
+        "name": "Cron Jobs",
+        "weight": 0.7269
+      },
+      {
+        "name": "Signal Trapping",
+        "weight": 0.5404
+      },
+      {
+        "name": "Subshells",
+        "weight": 0.1268
+      },
+      {
+        "name": "Scripting for Automation",
+        "weight": 0.7049
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 1.0
+      },
+      {
+        "name": "Operating System Fundamentals",
+        "weight": 0.8
+      },
+      {
+        "name": "Linux/Unix Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "File System Concepts",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_bash"
+  },
+  {
+    "id": 67,
+    "gid": 100000067,
+    "name": "PowerShell",
+    "entity_type": "Scripting Language",
+    "entity_subtype": "Object-Oriented Shell and Scripting Language for Windows/Cross-Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Scripting Languages",
+      "specialization": "System Administration / Automation"
+    },
+    "aliases": [
+      "PowerShell",
+      "Windows PowerShell",
+      "PowerShell Core",
+      "pwsh"
+    ],
+    "concepts": [
+      {
+        "name": "Cmdlets",
+        "weight": 0.9892
+      },
+      {
+        "name": "Pipeline",
+        "weight": 1.0
+      },
+      {
+        "name": "Variables",
+        "weight": 0.2347
+      },
+      {
+        "name": "Objects (vs Text Streams)",
+        "weight": 0.2271
+      },
+      {
+        "name": "Modules",
+        "weight": 0.9476
+      },
+      {
+        "name": "Functions",
+        "weight": 0.2118
+      },
+      {
+        "name": "Scripts (.ps1)",
+        "weight": 0.2041
+      },
+      {
+        "name": "Providers",
+        "weight": 0.1965
+      },
+      {
+        "name": "Remoting (PSRemoting)",
+        "weight": 0.9892
+      },
+      {
+        "name": "Desired State Configuration (DSC)",
+        "weight": 0.6542
+      },
+      {
+        "name": "Error Handling (try/catch)",
+        "weight": 0.1735
+      },
+      {
+        "name": "Active Directory Cmdlets",
+        "weight": 0.6958
+      },
+      {
+        "name": "Azure PowerShell",
+        "weight": 0.9476
+      },
+      {
+        "name": "Execution Policy",
+        "weight": 0.6958
+      },
+      {
+        "name": "Scripting for Automation",
+        "weight": 1.0
+      },
+      {
+        "name": "Regular Expressions",
+        "weight": 0.1353
+      },
+      {
+        "name": "Formatting Cmdlets",
+        "weight": 0.1276
+      },
+      {
+        "name": "Comparison Operators",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 1.0
+      },
+      {
+        "name": "Windows Operating System Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.6
+      },
+      {
+        "name": "Object-Oriented Programming Concepts (Basic)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_powershell"
+  },
+  {
+    "id": 68,
+    "gid": 100000068,
+    "name": "Perl",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Text-Processing Scripting Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Programming Languages",
+      "specialization": "Text Processing / System Administration"
+    },
+    "aliases": [
+      "Perl",
+      "Perl5",
+      "Perl Language",
+      "Practical Extraction and Report Language"
+    ],
+    "concepts": [
+      {
+        "name": "Scalars",
+        "weight": 0.5295
+      },
+      {
+        "name": "Arrays",
+        "weight": 0.2407
+      },
+      {
+        "name": "Hashes",
+        "weight": 0.8205
+      },
+      {
+        "name": "Regular Expressions",
+        "weight": 1.0
+      },
+      {
+        "name": "Context (Scalar vs List)",
+        "weight": 0.2129
+      },
+      {
+        "name": "References",
+        "weight": 0.5974
+      },
+      {
+        "name": "Subroutines",
+        "weight": 0.1943
+      },
+      {
+        "name": "Modules (CPAN)",
+        "weight": 0.5974
+      },
+      {
+        "name": "Object-Oriented Perl",
+        "weight": 0.1757
+      },
+      {
+        "name": "File I/O",
+        "weight": 0.7526
+      },
+      {
+        "name": "String Manipulation",
+        "weight": 0.1571
+      },
+      {
+        "name": "Pattern Matching",
+        "weight": 0.1479
+      },
+      {
+        "name": "Text Processing",
+        "weight": 1.0
+      },
+      {
+        "name": "Sigils ($, @, %)",
+        "weight": 0.1293
+      },
+      {
+        "name": "use strict/warnings",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Programming Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Regular Expressions Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "language_perl"
+  },
+  {
+    "id": 69,
+    "gid": 100000069,
+    "name": "MATLAB",
+    "entity_type": "Programming Language",
+    "entity_subtype": "Numerical Computing Language and Environment",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Science",
+      "sub_category": "Programming Languages",
+      "specialization": "Numerical / Scientific Computing"
+    },
+    "aliases": [
+      "MATLAB",
+      "Matrix Laboratory"
+    ],
+    "concepts": [
+      {
+        "name": "Matrices and Arrays",
+        "weight": 1.0
+      },
+      {
+        "name": "Vectorized Operations",
+        "weight": 0.574
+      },
+      {
+        "name": "Control Flow",
+        "weight": 0.23
+      },
+      {
+        "name": "Functions",
+        "weight": 0.22
+      },
+      {
+        "name": "Scripts",
+        "weight": 0.21
+      },
+      {
+        "name": "Toolboxes (Signal Processing, Image Processing)",
+        "weight": 0.8091
+      },
+      {
+        "name": "Simulink",
+        "weight": 0.5851
+      },
+      {
+        "name": "Plotting and Visualization",
+        "weight": 0.7649
+      },
+      {
+        "name": "Symbolic Math Toolbox",
+        "weight": 0.17
+      },
+      {
+        "name": "Cell Arrays",
+        "weight": 0.16
+      },
+      {
+        "name": "Structures",
+        "weight": 0.15
+      },
+      {
+        "name": "File I/O",
+        "weight": 0.14
+      },
+      {
+        "name": "Numerical Methods",
+        "weight": 0.776
+      },
+      {
+        "name": "Linear Algebra Operations",
+        "weight": 0.5409
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Linear Algebra",
+        "weight": 1.0
+      },
+      {
+        "name": "Basic Math for Programming",
+        "weight": 0.7
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_matlab"
+  },
+  {
+    "id": 144,
+    "gid": 100000144,
+    "name": "HTML",
+    "entity_type": "Markup Language",
+    "entity_subtype": "Web Markup Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Frontend Development",
+      "specialization": "Web Markup"
+    },
+    "aliases": [
+      "HTML",
+      "HTML5",
+      "HyperText Markup Language",
+      "HTML4"
+    ],
+    "concepts": [
+      {
+        "name": "Elements and Tags",
+        "weight": 0.8455
+      },
+      {
+        "name": "Attributes",
+        "weight": 0.2441
+      },
+      {
+        "name": "Document Structure (DOCTYPE, html, head, body)",
+        "weight": 0.6786
+      },
+      {
+        "name": "Semantic HTML",
+        "weight": 1.0
+      },
+      {
+        "name": "Forms",
+        "weight": 1.0
+      },
+      {
+        "name": "Input Types",
+        "weight": 0.2205
+      },
+      {
+        "name": "Tables",
+        "weight": 0.2145
+      },
+      {
+        "name": "Lists",
+        "weight": 0.2086
+      },
+      {
+        "name": "Links and Anchors",
+        "weight": 0.5189
+      },
+      {
+        "name": "Images and Media",
+        "weight": 0.1968
+      },
+      {
+        "name": "Meta Tags",
+        "weight": 0.1909
+      },
+      {
+        "name": "SEO Basics",
+        "weight": 0.5169
+      },
+      {
+        "name": "Accessibility (ARIA)",
+        "weight": 0.6714
+      },
+      {
+        "name": "Canvas API",
+        "weight": 0.1732
+      },
+      {
+        "name": "SVG Embedding",
+        "weight": 0.1673
+      },
+      {
+        "name": "Web Components",
+        "weight": 0.1614
+      },
+      {
+        "name": "Custom Elements",
+        "weight": 0.1555
+      },
+      {
+        "name": "Shadow DOM",
+        "weight": 0.1495
+      },
+      {
+        "name": "Templates",
+        "weight": 0.1436
+      },
+      {
+        "name": "Iframes",
+        "weight": 0.1377
+      },
+      {
+        "name": "Responsive Meta Viewport",
+        "weight": 0.5045
+      },
+      {
+        "name": "Data Attributes",
+        "weight": 0.1259
+      },
+      {
+        "name": "Microdata/Schema.org",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Internet Fundamentals",
+        "weight": 0.7
+      },
+      {
+        "name": "Text Editors",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_html"
+  },
+  {
+    "id": 145,
+    "gid": 100000145,
+    "name": "CSS",
+    "entity_type": "Style Sheet Language",
+    "entity_subtype": "Web Styling Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Frontend Development",
+      "specialization": "Web Styling"
+    },
+    "aliases": [
+      "CSS",
+      "CSS3",
+      "Cascading Style Sheets"
+    ],
+    "concepts": [
+      {
+        "name": "Selectors",
+        "weight": 0.5806
+      },
+      {
+        "name": "Specificity",
+        "weight": 0.5806
+      },
+      {
+        "name": "Box Model",
+        "weight": 0.7721
+      },
+      {
+        "name": "Flexbox",
+        "weight": 1.0
+      },
+      {
+        "name": "CSS Grid",
+        "weight": 1.0
+      },
+      {
+        "name": "Positioning",
+        "weight": 0.2229
+      },
+      {
+        "name": "Responsive Design",
+        "weight": 0.7721
+      },
+      {
+        "name": "Media Queries",
+        "weight": 0.5806
+      },
+      {
+        "name": "Pseudo-classes",
+        "weight": 0.2067
+      },
+      {
+        "name": "Pseudo-elements",
+        "weight": 0.2012
+      },
+      {
+        "name": "Transitions",
+        "weight": 0.5779
+      },
+      {
+        "name": "Animations",
+        "weight": 0.5779
+      },
+      {
+        "name": "Transforms",
+        "weight": 0.185
+      },
+      {
+        "name": "Custom Properties (CSS Variables)",
+        "weight": 0.5271
+      },
+      {
+        "name": "Cascading and Inheritance",
+        "weight": 0.1742
+      },
+      {
+        "name": "Typography (Font Properties)",
+        "weight": 0.5779
+      },
+      {
+        "name": "Colors and Units",
+        "weight": 0.1633
+      },
+      {
+        "name": "CSS Frameworks (Bootstrap, Tailwind)",
+        "weight": 0.5779
+      },
+      {
+        "name": "Sass/SCSS Preprocessing",
+        "weight": 0.5271
+      },
+      {
+        "name": "Less Preprocessing",
+        "weight": 0.1471
+      },
+      {
+        "name": "BEM Methodology",
+        "weight": 0.5271
+      },
+      {
+        "name": "CSS-in-JS",
+        "weight": 0.5271
+      },
+      {
+        "name": "Container Queries",
+        "weight": 0.1308
+      },
+      {
+        "name": "Z-index and Stacking Context",
+        "weight": 0.1254
+      },
+      {
+        "name": "CSS Reset/Normalize",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "HTML",
+        "weight": 1.0
+      },
+      {
+        "name": "Computer Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "Design Fundamentals (Recommended)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_css"
+  },
+  {
+    "id": 151,
+    "gid": 100000151,
+    "name": "GraphQL",
+    "entity_type": "Query Language",
+    "entity_subtype": "API Query and Manipulation Language",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "API Technologies",
+      "specialization": "API Query Languages"
+    },
+    "aliases": [
+      "GraphQL",
+      "GQL"
+    ],
+    "concepts": [
+      {
+        "name": "Schema Definition Language (SDL)",
+        "weight": 0.793
+      },
+      {
+        "name": "Queries",
+        "weight": 0.9738
+      },
+      {
+        "name": "Mutations",
+        "weight": 0.9738
+      },
+      {
+        "name": "Subscriptions",
+        "weight": 0.2175
+      },
+      {
+        "name": "Resolvers",
+        "weight": 1.0
+      },
+      {
+        "name": "Types and Scalars",
+        "weight": 0.5773
+      },
+      {
+        "name": "Fragments",
+        "weight": 0.5395
+      },
+      {
+        "name": "Directives",
+        "weight": 0.1742
+      },
+      {
+        "name": "Introspection",
+        "weight": 0.1633
+      },
+      {
+        "name": "N+1 Problem",
+        "weight": 0.5657
+      },
+      {
+        "name": "DataLoader Pattern",
+        "weight": 0.5657
+      },
+      {
+        "name": "Apollo Client/Server",
+        "weight": 0.7465
+      },
+      {
+        "name": "Federation",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JSON",
+        "weight": 1.0
+      },
+      {
+        "name": "HTTP",
+        "weight": 0.8
+      },
+      {
+        "name": "Programming Fundamentals",
+        "weight": 0.6
+      },
+      {
+        "name": "API Design Concepts",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "concept_graphql"
+  }
+]

@@ -1,0 +1,256 @@
+[
+  {
+    "id": 184,
+    "gid": 100000184,
+    "name": "GPU (Graphics Processing Unit)",
+    "entity_type": "Hardware",
+    "entity_subtype": "Processing Unit",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Hardware & Infrastructure",
+      "sub_category": "Compute Hardware",
+      "specialization": "Parallel Processing"
+    },
+    "aliases": [
+      "GPU",
+      "Graphics Processing Unit"
+    ],
+    "concepts": [
+      {
+        "name": "Parallel Compute Cores",
+        "weight": 0.25
+      },
+      {
+        "name": "CUDA",
+        "weight": 1.0
+      },
+      {
+        "name": "Tensor Cores",
+        "weight": 0.2067
+      },
+      {
+        "name": "VRAM",
+        "weight": 0.873
+      },
+      {
+        "name": "Model Training Acceleration",
+        "weight": 1.0
+      },
+      {
+        "name": "Inference Acceleration",
+        "weight": 0.873
+      },
+      {
+        "name": "Mixed Precision Training",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Architecture Basics",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "tool_gpu_graphics_processing_unit"
+  },
+  {
+    "id": 185,
+    "gid": 100000185,
+    "name": "TPU (Tensor Processing Unit)",
+    "entity_type": "Hardware",
+    "entity_subtype": "Processing Unit",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Hardware & Infrastructure",
+      "sub_category": "Compute Hardware",
+      "specialization": "Parallel Processing"
+    },
+    "aliases": [
+      "TPU",
+      "Tensor Processing Unit"
+    ],
+    "concepts": [
+      {
+        "name": "Matrix Multiplication Acceleration",
+        "weight": 1.0
+      },
+      {
+        "name": "Systolic Array",
+        "weight": 0.2175
+      },
+      {
+        "name": "XLA Compilation",
+        "weight": 1.0
+      },
+      {
+        "name": "Cloud TPU Pods",
+        "weight": 0.1525
+      },
+      {
+        "name": "Training Throughput",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Machine Learning Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "GPU (Graphics Processing Unit)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_tpu_tensor_processing_unit"
+  },
+  {
+    "id": 186,
+    "gid": 100000186,
+    "name": "Server Hardware",
+    "entity_type": "Hardware",
+    "entity_subtype": "Compute Infrastructure",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Hardware & Infrastructure",
+      "sub_category": "Data Center Hardware",
+      "specialization": "Server Systems"
+    },
+    "aliases": [
+      "Servers",
+      "Physical Servers"
+    ],
+    "concepts": [
+      {
+        "name": "Rack Servers",
+        "weight": 1.0
+      },
+      {
+        "name": "CPU and Memory Specs",
+        "weight": 0.8014
+      },
+      {
+        "name": "Redundant Power Supplies",
+        "weight": 0.8014
+      },
+      {
+        "name": "RAID Storage",
+        "weight": 1.0
+      },
+      {
+        "name": "Data Center Cooling",
+        "weight": 0.146
+      },
+      {
+        "name": "Hardware Provisioning",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Hardware Basics",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "tool_server_hardware"
+  },
+  {
+    "id": 187,
+    "gid": 100000187,
+    "name": "Network Switch",
+    "entity_type": "Hardware",
+    "entity_subtype": "Networking Equipment",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Hardware & Infrastructure",
+      "sub_category": "Networking Hardware",
+      "specialization": "Layer 2/3 Switching"
+    },
+    "aliases": [
+      "Switch",
+      "Ethernet Switch"
+    ],
+    "concepts": [
+      {
+        "name": "Layer 2 Switching",
+        "weight": 0.25
+      },
+      {
+        "name": "VLANs",
+        "weight": 1.0
+      },
+      {
+        "name": "Port Trunking",
+        "weight": 0.198
+      },
+      {
+        "name": "Spanning Tree Protocol",
+        "weight": 1.0
+      },
+      {
+        "name": "Layer 3 Switching",
+        "weight": 1.0
+      },
+      {
+        "name": "Switch Stacking",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Networking Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "TCP/IP",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "networking_network_switch"
+  },
+  {
+    "id": 188,
+    "gid": 100000188,
+    "name": "SSD Storage",
+    "entity_type": "Hardware",
+    "entity_subtype": "Storage Device",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Hardware & Infrastructure",
+      "sub_category": "Storage Hardware",
+      "specialization": "Solid-State Storage"
+    },
+    "aliases": [
+      "SSD",
+      "Solid State Drive"
+    ],
+    "concepts": [
+      {
+        "name": "NAND Flash",
+        "weight": 0.25
+      },
+      {
+        "name": "NVMe",
+        "weight": 1.0
+      },
+      {
+        "name": "Wear Leveling",
+        "weight": 0.185
+      },
+      {
+        "name": "IOPS",
+        "weight": 1.0
+      },
+      {
+        "name": "Read/Write Latency",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Computer Hardware Basics",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "tool_ssd_storage"
+  }
+]

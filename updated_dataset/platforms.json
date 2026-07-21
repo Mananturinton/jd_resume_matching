@@ -1,0 +1,741 @@
+[
+  {
+    "id": 75,
+    "gid": 100000075,
+    "name": "ELK Stack",
+    "entity_type": "Platform",
+    "entity_subtype": "Log Management and Analytics Stack",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Monitoring and Observability",
+      "specialization": "Log Aggregation Systems"
+    },
+    "aliases": [
+      "ELK Stack",
+      "ELK",
+      "Elastic Stack",
+      "Elasticsearch Logstash Kibana"
+    ],
+    "concepts": [
+      {
+        "name": "Elasticsearch",
+        "weight": 0.25
+      },
+      {
+        "name": "Logstash",
+        "weight": 0.7085
+      },
+      {
+        "name": "Kibana",
+        "weight": 0.23
+      },
+      {
+        "name": "Beats (Filebeat, Metricbeat, Packetbeat)",
+        "weight": 1.0
+      },
+      {
+        "name": "Log Ingestion",
+        "weight": 0.6943
+      },
+      {
+        "name": "Log Parsing (Grok Patterns)",
+        "weight": 0.7085
+      },
+      {
+        "name": "Index Patterns",
+        "weight": 0.19
+      },
+      {
+        "name": "Kibana Dashboards",
+        "weight": 0.7085
+      },
+      {
+        "name": "Kibana Visualizations",
+        "weight": 0.17
+      },
+      {
+        "name": "Kibana Discover",
+        "weight": 0.6415
+      },
+      {
+        "name": "Data Pipelines",
+        "weight": 0.6943
+      },
+      {
+        "name": "Ingest Nodes",
+        "weight": 0.14
+      },
+      {
+        "name": "Log Enrichment",
+        "weight": 0.6415
+      },
+      {
+        "name": "Alerting (ElastAlert/Kibana Alerting)",
+        "weight": 0.6943
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Elasticsearch Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Logging Concepts",
+        "weight": 0.8
+      },
+      {
+        "name": "JSON",
+        "weight": 0.6
+      },
+      {
+        "name": "Networking Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "observability_elk_stack"
+  },
+  {
+    "id": 77,
+    "gid": 100000077,
+    "name": "Figma",
+    "entity_type": "Platform",
+    "entity_subtype": "Collaborative UI/UX Design Tool",
+    "hierarchy": {
+      "domain": "Design",
+      "category": "Product Design",
+      "sub_category": "UI/UX Design Tools",
+      "specialization": "Collaborative Design Platforms"
+    },
+    "aliases": [
+      "Figma",
+      "Figma Design",
+      "FigJam"
+    ],
+    "concepts": [
+      {
+        "name": "Frames",
+        "weight": 0.6787
+      },
+      {
+        "name": "Components",
+        "weight": 0.6787
+      },
+      {
+        "name": "Variants",
+        "weight": 0.6787
+      },
+      {
+        "name": "Auto Layout",
+        "weight": 0.6787
+      },
+      {
+        "name": "Constraints",
+        "weight": 0.2274
+      },
+      {
+        "name": "Design Tokens",
+        "weight": 0.5618
+      },
+      {
+        "name": "Prototyping",
+        "weight": 0.6787
+      },
+      {
+        "name": "Interactive Prototypes",
+        "weight": 0.6713
+      },
+      {
+        "name": "Plugins",
+        "weight": 0.2048
+      },
+      {
+        "name": "Design Systems",
+        "weight": 1.0
+      },
+      {
+        "name": "Shared Libraries",
+        "weight": 0.6713
+      },
+      {
+        "name": "Version History",
+        "weight": 0.1878
+      },
+      {
+        "name": "Comments",
+        "weight": 0.1822
+      },
+      {
+        "name": "Dev Mode",
+        "weight": 0.5618
+      },
+      {
+        "name": "Inspect Panel",
+        "weight": 0.5618
+      },
+      {
+        "name": "Vector Networks",
+        "weight": 0.1652
+      },
+      {
+        "name": "Boolean Operations",
+        "weight": 0.1596
+      },
+      {
+        "name": "Grids and Layouts",
+        "weight": 0.1539
+      },
+      {
+        "name": "Responsive Design in Figma",
+        "weight": 0.1483
+      },
+      {
+        "name": "FigJam Boards",
+        "weight": 0.6713
+      },
+      {
+        "name": "Team Libraries",
+        "weight": 0.137
+      },
+      {
+        "name": "Style Guides",
+        "weight": 0.1313
+      },
+      {
+        "name": "Collaborative Editing",
+        "weight": 0.1257
+      },
+      {
+        "name": "Effects (Shadows, Blur)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Design Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Color Theory",
+        "weight": 0.8
+      },
+      {
+        "name": "Typography Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "UX Principles",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_figma"
+  },
+  {
+    "id": 78,
+    "gid": 100000078,
+    "name": "Tableau",
+    "entity_type": "Platform",
+    "entity_subtype": "Business Intelligence and Data Visualization Tool",
+    "hierarchy": {
+      "domain": "Data",
+      "category": "Business Intelligence",
+      "sub_category": "Data Visualization",
+      "specialization": "BI and Analytics Platforms"
+    },
+    "aliases": [
+      "Tableau",
+      "Tableau Desktop",
+      "Tableau Server",
+      "Tableau Online",
+      "Tableau Public",
+      "Tableau Prep"
+    ],
+    "concepts": [
+      {
+        "name": "Worksheets",
+        "weight": 0.7107
+      },
+      {
+        "name": "Dashboards",
+        "weight": 1.0
+      },
+      {
+        "name": "Stories",
+        "weight": 0.6393
+      },
+      {
+        "name": "Data Sources",
+        "weight": 0.2305
+      },
+      {
+        "name": "Data Blending",
+        "weight": 0.724
+      },
+      {
+        "name": "Calculated Fields",
+        "weight": 0.7107
+      },
+      {
+        "name": "Table Calculations",
+        "weight": 0.211
+      },
+      {
+        "name": "LOD Expressions (Level of Detail)",
+        "weight": 0.724
+      },
+      {
+        "name": "Filters",
+        "weight": 1.0
+      },
+      {
+        "name": "Parameters",
+        "weight": 0.1915
+      },
+      {
+        "name": "Actions (Filter, Highlight, URL)",
+        "weight": 0.6393
+      },
+      {
+        "name": "Marks Card",
+        "weight": 0.1785
+      },
+      {
+        "name": "Dimensions and Measures",
+        "weight": 0.7107
+      },
+      {
+        "name": "Extracts vs Live Connections",
+        "weight": 0.1655
+      },
+      {
+        "name": "Tableau Prep",
+        "weight": 0.159
+      },
+      {
+        "name": "Publishing to Server",
+        "weight": 0.1525
+      },
+      {
+        "name": "Tableau Server Administration",
+        "weight": 0.724
+      },
+      {
+        "name": "Row-Level Security",
+        "weight": 0.724
+      },
+      {
+        "name": "Data Visualization Best Practices",
+        "weight": 0.133
+      },
+      {
+        "name": "Charts (Bar, Line, Scatter, Heat Map)",
+        "weight": 0.1265
+      },
+      {
+        "name": "Maps and Geospatial Analysis",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Data Analysis Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "SQL Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Statistics Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Excel Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_tableau"
+  },
+  {
+    "id": 79,
+    "gid": 100000079,
+    "name": "Power BI",
+    "entity_type": "Platform",
+    "entity_subtype": "Business Intelligence and Data Visualization Tool",
+    "hierarchy": {
+      "domain": "Data",
+      "category": "Business Intelligence",
+      "sub_category": "Data Visualization",
+      "specialization": "BI and Analytics Platforms"
+    },
+    "aliases": [
+      "Power BI",
+      "Microsoft Power BI",
+      "Power BI Desktop",
+      "Power BI Service",
+      "PBI"
+    ],
+    "concepts": [
+      {
+        "name": "Reports",
+        "weight": 0.9315
+      },
+      {
+        "name": "Dashboards",
+        "weight": 0.6093
+      },
+      {
+        "name": "Datasets",
+        "weight": 0.2376
+      },
+      {
+        "name": "Power Query",
+        "weight": 0.6722
+      },
+      {
+        "name": "DAX (Data Analysis Expressions)",
+        "weight": 0.6722
+      },
+      {
+        "name": "Data Modeling",
+        "weight": 1.0
+      },
+      {
+        "name": "Relationships",
+        "weight": 0.6722
+      },
+      {
+        "name": "Star Schema",
+        "weight": 0.6778
+      },
+      {
+        "name": "Measures",
+        "weight": 0.2005
+      },
+      {
+        "name": "Calculated Columns",
+        "weight": 0.1943
+      },
+      {
+        "name": "Row-Level Security",
+        "weight": 0.6778
+      },
+      {
+        "name": "Power BI Service",
+        "weight": 0.1819
+      },
+      {
+        "name": "Power BI Gateway",
+        "weight": 0.6778
+      },
+      {
+        "name": "Power Automate Integration",
+        "weight": 0.1695
+      },
+      {
+        "name": "Custom Visuals",
+        "weight": 0.1633
+      },
+      {
+        "name": "Bookmarks",
+        "weight": 0.1571
+      },
+      {
+        "name": "Drill-Through",
+        "weight": 0.151
+      },
+      {
+        "name": "Q&A Natural Language Query",
+        "weight": 0.6093
+      },
+      {
+        "name": "Power BI Embedded",
+        "weight": 0.1386
+      },
+      {
+        "name": "Dataflows",
+        "weight": 0.6778
+      },
+      {
+        "name": "Composite Models",
+        "weight": 0.1262
+      },
+      {
+        "name": "Direct Query vs Import Mode",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Data Analysis Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "SQL Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Excel Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Statistics Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_power_bi"
+  },
+  {
+    "id": 164,
+    "gid": 100000164,
+    "name": "Jupyter Notebook",
+    "entity_type": "Platform",
+    "entity_subtype": "Interactive Computing Environment",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Data Science Tools",
+      "specialization": "Interactive Development Environments"
+    },
+    "aliases": [
+      "Jupyter Notebook",
+      "Jupyter",
+      "JupyterLab",
+      "IPython Notebook"
+    ],
+    "concepts": [
+      {
+        "name": "Cells (Code, Markdown)",
+        "weight": 1.0
+      },
+      {
+        "name": "Kernel",
+        "weight": 0.5915
+      },
+      {
+        "name": "Interactive Execution",
+        "weight": 0.7904
+      },
+      {
+        "name": "Magic Commands",
+        "weight": 0.5915
+      },
+      {
+        "name": "Notebook Extensions",
+        "weight": 0.1922
+      },
+      {
+        "name": "Data Visualization in Notebooks",
+        "weight": 0.8011
+      },
+      {
+        "name": "JupyterLab Interface",
+        "weight": 0.1633
+      },
+      {
+        "name": "Notebook Sharing (.ipynb)",
+        "weight": 0.5596
+      },
+      {
+        "name": "Widgets (ipywidgets)",
+        "weight": 0.1344
+      },
+      {
+        "name": "Remote/Cloud Notebooks (Colab, SageMaker)",
+        "weight": 0.5489
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Python",
+        "weight": 1.0
+      },
+      {
+        "name": "Basic Computer Literacy",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_jupyter_notebook"
+  },
+  {
+    "id": 208,
+    "gid": 100000208,
+    "name": "GitHub",
+    "entity_type": "Platform",
+    "entity_subtype": "Code Hosting Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Version Control",
+      "specialization": "Collaboration Platforms"
+    },
+    "aliases": [
+      "Github",
+      "GitHub.com"
+    ],
+    "concepts": [
+      {
+        "name": "Repositories",
+        "weight": 1.0
+      },
+      {
+        "name": "Pull Requests",
+        "weight": 1.0
+      },
+      {
+        "name": "Issues",
+        "weight": 0.2129
+      },
+      {
+        "name": "GitHub Actions",
+        "weight": 0.8446
+      },
+      {
+        "name": "Forks",
+        "weight": 0.1757
+      },
+      {
+        "name": "Code Review",
+        "weight": 1.0
+      },
+      {
+        "name": "GitHub Pages",
+        "weight": 0.1386
+      },
+      {
+        "name": "Organizations and Teams",
+        "weight": 0.8446
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Git",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "version_control_github"
+  },
+  {
+    "id": 220,
+    "gid": 100000220,
+    "name": "Linux",
+    "entity_type": "Operating System",
+    "entity_subtype": "Unix-like Operating System",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps & Infrastructure",
+      "sub_category": "Operating Systems",
+      "specialization": "Server Operating Systems"
+    },
+    "aliases": [
+      "GNU/Linux",
+      "Linux OS"
+    ],
+    "concepts": [
+      {
+        "name": "Shell Scripting",
+        "weight": 0.9863
+      },
+      {
+        "name": "File Permissions",
+        "weight": 1.0
+      },
+      {
+        "name": "Process Management",
+        "weight": 0.9863
+      },
+      {
+        "name": "Package Managers (apt/yum)",
+        "weight": 1.0
+      },
+      {
+        "name": "systemd",
+        "weight": 0.9863
+      },
+      {
+        "name": "Kernel Basics",
+        "weight": 0.1571
+      },
+      {
+        "name": "Networking Tools",
+        "weight": 0.1386
+      },
+      {
+        "name": "Cron Jobs",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Command Line Interface",
+        "weight": 1.0
+      },
+      {
+        "name": "Operating Systems Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_linux"
+  },
+  {
+    "id": 221,
+    "gid": 100000221,
+    "name": "Databricks",
+    "entity_type": "Platform",
+    "entity_subtype": "Unified Data & AI Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Engineering",
+      "sub_category": "Data & AI Platforms",
+      "specialization": "Lakehouse Platforms"
+    },
+    "aliases": [
+      "Databricks Lakehouse Platform"
+    ],
+    "concepts": [
+      {
+        "name": "Lakehouse Architecture",
+        "weight": 1.0
+      },
+      {
+        "name": "Delta Lake",
+        "weight": 1.0
+      },
+      {
+        "name": "Notebooks",
+        "weight": 0.904
+      },
+      {
+        "name": "Cluster Management",
+        "weight": 1.0
+      },
+      {
+        "name": "Unity Catalog",
+        "weight": 0.1633
+      },
+      {
+        "name": "MLflow Integration",
+        "weight": 0.904
+      },
+      {
+        "name": "Job Scheduling",
+        "weight": 0.904
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Apache Spark",
+        "weight": 1.0
+      },
+      {
+        "name": "SQL",
+        "weight": 0.7
+      },
+      {
+        "name": "Cloud Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_databricks"
+  }
+]

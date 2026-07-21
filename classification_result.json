@@ -7,11 +7,11 @@
       "section": "responsibilities",
       "is_compound": true,
       "compound_type": "ALL_REQUIRED",
-      "depth_qualifier": "Design, build, and maintain",
+      "depth_qualifier": null,
       "tier": "CRITICAL",
       "specificity_weight": 1,
-      "tier_reason": "Core backend responsibility with explicit technologies (RESTful/GraphQL, Node.js).",
-      "expected_depth": "INTERMEDIATE",
+      "tier_reason": "Core backend responsibility with specific API styles and Node.js.",
+      "expected_depth": null,
       "sub_requirements": [
         {
           "sub_id": "0a",
@@ -33,41 +33,18 @@
         },
         {
           "sub_id": "0d",
-          "text": "Build RESTful APIs",
-          "type": "technical_domain",
-          "domain": "API development",
-          "matchable": true,
-          "match_keywords": [
-            "REST",
-            "RESTful",
-            "HTTP",
-            "API"
-          ]
+          "text": "Build RESTful APIs in Node.js",
+          "type": "responsibility",
+          "matchable": true
         },
         {
           "sub_id": "0e",
-          "text": "Build GraphQL APIs",
-          "type": "tool",
+          "text": "Build GraphQL APIs in Node.js",
+          "type": "responsibility",
           "matchable": true
         }
       ],
       "entities": [
-        {
-          "entity": "Node.js",
-          "category": "tool",
-          "parent_relations": [
-            {
-              "target": "JavaScript",
-              "relation_type": "USES_LANGUAGE",
-              "category": "tool"
-            },
-            {
-              "target": "V8 Engine",
-              "relation_type": "BUILT_ON",
-              "category": "tool"
-            }
-          ]
-        },
         {
           "entity": "REST",
           "category": "concept",
@@ -99,12 +76,28 @@
               "category": "tool"
             }
           ]
+        },
+        {
+          "entity": "Node.js",
+          "category": "tool",
+          "parent_relations": [
+            {
+              "target": "JavaScript",
+              "relation_type": "USES_LANGUAGE",
+              "category": "tool"
+            },
+            {
+              "target": "V8 Engine",
+              "relation_type": "BUILT_ON",
+              "category": "tool"
+            }
+          ]
         }
       ],
       "dominant_role": "Backend Developer",
       "role_attribution": {
-        "Backend Developer": 80,
-        "Cloud Engineer": 20
+        "Backend Developer": 85,
+        "Cloud Engineer": 15
       }
     },
     {
@@ -113,34 +106,35 @@
       "section": "responsibilities",
       "is_compound": true,
       "compound_type": "ALL_REQUIRED",
-      "depth_qualifier": "Develop",
-      "tier": "IMPORTANT",
-      "specificity_weight": 0.7,
-      "tier_reason": "Architecture patterns (microservices, event-driven) are key differentiators but not tied to a specific platform in this sentence.",
-      "expected_depth": "INTERMEDIATE",
+      "depth_qualifier": null,
+      "tier": "CRITICAL",
+      "specificity_weight": 1,
+      "tier_reason": "Explicit architectural patterns: microservices and event-driven applications with performance constraints.",
+      "expected_depth": null,
       "sub_requirements": [
         {
           "sub_id": "1a",
           "text": "Develop microservices",
-          "type": "technical_domain",
-          "domain": "software architecture",
-          "matchable": true,
-          "match_keywords": [
-            "microservices",
-            "service decomposition",
-            "distributed systems"
-          ]
+          "type": "responsibility",
+          "matchable": true
         },
         {
           "sub_id": "1b",
           "text": "Develop event-driven applications",
+          "type": "responsibility",
+          "matchable": true
+        },
+        {
+          "sub_id": "1c",
+          "text": "High-throughput, low-latency business logic",
           "type": "technical_domain",
-          "domain": "software architecture",
+          "domain": "backend performance",
           "matchable": true,
           "match_keywords": [
-            "event-driven",
-            "pub/sub",
-            "asynchronous"
+            "low latency",
+            "high throughput",
+            "performance",
+            "scalability"
           ]
         }
       ],
@@ -153,11 +147,6 @@
               "target": "Service-Oriented Architecture",
               "relation_type": "PART_OF",
               "category": "concept"
-            },
-            {
-              "target": "Distributed Systems",
-              "relation_type": "RELATED_TO",
-              "category": "concept"
             }
           ]
         },
@@ -169,19 +158,14 @@
               "target": "Asynchronous Messaging",
               "relation_type": "REQUIRES",
               "category": "concept"
-            },
-            {
-              "target": "Distributed Systems",
-              "relation_type": "RELATED_TO",
-              "category": "concept"
             }
           ]
         }
       ],
       "dominant_role": "Backend Developer",
       "role_attribution": {
-        "Backend Developer": 85,
-        "Cloud Engineer": 15
+        "Backend Developer": 90,
+        "Cloud Engineer": 10
       }
     },
     {
@@ -190,48 +174,29 @@
       "section": "responsibilities",
       "is_compound": true,
       "compound_type": "ALL_REQUIRED",
-      "depth_qualifier": "Write optimized",
+      "depth_qualifier": null,
       "tier": "CRITICAL",
       "specificity_weight": 1,
-      "tier_reason": "Explicit database work across SQL and NoSQL with concrete tasks (queries, schemas, consistency).",
-      "expected_depth": "INTERMEDIATE",
+      "tier_reason": "Concrete database responsibilities across SQL and NoSQL with query optimization and schema design.",
+      "expected_depth": null,
       "sub_requirements": [
         {
           "sub_id": "2a",
           "text": "Write optimized database queries",
-          "type": "technical_domain",
-          "domain": "databases",
-          "matchable": true,
-          "match_keywords": [
-            "query optimization",
-            "indexes",
-            "EXPLAIN",
-            "performance"
-          ]
+          "type": "responsibility",
+          "matchable": true
         },
         {
           "sub_id": "2b",
           "text": "Design database schemas",
-          "type": "technical_domain",
-          "domain": "databases",
-          "matchable": true,
-          "match_keywords": [
-            "schema design",
-            "data modeling",
-            "normalization"
-          ]
+          "type": "responsibility",
+          "matchable": true
         },
         {
           "sub_id": "2c",
-          "text": "Manage data consistency across databases",
-          "type": "practice",
-          "matchable": true,
-          "match_keywords": [
-            "consistency",
-            "transactions",
-            "ACID",
-            "eventual consistency"
-          ]
+          "text": "Manage database consistency",
+          "type": "responsibility",
+          "matchable": true
         },
         {
           "sub_id": "2d",
@@ -241,7 +206,7 @@
           "matchable": true,
           "match_keywords": [
             "SQL",
-            "relational",
+            "relational database",
             "RDBMS"
           ]
         },
@@ -253,9 +218,8 @@
           "matchable": true,
           "match_keywords": [
             "NoSQL",
-            "document",
-            "key-value",
-            "wide-column"
+            "document database",
+            "key-value store"
           ]
         }
       ],
@@ -276,24 +240,8 @@
           "category": "concept",
           "parent_relations": [
             {
-              "target": "Distributed Systems",
-              "relation_type": "RELATED_TO",
-              "category": "concept"
-            }
-          ]
-        },
-        {
-          "entity": "Data Consistency",
-          "category": "concept",
-          "parent_relations": [
-            {
-              "target": "Distributed Systems",
-              "relation_type": "RELATED_TO",
-              "category": "concept"
-            },
-            {
-              "target": "Transactions",
-              "relation_type": "RELATED_TO",
+              "target": "Non-relational Database",
+              "relation_type": "PART_OF",
               "category": "concept"
             }
           ]
@@ -301,8 +249,8 @@
       ],
       "dominant_role": "Backend Developer",
       "role_attribution": {
-        "Backend Developer": 90,
-        "Cloud Engineer": 10
+        "Backend Developer": 85,
+        "Cloud Engineer": 15
       }
     },
     {
@@ -311,37 +259,23 @@
       "section": "responsibilities",
       "is_compound": true,
       "compound_type": "ALL_REQUIRED",
-      "depth_qualifier": "Deploy and maintain",
+      "depth_qualifier": null,
       "tier": "CRITICAL",
       "specificity_weight": 1,
-      "tier_reason": "Cloud deployment plus explicit security mechanisms (OAuth, JWT, encryption).",
-      "expected_depth": "INTERMEDIATE",
+      "tier_reason": "Cloud deployment plus concrete security mechanisms (OAuth, JWT, encryption).",
+      "expected_depth": null,
       "sub_requirements": [
         {
           "sub_id": "3a",
           "text": "Deploy applications in cloud environments",
-          "type": "technical_domain",
-          "domain": "cloud",
-          "matchable": true,
-          "match_keywords": [
-            "AWS",
-            "Azure",
-            "GCP",
-            "cloud deployment"
-          ]
+          "type": "responsibility",
+          "matchable": true
         },
         {
           "sub_id": "3b",
           "text": "Maintain applications in cloud environments",
-          "type": "technical_domain",
-          "domain": "cloud",
-          "matchable": true,
-          "match_keywords": [
-            "operations",
-            "monitoring",
-            "SRE",
-            "on-call"
-          ]
+          "type": "responsibility",
+          "matchable": true
         },
         {
           "sub_id": "3c",
@@ -366,18 +300,28 @@
       ],
       "entities": [
         {
+          "entity": "Cloud Computing",
+          "category": "concept",
+          "parent_relations": []
+        },
+        {
           "entity": "OAuth",
           "category": "tool",
           "parent_relations": [
             {
               "target": "OAuth 2.0",
-              "relation_type": "EXTENDS",
+              "relation_type": "RELATED_TO",
               "category": "tool"
             },
             {
               "target": "Authorization",
-              "relation_type": "PART_OF",
+              "relation_type": "IMPLEMENTS",
               "category": "concept"
+            },
+            {
+              "target": "HTTP",
+              "relation_type": "USES_PROTOCOL",
+              "category": "tool"
             }
           ]
         },
@@ -392,7 +336,7 @@
             },
             {
               "target": "Authentication",
-              "relation_type": "PART_OF",
+              "relation_type": "IMPLEMENTS",
               "category": "concept"
             }
           ]
@@ -405,41 +349,14 @@
               "target": "Cryptography",
               "relation_type": "PART_OF",
               "category": "concept"
-            },
-            {
-              "target": "Information Security",
-              "relation_type": "PART_OF",
-              "category": "concept"
-            }
-          ]
-        },
-        {
-          "entity": "Authentication",
-          "category": "concept",
-          "parent_relations": [
-            {
-              "target": "Identity and Access Management",
-              "relation_type": "PART_OF",
-              "category": "concept"
-            }
-          ]
-        },
-        {
-          "entity": "Authorization",
-          "category": "concept",
-          "parent_relations": [
-            {
-              "target": "Identity and Access Management",
-              "relation_type": "PART_OF",
-              "category": "concept"
             }
           ]
         }
       ],
       "dominant_role": "Cloud Engineer",
       "role_attribution": {
-        "Backend Developer": 45,
-        "Cloud Engineer": 55
+        "Backend Developer": 40,
+        "Cloud Engineer": 60
       }
     },
     {
@@ -451,7 +368,7 @@
       "depth_qualifier": "Drive",
       "tier": "IMPORTANT",
       "specificity_weight": 0.7,
-      "tier_reason": "Quality practices with explicit CI/CD and automated testing responsibilities.",
+      "tier_reason": "Quality and delivery practices with CI/CD and automated testing; less stack-specific than core backend items.",
       "expected_depth": "DEEP",
       "sub_requirements": [
         {
@@ -461,32 +378,26 @@
           "matchable": true,
           "match_keywords": [
             "profiling",
+            "performance tuning",
             "latency",
-            "throughput",
-            "optimization"
+            "throughput"
           ]
         },
         {
           "sub_id": "4b",
-          "text": "Conduct code reviews",
+          "text": "Code reviews",
           "type": "practice",
           "matchable": true,
           "match_keywords": [
             "code review",
-            "pull request",
-            "PR review"
+            "pull request review"
           ]
         },
         {
           "sub_id": "4c",
           "text": "Write automated tests",
-          "type": "practice",
-          "matchable": true,
-          "match_keywords": [
-            "unit tests",
-            "integration tests",
-            "test automation"
-          ]
+          "type": "responsibility",
+          "matchable": true
         },
         {
           "sub_id": "4d",
@@ -495,7 +406,7 @@
           "matchable": true,
           "match_keywords": [
             "CI/CD",
-            "pipelines",
+            "pipeline",
             "build",
             "deploy"
           ]
@@ -503,22 +414,11 @@
       ],
       "entities": [
         {
-          "entity": "CI/CD",
-          "category": "concept",
-          "parent_relations": [
-            {
-              "target": "DevOps",
-              "relation_type": "PART_OF",
-              "category": "concept"
-            }
-          ]
-        },
-        {
           "entity": "Code Review",
           "category": "concept",
           "parent_relations": [
             {
-              "target": "Software Quality Assurance",
+              "target": "Software Development Lifecycle",
               "relation_type": "PART_OF",
               "category": "concept"
             }
@@ -536,11 +436,11 @@
           ]
         },
         {
-          "entity": "Performance Tuning",
+          "entity": "CI/CD",
           "category": "concept",
           "parent_relations": [
             {
-              "target": "Performance Engineering",
+              "target": "DevOps",
               "relation_type": "PART_OF",
               "category": "concept"
             }
@@ -562,7 +462,7 @@
       "depth_qualifier": "Deep production experience",
       "tier": "CRITICAL",
       "specificity_weight": 1,
-      "tier_reason": "Hard requirement naming Node.js and specific backend frameworks.",
+      "tier_reason": "Direct, specific backend runtime and frameworks requirement.",
       "expected_depth": "DEEP",
       "sub_requirements": [
         {
@@ -661,7 +561,7 @@
       "depth_qualifier": "Hands-on experience",
       "tier": "CRITICAL",
       "specificity_weight": 1,
-      "tier_reason": "Hard requirement listing specific SQL and NoSQL databases.",
+      "tier_reason": "Specific database technologies across relational and NoSQL categories.",
       "expected_depth": "INTERMEDIATE",
       "sub_requirements": [
         {
@@ -718,7 +618,7 @@
           "parent_relations": [
             {
               "target": "NoSQL",
-              "relation_type": "IMPLEMENTS",
+              "relation_type": "PART_OF",
               "category": "concept"
             },
             {
@@ -739,7 +639,7 @@
             },
             {
               "target": "NoSQL",
-              "relation_type": "IMPLEMENTS",
+              "relation_type": "PART_OF",
               "category": "concept"
             }
           ]
@@ -776,39 +676,21 @@
       "depth_qualifier": "Proven experience",
       "tier": "CRITICAL",
       "specificity_weight": 1,
-      "tier_reason": "Hard requirement for cloud deployment/monitoring with explicit cloud providers.",
+      "tier_reason": "Explicit cloud deployment/monitoring requirement with named cloud providers.",
       "expected_depth": "INTERMEDIATE",
       "sub_requirements": [
         {
           "sub_id": "7a",
-          "text": "Deploy applications in cloud environment",
-          "type": "technical_domain",
-          "domain": "cloud",
-          "matchable": true,
-          "match_keywords": [
-            "deployment",
-            "cloud",
-            "release"
-          ]
+          "text": "Deploy applications in cloud environment (AWS, Azure, or GCP)",
+          "type": "technical_skill",
+          "domain": "cloud infrastructure",
+          "matchable": true
         },
         {
           "sub_id": "7b",
-          "text": "Monitor applications in cloud environment",
-          "type": "technical_domain",
-          "domain": "observability",
-          "matchable": true,
-          "match_keywords": [
-            "monitoring",
-            "metrics",
-            "alerts",
-            "logs"
-          ]
-        },
-        {
-          "sub_id": "7c",
-          "text": "Major cloud environment: AWS, Azure, or GCP",
+          "text": "Monitor applications in cloud environment (AWS, Azure, or GCP)",
           "type": "technical_skill",
-          "domain": "cloud platforms",
+          "domain": "cloud operations",
           "matchable": true
         }
       ],
@@ -845,17 +727,6 @@
               "category": "concept"
             }
           ]
-        },
-        {
-          "entity": "Monitoring",
-          "category": "concept",
-          "parent_relations": [
-            {
-              "target": "Observability",
-              "relation_type": "PART_OF",
-              "category": "concept"
-            }
-          ]
         }
       ],
       "dominant_role": "Cloud Engineer",
@@ -873,31 +744,30 @@
       "depth_qualifier": "Clear understanding",
       "tier": "CRITICAL",
       "specificity_weight": 1,
-      "tier_reason": "Explicit architecture patterns plus message brokers with named technologies.",
+      "tier_reason": "Named architecture patterns and messaging technologies.",
       "expected_depth": "INTERMEDIATE",
       "sub_requirements": [
         {
           "sub_id": "8a",
-          "text": "Microservices architecture understanding",
+          "text": "Microservices architecture",
           "type": "technical_domain",
           "domain": "software architecture",
           "matchable": true,
           "match_keywords": [
             "microservices",
-            "service boundaries",
-            "distributed systems"
+            "service decomposition"
           ]
         },
         {
           "sub_id": "8b",
-          "text": "Event-driven architecture understanding",
+          "text": "Event-driven architecture",
           "type": "technical_domain",
           "domain": "software architecture",
           "matchable": true,
           "match_keywords": [
             "event-driven",
             "pub/sub",
-            "async"
+            "asynchronous"
           ]
         },
         {
@@ -969,7 +839,7 @@
           "parent_relations": [
             {
               "target": "AWS",
-              "relation_type": "PART_OF",
+              "relation_type": "RUNS_ON",
               "category": "tool"
             },
             {
@@ -993,54 +863,61 @@
       "is_compound": true,
       "compound_type": "ALL_REQUIRED",
       "depth_qualifier": "Experience",
-      "tier": "CRITICAL",
-      "specificity_weight": 1,
-      "tier_reason": "Explicit testing types and named test frameworks plus CI/CD workflows.",
+      "tier": "IMPORTANT",
+      "specificity_weight": 0.7,
+      "tier_reason": "Testing tools and CI/CD workflows are important quality gates but secondary to core backend stack.",
       "expected_depth": "INTERMEDIATE",
       "sub_requirements": [
         {
           "sub_id": "9a",
-          "text": "Write unit tests",
-          "type": "practice",
-          "matchable": true,
-          "match_keywords": [
-            "unit test",
-            "TDD",
-            "mocking"
-          ]
-        },
-        {
-          "sub_id": "9b",
-          "text": "Write integration tests",
-          "type": "practice",
-          "matchable": true,
-          "match_keywords": [
-            "integration test",
-            "test environment",
-            "testcontainers"
-          ]
-        },
-        {
-          "sub_id": "9c",
-          "text": "Testing frameworks: Jest, Mocha, Chai",
+          "text": "Write unit tests (Jest, Mocha, or Chai)",
           "type": "technical_skill",
           "domain": "testing",
           "matchable": true
         },
         {
-          "sub_id": "9d",
+          "sub_id": "9b",
+          "text": "Write integration tests (Jest, Mocha, or Chai)",
+          "type": "technical_skill",
+          "domain": "testing",
+          "matchable": true
+        },
+        {
+          "sub_id": "9c",
           "text": "Participate in CI/CD workflows",
           "type": "practice",
           "matchable": true,
           "match_keywords": [
             "CI/CD",
-            "pipelines",
+            "pipeline",
             "build",
             "deploy"
           ]
         }
       ],
       "entities": [
+        {
+          "entity": "Unit Testing",
+          "category": "concept",
+          "parent_relations": [
+            {
+              "target": "Software Testing",
+              "relation_type": "PART_OF",
+              "category": "concept"
+            }
+          ]
+        },
+        {
+          "entity": "Integration Testing",
+          "category": "concept",
+          "parent_relations": [
+            {
+              "target": "Software Testing",
+              "relation_type": "PART_OF",
+              "category": "concept"
+            }
+          ]
+        },
         {
           "entity": "Jest",
           "category": "tool",
@@ -1051,9 +928,9 @@
               "category": "tool"
             },
             {
-              "target": "Testing Framework",
-              "relation_type": "PART_OF",
-              "category": "concept"
+              "target": "Node.js",
+              "relation_type": "RUNS_ON",
+              "category": "tool"
             }
           ]
         },
@@ -1067,9 +944,9 @@
               "category": "tool"
             },
             {
-              "target": "Testing Framework",
-              "relation_type": "PART_OF",
-              "category": "concept"
+              "target": "Node.js",
+              "relation_type": "RUNS_ON",
+              "category": "tool"
             }
           ]
         },
@@ -1083,9 +960,9 @@
               "category": "tool"
             },
             {
-              "target": "Assertion Library",
-              "relation_type": "PART_OF",
-              "category": "concept"
+              "target": "Mocha",
+              "relation_type": "RELATED_TO",
+              "category": "tool"
             }
           ]
         },
@@ -1103,8 +980,8 @@
       ],
       "dominant_role": "Backend Developer",
       "role_attribution": {
-        "Backend Developer": 75,
-        "Cloud Engineer": 25
+        "Backend Developer": 70,
+        "Cloud Engineer": 30
       }
     },
     {
@@ -1116,7 +993,7 @@
       "depth_qualifier": "Experience",
       "tier": "IMPORTANT",
       "specificity_weight": 0.7,
-      "tier_reason": "Nice-to-have but specific language requirement (TypeScript) for backend.",
+      "tier_reason": "Nice-to-have but specific backend language requirement.",
       "expected_depth": "INTERMEDIATE",
       "sub_requirements": null,
       "entities": [
@@ -1147,19 +1024,19 @@
       "depth_qualifier": "Familiarity",
       "tier": "IMPORTANT",
       "specificity_weight": 0.7,
-      "tier_reason": "Nice-to-have but explicit containerization and orchestration technologies.",
+      "tier_reason": "Containerization and orchestration are relevant infra skills; stated as familiarity (nice-to-have).",
       "expected_depth": "SURFACE",
       "sub_requirements": [
         {
           "sub_id": "11a",
-          "text": "Containerization with Docker",
+          "text": "Docker containerization",
           "type": "technical_skill",
           "domain": "containers",
           "matchable": true
         },
         {
           "sub_id": "11b",
-          "text": "Orchestration with Kubernetes",
+          "text": "Kubernetes orchestration",
           "type": "technical_skill",
           "domain": "containers",
           "matchable": true
@@ -1201,8 +1078,8 @@
       ],
       "dominant_role": "Cloud Engineer",
       "role_attribution": {
-        "Backend Developer": 40,
-        "Cloud Engineer": 60
+        "Backend Developer": 35,
+        "Cloud Engineer": 65
       }
     },
     {
@@ -1214,7 +1091,7 @@
       "depth_qualifier": "Understanding",
       "tier": "IMPORTANT",
       "specificity_weight": 0.7,
-      "tier_reason": "Nice-to-have but explicit IaC and Terraform requirement.",
+      "tier_reason": "Nice-to-have IaC tooling requirement with Terraform named.",
       "expected_depth": "INTERMEDIATE",
       "sub_requirements": null,
       "entities": [
@@ -1225,11 +1102,6 @@
             {
               "target": "DevOps",
               "relation_type": "PART_OF",
-              "category": "concept"
-            },
-            {
-              "target": "Configuration Management",
-              "relation_type": "RELATED_TO",
               "category": "concept"
             }
           ]
@@ -1244,8 +1116,8 @@
               "category": "concept"
             },
             {
-              "target": "HashiCorp",
-              "relation_type": "PART_OF",
+              "target": "HCL",
+              "relation_type": "USES_LANGUAGE",
               "category": "tool"
             }
           ]
@@ -1253,8 +1125,8 @@
       ],
       "dominant_role": "Cloud Engineer",
       "role_attribution": {
-        "Backend Developer": 25,
-        "Cloud Engineer": 75
+        "Backend Developer": 20,
+        "Cloud Engineer": 80
       }
     }
   ],
@@ -1281,32 +1153,18 @@
   "non_matchable_sentences": [
     {
       "id": "nm0",
-      "text": "Job Title: Backend Engineer (Node.js & Cloud) Role Overview We are looking for a skilled Backend Engineer to design, scale, and maintain our core server-side logic and APIs.",
-      "type": "generic_responsibility",
-      "tier": "NON_MATCHABLE",
-      "reason": "Role overview statement is largely generic and not a specific verifiable requirement beyond what is detailed later."
-    },
-    {
-      "id": "nm1",
       "text": "In this role, you will transition legacy components into microservices, optimize data workflows, and ensure our cloud infrastructure is secure and resilient.",
       "type": "generic_responsibility",
       "tier": "NON_MATCHABLE",
-      "reason": "High-level responsibility phrasing without specific tools/technologies or concrete deliverables."
+      "reason": "High-level summary with no specific tools/technologies beyond patterns covered elsewhere."
     },
     {
-      "id": "nm2",
+      "id": "nm1",
       "text": "You will work closely with frontend, DevOps, and product teams to deliver high-quality, production-ready software.",
       "type": "soft_skill",
       "soft_skill_type": "collaboration_teamwork",
       "tier": "NON_MATCHABLE",
       "reason": "Collaboration statement without independently verifiable technical requirement."
-    },
-    {
-      "id": "nm3",
-      "text": "Sourcing & Screening Guide for TA1.",
-      "type": "generic_responsibility",
-      "tier": "NON_MATCHABLE",
-      "reason": "Administrative/label line not matchable to resume skills."
     }
   ],
   "extracted_skills": [
@@ -1335,13 +1193,10 @@
     "Microservices Architecture",
     "Event-Driven Architecture",
     "Message Brokers",
-    "CI/CD",
-    "Infrastructure as Code",
+    "Authentication and Authorization",
     "Data Encryption",
-    "Authentication",
-    "Authorization",
-    "Schema Design",
-    "Query Optimization"
+    "CI/CD",
+    "Infrastructure as Code (IaC)"
   ],
   "responsibility_actions": [
     {
@@ -1351,7 +1206,16 @@
         "build",
         "maintain"
       ],
-      "target": "backend services and RESTful/GraphQL APIs"
+      "target": "backend services"
+    },
+    {
+      "sentence_id": 0,
+      "actions": [
+        "Design",
+        "build",
+        "maintain"
+      ],
+      "target": "RESTful/GraphQL APIs"
     },
     {
       "sentence_id": 1,
@@ -1372,7 +1236,7 @@
       "actions": [
         "Write"
       ],
-      "target": "optimized queries"
+      "target": "queries"
     },
     {
       "sentence_id": 2,
@@ -1401,7 +1265,14 @@
       "actions": [
         "implementing"
       ],
-      "target": "authentication/authorization protocols and data encryption"
+      "target": "authentication/authorization protocols"
+    },
+    {
+      "sentence_id": 3,
+      "actions": [
+        "implementing"
+      ],
+      "target": "data encryption"
     },
     {
       "sentence_id": 4,
@@ -1434,8 +1305,7 @@
   ],
   "experience_requirements": {
     "min": 0,
-    "max": 0,
-    "source_sentence_id": 0
+    "max": 0
   },
   "job_roles": [
     "Backend Developer",
@@ -1476,24 +1346,24 @@
             "importance_pct": 95
           },
           {
-            "concept": "SQL NoSQL databases",
-            "importance_pct": 90
+            "concept": "Microservices architecture",
+            "importance_pct": 85
           },
           {
-            "concept": "Microservices architecture",
+            "concept": "SQL NoSQL databases",
             "importance_pct": 80
           },
           {
-            "concept": "Event-driven messaging",
+            "concept": "Event-driven systems",
             "importance_pct": 70
           },
           {
-            "concept": "Testing frameworks",
-            "importance_pct": 70
+            "concept": "Automated testing",
+            "importance_pct": 60
           },
           {
-            "concept": "GraphQL REST",
-            "importance_pct": 65
+            "concept": "CI/CD workflows",
+            "importance_pct": 55
           }
         ]
       },
@@ -1502,24 +1372,24 @@
         "role_importance_pct": 30,
         "concepts": [
           {
-            "concept": "Cloud deployment monitoring",
+            "concept": "Cloud deployment",
             "importance_pct": 85
           },
           {
-            "concept": "OAuth JWT security",
+            "concept": "OAuth JWT auth",
             "importance_pct": 75
           },
           {
-            "concept": "CI/CD automation",
-            "importance_pct": 65
+            "concept": "Message brokers",
+            "importance_pct": 60
           },
           {
             "concept": "Docker Kubernetes",
-            "importance_pct": 55
+            "importance_pct": 45
           },
           {
             "concept": "Terraform IaC",
-            "importance_pct": 50
+            "importance_pct": 40
           }
         ]
       }
@@ -1530,18 +1400,18 @@
       {
         "sentence_id": 0,
         "text": "API & Service Development: Design, build, and maintain highly scalable backend services and robust RESTful/GraphQL APIs using Node.js.",
-        "importance_percentage": "13%",
+        "importance_percentage": "14%",
         "importance_level": "HIGH",
         "sub_requirement_importance": [
           {
             "sub_id": "0a",
             "text": "Design backend services in Node.js",
-            "importance_percentage": 4
+            "importance_percentage": 3
           },
           {
             "sub_id": "0b",
             "text": "Build backend services in Node.js",
-            "importance_percentage": 3
+            "importance_percentage": 4
           },
           {
             "sub_id": "0c",
@@ -1550,12 +1420,12 @@
           },
           {
             "sub_id": "0d",
-            "text": "Build RESTful APIs",
-            "importance_percentage": 2
+            "text": "Build RESTful APIs in Node.js",
+            "importance_percentage": 3
           },
           {
             "sub_id": "0e",
-            "text": "Build GraphQL APIs",
+            "text": "Build GraphQL APIs in Node.js",
             "importance_percentage": 2
           }
         ]
@@ -1563,8 +1433,8 @@
       {
         "sentence_id": 1,
         "text": "Architecture Evolution: Develop microservices and event-driven applications to support high-throughput, low-latency business logic.",
-        "importance_percentage": "7%",
-        "importance_level": "MEDIUM",
+        "importance_percentage": "11%",
+        "importance_level": "HIGH",
         "sub_requirement_importance": [
           {
             "sub_id": "1a",
@@ -1574,6 +1444,11 @@
           {
             "sub_id": "1b",
             "text": "Develop event-driven applications",
+            "importance_percentage": 4
+          },
+          {
+            "sub_id": "1c",
+            "text": "High-throughput, low-latency business logic",
             "importance_percentage": 3
           }
         ]
@@ -1596,13 +1471,13 @@
           },
           {
             "sub_id": "2c",
-            "text": "Manage data consistency across databases",
-            "importance_percentage": 3
+            "text": "Manage database consistency",
+            "importance_percentage": 2
           },
           {
             "sub_id": "2d",
             "text": "Relational databases (SQL)",
-            "importance_percentage": 1
+            "importance_percentage": 2
           },
           {
             "sub_id": "2e",
@@ -1620,7 +1495,7 @@
           {
             "sub_id": "3a",
             "text": "Deploy applications in cloud environments",
-            "importance_percentage": 4
+            "importance_percentage": 3
           },
           {
             "sub_id": "3b",
@@ -1630,7 +1505,7 @@
           {
             "sub_id": "3c",
             "text": "Authentication/authorization protocols: OAuth, JWT",
-            "importance_percentage": 3
+            "importance_percentage": 4
           },
           {
             "sub_id": "3d",
@@ -1652,7 +1527,7 @@
           },
           {
             "sub_id": "4b",
-            "text": "Conduct code reviews",
+            "text": "Code reviews",
             "importance_percentage": 2
           },
           {
@@ -1670,13 +1545,13 @@
       {
         "sentence_id": 5,
         "text": "Language/Framework: Deep production experience with Node.js (and frameworks like Express, NestJS, or Fastify).",
-        "importance_percentage": "13%",
+        "importance_percentage": "12%",
         "importance_level": "HIGH",
         "sub_requirement_importance": [
           {
             "sub_id": "5a",
             "text": "Deep production experience with Node.js",
-            "importance_percentage": 9
+            "importance_percentage": 8
           },
           {
             "sub_id": "5b",
@@ -1688,13 +1563,13 @@
       {
         "sentence_id": 6,
         "text": "Database Proficiency: Hands-on experience with both relational (PostgreSQL, MySQL) and non-relational (MongoDB, DynamoDB, Redis) databases.",
-        "importance_percentage": "11%",
+        "importance_percentage": "10%",
         "importance_level": "HIGH",
         "sub_requirement_importance": [
           {
             "sub_id": "6a",
             "text": "Relational databases: PostgreSQL, MySQL",
-            "importance_percentage": 6
+            "importance_percentage": 5
           },
           {
             "sub_id": "6b",
@@ -1706,22 +1581,17 @@
       {
         "sentence_id": 7,
         "text": "Cloud Infrastructure: Proven experience deploying and monitoring applications in a major cloud environment (AWS, Azure, or GCP).",
-        "importance_percentage": "9%",
-        "importance_level": "HIGH",
+        "importance_percentage": "7%",
+        "importance_level": "MEDIUM",
         "sub_requirement_importance": [
           {
             "sub_id": "7a",
-            "text": "Deploy applications in cloud environment",
-            "importance_percentage": 3
+            "text": "Deploy applications in cloud environment (AWS, Azure, or GCP)",
+            "importance_percentage": 4
           },
           {
             "sub_id": "7b",
-            "text": "Monitor applications in cloud environment",
-            "importance_percentage": 3
-          },
-          {
-            "sub_id": "7c",
-            "text": "Major cloud environment: AWS, Azure, or GCP",
+            "text": "Monitor applications in cloud environment (AWS, Azure, or GCP)",
             "importance_percentage": 3
           }
         ]
@@ -1734,44 +1604,39 @@
         "sub_requirement_importance": [
           {
             "sub_id": "8a",
-            "text": "Microservices architecture understanding",
-            "importance_percentage": 3
+            "text": "Microservices architecture",
+            "importance_percentage": 4
           },
           {
             "sub_id": "8b",
-            "text": "Event-driven architecture understanding",
+            "text": "Event-driven architecture",
             "importance_percentage": 3
           },
           {
             "sub_id": "8c",
             "text": "Message brokers: Kafka, RabbitMQ, AWS SQS",
-            "importance_percentage": 3
+            "importance_percentage": 2
           }
         ]
       },
       {
         "sentence_id": 9,
         "text": "Testing & Quality: Experience writing unit/integration tests (using Jest, Mocha, or Chai) and participating in CI/CD workflows.",
-        "importance_percentage": "7%",
+        "importance_percentage": "4%",
         "importance_level": "MEDIUM",
         "sub_requirement_importance": [
           {
             "sub_id": "9a",
-            "text": "Write unit tests",
+            "text": "Write unit tests (Jest, Mocha, or Chai)",
             "importance_percentage": 2
           },
           {
             "sub_id": "9b",
-            "text": "Write integration tests",
-            "importance_percentage": 2
+            "text": "Write integration tests (Jest, Mocha, or Chai)",
+            "importance_percentage": 1
           },
           {
             "sub_id": "9c",
-            "text": "Testing frameworks: Jest, Mocha, Chai",
-            "importance_percentage": 2
-          },
-          {
-            "sub_id": "9d",
             "text": "Participate in CI/CD workflows",
             "importance_percentage": 1
           }
@@ -1780,7 +1645,7 @@
       {
         "sentence_id": 10,
         "text": "Experience with TypeScript in a backend environment.",
-        "importance_percentage": "1%",
+        "importance_percentage": "2%",
         "importance_level": "LOW",
         "sub_requirement_importance": null
       },
@@ -1792,20 +1657,20 @@
         "sub_requirement_importance": [
           {
             "sub_id": "11a",
-            "text": "Containerization with Docker",
-            "importance_percentage": 0
+            "text": "Docker containerization",
+            "importance_percentage": 1
           },
           {
             "sub_id": "11b",
-            "text": "Orchestration with Kubernetes",
-            "importance_percentage": 1
+            "text": "Kubernetes orchestration",
+            "importance_percentage": 0
           }
         ]
       },
       {
         "sentence_id": 12,
         "text": "Understanding of Infrastructure as Code (IaC) tools like Terraform.",
-        "importance_percentage": "0%",
+        "importance_percentage": "1%",
         "importance_level": "LOW",
         "sub_requirement_importance": null
       }
@@ -1863,16 +1728,17 @@
     "structural": 3,
     "matchable_simple": 2,
     "matchable_compound": 11,
-    "total_sub_requirements": 36,
+    "total_sub_requirements": 35,
     "soft_skill_sentences": 0,
-    "non_matchable": 4,
+    "non_matchable": 2,
     "compound_types": {
       "ALL_REQUIRED": 10,
       "ANY_ONE": 1
     },
     "depth_distribution": {
-      "INTERMEDIATE": 10,
+      "null": 4,
       "DEEP": 2,
+      "INTERMEDIATE": 6,
       "SURFACE": 1
     },
     "tier_distribution": {

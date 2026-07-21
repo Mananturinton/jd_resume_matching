@@ -1,0 +1,424 @@
+[
+  {
+    "id": 165,
+    "gid": 100000165,
+    "name": "Microservices Architecture",
+    "entity_type": "Concept",
+    "entity_subtype": "Architectural Pattern",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Architecture & Practices",
+      "specialization": "Distributed Systems"
+    },
+    "aliases": [
+      "Microservices",
+      "Microservice Architecture",
+      "Microservices Pattern"
+    ],
+    "concepts": [
+      {
+        "name": "Service Decomposition",
+        "weight": 0.9357
+      },
+      {
+        "name": "Bounded Context",
+        "weight": 1.0
+      },
+      {
+        "name": "Independent Deployability",
+        "weight": 0.8357
+      },
+      {
+        "name": "API Gateway",
+        "weight": 0.9357
+      },
+      {
+        "name": "Service Discovery",
+        "weight": 0.8357
+      },
+      {
+        "name": "Inter-Service Communication",
+        "weight": 0.9357
+      },
+      {
+        "name": "Distributed Data Management",
+        "weight": 1.0
+      },
+      {
+        "name": "Saga Pattern",
+        "weight": 0.18
+      },
+      {
+        "name": "Circuit Breaker",
+        "weight": 0.17
+      },
+      {
+        "name": "Event-Driven Communication",
+        "weight": 0.16
+      },
+      {
+        "name": "Service Mesh",
+        "weight": 1.0
+      },
+      {
+        "name": "Container Orchestration",
+        "weight": 0.8357
+      },
+      {
+        "name": "Decentralized Governance",
+        "weight": 0.13
+      },
+      {
+        "name": "Domain-Driven Design",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "REST APIs",
+        "weight": 0.8
+      },
+      {
+        "name": "Containers",
+        "weight": 0.6
+      },
+      {
+        "name": "Domain-Driven Design",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "concept_microservices"
+  },
+  {
+    "id": 166,
+    "gid": 100000166,
+    "name": "RESTful API Design",
+    "entity_type": "Concept",
+    "entity_subtype": "API Design Style",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Architecture & Practices",
+      "specialization": "API Design"
+    },
+    "aliases": [
+      "REST API Design",
+      "RESTful Design",
+      "REST Architecture"
+    ],
+    "concepts": [
+      {
+        "name": "Resources and URIs",
+        "weight": 1.0
+      },
+      {
+        "name": "HTTP Verbs",
+        "weight": 0.7134
+      },
+      {
+        "name": "Statelessness",
+        "weight": 0.224
+      },
+      {
+        "name": "HATEOAS",
+        "weight": 0.7255
+      },
+      {
+        "name": "Status Codes",
+        "weight": 0.7134
+      },
+      {
+        "name": "Versioning Strategies",
+        "weight": 0.7255
+      },
+      {
+        "name": "Pagination",
+        "weight": 0.6366
+      },
+      {
+        "name": "Filtering and Sorting",
+        "weight": 0.159
+      },
+      {
+        "name": "Idempotency",
+        "weight": 0.7134
+      },
+      {
+        "name": "Content Negotiation",
+        "weight": 0.6366
+      },
+      {
+        "name": "OpenAPI Documentation",
+        "weight": 0.7255
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "HTTP",
+        "weight": 1.0
+      },
+      {
+        "name": "JSON",
+        "weight": 0.7
+      },
+      {
+        "name": "Web Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "concept_restful_api_design"
+  },
+  {
+    "id": 167,
+    "gid": 100000167,
+    "name": "SOLID Principles",
+    "entity_type": "Concept",
+    "entity_subtype": "Software Design Principles",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Architecture & Practices",
+      "specialization": "Object-Oriented Design"
+    },
+    "aliases": [
+      "SOLID",
+      "SOLID Design Principles"
+    ],
+    "concepts": [
+      {
+        "name": "Single Responsibility Principle",
+        "weight": 1.0
+      },
+      {
+        "name": "Open/Closed Principle",
+        "weight": 1.0
+      },
+      {
+        "name": "Liskov Substitution Principle",
+        "weight": 0.2129
+      },
+      {
+        "name": "Interface Segregation Principle",
+        "weight": 0.1943
+      },
+      {
+        "name": "Dependency Inversion Principle",
+        "weight": 0.9541
+      },
+      {
+        "name": "Coupling and Cohesion",
+        "weight": 1.0
+      },
+      {
+        "name": "Design Patterns",
+        "weight": 0.9541
+      },
+      {
+        "name": "Refactoring",
+        "weight": 0.9541
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Object-Oriented Programming Basics",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "concept_solid_principles"
+  },
+  {
+    "id": 168,
+    "gid": 100000168,
+    "name": "CAP Theorem",
+    "entity_type": "Concept",
+    "entity_subtype": "Distributed Systems Theorem",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Architecture & Practices",
+      "specialization": "Distributed Systems"
+    },
+    "aliases": [
+      "CAP Theorem",
+      "Brewer's Theorem"
+    ],
+    "concepts": [
+      {
+        "name": "Consistency",
+        "weight": 0.8669
+      },
+      {
+        "name": "Availability",
+        "weight": 0.8669
+      },
+      {
+        "name": "Partition Tolerance",
+        "weight": 0.8669
+      },
+      {
+        "name": "Eventual Consistency",
+        "weight": 1.0
+      },
+      {
+        "name": "Strong Consistency",
+        "weight": 0.1633
+      },
+      {
+        "name": "Trade-off Analysis",
+        "weight": 1.0
+      },
+      {
+        "name": "Distributed Databases",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Distributed Systems Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Databases",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "concept_cap_theorem"
+  },
+  {
+    "id": 169,
+    "gid": 100000169,
+    "name": "Retrieval-Augmented Generation",
+    "entity_type": "Concept",
+    "entity_subtype": "AI/LLM Technique",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Generative AI",
+      "specialization": "LLM Application Patterns"
+    },
+    "aliases": [
+      "RAG",
+      "Retrieval Augmented Generation"
+    ],
+    "concepts": [
+      {
+        "name": "Vector Embeddings",
+        "weight": 1.0
+      },
+      {
+        "name": "Vector Search",
+        "weight": 0.7739
+      },
+      {
+        "name": "Document Chunking",
+        "weight": 0.7739
+      },
+      {
+        "name": "Semantic Search",
+        "weight": 0.7739
+      },
+      {
+        "name": "Context Window",
+        "weight": 0.1922
+      },
+      {
+        "name": "Reranking",
+        "weight": 1.0
+      },
+      {
+        "name": "Hybrid Search",
+        "weight": 0.1633
+      },
+      {
+        "name": "Grounding",
+        "weight": 0.1489
+      },
+      {
+        "name": "Hallucination Mitigation",
+        "weight": 0.1344
+      },
+      {
+        "name": "Retriever-Generator Pipeline",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Large Language Models",
+        "weight": 1.0
+      },
+      {
+        "name": "Embeddings",
+        "weight": 0.7
+      },
+      {
+        "name": "Vector Databases",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_retrieval_augmented_generation"
+  },
+  {
+    "id": 170,
+    "gid": 100000170,
+    "name": "Prompt Engineering",
+    "entity_type": "Concept",
+    "entity_subtype": "AI/LLM Technique",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Generative AI",
+      "specialization": "LLM Interaction Design"
+    },
+    "aliases": [
+      "Prompt Design",
+      "Prompting"
+    ],
+    "concepts": [
+      {
+        "name": "Zero-Shot Prompting",
+        "weight": 0.25
+      },
+      {
+        "name": "Few-Shot Prompting",
+        "weight": 1.0
+      },
+      {
+        "name": "Chain-of-Thought Prompting",
+        "weight": 1.0
+      },
+      {
+        "name": "System Prompts",
+        "weight": 1.0
+      },
+      {
+        "name": "Prompt Templates",
+        "weight": 0.7756
+      },
+      {
+        "name": "Context Management",
+        "weight": 0.1571
+      },
+      {
+        "name": "Temperature and Sampling",
+        "weight": 0.1386
+      },
+      {
+        "name": "Structured Output Prompting",
+        "weight": 0.7756
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Large Language Models Basics",
+        "weight": 1.0
+      }
+    ],
+    "index_id": "tool_prompt_engineering"
+  }
+]

@@ -1,0 +1,1023 @@
+[
+  {
+    "id": 97,
+    "gid": 100000097,
+    "name": "Silicon",
+    "entity_type": "Material",
+    "entity_subtype": "Semiconductor Element",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Materials Science",
+      "sub_category": "Semiconductor Materials",
+      "specialization": "Electronic-Grade Materials"
+    },
+    "aliases": [
+      "Silicon",
+      "Si",
+      "Crystalline Silicon",
+      "Polysilicon",
+      "Monocrystalline Silicon",
+      "Amorphous Silicon",
+      "Electronic-Grade Silicon (EGS)",
+      "Solar-Grade Silicon"
+    ],
+    "concepts": [
+      {
+        "name": "Crystal Lattice Structure",
+        "weight": 0.6943
+      },
+      {
+        "name": "Diamond Cubic Structure",
+        "weight": 0.2457
+      },
+      {
+        "name": "Band Gap",
+        "weight": 0.6943
+      },
+      {
+        "name": "Doping (N-type, P-type)",
+        "weight": 0.6943
+      },
+      {
+        "name": "Czochralski Process",
+        "weight": 0.7083
+      },
+      {
+        "name": "Wafer Fabrication",
+        "weight": 0.7083
+      },
+      {
+        "name": "Photolithography",
+        "weight": 0.7083
+      },
+      {
+        "name": "Ion Implantation",
+        "weight": 0.7083
+      },
+      {
+        "name": "Etching",
+        "weight": 0.9664
+      },
+      {
+        "name": "Oxidation (SiO2 Formation)",
+        "weight": 0.7083
+      },
+      {
+        "name": "Chemical Vapor Deposition (CVD)",
+        "weight": 0.2067
+      },
+      {
+        "name": "Silicon Purity Grades",
+        "weight": 0.6943
+      },
+      {
+        "name": "Monocrystalline vs Polycrystalline Silicon",
+        "weight": 0.6528
+      },
+      {
+        "name": "Amorphous Silicon",
+        "weight": 0.1937
+      },
+      {
+        "name": "Silicon-on-Insulator (SOI)",
+        "weight": 0.6417
+      },
+      {
+        "name": "Transistor Fabrication",
+        "weight": 0.8438
+      },
+      {
+        "name": "CMOS Process",
+        "weight": 1.0
+      },
+      {
+        "name": "Moore's Law",
+        "weight": 0.6417
+      },
+      {
+        "name": "Photovoltaic Effect",
+        "weight": 0.6528
+      },
+      {
+        "name": "Solar Cell Fabrication",
+        "weight": 0.6528
+      },
+      {
+        "name": "Thermal Conductivity",
+        "weight": 0.5522
+      },
+      {
+        "name": "Electrical Resistivity",
+        "weight": 0.159
+      },
+      {
+        "name": "Piezoresistive Effect",
+        "weight": 0.6081
+      },
+      {
+        "name": "MEMS Fabrication",
+        "weight": 0.6081
+      },
+      {
+        "name": "Wafer Dicing",
+        "weight": 0.146
+      },
+      {
+        "name": "Die Packaging",
+        "weight": 0.8103
+      },
+      {
+        "name": "Yield and Defect Density",
+        "weight": 0.7083
+      },
+      {
+        "name": "Silicon Carbide (Related Compound)",
+        "weight": 0.133
+      },
+      {
+        "name": "Refractive Index",
+        "weight": 0.1287
+      },
+      {
+        "name": "Bandgap Engineering",
+        "weight": 0.6943
+      },
+      {
+        "name": "Epitaxy",
+        "weight": 0.6943
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Chemistry Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Solid-State Physics Basics",
+        "weight": 0.85
+      },
+      {
+        "name": "Electrical Engineering Fundamentals",
+        "weight": 0.7
+      },
+      {
+        "name": "Crystallography Basics",
+        "weight": 0.55
+      },
+      {
+        "name": "Materials Science Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_silicon"
+  },
+  {
+    "id": 98,
+    "gid": 100000098,
+    "name": "Copper",
+    "entity_type": "Material",
+    "entity_subtype": "Conductive Metal",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Materials Science",
+      "sub_category": "Conductive Materials",
+      "specialization": "Electrical and Thermal Conductors"
+    },
+    "aliases": [
+      "Copper",
+      "Cu",
+      "Electrolytic Tough Pitch Copper (ETP)",
+      "Oxygen-Free Copper (OFC)"
+    ],
+    "concepts": [
+      {
+        "name": "Electrical Conductivity",
+        "weight": 0.7515
+      },
+      {
+        "name": "Thermal Conductivity",
+        "weight": 0.657
+      },
+      {
+        "name": "Ductility and Malleability",
+        "weight": 0.693
+      },
+      {
+        "name": "Copper Wire Drawing",
+        "weight": 0.6255
+      },
+      {
+        "name": "Annealing",
+        "weight": 0.693
+      },
+      {
+        "name": "Oxidation and Patina Formation",
+        "weight": 0.2175
+      },
+      {
+        "name": "Copper Alloys (Brass, Bronze)",
+        "weight": 1.0
+      },
+      {
+        "name": "Electroplating",
+        "weight": 0.6255
+      },
+      {
+        "name": "PCB Copper Traces",
+        "weight": 0.7335
+      },
+      {
+        "name": "Copper Clad Laminate",
+        "weight": 0.7335
+      },
+      {
+        "name": "Electromigration",
+        "weight": 0.7335
+      },
+      {
+        "name": "Skin Effect (High-Frequency Signals)",
+        "weight": 0.7515
+      },
+      {
+        "name": "Corrosion Resistance",
+        "weight": 0.693
+      },
+      {
+        "name": "Copper Recycling",
+        "weight": 0.6255
+      },
+      {
+        "name": "Wire Gauge (AWG)",
+        "weight": 0.7515
+      },
+      {
+        "name": "Busbars",
+        "weight": 0.7515
+      },
+      {
+        "name": "Copper in Motor Windings",
+        "weight": 0.7515
+      },
+      {
+        "name": "Copper in Heat Sinks",
+        "weight": 0.657
+      },
+      {
+        "name": "Soldering to Copper",
+        "weight": 0.7335
+      },
+      {
+        "name": "Copper Purity Grades",
+        "weight": 0.1265
+      },
+      {
+        "name": "Superconductivity (Context/Comparison)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Chemistry Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Electrical Engineering Fundamentals",
+        "weight": 0.8
+      },
+      {
+        "name": "Materials Science Fundamentals",
+        "weight": 0.6
+      },
+      {
+        "name": "Basic Physics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_copper"
+  },
+  {
+    "id": 99,
+    "gid": 100000099,
+    "name": "Fiber Optic Cable",
+    "entity_type": "Material / Component",
+    "entity_subtype": "Optical Data Transmission Medium",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Materials Science",
+      "sub_category": "Optical/Telecommunications Materials",
+      "specialization": "Optical Fiber Technology"
+    },
+    "aliases": [
+      "Fiber Optic Cable",
+      "Optical Fiber",
+      "Fiber Optics",
+      "Fibre Optic Cable"
+    ],
+    "concepts": [
+      {
+        "name": "Core and Cladding Structure",
+        "weight": 0.5711
+      },
+      {
+        "name": "Total Internal Reflection",
+        "weight": 0.673
+      },
+      {
+        "name": "Single-Mode Fiber (SMF)",
+        "weight": 0.7219
+      },
+      {
+        "name": "Multi-Mode Fiber (MMF)",
+        "weight": 0.7219
+      },
+      {
+        "name": "Refractive Index",
+        "weight": 0.673
+      },
+      {
+        "name": "Attenuation (dB/km)",
+        "weight": 0.6974
+      },
+      {
+        "name": "Dispersion (Chromatic, Modal)",
+        "weight": 0.2161
+      },
+      {
+        "name": "Fiber Bragg Gratings",
+        "weight": 0.673
+      },
+      {
+        "name": "Optical Connectors (LC, SC, ST)",
+        "weight": 0.7219
+      },
+      {
+        "name": "Fusion Splicing",
+        "weight": 1.0
+      },
+      {
+        "name": "Mechanical Splicing",
+        "weight": 0.6281
+      },
+      {
+        "name": "Fiber Optic Amplifiers (EDFA)",
+        "weight": 0.6974
+      },
+      {
+        "name": "Wavelength-Division Multiplexing (WDM)",
+        "weight": 0.6974
+      },
+      {
+        "name": "Dense WDM (DWDM)",
+        "weight": 0.6974
+      },
+      {
+        "name": "Bend Radius",
+        "weight": 0.6281
+      },
+      {
+        "name": "Fiber Optic Sensors",
+        "weight": 0.1652
+      },
+      {
+        "name": "OTDR (Optical Time-Domain Reflectometer)",
+        "weight": 0.7219
+      },
+      {
+        "name": "Loss Budget Calculation",
+        "weight": 0.7219
+      },
+      {
+        "name": "Fiber to the Home (FTTH)",
+        "weight": 0.6281
+      },
+      {
+        "name": "Submarine Cables",
+        "weight": 0.6974
+      },
+      {
+        "name": "Silica Glass Composition",
+        "weight": 0.5711
+      },
+      {
+        "name": "Plastic Optical Fiber (POF)",
+        "weight": 0.5711
+      },
+      {
+        "name": "Numerical Aperture",
+        "weight": 0.673
+      },
+      {
+        "name": "Photonic Crystal Fiber",
+        "weight": 0.673
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Physics of Light and Optics",
+        "weight": 1.0
+      },
+      {
+        "name": "Electromagnetic Wave Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Telecommunications Fundamentals",
+        "weight": 0.6
+      },
+      {
+        "name": "Basic Physics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_fiber_optic_cable"
+  },
+  {
+    "id": 100,
+    "gid": 100000100,
+    "name": "Printed Circuit Board",
+    "entity_type": "Material / Component",
+    "entity_subtype": "Electronic Interconnection Substrate",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Materials Science",
+      "sub_category": "Electronic Substrates",
+      "specialization": "PCB Design and Manufacturing"
+    },
+    "aliases": [
+      "PCB",
+      "Printed Circuit Board",
+      "Printed Wiring Board (PWB)"
+    ],
+    "concepts": [
+      {
+        "name": "FR4 Substrate",
+        "weight": 0.5483
+      },
+      {
+        "name": "Copper Clad Laminate",
+        "weight": 0.5483
+      },
+      {
+        "name": "Copper Traces",
+        "weight": 0.2407
+      },
+      {
+        "name": "Vias (Through-Hole, Blind, Buried)",
+        "weight": 0.6611
+      },
+      {
+        "name": "Solder Mask",
+        "weight": 0.2314
+      },
+      {
+        "name": "Silkscreen",
+        "weight": 0.2268
+      },
+      {
+        "name": "Multilayer PCB Stack-up",
+        "weight": 0.6889
+      },
+      {
+        "name": "Surface Mount Technology (SMT)",
+        "weight": 0.654
+      },
+      {
+        "name": "Through-Hole Technology (THT)",
+        "weight": 0.2129
+      },
+      {
+        "name": "PCB Layout Design",
+        "weight": 1.0
+      },
+      {
+        "name": "Gerber Files",
+        "weight": 0.6889
+      },
+      {
+        "name": "Design Rule Checking (DRC)",
+        "weight": 0.6889
+      },
+      {
+        "name": "Impedance Matching",
+        "weight": 0.933
+      },
+      {
+        "name": "Ground Planes",
+        "weight": 0.6611
+      },
+      {
+        "name": "Power Planes",
+        "weight": 0.6611
+      },
+      {
+        "name": "PCB Etching Process",
+        "weight": 0.1804
+      },
+      {
+        "name": "Drilling",
+        "weight": 0.1757
+      },
+      {
+        "name": "Component Placement",
+        "weight": 0.6611
+      },
+      {
+        "name": "Reflow Soldering",
+        "weight": 0.654
+      },
+      {
+        "name": "Wave Soldering",
+        "weight": 0.654
+      },
+      {
+        "name": "PCB Testing (Continuity, Flying Probe)",
+        "weight": 0.654
+      },
+      {
+        "name": "Rigid-Flex PCB",
+        "weight": 0.5483
+      },
+      {
+        "name": "Flexible PCB",
+        "weight": 0.5483
+      },
+      {
+        "name": "High-Density Interconnect (HDI)",
+        "weight": 0.1432
+      },
+      {
+        "name": "Thermal Vias",
+        "weight": 0.1386
+      },
+      {
+        "name": "PCB CAD Tools (Altium, KiCad, Eagle)",
+        "weight": 0.6889
+      },
+      {
+        "name": "Signal Integrity",
+        "weight": 0.933
+      },
+      {
+        "name": "EMI/EMC Considerations",
+        "weight": 0.5941
+      },
+      {
+        "name": "Panelization",
+        "weight": 0.654
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Electrical Engineering Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Electronics Fundamentals",
+        "weight": 0.85
+      },
+      {
+        "name": "Circuit Design Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "Copper",
+        "weight": 0.55
+      },
+      {
+        "name": "Basic Physics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_printed_circuit_board"
+  },
+  {
+    "id": 101,
+    "gid": 100000101,
+    "name": "Lithium-ion Battery",
+    "entity_type": "Material / Component",
+    "entity_subtype": "Rechargeable Energy Storage Device",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Materials Science",
+      "sub_category": "Energy Storage Materials",
+      "specialization": "Battery Technology"
+    },
+    "aliases": [
+      "Lithium-ion Battery",
+      "Li-ion Battery",
+      "LIB",
+      "Lithium Battery"
+    ],
+    "concepts": [
+      {
+        "name": "Cathode Materials (NMC, LFP, NCA)",
+        "weight": 0.6945
+      },
+      {
+        "name": "Anode Materials (Graphite, Silicon)",
+        "weight": 0.6945
+      },
+      {
+        "name": "Electrolyte Composition",
+        "weight": 0.6945
+      },
+      {
+        "name": "Separator",
+        "weight": 0.2344
+      },
+      {
+        "name": "Intercalation Chemistry",
+        "weight": 0.673
+      },
+      {
+        "name": "Charge/Discharge Cycles",
+        "weight": 0.224
+      },
+      {
+        "name": "State of Charge (SOC)",
+        "weight": 0.2188
+      },
+      {
+        "name": "State of Health (SOH)",
+        "weight": 0.6304
+      },
+      {
+        "name": "Battery Management System (BMS)",
+        "weight": 1.0
+      },
+      {
+        "name": "Thermal Runaway",
+        "weight": 0.9749
+      },
+      {
+        "name": "Energy Density",
+        "weight": 0.6161
+      },
+      {
+        "name": "Power Density",
+        "weight": 0.6161
+      },
+      {
+        "name": "Cell Formats (Cylindrical, Prismatic, Pouch)",
+        "weight": 0.6945
+      },
+      {
+        "name": "C-Rate",
+        "weight": 0.6161
+      },
+      {
+        "name": "Coulombic Efficiency",
+        "weight": 0.673
+      },
+      {
+        "name": "Solid Electrolyte Interphase (SEI)",
+        "weight": 0.673
+      },
+      {
+        "name": "Battery Degradation Mechanisms",
+        "weight": 0.8746
+      },
+      {
+        "name": "Fast Charging",
+        "weight": 0.6555
+      },
+      {
+        "name": "Battery Pack Design",
+        "weight": 0.9215
+      },
+      {
+        "name": "Cell Balancing",
+        "weight": 0.6555
+      },
+      {
+        "name": "Lithium Iron Phosphate (LFP) Chemistry",
+        "weight": 0.146
+      },
+      {
+        "name": "Nickel Manganese Cobalt (NMC) Chemistry",
+        "weight": 0.1408
+      },
+      {
+        "name": "Solid-State Batteries (Emerging)",
+        "weight": 0.673
+      },
+      {
+        "name": "Battery Recycling",
+        "weight": 0.5515
+      },
+      {
+        "name": "Safety Testing (UN38.3, UL Standards)",
+        "weight": 0.6304
+      },
+      {
+        "name": "Thermal Management Systems",
+        "weight": 0.6555
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Chemistry Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Electrochemistry Basics",
+        "weight": 0.85
+      },
+      {
+        "name": "Electrical Engineering Fundamentals",
+        "weight": 0.7
+      },
+      {
+        "name": "Thermodynamics Basics",
+        "weight": 0.55
+      },
+      {
+        "name": "Materials Science Fundamentals",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_lithium_ion_battery"
+  },
+  {
+    "id": 102,
+    "gid": 100000102,
+    "name": "Carbon Fiber",
+    "entity_type": "Material",
+    "entity_subtype": "Composite Reinforcement Material",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Materials Science",
+      "sub_category": "Composite Materials",
+      "specialization": "Structural / Lightweight Materials"
+    },
+    "aliases": [
+      "Carbon Fiber",
+      "Carbon Fibre",
+      "CFRP (Carbon Fiber Reinforced Polymer)"
+    ],
+    "concepts": [
+      {
+        "name": "Polyacrylonitrile (PAN) Precursor",
+        "weight": 0.7091
+      },
+      {
+        "name": "Pitch-Based Carbon Fiber",
+        "weight": 0.2438
+      },
+      {
+        "name": "Carbonization Process",
+        "weight": 0.6485
+      },
+      {
+        "name": "Graphitization",
+        "weight": 0.6485
+      },
+      {
+        "name": "Fiber Weave Patterns (Plain, Twill, Unidirectional)",
+        "weight": 0.7091
+      },
+      {
+        "name": "Resin Matrix (Epoxy)",
+        "weight": 0.7091
+      },
+      {
+        "name": "Carbon Fiber Reinforced Polymer (CFRP)",
+        "weight": 0.9584
+      },
+      {
+        "name": "Tensile Strength",
+        "weight": 0.6485
+      },
+      {
+        "name": "Modulus of Elasticity",
+        "weight": 0.6485
+      },
+      {
+        "name": "Strength-to-Weight Ratio",
+        "weight": 0.9584
+      },
+      {
+        "name": "Layup Process",
+        "weight": 0.7091
+      },
+      {
+        "name": "Autoclave Curing",
+        "weight": 1.0
+      },
+      {
+        "name": "Resin Transfer Molding (RTM)",
+        "weight": 0.9127
+      },
+      {
+        "name": "Prepreg Materials",
+        "weight": 0.6409
+      },
+      {
+        "name": "Anisotropic Properties",
+        "weight": 0.6485
+      },
+      {
+        "name": "Fatigue Resistance",
+        "weight": 0.6867
+      },
+      {
+        "name": "Fiber Orientation Design",
+        "weight": 0.7091
+      },
+      {
+        "name": "Non-Destructive Testing (NDT)",
+        "weight": 0.6867
+      },
+      {
+        "name": "Delamination",
+        "weight": 0.1386
+      },
+      {
+        "name": "Aerospace-Grade Carbon Fiber",
+        "weight": 0.6867
+      },
+      {
+        "name": "Recycled Carbon Fiber",
+        "weight": 0.1262
+      },
+      {
+        "name": "Vacuum Bagging",
+        "weight": 0.6409
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Materials Science Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Mechanics of Materials",
+        "weight": 0.8
+      },
+      {
+        "name": "Chemistry Fundamentals",
+        "weight": 0.6
+      },
+      {
+        "name": "Structural Engineering Basics",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_carbon_fiber"
+  },
+  {
+    "id": 103,
+    "gid": 100000103,
+    "name": "Semiconductors",
+    "entity_type": "Material Category",
+    "entity_subtype": "Electronic Materials Class",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Materials Science",
+      "sub_category": "Semiconductor Materials",
+      "specialization": "Semiconductor Devices and Fabrication"
+    },
+    "aliases": [
+      "Semiconductors",
+      "Semiconductor Materials",
+      "Semiconductor Devices"
+    ],
+    "concepts": [
+      {
+        "name": "Band Gap Theory",
+        "weight": 0.6963
+      },
+      {
+        "name": "Intrinsic vs Extrinsic Semiconductors",
+        "weight": 0.6963
+      },
+      {
+        "name": "N-type and P-type Doping",
+        "weight": 0.2404
+      },
+      {
+        "name": "PN Junction",
+        "weight": 0.7153
+      },
+      {
+        "name": "Diodes",
+        "weight": 0.6537
+      },
+      {
+        "name": "Transistors (BJT, MOSFET)",
+        "weight": 0.7153
+      },
+      {
+        "name": "Integrated Circuits (ICs)",
+        "weight": 0.9802
+      },
+      {
+        "name": "Compound Semiconductors (GaAs, GaN, SiC)",
+        "weight": 0.6963
+      },
+      {
+        "name": "Wide-Bandgap Semiconductors",
+        "weight": 1.0
+      },
+      {
+        "name": "Semiconductor Fabrication (Fab)",
+        "weight": 0.7196
+      },
+      {
+        "name": "Photolithography",
+        "weight": 0.7196
+      },
+      {
+        "name": "Etching and Deposition",
+        "weight": 0.7196
+      },
+      {
+        "name": "Chip Packaging",
+        "weight": 0.6148
+      },
+      {
+        "name": "Moore's Law",
+        "weight": 0.5605
+      },
+      {
+        "name": "Transistor Scaling",
+        "weight": 0.7196
+      },
+      {
+        "name": "FinFET Technology",
+        "weight": 0.7153
+      },
+      {
+        "name": "Gate-All-Around (GAA) Transistors",
+        "weight": 0.7153
+      },
+      {
+        "name": "Semiconductor Supply Chain",
+        "weight": 0.5605
+      },
+      {
+        "name": "Foundry Model (TSMC, Samsung, Intel)",
+        "weight": 0.5605
+      },
+      {
+        "name": "Fabless Design Model",
+        "weight": 0.5605
+      },
+      {
+        "name": "Semiconductor Yield Management",
+        "weight": 0.9961
+      },
+      {
+        "name": "Power Semiconductors",
+        "weight": 0.6537
+      },
+      {
+        "name": "RF Semiconductors",
+        "weight": 0.1441
+      },
+      {
+        "name": "Memory Semiconductors (DRAM, NAND)",
+        "weight": 0.6148
+      },
+      {
+        "name": "Logic Semiconductors",
+        "weight": 0.7153
+      },
+      {
+        "name": "Semiconductor Testing (ATE)",
+        "weight": 0.6265
+      },
+      {
+        "name": "Electromigration",
+        "weight": 0.6265
+      },
+      {
+        "name": "Thermal Management in Chips",
+        "weight": 0.6537
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Solid-State Physics Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Electrical Engineering Fundamentals",
+        "weight": 0.85
+      },
+      {
+        "name": "Chemistry Fundamentals",
+        "weight": 0.7
+      },
+      {
+        "name": "Silicon",
+        "weight": 0.55
+      },
+      {
+        "name": "Quantum Mechanics Basics (Recommended)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_semiconductors"
+  }
+]

@@ -1,0 +1,1382 @@
+[
+  {
+    "id": 20,
+    "gid": 100000020,
+    "name": "Amazon Web Services",
+    "entity_type": "Cloud Platform",
+    "entity_subtype": "Comprehensive Public Cloud Computing Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Cloud Computing",
+      "sub_category": "Cloud Platforms",
+      "specialization": "Infrastructure-as-a-Service / Platform-as-a-Service"
+    },
+    "aliases": [
+      "AWS",
+      "Amazon Web Services",
+      "Amazon AWS",
+      "AWS Cloud"
+    ],
+    "concepts": [
+      {
+        "name": "EC2 (Elastic Compute Cloud)",
+        "weight": 0.9044
+      },
+      {
+        "name": "S3 (Simple Storage Service)",
+        "weight": 0.9586
+      },
+      {
+        "name": "Lambda (Serverless Functions)",
+        "weight": 0.6205
+      },
+      {
+        "name": "VPC (Virtual Private Cloud)",
+        "weight": 0.7236
+      },
+      {
+        "name": "IAM (Identity and Access Management)",
+        "weight": 0.8846
+      },
+      {
+        "name": "RDS (Relational Database Service)",
+        "weight": 0.533
+      },
+      {
+        "name": "DynamoDB",
+        "weight": 0.4912
+      },
+      {
+        "name": "CloudFormation",
+        "weight": 0.7214
+      },
+      {
+        "name": "CloudFront (CDN)",
+        "weight": 0.2279
+      },
+      {
+        "name": "Route 53 (DNS)",
+        "weight": 0.2251
+      },
+      {
+        "name": "ECS (Elastic Container Service)",
+        "weight": 0.5308
+      },
+      {
+        "name": "EKS (Elastic Kubernetes Service)",
+        "weight": 0.5308
+      },
+      {
+        "name": "SQS (Simple Queue Service)",
+        "weight": 0.4912
+      },
+      {
+        "name": "SNS (Simple Notification Service)",
+        "weight": 0.214
+      },
+      {
+        "name": "API Gateway",
+        "weight": 0.4912
+      },
+      {
+        "name": "CloudWatch (Monitoring)",
+        "weight": 0.8771
+      },
+      {
+        "name": "Auto Scaling",
+        "weight": 1.0
+      },
+      {
+        "name": "Elastic Load Balancing (ELB)",
+        "weight": 0.7037
+      },
+      {
+        "name": "EBS (Elastic Block Store)",
+        "weight": 0.2002
+      },
+      {
+        "name": "Redshift",
+        "weight": 0.5051
+      },
+      {
+        "name": "Athena",
+        "weight": 0.5051
+      },
+      {
+        "name": "Glue",
+        "weight": 0.5051
+      },
+      {
+        "name": "Step Functions",
+        "weight": 0.6344
+      },
+      {
+        "name": "Kinesis",
+        "weight": 0.5051
+      },
+      {
+        "name": "Security Groups",
+        "weight": 0.694
+      },
+      {
+        "name": "NACLs (Network Access Control Lists)",
+        "weight": 0.511
+      },
+      {
+        "name": "KMS (Key Management Service)",
+        "weight": 0.511
+      },
+      {
+        "name": "Secrets Manager",
+        "weight": 0.511
+      },
+      {
+        "name": "CloudTrail",
+        "weight": 0.6742
+      },
+      {
+        "name": "Organizations and Multi-Account Strategy",
+        "weight": 0.656
+      },
+      {
+        "name": "Well-Architected Framework",
+        "weight": 0.5405
+      },
+      {
+        "name": "Cost Explorer and Billing",
+        "weight": 0.656
+      },
+      {
+        "name": "AWS CLI",
+        "weight": 0.533
+      },
+      {
+        "name": "SDKs (Boto3, AWS SDK for JS)",
+        "weight": 0.4912
+      },
+      {
+        "name": "Terraform on AWS",
+        "weight": 0.5308
+      },
+      {
+        "name": "SageMaker (Machine Learning)",
+        "weight": 0.4793
+      },
+      {
+        "name": "Fargate (Serverless Containers)",
+        "weight": 0.1504
+      },
+      {
+        "name": "Elastic Beanstalk",
+        "weight": 0.1477
+      },
+      {
+        "name": "AWS Lightsail",
+        "weight": 0.1449
+      },
+      {
+        "name": "CodePipeline / CodeBuild / CodeDeploy (CI/CD)",
+        "weight": 0.5308
+      },
+      {
+        "name": "Direct Connect",
+        "weight": 0.1394
+      },
+      {
+        "name": "Storage Gateway",
+        "weight": 0.1366
+      },
+      {
+        "name": "Elasticache",
+        "weight": 0.1338
+      },
+      {
+        "name": "Systems Manager",
+        "weight": 0.694
+      },
+      {
+        "name": "AWS Certified Solutions Architect",
+        "weight": 0.1283
+      },
+      {
+        "name": "Shared Responsibility Model",
+        "weight": 0.511
+      },
+      {
+        "name": "Regions and Availability Zones",
+        "weight": 0.5405
+      },
+      {
+        "name": "Edge Locations",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Cloud Computing Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Networking Basics (TCP/IP, DNS)",
+        "weight": 0.9
+      },
+      {
+        "name": "Linux Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.7
+      },
+      {
+        "name": "Virtualization Concepts",
+        "weight": 0.6
+      },
+      {
+        "name": "Security Fundamentals",
+        "weight": 0.5
+      },
+      {
+        "name": "Programming Fundamentals (Recommended)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "cloud_aws"
+  },
+  {
+    "id": 21,
+    "gid": 100000021,
+    "name": "Microsoft Azure",
+    "entity_type": "Cloud Platform",
+    "entity_subtype": "Comprehensive Public Cloud Computing Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Cloud Computing",
+      "sub_category": "Cloud Platforms",
+      "specialization": "Infrastructure-as-a-Service / Platform-as-a-Service"
+    },
+    "aliases": [
+      "Azure",
+      "Microsoft Azure",
+      "MS Azure",
+      "Azure Cloud"
+    ],
+    "concepts": [
+      {
+        "name": "Azure Virtual Machines",
+        "weight": 0.8054
+      },
+      {
+        "name": "Azure Blob Storage",
+        "weight": 0.574
+      },
+      {
+        "name": "Azure Functions (Serverless)",
+        "weight": 0.663
+      },
+      {
+        "name": "Azure Virtual Network (VNet)",
+        "weight": 0.8054
+      },
+      {
+        "name": "Azure Active Directory / Entra ID",
+        "weight": 1.0
+      },
+      {
+        "name": "Azure SQL Database",
+        "weight": 0.2341
+      },
+      {
+        "name": "Cosmos DB",
+        "weight": 0.8502
+      },
+      {
+        "name": "Azure Resource Manager (ARM)",
+        "weight": 0.8027
+      },
+      {
+        "name": "Bicep",
+        "weight": 0.5713
+      },
+      {
+        "name": "Azure CDN",
+        "weight": 0.2215
+      },
+      {
+        "name": "Azure DNS",
+        "weight": 0.2183
+      },
+      {
+        "name": "Azure Kubernetes Service (AKS)",
+        "weight": 0.5713
+      },
+      {
+        "name": "Azure Container Instances",
+        "weight": 0.212
+      },
+      {
+        "name": "Azure Service Bus",
+        "weight": 0.5176
+      },
+      {
+        "name": "Azure Event Grid",
+        "weight": 0.2056
+      },
+      {
+        "name": "API Management",
+        "weight": 0.5176
+      },
+      {
+        "name": "Azure Monitor",
+        "weight": 0.7585
+      },
+      {
+        "name": "Auto Scaling (Azure)",
+        "weight": 0.5372
+      },
+      {
+        "name": "Azure Load Balancer",
+        "weight": 0.5372
+      },
+      {
+        "name": "Managed Disks",
+        "weight": 0.1898
+      },
+      {
+        "name": "Azure Synapse Analytics",
+        "weight": 0.5372
+      },
+      {
+        "name": "Azure Data Factory",
+        "weight": 0.5372
+      },
+      {
+        "name": "Azure Logic Apps",
+        "weight": 0.1802
+      },
+      {
+        "name": "Azure Event Hubs",
+        "weight": 0.5372
+      },
+      {
+        "name": "Network Security Groups (NSGs)",
+        "weight": 0.7686
+      },
+      {
+        "name": "Azure Key Vault",
+        "weight": 0.5446
+      },
+      {
+        "name": "Azure Policy",
+        "weight": 0.5446
+      },
+      {
+        "name": "Azure DevOps",
+        "weight": 0.5713
+      },
+      {
+        "name": "Well-Architected Framework (Azure)",
+        "weight": 0.5814
+      },
+      {
+        "name": "Cost Management + Billing",
+        "weight": 0.5814
+      },
+      {
+        "name": "Azure CLI",
+        "weight": 0.574
+      },
+      {
+        "name": "Azure PowerShell",
+        "weight": 0.1517
+      },
+      {
+        "name": "Terraform on Azure",
+        "weight": 0.5713
+      },
+      {
+        "name": "Azure Machine Learning",
+        "weight": 0.4955
+      },
+      {
+        "name": "App Service",
+        "weight": 0.5176
+      },
+      {
+        "name": "Azure Static Web Apps",
+        "weight": 0.139
+      },
+      {
+        "name": "GitHub Actions with Azure",
+        "weight": 0.5713
+      },
+      {
+        "name": "ExpressRoute",
+        "weight": 0.1327
+      },
+      {
+        "name": "Azure Storage Explorer",
+        "weight": 0.1295
+      },
+      {
+        "name": "Azure Backup and Site Recovery",
+        "weight": 0.5372
+      },
+      {
+        "name": "RBAC (Role-Based Access Control)",
+        "weight": 0.5446
+      },
+      {
+        "name": "Availability Zones and Regions",
+        "weight": 0.5814
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Cloud Computing Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Networking Basics (TCP/IP, DNS)",
+        "weight": 0.9
+      },
+      {
+        "name": "Windows/Linux Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.7
+      },
+      {
+        "name": "Virtualization Concepts",
+        "weight": 0.6
+      },
+      {
+        "name": "Security Fundamentals",
+        "weight": 0.5
+      },
+      {
+        "name": "Active Directory Basics (Recommended)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "cloud_azure"
+  },
+  {
+    "id": 22,
+    "gid": 100000022,
+    "name": "Google Cloud Platform",
+    "entity_type": "Cloud Platform",
+    "entity_subtype": "Comprehensive Public Cloud Computing Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Cloud Computing",
+      "sub_category": "Cloud Platforms",
+      "specialization": "Infrastructure-as-a-Service / Platform-as-a-Service"
+    },
+    "aliases": [
+      "Google Cloud Platform",
+      "GCP",
+      "Google Cloud"
+    ],
+    "concepts": [
+      {
+        "name": "Compute Engine",
+        "weight": 0.8102
+      },
+      {
+        "name": "Cloud Storage",
+        "weight": 0.5752
+      },
+      {
+        "name": "Cloud Functions (Serverless)",
+        "weight": 0.7042
+      },
+      {
+        "name": "VPC (Virtual Private Cloud)",
+        "weight": 0.8102
+      },
+      {
+        "name": "IAM (Identity and Access Management)",
+        "weight": 1.0
+      },
+      {
+        "name": "Cloud SQL",
+        "weight": 0.2329
+      },
+      {
+        "name": "Firestore",
+        "weight": 0.5169
+      },
+      {
+        "name": "Bigtable",
+        "weight": 0.5676
+      },
+      {
+        "name": "BigQuery",
+        "weight": 0.7549
+      },
+      {
+        "name": "Google Kubernetes Engine (GKE)",
+        "weight": 0.5726
+      },
+      {
+        "name": "Cloud Run",
+        "weight": 0.5169
+      },
+      {
+        "name": "Pub/Sub",
+        "weight": 0.7345
+      },
+      {
+        "name": "Cloud Load Balancing",
+        "weight": 0.5522
+      },
+      {
+        "name": "Cloud CDN",
+        "weight": 0.2055
+      },
+      {
+        "name": "Cloud DNS",
+        "weight": 0.2021
+      },
+      {
+        "name": "Deployment Manager",
+        "weight": 0.5726
+      },
+      {
+        "name": "Cloud Monitoring (formerly Stackdriver)",
+        "weight": 0.7748
+      },
+      {
+        "name": "Cloud Logging",
+        "weight": 0.5522
+      },
+      {
+        "name": "Autoscaling (GCP)",
+        "weight": 0.5522
+      },
+      {
+        "name": "Persistent Disks",
+        "weight": 0.185
+      },
+      {
+        "name": "Dataflow",
+        "weight": 0.7549
+      },
+      {
+        "name": "Dataproc",
+        "weight": 0.5676
+      },
+      {
+        "name": "Cloud Composer",
+        "weight": 0.5676
+      },
+      {
+        "name": "Vertex AI",
+        "weight": 0.5373
+      },
+      {
+        "name": "Cloud Build",
+        "weight": 0.5726
+      },
+      {
+        "name": "Artifact Registry",
+        "weight": 0.5726
+      },
+      {
+        "name": "Cloud KMS",
+        "weight": 0.5398
+      },
+      {
+        "name": "Secret Manager",
+        "weight": 0.5398
+      },
+      {
+        "name": "VPC Service Controls",
+        "weight": 0.5398
+      },
+      {
+        "name": "Cloud Armor",
+        "weight": 0.5398
+      },
+      {
+        "name": "Organization Policy",
+        "weight": 0.585
+      },
+      {
+        "name": "Cost Management (GCP)",
+        "weight": 0.585
+      },
+      {
+        "name": "gcloud CLI",
+        "weight": 0.5752
+      },
+      {
+        "name": "Terraform on GCP",
+        "weight": 0.5726
+      },
+      {
+        "name": "App Engine",
+        "weight": 0.5169
+      },
+      {
+        "name": "Firebase Integration",
+        "weight": 0.1303
+      },
+      {
+        "name": "Anthos",
+        "weight": 0.1268
+      },
+      {
+        "name": "Regions and Zones (GCP)",
+        "weight": 0.585
+      },
+      {
+        "name": "Cloud IAM Roles",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Cloud Computing Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Networking Basics (TCP/IP, DNS)",
+        "weight": 0.88
+      },
+      {
+        "name": "Linux Basics",
+        "weight": 0.76
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.64
+      },
+      {
+        "name": "Virtualization Concepts",
+        "weight": 0.52
+      },
+      {
+        "name": "Kubernetes Basics (Recommended)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "cloud_gcp"
+  },
+  {
+    "id": 23,
+    "gid": 100000023,
+    "name": "Oracle Cloud Infrastructure",
+    "entity_type": "Cloud Platform",
+    "entity_subtype": "Enterprise Public Cloud Computing Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Cloud Computing",
+      "sub_category": "Cloud Platforms",
+      "specialization": "Infrastructure-as-a-Service / Enterprise Cloud"
+    },
+    "aliases": [
+      "Oracle Cloud Infrastructure",
+      "OCI",
+      "Oracle Cloud"
+    ],
+    "concepts": [
+      {
+        "name": "OCI Compute Instances",
+        "weight": 1.0
+      },
+      {
+        "name": "Object Storage (OCI)",
+        "weight": 0.6649
+      },
+      {
+        "name": "OCI Functions (Serverless)",
+        "weight": 0.237
+      },
+      {
+        "name": "Virtual Cloud Network (VCN)",
+        "weight": 1.0
+      },
+      {
+        "name": "Identity and Access Management (IAM, OCI)",
+        "weight": 0.6851
+      },
+      {
+        "name": "Autonomous Database",
+        "weight": 0.7391
+      },
+      {
+        "name": "Oracle Database Cloud Service",
+        "weight": 0.7391
+      },
+      {
+        "name": "OCI Kubernetes Engine (OKE)",
+        "weight": 0.6311
+      },
+      {
+        "name": "OCI Container Instances",
+        "weight": 0.198
+      },
+      {
+        "name": "Load Balancing (OCI)",
+        "weight": 0.1915
+      },
+      {
+        "name": "OCI Streaming",
+        "weight": 0.185
+      },
+      {
+        "name": "OCI Monitoring",
+        "weight": 0.6311
+      },
+      {
+        "name": "OCI CLI",
+        "weight": 0.6649
+      },
+      {
+        "name": "Terraform on OCI (via Resource Manager)",
+        "weight": 0.6311
+      },
+      {
+        "name": "OCI Vault",
+        "weight": 0.7391
+      },
+      {
+        "name": "Compartments",
+        "weight": 0.6851
+      },
+      {
+        "name": "OCI Data Integration",
+        "weight": 0.146
+      },
+      {
+        "name": "Exadata Cloud Service",
+        "weight": 0.7391
+      },
+      {
+        "name": "FastConnect",
+        "weight": 0.133
+      },
+      {
+        "name": "Cost Management (OCI)",
+        "weight": 0.6851
+      },
+      {
+        "name": "OCI Data Science",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Cloud Computing Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Networking Basics (TCP/IP, DNS)",
+        "weight": 0.8
+      },
+      {
+        "name": "Oracle Database Basics (Recommended)",
+        "weight": 0.6
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "cloud_oracle_cloud_infrastructure"
+  },
+  {
+    "id": 24,
+    "gid": 100000024,
+    "name": "IBM Cloud",
+    "entity_type": "Cloud Platform",
+    "entity_subtype": "Enterprise Public and Hybrid Cloud Computing Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Cloud Computing",
+      "sub_category": "Cloud Platforms",
+      "specialization": "Infrastructure-as-a-Service / Hybrid Cloud"
+    },
+    "aliases": [
+      "IBM Cloud",
+      "IBM Bluemix (former name)"
+    ],
+    "concepts": [
+      {
+        "name": "IBM Cloud Virtual Servers",
+        "weight": 0.964
+      },
+      {
+        "name": "Cloud Object Storage (IBM)",
+        "weight": 0.964
+      },
+      {
+        "name": "IBM Cloud Functions (Serverless)",
+        "weight": 0.9281
+      },
+      {
+        "name": "IBM Cloud Kubernetes Service",
+        "weight": 0.9041
+      },
+      {
+        "name": "Red Hat OpenShift on IBM Cloud",
+        "weight": 1.0
+      },
+      {
+        "name": "IBM Cloud IAM",
+        "weight": 1.0
+      },
+      {
+        "name": "IBM Cloud Databases",
+        "weight": 0.19
+      },
+      {
+        "name": "IBM Watson Services",
+        "weight": 0.9281
+      },
+      {
+        "name": "IBM Cloud Monitoring",
+        "weight": 0.9041
+      },
+      {
+        "name": "IBM Cloud CLI",
+        "weight": 0.964
+      },
+      {
+        "name": "VPC (IBM Cloud)",
+        "weight": 1.0
+      },
+      {
+        "name": "IBM Cloud Schematics (Terraform)",
+        "weight": 0.9041
+      },
+      {
+        "name": "IBM Cloud Pak",
+        "weight": 0.13
+      },
+      {
+        "name": "Hybrid Cloud Architecture",
+        "weight": 1.0
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Cloud Computing Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Networking Basics (TCP/IP, DNS)",
+        "weight": 0.8
+      },
+      {
+        "name": "Kubernetes Basics (Recommended)",
+        "weight": 0.6
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "cloud_ibm_cloud"
+  },
+  {
+    "id": 25,
+    "gid": 100000025,
+    "name": "DigitalOcean",
+    "entity_type": "Cloud Platform",
+    "entity_subtype": "Developer-Focused Cloud Infrastructure Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Cloud Computing",
+      "sub_category": "Cloud Platforms",
+      "specialization": "Simplified Infrastructure-as-a-Service"
+    },
+    "aliases": [
+      "DigitalOcean",
+      "DO"
+    ],
+    "concepts": [
+      {
+        "name": "Droplets (Virtual Machines)",
+        "weight": 1.0
+      },
+      {
+        "name": "Spaces (Object Storage)",
+        "weight": 0.6934
+      },
+      {
+        "name": "DigitalOcean Kubernetes (DOKS)",
+        "weight": 0.625
+      },
+      {
+        "name": "App Platform (PaaS)",
+        "weight": 0.6934
+      },
+      {
+        "name": "Managed Databases",
+        "weight": 0.6934
+      },
+      {
+        "name": "Load Balancers (DO)",
+        "weight": 0.625
+      },
+      {
+        "name": "VPC (DigitalOcean)",
+        "weight": 0.6566
+      },
+      {
+        "name": "Firewalls (DO)",
+        "weight": 0.6566
+      },
+      {
+        "name": "Volumes (Block Storage)",
+        "weight": 0.1757
+      },
+      {
+        "name": "DigitalOcean Functions",
+        "weight": 0.1664
+      },
+      {
+        "name": "doctl CLI",
+        "weight": 0.6566
+      },
+      {
+        "name": "Terraform on DigitalOcean",
+        "weight": 0.625
+      },
+      {
+        "name": "DigitalOcean Container Registry",
+        "weight": 0.1386
+      },
+      {
+        "name": "Floating IPs",
+        "weight": 0.1293
+      },
+      {
+        "name": "Monitoring (DO)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Cloud Computing Fundamentals",
+        "weight": 1.0
+      },
+      {
+        "name": "Linux Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Networking Basics (TCP/IP, DNS)",
+        "weight": 0.6
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "cloud_digitalocean"
+  },
+  {
+    "id": 26,
+    "gid": 100000026,
+    "name": "Heroku",
+    "entity_type": "Cloud Platform",
+    "entity_subtype": "Platform-as-a-Service for Application Deployment",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Cloud Computing",
+      "sub_category": "Cloud Platforms",
+      "specialization": "Platform-as-a-Service"
+    },
+    "aliases": [
+      "Heroku",
+      "Heroku PaaS"
+    ],
+    "concepts": [
+      {
+        "name": "Dynos",
+        "weight": 1.0
+      },
+      {
+        "name": "Buildpacks",
+        "weight": 0.6628
+      },
+      {
+        "name": "Procfile",
+        "weight": 0.6628
+      },
+      {
+        "name": "Heroku CLI",
+        "weight": 0.6872
+      },
+      {
+        "name": "Add-ons (Heroku Postgres, Redis)",
+        "weight": 0.6872
+      },
+      {
+        "name": "Config Vars (Environment Variables)",
+        "weight": 0.6628
+      },
+      {
+        "name": "Release Phase",
+        "weight": 0.185
+      },
+      {
+        "name": "Pipelines (Heroku)",
+        "weight": 0.5703
+      },
+      {
+        "name": "Review Apps",
+        "weight": 0.5703
+      },
+      {
+        "name": "Git-Based Deployment",
+        "weight": 1.0
+      },
+      {
+        "name": "Heroku Postgres",
+        "weight": 0.1417
+      },
+      {
+        "name": "Autoscaling (Heroku)",
+        "weight": 0.5703
+      },
+      {
+        "name": "Scheduler (Heroku)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Web Development Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Git Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.6
+      },
+      {
+        "name": "Web Application Deployment Concepts",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "cloud_heroku"
+  },
+  {
+    "id": 27,
+    "gid": 100000027,
+    "name": "Vercel",
+    "entity_type": "Cloud Platform",
+    "entity_subtype": "Frontend-Focused Deployment and Serverless Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Cloud Computing",
+      "sub_category": "Cloud Platforms",
+      "specialization": "Frontend / Jamstack Deployment"
+    },
+    "aliases": [
+      "Vercel",
+      "Vercel Inc",
+      "ZEIT (former name)"
+    ],
+    "concepts": [
+      {
+        "name": "Serverless Functions (Vercel)",
+        "weight": 0.6666
+      },
+      {
+        "name": "Edge Functions",
+        "weight": 0.6666
+      },
+      {
+        "name": "Next.js Integration",
+        "weight": 1.0
+      },
+      {
+        "name": "Preview Deployments",
+        "weight": 0.6834
+      },
+      {
+        "name": "Git-Based Deployment",
+        "weight": 0.6834
+      },
+      {
+        "name": "Vercel CLI",
+        "weight": 0.1909
+      },
+      {
+        "name": "Custom Domains",
+        "weight": 0.6666
+      },
+      {
+        "name": "Environment Variables (Vercel)",
+        "weight": 0.1673
+      },
+      {
+        "name": "Incremental Static Regeneration (ISR)",
+        "weight": 0.9411
+      },
+      {
+        "name": "Edge Network / CDN",
+        "weight": 0.6077
+      },
+      {
+        "name": "Vercel Analytics",
+        "weight": 0.1318
+      },
+      {
+        "name": "Monorepo Support",
+        "weight": 0.6077
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JavaScript Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Web Development Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Git Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Next.js/React Basics (Recommended)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "cloud_vercel"
+  },
+  {
+    "id": 28,
+    "gid": 100000028,
+    "name": "Netlify",
+    "entity_type": "Cloud Platform",
+    "entity_subtype": "Frontend-Focused Deployment and Jamstack Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Cloud Computing",
+      "sub_category": "Cloud Platforms",
+      "specialization": "Frontend / Jamstack Deployment"
+    },
+    "aliases": [
+      "Netlify"
+    ],
+    "concepts": [
+      {
+        "name": "Netlify Functions (Serverless)",
+        "weight": 0.668
+      },
+      {
+        "name": "Continuous Deployment (Git-Based)",
+        "weight": 1.0
+      },
+      {
+        "name": "Deploy Previews",
+        "weight": 0.696
+      },
+      {
+        "name": "Netlify CLI",
+        "weight": 0.2067
+      },
+      {
+        "name": "Netlify Forms",
+        "weight": 1.0
+      },
+      {
+        "name": "Edge Functions (Netlify)",
+        "weight": 0.668
+      },
+      {
+        "name": "Split Testing (A/B)",
+        "weight": 0.1633
+      },
+      {
+        "name": "Custom Domains and SSL",
+        "weight": 0.696
+      },
+      {
+        "name": "Build Plugins",
+        "weight": 0.654
+      },
+      {
+        "name": "Identity/Auth (Netlify)",
+        "weight": 0.668
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "JavaScript Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Web Development Basics",
+        "weight": 0.8
+      },
+      {
+        "name": "Git Basics",
+        "weight": 0.6
+      },
+      {
+        "name": "Static Site Generators (Recommended)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_netlify"
+  },
+  {
+    "id": 29,
+    "gid": 100000029,
+    "name": "Railway",
+    "entity_type": "Cloud Platform",
+    "entity_subtype": "Developer-Focused Deployment Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Cloud Computing",
+      "sub_category": "Cloud Platforms",
+      "specialization": "Simplified Application Deployment"
+    },
+    "aliases": [
+      "Railway",
+      "Railway.app"
+    ],
+    "concepts": [
+      {
+        "name": "Services (Railway)",
+        "weight": 1.0
+      },
+      {
+        "name": "Git-Based Deployment",
+        "weight": 0.6864
+      },
+      {
+        "name": "Railway CLI",
+        "weight": 0.6864
+      },
+      {
+        "name": "Environment Variables (Railway)",
+        "weight": 0.6636
+      },
+      {
+        "name": "Managed Databases (Railway)",
+        "weight": 0.6864
+      },
+      {
+        "name": "Nixpacks (Build System)",
+        "weight": 0.6636
+      },
+      {
+        "name": "Preview Environments",
+        "weight": 0.1386
+      },
+      {
+        "name": "Volumes (Railway)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Web Development Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Git Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_railway"
+  },
+  {
+    "id": 30,
+    "gid": 100000030,
+    "name": "Render",
+    "entity_type": "Cloud Platform",
+    "entity_subtype": "Unified Cloud Platform for Web Services and Static Sites",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Cloud Computing",
+      "sub_category": "Cloud Platforms",
+      "specialization": "Simplified Application Deployment"
+    },
+    "aliases": [
+      "Render",
+      "Render.com"
+    ],
+    "concepts": [
+      {
+        "name": "Web Services (Render)",
+        "weight": 1.0
+      },
+      {
+        "name": "Static Sites (Render)",
+        "weight": 0.6672
+      },
+      {
+        "name": "Background Workers",
+        "weight": 0.6828
+      },
+      {
+        "name": "Cron Jobs (Render)",
+        "weight": 0.211
+      },
+      {
+        "name": "Managed PostgreSQL (Render)",
+        "weight": 0.6672
+      },
+      {
+        "name": "Private Services",
+        "weight": 0.5843
+      },
+      {
+        "name": "Git-Based Deployment",
+        "weight": 0.6672
+      },
+      {
+        "name": "Render Blueprints (render.yaml)",
+        "weight": 0.9171
+      },
+      {
+        "name": "Environment Groups",
+        "weight": 0.5843
+      },
+      {
+        "name": "Auto-Deploy on Push",
+        "weight": 0.6828
+      },
+      {
+        "name": "Disks (Persistent Storage)",
+        "weight": 0.12
+      }
+    ],
+    "prerequisites": [
+      {
+        "name": "Web Development Basics",
+        "weight": 1.0
+      },
+      {
+        "name": "Git Basics",
+        "weight": 0.7
+      },
+      {
+        "name": "Command Line Interface (CLI)",
+        "weight": 0.4
+      }
+    ],
+    "index_id": "tool_render"
+  }
+]
