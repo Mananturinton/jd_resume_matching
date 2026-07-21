@@ -1,0 +1,797 @@
+[
+  {
+    "id": 1,
+    "gid": 97,
+    "name": "Silicon",
+    "entity_type": "Material",
+    "entity_subtype": "Semiconductor Element",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Materials Science",
+      "sub_category": "Semiconductor Materials",
+      "specialization": "Electronic-Grade Materials"
+    },
+    "aliases": [
+      "Silicon",
+      "Si",
+      "Crystalline Silicon",
+      "Polysilicon",
+      "Monocrystalline Silicon",
+      "Amorphous Silicon",
+      "Electronic-Grade Silicon (EGS)",
+      "Solar-Grade Silicon"
+    ],
+    "concepts": [
+      "Crystal Lattice Structure",
+      "Diamond Cubic Structure",
+      "Band Gap",
+      "Doping (N-type, P-type)",
+      "Czochralski Process",
+      "Wafer Fabrication",
+      "Photolithography",
+      "Ion Implantation",
+      "Etching",
+      "Oxidation (SiO2 Formation)",
+      "Chemical Vapor Deposition (CVD)",
+      "Silicon Purity Grades",
+      "Monocrystalline vs Polycrystalline Silicon",
+      "Amorphous Silicon",
+      "Silicon-on-Insulator (SOI)",
+      "Transistor Fabrication",
+      "CMOS Process",
+      "Moore's Law",
+      "Photovoltaic Effect",
+      "Solar Cell Fabrication",
+      "Thermal Conductivity",
+      "Electrical Resistivity",
+      "Piezoresistive Effect",
+      "MEMS Fabrication",
+      "Wafer Dicing",
+      "Die Packaging",
+      "Yield and Defect Density",
+      "Silicon Carbide (Related Compound)",
+      "Refractive Index",
+      "Bandgap Engineering",
+      "Epitaxy"
+    ],
+    "roles": [
+      {
+        "role": "Semiconductor Process Engineer",
+        "importance": 0.9612,
+        "concepts": [
+          "Czochralski Process",
+          "Wafer Fabrication",
+          "Photolithography",
+          "Ion Implantation",
+          "Etching",
+          "Oxidation (SiO2 Formation)",
+          "CMOS Process",
+          "Yield and Defect Density"
+        ]
+      },
+      {
+        "role": "Materials Scientist (Semiconductors)",
+        "importance": 0.9234,
+        "concepts": [
+          "Crystal Lattice Structure",
+          "Band Gap",
+          "Doping (N-type, P-type)",
+          "Bandgap Engineering",
+          "Epitaxy",
+          "Silicon Purity Grades"
+        ]
+      },
+      {
+        "role": "Chip Design Engineer",
+        "importance": 0.7823,
+        "concepts": [
+          "Transistor Fabrication",
+          "CMOS Process",
+          "Moore's Law",
+          "Silicon-on-Insulator (SOI)"
+        ]
+      },
+      {
+        "role": "Solar/Photovoltaic Engineer",
+        "importance": 0.8123,
+        "concepts": [
+          "Photovoltaic Effect",
+          "Solar Cell Fabrication",
+          "Monocrystalline vs Polycrystalline Silicon",
+          "Solar-Grade Silicon"
+        ]
+      },
+      {
+        "role": "MEMS Engineer",
+        "importance": 0.6923,
+        "concepts": [
+          "MEMS Fabrication",
+          "Piezoresistive Effect",
+          "Etching",
+          "Die Packaging"
+        ]
+      },
+      {
+        "role": "Hardware Engineer",
+        "importance": 0.5423,
+        "concepts": [
+          "Transistor Fabrication",
+          "Die Packaging",
+          "Thermal Conductivity"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Chemistry Fundamentals",
+      "Solid-State Physics Basics",
+      "Electrical Engineering Fundamentals",
+      "Crystallography Basics",
+      "Materials Science Fundamentals"
+    ]
+  },
+  {
+    "id": 2,
+    "gid": 98,
+    "name": "Copper",
+    "entity_type": "Material",
+    "entity_subtype": "Conductive Metal",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Materials Science",
+      "sub_category": "Conductive Materials",
+      "specialization": "Electrical and Thermal Conductors"
+    },
+    "aliases": [
+      "Copper",
+      "Cu",
+      "Electrolytic Tough Pitch Copper (ETP)",
+      "Oxygen-Free Copper (OFC)"
+    ],
+    "concepts": [
+      "Electrical Conductivity",
+      "Thermal Conductivity",
+      "Ductility and Malleability",
+      "Copper Wire Drawing",
+      "Annealing",
+      "Oxidation and Patina Formation",
+      "Copper Alloys (Brass, Bronze)",
+      "Electroplating",
+      "PCB Copper Traces",
+      "Copper Clad Laminate",
+      "Electromigration",
+      "Skin Effect (High-Frequency Signals)",
+      "Corrosion Resistance",
+      "Copper Recycling",
+      "Wire Gauge (AWG)",
+      "Busbars",
+      "Copper in Motor Windings",
+      "Copper in Heat Sinks",
+      "Soldering to Copper",
+      "Copper Purity Grades",
+      "Superconductivity (Context/Comparison)"
+    ],
+    "roles": [
+      {
+        "role": "Electrical Engineer",
+        "importance": 0.8923,
+        "concepts": [
+          "Electrical Conductivity",
+          "Wire Gauge (AWG)",
+          "Skin Effect (High-Frequency Signals)",
+          "Busbars",
+          "Copper in Motor Windings"
+        ]
+      },
+      {
+        "role": "PCB Design Engineer",
+        "importance": 0.8523,
+        "concepts": [
+          "PCB Copper Traces",
+          "Copper Clad Laminate",
+          "Electromigration",
+          "Soldering to Copper"
+        ]
+      },
+      {
+        "role": "Materials Engineer",
+        "importance": 0.7623,
+        "concepts": [
+          "Copper Alloys (Brass, Bronze)",
+          "Ductility and Malleability",
+          "Annealing",
+          "Corrosion Resistance"
+        ]
+      },
+      {
+        "role": "Thermal/Mechanical Engineer",
+        "importance": 0.6823,
+        "concepts": [
+          "Thermal Conductivity",
+          "Copper in Heat Sinks",
+          "Copper Alloys (Brass, Bronze)"
+        ]
+      },
+      {
+        "role": "Manufacturing Engineer",
+        "importance": 0.6123,
+        "concepts": [
+          "Copper Wire Drawing",
+          "Electroplating",
+          "Copper Recycling"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Chemistry Fundamentals",
+      "Electrical Engineering Fundamentals",
+      "Materials Science Fundamentals",
+      "Basic Physics"
+    ]
+  },
+  {
+    "id": 3,
+    "gid": 99,
+    "name": "Fiber Optic Cable",
+    "entity_type": "Material / Component",
+    "entity_subtype": "Optical Data Transmission Medium",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Materials Science",
+      "sub_category": "Optical/Telecommunications Materials",
+      "specialization": "Optical Fiber Technology"
+    },
+    "aliases": [
+      "Fiber Optic Cable",
+      "Optical Fiber",
+      "Fiber Optics",
+      "Fibre Optic Cable"
+    ],
+    "concepts": [
+      "Core and Cladding Structure",
+      "Total Internal Reflection",
+      "Single-Mode Fiber (SMF)",
+      "Multi-Mode Fiber (MMF)",
+      "Refractive Index",
+      "Attenuation (dB/km)",
+      "Dispersion (Chromatic, Modal)",
+      "Fiber Bragg Gratings",
+      "Optical Connectors (LC, SC, ST)",
+      "Fusion Splicing",
+      "Mechanical Splicing",
+      "Fiber Optic Amplifiers (EDFA)",
+      "Wavelength-Division Multiplexing (WDM)",
+      "Dense WDM (DWDM)",
+      "Bend Radius",
+      "Fiber Optic Sensors",
+      "OTDR (Optical Time-Domain Reflectometer)",
+      "Loss Budget Calculation",
+      "Fiber to the Home (FTTH)",
+      "Submarine Cables",
+      "Silica Glass Composition",
+      "Plastic Optical Fiber (POF)",
+      "Numerical Aperture",
+      "Photonic Crystal Fiber"
+    ],
+    "roles": [
+      {
+        "role": "Fiber Optic Network Engineer",
+        "importance": 0.9123,
+        "concepts": [
+          "Single-Mode Fiber (SMF)",
+          "Multi-Mode Fiber (MMF)",
+          "Fusion Splicing",
+          "Optical Connectors (LC, SC, ST)",
+          "OTDR (Optical Time-Domain Reflectometer)",
+          "Loss Budget Calculation"
+        ]
+      },
+      {
+        "role": "Telecommunications Engineer",
+        "importance": 0.8523,
+        "concepts": [
+          "Wavelength-Division Multiplexing (WDM)",
+          "Dense WDM (DWDM)",
+          "Attenuation (dB/km)",
+          "Fiber Optic Amplifiers (EDFA)",
+          "Submarine Cables"
+        ]
+      },
+      {
+        "role": "Photonics Engineer",
+        "importance": 0.7923,
+        "concepts": [
+          "Total Internal Reflection",
+          "Refractive Index",
+          "Fiber Bragg Gratings",
+          "Numerical Aperture",
+          "Photonic Crystal Fiber"
+        ]
+      },
+      {
+        "role": "Network Installation Technician",
+        "importance": 0.6823,
+        "concepts": [
+          "Fusion Splicing",
+          "Mechanical Splicing",
+          "Bend Radius",
+          "Fiber to the Home (FTTH)"
+        ]
+      },
+      {
+        "role": "Materials Engineer",
+        "importance": 0.5423,
+        "concepts": [
+          "Silica Glass Composition",
+          "Core and Cladding Structure",
+          "Plastic Optical Fiber (POF)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Physics of Light and Optics",
+      "Electromagnetic Wave Basics",
+      "Telecommunications Fundamentals",
+      "Basic Physics"
+    ]
+  },
+  {
+    "id": 4,
+    "gid": 100,
+    "name": "Printed Circuit Board",
+    "entity_type": "Material / Component",
+    "entity_subtype": "Electronic Interconnection Substrate",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Materials Science",
+      "sub_category": "Electronic Substrates",
+      "specialization": "PCB Design and Manufacturing"
+    },
+    "aliases": [
+      "PCB",
+      "Printed Circuit Board",
+      "Printed Wiring Board (PWB)"
+    ],
+    "concepts": [
+      "FR4 Substrate",
+      "Copper Clad Laminate",
+      "Copper Traces",
+      "Vias (Through-Hole, Blind, Buried)",
+      "Solder Mask",
+      "Silkscreen",
+      "Multilayer PCB Stack-up",
+      "Surface Mount Technology (SMT)",
+      "Through-Hole Technology (THT)",
+      "PCB Layout Design",
+      "Gerber Files",
+      "Design Rule Checking (DRC)",
+      "Impedance Matching",
+      "Ground Planes",
+      "Power Planes",
+      "PCB Etching Process",
+      "Drilling",
+      "Component Placement",
+      "Reflow Soldering",
+      "Wave Soldering",
+      "PCB Testing (Continuity, Flying Probe)",
+      "Rigid-Flex PCB",
+      "Flexible PCB",
+      "High-Density Interconnect (HDI)",
+      "Thermal Vias",
+      "PCB CAD Tools (Altium, KiCad, Eagle)",
+      "Signal Integrity",
+      "EMI/EMC Considerations",
+      "Panelization"
+    ],
+    "roles": [
+      {
+        "role": "PCB Design Engineer",
+        "importance": 0.9612,
+        "concepts": [
+          "PCB Layout Design",
+          "Multilayer PCB Stack-up",
+          "Impedance Matching",
+          "Gerber Files",
+          "PCB CAD Tools (Altium, KiCad, Eagle)",
+          "Design Rule Checking (DRC)",
+          "Signal Integrity"
+        ]
+      },
+      {
+        "role": "Electronics Manufacturing Engineer",
+        "importance": 0.8623,
+        "concepts": [
+          "Surface Mount Technology (SMT)",
+          "Reflow Soldering",
+          "Wave Soldering",
+          "PCB Testing (Continuity, Flying Probe)",
+          "Panelization"
+        ]
+      },
+      {
+        "role": "Hardware Engineer",
+        "importance": 0.8823,
+        "concepts": [
+          "PCB Layout Design",
+          "Vias (Through-Hole, Blind, Buried)",
+          "Ground Planes",
+          "Power Planes",
+          "Component Placement"
+        ]
+      },
+      {
+        "role": "RF Engineer",
+        "importance": 0.6923,
+        "concepts": [
+          "Impedance Matching",
+          "Signal Integrity",
+          "EMI/EMC Considerations"
+        ]
+      },
+      {
+        "role": "Materials Engineer",
+        "importance": 0.5623,
+        "concepts": [
+          "FR4 Substrate",
+          "Copper Clad Laminate",
+          "Rigid-Flex PCB",
+          "Flexible PCB"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Electrical Engineering Fundamentals",
+      "Electronics Fundamentals",
+      "Circuit Design Basics",
+      "Copper",
+      "Basic Physics"
+    ]
+  },
+  {
+    "id": 5,
+    "gid": 101,
+    "name": "Lithium-ion Battery",
+    "entity_type": "Material / Component",
+    "entity_subtype": "Rechargeable Energy Storage Device",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Materials Science",
+      "sub_category": "Energy Storage Materials",
+      "specialization": "Battery Technology"
+    },
+    "aliases": [
+      "Lithium-ion Battery",
+      "Li-ion Battery",
+      "LIB",
+      "Lithium Battery"
+    ],
+    "concepts": [
+      "Cathode Materials (NMC, LFP, NCA)",
+      "Anode Materials (Graphite, Silicon)",
+      "Electrolyte Composition",
+      "Separator",
+      "Intercalation Chemistry",
+      "Charge/Discharge Cycles",
+      "State of Charge (SOC)",
+      "State of Health (SOH)",
+      "Battery Management System (BMS)",
+      "Thermal Runaway",
+      "Energy Density",
+      "Power Density",
+      "Cell Formats (Cylindrical, Prismatic, Pouch)",
+      "C-Rate",
+      "Coulombic Efficiency",
+      "Solid Electrolyte Interphase (SEI)",
+      "Battery Degradation Mechanisms",
+      "Fast Charging",
+      "Battery Pack Design",
+      "Cell Balancing",
+      "Lithium Iron Phosphate (LFP) Chemistry",
+      "Nickel Manganese Cobalt (NMC) Chemistry",
+      "Solid-State Batteries (Emerging)",
+      "Battery Recycling",
+      "Safety Testing (UN38.3, UL Standards)",
+      "Thermal Management Systems"
+    ],
+    "roles": [
+      {
+        "role": "Battery Engineer",
+        "importance": 0.9612,
+        "concepts": [
+          "Cathode Materials (NMC, LFP, NCA)",
+          "Anode Materials (Graphite, Silicon)",
+          "Electrolyte Composition",
+          "Cell Formats (Cylindrical, Prismatic, Pouch)",
+          "Battery Management System (BMS)",
+          "Thermal Runaway"
+        ]
+      },
+      {
+        "role": "Electrochemist / Materials Scientist",
+        "importance": 0.9012,
+        "concepts": [
+          "Intercalation Chemistry",
+          "Solid Electrolyte Interphase (SEI)",
+          "Battery Degradation Mechanisms",
+          "Coulombic Efficiency",
+          "Solid-State Batteries (Emerging)"
+        ]
+      },
+      {
+        "role": "Electric Vehicle (EV) Systems Engineer",
+        "importance": 0.8523,
+        "concepts": [
+          "Battery Pack Design",
+          "Cell Balancing",
+          "Battery Management System (BMS)",
+          "Thermal Management Systems",
+          "Fast Charging"
+        ]
+      },
+      {
+        "role": "Battery Safety/Testing Engineer",
+        "importance": 0.7823,
+        "concepts": [
+          "Safety Testing (UN38.3, UL Standards)",
+          "Thermal Runaway",
+          "State of Health (SOH)"
+        ]
+      },
+      {
+        "role": "Energy Storage Systems Engineer",
+        "importance": 0.7423,
+        "concepts": [
+          "Energy Density",
+          "Power Density",
+          "C-Rate",
+          "Battery Pack Design"
+        ]
+      },
+      {
+        "role": "Sustainability/Recycling Engineer",
+        "importance": 0.5623,
+        "concepts": [
+          "Battery Recycling",
+          "Battery Degradation Mechanisms"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Chemistry Fundamentals",
+      "Electrochemistry Basics",
+      "Electrical Engineering Fundamentals",
+      "Thermodynamics Basics",
+      "Materials Science Fundamentals"
+    ]
+  },
+  {
+    "id": 6,
+    "gid": 102,
+    "name": "Carbon Fiber",
+    "entity_type": "Material",
+    "entity_subtype": "Composite Reinforcement Material",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Materials Science",
+      "sub_category": "Composite Materials",
+      "specialization": "Structural / Lightweight Materials"
+    },
+    "aliases": [
+      "Carbon Fiber",
+      "Carbon Fibre",
+      "CFRP (Carbon Fiber Reinforced Polymer)"
+    ],
+    "concepts": [
+      "Polyacrylonitrile (PAN) Precursor",
+      "Pitch-Based Carbon Fiber",
+      "Carbonization Process",
+      "Graphitization",
+      "Fiber Weave Patterns (Plain, Twill, Unidirectional)",
+      "Resin Matrix (Epoxy)",
+      "Carbon Fiber Reinforced Polymer (CFRP)",
+      "Tensile Strength",
+      "Modulus of Elasticity",
+      "Strength-to-Weight Ratio",
+      "Layup Process",
+      "Autoclave Curing",
+      "Resin Transfer Molding (RTM)",
+      "Prepreg Materials",
+      "Anisotropic Properties",
+      "Fatigue Resistance",
+      "Fiber Orientation Design",
+      "Non-Destructive Testing (NDT)",
+      "Delamination",
+      "Aerospace-Grade Carbon Fiber",
+      "Recycled Carbon Fiber",
+      "Vacuum Bagging"
+    ],
+    "roles": [
+      {
+        "role": "Composite Materials Engineer",
+        "importance": 0.9412,
+        "concepts": [
+          "Polyacrylonitrile (PAN) Precursor",
+          "Fiber Weave Patterns (Plain, Twill, Unidirectional)",
+          "Resin Matrix (Epoxy)",
+          "Layup Process",
+          "Autoclave Curing",
+          "Fiber Orientation Design"
+        ]
+      },
+      {
+        "role": "Aerospace Structural Engineer",
+        "importance": 0.8823,
+        "concepts": [
+          "Carbon Fiber Reinforced Polymer (CFRP)",
+          "Strength-to-Weight Ratio",
+          "Fatigue Resistance",
+          "Aerospace-Grade Carbon Fiber",
+          "Non-Destructive Testing (NDT)"
+        ]
+      },
+      {
+        "role": "Automotive Design Engineer",
+        "importance": 0.7123,
+        "concepts": [
+          "Strength-to-Weight Ratio",
+          "Resin Transfer Molding (RTM)",
+          "Carbon Fiber Reinforced Polymer (CFRP)"
+        ]
+      },
+      {
+        "role": "Manufacturing/Process Engineer (Composites)",
+        "importance": 0.7623,
+        "concepts": [
+          "Prepreg Materials",
+          "Vacuum Bagging",
+          "Autoclave Curing",
+          "Resin Transfer Molding (RTM)"
+        ]
+      },
+      {
+        "role": "Materials Scientist",
+        "importance": 0.7823,
+        "concepts": [
+          "Carbonization Process",
+          "Graphitization",
+          "Anisotropic Properties",
+          "Tensile Strength",
+          "Modulus of Elasticity"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Materials Science Fundamentals",
+      "Mechanics of Materials",
+      "Chemistry Fundamentals",
+      "Structural Engineering Basics"
+    ]
+  },
+  {
+    "id": 7,
+    "gid": 103,
+    "name": "Semiconductors",
+    "entity_type": "Material Category",
+    "entity_subtype": "Electronic Materials Class",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Materials Science",
+      "sub_category": "Semiconductor Materials",
+      "specialization": "Semiconductor Devices and Fabrication"
+    },
+    "aliases": [
+      "Semiconductors",
+      "Semiconductor Materials",
+      "Semiconductor Devices"
+    ],
+    "concepts": [
+      "Band Gap Theory",
+      "Intrinsic vs Extrinsic Semiconductors",
+      "N-type and P-type Doping",
+      "PN Junction",
+      "Diodes",
+      "Transistors (BJT, MOSFET)",
+      "Integrated Circuits (ICs)",
+      "Compound Semiconductors (GaAs, GaN, SiC)",
+      "Wide-Bandgap Semiconductors",
+      "Semiconductor Fabrication (Fab)",
+      "Photolithography",
+      "Etching and Deposition",
+      "Chip Packaging",
+      "Moore's Law",
+      "Transistor Scaling",
+      "FinFET Technology",
+      "Gate-All-Around (GAA) Transistors",
+      "Semiconductor Supply Chain",
+      "Foundry Model (TSMC, Samsung, Intel)",
+      "Fabless Design Model",
+      "Semiconductor Yield Management",
+      "Power Semiconductors",
+      "RF Semiconductors",
+      "Memory Semiconductors (DRAM, NAND)",
+      "Logic Semiconductors",
+      "Semiconductor Testing (ATE)",
+      "Electromigration",
+      "Thermal Management in Chips"
+    ],
+    "roles": [
+      {
+        "role": "Semiconductor Process Engineer",
+        "importance": 0.9523,
+        "concepts": [
+          "Photolithography",
+          "Etching and Deposition",
+          "Semiconductor Fabrication (Fab)",
+          "Semiconductor Yield Management",
+          "Transistor Scaling"
+        ]
+      },
+      {
+        "role": "Chip/IC Design Engineer",
+        "importance": 0.9412,
+        "concepts": [
+          "PN Junction",
+          "Transistors (BJT, MOSFET)",
+          "Integrated Circuits (ICs)",
+          "FinFET Technology",
+          "Gate-All-Around (GAA) Transistors",
+          "Logic Semiconductors"
+        ]
+      },
+      {
+        "role": "Materials Scientist (Semiconductors)",
+        "importance": 0.8923,
+        "concepts": [
+          "Band Gap Theory",
+          "Compound Semiconductors (GaAs, GaN, SiC)",
+          "Wide-Bandgap Semiconductors",
+          "Intrinsic vs Extrinsic Semiconductors"
+        ]
+      },
+      {
+        "role": "Power Electronics Engineer",
+        "importance": 0.7823,
+        "concepts": [
+          "Power Semiconductors",
+          "Wide-Bandgap Semiconductors",
+          "Thermal Management in Chips",
+          "Diodes"
+        ]
+      },
+      {
+        "role": "Test/Yield Engineer",
+        "importance": 0.7123,
+        "concepts": [
+          "Semiconductor Testing (ATE)",
+          "Semiconductor Yield Management",
+          "Electromigration"
+        ]
+      },
+      {
+        "role": "Semiconductor Industry Analyst",
+        "importance": 0.5423,
+        "concepts": [
+          "Semiconductor Supply Chain",
+          "Foundry Model (TSMC, Samsung, Intel)",
+          "Fabless Design Model",
+          "Moore's Law"
+        ]
+      },
+      {
+        "role": "Memory Design Engineer",
+        "importance": 0.6823,
+        "concepts": [
+          "Memory Semiconductors (DRAM, NAND)",
+          "Integrated Circuits (ICs)",
+          "Chip Packaging"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Solid-State Physics Basics",
+      "Electrical Engineering Fundamentals",
+      "Chemistry Fundamentals",
+      "Silicon",
+      "Quantum Mechanics Basics (Recommended)"
+    ]
+  }
+]

@@ -1,0 +1,284 @@
+[
+  {
+    "id": 1,
+    "gid": 184,
+    "name": "GPU (Graphics Processing Unit)",
+    "entity_type": "Hardware",
+    "entity_subtype": "Parallel Compute Accelerator",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Hardware",
+      "sub_category": "Compute Hardware",
+      "specialization": "AI/ML Accelerators"
+    },
+    "aliases": [
+      "GPU",
+      "Graphics Processing Unit",
+      "NVIDIA GPU",
+      "CUDA-Enabled GPU"
+    ],
+    "concepts": [
+      "CUDA",
+      "Parallel Processing",
+      "Tensor Cores",
+      "VRAM",
+      "Multi-GPU Training",
+      "GPU Utilization"
+    ],
+    "roles": [
+      {
+        "role": "ML Engineer",
+        "importance": 0.834,
+        "concepts": [
+          "CUDA",
+          "Multi-GPU Training",
+          "GPU Utilization"
+        ]
+      },
+      {
+        "role": "MLOps Engineer",
+        "importance": 0.767,
+        "concepts": [
+          "Multi-GPU Training",
+          "GPU Utilization",
+          "VRAM"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Computer Architecture Basics",
+      "Parallel Computing Basics"
+    ]
+  },
+  {
+    "id": 2,
+    "gid": 185,
+    "name": "TPU (Tensor Processing Unit)",
+    "entity_type": "Hardware",
+    "entity_subtype": "AI-Specific Compute Accelerator",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Hardware",
+      "sub_category": "Compute Hardware",
+      "specialization": "AI/ML Accelerators"
+    },
+    "aliases": [
+      "TPU",
+      "Tensor Processing Unit",
+      "Google TPU"
+    ],
+    "concepts": [
+      "Matrix Multiplication Units",
+      "TPU Pods",
+      "XLA Compiler",
+      "High-Throughput Training"
+    ],
+    "roles": [
+      {
+        "role": "ML Engineer",
+        "importance": 0.567,
+        "concepts": [
+          "Matrix Multiplication Units",
+          "High-Throughput Training"
+        ]
+      },
+      {
+        "role": "MLOps Engineer",
+        "importance": 0.534,
+        "concepts": [
+          "TPU Pods",
+          "XLA Compiler"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Machine Learning Basics",
+      "Cloud Computing Basics"
+    ]
+  },
+  {
+    "id": 3,
+    "gid": 186,
+    "name": "Server Hardware",
+    "entity_type": "Hardware",
+    "entity_subtype": "Physical/Virtual Compute Infrastructure",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Hardware",
+      "sub_category": "Infrastructure Hardware",
+      "specialization": "Server Infrastructure"
+    },
+    "aliases": [
+      "Server",
+      "Server Hardware",
+      "Rack Server",
+      "Bare Metal Server"
+    ],
+    "concepts": [
+      "CPU Cores",
+      "RAM",
+      "Storage",
+      "Rack Mounting",
+      "Redundancy (RAID)",
+      "Virtualization Hosting"
+    ],
+    "roles": [
+      {
+        "role": "System Administrator",
+        "importance": 0.723,
+        "concepts": [
+          "CPU Cores",
+          "RAM",
+          "Redundancy (RAID)"
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.612,
+        "concepts": [
+          "Virtualization Hosting",
+          "Storage"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Computer Hardware Basics",
+      "Operating System Concepts"
+    ]
+  },
+  {
+    "id": 4,
+    "gid": 187,
+    "name": "Network Switch",
+    "entity_type": "Hardware",
+    "entity_subtype": "Networking Infrastructure Device",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Hardware",
+      "sub_category": "Networking Hardware",
+      "specialization": "Layer 2/3 Networking Devices"
+    },
+    "aliases": [
+      "Network Switch",
+      "Ethernet Switch",
+      "Layer 2 Switch",
+      "Layer 3 Switch"
+    ],
+    "concepts": [
+      "Port Configuration",
+      "VLAN Trunking",
+      "Spanning Tree Protocol",
+      "Switching Fabric",
+      "Managed vs Unmanaged Switches"
+    ],
+    "roles": [
+      {
+        "role": "Network Engineer",
+        "importance": 0.801,
+        "concepts": [
+          "Port Configuration",
+          "VLAN Trunking",
+          "Spanning Tree Protocol"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Networking Basics",
+      "OSI Model"
+    ]
+  },
+  {
+    "id": 5,
+    "gid": 188,
+    "name": "SSD Storage",
+    "entity_type": "Hardware",
+    "entity_subtype": "Solid-State Storage Media",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Hardware",
+      "sub_category": "Storage Hardware",
+      "specialization": "Non-Volatile Storage Media"
+    },
+    "aliases": [
+      "SSD",
+      "Solid State Drive",
+      "NVMe SSD"
+    ],
+    "concepts": [
+      "NVMe Interface",
+      "Read/Write IOPS",
+      "Wear Leveling",
+      "Storage Latency",
+      "RAID Configurations"
+    ],
+    "roles": [
+      {
+        "role": "System Administrator",
+        "importance": 0.589,
+        "concepts": [
+          "Read/Write IOPS",
+          "RAID Configurations"
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "importance": 0.523,
+        "concepts": [
+          "Storage Latency",
+          "NVMe Interface"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Computer Hardware Basics"
+    ]
+  },
+  {
+    "id": 6,
+    "gid": 192,
+    "name": "Firewall",
+    "entity_type": "Networking Security Device",
+    "entity_subtype": "Traffic Filtering System",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Network Security",
+      "specialization": "Perimeter Security Devices"
+    },
+    "aliases": [
+      "Firewall",
+      "Network Firewall",
+      "Next-Generation Firewall (NGFW)"
+    ],
+    "concepts": [
+      "Packet Filtering",
+      "Stateful Inspection",
+      "Access Control Lists (ACLs)",
+      "Intrusion Detection/Prevention",
+      "Application-Layer Filtering"
+    ],
+    "roles": [
+      {
+        "role": "Network Engineer",
+        "importance": 0.801,
+        "concepts": [
+          "Packet Filtering",
+          "Access Control Lists (ACLs)",
+          "Stateful Inspection"
+        ]
+      },
+      {
+        "role": "Security Engineer",
+        "importance": 0.856,
+        "concepts": [
+          "Intrusion Detection/Prevention",
+          "Application-Layer Filtering"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Networking Basics",
+      "TCP/IP"
+    ]
+  }
+]

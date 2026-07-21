@@ -1,0 +1,434 @@
+[
+  {
+    "id": 1,
+    "gid": 171,
+    "name": "Infrastructure as Code",
+    "entity_type": "DevOps Concept",
+    "entity_subtype": "Infrastructure Management Paradigm",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Infrastructure Management",
+      "specialization": "IaC Paradigms"
+    },
+    "aliases": [
+      "IaC",
+      "Infrastructure as Code"
+    ],
+    "concepts": [
+      "Declarative vs Imperative IaC",
+      "Idempotency",
+      "State Management",
+      "Version-Controlled Infrastructure",
+      "Immutable Infrastructure",
+      "Drift Detection"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.912,
+        "concepts": [
+          "Declarative vs Imperative IaC",
+          "State Management",
+          "Drift Detection"
+        ]
+      },
+      {
+        "role": "Cloud Architect",
+        "importance": 0.856,
+        "concepts": [
+          "Immutable Infrastructure",
+          "Version-Controlled Infrastructure"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Cloud Computing Basics",
+      "Terraform or Pulumi Basics"
+    ]
+  },
+  {
+    "id": 2,
+    "gid": 172,
+    "name": "Continuous Integration/Continuous Deployment",
+    "entity_type": "DevOps Methodology",
+    "entity_subtype": "Software Delivery Process",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Software Delivery",
+      "specialization": "CI/CD Methodologies"
+    },
+    "aliases": [
+      "CI/CD",
+      "Continuous Integration",
+      "Continuous Deployment",
+      "Continuous Delivery"
+    ],
+    "concepts": [
+      "Build Automation",
+      "Automated Testing",
+      "Deployment Pipelines",
+      "Canary Releases",
+      "Blue-Green Deployment",
+      "Rollback Strategies",
+      "Pipeline as Code"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.956,
+        "concepts": [
+          "Build Automation",
+          "Deployment Pipelines",
+          "Pipeline as Code",
+          "Rollback Strategies"
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "importance": 0.723,
+        "concepts": [
+          "Automated Testing",
+          "Build Automation"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Git",
+      "Build Automation Concepts",
+      "Testing Concepts"
+    ]
+  },
+  {
+    "id": 3,
+    "gid": 173,
+    "name": "Agile Methodology",
+    "entity_type": "Project Methodology",
+    "entity_subtype": "Iterative Software Development Process",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Project Management",
+      "specialization": "Agile Frameworks"
+    },
+    "aliases": [
+      "Agile",
+      "Agile Methodology",
+      "Agile Software Development"
+    ],
+    "concepts": [
+      "Sprints",
+      "User Stories",
+      "Backlog Grooming",
+      "Standups",
+      "Retrospectives",
+      "Iterative Development",
+      "Agile Manifesto"
+    ],
+    "roles": [
+      {
+        "role": "Engineering Manager",
+        "importance": 0.823,
+        "concepts": [
+          "Sprints",
+          "Backlog Grooming",
+          "Retrospectives"
+        ]
+      },
+      {
+        "role": "Product Manager",
+        "importance": 0.856,
+        "concepts": [
+          "User Stories",
+          "Backlog Grooming",
+          "Sprints"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Software Development Lifecycle Basics"
+    ]
+  },
+  {
+    "id": 4,
+    "gid": 174,
+    "name": "Scrum",
+    "entity_type": "Project Methodology",
+    "entity_subtype": "Agile Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Project Management",
+      "specialization": "Agile Frameworks"
+    },
+    "aliases": [
+      "Scrum",
+      "Scrum Framework"
+    ],
+    "concepts": [
+      "Scrum Master",
+      "Product Owner",
+      "Sprint Planning",
+      "Sprint Review",
+      "Daily Scrum",
+      "Definition of Done",
+      "Story Points"
+    ],
+    "roles": [
+      {
+        "role": "Scrum Master",
+        "importance": 0.967,
+        "concepts": [
+          "Sprint Planning",
+          "Daily Scrum",
+          "Definition of Done"
+        ]
+      },
+      {
+        "role": "Engineering Manager",
+        "importance": 0.701,
+        "concepts": [
+          "Sprint Planning",
+          "Story Points"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Agile Methodology"
+    ]
+  },
+  {
+    "id": 5,
+    "gid": 175,
+    "name": "Kanban",
+    "entity_type": "Project Methodology",
+    "entity_subtype": "Visual Workflow Management Method",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Project Management",
+      "specialization": "Lean/Agile Workflow Methods"
+    },
+    "aliases": [
+      "Kanban",
+      "Kanban Method"
+    ],
+    "concepts": [
+      "Kanban Board",
+      "Work in Progress (WIP) Limits",
+      "Pull System",
+      "Cumulative Flow Diagram",
+      "Continuous Delivery Flow"
+    ],
+    "roles": [
+      {
+        "role": "Engineering Manager",
+        "importance": 0.634,
+        "concepts": [
+          "Kanban Board",
+          "Work in Progress (WIP) Limits"
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.523,
+        "concepts": [
+          "Pull System",
+          "Continuous Delivery Flow"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Agile Methodology (helpful)"
+    ]
+  },
+  {
+    "id": 6,
+    "gid": 176,
+    "name": "GitOps",
+    "entity_type": "DevOps Methodology",
+    "entity_subtype": "Git-Centric Deployment Methodology",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Software Delivery",
+      "specialization": "GitOps Methodologies"
+    },
+    "aliases": [
+      "GitOps"
+    ],
+    "concepts": [
+      "Git as Single Source of Truth",
+      "Declarative Configuration",
+      "Reconciliation Loop",
+      "Pull-Based Deployment",
+      "Auditability"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.834,
+        "concepts": [
+          "Git as Single Source of Truth",
+          "Reconciliation Loop",
+          "Pull-Based Deployment"
+        ]
+      },
+      {
+        "role": "Platform Engineer",
+        "importance": 0.867,
+        "concepts": [
+          "Declarative Configuration",
+          "Auditability"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Git",
+      "Kubernetes Basics",
+      "CI/CD Concepts"
+    ]
+  },
+  {
+    "id": 7,
+    "gid": 177,
+    "name": "DevSecOps",
+    "entity_type": "DevOps Methodology",
+    "entity_subtype": "Security-Integrated Development Practice",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Security Practices",
+      "specialization": "Secure Delivery Methodologies"
+    },
+    "aliases": [
+      "DevSecOps"
+    ],
+    "concepts": [
+      "Shift-Left Security",
+      "SAST",
+      "DAST",
+      "Dependency Scanning",
+      "Security as Code",
+      "Compliance Automation"
+    ],
+    "roles": [
+      {
+        "role": "Security Engineer",
+        "importance": 0.856,
+        "concepts": [
+          "Shift-Left Security",
+          "SAST",
+          "DAST"
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.789,
+        "concepts": [
+          "Security as Code",
+          "Dependency Scanning"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "CI/CD Concepts",
+      "Security Fundamentals"
+    ]
+  },
+  {
+    "id": 8,
+    "gid": 178,
+    "name": "Test-Driven Development",
+    "entity_type": "Software Development Practice",
+    "entity_subtype": "Test-First Methodology",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Development Practices",
+      "specialization": "Test-First Practices"
+    },
+    "aliases": [
+      "TDD",
+      "Test-Driven Development"
+    ],
+    "concepts": [
+      "Red-Green-Refactor Cycle",
+      "Unit Testing",
+      "Test Coverage",
+      "Mocking",
+      "Behavior-Driven Development (BDD)"
+    ],
+    "roles": [
+      {
+        "role": "Software Engineer",
+        "importance": 0.701,
+        "concepts": [
+          "Red-Green-Refactor Cycle",
+          "Unit Testing",
+          "Mocking"
+        ]
+      },
+      {
+        "role": "QA Engineer",
+        "importance": 0.678,
+        "concepts": [
+          "Test Coverage",
+          "Behavior-Driven Development (BDD)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Unit Testing Basics",
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "id": 9,
+    "gid": 199,
+    "name": "Chaos Engineering",
+    "entity_type": "Reliability Practice",
+    "entity_subtype": "Failure Simulation Discipline",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Reliability Engineering",
+      "specialization": "Resilience Testing Practices"
+    },
+    "aliases": [
+      "Chaos Engineering",
+      "Chaos Testing"
+    ],
+    "concepts": [
+      "Fault Injection",
+      "Blast Radius",
+      "Steady-State Hypothesis",
+      "Chaos Experiments",
+      "Game Days"
+    ],
+    "roles": [
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.767,
+        "concepts": [
+          "Fault Injection",
+          "Blast Radius",
+          "Chaos Experiments"
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.612,
+        "concepts": [
+          "Game Days",
+          "Steady-State Hypothesis"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Distributed Systems Basics",
+      "Monitoring Concepts"
+    ]
+  }
+]

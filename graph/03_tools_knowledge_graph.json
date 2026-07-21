@@ -1,0 +1,5885 @@
+[
+  {
+    "id": 1,
+    "gid": 70,
+    "name": "Pulumi",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Infrastructure as Code Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Infrastructure as Code",
+      "specialization": "Programmatic Provisioning Tools"
+    },
+    "aliases": [
+      "Pulumi",
+      "Pulumi IaC"
+    ],
+    "concepts": [
+      "Programmatic IaC",
+      "Stacks",
+      "Resources",
+      "Providers",
+      "State Management",
+      "Pulumi Cloud (Backend)",
+      "Config and Secrets",
+      "Component Resources",
+      "Multi-Language Support (TypeScript, Python, Go, C#)",
+      "Pulumi CLI",
+      "pulumi up",
+      "pulumi preview",
+      "pulumi destroy",
+      "Cross-Cloud Deployments",
+      "Policy as Code (CrossGuard)",
+      "Automation API"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.789,
+        "concepts": [
+          "Stacks",
+          "Resources",
+          "pulumi up",
+          "pulumi preview",
+          "Config and Secrets"
+        ]
+      },
+      {
+        "role": "Cloud Architect",
+        "importance": 0.801,
+        "concepts": [
+          "Multi-Language Support (TypeScript, Python, Go, C#)",
+          "Component Resources",
+          "Cross-Cloud Deployments"
+        ]
+      },
+      {
+        "role": "Platform Engineer",
+        "importance": 0.756,
+        "concepts": [
+          "Automation API",
+          "Policy as Code (CrossGuard)",
+          "State Management"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Cloud Computing Basics",
+      "Programming Fundamentals (TypeScript/Python/Go)",
+      "Networking Basics",
+      "Terraform Concepts (helpful)"
+    ]
+  },
+  {
+    "id": 2,
+    "gid": 71,
+    "name": "GitHub Actions",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "CI/CD Automation Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "CI/CD",
+      "specialization": "Cloud-Native CI/CD Platforms"
+    },
+    "aliases": [
+      "GitHub Actions",
+      "GH Actions",
+      "Actions (GitHub)"
+    ],
+    "concepts": [
+      "Workflows",
+      "YAML Workflow Files",
+      "Jobs",
+      "Steps",
+      "Actions (Marketplace Actions)",
+      "Runners (GitHub-Hosted, Self-Hosted)",
+      "Triggers (Events)",
+      "Secrets",
+      "Environment Variables",
+      "Matrix Builds",
+      "Reusable Workflows",
+      "Composite Actions",
+      "Artifacts",
+      "Caching",
+      "Environments (Deployment Protection Rules)",
+      "Workflow Dispatch",
+      "Scheduled Workflows (Cron)",
+      "GITHUB_TOKEN",
+      "Concurrency Groups",
+      "Job Dependencies (needs)"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.923,
+        "concepts": [
+          "Workflows",
+          "Jobs",
+          "Runners (GitHub-Hosted, Self-Hosted)",
+          "Secrets",
+          "Reusable Workflows",
+          "Matrix Builds"
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "importance": 0.789,
+        "concepts": [
+          "Workflows",
+          "Triggers (Events)",
+          "Steps",
+          "Actions (Marketplace Actions)"
+        ]
+      },
+      {
+        "role": "Build and Release Engineer",
+        "importance": 0.856,
+        "concepts": [
+          "Environments (Deployment Protection Rules)",
+          "Artifacts",
+          "Caching",
+          "Concurrency Groups"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Git",
+      "GitHub",
+      "YAML",
+      "CI/CD Concepts",
+      "Command Line Interface"
+    ]
+  },
+  {
+    "id": 3,
+    "gid": 72,
+    "name": "GitLab CI",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "CI/CD Automation Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "CI/CD",
+      "specialization": "Cloud-Native CI/CD Platforms"
+    },
+    "aliases": [
+      "GitLab CI",
+      "GitLab CI/CD",
+      ".gitlab-ci.yml"
+    ],
+    "concepts": [
+      ".gitlab-ci.yml",
+      "Stages",
+      "Jobs",
+      "GitLab Runners",
+      "Pipelines",
+      "Artifacts",
+      "Cache",
+      "Variables",
+      "Rules and Only/Except",
+      "Include (Templates)",
+      "Multi-Project Pipelines",
+      "Child/Parent Pipelines",
+      "DAG Pipelines (needs)",
+      "Environments",
+      "Review Apps",
+      "Auto DevOps",
+      "Merge Request Pipelines",
+      "Manual Jobs",
+      "Scheduled Pipelines"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.9012,
+        "concepts": [
+          "Stages",
+          "Jobs",
+          "GitLab Runners",
+          "Pipelines",
+          "Rules and Only/Except",
+          "Include (Templates)"
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "importance": 0.723,
+        "concepts": [
+          ".gitlab-ci.yml",
+          "Pipelines",
+          "Merge Request Pipelines"
+        ]
+      },
+      {
+        "role": "Build and Release Engineer",
+        "importance": 0.834,
+        "concepts": [
+          "Multi-Project Pipelines",
+          "Environments",
+          "Artifacts",
+          "Manual Jobs"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Git",
+      "GitLab",
+      "YAML",
+      "CI/CD Concepts",
+      "Command Line Interface"
+    ]
+  },
+  {
+    "id": 4,
+    "gid": 73,
+    "name": "CircleCI",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "CI/CD Automation Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "CI/CD",
+      "specialization": "Cloud-Native CI/CD Platforms"
+    },
+    "aliases": [
+      "CircleCI",
+      "Circle CI"
+    ],
+    "concepts": [
+      "config.yml",
+      "Orbs",
+      "Workflows",
+      "Jobs",
+      "Steps",
+      "Executors (Docker, Machine, macOS)",
+      "Contexts",
+      "Caching",
+      "Artifacts",
+      "Parallelism",
+      "Workspaces",
+      "Approval Jobs",
+      "Pipeline Parameters",
+      "Self-Hosted Runners",
+      "Insights (Analytics)",
+      "Scheduled Pipelines"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.789,
+        "concepts": [
+          "config.yml",
+          "Orbs",
+          "Workflows",
+          "Executors (Docker, Machine, macOS)",
+          "Contexts"
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "importance": 0.612,
+        "concepts": [
+          "config.yml",
+          "Jobs",
+          "Steps",
+          "Caching"
+        ]
+      },
+      {
+        "role": "Build and Release Engineer",
+        "importance": 0.756,
+        "concepts": [
+          "Parallelism",
+          "Workspaces",
+          "Approval Jobs",
+          "Insights (Analytics)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Git",
+      "YAML",
+      "CI/CD Concepts",
+      "Docker Basics",
+      "Command Line Interface"
+    ]
+  },
+  {
+    "id": 5,
+    "gid": 74,
+    "name": "Grafana Loki",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Log Aggregation System",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Monitoring and Observability",
+      "specialization": "Log Aggregation Systems"
+    },
+    "aliases": [
+      "Loki",
+      "Grafana Loki"
+    ],
+    "concepts": [
+      "LogQL",
+      "Log Streams",
+      "Labels",
+      "Promtail",
+      "Chunks",
+      "Index",
+      "Ingesters",
+      "Distributors",
+      "Querier",
+      "Log Aggregation",
+      "Multi-Tenancy",
+      "Retention Policy",
+      "Grafana Integration",
+      "Object Storage Backend",
+      "Log Parsing (LogQL Parsers)"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.812,
+        "concepts": [
+          "LogQL",
+          "Log Streams",
+          "Promtail",
+          "Labels"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.856,
+        "concepts": [
+          "LogQL",
+          "Multi-Tenancy",
+          "Retention Policy",
+          "Ingesters"
+        ]
+      },
+      {
+        "role": "Platform Engineer",
+        "importance": 0.734,
+        "concepts": [
+          "Object Storage Backend",
+          "Chunks",
+          "Index"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Logging Concepts",
+      "Prometheus Basics",
+      "Grafana Basics",
+      "Kubernetes (helpful)"
+    ]
+  },
+  {
+    "id": 6,
+    "gid": 75,
+    "name": "ELK Stack",
+    "entity_type": "Platform",
+    "entity_subtype": "Log Management and Analytics Stack",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Monitoring and Observability",
+      "specialization": "Log Aggregation Systems"
+    },
+    "aliases": [
+      "ELK Stack",
+      "ELK",
+      "Elastic Stack",
+      "Elasticsearch Logstash Kibana"
+    ],
+    "concepts": [
+      "Elasticsearch",
+      "Logstash",
+      "Kibana",
+      "Beats (Filebeat, Metricbeat, Packetbeat)",
+      "Log Ingestion",
+      "Log Parsing (Grok Patterns)",
+      "Index Patterns",
+      "Kibana Dashboards",
+      "Kibana Visualizations",
+      "Kibana Discover",
+      "Data Pipelines",
+      "Ingest Nodes",
+      "Log Enrichment",
+      "Alerting (ElastAlert/Kibana Alerting)"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.834,
+        "concepts": [
+          "Logstash",
+          "Kibana Dashboards",
+          "Beats (Filebeat, Metricbeat, Packetbeat)",
+          "Log Parsing (Grok Patterns)"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.801,
+        "concepts": [
+          "Log Ingestion",
+          "Alerting (ElastAlert/Kibana Alerting)",
+          "Data Pipelines"
+        ]
+      },
+      {
+        "role": "Security Engineer",
+        "importance": 0.678,
+        "concepts": [
+          "Log Enrichment",
+          "Kibana Discover",
+          "Beats (Filebeat, Metricbeat, Packetbeat)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Elasticsearch Basics",
+      "Logging Concepts",
+      "JSON",
+      "Networking Basics"
+    ]
+  },
+  {
+    "id": 7,
+    "gid": 76,
+    "name": "OpenTelemetry",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Observability Framework and Instrumentation Standard",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Monitoring and Observability",
+      "specialization": "Observability Instrumentation Standards"
+    },
+    "aliases": [
+      "OpenTelemetry",
+      "OTel",
+      "OTEL"
+    ],
+    "concepts": [
+      "Traces",
+      "Spans",
+      "Metrics",
+      "Logs (Signals)",
+      "Context Propagation",
+      "OTLP (OpenTelemetry Protocol)",
+      "Instrumentation Libraries",
+      "Auto-Instrumentation",
+      "Manual Instrumentation",
+      "OpenTelemetry Collector",
+      "Exporters",
+      "Receivers",
+      "Processors",
+      "Semantic Conventions",
+      "SDKs",
+      "Distributed Tracing",
+      "Sampling",
+      "Resource Attributes",
+      "Baggage"
+    ],
+    "roles": [
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.879,
+        "concepts": [
+          "Traces",
+          "Spans",
+          "OpenTelemetry Collector",
+          "Distributed Tracing",
+          "Sampling"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.723,
+        "concepts": [
+          "Instrumentation Libraries",
+          "Auto-Instrumentation",
+          "Manual Instrumentation",
+          "Traces"
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.789,
+        "concepts": [
+          "OpenTelemetry Collector",
+          "Exporters",
+          "Receivers",
+          "Processors"
+        ]
+      },
+      {
+        "role": "Platform Engineer",
+        "importance": 0.812,
+        "concepts": [
+          "Semantic Conventions",
+          "OTLP (OpenTelemetry Protocol)",
+          "Resource Attributes"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Observability Concepts",
+      "Distributed Systems Basics",
+      "Networking Basics",
+      "Prometheus/Grafana Basics (helpful)"
+    ]
+  },
+  {
+    "id": 8,
+    "gid": 77,
+    "name": "Figma",
+    "entity_type": "Platform",
+    "entity_subtype": "Collaborative UI/UX Design Tool",
+    "hierarchy": {
+      "domain": "Design",
+      "category": "Product Design",
+      "sub_category": "UI/UX Design Tools",
+      "specialization": "Collaborative Design Platforms"
+    },
+    "aliases": [
+      "Figma",
+      "Figma Design",
+      "FigJam"
+    ],
+    "concepts": [
+      "Frames",
+      "Components",
+      "Variants",
+      "Auto Layout",
+      "Constraints",
+      "Design Tokens",
+      "Prototyping",
+      "Interactive Prototypes",
+      "Plugins",
+      "Design Systems",
+      "Shared Libraries",
+      "Version History",
+      "Comments",
+      "Dev Mode",
+      "Inspect Panel",
+      "Vector Networks",
+      "Boolean Operations",
+      "Grids and Layouts",
+      "Responsive Design in Figma",
+      "FigJam Boards",
+      "Team Libraries",
+      "Style Guides",
+      "Collaborative Editing",
+      "Effects (Shadows, Blur)"
+    ],
+    "roles": [
+      {
+        "role": "UI/UX Designer",
+        "importance": 0.967,
+        "concepts": [
+          "Frames",
+          "Components",
+          "Auto Layout",
+          "Prototyping",
+          "Design Systems",
+          "Variants"
+        ]
+      },
+      {
+        "role": "Product Designer",
+        "importance": 0.945,
+        "concepts": [
+          "Design Systems",
+          "Interactive Prototypes",
+          "Shared Libraries",
+          "FigJam Boards"
+        ]
+      },
+      {
+        "role": "Frontend Developer",
+        "importance": 0.623,
+        "concepts": [
+          "Dev Mode",
+          "Inspect Panel",
+          "Design Tokens"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Design Fundamentals",
+      "Color Theory",
+      "Typography Basics",
+      "UX Principles"
+    ]
+  },
+  {
+    "id": 9,
+    "gid": 78,
+    "name": "Tableau",
+    "entity_type": "Platform",
+    "entity_subtype": "Business Intelligence and Data Visualization Tool",
+    "hierarchy": {
+      "domain": "Data",
+      "category": "Business Intelligence",
+      "sub_category": "Data Visualization",
+      "specialization": "BI and Analytics Platforms"
+    },
+    "aliases": [
+      "Tableau",
+      "Tableau Desktop",
+      "Tableau Server",
+      "Tableau Online",
+      "Tableau Public",
+      "Tableau Prep"
+    ],
+    "concepts": [
+      "Worksheets",
+      "Dashboards",
+      "Stories",
+      "Data Sources",
+      "Data Blending",
+      "Calculated Fields",
+      "Table Calculations",
+      "LOD Expressions (Level of Detail)",
+      "Filters",
+      "Parameters",
+      "Actions (Filter, Highlight, URL)",
+      "Marks Card",
+      "Dimensions and Measures",
+      "Extracts vs Live Connections",
+      "Tableau Prep",
+      "Publishing to Server",
+      "Tableau Server Administration",
+      "Row-Level Security",
+      "Data Visualization Best Practices",
+      "Charts (Bar, Line, Scatter, Heat Map)",
+      "Maps and Geospatial Analysis"
+    ],
+    "roles": [
+      {
+        "role": "Data Analyst",
+        "importance": 0.9012,
+        "concepts": [
+          "Worksheets",
+          "Dashboards",
+          "Calculated Fields",
+          "Filters",
+          "Dimensions and Measures"
+        ]
+      },
+      {
+        "role": "BI Developer",
+        "importance": 0.9345,
+        "concepts": [
+          "LOD Expressions (Level of Detail)",
+          "Data Blending",
+          "Tableau Server Administration",
+          "Row-Level Security"
+        ]
+      },
+      {
+        "role": "Business Analyst",
+        "importance": 0.723,
+        "concepts": [
+          "Dashboards",
+          "Filters",
+          "Stories",
+          "Actions (Filter, Highlight, URL)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Data Analysis Fundamentals",
+      "SQL Basics",
+      "Statistics Basics",
+      "Excel Basics"
+    ]
+  },
+  {
+    "id": 10,
+    "gid": 79,
+    "name": "Power BI",
+    "entity_type": "Platform",
+    "entity_subtype": "Business Intelligence and Data Visualization Tool",
+    "hierarchy": {
+      "domain": "Data",
+      "category": "Business Intelligence",
+      "sub_category": "Data Visualization",
+      "specialization": "BI and Analytics Platforms"
+    },
+    "aliases": [
+      "Power BI",
+      "Microsoft Power BI",
+      "Power BI Desktop",
+      "Power BI Service",
+      "PBI"
+    ],
+    "concepts": [
+      "Reports",
+      "Dashboards",
+      "Datasets",
+      "Power Query",
+      "DAX (Data Analysis Expressions)",
+      "Data Modeling",
+      "Relationships",
+      "Star Schema",
+      "Measures",
+      "Calculated Columns",
+      "Row-Level Security",
+      "Power BI Service",
+      "Power BI Gateway",
+      "Power Automate Integration",
+      "Custom Visuals",
+      "Bookmarks",
+      "Drill-Through",
+      "Q&A Natural Language Query",
+      "Power BI Embedded",
+      "Dataflows",
+      "Composite Models",
+      "Direct Query vs Import Mode"
+    ],
+    "roles": [
+      {
+        "role": "Data Analyst",
+        "importance": 0.912,
+        "concepts": [
+          "Reports",
+          "Power Query",
+          "DAX (Data Analysis Expressions)",
+          "Data Modeling",
+          "Relationships"
+        ]
+      },
+      {
+        "role": "BI Developer",
+        "importance": 0.928,
+        "concepts": [
+          "Data Modeling",
+          "Star Schema",
+          "Row-Level Security",
+          "Power BI Gateway",
+          "Dataflows"
+        ]
+      },
+      {
+        "role": "Business Analyst",
+        "importance": 0.734,
+        "concepts": [
+          "Dashboards",
+          "Reports",
+          "Q&A Natural Language Query"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Data Analysis Fundamentals",
+      "SQL Basics",
+      "Excel Basics",
+      "Statistics Basics"
+    ]
+  },
+  {
+    "id": 11,
+    "gid": 80,
+    "name": "Apache Kafka",
+    "entity_type": "Message Broker",
+    "entity_subtype": "Distributed Event Streaming Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Engineering",
+      "sub_category": "Messaging Systems",
+      "specialization": "Distributed Streaming Platforms"
+    },
+    "aliases": [
+      "Apache Kafka",
+      "Kafka",
+      "Confluent Kafka"
+    ],
+    "concepts": [
+      "Topics",
+      "Partitions",
+      "Producers",
+      "Consumers",
+      "Consumer Groups",
+      "Broker",
+      "Cluster",
+      "Zookeeper",
+      "KRaft Mode",
+      "Offset",
+      "Replication",
+      "Leader and Follower Partitions",
+      "Kafka Connect",
+      "Kafka Streams",
+      "Schema Registry",
+      "Serialization (Avro, Protobuf, JSON)",
+      "Producer Acknowledgments",
+      "Consumer Rebalancing",
+      "Retention Policy",
+      "Compaction",
+      "Exactly-Once Semantics",
+      "At-Least-Once Delivery",
+      "Idempotent Producer",
+      "ksqlDB",
+      "Partition Key",
+      "Throughput Tuning",
+      "Kafka CLI Tools"
+    ],
+    "roles": [
+      {
+        "role": "Backend Developer",
+        "importance": 0.756,
+        "concepts": [
+          "Topics",
+          "Producers",
+          "Consumers",
+          "Consumer Groups",
+          "Serialization (Avro, Protobuf, JSON)"
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "importance": 0.9345,
+        "concepts": [
+          "Kafka Connect",
+          "Kafka Streams",
+          "Schema Registry",
+          "Partitions",
+          "Retention Policy"
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.789,
+        "concepts": [
+          "Cluster",
+          "Broker",
+          "Replication",
+          "Zookeeper",
+          "KRaft Mode"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.801,
+        "concepts": [
+          "Replication",
+          "Throughput Tuning",
+          "Consumer Rebalancing",
+          "Leader and Follower Partitions"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Distributed Systems Basics",
+      "Networking Basics",
+      "Java Fundamentals",
+      "Messaging Concepts",
+      "JSON"
+    ]
+  },
+  {
+    "id": 12,
+    "gid": 81,
+    "name": "RabbitMQ",
+    "entity_type": "Message Broker",
+    "entity_subtype": "Message Queue Broker",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Engineering",
+      "sub_category": "Messaging Systems",
+      "specialization": "Message Queue Brokers"
+    },
+    "aliases": [
+      "RabbitMQ",
+      "Rabbit MQ"
+    ],
+    "concepts": [
+      "Queues",
+      "Exchanges",
+      "Direct Exchange",
+      "Fanout Exchange",
+      "Topic Exchange",
+      "Headers Exchange",
+      "Bindings",
+      "Routing Keys",
+      "Producers",
+      "Consumers",
+      "AMQP Protocol",
+      "Message Acknowledgment",
+      "Durable Queues",
+      "Dead Letter Exchange",
+      "Publisher Confirms",
+      "Prefetch Count",
+      "Clustering",
+      "High Availability Queues (Mirrored/Quorum)",
+      "Management Plugin",
+      "Virtual Hosts",
+      "RabbitMQ CLI"
+    ],
+    "roles": [
+      {
+        "role": "Backend Developer",
+        "importance": 0.734,
+        "concepts": [
+          "Queues",
+          "Exchanges",
+          "Bindings",
+          "Routing Keys",
+          "Message Acknowledgment"
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.678,
+        "concepts": [
+          "Clustering",
+          "High Availability Queues (Mirrored/Quorum)",
+          "Virtual Hosts"
+        ]
+      },
+      {
+        "role": "Software Architect",
+        "importance": 0.612,
+        "concepts": [
+          "Direct Exchange",
+          "Fanout Exchange",
+          "Topic Exchange",
+          "Dead Letter Exchange"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Messaging Concepts",
+      "Networking Basics",
+      "Distributed Systems Basics"
+    ]
+  },
+  {
+    "id": 13,
+    "gid": 82,
+    "name": "Elasticsearch",
+    "entity_type": "Database",
+    "entity_subtype": "Distributed Search and Analytics Engine",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Data Engineering",
+      "sub_category": "Search Engines",
+      "specialization": "Distributed Search Platforms"
+    },
+    "aliases": [
+      "Elasticsearch",
+      "ElasticSearch",
+      "ES",
+      "Elastic Stack (ELK)"
+    ],
+    "concepts": [
+      "Index",
+      "Document",
+      "Shard",
+      "Replica",
+      "Mapping",
+      "Analyzer",
+      "Tokenizer",
+      "Inverted Index",
+      "Query DSL",
+      "Full-Text Search",
+      "Aggregations",
+      "Bulk API",
+      "Cluster Health",
+      "Node Roles",
+      "Kibana",
+      "Logstash",
+      "Beats",
+      "ELK Stack",
+      "Relevance Scoring (BM25)",
+      "Fuzzy Search",
+      "Vector Search",
+      "kNN Search",
+      "Reindexing",
+      "Index Lifecycle Management (ILM)",
+      "Snapshot and Restore"
+    ],
+    "roles": [
+      {
+        "role": "Backend Developer",
+        "importance": 0.701,
+        "concepts": [
+          "Index",
+          "Document",
+          "Query DSL",
+          "Mapping",
+          "Full-Text Search"
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "importance": 0.823,
+        "concepts": [
+          "Bulk API",
+          "Index Lifecycle Management (ILM)",
+          "Reindexing",
+          "Aggregations"
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.767,
+        "concepts": [
+          "Cluster Health",
+          "Shard",
+          "Replica",
+          "ELK Stack",
+          "Logstash"
+        ]
+      },
+      {
+        "role": "Search Engineer",
+        "importance": 0.945,
+        "concepts": [
+          "Relevance Scoring (BM25)",
+          "Analyzer",
+          "Tokenizer",
+          "Query DSL",
+          "Vector Search",
+          "kNN Search"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JSON",
+      "REST APIs",
+      "Data Structures",
+      "Search Fundamentals",
+      "Distributed Systems Basics"
+    ]
+  },
+  {
+    "id": 14,
+    "gid": 83,
+    "name": "Grafana",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Observability and Visualization Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Monitoring and Observability",
+      "specialization": "Metrics Visualization Tools"
+    },
+    "aliases": [
+      "Grafana",
+      "Grafana Labs",
+      "Grafana Cloud",
+      "Grafana OSS"
+    ],
+    "concepts": [
+      "Dashboards",
+      "Panels",
+      "Data Sources",
+      "Alerting",
+      "Alert Rules",
+      "Variables",
+      "Annotations",
+      "Grafana Loki (Logs)",
+      "Grafana Tempo (Tracing)",
+      "PromQL Integration",
+      "Plugins",
+      "Provisioning",
+      "Organizations",
+      "Notification Channels",
+      "Time Series Panels",
+      "Explore View"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.8912,
+        "concepts": [
+          "Dashboards",
+          "Data Sources",
+          "Alerting",
+          "PromQL Integration",
+          "Panels"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.912,
+        "concepts": [
+          "Alert Rules",
+          "Notification Channels",
+          "Grafana Loki (Logs)",
+          "Grafana Tempo (Tracing)"
+        ]
+      },
+      {
+        "role": "Platform Engineer",
+        "importance": 0.834,
+        "concepts": [
+          "Provisioning",
+          "Dashboards",
+          "Data Sources"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Monitoring Concepts",
+      "Time Series Data Basics",
+      "Prometheus Basics or Metrics Basics"
+    ]
+  },
+  {
+    "id": 15,
+    "gid": 84,
+    "name": "Prometheus",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Metrics Monitoring and Alerting Toolkit",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Monitoring and Observability",
+      "specialization": "Metrics Collection Systems"
+    },
+    "aliases": [
+      "Prometheus",
+      "Prometheus Monitoring",
+      "PromQL"
+    ],
+    "concepts": [
+      "Time Series Database",
+      "PromQL",
+      "Scraping",
+      "Exporters",
+      "Node Exporter",
+      "Service Discovery",
+      "Alertmanager",
+      "Alert Rules",
+      "Recording Rules",
+      "Metrics Types (Counter, Gauge, Histogram, Summary)",
+      "Pull-Based Model",
+      "Labels",
+      "Targets",
+      "Federation",
+      "Remote Write",
+      "Client Libraries"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.9012,
+        "concepts": [
+          "Scraping",
+          "Exporters",
+          "PromQL",
+          "Alert Rules",
+          "Service Discovery"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.9345,
+        "concepts": [
+          "Alertmanager",
+          "Recording Rules",
+          "Metrics Types (Counter, Gauge, Histogram, Summary)",
+          "Federation"
+        ]
+      },
+      {
+        "role": "Platform Engineer",
+        "importance": 0.856,
+        "concepts": [
+          "Node Exporter",
+          "Service Discovery",
+          "Remote Write"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Monitoring Concepts",
+      "Linux Fundamentals",
+      "Networking Basics",
+      "Time Series Data Basics"
+    ]
+  },
+  {
+    "id": 16,
+    "gid": 85,
+    "name": "SonarQube",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Static Code Analysis and Code Quality Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality",
+      "sub_category": "Static Analysis",
+      "specialization": "Code Quality Platforms"
+    },
+    "aliases": [
+      "SonarQube",
+      "Sonar",
+      "SonarCloud",
+      "SonarLint"
+    ],
+    "concepts": [
+      "Code Smells",
+      "Bugs Detection",
+      "Vulnerabilities Detection",
+      "Security Hotspots",
+      "Code Coverage",
+      "Technical Debt",
+      "Quality Gates",
+      "Quality Profiles",
+      "Duplications Detection",
+      "Static Application Security Testing (SAST)",
+      "Rulesets",
+      "SonarScanner",
+      "CI/CD Integration",
+      "SonarLint IDE Plugin",
+      "Maintainability Rating",
+      "Reliability Rating",
+      "Security Rating",
+      "Branch Analysis",
+      "Pull Request Decoration"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.723,
+        "concepts": [
+          "Quality Gates",
+          "SonarScanner",
+          "CI/CD Integration"
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "importance": 0.701,
+        "concepts": [
+          "Code Smells",
+          "Bugs Detection",
+          "SonarLint IDE Plugin",
+          "Code Coverage"
+        ]
+      },
+      {
+        "role": "Security Engineer",
+        "importance": 0.789,
+        "concepts": [
+          "Vulnerabilities Detection",
+          "Security Hotspots",
+          "Static Application Security Testing (SAST)",
+          "Security Rating"
+        ]
+      },
+      {
+        "role": "QA Engineer",
+        "importance": 0.678,
+        "concepts": [
+          "Code Coverage",
+          "Quality Gates",
+          "Duplications Detection"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Software Testing Concepts",
+      "CI/CD Basics",
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "id": 17,
+    "gid": 86,
+    "name": "Burp Suite",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Web Application Security Testing Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Application Security Testing",
+      "specialization": "Penetration Testing Tools"
+    },
+    "aliases": [
+      "Burp Suite",
+      "Burp",
+      "Burp Suite Professional",
+      "Burp Suite Community Edition",
+      "PortSwigger Burp Suite"
+    ],
+    "concepts": [
+      "Proxy Interception",
+      "Repeater",
+      "Intruder",
+      "Scanner",
+      "Spider/Crawler",
+      "Decoder",
+      "Comparer",
+      "Extender",
+      "BApp Store",
+      "Sequencer",
+      "Target Site Map",
+      "Session Handling Rules",
+      "SSL/TLS Interception",
+      "SQL Injection Testing",
+      "XSS Testing",
+      "CSRF Testing",
+      "Vulnerability Scanning",
+      "Collaborator Client",
+      "Macros",
+      "Burp Suite Extensions (BApps)"
+    ],
+    "roles": [
+      {
+        "role": "Penetration Tester",
+        "importance": 0.967,
+        "concepts": [
+          "Proxy Interception",
+          "Repeater",
+          "Intruder",
+          "Scanner",
+          "SQL Injection Testing",
+          "XSS Testing"
+        ]
+      },
+      {
+        "role": "Security Engineer",
+        "importance": 0.9012,
+        "concepts": [
+          "Scanner",
+          "Vulnerability Scanning",
+          "Target Site Map",
+          "Session Handling Rules"
+        ]
+      },
+      {
+        "role": "Application Security Engineer",
+        "importance": 0.9345,
+        "concepts": [
+          "Repeater",
+          "Intruder",
+          "Collaborator Client",
+          "CSRF Testing",
+          "SQL Injection Testing"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "HTTP",
+      "Web Application Basics",
+      "Networking Basics",
+      "OWASP Top 10",
+      "Browser Fundamentals"
+    ]
+  },
+  {
+    "id": 18,
+    "gid": 87,
+    "name": "Wireshark",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Network Protocol Analyzer",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Network Analysis",
+      "specialization": "Packet Analysis Tools"
+    },
+    "aliases": [
+      "Wireshark",
+      "Ethereal (legacy name)"
+    ],
+    "concepts": [
+      "Packet Capture",
+      "Protocol Dissection",
+      "Display Filters",
+      "Capture Filters",
+      "TCP Stream Follow",
+      "OSI Model Analysis",
+      "Network Interfaces",
+      "Promiscuous Mode",
+      "pcap Files",
+      "TShark (CLI)",
+      "Statistics (I/O Graphs, Conversations)",
+      "SSL/TLS Decryption",
+      "ARP Analysis",
+      "DNS Analysis",
+      "HTTP Analysis",
+      "VoIP Analysis",
+      "Coloring Rules"
+    ],
+    "roles": [
+      {
+        "role": "Network Engineer",
+        "importance": 0.9012,
+        "concepts": [
+          "Packet Capture",
+          "Protocol Dissection",
+          "Display Filters",
+          "OSI Model Analysis",
+          "TCP Stream Follow"
+        ]
+      },
+      {
+        "role": "Security Engineer",
+        "importance": 0.834,
+        "concepts": [
+          "Packet Capture",
+          "SSL/TLS Decryption",
+          "ARP Analysis",
+          "DNS Analysis"
+        ]
+      },
+      {
+        "role": "Penetration Tester",
+        "importance": 0.712,
+        "concepts": [
+          "Packet Capture",
+          "Display Filters",
+          "HTTP Analysis"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Networking Basics",
+      "OSI Model",
+      "TCP/IP",
+      "Protocols (HTTP, DNS, ARP)"
+    ]
+  },
+  {
+    "id": 19,
+    "gid": 88,
+    "name": "Nmap",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Network Scanning and Security Auditing Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Network Analysis",
+      "specialization": "Network Scanning Tools"
+    },
+    "aliases": [
+      "Nmap",
+      "Network Mapper",
+      "Zenmap (GUI)"
+    ],
+    "concepts": [
+      "Port Scanning",
+      "Host Discovery",
+      "Service/Version Detection",
+      "OS Fingerprinting",
+      "NSE (Nmap Scripting Engine)",
+      "TCP SYN Scan",
+      "TCP Connect Scan",
+      "UDP Scan",
+      "Stealth Scanning",
+      "Ping Sweep",
+      "Scan Timing Templates",
+      "Output Formats (XML, Grepable)",
+      "Firewall Evasion Techniques",
+      "Vulnerability Scanning Scripts"
+    ],
+    "roles": [
+      {
+        "role": "Penetration Tester",
+        "importance": 0.912,
+        "concepts": [
+          "Port Scanning",
+          "NSE (Nmap Scripting Engine)",
+          "OS Fingerprinting",
+          "Stealth Scanning"
+        ]
+      },
+      {
+        "role": "Security Engineer",
+        "importance": 0.834,
+        "concepts": [
+          "Host Discovery",
+          "Service/Version Detection",
+          "Vulnerability Scanning Scripts"
+        ]
+      },
+      {
+        "role": "Network Engineer",
+        "importance": 0.678,
+        "concepts": [
+          "Port Scanning",
+          "Host Discovery",
+          "Ping Sweep"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Networking Basics",
+      "TCP/IP",
+      "Ports and Protocols",
+      "Command Line Interface"
+    ]
+  },
+  {
+    "id": 20,
+    "gid": 89,
+    "name": "MLflow",
+    "entity_type": "ML Framework",
+    "entity_subtype": "Machine Learning Lifecycle Management Platform",
+    "hierarchy": {
+      "domain": "Data",
+      "category": "Machine Learning",
+      "sub_category": "MLOps",
+      "specialization": "ML Lifecycle Management Tools"
+    },
+    "aliases": [
+      "MLflow",
+      "ML Flow",
+      "Databricks MLflow"
+    ],
+    "concepts": [
+      "Experiment Tracking",
+      "MLflow Tracking",
+      "Runs",
+      "Parameters Logging",
+      "Metrics Logging",
+      "Artifacts",
+      "MLflow Models",
+      "Model Registry",
+      "Model Versioning",
+      "Model Staging (Staging/Production)",
+      "MLflow Projects",
+      "Flavors",
+      "Model Serving",
+      "MLflow UI",
+      "Autologging",
+      "REST API",
+      "Model Deployment",
+      "Reproducibility"
+    ],
+    "roles": [
+      {
+        "role": "ML Engineer",
+        "importance": 0.912,
+        "concepts": [
+          "Experiment Tracking",
+          "Model Registry",
+          "Model Versioning",
+          "MLflow Tracking",
+          "Model Deployment"
+        ]
+      },
+      {
+        "role": "Data Scientist",
+        "importance": 0.834,
+        "concepts": [
+          "Experiment Tracking",
+          "Parameters Logging",
+          "Metrics Logging",
+          "Autologging"
+        ]
+      },
+      {
+        "role": "MLOps Engineer",
+        "importance": 0.9345,
+        "concepts": [
+          "Model Registry",
+          "Model Staging (Staging/Production)",
+          "Model Serving",
+          "Reproducibility"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Python Fundamentals",
+      "Machine Learning Basics",
+      "Model Training Concepts",
+      "Version Control Basics"
+    ]
+  },
+  {
+    "id": 21,
+    "gid": 90,
+    "name": "Kubeflow",
+    "entity_type": "ML Framework",
+    "entity_subtype": "Machine Learning Orchestration Platform on Kubernetes",
+    "hierarchy": {
+      "domain": "Data",
+      "category": "Machine Learning",
+      "sub_category": "MLOps",
+      "specialization": "ML Orchestration Platforms"
+    },
+    "aliases": [
+      "Kubeflow",
+      "Kubeflow Pipelines",
+      "KFP"
+    ],
+    "concepts": [
+      "Kubeflow Pipelines",
+      "Notebook Servers",
+      "Katib (Hyperparameter Tuning)",
+      "KFServing/KServe",
+      "Training Operators (TFJob, PyTorchJob)",
+      "Components",
+      "Pipeline DSL",
+      "Experiment Tracking",
+      "Metadata Store",
+      "Multi-Tenancy",
+      "Central Dashboard",
+      "Fairing"
+    ],
+    "roles": [
+      {
+        "role": "ML Engineer",
+        "importance": 0.801,
+        "concepts": [
+          "Kubeflow Pipelines",
+          "Training Operators (TFJob, PyTorchJob)",
+          "KFServing/KServe",
+          "Pipeline DSL"
+        ]
+      },
+      {
+        "role": "MLOps Engineer",
+        "importance": 0.867,
+        "concepts": [
+          "Kubeflow Pipelines",
+          "Multi-Tenancy",
+          "Metadata Store",
+          "Katib (Hyperparameter Tuning)"
+        ]
+      },
+      {
+        "role": "Platform Engineer",
+        "importance": 0.689,
+        "concepts": [
+          "Central Dashboard",
+          "Multi-Tenancy",
+          "Training Operators (TFJob, PyTorchJob)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Kubernetes",
+      "Docker",
+      "Machine Learning Basics",
+      "Python Fundamentals"
+    ]
+  },
+  {
+    "id": 22,
+    "gid": 91,
+    "name": "Apache Airflow",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Workflow Orchestration Platform",
+    "hierarchy": {
+      "domain": "Data",
+      "category": "Data Engineering",
+      "sub_category": "Workflow Orchestration",
+      "specialization": "Batch Pipeline Orchestrators"
+    },
+    "aliases": [
+      "Apache Airflow",
+      "Airflow"
+    ],
+    "concepts": [
+      "DAG (Directed Acyclic Graph)",
+      "Operators",
+      "Tasks",
+      "Task Dependencies",
+      "Scheduler",
+      "Executor (Local, Celery, Kubernetes)",
+      "Sensors",
+      "XComs",
+      "Hooks",
+      "Connections",
+      "Variables",
+      "Airflow UI",
+      "Backfilling",
+      "SLA Miss Alerts",
+      "Dynamic DAG Generation",
+      "TaskFlow API",
+      "Airflow Providers",
+      "Retry Logic",
+      "Trigger Rules"
+    ],
+    "roles": [
+      {
+        "role": "Data Engineer",
+        "importance": 0.9345,
+        "concepts": [
+          "DAG (Directed Acyclic Graph)",
+          "Operators",
+          "Task Dependencies",
+          "Sensors",
+          "XComs",
+          "Hooks"
+        ]
+      },
+      {
+        "role": "MLOps Engineer",
+        "importance": 0.723,
+        "concepts": [
+          "DAG (Directed Acyclic Graph)",
+          "Executor (Local, Celery, Kubernetes)",
+          "Retry Logic"
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.656,
+        "concepts": [
+          "Scheduler",
+          "Executor (Local, Celery, Kubernetes)",
+          "Connections"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Python Fundamentals",
+      "ETL Concepts",
+      "Scheduling Concepts",
+      "SQL Basics"
+    ]
+  },
+  {
+    "id": 23,
+    "gid": 92,
+    "name": "Apache Spark",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Distributed Data Processing Engine",
+    "hierarchy": {
+      "domain": "Data",
+      "category": "Data Engineering",
+      "sub_category": "Big Data Processing",
+      "specialization": "Distributed Compute Engines"
+    },
+    "aliases": [
+      "Apache Spark",
+      "Spark",
+      "PySpark",
+      "Spark SQL",
+      "Databricks Spark"
+    ],
+    "concepts": [
+      "RDD (Resilient Distributed Dataset)",
+      "DataFrame API",
+      "Dataset API",
+      "Spark SQL",
+      "Spark Streaming",
+      "Structured Streaming",
+      "MLlib",
+      "GraphX",
+      "Cluster Manager (YARN, Mesos, Kubernetes, Standalone)",
+      "Driver and Executors",
+      "Partitioning",
+      "Shuffling",
+      "Lazy Evaluation",
+      "Transformations and Actions",
+      "Catalyst Optimizer",
+      "Tungsten Execution Engine",
+      "Broadcast Variables",
+      "Accumulators",
+      "PySpark",
+      "Spark Submit",
+      "Caching and Persistence",
+      "Window Functions"
+    ],
+    "roles": [
+      {
+        "role": "Data Engineer",
+        "importance": 0.9456,
+        "concepts": [
+          "DataFrame API",
+          "Spark SQL",
+          "Partitioning",
+          "Shuffling",
+          "Transformations and Actions",
+          "Spark Submit"
+        ]
+      },
+      {
+        "role": "Data Scientist",
+        "importance": 0.734,
+        "concepts": [
+          "DataFrame API",
+          "MLlib",
+          "PySpark",
+          "Spark SQL"
+        ]
+      },
+      {
+        "role": "Big Data Engineer",
+        "importance": 0.956,
+        "concepts": [
+          "RDD (Resilient Distributed Dataset)",
+          "Cluster Manager (YARN, Mesos, Kubernetes, Standalone)",
+          "Catalyst Optimizer",
+          "Tungsten Execution Engine"
+        ]
+      },
+      {
+        "role": "ML Engineer",
+        "importance": 0.612,
+        "concepts": [
+          "MLlib",
+          "DataFrame API",
+          "PySpark"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Distributed Systems Basics",
+      "Scala Basics or Python Fundamentals",
+      "SQL Basics",
+      "Big Data Concepts",
+      "Hadoop Basics"
+    ]
+  },
+  {
+    "id": 24,
+    "gid": 93,
+    "name": "Helm",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Kubernetes Package Manager",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Container Orchestration",
+      "specialization": "Kubernetes Package Management"
+    },
+    "aliases": [
+      "Helm",
+      "Helm Charts",
+      "Kubernetes Helm",
+      "helm3"
+    ],
+    "concepts": [
+      "Charts",
+      "Chart.yaml",
+      "values.yaml",
+      "Templates",
+      "Releases",
+      "Helm Repository",
+      "Helm Hub / Artifact Hub",
+      "helm install",
+      "helm upgrade",
+      "helm rollback",
+      "Subcharts",
+      "Dependencies",
+      "Hooks",
+      "Helmfile",
+      "Chart Templating (Go Templates)",
+      "Chart Testing",
+      "Tiller (Helm 2 legacy)",
+      "Helm Secrets Plugin",
+      "Release Revision History",
+      "Chart Versioning"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.921,
+        "concepts": [
+          "Charts",
+          "values.yaml",
+          "helm install",
+          "helm upgrade",
+          "Templates",
+          "Releases"
+        ]
+      },
+      {
+        "role": "Platform Engineer",
+        "importance": 0.9345,
+        "concepts": [
+          "Chart Templating (Go Templates)",
+          "Subcharts",
+          "Dependencies",
+          "Helmfile",
+          "Chart Testing"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.812,
+        "concepts": [
+          "helm rollback",
+          "Release Revision History",
+          "Hooks"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Kubernetes",
+      "YAML",
+      "Docker",
+      "Go Templates Basics"
+    ]
+  },
+  {
+    "id": 25,
+    "gid": 94,
+    "name": "Istio",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Service Mesh Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Service Mesh",
+      "specialization": "Cloud Native Networking"
+    },
+    "aliases": [
+      "Istio",
+      "Istio Service Mesh"
+    ],
+    "concepts": [
+      "Sidecar Proxy",
+      "Envoy Proxy",
+      "Control Plane (Istiod)",
+      "Data Plane",
+      "Virtual Service",
+      "Destination Rule",
+      "Gateway",
+      "Traffic Management",
+      "Canary Deployments",
+      "Circuit Breaking",
+      "Retries and Timeouts",
+      "mTLS (Mutual TLS)",
+      "Authorization Policy",
+      "Peer Authentication",
+      "Observability (Tracing, Metrics)",
+      "Istio Ingress Gateway",
+      "Istio Egress Gateway",
+      "Service Entry",
+      "Fault Injection",
+      "Traffic Mirroring",
+      "Kiali",
+      "Sidecar Injection"
+    ],
+    "roles": [
+      {
+        "role": "Platform Engineer",
+        "importance": 0.9012,
+        "concepts": [
+          "Sidecar Proxy",
+          "Virtual Service",
+          "Destination Rule",
+          "Control Plane (Istiod)",
+          "Traffic Management"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.889,
+        "concepts": [
+          "Circuit Breaking",
+          "Retries and Timeouts",
+          "Fault Injection",
+          "Observability (Tracing, Metrics)"
+        ]
+      },
+      {
+        "role": "Security Engineer",
+        "importance": 0.734,
+        "concepts": [
+          "mTLS (Mutual TLS)",
+          "Authorization Policy",
+          "Peer Authentication"
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.789,
+        "concepts": [
+          "Gateway",
+          "Canary Deployments",
+          "Sidecar Injection",
+          "Kiali"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Kubernetes",
+      "Docker",
+      "Networking Basics",
+      "Microservices Architecture",
+      "YAML"
+    ]
+  },
+  {
+    "id": 26,
+    "gid": 95,
+    "name": "Argo CD",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "GitOps Continuous Delivery Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "GitOps",
+      "specialization": "Continuous Deployment Tools"
+    },
+    "aliases": [
+      "Argo CD",
+      "ArgoCD",
+      "Argo-CD"
+    ],
+    "concepts": [
+      "GitOps",
+      "Application CRD",
+      "Sync Policy",
+      "Auto-Sync",
+      "Self-Healing",
+      "App of Apps Pattern",
+      "Sync Waves",
+      "Health Checks",
+      "Rollback",
+      "ArgoCD UI",
+      "ArgoCD CLI",
+      "RBAC",
+      "SSO Integration",
+      "Projects",
+      "Diffing (Desired vs Live State)",
+      "Helm Integration",
+      "Kustomize Integration",
+      "Notifications",
+      "ApplicationSet"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.912,
+        "concepts": [
+          "GitOps",
+          "Application CRD",
+          "Sync Policy",
+          "Auto-Sync",
+          "Rollback"
+        ]
+      },
+      {
+        "role": "Platform Engineer",
+        "importance": 0.9345,
+        "concepts": [
+          "App of Apps Pattern",
+          "ApplicationSet",
+          "Projects",
+          "Sync Waves"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.801,
+        "concepts": [
+          "Self-Healing",
+          "Health Checks",
+          "Diffing (Desired vs Live State)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Kubernetes",
+      "Git",
+      "Helm Basics",
+      "YAML",
+      "CI/CD Concepts"
+    ]
+  },
+  {
+    "id": 27,
+    "gid": 96,
+    "name": "Flux CD",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "GitOps Continuous Delivery Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "GitOps",
+      "specialization": "Continuous Deployment Tools"
+    },
+    "aliases": [
+      "Flux CD",
+      "FluxCD",
+      "Flux",
+      "Flux2"
+    ],
+    "concepts": [
+      "GitOps Toolkit",
+      "Source Controller",
+      "Kustomize Controller",
+      "Helm Controller",
+      "Notification Controller",
+      "Image Automation Controller",
+      "GitRepository CRD",
+      "HelmRelease CRD",
+      "Kustomization CRD",
+      "Reconciliation",
+      "Multi-Tenancy",
+      "Flux CLI",
+      "Image Update Automation",
+      "Bootstrap",
+      "Progressive Delivery (Flagger Integration)"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.834,
+        "concepts": [
+          "GitRepository CRD",
+          "Kustomization CRD",
+          "Reconciliation",
+          "Flux CLI"
+        ]
+      },
+      {
+        "role": "Platform Engineer",
+        "importance": 0.879,
+        "concepts": [
+          "Source Controller",
+          "Helm Controller",
+          "Multi-Tenancy",
+          "Bootstrap"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.723,
+        "concepts": [
+          "Reconciliation",
+          "Image Automation Controller",
+          "Progressive Delivery (Flagger Integration)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Kubernetes",
+      "Git",
+      "Helm Basics",
+      "YAML",
+      "CI/CD Concepts"
+    ]
+  },
+  {
+    "id": 28,
+    "gid": 123,
+    "name": "JUnit",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Java Unit Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Java Unit Testing Frameworks"
+    },
+    "aliases": [
+      "JUnit",
+      "JUnit4",
+      "JUnit5",
+      "JUnit Jupiter",
+      "junit.org"
+    ],
+    "concepts": [
+      "Test Classes",
+      "Test Methods",
+      "@Test Annotation",
+      "Assertions",
+      "assertEquals",
+      "assertTrue/assertFalse",
+      "assertThrows",
+      "assertAll",
+      "Setup and Teardown",
+      "@BeforeEach",
+      "@AfterEach",
+      "@BeforeAll",
+      "@AfterAll",
+      "@BeforeClass/@AfterClass (JUnit4)",
+      "@Before/@After (JUnit4)",
+      "Test Lifecycle",
+      "Parameterized Tests",
+      "@ParameterizedTest",
+      "@ValueSource",
+      "@CsvSource",
+      "@MethodSource",
+      "@EnumSource",
+      "Test Suites",
+      "@Suite",
+      "Nested Tests (@Nested)",
+      "Tagging Tests (@Tag)",
+      "Conditional Test Execution",
+      "@Disabled",
+      "@EnabledOnOs",
+      "Timeout Testing (@Timeout)",
+      "Exception Testing",
+      "Test Fixtures",
+      "Mock Integration (Mockito)",
+      "JUnit Extensions (JUnit5 Extension Model)",
+      "@ExtendWith",
+      "Custom Extensions",
+      "Assertions Library (Hamcrest Integration)",
+      "AssertJ Integration",
+      "Test Runners (JUnit4)",
+      "@RunWith",
+      "Spring Test Integration (@SpringBootTest)",
+      "Test Coverage (JaCoCo Integration)",
+      "Maven Surefire/Failsafe Integration",
+      "Gradle Test Integration",
+      "IDE Test Runners (IntelliJ/Eclipse)",
+      "Test-Driven Development (TDD)",
+      "Behavior-Driven Development (BDD) Style Naming",
+      "Dynamic Tests",
+      "Repeated Tests (@RepeatedTest)",
+      "Test Ordering",
+      "Display Names (@DisplayName)",
+      "Assumptions (assumeTrue)",
+      "Rule-Based Testing (JUnit4 @Rule)",
+      "TestWatcher",
+      "CI/CD Integration"
+    ],
+    "roles": [
+      {
+        "role": "Java Developer",
+        "importance": 0.9345,
+        "concepts": [
+          "Test Classes",
+          "@Test Annotation",
+          "Assertions",
+          "assertEquals",
+          "Setup and Teardown",
+          "@BeforeEach",
+          "@AfterEach",
+          "Parameterized Tests",
+          "Exception Testing",
+          "Mock Integration (Mockito)"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.8823,
+        "concepts": [
+          "Test Classes",
+          "Parameterized Tests",
+          "Test Suites",
+          "Nested Tests (@Nested)",
+          "Tagging Tests (@Tag)",
+          "JUnit Extensions (JUnit5 Extension Model)",
+          "CI/CD Integration",
+          "Test Coverage (JaCoCo Integration)"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.9123,
+        "concepts": [
+          "Test Classes",
+          "Custom Extensions",
+          "@ExtendWith",
+          "Test-Driven Development (TDD)",
+          "Test Coverage (JaCoCo Integration)",
+          "CI/CD Integration",
+          "Selenium Integration (via JUnit)"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.7523,
+        "concepts": [
+          "Test Classes",
+          "@Test Annotation",
+          "Assertions",
+          "Mock Integration (Mockito)",
+          "Spring Test Integration (@SpringBootTest)"
+        ]
+      },
+      {
+        "role": "Technical Lead",
+        "importance": 0.4523,
+        "concepts": [
+          "Test-Driven Development (TDD)",
+          "Test Coverage (JaCoCo Integration)",
+          "CI/CD Integration",
+          "Test Suites"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Java",
+      "Object-Oriented Programming",
+      "Annotations (Java)",
+      "Maven or Gradle Basics",
+      "Exception Handling (Java)",
+      "IDE Usage (IntelliJ/Eclipse)",
+      "Git",
+      "Testing Fundamentals",
+      "Assertions Concept",
+      "Command Line Interface"
+    ]
+  },
+  {
+    "id": 29,
+    "gid": 124,
+    "name": "Mockito",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Java Mocking Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Mocking / Test Double Frameworks"
+    },
+    "aliases": [
+      "Mockito",
+      "Mockito Framework",
+      "site.mockito.org"
+    ],
+    "concepts": [
+      "Mock Objects",
+      "mock()",
+      "@Mock Annotation",
+      "Stubbing",
+      "when()/thenReturn()",
+      "thenThrow()",
+      "doReturn()/when()",
+      "Argument Matchers",
+      "any()/anyString()/anyInt()",
+      "Verification",
+      "verify()",
+      "verify(times())",
+      "verifyNoInteractions()",
+      "verifyNoMoreInteractions()",
+      "Spy Objects",
+      "@Spy Annotation",
+      "spy()",
+      "Argument Captor",
+      "@Captor",
+      "ArgumentCaptor",
+      "Mocking Void Methods",
+      "doNothing()/doThrow()",
+      "InjectMocks",
+      "@InjectMocks",
+      "MockitoAnnotations.openMocks()",
+      "MockitoExtension (JUnit5)",
+      "@ExtendWith(MockitoExtension.class)",
+      "BDD Mockito Style (given/willReturn)",
+      "Strict Stubbing",
+      "Lenient Stubbing",
+      "Mocking Static Methods (Mockito-inline)",
+      "Mocking Final Classes",
+      "Answer Interface (Custom Answers)",
+      "Deep Stubs",
+      "Mocking Constructors",
+      "Test Doubles Concept (Mock/Stub/Fake/Spy)",
+      "Dependency Isolation",
+      "Behavior Verification vs State Verification",
+      "Mockito with Spring Boot Test",
+      "Reset Mocks",
+      "InOrder Verification",
+      "Timeout Verification"
+    ],
+    "roles": [
+      {
+        "role": "Java Developer",
+        "importance": 0.9012,
+        "concepts": [
+          "Mock Objects",
+          "mock()",
+          "@Mock Annotation",
+          "Stubbing",
+          "when()/thenReturn()",
+          "Verification",
+          "verify()",
+          "Argument Matchers",
+          "@InjectMocks"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.7234,
+        "concepts": [
+          "Mock Objects",
+          "Stubbing",
+          "Verification",
+          "Spy Objects",
+          "Argument Captor",
+          "Test Doubles Concept (Mock/Stub/Fake/Spy)"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.8123,
+        "concepts": [
+          "Mock Objects",
+          "Stubbing",
+          "Verification",
+          "Argument Captor",
+          "Behavior Verification vs State Verification",
+          "Mockito with Spring Boot Test"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.8834,
+        "concepts": [
+          "Mock Objects",
+          "@Mock Annotation",
+          "@InjectMocks",
+          "Stubbing",
+          "Verification",
+          "Dependency Isolation",
+          "Mockito with Spring Boot Test"
+        ]
+      },
+      {
+        "role": "Unit Testing Specialist",
+        "importance": 0.8945,
+        "concepts": [
+          "Mock Objects",
+          "Spy Objects",
+          "Argument Captor",
+          "Answer Interface (Custom Answers)",
+          "Deep Stubs",
+          "Mocking Static Methods (Mockito-inline)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Java",
+      "JUnit",
+      "Object-Oriented Programming",
+      "Interfaces (Java)",
+      "Dependency Injection Concept",
+      "Unit Testing Fundamentals",
+      "Maven or Gradle Basics",
+      "Testing Doubles Concept"
+    ]
+  },
+  {
+    "id": 30,
+    "gid": 125,
+    "name": "pytest",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Python Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Python Testing Frameworks"
+    },
+    "aliases": [
+      "pytest",
+      "PyTest",
+      "py.test",
+      "docs.pytest.org"
+    ],
+    "concepts": [
+      "Test Functions",
+      "Assert Statements",
+      "Test Discovery",
+      "conftest.py",
+      "Fixtures",
+      "@pytest.fixture",
+      "Fixture Scope (function/class/module/session)",
+      "Yield Fixtures",
+      "Fixture Finalization",
+      "Parametrization",
+      "@pytest.mark.parametrize",
+      "Markers",
+      "Custom Markers",
+      "@pytest.mark.skip",
+      "@pytest.mark.skipif",
+      "@pytest.mark.xfail",
+      "Test Classes",
+      "Setup/Teardown Methods",
+      "Monkeypatching",
+      "monkeypatch fixture",
+      "Mocking (unittest.mock/pytest-mock)",
+      "Exception Testing (pytest.raises)",
+      "Warning Testing (pytest.warns)",
+      "Plugins",
+      "pytest-cov (Coverage)",
+      "pytest-django",
+      "pytest-asyncio",
+      "pytest-xdist (Parallel Testing)",
+      "pytest-mock",
+      "pytest-bdd",
+      "Assertion Introspection (Assertion Rewriting)",
+      "Test Reports (HTML/JUnit XML)",
+      "Command Line Options",
+      "pytest.ini / pyproject.toml Configuration",
+      "Tmp Path Fixture",
+      "Capsys/Capfd (Output Capturing)",
+      "Doctest Integration",
+      "Test Collection",
+      "Test IDs",
+      "Parametrized Fixtures",
+      "Indirect Parametrization",
+      "Hooks (pytest Plugin Hooks)",
+      "Custom Plugins",
+      "Test Reruns (pytest-rerunfailures)",
+      "Snapshot Testing",
+      "Property-Based Testing (Hypothesis Integration)"
+    ],
+    "roles": [
+      {
+        "role": "Python Developer",
+        "importance": 0.9456,
+        "concepts": [
+          "Test Functions",
+          "Assert Statements",
+          "Fixtures",
+          "@pytest.fixture",
+          "Parametrization",
+          "@pytest.mark.parametrize",
+          "Markers",
+          "Exception Testing (pytest.raises)",
+          "Mocking (unittest.mock/pytest-mock)"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.9234,
+        "concepts": [
+          "Test Functions",
+          "Fixtures",
+          "Parametrization",
+          "Markers",
+          "Plugins",
+          "pytest-xdist (Parallel Testing)",
+          "Test Reports (HTML/JUnit XML)",
+          "conftest.py"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.9345,
+        "concepts": [
+          "Fixtures",
+          "Parametrization",
+          "Custom Plugins",
+          "Hooks (pytest Plugin Hooks)",
+          "pytest-xdist (Parallel Testing)",
+          "Property-Based Testing (Hypothesis Integration)"
+        ]
+      },
+      {
+        "role": "Data Scientist / ML Engineer",
+        "importance": 0.4523,
+        "concepts": [
+          "Test Functions",
+          "Assert Statements",
+          "Fixtures",
+          "Parametrization"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.8623,
+        "concepts": [
+          "Test Functions",
+          "Fixtures",
+          "pytest-django",
+          "Mocking (unittest.mock/pytest-mock)",
+          "Exception Testing (pytest.raises)",
+          "conftest.py"
+        ]
+      },
+      {
+        "role": "DevOps / CI Engineer",
+        "importance": 0.4123,
+        "concepts": [
+          "pytest-cov (Coverage)",
+          "Test Reports (HTML/JUnit XML)",
+          "Command Line Options",
+          "pytest.ini / pyproject.toml Configuration"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Python",
+      "Functions",
+      "Decorators (Python)",
+      "Object-Oriented Programming",
+      "Modules and Packages",
+      "Virtual Environments",
+      "pip",
+      "Testing Fundamentals",
+      "Assertions Concept",
+      "Command Line Interface",
+      "Git"
+    ]
+  },
+  {
+    "id": 31,
+    "gid": 126,
+    "name": "Jest",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "JavaScript Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "JavaScript/TypeScript Testing Frameworks"
+    },
+    "aliases": [
+      "Jest",
+      "Jest Framework",
+      "Meta Jest",
+      "jestjs.io"
+    ],
+    "concepts": [
+      "Test Suites (describe)",
+      "Test Cases (test/it)",
+      "Assertions (expect)",
+      "Matchers",
+      "toBe/toEqual/toStrictEqual",
+      "toContain",
+      "toThrow",
+      "Setup/Teardown (beforeEach/afterEach/beforeAll/afterAll)",
+      "Mock Functions",
+      "jest.fn()",
+      "jest.mock()",
+      "jest.spyOn()",
+      "Mock Implementations",
+      "mockReturnValue/mockResolvedValue",
+      "Automatic Mocking",
+      "Manual Mocks (__mocks__)",
+      "Module Mocking",
+      "Timer Mocks (jest.useFakeTimers)",
+      "Snapshot Testing",
+      "toMatchSnapshot",
+      "Inline Snapshots",
+      "Async Testing",
+      "Testing Promises",
+      "Testing Async/Await",
+      "Code Coverage (--coverage)",
+      "Coverage Thresholds",
+      "Test Configuration (jest.config.js)",
+      "Test Environment (jsdom/node)",
+      "Setup Files",
+      "Watch Mode",
+      "Parallel Test Execution",
+      "Test Matching Patterns",
+      "React Testing Library Integration",
+      "Enzyme Integration (legacy)",
+      "Testing React Components",
+      "Testing Hooks",
+      "Testing Redux",
+      "Mocking Modules/APIs",
+      "Mocking Fetch/Axios",
+      "Babel Integration",
+      "TypeScript with Jest (ts-jest)",
+      "Global Setup/Teardown",
+      "Custom Matchers",
+      "Test Reporters",
+      "CI Integration"
+    ],
+    "roles": [
+      {
+        "role": "Frontend Developer",
+        "importance": 0.9123,
+        "concepts": [
+          "Test Suites (describe)",
+          "Test Cases (test/it)",
+          "Assertions (expect)",
+          "Matchers",
+          "Mock Functions",
+          "jest.fn()",
+          "React Testing Library Integration",
+          "Testing React Components",
+          "Snapshot Testing"
+        ]
+      },
+      {
+        "role": "JavaScript Developer",
+        "importance": 0.8756,
+        "concepts": [
+          "Test Suites (describe)",
+          "Assertions (expect)",
+          "Mock Functions",
+          "Async Testing",
+          "Testing Promises",
+          "Code Coverage (--coverage)"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.8234,
+        "concepts": [
+          "Test Suites (describe)",
+          "Mock Functions",
+          "Snapshot Testing",
+          "Code Coverage (--coverage)",
+          "CI Integration",
+          "Test Reporters"
+        ]
+      },
+      {
+        "role": "React Developer",
+        "importance": 0.8934,
+        "concepts": [
+          "React Testing Library Integration",
+          "Testing React Components",
+          "Testing Hooks",
+          "Mock Functions",
+          "Snapshot Testing",
+          "Testing Redux"
+        ]
+      },
+      {
+        "role": "Full Stack Developer",
+        "importance": 0.7123,
+        "concepts": [
+          "Test Suites (describe)",
+          "Mock Functions",
+          "Mocking Modules/APIs",
+          "Mocking Fetch/Axios",
+          "Testing Async/Await"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.7645,
+        "concepts": [
+          "Custom Matchers",
+          "Test Configuration (jest.config.js)",
+          "Global Setup/Teardown",
+          "Coverage Thresholds",
+          "CI Integration"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "ES6+ Syntax",
+      "Node.js",
+      "npm/yarn",
+      "Asynchronous JavaScript",
+      "Promises",
+      "Async/Await",
+      "Testing Fundamentals",
+      "Assertions Concept",
+      "Git",
+      "Command Line Interface",
+      "React Basics (for React testing)"
+    ]
+  },
+  {
+    "id": 32,
+    "gid": 127,
+    "name": "Vitest",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "JavaScript/TypeScript Testing Framework (Vite-Native)",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "JavaScript/TypeScript Testing Frameworks"
+    },
+    "aliases": [
+      "Vitest",
+      "vitest.dev"
+    ],
+    "concepts": [
+      "Test Suites (describe)",
+      "Test Cases (test/it)",
+      "Assertions (expect)",
+      "Jest-Compatible API",
+      "Matchers",
+      "Mock Functions (vi.fn())",
+      "vi.mock()",
+      "vi.spyOn()",
+      "Setup/Teardown Hooks",
+      "Snapshot Testing",
+      "In-Source Testing",
+      "Watch Mode",
+      "HMR-Powered Test Reruns",
+      "Native ESM Support",
+      "TypeScript Support (out of the box)",
+      "Vite Config Integration",
+      "Test Environment (jsdom/happy-dom/node)",
+      "Code Coverage (c8/istanbul)",
+      "UI Mode (Vitest UI)",
+      "Concurrent Testing",
+      "Workspaces (Monorepo Testing)",
+      "Testing Vue Components",
+      "Testing React Components",
+      "Testing Composables/Hooks",
+      "Mocking Modules",
+      "Timer Mocks",
+      "Benchmarking (vitest bench)",
+      "Type Testing (expectTypeOf)",
+      "Global Test APIs",
+      "Custom Matchers",
+      "Test Filtering",
+      "CI Integration",
+      "Browser Mode (Experimental)"
+    ],
+    "roles": [
+      {
+        "role": "Frontend Developer",
+        "importance": 0.8734,
+        "concepts": [
+          "Test Suites (describe)",
+          "Assertions (expect)",
+          "Mock Functions (vi.fn())",
+          "Testing Vue Components",
+          "Testing React Components",
+          "Snapshot Testing",
+          "Vite Config Integration"
+        ]
+      },
+      {
+        "role": "Vue Developer",
+        "importance": 0.8623,
+        "concepts": [
+          "Test Suites (describe)",
+          "Testing Vue Components",
+          "Testing Composables/Hooks",
+          "Mock Functions (vi.fn())",
+          "Vite Config Integration"
+        ]
+      },
+      {
+        "role": "JavaScript/TypeScript Developer",
+        "importance": 0.8123,
+        "concepts": [
+          "Test Suites (describe)",
+          "Jest-Compatible API",
+          "Native ESM Support",
+          "TypeScript Support (out of the box)",
+          "Code Coverage (c8/istanbul)"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.6934,
+        "concepts": [
+          "Test Suites (describe)",
+          "Mock Functions (vi.fn())",
+          "Code Coverage (c8/istanbul)",
+          "CI Integration",
+          "Concurrent Testing"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.6234,
+        "concepts": [
+          "Benchmarking (vitest bench)",
+          "Type Testing (expectTypeOf)",
+          "Workspaces (Monorepo Testing)",
+          "UI Mode (Vitest UI)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "TypeScript",
+      "ES Modules",
+      "Node.js",
+      "npm/yarn/pnpm",
+      "Vite Basics",
+      "Testing Fundamentals",
+      "Assertions Concept",
+      "Async/Await",
+      "Git",
+      "Command Line Interface"
+    ]
+  },
+  {
+    "id": 33,
+    "gid": 128,
+    "name": "Mocha",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "JavaScript Test Runner",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "JavaScript Testing Frameworks"
+    },
+    "aliases": [
+      "Mocha",
+      "Mocha.js",
+      "mochajs.org"
+    ],
+    "concepts": [
+      "Test Suites (describe)",
+      "Test Cases (it)",
+      "Hooks (before/after/beforeEach/afterEach)",
+      "Asynchronous Testing (done callback)",
+      "Promise Support",
+      "Async/Await Support",
+      "Assertion Library Agnostic",
+      "Chai Integration",
+      "Sinon Integration",
+      "Reporters (spec/dot/nyan/json)",
+      "Custom Reporters",
+      "Test Timeouts",
+      "Retries",
+      "Pending Tests (skip)",
+      "Exclusive Tests (only)",
+      "Test Configuration (.mocharc)",
+      "Root Hooks",
+      "Parallel Mode",
+      "Command Line Interface (mocha CLI)",
+      "Glob Pattern Test Matching",
+      "Browser Testing Support",
+      "Test Coverage (nyc/Istanbul Integration)",
+      "BDD Interface",
+      "TDD Interface",
+      "QUnit Interface",
+      "Exports Interface",
+      "Global Setup/Teardown",
+      "ES Modules Support",
+      "TypeScript Support (ts-node)"
+    ],
+    "roles": [
+      {
+        "role": "JavaScript Developer",
+        "importance": 0.7823,
+        "concepts": [
+          "Test Suites (describe)",
+          "Test Cases (it)",
+          "Hooks (before/after/beforeEach/afterEach)",
+          "Chai Integration",
+          "Asynchronous Testing (done callback)",
+          "Async/Await Support"
+        ]
+      },
+      {
+        "role": "Node.js Developer",
+        "importance": 0.8234,
+        "concepts": [
+          "Test Suites (describe)",
+          "Hooks (before/after/beforeEach/afterEach)",
+          "Sinon Integration",
+          "Test Coverage (nyc/Istanbul Integration)",
+          "Command Line Interface (mocha CLI)"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.7345,
+        "concepts": [
+          "Test Suites (describe)",
+          "Reporters (spec/dot/nyan/json)",
+          "Retries",
+          "Test Configuration (.mocharc)",
+          "Browser Testing Support"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.7123,
+        "concepts": [
+          "Test Suites (describe)",
+          "Custom Reporters",
+          "Root Hooks",
+          "Parallel Mode",
+          "BDD Interface",
+          "TDD Interface"
+        ]
+      },
+      {
+        "role": "Full Stack Developer",
+        "importance": 0.6234,
+        "concepts": [
+          "Test Suites (describe)",
+          "Chai Integration",
+          "Async/Await Support",
+          "Test Coverage (nyc/Istanbul Integration)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "ES6+ Syntax",
+      "Node.js",
+      "npm",
+      "Asynchronous JavaScript",
+      "Promises",
+      "Async/Await",
+      "Testing Fundamentals",
+      "Assertion Libraries Concept",
+      "Git",
+      "Command Line Interface"
+    ]
+  },
+  {
+    "id": 34,
+    "gid": 129,
+    "name": "Chai",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "JavaScript Assertion Library",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Assertion Libraries"
+    },
+    "aliases": [
+      "Chai",
+      "Chai.js",
+      "chaijs.com",
+      "Chai Assertion Library"
+    ],
+    "concepts": [
+      "Assert Style",
+      "Expect Style (BDD)",
+      "Should Style (BDD)",
+      "Chainable Language (to/be/have/deep/equal)",
+      "Equality Assertions (equal/eql)",
+      "Type Assertions (a/an)",
+      "Property Assertions (property)",
+      "Include/Contain Assertions",
+      "Length Assertions",
+      "Boolean Assertions (true/false/null/undefined)",
+      "Exception Assertions (throw)",
+      "Comparison Assertions (above/below/within)",
+      "Array Assertions",
+      "Object Deep Equality",
+      "Chai Plugins",
+      "chai-as-promised (Async Assertions)",
+      "sinon-chai Integration",
+      "chai-http (HTTP Assertions)",
+      "chai-subset",
+      "Custom Assertions",
+      "Negation (not)",
+      "Language Chains (to/be/been/is/that/which/and/has/have)",
+      "Integration with Mocha/Jest"
+    ],
+    "roles": [
+      {
+        "role": "JavaScript Developer",
+        "importance": 0.7234,
+        "concepts": [
+          "Assert Style",
+          "Expect Style (BDD)",
+          "Chainable Language (to/be/have/deep/equal)",
+          "Equality Assertions (equal/eql)",
+          "Boolean Assertions (true/false/null/undefined)"
+        ]
+      },
+      {
+        "role": "Node.js Developer",
+        "importance": 0.7623,
+        "concepts": [
+          "Expect Style (BDD)",
+          "Exception Assertions (throw)",
+          "chai-as-promised (Async Assertions)",
+          "chai-http (HTTP Assertions)"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.6834,
+        "concepts": [
+          "Expect Style (BDD)",
+          "Should Style (BDD)",
+          "Comparison Assertions (above/below/within)",
+          "Chai Plugins",
+          "Custom Assertions"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.6512,
+        "concepts": [
+          "Chainable Language (to/be/have/deep/equal)",
+          "Object Deep Equality",
+          "Custom Assertions",
+          "sinon-chai Integration"
+        ]
+      },
+      {
+        "role": "API Test Engineer",
+        "importance": 0.6123,
+        "concepts": [
+          "chai-http (HTTP Assertions)",
+          "Expect Style (BDD)",
+          "Property Assertions (property)",
+          "Include/Contain Assertions"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "ES6+ Syntax",
+      "Node.js",
+      "Mocha or another test runner",
+      "Testing Fundamentals",
+      "Assertions Concept",
+      "Git"
+    ]
+  },
+  {
+    "id": 35,
+    "gid": 130,
+    "name": "Selenium",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Browser Automation / E2E Testing Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Browser Automation Frameworks"
+    },
+    "aliases": [
+      "Selenium",
+      "Selenium WebDriver",
+      "Selenium IDE",
+      "Selenium Grid",
+      "SeleniumHQ"
+    ],
+    "concepts": [
+      "WebDriver API",
+      "Browser Drivers (ChromeDriver/GeckoDriver/EdgeDriver)",
+      "Locator Strategies",
+      "By.id/By.name/By.className",
+      "XPath Locators",
+      "CSS Selectors",
+      "Element Interaction (click/sendKeys/clear)",
+      "Waits",
+      "Implicit Waits",
+      "Explicit Waits",
+      "WebDriverWait",
+      "ExpectedConditions",
+      "Fluent Waits",
+      "Actions Class (Mouse/Keyboard Actions)",
+      "Drag and Drop",
+      "Handling Alerts/Popups",
+      "Frame/iFrame Switching",
+      "Window/Tab Switching",
+      "Handling Dropdowns (Select Class)",
+      "File Uploads",
+      "Screenshots",
+      "Selenium Grid (Distributed Testing)",
+      "Remote WebDriver",
+      "Cross-Browser Testing",
+      "Headless Browser Testing",
+      "Page Object Model (POM)",
+      "Page Factory",
+      "Selenium IDE (Record/Playback)",
+      "Selenium with TestNG",
+      "Selenium with JUnit",
+      "Selenium with pytest",
+      "Data-Driven Testing",
+      "Parallel Test Execution",
+      "Selenium 4 Features (Relative Locators)",
+      "BiDi Protocol (Selenium 4)",
+      "DevTools Protocol Integration",
+      "Docker with Selenium",
+      "Selenium Grid Hub/Node Architecture",
+      "Handling Dynamic Elements",
+      "Synchronization Issues",
+      "Test Reporting (Extent Reports/Allure)",
+      "CI/CD Integration (Jenkins/GitHub Actions)"
+    ],
+    "roles": [
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.9756,
+        "concepts": [
+          "WebDriver API",
+          "Locator Strategies",
+          "XPath Locators",
+          "CSS Selectors",
+          "Waits",
+          "Explicit Waits",
+          "Page Object Model (POM)",
+          "Selenium Grid (Distributed Testing)",
+          "Cross-Browser Testing",
+          "Data-Driven Testing",
+          "CI/CD Integration (Jenkins/GitHub Actions)"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.9345,
+        "concepts": [
+          "WebDriver API",
+          "Page Object Model (POM)",
+          "Page Factory",
+          "Selenium Grid (Distributed Testing)",
+          "Parallel Test Execution",
+          "Selenium with TestNG",
+          "Test Reporting (Extent Reports/Allure)"
+        ]
+      },
+      {
+        "role": "Manual QA Tester (transitioning to automation)",
+        "importance": 0.6234,
+        "concepts": [
+          "Selenium IDE (Record/Playback)",
+          "Element Interaction (click/sendKeys/clear)",
+          "Locator Strategies",
+          "Handling Alerts/Popups"
+        ]
+      },
+      {
+        "role": "Test Automation Architect",
+        "importance": 0.8623,
+        "concepts": [
+          "Page Object Model (POM)",
+          "Selenium Grid (Distributed Testing)",
+          "Remote WebDriver",
+          "Docker with Selenium",
+          "Cross-Browser Testing",
+          "CI/CD Integration (Jenkins/GitHub Actions)"
+        ]
+      },
+      {
+        "role": "Full Stack Developer (writing E2E tests)",
+        "importance": 0.4123,
+        "concepts": [
+          "WebDriver API",
+          "Locator Strategies",
+          "Element Interaction (click/sendKeys/clear)",
+          "Waits"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Programming Language (Java/Python/C#/JavaScript)",
+      "HTML",
+      "CSS",
+      "XPath Fundamentals",
+      "DOM Structure",
+      "HTTP Basics",
+      "Browser DevTools",
+      "Testing Fundamentals",
+      "Object-Oriented Programming",
+      "Git",
+      "Command Line Interface",
+      "Design Patterns (Page Object Model)"
+    ]
+  },
+  {
+    "id": 36,
+    "gid": 131,
+    "name": "Cypress",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "JavaScript End-to-End Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "End-to-End Testing Frameworks"
+    },
+    "aliases": [
+      "Cypress",
+      "Cypress.io",
+      "Cypress Test Runner"
+    ],
+    "concepts": [
+      "cy Commands",
+      "cy.visit()",
+      "cy.get()",
+      "cy.contains()",
+      "cy.click()",
+      "cy.type()",
+      "Chainable Commands",
+      "Automatic Waiting/Retries",
+      "Assertions (should/expect)",
+      "Custom Commands",
+      "Fixtures",
+      "cy.intercept() (Network Stubbing)",
+      "API Testing with Cypress",
+      "Component Testing",
+      "E2E Testing",
+      "Test Runner UI",
+      "Time Travel Debugging",
+      "Selector Playground",
+      "Aliases (as())",
+      "Environment Variables",
+      "cypress.config.js",
+      "Plugins",
+      "Cypress Dashboard/Cloud",
+      "Parallelization",
+      "Cross-Browser Testing (Chrome/Firefox/Edge)",
+      "Headless Mode",
+      "Screenshots and Videos",
+      "Visual Testing (Percy Integration)",
+      "Handling iframes",
+      "Handling File Uploads",
+      "Handling Authentication",
+      "Session Management (cy.session)",
+      "Data-Driven Testing",
+      "Page Object Pattern in Cypress",
+      "TypeScript Support",
+      "CI/CD Integration",
+      "Retry-ability",
+      "Testing Redux/State Management",
+      "Mocking Clock (cy.clock)",
+      "Cypress Studio",
+      "Accessibility Testing (cypress-axe)"
+    ],
+    "roles": [
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.9645,
+        "concepts": [
+          "cy Commands",
+          "cy.visit()",
+          "cy.get()",
+          "Custom Commands",
+          "Fixtures",
+          "cy.intercept() (Network Stubbing)",
+          "E2E Testing",
+          "Test Runner UI",
+          "Cross-Browser Testing (Chrome/Firefox/Edge)",
+          "CI/CD Integration"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.8923,
+        "concepts": [
+          "Custom Commands",
+          "cy.intercept() (Network Stubbing)",
+          "Parallelization",
+          "Page Object Pattern in Cypress",
+          "Cypress Dashboard/Cloud",
+          "TypeScript Support"
+        ]
+      },
+      {
+        "role": "Frontend Developer",
+        "importance": 0.7634,
+        "concepts": [
+          "cy Commands",
+          "Component Testing",
+          "E2E Testing",
+          "Time Travel Debugging",
+          "Assertions (should/expect)"
+        ]
+      },
+      {
+        "role": "Full Stack Developer",
+        "importance": 0.6923,
+        "concepts": [
+          "cy Commands",
+          "cy.intercept() (Network Stubbing)",
+          "API Testing with Cypress",
+          "Handling Authentication",
+          "Session Management (cy.session)"
+        ]
+      },
+      {
+        "role": "Test Automation Architect",
+        "importance": 0.7845,
+        "concepts": [
+          "Parallelization",
+          "Cypress Dashboard/Cloud",
+          "CI/CD Integration",
+          "Page Object Pattern in Cypress",
+          "Plugins"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "TypeScript (recommended)",
+      "HTML",
+      "CSS",
+      "DOM",
+      "HTTP Basics",
+      "REST APIs Concept",
+      "JSON",
+      "Async JavaScript",
+      "Testing Fundamentals",
+      "Git",
+      "npm",
+      "Command Line Interface",
+      "Browser DevTools"
+    ]
+  },
+  {
+    "id": 37,
+    "gid": 132,
+    "name": "Playwright",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Cross-Browser End-to-End Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "End-to-End Testing Frameworks"
+    },
+    "aliases": [
+      "Playwright",
+      "Microsoft Playwright",
+      "playwright.dev",
+      "Playwright Test"
+    ],
+    "concepts": [
+      "Browser Contexts",
+      "Pages",
+      "Locators",
+      "Auto-Waiting",
+      "Actionability Checks",
+      "page.goto()",
+      "page.click()",
+      "page.fill()",
+      "page.locator()",
+      "Assertions (expect)",
+      "Web-First Assertions",
+      "Test Runner (@playwright/test)",
+      "Fixtures",
+      "Test Hooks (beforeEach/afterEach)",
+      "Parallel Execution",
+      "Cross-Browser Testing (Chromium/Firefox/WebKit)",
+      "Headless/Headed Mode",
+      "Network Interception (page.route())",
+      "API Testing (request context)",
+      "Mocking Responses",
+      "Screenshots and Videos",
+      "Trace Viewer",
+      "Codegen (Test Generator)",
+      "Visual Comparisons (toHaveScreenshot)",
+      "Component Testing",
+      "Multi-Tab/Multi-Window Testing",
+      "iFrame Handling",
+      "Authentication State Reuse (storageState)",
+      "Test Sharding",
+      "Playwright Config (playwright.config.ts)",
+      "Projects (Multi-Browser Config)",
+      "Retries",
+      "Test Tags/Annotations",
+      "Page Object Model in Playwright",
+      "Mobile Emulation",
+      "Geolocation/Permissions Testing",
+      "Accessibility Testing",
+      "Downloads/Uploads Handling",
+      "Dialog Handling",
+      "CI/CD Integration",
+      "Docker with Playwright",
+      "Playwright Cloud/Reporting",
+      "TypeScript Support"
+    ],
+    "roles": [
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.9723,
+        "concepts": [
+          "Browser Contexts",
+          "Locators",
+          "Auto-Waiting",
+          "Assertions (expect)",
+          "Fixtures",
+          "Cross-Browser Testing (Chromium/Firefox/WebKit)",
+          "Network Interception (page.route())",
+          "Trace Viewer",
+          "CI/CD Integration"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.9412,
+        "concepts": [
+          "Fixtures",
+          "Test Sharding",
+          "Parallel Execution",
+          "Page Object Model in Playwright",
+          "Playwright Config (playwright.config.ts)",
+          "Projects (Multi-Browser Config)",
+          "Authentication State Reuse (storageState)"
+        ]
+      },
+      {
+        "role": "Frontend Developer",
+        "importance": 0.7234,
+        "concepts": [
+          "Locators",
+          "page.click()",
+          "page.fill()",
+          "Component Testing",
+          "Visual Comparisons (toHaveScreenshot)"
+        ]
+      },
+      {
+        "role": "Full Stack Developer",
+        "importance": 0.7123,
+        "concepts": [
+          "Browser Contexts",
+          "API Testing (request context)",
+          "Network Interception (page.route())",
+          "Authentication State Reuse (storageState)"
+        ]
+      },
+      {
+        "role": "Test Automation Architect",
+        "importance": 0.8523,
+        "concepts": [
+          "Test Sharding",
+          "Parallel Execution",
+          "Docker with Playwright",
+          "Playwright Cloud/Reporting",
+          "Projects (Multi-Browser Config)",
+          "CI/CD Integration"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "TypeScript (recommended)",
+      "HTML",
+      "CSS",
+      "DOM",
+      "HTTP Basics",
+      "REST APIs Concept",
+      "JSON",
+      "Async/Await",
+      "Testing Fundamentals",
+      "Git",
+      "npm",
+      "Command Line Interface",
+      "Browser DevTools"
+    ]
+  },
+  {
+    "id": 38,
+    "gid": 133,
+    "name": "Appium",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Mobile Automation Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Mobile Test Automation Frameworks"
+    },
+    "aliases": [
+      "Appium",
+      "Appium Server",
+      "appium.io"
+    ],
+    "concepts": [
+      "WebDriver Protocol (Mobile JSON Wire Protocol/W3C)",
+      "Appium Server",
+      "Desired Capabilities",
+      "Appium Drivers (UiAutomator2/XCUITest/Espresso)",
+      "Android Automation (UiAutomator2)",
+      "iOS Automation (XCUITest)",
+      "Locator Strategies (accessibility id/id/xpath/class name)",
+      "Element Interaction (tap/sendKeys/clear)",
+      "Gestures (swipe/scroll/pinch/zoom)",
+      "TouchAction / W3C Actions API",
+      "Native App Testing",
+      "Hybrid App Testing",
+      "Mobile Web Testing",
+      "Emulators/Simulators",
+      "Real Device Testing",
+      "Appium Inspector",
+      "Session Management",
+      "App Installation/Uninstallation",
+      "Context Switching (Native/WebView)",
+      "Handling Permissions/Alerts",
+      "Device Orientation Testing",
+      "Appium with TestNG",
+      "Appium with JUnit",
+      "Appium with Selenium (shared WebDriver API)",
+      "Cross-Platform Test Scripts",
+      "Cloud Device Farms (BrowserStack/Sauce Labs)",
+      "Parallel Test Execution",
+      "Appium Server Configuration",
+      "Capabilities for Cross-Platform",
+      "Page Object Model for Mobile",
+      "Data-Driven Mobile Testing",
+      "Appium 2.0 Plugin Architecture",
+      "Espresso Driver",
+      "Flutter Driver Integration",
+      "Performance Testing (Mobile)",
+      "CI/CD Integration for Mobile Testing"
+    ],
+    "roles": [
+      {
+        "role": "Mobile QA Automation Engineer",
+        "importance": 0.9812,
+        "concepts": [
+          "WebDriver Protocol (Mobile JSON Wire Protocol/W3C)",
+          "Desired Capabilities",
+          "Android Automation (UiAutomator2)",
+          "iOS Automation (XCUITest)",
+          "Locator Strategies (accessibility id/id/xpath/class name)",
+          "Gestures (swipe/scroll/pinch/zoom)",
+          "Real Device Testing",
+          "Cloud Device Farms (BrowserStack/Sauce Labs)"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.8523,
+        "concepts": [
+          "Desired Capabilities",
+          "Appium with TestNG",
+          "Page Object Model for Mobile",
+          "Parallel Test Execution",
+          "CI/CD Integration for Mobile Testing"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.7234,
+        "concepts": [
+          "WebDriver Protocol (Mobile JSON Wire Protocol/W3C)",
+          "Element Interaction (tap/sendKeys/clear)",
+          "Emulators/Simulators",
+          "Appium Inspector",
+          "Native App Testing"
+        ]
+      },
+      {
+        "role": "Test Automation Architect",
+        "importance": 0.7623,
+        "concepts": [
+          "Appium Server Configuration",
+          "Cloud Device Farms (BrowserStack/Sauce Labs)",
+          "Cross-Platform Test Scripts",
+          "Appium 2.0 Plugin Architecture"
+        ]
+      },
+      {
+        "role": "Mobile Developer (writing E2E tests)",
+        "importance": 0.3623,
+        "concepts": [
+          "Element Interaction (tap/sendKeys/clear)",
+          "Emulators/Simulators",
+          "Native App Testing",
+          "Espresso Driver"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Programming Language (Java/Python/JavaScript)",
+      "Mobile App Fundamentals (Android/iOS)",
+      "Selenium WebDriver Basics",
+      "XPath Fundamentals",
+      "Android SDK/Xcode Basics",
+      "Testing Fundamentals",
+      "Object-Oriented Programming",
+      "Git",
+      "Command Line Interface",
+      "Mobile UI Concepts"
+    ]
+  },
+  {
+    "id": 39,
+    "gid": 134,
+    "name": "Robot Framework",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Generic Keyword-Driven Test Automation Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Keyword-Driven / BDD Test Frameworks"
+    },
+    "aliases": [
+      "Robot Framework",
+      "RF",
+      "robotframework.org"
+    ],
+    "concepts": [
+      "Keyword-Driven Testing",
+      "Test Cases Section",
+      "Settings Section",
+      "Variables Section",
+      "Keywords Section",
+      "Test Data Syntax (Tabular Format)",
+      "Built-In Keywords",
+      "Custom Keywords",
+      "User Keywords",
+      "Library Keywords",
+      "SeleniumLibrary",
+      "Browser Library (Playwright-based)",
+      "RequestsLibrary",
+      "AppiumLibrary",
+      "DatabaseLibrary",
+      "Resource Files",
+      "Test Suites",
+      "Test Libraries (Python/Java)",
+      "Data-Driven Testing (Templates)",
+      "Tags",
+      "Setup/Teardown (Suite/Test)",
+      "For Loops",
+      "Conditional Execution (IF/ELSE)",
+      "Variables (Scalar/List/Dictionary)",
+      "Robot Framework Syntax (RST/TSV/Plain Text)",
+      "Reports and Logs (HTML)",
+      "RIDE (Robot IDE, legacy)",
+      "VS Code Robot Framework Extension",
+      "Command Line Execution (robot command)",
+      "Pabot (Parallel Execution)",
+      "BDD Style Testing (Given/When/Then Keywords)",
+      "API Testing with RequestsLibrary",
+      "Continuous Integration Integration",
+      "Listener Interface",
+      "Library API (Python)",
+      "Test Case Templates",
+      "Documentation Generation (Libdoc)"
+    ],
+    "roles": [
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.9234,
+        "concepts": [
+          "Keyword-Driven Testing",
+          "Test Cases Section",
+          "Custom Keywords",
+          "SeleniumLibrary",
+          "Browser Library (Playwright-based)",
+          "Data-Driven Testing (Templates)",
+          "Tags",
+          "Reports and Logs (HTML)"
+        ]
+      },
+      {
+        "role": "Manual QA Tester (transitioning to automation)",
+        "importance": 0.8123,
+        "concepts": [
+          "Keyword-Driven Testing",
+          "Test Data Syntax (Tabular Format)",
+          "Built-In Keywords",
+          "Test Cases Section",
+          "Reports and Logs (HTML)"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.7423,
+        "concepts": [
+          "Custom Keywords",
+          "Library API (Python)",
+          "Pabot (Parallel Execution)",
+          "Listener Interface",
+          "BDD Style Testing (Given/When/Then Keywords)"
+        ]
+      },
+      {
+        "role": "Test Automation Architect",
+        "importance": 0.6912,
+        "concepts": [
+          "Resource Files",
+          "Library API (Python)",
+          "Pabot (Parallel Execution)",
+          "Continuous Integration Integration"
+        ]
+      },
+      {
+        "role": "API Test Engineer",
+        "importance": 0.5623,
+        "concepts": [
+          "RequestsLibrary",
+          "API Testing with RequestsLibrary",
+          "Variables (Scalar/List/Dictionary)",
+          "Data-Driven Testing (Templates)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Basic Programming Concepts",
+      "Python (for library extension)",
+      "Testing Fundamentals",
+      "Selenium Basics (for UI testing)",
+      "HTTP Basics",
+      "Command Line Interface",
+      "Git",
+      "Tabular Data Concepts"
+    ]
+  },
+  {
+    "id": 40,
+    "gid": 135,
+    "name": "TestNG",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Java Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Java Testing Frameworks"
+    },
+    "aliases": [
+      "TestNG",
+      "testng.org"
+    ],
+    "concepts": [
+      "@Test Annotation",
+      "Test Suites (testng.xml)",
+      "Test Groups",
+      "@BeforeMethod/@AfterMethod",
+      "@BeforeClass/@AfterClass",
+      "@BeforeSuite/@AfterSuite",
+      "@BeforeTest/@AfterTest",
+      "@BeforeGroups/@AfterGroups",
+      "Assertions (Assert class)",
+      "Soft Assertions",
+      "Data Providers (@DataProvider)",
+      "Parameterization (parameters in XML)",
+      "Dependency Testing (dependsOnMethods)",
+      "Priority (priority attribute)",
+      "Parallel Execution",
+      "Parallel Test Configuration (testng.xml)",
+      "Test Listeners",
+      "ITestListener",
+      "Retry Analyzer (IRetryAnalyzer)",
+      "Test Reporting (TestNG HTML Reports)",
+      "Selenium Integration",
+      "Cross-Browser Test Configuration",
+      "Test Grouping and Filtering",
+      "Expected Exceptions (expectedExceptions attribute)",
+      "Timeout Configuration",
+      "Factory Pattern (@Factory)",
+      "Invocation Count",
+      "Thread Pool Size",
+      "Suite XML Configuration",
+      "Includes/Excludes (Groups)",
+      "Emailable Reports",
+      "Custom Listeners",
+      "Annotation Transformers",
+      "Integration with Maven/Gradle",
+      "Integration with Jenkins",
+      "Integration with Allure/Extent Reports"
+    ],
+    "roles": [
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.9345,
+        "concepts": [
+          "@Test Annotation",
+          "Test Suites (testng.xml)",
+          "Test Groups",
+          "Data Providers (@DataProvider)",
+          "Parallel Execution",
+          "Assertions (Assert class)",
+          "Selenium Integration",
+          "Test Reporting (TestNG HTML Reports)"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.9123,
+        "concepts": [
+          "Data Providers (@DataProvider)",
+          "Dependency Testing (dependsOnMethods)",
+          "Factory Pattern (@Factory)",
+          "Test Listeners",
+          "Retry Analyzer (IRetryAnalyzer)",
+          "Custom Listeners"
+        ]
+      },
+      {
+        "role": "Java Developer",
+        "importance": 0.6523,
+        "concepts": [
+          "@Test Annotation",
+          "@BeforeMethod/@AfterMethod",
+          "Assertions (Assert class)",
+          "Data Providers (@DataProvider)"
+        ]
+      },
+      {
+        "role": "Test Automation Architect",
+        "importance": 0.8034,
+        "concepts": [
+          "Parallel Execution",
+          "Parallel Test Configuration (testng.xml)",
+          "Suite XML Configuration",
+          "Integration with Jenkins",
+          "Thread Pool Size"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.5123,
+        "concepts": [
+          "@Test Annotation",
+          "Assertions (Assert class)",
+          "@BeforeClass/@AfterClass",
+          "Selenium Integration"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Java",
+      "Object-Oriented Programming",
+      "Annotations (Java)",
+      "Maven or Gradle Basics",
+      "Selenium Basics (for UI testing)",
+      "XML Basics (for testng.xml)",
+      "Testing Fundamentals",
+      "Git",
+      "IDE Usage (IntelliJ/Eclipse)"
+    ]
+  },
+  {
+    "id": 41,
+    "gid": 136,
+    "name": "JMeter",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Performance and Load Testing Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Performance / Load Testing Tools"
+    },
+    "aliases": [
+      "JMeter",
+      "Apache JMeter",
+      "jmeter.apache.org"
+    ],
+    "concepts": [
+      "Test Plan",
+      "Thread Groups",
+      "Samplers (HTTP Request/JDBC Request/FTP Request)",
+      "Listeners",
+      "View Results Tree",
+      "Summary Report",
+      "Aggregate Report",
+      "Assertions (Response Assertion/Duration Assertion/JSON Assertion)",
+      "Config Elements (HTTP Request Defaults/CSV Data Set Config)",
+      "Pre-Processors",
+      "Post-Processors",
+      "Timers",
+      "Constant Timer",
+      "Uniform Random Timer",
+      "Controllers (Logic Controllers)",
+      "Loop Controller",
+      "If Controller",
+      "While Controller",
+      "Transaction Controller",
+      "Correlation (Extracting Dynamic Values)",
+      "Regular Expression Extractor",
+      "JSON Extractor",
+      "XPath Extractor",
+      "CSS/JQuery Extractor",
+      "Parameterization (CSV Data Set Config)",
+      "User Variables",
+      "Load Testing",
+      "Stress Testing",
+      "Spike Testing",
+      "Soak Testing",
+      "Distributed Testing (Master-Slave)",
+      "Non-GUI Mode (CLI Execution)",
+      "Command Line Test Execution",
+      "JMeter Plugins Manager",
+      "Backend Listener (InfluxDB/Grafana Integration)",
+      "Reporting (HTML Dashboard Report)",
+      "JDBC Connection Testing",
+      "REST API Load Testing",
+      "SOAP/XML Testing",
+      "Recording Test Scripts (HTTP(S) Test Script Recorder)",
+      "Proxy Server Recording",
+      "BeanShell/Groovy Scripting",
+      "JSR223 Sampler/PreProcessor/PostProcessor",
+      "Assertions for Performance SLAs",
+      "Ramp-Up Period",
+      "Think Time",
+      "Correlation of Session Tokens",
+      "CI/CD Integration (Jenkins Performance Plugin)"
+    ],
+    "roles": [
+      {
+        "role": "Performance Test Engineer",
+        "importance": 0.9812,
+        "concepts": [
+          "Test Plan",
+          "Thread Groups",
+          "Samplers (HTTP Request/JDBC Request/FTP Request)",
+          "Listeners",
+          "Assertions (Response Assertion/Duration Assertion/JSON Assertion)",
+          "Correlation (Extracting Dynamic Values)",
+          "Load Testing",
+          "Stress Testing",
+          "Distributed Testing (Master-Slave)",
+          "Non-GUI Mode (CLI Execution)",
+          "Reporting (HTML Dashboard Report)"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.6234,
+        "concepts": [
+          "Test Plan",
+          "Thread Groups",
+          "Samplers (HTTP Request/JDBC Request/FTP Request)",
+          "Assertions (Response Assertion/Duration Assertion/JSON Assertion)",
+          "Recording Test Scripts (HTTP(S) Test Script Recorder)"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.6912,
+        "concepts": [
+          "JSR223 Sampler/PreProcessor/PostProcessor",
+          "BeanShell/Groovy Scripting",
+          "Correlation (Extracting Dynamic Values)",
+          "CI/CD Integration (Jenkins Performance Plugin)",
+          "Backend Listener (InfluxDB/Grafana Integration)"
+        ]
+      },
+      {
+        "role": "DevOps / SRE Engineer",
+        "importance": 0.5623,
+        "concepts": [
+          "Load Testing",
+          "Non-GUI Mode (CLI Execution)",
+          "Distributed Testing (Master-Slave)",
+          "Backend Listener (InfluxDB/Grafana Integration)",
+          "CI/CD Integration (Jenkins Performance Plugin)"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.3823,
+        "concepts": [
+          "Samplers (HTTP Request/JDBC Request/FTP Request)",
+          "Assertions (Response Assertion/Duration Assertion/JSON Assertion)",
+          "REST API Load Testing"
+        ]
+      },
+      {
+        "role": "Solutions Architect",
+        "importance": 0.4523,
+        "concepts": [
+          "Load Testing",
+          "Distributed Testing (Master-Slave)",
+          "Performance SLAs",
+          "Ramp-Up Period"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "HTTP Basics",
+      "REST APIs Concept",
+      "SQL Basics (for JDBC testing)",
+      "Performance Testing Concepts",
+      "Basic Scripting (Groovy/BeanShell)",
+      "Java Basics (JMeter runs on JVM)",
+      "Networking Basics",
+      "Command Line Interface",
+      "Git",
+      "Load Testing Terminology (Throughput/Latency/Concurrency)"
+    ]
+  },
+  {
+    "id": 42,
+    "gid": 137,
+    "name": "Docker",
+    "entity_type": "Container Technology",
+    "entity_subtype": "Container Runtime and Image Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Containerization",
+      "specialization": "Application Containerization"
+    },
+    "aliases": [
+      "Docker",
+      "Docker Engine",
+      "Docker CE",
+      "Docker Desktop",
+      "Dockerd"
+    ],
+    "concepts": [
+      "Containers vs Virtual Machines",
+      "Docker Images",
+      "Dockerfile",
+      "Docker Layers and Caching",
+      "Docker Compose",
+      "Multi-Stage Builds",
+      "Docker Hub / Container Registries",
+      "Volumes",
+      "Bind Mounts",
+      "Docker Networking (Bridge, Host, Overlay)",
+      "Container Lifecycle",
+      "Docker Build Context",
+      "Base Images",
+      "Image Tagging",
+      "docker-compose.yml",
+      "Environment Variables in Containers",
+      "Health Checks",
+      "Docker CLI",
+      "Docker Swarm",
+      "Resource Limits (CPU/Memory)",
+      "Container Isolation (Namespaces, cgroups)",
+      "Entrypoint vs CMD",
+      "Image Vulnerability Scanning",
+      "Docker Buildx",
+      "OCI (Open Container Initiative) Standard"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.9612,
+        "concepts": [
+          "Dockerfile",
+          "Docker Compose",
+          "Multi-Stage Builds",
+          "Docker Networking (Bridge, Host, Overlay)",
+          "Docker Hub / Container Registries",
+          "docker-compose.yml"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.7823,
+        "concepts": [
+          "Dockerfile",
+          "Docker Compose",
+          "Volumes",
+          "Environment Variables in Containers",
+          "Docker CLI"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer (SRE)",
+        "importance": 0.8523,
+        "concepts": [
+          "Container Isolation (Namespaces, cgroups)",
+          "Resource Limits (CPU/Memory)",
+          "Health Checks",
+          "Docker Networking (Bridge, Host, Overlay)"
+        ]
+      },
+      {
+        "role": "Cloud/Infrastructure Engineer",
+        "importance": 0.8623,
+        "concepts": [
+          "Docker Images",
+          "Docker Hub / Container Registries",
+          "Image Tagging",
+          "Docker Swarm"
+        ]
+      },
+      {
+        "role": "Security Engineer",
+        "importance": 0.5923,
+        "concepts": [
+          "Image Vulnerability Scanning",
+          "Container Isolation (Namespaces, cgroups)",
+          "OCI (Open Container Initiative) Standard"
+        ]
+      },
+      {
+        "role": "MLOps Engineer",
+        "importance": 0.7423,
+        "concepts": [
+          "Dockerfile",
+          "Docker Compose",
+          "Base Images",
+          "Multi-Stage Builds"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Linux Basics",
+      "Command Line Interface (CLI)",
+      "Operating System Fundamentals",
+      "Networking Basics (TCP/IP, DNS)"
+    ]
+  },
+  {
+    "id": 43,
+    "gid": 138,
+    "name": "Kubernetes",
+    "entity_type": "Container Technology",
+    "entity_subtype": "Container Orchestration Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Container Orchestration",
+      "specialization": "Cloud-Native Infrastructure"
+    },
+    "aliases": [
+      "Kubernetes",
+      "K8s",
+      "K8",
+      "Kube"
+    ],
+    "concepts": [
+      "Pods",
+      "Deployments",
+      "ReplicaSets",
+      "Services",
+      "Ingress",
+      "ConfigMaps",
+      "Secrets",
+      "Namespaces",
+      "StatefulSets",
+      "DaemonSets",
+      "Jobs and CronJobs",
+      "Persistent Volumes (PV)",
+      "Persistent Volume Claims (PVC)",
+      "Horizontal Pod Autoscaler (HPA)",
+      "Vertical Pod Autoscaler (VPA)",
+      "Cluster Architecture (Control Plane, Nodes)",
+      "kubelet",
+      "kube-apiserver",
+      "etcd",
+      "kube-scheduler",
+      "kube-controller-manager",
+      "kubectl CLI",
+      "Helm Charts",
+      "RBAC (Role-Based Access Control)",
+      "Network Policies",
+      "Service Mesh (Istio, Linkerd)",
+      "CustomResourceDefinitions (CRDs)",
+      "Operators",
+      "Rolling Updates and Rollbacks",
+      "Liveness and Readiness Probes",
+      "Taints and Tolerations",
+      "Node Affinity/Anti-Affinity",
+      "Resource Requests and Limits",
+      "kubeconfig"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.9723,
+        "concepts": [
+          "Pods",
+          "Deployments",
+          "Services",
+          "Ingress",
+          "ConfigMaps",
+          "Secrets",
+          "Helm Charts",
+          "kubectl CLI",
+          "Rolling Updates and Rollbacks"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer (SRE)",
+        "importance": 0.9412,
+        "concepts": [
+          "Horizontal Pod Autoscaler (HPA)",
+          "Liveness and Readiness Probes",
+          "Cluster Architecture (Control Plane, Nodes)",
+          "Resource Requests and Limits",
+          "Network Policies"
+        ]
+      },
+      {
+        "role": "Cloud/Infrastructure Engineer",
+        "importance": 0.9123,
+        "concepts": [
+          "Cluster Architecture (Control Plane, Nodes)",
+          "Namespaces",
+          "Persistent Volumes (PV)",
+          "RBAC (Role-Based Access Control)",
+          "Node Affinity/Anti-Affinity"
+        ]
+      },
+      {
+        "role": "Platform Engineer",
+        "importance": 0.9012,
+        "concepts": [
+          "CustomResourceDefinitions (CRDs)",
+          "Operators",
+          "Service Mesh (Istio, Linkerd)",
+          "Helm Charts",
+          "RBAC (Role-Based Access Control)"
+        ]
+      },
+      {
+        "role": "MLOps Engineer",
+        "importance": 0.7523,
+        "concepts": [
+          "Jobs and CronJobs",
+          "StatefulSets",
+          "Persistent Volume Claims (PVC)",
+          "Resource Requests and Limits"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.5823,
+        "concepts": [
+          "Pods",
+          "Deployments",
+          "Services",
+          "ConfigMaps"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Docker",
+      "Linux Basics",
+      "Networking Basics (TCP/IP, DNS)",
+      "YAML",
+      "Distributed Systems Basics"
+    ]
+  },
+  {
+    "id": 44,
+    "gid": 139,
+    "name": "Terraform",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Infrastructure as Code Provisioning Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Infrastructure as Code",
+      "specialization": "Multi-Cloud Infrastructure Provisioning"
+    },
+    "aliases": [
+      "Terraform",
+      "HashiCorp Terraform",
+      "TF"
+    ],
+    "concepts": [
+      "HCL (HashiCorp Configuration Language)",
+      "Providers",
+      "Resources",
+      "Data Sources",
+      "State Files",
+      "Remote State (S3, Terraform Cloud)",
+      "State Locking",
+      "Modules",
+      "Variables and Outputs",
+      "terraform plan",
+      "terraform apply",
+      "terraform destroy",
+      "Workspaces",
+      "Provisioners",
+      "Import (terraform import)",
+      "Drift Detection",
+      "Terraform Registry",
+      "Dependency Graph",
+      "terraform init",
+      "Backend Configuration"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.9412,
+        "concepts": [
+          "HCL (HashiCorp Configuration Language)",
+          "Providers",
+          "Resources",
+          "State Files",
+          "Modules",
+          "terraform plan",
+          "terraform apply"
+        ]
+      },
+      {
+        "role": "Cloud/Infrastructure Engineer",
+        "importance": 0.9523,
+        "concepts": [
+          "Providers",
+          "Remote State (S3, Terraform Cloud)",
+          "State Locking",
+          "Modules",
+          "Workspaces",
+          "Dependency Graph"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer (SRE)",
+        "importance": 0.8123,
+        "concepts": [
+          "Drift Detection",
+          "State Files",
+          "terraform plan",
+          "Backend Configuration"
+        ]
+      },
+      {
+        "role": "Cloud Solutions Architect",
+        "importance": 0.7823,
+        "concepts": [
+          "Modules",
+          "Providers",
+          "Terraform Registry",
+          "Dependency Graph"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Cloud Computing Fundamentals",
+      "Infrastructure as Code Concepts",
+      "YAML/JSON Basics",
+      "Command Line Interface (CLI)"
+    ]
+  },
+  {
+    "id": 45,
+    "gid": 140,
+    "name": "Jenkins",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Continuous Integration/Continuous Delivery Automation Server",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "CI/CD Tools",
+      "specialization": "Build and Deployment Automation"
+    },
+    "aliases": [
+      "Jenkins",
+      "Jenkins CI",
+      "Jenkins Automation Server"
+    ],
+    "concepts": [
+      "Jenkinsfile",
+      "Declarative Pipeline",
+      "Scripted Pipeline",
+      "Jobs and Builds",
+      "Plugins",
+      "Agents/Nodes (Master-Agent Architecture)",
+      "Build Triggers",
+      "Webhooks",
+      "Pipeline Stages",
+      "Blue Ocean UI",
+      "Credentials Management",
+      "Distributed Builds",
+      "Artifact Archiving",
+      "Groovy Scripting (Jenkins)",
+      "Shared Libraries",
+      "Multibranch Pipelines"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.8923,
+        "concepts": [
+          "Jenkinsfile",
+          "Declarative Pipeline",
+          "Build Triggers",
+          "Pipeline Stages",
+          "Agents/Nodes (Master-Agent Architecture)",
+          "Credentials Management"
+        ]
+      },
+      {
+        "role": "CI/CD Engineer",
+        "importance": 0.9123,
+        "concepts": [
+          "Jenkinsfile",
+          "Declarative Pipeline",
+          "Scripted Pipeline",
+          "Multibranch Pipelines",
+          "Shared Libraries",
+          "Distributed Builds"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer (SRE)",
+        "importance": 0.6423,
+        "concepts": [
+          "Build Triggers",
+          "Agents/Nodes (Master-Agent Architecture)",
+          "Artifact Archiving"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Version Control with Git",
+      "CI/CD Concepts",
+      "Command Line Interface (CLI)",
+      "Groovy Basics (Recommended)"
+    ]
+  },
+  {
+    "id": 46,
+    "gid": 141,
+    "name": "Ansible",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Agentless Configuration Management and Automation Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Configuration Management",
+      "specialization": "IT Automation"
+    },
+    "aliases": [
+      "Ansible",
+      "Red Hat Ansible",
+      "Ansible Automation Platform"
+    ],
+    "concepts": [
+      "Playbooks",
+      "Roles",
+      "Inventory Files",
+      "Modules (Ansible)",
+      "Tasks",
+      "Handlers",
+      "Variables (Ansible)",
+      "Jinja2 Templating",
+      "Idempotency",
+      "Ansible Vault",
+      "Ansible Galaxy",
+      "Ad-Hoc Commands",
+      "SSH-Based Agentless Architecture",
+      "Facts Gathering",
+      "Tags (Ansible)",
+      "Ansible Tower/AWX"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.8823,
+        "concepts": [
+          "Playbooks",
+          "Roles",
+          "Inventory Files",
+          "Modules (Ansible)",
+          "Idempotency",
+          "Ansible Vault"
+        ]
+      },
+      {
+        "role": "System Administrator",
+        "importance": 0.8523,
+        "concepts": [
+          "Playbooks",
+          "Ad-Hoc Commands",
+          "Inventory Files",
+          "SSH-Based Agentless Architecture"
+        ]
+      },
+      {
+        "role": "Cloud/Infrastructure Engineer",
+        "importance": 0.7423,
+        "concepts": [
+          "Roles",
+          "Ansible Galaxy",
+          "Jinja2 Templating",
+          "Facts Gathering"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "YAML",
+      "Linux Basics",
+      "SSH",
+      "Command Line Interface (CLI)"
+    ]
+  },
+  {
+    "id": 47,
+    "gid": 142,
+    "name": "Nginx",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Web Server, Reverse Proxy, and Load Balancer",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Web Servers",
+      "specialization": "Web Serving / Reverse Proxy / Load Balancing"
+    },
+    "aliases": [
+      "Nginx",
+      "NGINX",
+      "Nginx Web Server",
+      "Engine X"
+    ],
+    "concepts": [
+      "Reverse Proxy",
+      "Load Balancing (Round Robin, Least Connections)",
+      "Static File Serving",
+      "Server Blocks (Virtual Hosts)",
+      "Location Blocks",
+      "SSL/TLS Termination",
+      "Caching (Nginx)",
+      "Rate Limiting",
+      "gzip Compression",
+      "Upstream Servers",
+      "nginx.conf Configuration",
+      "WebSocket Proxying",
+      "HTTP/2 Support",
+      "Access and Error Logs"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.8823,
+        "concepts": [
+          "Reverse Proxy",
+          "Load Balancing (Round Robin, Least Connections)",
+          "SSL/TLS Termination",
+          "nginx.conf Configuration",
+          "Upstream Servers"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.6823,
+        "concepts": [
+          "Reverse Proxy",
+          "Server Blocks (Virtual Hosts)",
+          "Static File Serving",
+          "Location Blocks"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer (SRE)",
+        "importance": 0.8123,
+        "concepts": [
+          "Load Balancing (Round Robin, Least Connections)",
+          "Rate Limiting",
+          "Caching (Nginx)",
+          "Access and Error Logs"
+        ]
+      },
+      {
+        "role": "System Administrator",
+        "importance": 0.7423,
+        "concepts": [
+          "Server Blocks (Virtual Hosts)",
+          "nginx.conf Configuration",
+          "SSL/TLS Termination"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "HTTP",
+      "HTTPS",
+      "Linux Basics",
+      "Networking Basics (TCP/IP, DNS)"
+    ]
+  },
+  {
+    "id": 48,
+    "gid": 143,
+    "name": "HashiCorp Vault",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Secrets Management and Data Protection Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Security Tools",
+      "specialization": "Secrets Management"
+    },
+    "aliases": [
+      "Vault",
+      "HashiCorp Vault"
+    ],
+    "concepts": [
+      "Secrets Engines",
+      "Dynamic Secrets",
+      "Static Secrets",
+      "Auth Methods",
+      "Policies (Vault)",
+      "Sealing/Unsealing",
+      "Encryption as a Service (Transit Engine)",
+      "PKI Secrets Engine",
+      "Lease and Renewal",
+      "Audit Devices",
+      "Vault Agent",
+      "KV Secrets Engine"
+    ],
+    "roles": [
+      {
+        "role": "Security Engineer",
+        "importance": 0.8123,
+        "concepts": [
+          "Secrets Engines",
+          "Dynamic Secrets",
+          "Policies (Vault)",
+          "Encryption as a Service (Transit Engine)",
+          "Sealing/Unsealing"
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.7823,
+        "concepts": [
+          "Secrets Engines",
+          "Auth Methods",
+          "KV Secrets Engine",
+          "Vault Agent"
+        ]
+      },
+      {
+        "role": "Cloud/Infrastructure Engineer",
+        "importance": 0.6923,
+        "concepts": [
+          "Dynamic Secrets",
+          "PKI Secrets Engine",
+          "Lease and Renewal"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Cryptography Basics",
+      "Security Fundamentals",
+      "Command Line Interface (CLI)"
+    ]
+  },
+  {
+    "id": 49,
+    "gid": 146,
+    "name": "Webpack",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "JavaScript Module Bundler",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Build Tools",
+      "specialization": "Frontend Build Tooling"
+    },
+    "aliases": [
+      "Webpack",
+      "webpack.js"
+    ],
+    "concepts": [
+      "Entry and Output",
+      "Loaders",
+      "Plugins",
+      "Module Resolution",
+      "Code Splitting",
+      "Tree Shaking",
+      "Hot Module Replacement (HMR)",
+      "webpack.config.js",
+      "Bundle Optimization",
+      "Source Maps",
+      "Asset Modules",
+      "Dev Server",
+      "Chunking",
+      "Lazy Loading"
+    ],
+    "roles": [
+      {
+        "role": "Frontend Developer",
+        "importance": 0.7423,
+        "concepts": [
+          "Entry and Output",
+          "Loaders",
+          "Plugins",
+          "Code Splitting",
+          "Hot Module Replacement (HMR)"
+        ]
+      },
+      {
+        "role": "Frontend Architect",
+        "importance": 0.6923,
+        "concepts": [
+          "Tree Shaking",
+          "Bundle Optimization",
+          "Code Splitting",
+          "Chunking"
+        ]
+      },
+      {
+        "role": "Full Stack Developer",
+        "importance": 0.5823,
+        "concepts": [
+          "Entry and Output",
+          "webpack.config.js",
+          "Dev Server"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "Node.js",
+      "npm",
+      "ES Modules"
+    ]
+  },
+  {
+    "id": 50,
+    "gid": 147,
+    "name": "Vite",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Frontend Build Tool and Development Server",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Build Tools",
+      "specialization": "Frontend Build Tooling"
+    },
+    "aliases": [
+      "Vite",
+      "Vite.js",
+      "ViteJS"
+    ],
+    "concepts": [
+      "Native ES Modules (Dev Server)",
+      "Rollup (Production Bundling)",
+      "Hot Module Replacement (HMR)",
+      "vite.config.js",
+      "Plugins (Vite)",
+      "Pre-Bundling (esbuild)",
+      "Fast Cold Start",
+      "Framework Templates (React, Vue, Svelte)",
+      "Build Optimization"
+    ],
+    "roles": [
+      {
+        "role": "Frontend Developer",
+        "importance": 0.7823,
+        "concepts": [
+          "Native ES Modules (Dev Server)",
+          "Hot Module Replacement (HMR)",
+          "vite.config.js",
+          "Fast Cold Start"
+        ]
+      },
+      {
+        "role": "Full Stack Developer",
+        "importance": 0.6823,
+        "concepts": [
+          "Native ES Modules (Dev Server)",
+          "Framework Templates (React, Vue, Svelte)",
+          "Build Optimization"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "Node.js",
+      "npm",
+      "ES Modules"
+    ]
+  },
+  {
+    "id": 51,
+    "gid": 149,
+    "name": "Redux",
+    "entity_type": "Library",
+    "entity_subtype": "Predictable State Management Library",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Frontend Development",
+      "specialization": "State Management"
+    },
+    "aliases": [
+      "Redux",
+      "Redux Toolkit",
+      "RTK"
+    ],
+    "concepts": [
+      "Store",
+      "Actions",
+      "Reducers",
+      "Dispatch",
+      "Single Source of Truth",
+      "Immutability",
+      "Middleware (Redux)",
+      "Redux Thunk",
+      "Redux Saga",
+      "Selectors",
+      "Redux Toolkit (RTK)",
+      "createSlice",
+      "RTK Query",
+      "Connect / useSelector / useDispatch",
+      "DevTools Extension",
+      "Action Creators"
+    ],
+    "roles": [
+      {
+        "role": "Frontend Developer",
+        "importance": 0.7423,
+        "concepts": [
+          "Store",
+          "Actions",
+          "Reducers",
+          "Dispatch",
+          "Redux Toolkit (RTK)",
+          "Connect / useSelector / useDispatch"
+        ]
+      },
+      {
+        "role": "React Developer",
+        "importance": 0.7823,
+        "concepts": [
+          "Store",
+          "createSlice",
+          "RTK Query",
+          "Selectors",
+          "Connect / useSelector / useDispatch"
+        ]
+      },
+      {
+        "role": "Frontend Architect",
+        "importance": 0.6823,
+        "concepts": [
+          "Single Source of Truth",
+          "Middleware (Redux)",
+          "Redux Saga",
+          "Immutability"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "React",
+      "Functional Programming Concepts (Basic)"
+    ]
+  },
+  {
+    "id": 52,
+    "gid": 154,
+    "name": "DVC",
+    "entity_type": "ML Framework",
+    "entity_subtype": "Data and ML Pipeline Version Control Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "MLOps",
+      "sub_category": "ML Pipeline Tools",
+      "specialization": "Data Version Control"
+    },
+    "aliases": [
+      "DVC",
+      "Data Version Control"
+    ],
+    "concepts": [
+      "Data Versioning",
+      "Pipeline Stages (dvc.yaml)",
+      "Remote Storage Backends (S3, GCS, Azure)",
+      "Reproducible Pipelines",
+      "Experiment Tracking (DVC)",
+      "Data Registries",
+      "Metrics Tracking",
+      "Cache Management",
+      "Git Integration",
+      "DVC Studio"
+    ],
+    "roles": [
+      {
+        "role": "MLOps Engineer",
+        "importance": 0.7823,
+        "concepts": [
+          "Data Versioning",
+          "Pipeline Stages (dvc.yaml)",
+          "Remote Storage Backends (S3, GCS, Azure)",
+          "Reproducible Pipelines"
+        ]
+      },
+      {
+        "role": "Machine Learning Engineer",
+        "importance": 0.6923,
+        "concepts": [
+          "Data Versioning",
+          "Experiment Tracking (DVC)",
+          "Metrics Tracking"
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "importance": 0.5823,
+        "concepts": [
+          "Data Registries",
+          "Remote Storage Backends (S3, GCS, Azure)",
+          "Cache Management"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Git",
+      "Machine Learning Fundamentals",
+      "Command Line Interface (CLI)",
+      "Python Basics"
+    ]
+  },
+  {
+    "id": 53,
+    "gid": 155,
+    "name": "Weights & Biases",
+    "entity_type": "ML Framework",
+    "entity_subtype": "Experiment Tracking and Model Management Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "MLOps",
+      "sub_category": "Experiment Tracking Tools",
+      "specialization": "ML Experiment Management"
+    },
+    "aliases": [
+      "Weights & Biases",
+      "W&B",
+      "WandB"
+    ],
+    "concepts": [
+      "Experiment Tracking",
+      "Run Logging",
+      "Hyperparameter Sweeps",
+      "Model Versioning (W&B Artifacts)",
+      "Dashboards and Visualization",
+      "Team Collaboration",
+      "Integration with PyTorch/TensorFlow",
+      "Reports (W&B)",
+      "Model Registry (W&B)"
+    ],
+    "roles": [
+      {
+        "role": "Machine Learning Engineer",
+        "importance": 0.7823,
+        "concepts": [
+          "Experiment Tracking",
+          "Run Logging",
+          "Hyperparameter Sweeps",
+          "Integration with PyTorch/TensorFlow"
+        ]
+      },
+      {
+        "role": "MLOps Engineer",
+        "importance": 0.7423,
+        "concepts": [
+          "Model Versioning (W&B Artifacts)",
+          "Model Registry (W&B)",
+          "Dashboards and Visualization"
+        ]
+      },
+      {
+        "role": "Data Scientist",
+        "importance": 0.6823,
+        "concepts": [
+          "Experiment Tracking",
+          "Dashboards and Visualization",
+          "Reports (W&B)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Python Basics",
+      "Machine Learning Fundamentals",
+      "Deep Learning Basics (Recommended)"
+    ]
+  },
+  {
+    "id": 54,
+    "gid": 156,
+    "name": "TensorBoard",
+    "entity_type": "ML Framework",
+    "entity_subtype": "ML Experiment Visualization Toolkit",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "MLOps",
+      "sub_category": "Experiment Tracking Tools",
+      "specialization": "Training Visualization"
+    },
+    "aliases": [
+      "TensorBoard"
+    ],
+    "concepts": [
+      "Scalar Metrics Logging",
+      "Graph Visualization",
+      "Histogram Dashboard",
+      "Embedding Projector",
+      "Profiler (TensorBoard)",
+      "Hyperparameter Tuning Visualization",
+      "Integration with TensorFlow/PyTorch"
+    ],
+    "roles": [
+      {
+        "role": "Machine Learning Engineer",
+        "importance": 0.6523,
+        "concepts": [
+          "Scalar Metrics Logging",
+          "Graph Visualization",
+          "Integration with TensorFlow/PyTorch"
+        ]
+      },
+      {
+        "role": "Data Scientist",
+        "importance": 0.5823,
+        "concepts": [
+          "Scalar Metrics Logging",
+          "Histogram Dashboard"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Python Basics",
+      "TensorFlow or PyTorch Basics",
+      "Machine Learning Fundamentals"
+    ]
+  },
+  {
+    "id": 55,
+    "gid": 157,
+    "name": "BentoML",
+    "entity_type": "ML Framework",
+    "entity_subtype": "Model Serving and Deployment Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "MLOps",
+      "sub_category": "Model Serving Tools",
+      "specialization": "ML Model Deployment"
+    },
+    "aliases": [
+      "BentoML"
+    ],
+    "concepts": [
+      "Bento (Deployable Artifact)",
+      "Model Packaging",
+      "Service Definitions (BentoML)",
+      "API Serving",
+      "Adaptive Batching",
+      "Model Runners",
+      "Containerization Integration (Docker)",
+      "Multi-Framework Support"
+    ],
+    "roles": [
+      {
+        "role": "MLOps Engineer",
+        "importance": 0.6823,
+        "concepts": [
+          "Bento (Deployable Artifact)",
+          "Model Packaging",
+          "Containerization Integration (Docker)",
+          "API Serving"
+        ]
+      },
+      {
+        "role": "Machine Learning Engineer",
+        "importance": 0.6123,
+        "concepts": [
+          "Service Definitions (BentoML)",
+          "Model Runners",
+          "Adaptive Batching"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Python Basics",
+      "Machine Learning Fundamentals",
+      "Docker",
+      "REST API Basics"
+    ]
+  },
+  {
+    "id": 56,
+    "gid": 160,
+    "name": "NumPy",
+    "entity_type": "Library",
+    "entity_subtype": "Numerical Computing Library for Python",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Data Science Libraries",
+      "specialization": "Numerical Computing"
+    },
+    "aliases": [
+      "NumPy",
+      "Numpy",
+      "Numerical Python"
+    ],
+    "concepts": [
+      "ndarray (N-Dimensional Array)",
+      "Array Broadcasting",
+      "Vectorized Operations",
+      "Array Indexing and Slicing",
+      "Array Reshaping",
+      "Linear Algebra Operations",
+      "Random Number Generation",
+      "Universal Functions (ufuncs)",
+      "Aggregation Functions",
+      "Masking and Boolean Indexing",
+      "Array Concatenation and Stacking",
+      "Memory Layout (C-order, Fortran-order)",
+      "dtype (Data Types)"
+    ],
+    "roles": [
+      {
+        "role": "Data Scientist",
+        "importance": 0.9012,
+        "concepts": [
+          "ndarray (N-Dimensional Array)",
+          "Array Broadcasting",
+          "Vectorized Operations",
+          "Aggregation Functions",
+          "Linear Algebra Operations"
+        ]
+      },
+      {
+        "role": "Machine Learning Engineer",
+        "importance": 0.8523,
+        "concepts": [
+          "ndarray (N-Dimensional Array)",
+          "Array Broadcasting",
+          "Vectorized Operations",
+          "Array Indexing and Slicing"
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "importance": 0.6923,
+        "concepts": [
+          "ndarray (N-Dimensional Array)",
+          "Array Reshaping",
+          "dtype (Data Types)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Python",
+      "Basic Math for Programming",
+      "Linear Algebra Basics"
+    ]
+  },
+  {
+    "id": 57,
+    "gid": 161,
+    "name": "Pandas",
+    "entity_type": "Library",
+    "entity_subtype": "Data Manipulation and Analysis Library for Python",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Data Science Libraries",
+      "specialization": "Data Manipulation"
+    },
+    "aliases": [
+      "Pandas",
+      "Pandas Library"
+    ],
+    "concepts": [
+      "DataFrame",
+      "Series",
+      "Indexing (loc, iloc)",
+      "Data Cleaning",
+      "Missing Data Handling (NaN)",
+      "GroupBy Operations",
+      "Merging and Joining",
+      "Pivot Tables",
+      "Data Filtering",
+      "Apply and Map Functions",
+      "Reading/Writing CSV, Excel, JSON",
+      "Time Series Handling",
+      "MultiIndex",
+      "Data Aggregation",
+      "Vectorized String Operations"
+    ],
+    "roles": [
+      {
+        "role": "Data Scientist",
+        "importance": 0.9312,
+        "concepts": [
+          "DataFrame",
+          "GroupBy Operations",
+          "Data Cleaning",
+          "Missing Data Handling (NaN)",
+          "Merging and Joining",
+          "Pivot Tables"
+        ]
+      },
+      {
+        "role": "Data Analyst",
+        "importance": 0.9012,
+        "concepts": [
+          "DataFrame",
+          "GroupBy Operations",
+          "Pivot Tables",
+          "Reading/Writing CSV, Excel, JSON",
+          "Data Filtering"
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "importance": 0.8123,
+        "concepts": [
+          "DataFrame",
+          "Merging and Joining",
+          "Data Cleaning",
+          "Reading/Writing CSV, Excel, JSON"
+        ]
+      },
+      {
+        "role": "Machine Learning Engineer",
+        "importance": 0.7623,
+        "concepts": [
+          "DataFrame",
+          "Data Cleaning",
+          "Apply and Map Functions",
+          "Missing Data Handling (NaN)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Python",
+      "NumPy",
+      "Basic Data Structures",
+      "SQL Basics (Recommended)"
+    ]
+  },
+  {
+    "id": 58,
+    "gid": 162,
+    "name": "OpenCV",
+    "entity_type": "Library",
+    "entity_subtype": "Computer Vision Library",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Computer Vision Libraries",
+      "specialization": "Image and Video Processing"
+    },
+    "aliases": [
+      "OpenCV",
+      "Open Source Computer Vision Library",
+      "cv2"
+    ],
+    "concepts": [
+      "Image Reading/Writing",
+      "Color Space Conversion",
+      "Image Filtering (Blur, Sharpen)",
+      "Edge Detection (Canny)",
+      "Contour Detection",
+      "Feature Detection (SIFT, ORB)",
+      "Object Detection (Haar Cascades)",
+      "Video Capture and Processing",
+      "Image Thresholding",
+      "Morphological Operations",
+      "Template Matching",
+      "Camera Calibration",
+      "Optical Flow",
+      "Face Detection",
+      "Image Segmentation"
+    ],
+    "roles": [
+      {
+        "role": "Computer Vision Engineer",
+        "importance": 0.9123,
+        "concepts": [
+          "Image Filtering (Blur, Sharpen)",
+          "Edge Detection (Canny)",
+          "Feature Detection (SIFT, ORB)",
+          "Object Detection (Haar Cascades)",
+          "Image Segmentation",
+          "Camera Calibration"
+        ]
+      },
+      {
+        "role": "Machine Learning Engineer",
+        "importance": 0.6423,
+        "concepts": [
+          "Image Reading/Writing",
+          "Color Space Conversion",
+          "Image Thresholding"
+        ]
+      },
+      {
+        "role": "Robotics Engineer",
+        "importance": 0.6923,
+        "concepts": [
+          "Optical Flow",
+          "Camera Calibration",
+          "Feature Detection (SIFT, ORB)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Python or C++ Basics",
+      "Linear Algebra",
+      "Image Processing Fundamentals"
+    ]
+  },
+  {
+    "id": 59,
+    "gid": 164,
+    "name": "Jupyter Notebook",
+    "entity_type": "Platform",
+    "entity_subtype": "Interactive Computing Environment",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Artificial Intelligence",
+      "sub_category": "Data Science Tools",
+      "specialization": "Interactive Development Environments"
+    },
+    "aliases": [
+      "Jupyter Notebook",
+      "Jupyter",
+      "JupyterLab",
+      "IPython Notebook"
+    ],
+    "concepts": [
+      "Cells (Code, Markdown)",
+      "Kernel",
+      "Interactive Execution",
+      "Magic Commands",
+      "Notebook Extensions",
+      "Data Visualization in Notebooks",
+      "JupyterLab Interface",
+      "Notebook Sharing (.ipynb)",
+      "Widgets (ipywidgets)",
+      "Remote/Cloud Notebooks (Colab, SageMaker)"
+    ],
+    "roles": [
+      {
+        "role": "Data Scientist",
+        "importance": 0.9012,
+        "concepts": [
+          "Cells (Code, Markdown)",
+          "Kernel",
+          "Interactive Execution",
+          "Data Visualization in Notebooks",
+          "Magic Commands"
+        ]
+      },
+      {
+        "role": "Machine Learning Engineer",
+        "importance": 0.7423,
+        "concepts": [
+          "Cells (Code, Markdown)",
+          "Interactive Execution",
+          "Remote/Cloud Notebooks (Colab, SageMaker)"
+        ]
+      },
+      {
+        "role": "Data Analyst",
+        "importance": 0.7823,
+        "concepts": [
+          "Cells (Code, Markdown)",
+          "Data Visualization in Notebooks",
+          "Notebook Sharing (.ipynb)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Python",
+      "Basic Computer Literacy"
+    ]
+  },
+  {
+    "id": 60,
+    "gid": 195,
+    "name": "API Gateway",
+    "entity_type": "System Component",
+    "entity_subtype": "API Traffic Management Subsystem",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Microservices Infrastructure",
+      "specialization": "API Management Components"
+    },
+    "aliases": [
+      "API Gateway"
+    ],
+    "concepts": [
+      "Request Routing",
+      "Rate Limiting",
+      "Authentication Enforcement",
+      "Request/Response Transformation",
+      "API Composition",
+      "Throttling"
+    ],
+    "roles": [
+      {
+        "role": "Backend Developer",
+        "importance": 0.734,
+        "concepts": [
+          "Request Routing",
+          "Rate Limiting",
+          "Authentication Enforcement"
+        ]
+      },
+      {
+        "role": "Software Architect",
+        "importance": 0.789,
+        "concepts": [
+          "API Composition",
+          "Throttling"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "REST APIs",
+      "Microservices Architecture"
+    ]
+  },
+  {
+    "id": 61,
+    "gid": 200,
+    "name": "Load Testing Simulation (k6)",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Load and Performance Testing Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Performance Testing",
+      "specialization": "Load Simulation Tools"
+    },
+    "aliases": [
+      "k6",
+      "Grafana k6",
+      "Load Testing Tool"
+    ],
+    "concepts": [
+      "Virtual Users",
+      "Load Scripts",
+      "Ramp-Up/Ramp-Down",
+      "Thresholds",
+      "Performance Baselines"
+    ],
+    "roles": [
+      {
+        "role": "QA Engineer",
+        "importance": 0.656,
+        "concepts": [
+          "Virtual Users",
+          "Load Scripts",
+          "Thresholds"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.612,
+        "concepts": [
+          "Performance Baselines",
+          "Ramp-Up/Ramp-Down"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "HTTP",
+      "Performance Testing Basics"
+    ]
+  },
+  {
+    "id": 62,
+    "gid": 208,
+    "name": "GitHub",
+    "entity_type": "Platform",
+    "entity_subtype": "Git Hosting and Collaboration Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Developer Tools",
+      "specialization": "Source Code Hosting Platforms"
+    },
+    "aliases": [
+      "GitHub",
+      "Github",
+      "github.com"
+    ],
+    "concepts": [
+      "Repository Hosting",
+      "Pull Request",
+      "Issues",
+      "GitHub Actions",
+      "Branch Protection Rules",
+      "Fork",
+      "Organizations",
+      "Webhooks"
+    ],
+    "roles": [
+      {
+        "role": "Software Engineer",
+        "importance": 0.9345,
+        "concepts": [
+          "Pull Request",
+          "Repository Hosting",
+          "Fork",
+          "Branch Protection Rules"
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.856,
+        "concepts": [
+          "GitHub Actions",
+          "Webhooks"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Git",
+      "Command Line Interface"
+    ]
+  },
+  {
+    "id": 63,
+    "gid": 209,
+    "name": "Git",
+    "entity_type": "Version Control System",
+    "entity_subtype": "Distributed Version Control System",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Developer Tools",
+      "specialization": "Version Control Systems"
+    },
+    "aliases": [
+      "Git",
+      "GIT"
+    ],
+    "concepts": [
+      "Repository",
+      "Commit",
+      "Branch",
+      "Merge",
+      "Rebase",
+      "Pull Request",
+      "Remote",
+      "Clone",
+      "Stash",
+      "Diff"
+    ],
+    "roles": [
+      {
+        "role": "Software Engineer",
+        "importance": 0.9812,
+        "concepts": [
+          "Repository",
+          "Commit",
+          "Branch",
+          "Merge",
+          "Pull Request"
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.9012,
+        "concepts": [
+          "Hooks",
+          "Tag",
+          "Rebase"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Command Line Interface",
+      "File Systems"
+    ]
+  },
+  {
+    "id": 64,
+    "gid": 210,
+    "name": "npm",
+    "entity_type": "Package Manager",
+    "entity_subtype": "JavaScript/Node.js Package Manager",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Package Managers",
+      "specialization": "JavaScript Ecosystem Tools"
+    },
+    "aliases": [
+      "npm",
+      "Node Package Manager"
+    ],
+    "concepts": [
+      "package.json",
+      "node_modules",
+      "Dependencies",
+      "Scripts",
+      "npm install",
+      "Semantic Versioning"
+    ],
+    "roles": [
+      {
+        "role": "Frontend Developer",
+        "importance": 0.9345,
+        "concepts": [
+          "package.json",
+          "Dependencies",
+          "npm install"
+        ]
+      },
+      {
+        "role": "Node.js Developer",
+        "importance": 0.9456,
+        "concepts": [
+          "package.json",
+          "Scripts",
+          "Semantic Versioning"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript Fundamentals",
+      "Node.js Basics"
+    ]
+  },
+  {
+    "id": 65,
+    "gid": 211,
+    "name": "Docker Compose",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Multi-Container Orchestration Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Containerization",
+      "specialization": "Local Container Orchestration"
+    },
+    "aliases": [
+      "Docker Compose",
+      "docker-compose"
+    ],
+    "concepts": [
+      "docker-compose.yml",
+      "Services",
+      "Networks",
+      "Volumes",
+      "Multi-Container Applications",
+      "Environment Variables"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.834,
+        "concepts": [
+          "docker-compose.yml",
+          "Services",
+          "Networks"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.756,
+        "concepts": [
+          "docker-compose.yml",
+          "Multi-Container Applications"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Docker",
+      "YAML"
+    ]
+  },
+  {
+    "id": 66,
+    "gid": 215,
+    "name": "Postman",
+    "entity_type": "Platform",
+    "entity_subtype": "API Development and Testing Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "API Tools",
+      "specialization": "API Testing and Documentation"
+    },
+    "aliases": [
+      "Postman"
+    ],
+    "concepts": [
+      "Collections",
+      "Requests",
+      "Environments",
+      "Pre-request Scripts",
+      "Test Scripts",
+      "Mock Servers",
+      "Newman (CLI)"
+    ],
+    "roles": [
+      {
+        "role": "Backend Developer",
+        "importance": 0.834,
+        "concepts": [
+          "Collections",
+          "Requests",
+          "Environments"
+        ]
+      },
+      {
+        "role": "QA Engineer",
+        "importance": 0.879,
+        "concepts": [
+          "Test Scripts",
+          "Newman (CLI)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "HTTP",
+      "REST APIs",
+      "JSON"
+    ]
+  },
+  {
+    "id": 67,
+    "gid": 219,
+    "name": "Keycloak",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Identity and Access Management Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Identity Management",
+      "specialization": "IAM Platforms"
+    },
+    "aliases": [
+      "Keycloak"
+    ],
+    "concepts": [
+      "Realms",
+      "Clients",
+      "Identity Brokering",
+      "Single Sign-On",
+      "Role Mapping",
+      "OAuth2/OIDC Support"
+    ],
+    "roles": [
+      {
+        "role": "Security Engineer",
+        "importance": 0.701,
+        "concepts": [
+          "Realms",
+          "Single Sign-On",
+          "OAuth2/OIDC Support"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.589,
+        "concepts": [
+          "Clients",
+          "Role Mapping"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "OAuth 2.0",
+      "OpenID Connect",
+      "Identity and Access Management"
+    ]
+  },
+  {
+    "id": 68,
+    "gid": 221,
+    "name": "Databricks",
+    "entity_type": "Platform",
+    "entity_subtype": "Unified Data and AI Platform",
+    "hierarchy": {
+      "domain": "Data",
+      "category": "Data Engineering",
+      "sub_category": "Data Platforms",
+      "specialization": "Lakehouse Platforms"
+    },
+    "aliases": [
+      "Databricks"
+    ],
+    "concepts": [
+      "Lakehouse Architecture",
+      "Delta Lake",
+      "Notebooks",
+      "Spark Clusters",
+      "MLflow Integration",
+      "Unity Catalog",
+      "Workflows"
+    ],
+    "roles": [
+      {
+        "role": "Data Engineer",
+        "importance": 0.834,
+        "concepts": [
+          "Lakehouse Architecture",
+          "Delta Lake",
+          "Spark Clusters"
+        ]
+      },
+      {
+        "role": "ML Engineer",
+        "importance": 0.756,
+        "concepts": [
+          "MLflow Integration",
+          "Notebooks"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Apache Spark",
+      "SQL Basics",
+      "Cloud Computing Basics"
+    ]
+  }
+]

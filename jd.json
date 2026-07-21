@@ -1,0 +1,1003 @@
+{
+  "roles": [
+    {
+      "name": "Frontend Developer",
+      "importance_pct": 65,
+      "concepts": [
+        {
+          "concept": "React components",
+          "importance_pct": 95
+        },
+        {
+          "concept": "JavaScript TypeScript",
+          "importance_pct": 90
+        },
+        {
+          "concept": "Testing Jest RTL",
+          "importance_pct": 80
+        },
+        {
+          "concept": "CI/CD pipelines",
+          "importance_pct": 65
+        },
+        {
+          "concept": "State management",
+          "importance_pct": 60
+        }
+      ]
+    },
+    {
+      "name": "UI Developer",
+      "importance_pct": 35,
+      "concepts": [
+        {
+          "concept": "HTML CSS layouts",
+          "importance_pct": 90
+        },
+        {
+          "concept": "Web accessibility",
+          "importance_pct": 85
+        },
+        {
+          "concept": "Responsive design",
+          "importance_pct": 75
+        },
+        {
+          "concept": "Design systems",
+          "importance_pct": 60
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": 0,
+      "text": "Build and maintain React user interfaces using JavaScript/TypeScript, HTML, and CSS, following established patterns and team standards.",
+      "tier": "CRITICAL",
+      "importance_percentage": 13.0,
+      "expected_depth": "INTERMEDIATE",
+      "dominant_role": "Frontend Developer",
+      "role_attribution": {
+        "Frontend Developer": 85,
+        "UI Developer": 15
+      },
+      "sub_requirements": [
+        {
+          "sub_id": "0a",
+          "text": "Build React user interfaces",
+          "importance_percentage": 3,
+          "tools": []
+        },
+        {
+          "sub_id": "0b",
+          "text": "Maintain React user interfaces",
+          "importance_percentage": 3,
+          "tools": []
+        },
+        {
+          "sub_id": "0c",
+          "text": "JavaScript/TypeScript for React UI",
+          "importance_percentage": 3,
+          "tools": []
+        },
+        {
+          "sub_id": "0d",
+          "text": "HTML for React UI",
+          "importance_percentage": 2,
+          "tools": []
+        },
+        {
+          "sub_id": "0e",
+          "text": "CSS for React UI",
+          "importance_percentage": 2,
+          "tools": []
+        }
+      ],
+      "actions": [
+        {
+          "id": "a0-0",
+          "actions": [
+            "Build"
+          ],
+          "target": "React user interfaces"
+        },
+        {
+          "id": "a0-1",
+          "actions": [
+            "maintain"
+          ],
+          "target": "React user interfaces"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "text": "Implement assigned parts of key user journeys, focusing on correctness, performance basics, accessibility, and clean, readable code.",
+      "tier": "IMPORTANT",
+      "importance_percentage": 6.0,
+      "expected_depth": "INTERMEDIATE",
+      "dominant_role": "Frontend Developer",
+      "role_attribution": {
+        "Frontend Developer": 70,
+        "UI Developer": 30
+      },
+      "sub_requirements": [
+        {
+          "sub_id": "1a",
+          "text": "Implement key user journeys",
+          "importance_percentage": 2,
+          "tools": []
+        },
+        {
+          "sub_id": "1b",
+          "text": "Frontend performance basics",
+          "importance_percentage": 2,
+          "tools": []
+        },
+        {
+          "sub_id": "1c",
+          "text": "Frontend accessibility basics",
+          "importance_percentage": 2,
+          "tools": [
+            "ARIA",
+            "HTML5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "id": "a1-0",
+          "actions": [
+            "Implement"
+          ],
+          "target": "parts of key user journeys"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Use and contribute to existing component libraries by adding small enhancements, fixing bugs, and following design system guidelines.",
+      "tier": "IMPORTANT",
+      "importance_percentage": 6.0,
+      "expected_depth": "INTERMEDIATE",
+      "dominant_role": "UI Developer",
+      "role_attribution": {
+        "Frontend Developer": 45,
+        "UI Developer": 55
+      },
+      "sub_requirements": [
+        {
+          "sub_id": "2a",
+          "text": "Use existing component libraries",
+          "importance_percentage": 2,
+          "tools": []
+        },
+        {
+          "sub_id": "2b",
+          "text": "Contribute to component libraries",
+          "importance_percentage": 2,
+          "tools": []
+        },
+        {
+          "sub_id": "2c",
+          "text": "Follow design system guidelines",
+          "importance_percentage": 2,
+          "tools": []
+        }
+      ],
+      "actions": [
+        {
+          "id": "a2-0",
+          "actions": [
+            "Use"
+          ],
+          "target": "component libraries"
+        },
+        {
+          "id": "a2-1",
+          "actions": [
+            "contribute"
+          ],
+          "target": "component libraries"
+        },
+        {
+          "id": "a2-2",
+          "actions": [
+            "add"
+          ],
+          "target": "small enhancements"
+        },
+        {
+          "id": "a2-3",
+          "actions": [
+            "fix"
+          ],
+          "target": "bugs"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Debug and resolve straightforward issues in existing codebases (UI defects, layout problems, minor functional bugs) with support from senior engineers.",
+      "tier": "IMPORTANT",
+      "importance_percentage": 6.0,
+      "expected_depth": "INTERMEDIATE",
+      "dominant_role": "Frontend Developer",
+      "role_attribution": {
+        "Frontend Developer": 65,
+        "UI Developer": 35
+      },
+      "sub_requirements": [
+        {
+          "sub_id": "3a",
+          "text": "Debug existing codebases",
+          "importance_percentage": 2,
+          "tools": []
+        },
+        {
+          "sub_id": "3b",
+          "text": "Resolve UI defects",
+          "importance_percentage": 2,
+          "tools": []
+        },
+        {
+          "sub_id": "3c",
+          "text": "Resolve layout problems",
+          "importance_percentage": 1,
+          "tools": []
+        },
+        {
+          "sub_id": "3d",
+          "text": "Fix minor functional bugs",
+          "importance_percentage": 1,
+          "tools": []
+        }
+      ],
+      "actions": [
+        {
+          "id": "a3-0",
+          "actions": [
+            "Debug"
+          ],
+          "target": "existing codebases"
+        },
+        {
+          "id": "a3-1",
+          "actions": [
+            "resolve"
+          ],
+          "target": "issues"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Ensure responsive behaviour across common screen sizes and verify changes in agreed target browsers/devices.",
+      "tier": "IMPORTANT",
+      "importance_percentage": 5.0,
+      "expected_depth": "INTERMEDIATE",
+      "dominant_role": "UI Developer",
+      "role_attribution": {
+        "Frontend Developer": 40,
+        "UI Developer": 60
+      },
+      "sub_requirements": [
+        {
+          "sub_id": "4a",
+          "text": "Responsive behaviour across screen sizes",
+          "importance_percentage": 3,
+          "tools": []
+        },
+        {
+          "sub_id": "4b",
+          "text": "Cross-browser/device verification",
+          "importance_percentage": 2,
+          "tools": []
+        }
+      ],
+      "actions": [
+        {
+          "id": "a4-0",
+          "actions": [
+            "Ensure"
+          ],
+          "target": "responsive behaviour"
+        },
+        {
+          "id": "a4-1",
+          "actions": [
+            "verify"
+          ],
+          "target": "changes"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Apply accessibility fundamentals (semantic HTML, labels, focus states, keyboard navigation) and use ARIA only when needed and guided by standards.",
+      "tier": "CRITICAL",
+      "importance_percentage": 9.0,
+      "expected_depth": "INTERMEDIATE",
+      "dominant_role": "UI Developer",
+      "role_attribution": {
+        "Frontend Developer": 35,
+        "UI Developer": 65
+      },
+      "sub_requirements": [
+        {
+          "sub_id": "5a",
+          "text": "Accessibility fundamentals: semantic HTML, labels, focus states, keyboard navigation",
+          "importance_percentage": 5,
+          "tools": [
+            "HTML5"
+          ]
+        },
+        {
+          "sub_id": "5b",
+          "text": "ARIA usage guided by standards",
+          "importance_percentage": 4,
+          "tools": []
+        }
+      ],
+      "actions": [
+        {
+          "id": "a5-0",
+          "actions": [
+            "Apply"
+          ],
+          "target": "accessibility fundamentals"
+        },
+        {
+          "id": "a5-1",
+          "actions": [
+            "use"
+          ],
+          "target": "ARIA"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Write and maintain unit/component tests for new work, and follow CI/CD pipelines (fixing build failures, addressing linting/type errors).",
+      "tier": "CRITICAL",
+      "importance_percentage": 10.0,
+      "expected_depth": "INTERMEDIATE",
+      "dominant_role": "Frontend Developer",
+      "role_attribution": {
+        "Frontend Developer": 75,
+        "UI Developer": 25
+      },
+      "sub_requirements": [
+        {
+          "sub_id": "6a",
+          "text": "Write unit/component tests",
+          "importance_percentage": 3,
+          "tools": []
+        },
+        {
+          "sub_id": "6b",
+          "text": "Maintain unit/component tests",
+          "importance_percentage": 2,
+          "tools": []
+        },
+        {
+          "sub_id": "6c",
+          "text": "Follow CI/CD pipelines",
+          "importance_percentage": 2,
+          "tools": []
+        },
+        {
+          "sub_id": "6d",
+          "text": "Fix build failures",
+          "importance_percentage": 1,
+          "tools": []
+        },
+        {
+          "sub_id": "6e",
+          "text": "Address linting/type errors",
+          "importance_percentage": 2,
+          "tools": []
+        }
+      ],
+      "actions": [
+        {
+          "id": "a6-0",
+          "actions": [
+            "Write"
+          ],
+          "target": "unit/component tests"
+        },
+        {
+          "id": "a6-1",
+          "actions": [
+            "maintain"
+          ],
+          "target": "unit/component tests"
+        },
+        {
+          "id": "a6-2",
+          "actions": [
+            "follow"
+          ],
+          "target": "CI/CD pipelines"
+        },
+        {
+          "id": "a6-3",
+          "actions": [
+            "fix"
+          ],
+          "target": "build failures"
+        },
+        {
+          "id": "a6-4",
+          "actions": [
+            "address"
+          ],
+          "target": "linting/type errors"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Document changes (README updates, component usage notes) and contribute to team ways of working through continuous improvement suggestions.",
+      "tier": "IMPORTANT",
+      "importance_percentage": 4.0,
+      "expected_depth": "INTERMEDIATE",
+      "dominant_role": "UI Developer",
+      "role_attribution": {
+        "Frontend Developer": 35,
+        "UI Developer": 65
+      },
+      "sub_requirements": [
+        {
+          "sub_id": "7a",
+          "text": "Document changes: README updates, component usage notes",
+          "importance_percentage": 4,
+          "tools": []
+        }
+      ],
+      "actions": [
+        {
+          "id": "a7-0",
+          "actions": [
+            "Document"
+          ],
+          "target": "changes"
+        },
+        {
+          "id": "a7-1",
+          "actions": [
+            "contribute"
+          ],
+          "target": "team ways of working"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Good working knowledge of JavaScript (ES6+) and basic familiarity with TypeScript (able to read and write typed components with guidance).",
+      "tier": "CRITICAL",
+      "importance_percentage": 9.0,
+      "expected_depth": "INTERMEDIATE",
+      "dominant_role": "Frontend Developer",
+      "role_attribution": {
+        "Frontend Developer": 80,
+        "UI Developer": 20
+      },
+      "sub_requirements": [
+        {
+          "sub_id": "8a",
+          "text": "JavaScript ES6+",
+          "importance_percentage": 5,
+          "tools": []
+        },
+        {
+          "sub_id": "8b",
+          "text": "TypeScript typed components",
+          "importance_percentage": 4,
+          "tools": []
+        }
+      ],
+      "actions": []
+    },
+    {
+      "id": 9,
+      "text": "Solid fundamentals in HTML5 and CSS3, including responsive layouts and common modern CSS patterns (Flexbox/Grid), plus basic understanding of browser APIs.",
+      "tier": "CRITICAL",
+      "importance_percentage": 9.0,
+      "expected_depth": "INTERMEDIATE",
+      "dominant_role": "UI Developer",
+      "role_attribution": {
+        "Frontend Developer": 40,
+        "UI Developer": 60
+      },
+      "sub_requirements": [
+        {
+          "sub_id": "9a",
+          "text": "HTML5",
+          "importance_percentage": 2,
+          "tools": []
+        },
+        {
+          "sub_id": "9b",
+          "text": "CSS3",
+          "importance_percentage": 2,
+          "tools": []
+        },
+        {
+          "sub_id": "9c",
+          "text": "Responsive layouts in CSS",
+          "importance_percentage": 2,
+          "tools": [
+            "Media Queries"
+          ]
+        },
+        {
+          "sub_id": "9d",
+          "text": "Flexbox/Grid CSS patterns",
+          "importance_percentage": 2,
+          "tools": []
+        },
+        {
+          "sub_id": "9e",
+          "text": "Browser APIs basics",
+          "importance_percentage": 1,
+          "tools": []
+        }
+      ],
+      "actions": []
+    },
+    {
+      "id": 10,
+      "text": "Understanding of core frontend concepts such as component structure, props/state, and introductory state management patterns (Context, basic Redux usage is a plus).",
+      "tier": "CRITICAL",
+      "importance_percentage": 8.0,
+      "expected_depth": "INTERMEDIATE",
+      "dominant_role": "Frontend Developer",
+      "role_attribution": {
+        "Frontend Developer": 70,
+        "UI Developer": 30
+      },
+      "sub_requirements": [
+        {
+          "sub_id": "10a",
+          "text": "Component structure in frontend",
+          "importance_percentage": 3,
+          "tools": []
+        },
+        {
+          "sub_id": "10b",
+          "text": "Props/state in React components",
+          "importance_percentage": 3,
+          "tools": []
+        },
+        {
+          "sub_id": "10c",
+          "text": "State management patterns: Context, Redux",
+          "importance_percentage": 2,
+          "tools": [
+            "Redux"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "id": 11,
+      "text": "Awareness of performance basics (avoiding unnecessary re-renders, sensible component composition) and willingness to learn deeper optimisation techniques.",
+      "tier": "IMPORTANT",
+      "importance_percentage": 4.0,
+      "expected_depth": "SURFACE",
+      "dominant_role": "Frontend Developer",
+      "role_attribution": {
+        "Frontend Developer": 65,
+        "UI Developer": 35
+      },
+      "sub_requirements": [
+        {
+          "sub_id": "11a",
+          "text": "Avoid unnecessary re-renders",
+          "importance_percentage": 2,
+          "tools": []
+        },
+        {
+          "sub_id": "11b",
+          "text": "Sensible component composition",
+          "importance_percentage": 2,
+          "tools": []
+        }
+      ],
+      "actions": []
+    },
+    {
+      "id": 12,
+      "text": "Familiarity with accessibility fundamentals and inclusive UI practices (semantic HTML, keyboard navigation, basic ARIA; exposure to WCAG is a plus).",
+      "tier": "CRITICAL",
+      "importance_percentage": 6.0,
+      "expected_depth": "SURFACE",
+      "dominant_role": "UI Developer",
+      "role_attribution": {
+        "Frontend Developer": 35,
+        "UI Developer": 65
+      },
+      "sub_requirements": [
+        {
+          "sub_id": "12a",
+          "text": "Accessibility fundamentals: semantic HTML, keyboard navigation, ARIA",
+          "importance_percentage": 4,
+          "tools": [
+            "HTML5",
+            "ARIA"
+          ]
+        },
+        {
+          "sub_id": "12b",
+          "text": "WCAG exposure",
+          "importance_percentage": 2,
+          "tools": []
+        }
+      ],
+      "actions": []
+    },
+    {
+      "id": 13,
+      "text": "Exposure to testing and code quality practices (for example: Jest/React Testing Library basics; willingness to learn integration/e2e testing).",
+      "tier": "CRITICAL",
+      "importance_percentage": 5.0,
+      "expected_depth": "SURFACE",
+      "dominant_role": "Frontend Developer",
+      "role_attribution": {
+        "Frontend Developer": 70,
+        "UI Developer": 30
+      },
+      "sub_requirements": [
+        {
+          "sub_id": "13a",
+          "text": "Jest basics",
+          "importance_percentage": 2,
+          "tools": []
+        },
+        {
+          "sub_id": "13b",
+          "text": "React Testing Library basics",
+          "importance_percentage": 2,
+          "tools": []
+        },
+        {
+          "sub_id": "13c",
+          "text": "Integration testing exposure",
+          "importance_percentage": 1,
+          "tools": []
+        },
+        {
+          "sub_id": "13d",
+          "text": "E2E testing exposure",
+          "importance_percentage": 0,
+          "tools": []
+        }
+      ],
+      "actions": []
+    }
+  ],
+  "tools": [
+    {
+      "name": "ARIA",
+      "tier": "CRITICAL",
+      "importance_percentage": 4,
+      "dominant_role": "Frontend Developer",
+      "found_in": [
+        "1c",
+        "12a"
+      ]
+    },
+    {
+      "name": "HTML5",
+      "tier": "CRITICAL",
+      "importance_percentage": 5,
+      "dominant_role": "Frontend Developer",
+      "found_in": [
+        "1c",
+        "5a",
+        "12a"
+      ]
+    },
+    {
+      "name": "Media Queries",
+      "tier": "CRITICAL",
+      "importance_percentage": 2,
+      "dominant_role": "UI Developer",
+      "found_in": [
+        "9c"
+      ]
+    },
+    {
+      "name": "Redux",
+      "tier": "CRITICAL",
+      "importance_percentage": 2,
+      "dominant_role": "Frontend Developer",
+      "found_in": [
+        "10c"
+      ]
+    },
+    {
+      "name": "React",
+      "tier": null,
+      "importance_percentage": null,
+      "dominant_role": null,
+      "found_in": []
+    },
+    {
+      "name": "Flexbox",
+      "tier": null,
+      "importance_percentage": null,
+      "dominant_role": null,
+      "found_in": []
+    },
+    {
+      "name": "React Testing Library",
+      "tier": null,
+      "importance_percentage": null,
+      "dominant_role": null,
+      "found_in": []
+    },
+    {
+      "name": "JavaScript",
+      "tier": null,
+      "importance_percentage": null,
+      "dominant_role": null,
+      "found_in": []
+    },
+    {
+      "name": "TypeScript",
+      "tier": null,
+      "importance_percentage": null,
+      "dominant_role": null,
+      "found_in": []
+    },
+    {
+      "name": "HTML",
+      "tier": null,
+      "importance_percentage": null,
+      "dominant_role": null,
+      "found_in": []
+    },
+    {
+      "name": "CSS",
+      "tier": null,
+      "importance_percentage": null,
+      "dominant_role": null,
+      "found_in": []
+    },
+    {
+      "name": "Jest",
+      "tier": null,
+      "importance_percentage": null,
+      "dominant_role": null,
+      "found_in": []
+    }
+  ],
+  "tool_relations": [
+    {
+      "source": "ARIA",
+      "target": "HTML5"
+    },
+    {
+      "source": "HTML5",
+      "target": "JavaScript"
+    },
+    {
+      "source": "HTML5",
+      "target": "ARIA"
+    },
+    {
+      "source": "Media Queries",
+      "target": "Flexbox"
+    },
+    {
+      "source": "Redux",
+      "target": "React"
+    },
+    {
+      "source": "React",
+      "target": "Redux"
+    },
+    {
+      "source": "Flexbox",
+      "target": "Media Queries"
+    },
+    {
+      "source": "React Testing Library",
+      "target": "Jest"
+    },
+    {
+      "source": "JavaScript",
+      "target": "TypeScript"
+    },
+    {
+      "source": "TypeScript",
+      "target": "JavaScript"
+    },
+    {
+      "source": "HTML",
+      "target": "CSS"
+    },
+    {
+      "source": "HTML",
+      "target": "JavaScript"
+    },
+    {
+      "source": "HTML",
+      "target": "React"
+    },
+    {
+      "source": "CSS",
+      "target": "HTML"
+    },
+    {
+      "source": "Jest",
+      "target": "React Testing Library"
+    }
+  ],
+  "actions": [
+    {
+      "id": "a0-0",
+      "actions": [
+        "Build"
+      ],
+      "target": "React user interfaces",
+      "sentence_id": 0
+    },
+    {
+      "id": "a0-1",
+      "actions": [
+        "maintain"
+      ],
+      "target": "React user interfaces",
+      "sentence_id": 0
+    },
+    {
+      "id": "a1-0",
+      "actions": [
+        "Implement"
+      ],
+      "target": "parts of key user journeys",
+      "sentence_id": 1
+    },
+    {
+      "id": "a2-0",
+      "actions": [
+        "Use"
+      ],
+      "target": "component libraries",
+      "sentence_id": 2
+    },
+    {
+      "id": "a2-1",
+      "actions": [
+        "contribute"
+      ],
+      "target": "component libraries",
+      "sentence_id": 2
+    },
+    {
+      "id": "a2-2",
+      "actions": [
+        "add"
+      ],
+      "target": "small enhancements",
+      "sentence_id": 2
+    },
+    {
+      "id": "a2-3",
+      "actions": [
+        "fix"
+      ],
+      "target": "bugs",
+      "sentence_id": 2
+    },
+    {
+      "id": "a3-0",
+      "actions": [
+        "Debug"
+      ],
+      "target": "existing codebases",
+      "sentence_id": 3
+    },
+    {
+      "id": "a3-1",
+      "actions": [
+        "resolve"
+      ],
+      "target": "issues",
+      "sentence_id": 3
+    },
+    {
+      "id": "a4-0",
+      "actions": [
+        "Ensure"
+      ],
+      "target": "responsive behaviour",
+      "sentence_id": 4
+    },
+    {
+      "id": "a4-1",
+      "actions": [
+        "verify"
+      ],
+      "target": "changes",
+      "sentence_id": 4
+    },
+    {
+      "id": "a5-0",
+      "actions": [
+        "Apply"
+      ],
+      "target": "accessibility fundamentals",
+      "sentence_id": 5
+    },
+    {
+      "id": "a5-1",
+      "actions": [
+        "use"
+      ],
+      "target": "ARIA",
+      "sentence_id": 5
+    },
+    {
+      "id": "a6-0",
+      "actions": [
+        "Write"
+      ],
+      "target": "unit/component tests",
+      "sentence_id": 6
+    },
+    {
+      "id": "a6-1",
+      "actions": [
+        "maintain"
+      ],
+      "target": "unit/component tests",
+      "sentence_id": 6
+    },
+    {
+      "id": "a6-2",
+      "actions": [
+        "follow"
+      ],
+      "target": "CI/CD pipelines",
+      "sentence_id": 6
+    },
+    {
+      "id": "a6-3",
+      "actions": [
+        "fix"
+      ],
+      "target": "build failures",
+      "sentence_id": 6
+    },
+    {
+      "id": "a6-4",
+      "actions": [
+        "address"
+      ],
+      "target": "linting/type errors",
+      "sentence_id": 6
+    },
+    {
+      "id": "a7-0",
+      "actions": [
+        "Document"
+      ],
+      "target": "changes",
+      "sentence_id": 7
+    },
+    {
+      "id": "a7-1",
+      "actions": [
+        "contribute"
+      ],
+      "target": "team ways of working",
+      "sentence_id": 7
+    }
+  ]
+}

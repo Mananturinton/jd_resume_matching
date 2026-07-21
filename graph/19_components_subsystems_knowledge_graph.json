@@ -1,0 +1,377 @@
+[
+  {
+    "id": 1,
+    "gid": 94,
+    "name": "Istio",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Service Mesh Platform",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Service Mesh",
+      "specialization": "Cloud Native Networking"
+    },
+    "aliases": [
+      "Istio",
+      "Istio Service Mesh"
+    ],
+    "concepts": [
+      "Sidecar Proxy",
+      "Envoy Proxy",
+      "Control Plane (Istiod)",
+      "Data Plane",
+      "Virtual Service",
+      "Destination Rule",
+      "Gateway",
+      "Traffic Management",
+      "Canary Deployments",
+      "Circuit Breaking",
+      "Retries and Timeouts",
+      "mTLS (Mutual TLS)",
+      "Authorization Policy",
+      "Peer Authentication",
+      "Observability (Tracing, Metrics)",
+      "Istio Ingress Gateway",
+      "Istio Egress Gateway",
+      "Service Entry",
+      "Fault Injection",
+      "Traffic Mirroring",
+      "Kiali",
+      "Sidecar Injection"
+    ],
+    "roles": [
+      {
+        "role": "Platform Engineer",
+        "importance": 0.9012,
+        "concepts": [
+          "Sidecar Proxy",
+          "Virtual Service",
+          "Destination Rule",
+          "Control Plane (Istiod)",
+          "Traffic Management"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.889,
+        "concepts": [
+          "Circuit Breaking",
+          "Retries and Timeouts",
+          "Fault Injection",
+          "Observability (Tracing, Metrics)"
+        ]
+      },
+      {
+        "role": "Security Engineer",
+        "importance": 0.734,
+        "concepts": [
+          "mTLS (Mutual TLS)",
+          "Authorization Policy",
+          "Peer Authentication"
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.789,
+        "concepts": [
+          "Gateway",
+          "Canary Deployments",
+          "Sidecar Injection",
+          "Kiali"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Kubernetes",
+      "Docker",
+      "Networking Basics",
+      "Microservices Architecture",
+      "YAML"
+    ]
+  },
+  {
+    "id": 2,
+    "gid": 189,
+    "name": "Load Balancer",
+    "entity_type": "Networking Component",
+    "entity_subtype": "Traffic Distribution System",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Traffic Management",
+      "specialization": "Load Distribution Systems"
+    },
+    "aliases": [
+      "Load Balancer",
+      "LB",
+      "Layer 4 Load Balancer",
+      "Layer 7 Load Balancer"
+    ],
+    "concepts": [
+      "Round Robin",
+      "Least Connections",
+      "Health Checks",
+      "Sticky Sessions",
+      "Layer 4 vs Layer 7 Balancing",
+      "SSL Termination"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.801,
+        "concepts": [
+          "Health Checks",
+          "Round Robin",
+          "SSL Termination"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.834,
+        "concepts": [
+          "Sticky Sessions",
+          "Layer 4 vs Layer 7 Balancing"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Networking Basics",
+      "HTTP"
+    ]
+  },
+  {
+    "id": 3,
+    "gid": 193,
+    "name": "Reverse Proxy",
+    "entity_type": "Networking Component",
+    "entity_subtype": "Request Intermediary System",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Networking",
+      "sub_category": "Traffic Management",
+      "specialization": "Proxy Systems"
+    },
+    "aliases": [
+      "Reverse Proxy"
+    ],
+    "concepts": [
+      "Request Forwarding",
+      "SSL Termination",
+      "Load Distribution",
+      "Caching",
+      "Request Routing"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.723,
+        "concepts": [
+          "Request Forwarding",
+          "SSL Termination",
+          "Request Routing"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.567,
+        "concepts": [
+          "Request Forwarding",
+          "Caching"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "HTTP",
+      "Networking Basics"
+    ]
+  },
+  {
+    "id": 4,
+    "gid": 195,
+    "name": "API Gateway",
+    "entity_type": "System Component",
+    "entity_subtype": "API Traffic Management Subsystem",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Microservices Infrastructure",
+      "specialization": "API Management Components"
+    },
+    "aliases": [
+      "API Gateway"
+    ],
+    "concepts": [
+      "Request Routing",
+      "Rate Limiting",
+      "Authentication Enforcement",
+      "Request/Response Transformation",
+      "API Composition",
+      "Throttling"
+    ],
+    "roles": [
+      {
+        "role": "Backend Developer",
+        "importance": 0.734,
+        "concepts": [
+          "Request Routing",
+          "Rate Limiting",
+          "Authentication Enforcement"
+        ]
+      },
+      {
+        "role": "Software Architect",
+        "importance": 0.789,
+        "concepts": [
+          "API Composition",
+          "Throttling"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "REST APIs",
+      "Microservices Architecture"
+    ]
+  },
+  {
+    "id": 5,
+    "gid": 196,
+    "name": "Message Queue",
+    "entity_type": "System Component",
+    "entity_subtype": "Asynchronous Communication Subsystem",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Distributed Systems Infrastructure",
+      "specialization": "Asynchronous Messaging Components"
+    },
+    "aliases": [
+      "Message Queue",
+      "MQ"
+    ],
+    "concepts": [
+      "Producer-Consumer Pattern",
+      "Queueing",
+      "Decoupling Services",
+      "Dead Letter Queue",
+      "At-Least-Once Delivery"
+    ],
+    "roles": [
+      {
+        "role": "Backend Developer",
+        "importance": 0.723,
+        "concepts": [
+          "Producer-Consumer Pattern",
+          "Decoupling Services"
+        ]
+      },
+      {
+        "role": "Software Architect",
+        "importance": 0.756,
+        "concepts": [
+          "Queueing",
+          "Dead Letter Queue"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Distributed Systems Basics"
+    ]
+  },
+  {
+    "id": 6,
+    "gid": 197,
+    "name": "Caching Layer",
+    "entity_type": "System Component",
+    "entity_subtype": "Data Access Acceleration Subsystem",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Performance Infrastructure",
+      "specialization": "Caching Components"
+    },
+    "aliases": [
+      "Caching Layer",
+      "Cache Layer",
+      "Application Cache"
+    ],
+    "concepts": [
+      "Cache Hit/Miss",
+      "Cache Invalidation",
+      "Write-Through vs Write-Back",
+      "TTL",
+      "Distributed Caching"
+    ],
+    "roles": [
+      {
+        "role": "Backend Developer",
+        "importance": 0.789,
+        "concepts": [
+          "Cache Hit/Miss",
+          "Cache Invalidation",
+          "TTL"
+        ]
+      },
+      {
+        "role": "Full Stack Developer",
+        "importance": 0.656,
+        "concepts": [
+          "Cache Hit/Miss",
+          "Distributed Caching"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Databases Basics",
+      "Redis Basics (helpful)"
+    ]
+  },
+  {
+    "id": 7,
+    "gid": 198,
+    "name": "Authentication & Authorization Module",
+    "entity_type": "System Component",
+    "entity_subtype": "Identity and Access Control Subsystem",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Security",
+      "sub_category": "Identity Management",
+      "specialization": "AuthN/AuthZ Components"
+    },
+    "aliases": [
+      "AuthN/AuthZ Module",
+      "Authentication and Authorization",
+      "Auth Module"
+    ],
+    "concepts": [
+      "Session Management",
+      "Token-Based Authentication",
+      "Role-Based Access Control",
+      "OAuth Flows",
+      "Single Sign-On"
+    ],
+    "roles": [
+      {
+        "role": "Backend Developer",
+        "importance": 0.801,
+        "concepts": [
+          "Session Management",
+          "Token-Based Authentication",
+          "OAuth Flows"
+        ]
+      },
+      {
+        "role": "Security Engineer",
+        "importance": 0.834,
+        "concepts": [
+          "Role-Based Access Control",
+          "Single Sign-On"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "OAuth 2.0",
+      "JWT",
+      "Security Fundamentals"
+    ]
+  }
+]

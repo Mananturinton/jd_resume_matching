@@ -1,0 +1,297 @@
+[
+  {
+    "id": 1,
+    "gid": 179,
+    "name": "DORA Metrics",
+    "entity_type": "Metrics Framework",
+    "entity_subtype": "DevOps Performance Measurement System",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Performance Measurement",
+      "specialization": "DevOps Metrics Frameworks"
+    },
+    "aliases": [
+      "DORA Metrics",
+      "DevOps Research and Assessment Metrics"
+    ],
+    "concepts": [
+      "Deployment Frequency",
+      "Lead Time for Changes",
+      "Change Failure Rate",
+      "Mean Time to Recovery (MTTR)"
+    ],
+    "roles": [
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.801,
+        "concepts": [
+          "Deployment Frequency",
+          "Lead Time for Changes",
+          "Change Failure Rate"
+        ]
+      },
+      {
+        "role": "Engineering Manager",
+        "importance": 0.723,
+        "concepts": [
+          "Deployment Frequency",
+          "Mean Time to Recovery (MTTR)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "CI/CD Concepts",
+      "Monitoring Concepts"
+    ]
+  },
+  {
+    "id": 2,
+    "gid": 180,
+    "name": "SLA/SLO/SLI Framework",
+    "entity_type": "Metrics Framework",
+    "entity_subtype": "Service Reliability Measurement System",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "DevOps",
+      "sub_category": "Performance Measurement",
+      "specialization": "Reliability Metrics Frameworks"
+    },
+    "aliases": [
+      "SLA",
+      "SLO",
+      "SLI",
+      "Service Level Agreement",
+      "Service Level Objective",
+      "Service Level Indicator"
+    ],
+    "concepts": [
+      "Service Level Indicators",
+      "Service Level Objectives",
+      "Service Level Agreements",
+      "Error Budgets",
+      "Uptime Targets"
+    ],
+    "roles": [
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.9345,
+        "concepts": [
+          "Service Level Objectives",
+          "Error Budgets",
+          "Service Level Indicators"
+        ]
+      },
+      {
+        "role": "DevOps Engineer",
+        "importance": 0.756,
+        "concepts": [
+          "Uptime Targets",
+          "Service Level Agreements"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Monitoring Concepts",
+      "Availability Concepts"
+    ]
+  },
+  {
+    "id": 3,
+    "gid": 181,
+    "name": "Model Evaluation Metrics",
+    "entity_type": "Metrics Framework",
+    "entity_subtype": "Machine Learning Performance Measurement System",
+    "hierarchy": {
+      "domain": "Data",
+      "category": "Machine Learning",
+      "sub_category": "Model Evaluation",
+      "specialization": "ML Performance Metrics"
+    },
+    "aliases": [
+      "Model Evaluation Metrics",
+      "Precision",
+      "Recall",
+      "F1 Score",
+      "ML Metrics"
+    ],
+    "concepts": [
+      "Accuracy",
+      "Precision",
+      "Recall",
+      "F1 Score",
+      "ROC-AUC",
+      "Confusion Matrix",
+      "Mean Squared Error",
+      "Log Loss",
+      "Perplexity"
+    ],
+    "roles": [
+      {
+        "role": "Data Scientist",
+        "importance": 0.912,
+        "concepts": [
+          "Accuracy",
+          "Precision",
+          "Recall",
+          "F1 Score",
+          "Confusion Matrix"
+        ]
+      },
+      {
+        "role": "ML Engineer",
+        "importance": 0.856,
+        "concepts": [
+          "ROC-AUC",
+          "Mean Squared Error",
+          "Log Loss"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Statistics Basics",
+      "Machine Learning Basics"
+    ]
+  },
+  {
+    "id": 4,
+    "gid": 182,
+    "name": "Code Coverage",
+    "entity_type": "Metrics Framework",
+    "entity_subtype": "Test Effectiveness Measurement",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing Metrics",
+      "specialization": "Test Coverage Metrics"
+    },
+    "aliases": [
+      "Code Coverage",
+      "Test Coverage"
+    ],
+    "concepts": [
+      "Line Coverage",
+      "Branch Coverage",
+      "Statement Coverage",
+      "Coverage Reports",
+      "Coverage Thresholds"
+    ],
+    "roles": [
+      {
+        "role": "QA Engineer",
+        "importance": 0.767,
+        "concepts": [
+          "Line Coverage",
+          "Branch Coverage",
+          "Coverage Reports"
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "importance": 0.612,
+        "concepts": [
+          "Line Coverage",
+          "Coverage Thresholds"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Unit Testing Basics"
+    ]
+  },
+  {
+    "id": 5,
+    "gid": 183,
+    "name": "Latency and Throughput",
+    "entity_type": "Metrics Framework",
+    "entity_subtype": "System Performance Measurement",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "Performance Engineering",
+      "specialization": "Performance Metrics"
+    },
+    "aliases": [
+      "Latency",
+      "Throughput",
+      "Response Time"
+    ],
+    "concepts": [
+      "P50/P95/P99 Latency",
+      "Requests Per Second",
+      "Queueing Delay",
+      "Tail Latency",
+      "Load Testing"
+    ],
+    "roles": [
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.834,
+        "concepts": [
+          "P50/P95/P99 Latency",
+          "Tail Latency",
+          "Requests Per Second"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.678,
+        "concepts": [
+          "Response Time",
+          "Requests Per Second"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Performance Testing Basics",
+      "Networking Basics"
+    ]
+  },
+  {
+    "id": 6,
+    "gid": 201,
+    "name": "A/B Testing Framework",
+    "entity_type": "Experimentation System",
+    "entity_subtype": "Controlled Experiment Platform",
+    "hierarchy": {
+      "domain": "Data",
+      "category": "Data Science",
+      "sub_category": "Experimentation",
+      "specialization": "Online Experimentation Systems"
+    },
+    "aliases": [
+      "A/B Testing",
+      "Split Testing",
+      "A/B Testing Framework"
+    ],
+    "concepts": [
+      "Control vs Treatment Groups",
+      "Statistical Significance",
+      "Sample Size Calculation",
+      "Feature Flags",
+      "Multivariate Testing"
+    ],
+    "roles": [
+      {
+        "role": "Data Scientist",
+        "importance": 0.734,
+        "concepts": [
+          "Statistical Significance",
+          "Sample Size Calculation",
+          "Control vs Treatment Groups"
+        ]
+      },
+      {
+        "role": "Product Manager",
+        "importance": 0.678,
+        "concepts": [
+          "Feature Flags",
+          "Multivariate Testing"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Statistics Basics"
+    ]
+  }
+]

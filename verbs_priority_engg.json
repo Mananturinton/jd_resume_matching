@@ -1,0 +1,1470 @@
+{
+  "domain": "Engineering",
+  "verb_priorities": [
+    {
+      "verb": "build",
+      "priority": 10,
+      "category": "core_engineering",
+      "variants": [
+        "build",
+        "builds",
+        "building",
+        "built"
+      ]
+    },
+    {
+      "verb": "design",
+      "priority": 10,
+      "category": "core_engineering",
+      "variants": [
+        "design",
+        "designs",
+        "designing",
+        "designed"
+      ]
+    },
+    {
+      "verb": "architect",
+      "priority": 10,
+      "category": "core_engineering",
+      "variants": [
+        "architect",
+        "architects",
+        "architecting",
+        "architected"
+      ]
+    },
+    {
+      "verb": "lead",
+      "priority": 10,
+      "category": "leadership",
+      "variants": [
+        "lead",
+        "leads",
+        "leading",
+        "led"
+      ]
+    },
+    {
+      "verb": "own",
+      "priority": 10,
+      "category": "leadership",
+      "variants": [
+        "own",
+        "owns",
+        "owning",
+        "owned"
+      ]
+    },
+    {
+      "verb": "spearhead",
+      "priority": 10,
+      "category": "leadership",
+      "variants": [
+        "spearhead",
+        "spearheads",
+        "spearheading",
+        "spearheaded"
+      ]
+    },
+    {
+      "verb": "engineer",
+      "priority": 10,
+      "category": "core_engineering",
+      "variants": [
+        "engineer",
+        "engineers",
+        "engineering",
+        "engineered"
+      ]
+    },
+    {
+      "verb": "found",
+      "priority": 10,
+      "category": "leadership",
+      "variants": [
+        "found",
+        "founds",
+        "founding",
+        "founded"
+      ]
+    },
+    {
+      "verb": "champion",
+      "priority": 10,
+      "category": "leadership",
+      "variants": [
+        "champion",
+        "champions",
+        "championing",
+        "championed"
+      ]
+    },
+    {
+      "verb": "develop",
+      "priority": 9,
+      "category": "core_engineering",
+      "variants": [
+        "develop",
+        "develops",
+        "developing",
+        "developed"
+      ]
+    },
+    {
+      "verb": "implement",
+      "priority": 9,
+      "category": "core_engineering",
+      "variants": [
+        "implement",
+        "implements",
+        "implementing",
+        "implemented"
+      ]
+    },
+    {
+      "verb": "create",
+      "priority": 9,
+      "category": "core_engineering",
+      "variants": [
+        "create",
+        "creates",
+        "creating",
+        "created"
+      ]
+    },
+    {
+      "verb": "deploy",
+      "priority": 9,
+      "category": "devops",
+      "variants": [
+        "deploy",
+        "deploys",
+        "deploying",
+        "deployed"
+      ]
+    },
+    {
+      "verb": "automate",
+      "priority": 9,
+      "category": "devops",
+      "variants": [
+        "automate",
+        "automates",
+        "automating",
+        "automated"
+      ]
+    },
+    {
+      "verb": "orchestrate",
+      "priority": 9,
+      "category": "devops",
+      "variants": [
+        "orchestrate",
+        "orchestrates",
+        "orchestrating",
+        "orchestrated"
+      ]
+    },
+    {
+      "verb": "containerize",
+      "priority": 9,
+      "category": "devops",
+      "variants": [
+        "containerize",
+        "containerizes",
+        "containerizing",
+        "containerized"
+      ]
+    },
+    {
+      "verb": "optimize",
+      "priority": 9,
+      "category": "performance",
+      "variants": [
+        "optimize",
+        "optimizes",
+        "optimizing",
+        "optimized"
+      ]
+    },
+    {
+      "verb": "refactor",
+      "priority": 9,
+      "category": "core_engineering",
+      "variants": [
+        "refactor",
+        "refactors",
+        "refactoring",
+        "refactored"
+      ]
+    },
+    {
+      "verb": "pioneer",
+      "priority": 9,
+      "category": "leadership",
+      "variants": [
+        "pioneer",
+        "pioneers",
+        "pioneering",
+        "pioneered"
+      ]
+    },
+    {
+      "verb": "drive",
+      "priority": 9,
+      "category": "leadership",
+      "variants": [
+        "drive",
+        "drives",
+        "driving",
+        "drove",
+        "driven"
+      ]
+    },
+    {
+      "verb": "deliver",
+      "priority": 9,
+      "category": "core_engineering",
+      "variants": [
+        "deliver",
+        "delivers",
+        "delivering",
+        "delivered"
+      ]
+    },
+    {
+      "verb": "execute",
+      "priority": 9,
+      "category": "core_engineering",
+      "variants": [
+        "execute",
+        "executes",
+        "executing",
+        "executed"
+      ]
+    },
+    {
+      "verb": "launch",
+      "priority": 9,
+      "category": "release_ops",
+      "variants": [
+        "launch",
+        "launches",
+        "launching",
+        "launched"
+      ]
+    },
+    {
+      "verb": "modernize",
+      "priority": 9,
+      "category": "core_engineering",
+      "variants": [
+        "modernize",
+        "modernizes",
+        "modernizing",
+        "modernized"
+      ]
+    },
+    {
+      "verb": "provision",
+      "priority": 9,
+      "category": "cloud_infra",
+      "variants": [
+        "provision",
+        "provisions",
+        "provisioning",
+        "provisioned"
+      ]
+    },
+    {
+      "verb": "ship",
+      "priority": 9,
+      "category": "release_ops",
+      "variants": [
+        "ship",
+        "ships",
+        "shipping",
+        "shipped"
+      ]
+    },
+    {
+      "verb": "scale_up",
+      "priority": 9,
+      "category": "cloud_infra",
+      "variants": [
+        "scale up",
+        "scales up",
+        "scaling up",
+        "scaled up"
+      ]
+    },
+    {
+      "verb": "productionize",
+      "priority": 9,
+      "category": "release_ops",
+      "variants": [
+        "productionize",
+        "productionizes",
+        "productionizing",
+        "productionized"
+      ]
+    },
+    {
+      "verb": "parallelize",
+      "priority": 9,
+      "category": "performance",
+      "variants": [
+        "parallelize",
+        "parallelizes",
+        "parallelizing",
+        "parallelized"
+      ]
+    },
+    {
+      "verb": "integrate",
+      "priority": 8,
+      "category": "core_engineering",
+      "variants": [
+        "integrate",
+        "integrates",
+        "integrating",
+        "integrated"
+      ]
+    },
+    {
+      "verb": "configure",
+      "priority": 8,
+      "category": "devops",
+      "variants": [
+        "configure",
+        "configures",
+        "configuring",
+        "configured"
+      ]
+    },
+    {
+      "verb": "migrate",
+      "priority": 8,
+      "category": "core_engineering",
+      "variants": [
+        "migrate",
+        "migrates",
+        "migrating",
+        "migrated"
+      ]
+    },
+    {
+      "verb": "transform",
+      "priority": 8,
+      "category": "data",
+      "variants": [
+        "transform",
+        "transforms",
+        "transforming",
+        "transformed"
+      ]
+    },
+    {
+      "verb": "analyze",
+      "priority": 8,
+      "category": "data",
+      "variants": [
+        "analyze",
+        "analyzes",
+        "analyzing",
+        "analyzed"
+      ]
+    },
+    {
+      "verb": "secure",
+      "priority": 8,
+      "category": "security",
+      "variants": [
+        "secure",
+        "secures",
+        "securing",
+        "secured"
+      ]
+    },
+    {
+      "verb": "validate",
+      "priority": 8,
+      "category": "qa_testing",
+      "variants": [
+        "validate",
+        "validates",
+        "validating",
+        "validated"
+      ]
+    },
+    {
+      "verb": "verify",
+      "priority": 8,
+      "category": "qa_testing",
+      "variants": [
+        "verify",
+        "verifies",
+        "verifying",
+        "verified"
+      ]
+    },
+    {
+      "verb": "debug",
+      "priority": 8,
+      "category": "qa_testing",
+      "variants": [
+        "debug",
+        "debugs",
+        "debugging",
+        "debugged"
+      ]
+    },
+    {
+      "verb": "ingest",
+      "priority": 8,
+      "category": "data",
+      "variants": [
+        "ingest",
+        "ingests",
+        "ingesting",
+        "ingested"
+      ]
+    },
+    {
+      "verb": "standardize",
+      "priority": 8,
+      "category": "core_engineering",
+      "variants": [
+        "standardize",
+        "standardizes",
+        "standardizing",
+        "standardized"
+      ]
+    },
+    {
+      "verb": "consolidate",
+      "priority": 8,
+      "category": "core_engineering",
+      "variants": [
+        "consolidate",
+        "consolidates",
+        "consolidating",
+        "consolidated"
+      ]
+    },
+    {
+      "verb": "instrument",
+      "priority": 8,
+      "category": "observability",
+      "variants": [
+        "instrument",
+        "instruments",
+        "instrumenting",
+        "instrumented"
+      ]
+    },
+    {
+      "verb": "streamline",
+      "priority": 8,
+      "category": "core_engineering",
+      "variants": [
+        "streamline",
+        "streamlines",
+        "streamlining",
+        "streamlined"
+      ]
+    },
+    {
+      "verb": "harden",
+      "priority": 8,
+      "category": "security",
+      "variants": [
+        "harden",
+        "hardens",
+        "hardening",
+        "hardened"
+      ]
+    },
+    {
+      "verb": "decouple",
+      "priority": 8,
+      "category": "core_engineering",
+      "variants": [
+        "decouple",
+        "decouples",
+        "decoupling",
+        "decoupled"
+      ]
+    },
+    {
+      "verb": "encrypt",
+      "priority": 8,
+      "category": "security",
+      "variants": [
+        "encrypt",
+        "encrypts",
+        "encrypting",
+        "encrypted"
+      ]
+    },
+    {
+      "verb": "authenticate",
+      "priority": 8,
+      "category": "security",
+      "variants": [
+        "authenticate",
+        "authenticates",
+        "authenticating",
+        "authenticated"
+      ]
+    },
+    {
+      "verb": "authorize",
+      "priority": 8,
+      "category": "security",
+      "variants": [
+        "authorize",
+        "authorizes",
+        "authorizing",
+        "authorized"
+      ]
+    },
+    {
+      "verb": "remediate",
+      "priority": 8,
+      "category": "security",
+      "variants": [
+        "remediate",
+        "remediates",
+        "remediating",
+        "remediated"
+      ]
+    },
+    {
+      "verb": "pentest",
+      "priority": 8,
+      "category": "security",
+      "variants": [
+        "pentest",
+        "pentests",
+        "pentesting",
+        "pentested",
+        "penetration test",
+        "penetration tests",
+        "penetration testing",
+        "penetration tested"
+      ]
+    },
+    {
+      "verb": "shard",
+      "priority": 8,
+      "category": "data",
+      "variants": [
+        "shard",
+        "shards",
+        "sharding",
+        "sharded"
+      ]
+    },
+    {
+      "verb": "replicate",
+      "priority": 8,
+      "category": "data",
+      "variants": [
+        "replicate",
+        "replicates",
+        "replicating",
+        "replicated"
+      ]
+    },
+    {
+      "verb": "distribute",
+      "priority": 8,
+      "category": "core_engineering",
+      "variants": [
+        "distribute",
+        "distributes",
+        "distributing",
+        "distributed"
+      ]
+    },
+    {
+      "verb": "virtualize",
+      "priority": 8,
+      "category": "cloud_infra",
+      "variants": [
+        "virtualize",
+        "virtualizes",
+        "virtualizing",
+        "virtualized"
+      ]
+    },
+    {
+      "verb": "federate",
+      "priority": 8,
+      "category": "security",
+      "variants": [
+        "federate",
+        "federates",
+        "federating",
+        "federated"
+      ]
+    },
+    {
+      "verb": "test",
+      "priority": 7,
+      "category": "qa_testing",
+      "variants": [
+        "test",
+        "tests",
+        "testing",
+        "tested"
+      ]
+    },
+    {
+      "verb": "monitor",
+      "priority": 7,
+      "category": "observability",
+      "variants": [
+        "monitor",
+        "monitors",
+        "monitoring",
+        "monitored"
+      ]
+    },
+    {
+      "verb": "scale",
+      "priority": 7,
+      "category": "cloud_infra",
+      "variants": [
+        "scale",
+        "scales",
+        "scaling",
+        "scaled"
+      ]
+    },
+    {
+      "verb": "retrofit",
+      "priority": 7,
+      "category": "core_engineering",
+      "variants": [
+        "retrofit",
+        "retrofits",
+        "retrofitting",
+        "retrofitted"
+      ]
+    },
+    {
+      "verb": "scaffold",
+      "priority": 7,
+      "category": "core_engineering",
+      "variants": [
+        "scaffold",
+        "scaffolds",
+        "scaffolding",
+        "scaffolded"
+      ]
+    },
+    {
+      "verb": "extend",
+      "priority": 7,
+      "category": "core_engineering",
+      "variants": [
+        "extend",
+        "extends",
+        "extending",
+        "extended"
+      ]
+    },
+    {
+      "verb": "prototype",
+      "priority": 7,
+      "category": "core_engineering",
+      "variants": [
+        "prototype",
+        "prototypes",
+        "prototyping",
+        "prototyped"
+      ]
+    },
+    {
+      "verb": "diagnose",
+      "priority": 7,
+      "category": "qa_testing",
+      "variants": [
+        "diagnose",
+        "diagnoses",
+        "diagnosing",
+        "diagnosed"
+      ]
+    },
+    {
+      "verb": "resolve",
+      "priority": 7,
+      "category": "qa_testing",
+      "variants": [
+        "resolve",
+        "resolves",
+        "resolving",
+        "resolved"
+      ]
+    },
+    {
+      "verb": "benchmark",
+      "priority": 7,
+      "category": "performance",
+      "variants": [
+        "benchmark",
+        "benchmarks",
+        "benchmarking",
+        "benchmarked"
+      ]
+    },
+    {
+      "verb": "audit",
+      "priority": 7,
+      "category": "security",
+      "variants": [
+        "audit",
+        "audits",
+        "auditing",
+        "audited"
+      ]
+    },
+    {
+      "verb": "profile",
+      "priority": 7,
+      "category": "performance",
+      "variants": [
+        "profile",
+        "profiles",
+        "profiling",
+        "profiled"
+      ]
+    },
+    {
+      "verb": "tune",
+      "priority": 7,
+      "category": "performance",
+      "variants": [
+        "tune",
+        "tunes",
+        "tuning",
+        "tuned"
+      ]
+    },
+    {
+      "verb": "simulate",
+      "priority": 7,
+      "category": "data",
+      "variants": [
+        "simulate",
+        "simulates",
+        "simulating",
+        "simulated"
+      ]
+    },
+    {
+      "verb": "model",
+      "priority": 7,
+      "category": "data",
+      "variants": [
+        "model",
+        "models",
+        "modeling",
+        "modelled",
+        "modeled",
+        "modelling"
+      ]
+    },
+    {
+      "verb": "load_test",
+      "priority": 7,
+      "category": "qa_testing",
+      "variants": [
+        "load test",
+        "load tests",
+        "load testing",
+        "load tested",
+        "stress test",
+        "stress tests",
+        "stress testing",
+        "stress tested"
+      ]
+    },
+    {
+      "verb": "fuzz_test",
+      "priority": 7,
+      "category": "qa_testing",
+      "variants": [
+        "fuzz test",
+        "fuzz tests",
+        "fuzz testing",
+        "fuzz tested",
+        "fuzz",
+        "fuzzes",
+        "fuzzing",
+        "fuzzed"
+      ]
+    },
+    {
+      "verb": "threat_model",
+      "priority": 7,
+      "category": "security",
+      "variants": [
+        "threat model",
+        "threat models",
+        "threat modeling",
+        "threat modeled",
+        "threat modelled"
+      ]
+    },
+    {
+      "verb": "version",
+      "priority": 7,
+      "category": "release_ops",
+      "variants": [
+        "version",
+        "versions",
+        "versioning",
+        "versioned"
+      ]
+    },
+    {
+      "verb": "port",
+      "priority": 7,
+      "category": "core_engineering",
+      "variants": [
+        "port",
+        "ports",
+        "porting",
+        "ported"
+      ]
+    },
+    {
+      "verb": "sync",
+      "priority": 7,
+      "category": "data",
+      "variants": [
+        "sync",
+        "syncs",
+        "syncing",
+        "synced",
+        "synchronize",
+        "synchronizes",
+        "synchronizing",
+        "synchronized"
+      ]
+    },
+    {
+      "verb": "maintain",
+      "priority": 6,
+      "category": "release_ops",
+      "variants": [
+        "maintain",
+        "maintains",
+        "maintaining",
+        "maintained"
+      ]
+    },
+    {
+      "verb": "update",
+      "priority": 6,
+      "category": "release_ops",
+      "variants": [
+        "update",
+        "updates",
+        "updating",
+        "updated"
+      ]
+    },
+    {
+      "verb": "upgrade",
+      "priority": 6,
+      "category": "release_ops",
+      "variants": [
+        "upgrade",
+        "upgrades",
+        "upgrading",
+        "upgraded"
+      ]
+    },
+    {
+      "verb": "troubleshoot",
+      "priority": 6,
+      "category": "qa_testing",
+      "variants": [
+        "troubleshoot",
+        "troubleshoots",
+        "troubleshooting",
+        "troubleshot"
+      ]
+    },
+    {
+      "verb": "improve",
+      "priority": 6,
+      "category": "core_engineering",
+      "variants": [
+        "improve",
+        "improves",
+        "improving",
+        "improved"
+      ]
+    },
+    {
+      "verb": "enhance",
+      "priority": 6,
+      "category": "core_engineering",
+      "variants": [
+        "enhance",
+        "enhances",
+        "enhancing",
+        "enhanced"
+      ]
+    },
+    {
+      "verb": "patch",
+      "priority": 6,
+      "category": "release_ops",
+      "variants": [
+        "patch",
+        "patches",
+        "patching",
+        "patched"
+      ]
+    },
+    {
+      "verb": "reduce",
+      "priority": 6,
+      "category": "performance",
+      "variants": [
+        "reduce",
+        "reduces",
+        "reducing",
+        "reduced"
+      ]
+    },
+    {
+      "verb": "accelerate",
+      "priority": 6,
+      "category": "performance",
+      "variants": [
+        "accelerate",
+        "accelerates",
+        "accelerating",
+        "accelerated"
+      ]
+    },
+    {
+      "verb": "establish",
+      "priority": 6,
+      "category": "leadership",
+      "variants": [
+        "establish",
+        "establishes",
+        "establishing",
+        "established"
+      ]
+    },
+    {
+      "verb": "evaluate",
+      "priority": 6,
+      "category": "data",
+      "variants": [
+        "evaluate",
+        "evaluates",
+        "evaluating",
+        "evaluated"
+      ]
+    },
+    {
+      "verb": "assess",
+      "priority": 6,
+      "category": "data",
+      "variants": [
+        "assess",
+        "assesses",
+        "assessing",
+        "assessed"
+      ]
+    },
+    {
+      "verb": "oversee",
+      "priority": 6,
+      "category": "leadership",
+      "variants": [
+        "oversee",
+        "oversees",
+        "overseeing",
+        "oversaw",
+        "overseen"
+      ]
+    },
+    {
+      "verb": "manage",
+      "priority": 6,
+      "category": "leadership",
+      "variants": [
+        "manage",
+        "manages",
+        "managing",
+        "managed"
+      ]
+    },
+    {
+      "verb": "rollback",
+      "priority": 6,
+      "category": "release_ops",
+      "variants": [
+        "roll back",
+        "rolls back",
+        "rolling back",
+        "rolled back",
+        "rollback",
+        "rollbacks",
+        "rollbacked"
+      ]
+    },
+    {
+      "verb": "rollout",
+      "priority": 6,
+      "category": "release_ops",
+      "variants": [
+        "roll out",
+        "rolls out",
+        "rolling out",
+        "rolled out",
+        "rollout",
+        "rollouts"
+      ]
+    },
+    {
+      "verb": "deprecate",
+      "priority": 6,
+      "category": "release_ops",
+      "variants": [
+        "deprecate",
+        "deprecates",
+        "deprecating",
+        "deprecated"
+      ]
+    },
+    {
+      "verb": "sunset",
+      "priority": 6,
+      "category": "release_ops",
+      "variants": [
+        "sunset",
+        "sunsets",
+        "sunsetting",
+        "sunsetted"
+      ]
+    },
+    {
+      "verb": "decommission",
+      "priority": 6,
+      "category": "release_ops",
+      "variants": [
+        "decommission",
+        "decommissions",
+        "decommissioning",
+        "decommissioned"
+      ]
+    },
+    {
+      "verb": "triage",
+      "priority": 6,
+      "category": "qa_testing",
+      "variants": [
+        "triage",
+        "triages",
+        "triaging",
+        "triaged"
+      ]
+    },
+    {
+      "verb": "prioritize",
+      "priority": 6,
+      "category": "leadership",
+      "variants": [
+        "prioritize",
+        "prioritizes",
+        "prioritizing",
+        "prioritized"
+      ]
+    },
+    {
+      "verb": "escalate",
+      "priority": 6,
+      "category": "leadership",
+      "variants": [
+        "escalate",
+        "escalates",
+        "escalating",
+        "escalated"
+      ]
+    },
+    {
+      "verb": "review",
+      "priority": 5,
+      "category": "qa_testing",
+      "variants": [
+        "review",
+        "reviews",
+        "reviewing",
+        "reviewed"
+      ]
+    },
+    {
+      "verb": "document",
+      "priority": 5,
+      "category": "documentation",
+      "variants": [
+        "document",
+        "documents",
+        "documenting",
+        "documented"
+      ]
+    },
+    {
+      "verb": "report",
+      "priority": 5,
+      "category": "documentation",
+      "variants": [
+        "report",
+        "reports",
+        "reporting",
+        "reported"
+      ]
+    },
+    {
+      "verb": "administer",
+      "priority": 5,
+      "category": "release_ops",
+      "variants": [
+        "administer",
+        "administers",
+        "administering",
+        "administered"
+      ]
+    },
+    {
+      "verb": "install",
+      "priority": 5,
+      "category": "release_ops",
+      "variants": [
+        "install",
+        "installs",
+        "installing",
+        "installed"
+      ]
+    },
+    {
+      "verb": "customize",
+      "priority": 5,
+      "category": "core_engineering",
+      "variants": [
+        "customize",
+        "customizes",
+        "customizing",
+        "customized"
+      ]
+    },
+    {
+      "verb": "specify",
+      "priority": 5,
+      "category": "documentation",
+      "variants": [
+        "specify",
+        "specifies",
+        "specifying",
+        "specified",
+        "spec out",
+        "specs out",
+        "speccing out",
+        "specced out"
+      ]
+    },
+    {
+      "verb": "estimate",
+      "priority": 5,
+      "category": "documentation",
+      "variants": [
+        "estimate",
+        "estimates",
+        "estimating",
+        "estimated"
+      ]
+    },
+    {
+      "verb": "log",
+      "priority": 5,
+      "category": "observability",
+      "variants": [
+        "log",
+        "logs",
+        "logging",
+        "logged"
+      ]
+    },
+    {
+      "verb": "trace",
+      "priority": 5,
+      "category": "observability",
+      "variants": [
+        "trace",
+        "traces",
+        "tracing",
+        "traced"
+      ]
+    },
+    {
+      "verb": "alert",
+      "priority": 5,
+      "category": "observability",
+      "variants": [
+        "alert",
+        "alerts",
+        "alerting",
+        "alerted"
+      ]
+    },
+    {
+      "verb": "package",
+      "priority": 5,
+      "category": "release_ops",
+      "variants": [
+        "package",
+        "packages",
+        "packaging",
+        "packaged"
+      ]
+    },
+    {
+      "verb": "bundle",
+      "priority": 5,
+      "category": "release_ops",
+      "variants": [
+        "bundle",
+        "bundles",
+        "bundling",
+        "bundled"
+      ]
+    },
+    {
+      "verb": "lint",
+      "priority": 5,
+      "category": "qa_testing",
+      "variants": [
+        "lint",
+        "lints",
+        "linting",
+        "linted"
+      ]
+    },
+    {
+      "verb": "localize",
+      "priority": 5,
+      "category": "core_engineering",
+      "variants": [
+        "localize",
+        "localizes",
+        "localizing",
+        "localized"
+      ]
+    },
+    {
+      "verb": "internationalize",
+      "priority": 5,
+      "category": "core_engineering",
+      "variants": [
+        "internationalize",
+        "internationalizes",
+        "internationalizing",
+        "internationalized"
+      ]
+    },
+    {
+      "verb": "certify",
+      "priority": 5,
+      "category": "documentation",
+      "variants": [
+        "certify",
+        "certifies",
+        "certifying",
+        "certified"
+      ]
+    },
+    {
+      "verb": "collaborate",
+      "priority": 4,
+      "category": "leadership",
+      "variants": [
+        "collaborate",
+        "collaborates",
+        "collaborating",
+        "collaborated"
+      ]
+    },
+    {
+      "verb": "coordinate",
+      "priority": 4,
+      "category": "leadership",
+      "variants": [
+        "coordinate",
+        "coordinates",
+        "coordinating",
+        "coordinated"
+      ]
+    },
+    {
+      "verb": "mentor",
+      "priority": 4,
+      "category": "leadership",
+      "variants": [
+        "mentor",
+        "mentors",
+        "mentoring",
+        "mentored"
+      ]
+    },
+    {
+      "verb": "onboard",
+      "priority": 4,
+      "category": "leadership",
+      "variants": [
+        "onboard",
+        "onboards",
+        "onboarding",
+        "onboarded"
+      ]
+    },
+    {
+      "verb": "pair_program",
+      "priority": 4,
+      "category": "leadership",
+      "variants": [
+        "pair program",
+        "pair programs",
+        "pair programming",
+        "pair programmed"
+      ]
+    },
+    {
+      "verb": "facilitate",
+      "priority": 4,
+      "category": "leadership",
+      "variants": [
+        "facilitate",
+        "facilitates",
+        "facilitating",
+        "facilitated"
+      ]
+    },
+    {
+      "verb": "assist",
+      "priority": 3,
+      "category": "leadership",
+      "variants": [
+        "assist",
+        "assists",
+        "assisting",
+        "assisted"
+      ]
+    },
+    {
+      "verb": "support",
+      "priority": 3,
+      "category": "leadership",
+      "variants": [
+        "support",
+        "supports",
+        "supporting",
+        "supported"
+      ]
+    },
+    {
+      "verb": "use",
+      "priority": 2,
+      "category": "core_engineering",
+      "variants": [
+        "use",
+        "uses",
+        "using",
+        "used",
+        "utilize",
+        "utilized",
+        "utilizing",
+        "utilizes"
+      ]
+    },
+    {
+      "verb": "apply",
+      "priority": 2,
+      "category": "core_engineering",
+      "variants": [
+        "apply",
+        "applies",
+        "applying",
+        "applied"
+      ]
+    },
+    {
+      "verb": "learn",
+      "priority": 1,
+      "category": "growth",
+      "variants": [
+        "learn",
+        "learns",
+        "learning",
+        "learned",
+        "learnt"
+      ]
+    },
+    {
+      "verb": "observe",
+      "priority": 1,
+      "category": "growth",
+      "variants": [
+        "observe",
+        "observes",
+        "observing",
+        "observed"
+      ]
+    },
+    {
+      "verb": "explore",
+      "priority": 1,
+      "category": "growth",
+      "variants": [
+        "explore",
+        "explores",
+        "exploring",
+        "explored"
+      ]
+    },
+    {
+      "verb": "research",
+      "priority": 1,
+      "category": "growth",
+      "variants": [
+        "research",
+        "researches",
+        "researching",
+        "researched"
+      ]
+    },
+    {
+      "verb": "shadow",
+      "priority": 1,
+      "category": "growth",
+      "variants": [
+        "shadow",
+        "shadows",
+        "shadowing",
+        "shadowed"
+      ]
+    }
+  ]
+}

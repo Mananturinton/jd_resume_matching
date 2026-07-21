@@ -1,0 +1,1579 @@
+{
+  "metadata": {
+    "events_processed": 16,
+    "events_skipped": 0,
+    "node_count": 59,
+    "edge_count": 57,
+    "node_counts_by_type": {
+      "action": 10,
+      "object": 15,
+      "tool": 34
+    },
+    "typed_edge_count": 41,
+    "canonical_relations": true,
+    "coverage": {
+      "total_pairs": 44,
+      "by_match_type": {
+        "category_default": 35,
+        "rule": 4,
+        "unconstrained": 5
+      },
+      "by_object_tier": {
+        "heuristic": 37,
+        "fallback": 7
+      },
+      "by_tool_tier": {
+        "exact": 39,
+        "fallback": 5
+      },
+      "rule_match_pct": 9.1,
+      "typed_relation_pct": 88.6,
+      "unknown_tool_pct": 11.4,
+      "unknown_tools": [
+        "Context API",
+        "WCAG",
+        "asset optimization",
+        "code splitting",
+        "lazy loading"
+      ],
+      "unresolved_objects": [
+        "UX/UI designers to improve user experience and usability",
+        "page load times and frontend assets",
+        "pixel-perfect user interfaces from design mockups"
+      ],
+      "distinct_relations": [
+        "authenticated_using",
+        "designed_using",
+        "implemented_using",
+        "queried_using",
+        "related_to",
+        "tested_using",
+        "visualized_using"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "A1",
+      "label": "design",
+      "type": "action",
+      "occurrences": 1,
+      "sentence_ids": [
+        0
+      ]
+    },
+    {
+      "id": "O1",
+      "label": "responsive user interfaces for web applications",
+      "type": "object",
+      "occurrences": 2,
+      "sentence_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "T1",
+      "label": "HTML",
+      "type": "tool",
+      "occurrences": 3,
+      "sentence_ids": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "T2",
+      "label": "CSS",
+      "type": "tool",
+      "occurrences": 4,
+      "sentence_ids": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "T3",
+      "label": "JavaScript",
+      "type": "tool",
+      "occurrences": 4,
+      "sentence_ids": [
+        0,
+        1,
+        8,
+        10
+      ]
+    },
+    {
+      "id": "A2",
+      "label": "develop",
+      "type": "action",
+      "occurrences": 3,
+      "sentence_ids": [
+        1,
+        4,
+        8
+      ]
+    },
+    {
+      "id": "A3",
+      "label": "build",
+      "type": "action",
+      "occurrences": 2,
+      "sentence_ids": [
+        2,
+        10
+      ]
+    },
+    {
+      "id": "O2",
+      "label": "reusable UI components",
+      "type": "object",
+      "occurrences": 1,
+      "sentence_ids": [
+        2
+      ]
+    },
+    {
+      "id": "T4",
+      "label": "React.js",
+      "type": "tool",
+      "occurrences": 2,
+      "sentence_ids": [
+        2,
+        15
+      ]
+    },
+    {
+      "id": "T5",
+      "label": "Angular",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        2
+      ]
+    },
+    {
+      "id": "T6",
+      "label": "Vue.js",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        2
+      ]
+    },
+    {
+      "id": "A4",
+      "label": "implement",
+      "type": "action",
+      "occurrences": 3,
+      "sentence_ids": [
+        3,
+        7,
+        13
+      ]
+    },
+    {
+      "id": "O3",
+      "label": "pixel-perfect user interfaces from design mockups",
+      "type": "object",
+      "occurrences": 1,
+      "sentence_ids": [
+        3
+      ]
+    },
+    {
+      "id": "T7",
+      "label": "Figma",
+      "type": "tool",
+      "occurrences": 2,
+      "sentence_ids": [
+        3,
+        12
+      ]
+    },
+    {
+      "id": "T8",
+      "label": "Adobe XD",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        3
+      ]
+    },
+    {
+      "id": "O4",
+      "label": "responsive layouts for desktop, tablet, and mobile devices",
+      "type": "object",
+      "occurrences": 1,
+      "sentence_ids": [
+        4
+      ]
+    },
+    {
+      "id": "T9",
+      "label": "Bootstrap",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        4
+      ]
+    },
+    {
+      "id": "T10",
+      "label": "Tailwind CSS",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        4
+      ]
+    },
+    {
+      "id": "A5",
+      "label": "integrate",
+      "type": "action",
+      "occurrences": 1,
+      "sentence_ids": [
+        5
+      ]
+    },
+    {
+      "id": "O5",
+      "label": "frontend applications with backend services and APIs",
+      "type": "object",
+      "occurrences": 1,
+      "sentence_ids": [
+        5
+      ]
+    },
+    {
+      "id": "T11",
+      "label": "REST API",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        5
+      ]
+    },
+    {
+      "id": "T12",
+      "label": "GraphQL",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        5
+      ]
+    },
+    {
+      "id": "A6",
+      "label": "optimize",
+      "type": "action",
+      "occurrences": 2,
+      "sentence_ids": [
+        6,
+        11
+      ]
+    },
+    {
+      "id": "O6",
+      "label": "frontend application performance",
+      "type": "object",
+      "occurrences": 1,
+      "sentence_ids": [
+        6
+      ]
+    },
+    {
+      "id": "T13",
+      "label": "lazy loading",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        6
+      ]
+    },
+    {
+      "id": "T14",
+      "label": "code splitting",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        6
+      ]
+    },
+    {
+      "id": "T15",
+      "label": "asset optimization",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        6
+      ]
+    },
+    {
+      "id": "O7",
+      "label": "application state management",
+      "type": "object",
+      "occurrences": 1,
+      "sentence_ids": [
+        7
+      ]
+    },
+    {
+      "id": "T16",
+      "label": "Redux",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        7
+      ]
+    },
+    {
+      "id": "T17",
+      "label": "Context API",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        7
+      ]
+    },
+    {
+      "id": "T18",
+      "label": "NgRx",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        7
+      ]
+    },
+    {
+      "id": "T19",
+      "label": "Vuex",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        7
+      ]
+    },
+    {
+      "id": "O8",
+      "label": "interactive dashboards and data visualization components",
+      "type": "object",
+      "occurrences": 1,
+      "sentence_ids": [
+        8
+      ]
+    },
+    {
+      "id": "T20",
+      "label": "Chart.js",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        8
+      ]
+    },
+    {
+      "id": "T21",
+      "label": "D3.js",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        8
+      ]
+    },
+    {
+      "id": "A7",
+      "label": "ensure",
+      "type": "action",
+      "occurrences": 1,
+      "sentence_ids": [
+        9
+      ]
+    },
+    {
+      "id": "O9",
+      "label": "cross-browser compatibility and accessibility compliance",
+      "type": "object",
+      "occurrences": 1,
+      "sentence_ids": [
+        9
+      ]
+    },
+    {
+      "id": "T22",
+      "label": "WCAG",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        9
+      ]
+    },
+    {
+      "id": "T23",
+      "label": "ARIA",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        9
+      ]
+    },
+    {
+      "id": "O10",
+      "label": "dynamic forms with validation and error handling",
+      "type": "object",
+      "occurrences": 1,
+      "sentence_ids": [
+        10
+      ]
+    },
+    {
+      "id": "T24",
+      "label": "React Hook Form",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        10
+      ]
+    },
+    {
+      "id": "T25",
+      "label": "Formik",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        10
+      ]
+    },
+    {
+      "id": "O11",
+      "label": "page load times and frontend assets",
+      "type": "object",
+      "occurrences": 1,
+      "sentence_ids": [
+        11
+      ]
+    },
+    {
+      "id": "T26",
+      "label": "Webpack",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        11
+      ]
+    },
+    {
+      "id": "T27",
+      "label": "Vite",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        11
+      ]
+    },
+    {
+      "id": "T28",
+      "label": "image optimization",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        11
+      ]
+    },
+    {
+      "id": "A8",
+      "label": "collaborate",
+      "type": "action",
+      "occurrences": 1,
+      "sentence_ids": [
+        12
+      ]
+    },
+    {
+      "id": "O12",
+      "label": "UX/UI designers to improve user experience and usability",
+      "type": "object",
+      "occurrences": 1,
+      "sentence_ids": [
+        12
+      ]
+    },
+    {
+      "id": "O13",
+      "label": "authentication and role-based access control in frontend applications",
+      "type": "object",
+      "occurrences": 1,
+      "sentence_ids": [
+        13
+      ]
+    },
+    {
+      "id": "T29",
+      "label": "JWT",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        13
+      ]
+    },
+    {
+      "id": "T30",
+      "label": "OAuth",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        13
+      ]
+    },
+    {
+      "id": "A9",
+      "label": "perform",
+      "type": "action",
+      "occurrences": 1,
+      "sentence_ids": [
+        14
+      ]
+    },
+    {
+      "id": "O14",
+      "label": "frontend unit, integration, and end-to-end testing",
+      "type": "object",
+      "occurrences": 1,
+      "sentence_ids": [
+        14
+      ]
+    },
+    {
+      "id": "T31",
+      "label": "Jest",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        14
+      ]
+    },
+    {
+      "id": "T32",
+      "label": "React Testing Library",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        14
+      ]
+    },
+    {
+      "id": "T33",
+      "label": "Cypress",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        14
+      ]
+    },
+    {
+      "id": "A10",
+      "label": "maintain",
+      "type": "action",
+      "occurrences": 1,
+      "sentence_ids": [
+        15
+      ]
+    },
+    {
+      "id": "O15",
+      "label": "reusable component libraries and design systems",
+      "type": "object",
+      "occurrences": 1,
+      "sentence_ids": [
+        15
+      ]
+    },
+    {
+      "id": "T34",
+      "label": "Storybook",
+      "type": "tool",
+      "occurrences": 1,
+      "sentence_ids": [
+        15
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "A1",
+      "target": "O1",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        0
+      ],
+      "evidence": []
+    },
+    {
+      "source": "O1",
+      "target": "T1",
+      "relation": "implemented_using",
+      "weight": 2,
+      "sentence_ids": [
+        0,
+        1
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Application",
+      "object_category_tier": "heuristic",
+      "tool_category": "Markup / Styling Language"
+    },
+    {
+      "source": "O1",
+      "target": "T2",
+      "relation": "implemented_using",
+      "weight": 2,
+      "sentence_ids": [
+        0,
+        1
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Application",
+      "object_category_tier": "heuristic",
+      "tool_category": "Markup / Styling Language"
+    },
+    {
+      "source": "O1",
+      "target": "T3",
+      "relation": "implemented_using",
+      "weight": 2,
+      "sentence_ids": [
+        0,
+        1
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Application",
+      "object_category_tier": "heuristic",
+      "tool_category": "Programming Language"
+    },
+    {
+      "source": "A2",
+      "target": "O1",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        1
+      ],
+      "evidence": []
+    },
+    {
+      "source": "A3",
+      "target": "O2",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        2
+      ],
+      "evidence": []
+    },
+    {
+      "source": "O2",
+      "target": "T4",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        2
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Component",
+      "object_category_tier": "heuristic",
+      "tool_category": "Frontend Framework"
+    },
+    {
+      "source": "O2",
+      "target": "T5",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        2
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Component",
+      "object_category_tier": "heuristic",
+      "tool_category": "Frontend Framework"
+    },
+    {
+      "source": "O2",
+      "target": "T6",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        2
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Component",
+      "object_category_tier": "heuristic",
+      "tool_category": "Frontend Framework"
+    },
+    {
+      "source": "A4",
+      "target": "O3",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        3
+      ],
+      "evidence": []
+    },
+    {
+      "source": "O3",
+      "target": "T7",
+      "relation": "designed_using",
+      "weight": 1,
+      "sentence_ids": [
+        3
+      ],
+      "evidence": [],
+      "raw_relation": "designed_with",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Generic Component",
+      "object_category_tier": "fallback",
+      "tool_category": "Design Tool"
+    },
+    {
+      "source": "O3",
+      "target": "T8",
+      "relation": "designed_using",
+      "weight": 1,
+      "sentence_ids": [
+        3
+      ],
+      "evidence": [],
+      "raw_relation": "designed_with",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Generic Component",
+      "object_category_tier": "fallback",
+      "tool_category": "Design Tool"
+    },
+    {
+      "source": "O3",
+      "target": "T2",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        3
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Generic Component",
+      "object_category_tier": "fallback",
+      "tool_category": "Markup / Styling Language"
+    },
+    {
+      "source": "A2",
+      "target": "O4",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        4
+      ],
+      "evidence": []
+    },
+    {
+      "source": "O4",
+      "target": "T1",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        4
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Device",
+      "object_category_tier": "heuristic",
+      "tool_category": "Markup / Styling Language"
+    },
+    {
+      "source": "O4",
+      "target": "T2",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        4
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Device",
+      "object_category_tier": "heuristic",
+      "tool_category": "Markup / Styling Language"
+    },
+    {
+      "source": "O4",
+      "target": "T9",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        4
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Device",
+      "object_category_tier": "heuristic",
+      "tool_category": "Frontend Framework"
+    },
+    {
+      "source": "O4",
+      "target": "T10",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        4
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Device",
+      "object_category_tier": "heuristic",
+      "tool_category": "Markup / Styling Language"
+    },
+    {
+      "source": "A5",
+      "target": "O5",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        5
+      ],
+      "evidence": []
+    },
+    {
+      "source": "O5",
+      "target": "T11",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        5
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "API",
+      "object_category_tier": "heuristic",
+      "tool_category": "Framework"
+    },
+    {
+      "source": "O5",
+      "target": "T12",
+      "relation": "queried_using",
+      "weight": 1,
+      "sentence_ids": [
+        5
+      ],
+      "evidence": [],
+      "raw_relation": "queried_via",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "API",
+      "object_category_tier": "heuristic",
+      "tool_category": "Query Language"
+    },
+    {
+      "source": "A6",
+      "target": "O6",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        6
+      ],
+      "evidence": []
+    },
+    {
+      "source": "O6",
+      "target": "T13",
+      "relation": "related_to",
+      "weight": 1,
+      "sentence_ids": [
+        6
+      ],
+      "evidence": [],
+      "raw_relation": "related_to",
+      "match_type": "unconstrained",
+      "semantic_class": null,
+      "object_category": "Process",
+      "object_category_tier": "heuristic",
+      "tool_category": "Tool"
+    },
+    {
+      "source": "O6",
+      "target": "T14",
+      "relation": "related_to",
+      "weight": 1,
+      "sentence_ids": [
+        6
+      ],
+      "evidence": [],
+      "raw_relation": "related_to",
+      "match_type": "unconstrained",
+      "semantic_class": null,
+      "object_category": "Process",
+      "object_category_tier": "heuristic",
+      "tool_category": "Tool"
+    },
+    {
+      "source": "O6",
+      "target": "T15",
+      "relation": "related_to",
+      "weight": 1,
+      "sentence_ids": [
+        6
+      ],
+      "evidence": [],
+      "raw_relation": "related_to",
+      "match_type": "unconstrained",
+      "semantic_class": null,
+      "object_category": "Process",
+      "object_category_tier": "heuristic",
+      "tool_category": "Tool"
+    },
+    {
+      "source": "A4",
+      "target": "O7",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        7
+      ],
+      "evidence": []
+    },
+    {
+      "source": "O7",
+      "target": "T16",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        7
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Process",
+      "object_category_tier": "heuristic",
+      "tool_category": "Frontend Framework"
+    },
+    {
+      "source": "O7",
+      "target": "T17",
+      "relation": "related_to",
+      "weight": 1,
+      "sentence_ids": [
+        7
+      ],
+      "evidence": [],
+      "raw_relation": "related_to",
+      "match_type": "unconstrained",
+      "semantic_class": null,
+      "object_category": "Process",
+      "object_category_tier": "heuristic",
+      "tool_category": "Tool"
+    },
+    {
+      "source": "O7",
+      "target": "T18",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        7
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Process",
+      "object_category_tier": "heuristic",
+      "tool_category": "Frontend Framework"
+    },
+    {
+      "source": "O7",
+      "target": "T19",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        7
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Process",
+      "object_category_tier": "heuristic",
+      "tool_category": "Frontend Framework"
+    },
+    {
+      "source": "A2",
+      "target": "O8",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        8
+      ],
+      "evidence": []
+    },
+    {
+      "source": "O8",
+      "target": "T3",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        8
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "rule",
+      "semantic_class": "Development",
+      "object_category": "Component",
+      "object_category_tier": "heuristic",
+      "tool_category": "Programming Language"
+    },
+    {
+      "source": "O8",
+      "target": "T20",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        8
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Component",
+      "object_category_tier": "heuristic",
+      "tool_category": "Frontend Framework"
+    },
+    {
+      "source": "O8",
+      "target": "T21",
+      "relation": "visualized_using",
+      "weight": 1,
+      "sentence_ids": [
+        8
+      ],
+      "evidence": [],
+      "raw_relation": "visualized_with",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Component",
+      "object_category_tier": "heuristic",
+      "tool_category": "Visualization Tool / Library"
+    },
+    {
+      "source": "A7",
+      "target": "O9",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        9
+      ],
+      "evidence": []
+    },
+    {
+      "source": "O9",
+      "target": "T22",
+      "relation": "related_to",
+      "weight": 1,
+      "sentence_ids": [
+        9
+      ],
+      "evidence": [],
+      "raw_relation": "related_to",
+      "match_type": "unconstrained",
+      "semantic_class": null,
+      "object_category": "Process",
+      "object_category_tier": "heuristic",
+      "tool_category": "Tool"
+    },
+    {
+      "source": "O9",
+      "target": "T23",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        9
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Process",
+      "object_category_tier": "heuristic",
+      "tool_category": "Frontend Framework"
+    },
+    {
+      "source": "A3",
+      "target": "O10",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        10
+      ],
+      "evidence": []
+    },
+    {
+      "source": "O10",
+      "target": "T24",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        10
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Process",
+      "object_category_tier": "heuristic",
+      "tool_category": "Frontend Framework"
+    },
+    {
+      "source": "O10",
+      "target": "T25",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        10
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Process",
+      "object_category_tier": "heuristic",
+      "tool_category": "Frontend Framework"
+    },
+    {
+      "source": "O10",
+      "target": "T3",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        10
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Process",
+      "object_category_tier": "heuristic",
+      "tool_category": "Programming Language"
+    },
+    {
+      "source": "A6",
+      "target": "O11",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        11
+      ],
+      "evidence": []
+    },
+    {
+      "source": "O11",
+      "target": "T26",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        11
+      ],
+      "evidence": [],
+      "raw_relation": "built_with",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Generic Component",
+      "object_category_tier": "fallback",
+      "tool_category": "Build Tool"
+    },
+    {
+      "source": "O11",
+      "target": "T27",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        11
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Generic Component",
+      "object_category_tier": "fallback",
+      "tool_category": "Frontend Framework"
+    },
+    {
+      "source": "O11",
+      "target": "T28",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        11
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Generic Component",
+      "object_category_tier": "fallback",
+      "tool_category": "Frontend Framework"
+    },
+    {
+      "source": "A8",
+      "target": "O12",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        12
+      ],
+      "evidence": []
+    },
+    {
+      "source": "O12",
+      "target": "T7",
+      "relation": "designed_using",
+      "weight": 1,
+      "sentence_ids": [
+        12
+      ],
+      "evidence": [],
+      "raw_relation": "designed_with",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Generic Component",
+      "object_category_tier": "fallback",
+      "tool_category": "Design Tool"
+    },
+    {
+      "source": "A4",
+      "target": "O13",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        13
+      ],
+      "evidence": []
+    },
+    {
+      "source": "O13",
+      "target": "T29",
+      "relation": "authenticated_using",
+      "weight": 1,
+      "sentence_ids": [
+        13
+      ],
+      "evidence": [],
+      "raw_relation": "authenticated_via",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Application",
+      "object_category_tier": "heuristic",
+      "tool_category": "Authentication Tool"
+    },
+    {
+      "source": "O13",
+      "target": "T30",
+      "relation": "authenticated_using",
+      "weight": 1,
+      "sentence_ids": [
+        13
+      ],
+      "evidence": [],
+      "raw_relation": "authenticated_via",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Application",
+      "object_category_tier": "heuristic",
+      "tool_category": "Authentication Tool"
+    },
+    {
+      "source": "A9",
+      "target": "O14",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        14
+      ],
+      "evidence": []
+    },
+    {
+      "source": "O14",
+      "target": "T31",
+      "relation": "tested_using",
+      "weight": 1,
+      "sentence_ids": [
+        14
+      ],
+      "evidence": [],
+      "raw_relation": "tested_with",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Process",
+      "object_category_tier": "heuristic",
+      "tool_category": "Testing Tool"
+    },
+    {
+      "source": "O14",
+      "target": "T32",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        14
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Process",
+      "object_category_tier": "heuristic",
+      "tool_category": "Frontend Framework"
+    },
+    {
+      "source": "O14",
+      "target": "T33",
+      "relation": "tested_using",
+      "weight": 1,
+      "sentence_ids": [
+        14
+      ],
+      "evidence": [],
+      "raw_relation": "tested_with",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "Process",
+      "object_category_tier": "heuristic",
+      "tool_category": "Testing Tool"
+    },
+    {
+      "source": "A10",
+      "target": "O15",
+      "relation": "acts_on",
+      "weight": 1,
+      "sentence_ids": [
+        15
+      ],
+      "evidence": []
+    },
+    {
+      "source": "O15",
+      "target": "T34",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        15
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "System",
+      "object_category_tier": "heuristic",
+      "tool_category": "Frontend Framework"
+    },
+    {
+      "source": "O15",
+      "target": "T4",
+      "relation": "implemented_using",
+      "weight": 1,
+      "sentence_ids": [
+        15
+      ],
+      "evidence": [],
+      "raw_relation": "implemented_using",
+      "match_type": "category_default",
+      "semantic_class": null,
+      "object_category": "System",
+      "object_category_tier": "heuristic",
+      "tool_category": "Frontend Framework"
+    }
+  ],
+  "classification": {
+    "domain": "Engineering",
+    "subdomains": [
+      "Frontend Developer"
+    ],
+    "sentence_level_classification": [
+      {
+        "sentence_id": 0,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "Frontend Developer"
+          ]
+        }
+      },
+      {
+        "sentence_id": 1,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "Frontend Developer"
+          ]
+        }
+      },
+      {
+        "sentence_id": 2,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "Frontend Developer"
+          ]
+        }
+      },
+      {
+        "sentence_id": 3,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "UI UX Engineering"
+          ]
+        }
+      },
+      {
+        "sentence_id": 4,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "Frontend Developer"
+          ]
+        }
+      },
+      {
+        "sentence_id": 5,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "Backend Engineering",
+            "API / Integration Engineering"
+          ]
+        }
+      },
+      {
+        "sentence_id": 6,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "Frontend Developer"
+          ]
+        }
+      },
+      {
+        "sentence_id": 7,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "Frontend Developer"
+          ]
+        }
+      },
+      {
+        "sentence_id": 8,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "Data Analytics and Business Intelligence"
+          ]
+        }
+      },
+      {
+        "sentence_id": 9,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "Frontend Developer"
+          ]
+        }
+      },
+      {
+        "sentence_id": 10,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "Frontend Developer"
+          ]
+        }
+      },
+      {
+        "sentence_id": 11,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "Frontend Developer"
+          ]
+        }
+      },
+      {
+        "sentence_id": 12,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "UI UX Engineering"
+          ]
+        }
+      },
+      {
+        "sentence_id": 13,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "Backend Engineering"
+          ]
+        }
+      },
+      {
+        "sentence_id": 14,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "Frontend Developer"
+          ]
+        }
+      },
+      {
+        "sentence_id": 15,
+        "classification": {
+          "domain": "Engineering",
+          "subdomains": [
+            "Frontend Developer"
+          ]
+        }
+      }
+    ]
+  }
+}

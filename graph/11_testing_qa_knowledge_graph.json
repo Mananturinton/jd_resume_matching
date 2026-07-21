@@ -1,0 +1,2004 @@
+[
+  {
+    "id": 1,
+    "gid": 123,
+    "name": "JUnit",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Java Unit Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Java Unit Testing Frameworks"
+    },
+    "aliases": [
+      "JUnit",
+      "JUnit4",
+      "JUnit5",
+      "JUnit Jupiter",
+      "junit.org"
+    ],
+    "concepts": [
+      "Test Classes",
+      "Test Methods",
+      "@Test Annotation",
+      "Assertions",
+      "assertEquals",
+      "assertTrue/assertFalse",
+      "assertThrows",
+      "assertAll",
+      "Setup and Teardown",
+      "@BeforeEach",
+      "@AfterEach",
+      "@BeforeAll",
+      "@AfterAll",
+      "@BeforeClass/@AfterClass (JUnit4)",
+      "@Before/@After (JUnit4)",
+      "Test Lifecycle",
+      "Parameterized Tests",
+      "@ParameterizedTest",
+      "@ValueSource",
+      "@CsvSource",
+      "@MethodSource",
+      "@EnumSource",
+      "Test Suites",
+      "@Suite",
+      "Nested Tests (@Nested)",
+      "Tagging Tests (@Tag)",
+      "Conditional Test Execution",
+      "@Disabled",
+      "@EnabledOnOs",
+      "Timeout Testing (@Timeout)",
+      "Exception Testing",
+      "Test Fixtures",
+      "Mock Integration (Mockito)",
+      "JUnit Extensions (JUnit5 Extension Model)",
+      "@ExtendWith",
+      "Custom Extensions",
+      "Assertions Library (Hamcrest Integration)",
+      "AssertJ Integration",
+      "Test Runners (JUnit4)",
+      "@RunWith",
+      "Spring Test Integration (@SpringBootTest)",
+      "Test Coverage (JaCoCo Integration)",
+      "Maven Surefire/Failsafe Integration",
+      "Gradle Test Integration",
+      "IDE Test Runners (IntelliJ/Eclipse)",
+      "Test-Driven Development (TDD)",
+      "Behavior-Driven Development (BDD) Style Naming",
+      "Dynamic Tests",
+      "Repeated Tests (@RepeatedTest)",
+      "Test Ordering",
+      "Display Names (@DisplayName)",
+      "Assumptions (assumeTrue)",
+      "Rule-Based Testing (JUnit4 @Rule)",
+      "TestWatcher",
+      "CI/CD Integration"
+    ],
+    "roles": [
+      {
+        "role": "Java Developer",
+        "importance": 0.9345,
+        "concepts": [
+          "Test Classes",
+          "@Test Annotation",
+          "Assertions",
+          "assertEquals",
+          "Setup and Teardown",
+          "@BeforeEach",
+          "@AfterEach",
+          "Parameterized Tests",
+          "Exception Testing",
+          "Mock Integration (Mockito)"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.8823,
+        "concepts": [
+          "Test Classes",
+          "Parameterized Tests",
+          "Test Suites",
+          "Nested Tests (@Nested)",
+          "Tagging Tests (@Tag)",
+          "JUnit Extensions (JUnit5 Extension Model)",
+          "CI/CD Integration",
+          "Test Coverage (JaCoCo Integration)"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.9123,
+        "concepts": [
+          "Test Classes",
+          "Custom Extensions",
+          "@ExtendWith",
+          "Test-Driven Development (TDD)",
+          "Test Coverage (JaCoCo Integration)",
+          "CI/CD Integration",
+          "Selenium Integration (via JUnit)"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.7523,
+        "concepts": [
+          "Test Classes",
+          "@Test Annotation",
+          "Assertions",
+          "Mock Integration (Mockito)",
+          "Spring Test Integration (@SpringBootTest)"
+        ]
+      },
+      {
+        "role": "Technical Lead",
+        "importance": 0.4523,
+        "concepts": [
+          "Test-Driven Development (TDD)",
+          "Test Coverage (JaCoCo Integration)",
+          "CI/CD Integration",
+          "Test Suites"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Java",
+      "Object-Oriented Programming",
+      "Annotations (Java)",
+      "Maven or Gradle Basics",
+      "Exception Handling (Java)",
+      "IDE Usage (IntelliJ/Eclipse)",
+      "Git",
+      "Testing Fundamentals",
+      "Assertions Concept",
+      "Command Line Interface"
+    ]
+  },
+  {
+    "id": 2,
+    "gid": 124,
+    "name": "Mockito",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Java Mocking Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Mocking / Test Double Frameworks"
+    },
+    "aliases": [
+      "Mockito",
+      "Mockito Framework",
+      "site.mockito.org"
+    ],
+    "concepts": [
+      "Mock Objects",
+      "mock()",
+      "@Mock Annotation",
+      "Stubbing",
+      "when()/thenReturn()",
+      "thenThrow()",
+      "doReturn()/when()",
+      "Argument Matchers",
+      "any()/anyString()/anyInt()",
+      "Verification",
+      "verify()",
+      "verify(times())",
+      "verifyNoInteractions()",
+      "verifyNoMoreInteractions()",
+      "Spy Objects",
+      "@Spy Annotation",
+      "spy()",
+      "Argument Captor",
+      "@Captor",
+      "ArgumentCaptor",
+      "Mocking Void Methods",
+      "doNothing()/doThrow()",
+      "InjectMocks",
+      "@InjectMocks",
+      "MockitoAnnotations.openMocks()",
+      "MockitoExtension (JUnit5)",
+      "@ExtendWith(MockitoExtension.class)",
+      "BDD Mockito Style (given/willReturn)",
+      "Strict Stubbing",
+      "Lenient Stubbing",
+      "Mocking Static Methods (Mockito-inline)",
+      "Mocking Final Classes",
+      "Answer Interface (Custom Answers)",
+      "Deep Stubs",
+      "Mocking Constructors",
+      "Test Doubles Concept (Mock/Stub/Fake/Spy)",
+      "Dependency Isolation",
+      "Behavior Verification vs State Verification",
+      "Mockito with Spring Boot Test",
+      "Reset Mocks",
+      "InOrder Verification",
+      "Timeout Verification"
+    ],
+    "roles": [
+      {
+        "role": "Java Developer",
+        "importance": 0.9012,
+        "concepts": [
+          "Mock Objects",
+          "mock()",
+          "@Mock Annotation",
+          "Stubbing",
+          "when()/thenReturn()",
+          "Verification",
+          "verify()",
+          "Argument Matchers",
+          "@InjectMocks"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.7234,
+        "concepts": [
+          "Mock Objects",
+          "Stubbing",
+          "Verification",
+          "Spy Objects",
+          "Argument Captor",
+          "Test Doubles Concept (Mock/Stub/Fake/Spy)"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.8123,
+        "concepts": [
+          "Mock Objects",
+          "Stubbing",
+          "Verification",
+          "Argument Captor",
+          "Behavior Verification vs State Verification",
+          "Mockito with Spring Boot Test"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.8834,
+        "concepts": [
+          "Mock Objects",
+          "@Mock Annotation",
+          "@InjectMocks",
+          "Stubbing",
+          "Verification",
+          "Dependency Isolation",
+          "Mockito with Spring Boot Test"
+        ]
+      },
+      {
+        "role": "Unit Testing Specialist",
+        "importance": 0.8945,
+        "concepts": [
+          "Mock Objects",
+          "Spy Objects",
+          "Argument Captor",
+          "Answer Interface (Custom Answers)",
+          "Deep Stubs",
+          "Mocking Static Methods (Mockito-inline)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Java",
+      "JUnit",
+      "Object-Oriented Programming",
+      "Interfaces (Java)",
+      "Dependency Injection Concept",
+      "Unit Testing Fundamentals",
+      "Maven or Gradle Basics",
+      "Testing Doubles Concept"
+    ]
+  },
+  {
+    "id": 3,
+    "gid": 125,
+    "name": "pytest",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Python Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Python Testing Frameworks"
+    },
+    "aliases": [
+      "pytest",
+      "PyTest",
+      "py.test",
+      "docs.pytest.org"
+    ],
+    "concepts": [
+      "Test Functions",
+      "Assert Statements",
+      "Test Discovery",
+      "conftest.py",
+      "Fixtures",
+      "@pytest.fixture",
+      "Fixture Scope (function/class/module/session)",
+      "Yield Fixtures",
+      "Fixture Finalization",
+      "Parametrization",
+      "@pytest.mark.parametrize",
+      "Markers",
+      "Custom Markers",
+      "@pytest.mark.skip",
+      "@pytest.mark.skipif",
+      "@pytest.mark.xfail",
+      "Test Classes",
+      "Setup/Teardown Methods",
+      "Monkeypatching",
+      "monkeypatch fixture",
+      "Mocking (unittest.mock/pytest-mock)",
+      "Exception Testing (pytest.raises)",
+      "Warning Testing (pytest.warns)",
+      "Plugins",
+      "pytest-cov (Coverage)",
+      "pytest-django",
+      "pytest-asyncio",
+      "pytest-xdist (Parallel Testing)",
+      "pytest-mock",
+      "pytest-bdd",
+      "Assertion Introspection (Assertion Rewriting)",
+      "Test Reports (HTML/JUnit XML)",
+      "Command Line Options",
+      "pytest.ini / pyproject.toml Configuration",
+      "Tmp Path Fixture",
+      "Capsys/Capfd (Output Capturing)",
+      "Doctest Integration",
+      "Test Collection",
+      "Test IDs",
+      "Parametrized Fixtures",
+      "Indirect Parametrization",
+      "Hooks (pytest Plugin Hooks)",
+      "Custom Plugins",
+      "Test Reruns (pytest-rerunfailures)",
+      "Snapshot Testing",
+      "Property-Based Testing (Hypothesis Integration)"
+    ],
+    "roles": [
+      {
+        "role": "Python Developer",
+        "importance": 0.9456,
+        "concepts": [
+          "Test Functions",
+          "Assert Statements",
+          "Fixtures",
+          "@pytest.fixture",
+          "Parametrization",
+          "@pytest.mark.parametrize",
+          "Markers",
+          "Exception Testing (pytest.raises)",
+          "Mocking (unittest.mock/pytest-mock)"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.9234,
+        "concepts": [
+          "Test Functions",
+          "Fixtures",
+          "Parametrization",
+          "Markers",
+          "Plugins",
+          "pytest-xdist (Parallel Testing)",
+          "Test Reports (HTML/JUnit XML)",
+          "conftest.py"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.9345,
+        "concepts": [
+          "Fixtures",
+          "Parametrization",
+          "Custom Plugins",
+          "Hooks (pytest Plugin Hooks)",
+          "pytest-xdist (Parallel Testing)",
+          "Property-Based Testing (Hypothesis Integration)"
+        ]
+      },
+      {
+        "role": "Data Scientist / ML Engineer",
+        "importance": 0.4523,
+        "concepts": [
+          "Test Functions",
+          "Assert Statements",
+          "Fixtures",
+          "Parametrization"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.8623,
+        "concepts": [
+          "Test Functions",
+          "Fixtures",
+          "pytest-django",
+          "Mocking (unittest.mock/pytest-mock)",
+          "Exception Testing (pytest.raises)",
+          "conftest.py"
+        ]
+      },
+      {
+        "role": "DevOps / CI Engineer",
+        "importance": 0.4123,
+        "concepts": [
+          "pytest-cov (Coverage)",
+          "Test Reports (HTML/JUnit XML)",
+          "Command Line Options",
+          "pytest.ini / pyproject.toml Configuration"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Python",
+      "Functions",
+      "Decorators (Python)",
+      "Object-Oriented Programming",
+      "Modules and Packages",
+      "Virtual Environments",
+      "pip",
+      "Testing Fundamentals",
+      "Assertions Concept",
+      "Command Line Interface",
+      "Git"
+    ]
+  },
+  {
+    "id": 4,
+    "gid": 126,
+    "name": "Jest",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "JavaScript Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "JavaScript/TypeScript Testing Frameworks"
+    },
+    "aliases": [
+      "Jest",
+      "Jest Framework",
+      "Meta Jest",
+      "jestjs.io"
+    ],
+    "concepts": [
+      "Test Suites (describe)",
+      "Test Cases (test/it)",
+      "Assertions (expect)",
+      "Matchers",
+      "toBe/toEqual/toStrictEqual",
+      "toContain",
+      "toThrow",
+      "Setup/Teardown (beforeEach/afterEach/beforeAll/afterAll)",
+      "Mock Functions",
+      "jest.fn()",
+      "jest.mock()",
+      "jest.spyOn()",
+      "Mock Implementations",
+      "mockReturnValue/mockResolvedValue",
+      "Automatic Mocking",
+      "Manual Mocks (__mocks__)",
+      "Module Mocking",
+      "Timer Mocks (jest.useFakeTimers)",
+      "Snapshot Testing",
+      "toMatchSnapshot",
+      "Inline Snapshots",
+      "Async Testing",
+      "Testing Promises",
+      "Testing Async/Await",
+      "Code Coverage (--coverage)",
+      "Coverage Thresholds",
+      "Test Configuration (jest.config.js)",
+      "Test Environment (jsdom/node)",
+      "Setup Files",
+      "Watch Mode",
+      "Parallel Test Execution",
+      "Test Matching Patterns",
+      "React Testing Library Integration",
+      "Enzyme Integration (legacy)",
+      "Testing React Components",
+      "Testing Hooks",
+      "Testing Redux",
+      "Mocking Modules/APIs",
+      "Mocking Fetch/Axios",
+      "Babel Integration",
+      "TypeScript with Jest (ts-jest)",
+      "Global Setup/Teardown",
+      "Custom Matchers",
+      "Test Reporters",
+      "CI Integration"
+    ],
+    "roles": [
+      {
+        "role": "Frontend Developer",
+        "importance": 0.9123,
+        "concepts": [
+          "Test Suites (describe)",
+          "Test Cases (test/it)",
+          "Assertions (expect)",
+          "Matchers",
+          "Mock Functions",
+          "jest.fn()",
+          "React Testing Library Integration",
+          "Testing React Components",
+          "Snapshot Testing"
+        ]
+      },
+      {
+        "role": "JavaScript Developer",
+        "importance": 0.8756,
+        "concepts": [
+          "Test Suites (describe)",
+          "Assertions (expect)",
+          "Mock Functions",
+          "Async Testing",
+          "Testing Promises",
+          "Code Coverage (--coverage)"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.8234,
+        "concepts": [
+          "Test Suites (describe)",
+          "Mock Functions",
+          "Snapshot Testing",
+          "Code Coverage (--coverage)",
+          "CI Integration",
+          "Test Reporters"
+        ]
+      },
+      {
+        "role": "React Developer",
+        "importance": 0.8934,
+        "concepts": [
+          "React Testing Library Integration",
+          "Testing React Components",
+          "Testing Hooks",
+          "Mock Functions",
+          "Snapshot Testing",
+          "Testing Redux"
+        ]
+      },
+      {
+        "role": "Full Stack Developer",
+        "importance": 0.7123,
+        "concepts": [
+          "Test Suites (describe)",
+          "Mock Functions",
+          "Mocking Modules/APIs",
+          "Mocking Fetch/Axios",
+          "Testing Async/Await"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.7645,
+        "concepts": [
+          "Custom Matchers",
+          "Test Configuration (jest.config.js)",
+          "Global Setup/Teardown",
+          "Coverage Thresholds",
+          "CI Integration"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "ES6+ Syntax",
+      "Node.js",
+      "npm/yarn",
+      "Asynchronous JavaScript",
+      "Promises",
+      "Async/Await",
+      "Testing Fundamentals",
+      "Assertions Concept",
+      "Git",
+      "Command Line Interface",
+      "React Basics (for React testing)"
+    ]
+  },
+  {
+    "id": 5,
+    "gid": 127,
+    "name": "Vitest",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "JavaScript/TypeScript Testing Framework (Vite-Native)",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "JavaScript/TypeScript Testing Frameworks"
+    },
+    "aliases": [
+      "Vitest",
+      "vitest.dev"
+    ],
+    "concepts": [
+      "Test Suites (describe)",
+      "Test Cases (test/it)",
+      "Assertions (expect)",
+      "Jest-Compatible API",
+      "Matchers",
+      "Mock Functions (vi.fn())",
+      "vi.mock()",
+      "vi.spyOn()",
+      "Setup/Teardown Hooks",
+      "Snapshot Testing",
+      "In-Source Testing",
+      "Watch Mode",
+      "HMR-Powered Test Reruns",
+      "Native ESM Support",
+      "TypeScript Support (out of the box)",
+      "Vite Config Integration",
+      "Test Environment (jsdom/happy-dom/node)",
+      "Code Coverage (c8/istanbul)",
+      "UI Mode (Vitest UI)",
+      "Concurrent Testing",
+      "Workspaces (Monorepo Testing)",
+      "Testing Vue Components",
+      "Testing React Components",
+      "Testing Composables/Hooks",
+      "Mocking Modules",
+      "Timer Mocks",
+      "Benchmarking (vitest bench)",
+      "Type Testing (expectTypeOf)",
+      "Global Test APIs",
+      "Custom Matchers",
+      "Test Filtering",
+      "CI Integration",
+      "Browser Mode (Experimental)"
+    ],
+    "roles": [
+      {
+        "role": "Frontend Developer",
+        "importance": 0.8734,
+        "concepts": [
+          "Test Suites (describe)",
+          "Assertions (expect)",
+          "Mock Functions (vi.fn())",
+          "Testing Vue Components",
+          "Testing React Components",
+          "Snapshot Testing",
+          "Vite Config Integration"
+        ]
+      },
+      {
+        "role": "Vue Developer",
+        "importance": 0.8623,
+        "concepts": [
+          "Test Suites (describe)",
+          "Testing Vue Components",
+          "Testing Composables/Hooks",
+          "Mock Functions (vi.fn())",
+          "Vite Config Integration"
+        ]
+      },
+      {
+        "role": "JavaScript/TypeScript Developer",
+        "importance": 0.8123,
+        "concepts": [
+          "Test Suites (describe)",
+          "Jest-Compatible API",
+          "Native ESM Support",
+          "TypeScript Support (out of the box)",
+          "Code Coverage (c8/istanbul)"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.6934,
+        "concepts": [
+          "Test Suites (describe)",
+          "Mock Functions (vi.fn())",
+          "Code Coverage (c8/istanbul)",
+          "CI Integration",
+          "Concurrent Testing"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.6234,
+        "concepts": [
+          "Benchmarking (vitest bench)",
+          "Type Testing (expectTypeOf)",
+          "Workspaces (Monorepo Testing)",
+          "UI Mode (Vitest UI)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "TypeScript",
+      "ES Modules",
+      "Node.js",
+      "npm/yarn/pnpm",
+      "Vite Basics",
+      "Testing Fundamentals",
+      "Assertions Concept",
+      "Async/Await",
+      "Git",
+      "Command Line Interface"
+    ]
+  },
+  {
+    "id": 6,
+    "gid": 128,
+    "name": "Mocha",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "JavaScript Test Runner",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "JavaScript Testing Frameworks"
+    },
+    "aliases": [
+      "Mocha",
+      "Mocha.js",
+      "mochajs.org"
+    ],
+    "concepts": [
+      "Test Suites (describe)",
+      "Test Cases (it)",
+      "Hooks (before/after/beforeEach/afterEach)",
+      "Asynchronous Testing (done callback)",
+      "Promise Support",
+      "Async/Await Support",
+      "Assertion Library Agnostic",
+      "Chai Integration",
+      "Sinon Integration",
+      "Reporters (spec/dot/nyan/json)",
+      "Custom Reporters",
+      "Test Timeouts",
+      "Retries",
+      "Pending Tests (skip)",
+      "Exclusive Tests (only)",
+      "Test Configuration (.mocharc)",
+      "Root Hooks",
+      "Parallel Mode",
+      "Command Line Interface (mocha CLI)",
+      "Glob Pattern Test Matching",
+      "Browser Testing Support",
+      "Test Coverage (nyc/Istanbul Integration)",
+      "BDD Interface",
+      "TDD Interface",
+      "QUnit Interface",
+      "Exports Interface",
+      "Global Setup/Teardown",
+      "ES Modules Support",
+      "TypeScript Support (ts-node)"
+    ],
+    "roles": [
+      {
+        "role": "JavaScript Developer",
+        "importance": 0.7823,
+        "concepts": [
+          "Test Suites (describe)",
+          "Test Cases (it)",
+          "Hooks (before/after/beforeEach/afterEach)",
+          "Chai Integration",
+          "Asynchronous Testing (done callback)",
+          "Async/Await Support"
+        ]
+      },
+      {
+        "role": "Node.js Developer",
+        "importance": 0.8234,
+        "concepts": [
+          "Test Suites (describe)",
+          "Hooks (before/after/beforeEach/afterEach)",
+          "Sinon Integration",
+          "Test Coverage (nyc/Istanbul Integration)",
+          "Command Line Interface (mocha CLI)"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.7345,
+        "concepts": [
+          "Test Suites (describe)",
+          "Reporters (spec/dot/nyan/json)",
+          "Retries",
+          "Test Configuration (.mocharc)",
+          "Browser Testing Support"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.7123,
+        "concepts": [
+          "Test Suites (describe)",
+          "Custom Reporters",
+          "Root Hooks",
+          "Parallel Mode",
+          "BDD Interface",
+          "TDD Interface"
+        ]
+      },
+      {
+        "role": "Full Stack Developer",
+        "importance": 0.6234,
+        "concepts": [
+          "Test Suites (describe)",
+          "Chai Integration",
+          "Async/Await Support",
+          "Test Coverage (nyc/Istanbul Integration)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "ES6+ Syntax",
+      "Node.js",
+      "npm",
+      "Asynchronous JavaScript",
+      "Promises",
+      "Async/Await",
+      "Testing Fundamentals",
+      "Assertion Libraries Concept",
+      "Git",
+      "Command Line Interface"
+    ]
+  },
+  {
+    "id": 7,
+    "gid": 129,
+    "name": "Chai",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "JavaScript Assertion Library",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Assertion Libraries"
+    },
+    "aliases": [
+      "Chai",
+      "Chai.js",
+      "chaijs.com",
+      "Chai Assertion Library"
+    ],
+    "concepts": [
+      "Assert Style",
+      "Expect Style (BDD)",
+      "Should Style (BDD)",
+      "Chainable Language (to/be/have/deep/equal)",
+      "Equality Assertions (equal/eql)",
+      "Type Assertions (a/an)",
+      "Property Assertions (property)",
+      "Include/Contain Assertions",
+      "Length Assertions",
+      "Boolean Assertions (true/false/null/undefined)",
+      "Exception Assertions (throw)",
+      "Comparison Assertions (above/below/within)",
+      "Array Assertions",
+      "Object Deep Equality",
+      "Chai Plugins",
+      "chai-as-promised (Async Assertions)",
+      "sinon-chai Integration",
+      "chai-http (HTTP Assertions)",
+      "chai-subset",
+      "Custom Assertions",
+      "Negation (not)",
+      "Language Chains (to/be/been/is/that/which/and/has/have)",
+      "Integration with Mocha/Jest"
+    ],
+    "roles": [
+      {
+        "role": "JavaScript Developer",
+        "importance": 0.7234,
+        "concepts": [
+          "Assert Style",
+          "Expect Style (BDD)",
+          "Chainable Language (to/be/have/deep/equal)",
+          "Equality Assertions (equal/eql)",
+          "Boolean Assertions (true/false/null/undefined)"
+        ]
+      },
+      {
+        "role": "Node.js Developer",
+        "importance": 0.7623,
+        "concepts": [
+          "Expect Style (BDD)",
+          "Exception Assertions (throw)",
+          "chai-as-promised (Async Assertions)",
+          "chai-http (HTTP Assertions)"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.6834,
+        "concepts": [
+          "Expect Style (BDD)",
+          "Should Style (BDD)",
+          "Comparison Assertions (above/below/within)",
+          "Chai Plugins",
+          "Custom Assertions"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.6512,
+        "concepts": [
+          "Chainable Language (to/be/have/deep/equal)",
+          "Object Deep Equality",
+          "Custom Assertions",
+          "sinon-chai Integration"
+        ]
+      },
+      {
+        "role": "API Test Engineer",
+        "importance": 0.6123,
+        "concepts": [
+          "chai-http (HTTP Assertions)",
+          "Expect Style (BDD)",
+          "Property Assertions (property)",
+          "Include/Contain Assertions"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "ES6+ Syntax",
+      "Node.js",
+      "Mocha or another test runner",
+      "Testing Fundamentals",
+      "Assertions Concept",
+      "Git"
+    ]
+  },
+  {
+    "id": 8,
+    "gid": 130,
+    "name": "Selenium",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Browser Automation / E2E Testing Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Browser Automation Frameworks"
+    },
+    "aliases": [
+      "Selenium",
+      "Selenium WebDriver",
+      "Selenium IDE",
+      "Selenium Grid",
+      "SeleniumHQ"
+    ],
+    "concepts": [
+      "WebDriver API",
+      "Browser Drivers (ChromeDriver/GeckoDriver/EdgeDriver)",
+      "Locator Strategies",
+      "By.id/By.name/By.className",
+      "XPath Locators",
+      "CSS Selectors",
+      "Element Interaction (click/sendKeys/clear)",
+      "Waits",
+      "Implicit Waits",
+      "Explicit Waits",
+      "WebDriverWait",
+      "ExpectedConditions",
+      "Fluent Waits",
+      "Actions Class (Mouse/Keyboard Actions)",
+      "Drag and Drop",
+      "Handling Alerts/Popups",
+      "Frame/iFrame Switching",
+      "Window/Tab Switching",
+      "Handling Dropdowns (Select Class)",
+      "File Uploads",
+      "Screenshots",
+      "Selenium Grid (Distributed Testing)",
+      "Remote WebDriver",
+      "Cross-Browser Testing",
+      "Headless Browser Testing",
+      "Page Object Model (POM)",
+      "Page Factory",
+      "Selenium IDE (Record/Playback)",
+      "Selenium with TestNG",
+      "Selenium with JUnit",
+      "Selenium with pytest",
+      "Data-Driven Testing",
+      "Parallel Test Execution",
+      "Selenium 4 Features (Relative Locators)",
+      "BiDi Protocol (Selenium 4)",
+      "DevTools Protocol Integration",
+      "Docker with Selenium",
+      "Selenium Grid Hub/Node Architecture",
+      "Handling Dynamic Elements",
+      "Synchronization Issues",
+      "Test Reporting (Extent Reports/Allure)",
+      "CI/CD Integration (Jenkins/GitHub Actions)"
+    ],
+    "roles": [
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.9756,
+        "concepts": [
+          "WebDriver API",
+          "Locator Strategies",
+          "XPath Locators",
+          "CSS Selectors",
+          "Waits",
+          "Explicit Waits",
+          "Page Object Model (POM)",
+          "Selenium Grid (Distributed Testing)",
+          "Cross-Browser Testing",
+          "Data-Driven Testing",
+          "CI/CD Integration (Jenkins/GitHub Actions)"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.9345,
+        "concepts": [
+          "WebDriver API",
+          "Page Object Model (POM)",
+          "Page Factory",
+          "Selenium Grid (Distributed Testing)",
+          "Parallel Test Execution",
+          "Selenium with TestNG",
+          "Test Reporting (Extent Reports/Allure)"
+        ]
+      },
+      {
+        "role": "Manual QA Tester (transitioning to automation)",
+        "importance": 0.6234,
+        "concepts": [
+          "Selenium IDE (Record/Playback)",
+          "Element Interaction (click/sendKeys/clear)",
+          "Locator Strategies",
+          "Handling Alerts/Popups"
+        ]
+      },
+      {
+        "role": "Test Automation Architect",
+        "importance": 0.8623,
+        "concepts": [
+          "Page Object Model (POM)",
+          "Selenium Grid (Distributed Testing)",
+          "Remote WebDriver",
+          "Docker with Selenium",
+          "Cross-Browser Testing",
+          "CI/CD Integration (Jenkins/GitHub Actions)"
+        ]
+      },
+      {
+        "role": "Full Stack Developer (writing E2E tests)",
+        "importance": 0.4123,
+        "concepts": [
+          "WebDriver API",
+          "Locator Strategies",
+          "Element Interaction (click/sendKeys/clear)",
+          "Waits"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Programming Language (Java/Python/C#/JavaScript)",
+      "HTML",
+      "CSS",
+      "XPath Fundamentals",
+      "DOM Structure",
+      "HTTP Basics",
+      "Browser DevTools",
+      "Testing Fundamentals",
+      "Object-Oriented Programming",
+      "Git",
+      "Command Line Interface",
+      "Design Patterns (Page Object Model)"
+    ]
+  },
+  {
+    "id": 9,
+    "gid": 131,
+    "name": "Cypress",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "JavaScript End-to-End Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "End-to-End Testing Frameworks"
+    },
+    "aliases": [
+      "Cypress",
+      "Cypress.io",
+      "Cypress Test Runner"
+    ],
+    "concepts": [
+      "cy Commands",
+      "cy.visit()",
+      "cy.get()",
+      "cy.contains()",
+      "cy.click()",
+      "cy.type()",
+      "Chainable Commands",
+      "Automatic Waiting/Retries",
+      "Assertions (should/expect)",
+      "Custom Commands",
+      "Fixtures",
+      "cy.intercept() (Network Stubbing)",
+      "API Testing with Cypress",
+      "Component Testing",
+      "E2E Testing",
+      "Test Runner UI",
+      "Time Travel Debugging",
+      "Selector Playground",
+      "Aliases (as())",
+      "Environment Variables",
+      "cypress.config.js",
+      "Plugins",
+      "Cypress Dashboard/Cloud",
+      "Parallelization",
+      "Cross-Browser Testing (Chrome/Firefox/Edge)",
+      "Headless Mode",
+      "Screenshots and Videos",
+      "Visual Testing (Percy Integration)",
+      "Handling iframes",
+      "Handling File Uploads",
+      "Handling Authentication",
+      "Session Management (cy.session)",
+      "Data-Driven Testing",
+      "Page Object Pattern in Cypress",
+      "TypeScript Support",
+      "CI/CD Integration",
+      "Retry-ability",
+      "Testing Redux/State Management",
+      "Mocking Clock (cy.clock)",
+      "Cypress Studio",
+      "Accessibility Testing (cypress-axe)"
+    ],
+    "roles": [
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.9645,
+        "concepts": [
+          "cy Commands",
+          "cy.visit()",
+          "cy.get()",
+          "Custom Commands",
+          "Fixtures",
+          "cy.intercept() (Network Stubbing)",
+          "E2E Testing",
+          "Test Runner UI",
+          "Cross-Browser Testing (Chrome/Firefox/Edge)",
+          "CI/CD Integration"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.8923,
+        "concepts": [
+          "Custom Commands",
+          "cy.intercept() (Network Stubbing)",
+          "Parallelization",
+          "Page Object Pattern in Cypress",
+          "Cypress Dashboard/Cloud",
+          "TypeScript Support"
+        ]
+      },
+      {
+        "role": "Frontend Developer",
+        "importance": 0.7634,
+        "concepts": [
+          "cy Commands",
+          "Component Testing",
+          "E2E Testing",
+          "Time Travel Debugging",
+          "Assertions (should/expect)"
+        ]
+      },
+      {
+        "role": "Full Stack Developer",
+        "importance": 0.6923,
+        "concepts": [
+          "cy Commands",
+          "cy.intercept() (Network Stubbing)",
+          "API Testing with Cypress",
+          "Handling Authentication",
+          "Session Management (cy.session)"
+        ]
+      },
+      {
+        "role": "Test Automation Architect",
+        "importance": 0.7845,
+        "concepts": [
+          "Parallelization",
+          "Cypress Dashboard/Cloud",
+          "CI/CD Integration",
+          "Page Object Pattern in Cypress",
+          "Plugins"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "TypeScript (recommended)",
+      "HTML",
+      "CSS",
+      "DOM",
+      "HTTP Basics",
+      "REST APIs Concept",
+      "JSON",
+      "Async JavaScript",
+      "Testing Fundamentals",
+      "Git",
+      "npm",
+      "Command Line Interface",
+      "Browser DevTools"
+    ]
+  },
+  {
+    "id": 10,
+    "gid": 132,
+    "name": "Playwright",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Cross-Browser End-to-End Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "End-to-End Testing Frameworks"
+    },
+    "aliases": [
+      "Playwright",
+      "Microsoft Playwright",
+      "playwright.dev",
+      "Playwright Test"
+    ],
+    "concepts": [
+      "Browser Contexts",
+      "Pages",
+      "Locators",
+      "Auto-Waiting",
+      "Actionability Checks",
+      "page.goto()",
+      "page.click()",
+      "page.fill()",
+      "page.locator()",
+      "Assertions (expect)",
+      "Web-First Assertions",
+      "Test Runner (@playwright/test)",
+      "Fixtures",
+      "Test Hooks (beforeEach/afterEach)",
+      "Parallel Execution",
+      "Cross-Browser Testing (Chromium/Firefox/WebKit)",
+      "Headless/Headed Mode",
+      "Network Interception (page.route())",
+      "API Testing (request context)",
+      "Mocking Responses",
+      "Screenshots and Videos",
+      "Trace Viewer",
+      "Codegen (Test Generator)",
+      "Visual Comparisons (toHaveScreenshot)",
+      "Component Testing",
+      "Multi-Tab/Multi-Window Testing",
+      "iFrame Handling",
+      "Authentication State Reuse (storageState)",
+      "Test Sharding",
+      "Playwright Config (playwright.config.ts)",
+      "Projects (Multi-Browser Config)",
+      "Retries",
+      "Test Tags/Annotations",
+      "Page Object Model in Playwright",
+      "Mobile Emulation",
+      "Geolocation/Permissions Testing",
+      "Accessibility Testing",
+      "Downloads/Uploads Handling",
+      "Dialog Handling",
+      "CI/CD Integration",
+      "Docker with Playwright",
+      "Playwright Cloud/Reporting",
+      "TypeScript Support"
+    ],
+    "roles": [
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.9723,
+        "concepts": [
+          "Browser Contexts",
+          "Locators",
+          "Auto-Waiting",
+          "Assertions (expect)",
+          "Fixtures",
+          "Cross-Browser Testing (Chromium/Firefox/WebKit)",
+          "Network Interception (page.route())",
+          "Trace Viewer",
+          "CI/CD Integration"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.9412,
+        "concepts": [
+          "Fixtures",
+          "Test Sharding",
+          "Parallel Execution",
+          "Page Object Model in Playwright",
+          "Playwright Config (playwright.config.ts)",
+          "Projects (Multi-Browser Config)",
+          "Authentication State Reuse (storageState)"
+        ]
+      },
+      {
+        "role": "Frontend Developer",
+        "importance": 0.7234,
+        "concepts": [
+          "Locators",
+          "page.click()",
+          "page.fill()",
+          "Component Testing",
+          "Visual Comparisons (toHaveScreenshot)"
+        ]
+      },
+      {
+        "role": "Full Stack Developer",
+        "importance": 0.7123,
+        "concepts": [
+          "Browser Contexts",
+          "API Testing (request context)",
+          "Network Interception (page.route())",
+          "Authentication State Reuse (storageState)"
+        ]
+      },
+      {
+        "role": "Test Automation Architect",
+        "importance": 0.8523,
+        "concepts": [
+          "Test Sharding",
+          "Parallel Execution",
+          "Docker with Playwright",
+          "Playwright Cloud/Reporting",
+          "Projects (Multi-Browser Config)",
+          "CI/CD Integration"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "TypeScript (recommended)",
+      "HTML",
+      "CSS",
+      "DOM",
+      "HTTP Basics",
+      "REST APIs Concept",
+      "JSON",
+      "Async/Await",
+      "Testing Fundamentals",
+      "Git",
+      "npm",
+      "Command Line Interface",
+      "Browser DevTools"
+    ]
+  },
+  {
+    "id": 11,
+    "gid": 133,
+    "name": "Appium",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Mobile Automation Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Mobile Test Automation Frameworks"
+    },
+    "aliases": [
+      "Appium",
+      "Appium Server",
+      "appium.io"
+    ],
+    "concepts": [
+      "WebDriver Protocol (Mobile JSON Wire Protocol/W3C)",
+      "Appium Server",
+      "Desired Capabilities",
+      "Appium Drivers (UiAutomator2/XCUITest/Espresso)",
+      "Android Automation (UiAutomator2)",
+      "iOS Automation (XCUITest)",
+      "Locator Strategies (accessibility id/id/xpath/class name)",
+      "Element Interaction (tap/sendKeys/clear)",
+      "Gestures (swipe/scroll/pinch/zoom)",
+      "TouchAction / W3C Actions API",
+      "Native App Testing",
+      "Hybrid App Testing",
+      "Mobile Web Testing",
+      "Emulators/Simulators",
+      "Real Device Testing",
+      "Appium Inspector",
+      "Session Management",
+      "App Installation/Uninstallation",
+      "Context Switching (Native/WebView)",
+      "Handling Permissions/Alerts",
+      "Device Orientation Testing",
+      "Appium with TestNG",
+      "Appium with JUnit",
+      "Appium with Selenium (shared WebDriver API)",
+      "Cross-Platform Test Scripts",
+      "Cloud Device Farms (BrowserStack/Sauce Labs)",
+      "Parallel Test Execution",
+      "Appium Server Configuration",
+      "Capabilities for Cross-Platform",
+      "Page Object Model for Mobile",
+      "Data-Driven Mobile Testing",
+      "Appium 2.0 Plugin Architecture",
+      "Espresso Driver",
+      "Flutter Driver Integration",
+      "Performance Testing (Mobile)",
+      "CI/CD Integration for Mobile Testing"
+    ],
+    "roles": [
+      {
+        "role": "Mobile QA Automation Engineer",
+        "importance": 0.9812,
+        "concepts": [
+          "WebDriver Protocol (Mobile JSON Wire Protocol/W3C)",
+          "Desired Capabilities",
+          "Android Automation (UiAutomator2)",
+          "iOS Automation (XCUITest)",
+          "Locator Strategies (accessibility id/id/xpath/class name)",
+          "Gestures (swipe/scroll/pinch/zoom)",
+          "Real Device Testing",
+          "Cloud Device Farms (BrowserStack/Sauce Labs)"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.8523,
+        "concepts": [
+          "Desired Capabilities",
+          "Appium with TestNG",
+          "Page Object Model for Mobile",
+          "Parallel Test Execution",
+          "CI/CD Integration for Mobile Testing"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.7234,
+        "concepts": [
+          "WebDriver Protocol (Mobile JSON Wire Protocol/W3C)",
+          "Element Interaction (tap/sendKeys/clear)",
+          "Emulators/Simulators",
+          "Appium Inspector",
+          "Native App Testing"
+        ]
+      },
+      {
+        "role": "Test Automation Architect",
+        "importance": 0.7623,
+        "concepts": [
+          "Appium Server Configuration",
+          "Cloud Device Farms (BrowserStack/Sauce Labs)",
+          "Cross-Platform Test Scripts",
+          "Appium 2.0 Plugin Architecture"
+        ]
+      },
+      {
+        "role": "Mobile Developer (writing E2E tests)",
+        "importance": 0.3623,
+        "concepts": [
+          "Element Interaction (tap/sendKeys/clear)",
+          "Emulators/Simulators",
+          "Native App Testing",
+          "Espresso Driver"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Programming Language (Java/Python/JavaScript)",
+      "Mobile App Fundamentals (Android/iOS)",
+      "Selenium WebDriver Basics",
+      "XPath Fundamentals",
+      "Android SDK/Xcode Basics",
+      "Testing Fundamentals",
+      "Object-Oriented Programming",
+      "Git",
+      "Command Line Interface",
+      "Mobile UI Concepts"
+    ]
+  },
+  {
+    "id": 12,
+    "gid": 134,
+    "name": "Robot Framework",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Generic Keyword-Driven Test Automation Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Keyword-Driven / BDD Test Frameworks"
+    },
+    "aliases": [
+      "Robot Framework",
+      "RF",
+      "robotframework.org"
+    ],
+    "concepts": [
+      "Keyword-Driven Testing",
+      "Test Cases Section",
+      "Settings Section",
+      "Variables Section",
+      "Keywords Section",
+      "Test Data Syntax (Tabular Format)",
+      "Built-In Keywords",
+      "Custom Keywords",
+      "User Keywords",
+      "Library Keywords",
+      "SeleniumLibrary",
+      "Browser Library (Playwright-based)",
+      "RequestsLibrary",
+      "AppiumLibrary",
+      "DatabaseLibrary",
+      "Resource Files",
+      "Test Suites",
+      "Test Libraries (Python/Java)",
+      "Data-Driven Testing (Templates)",
+      "Tags",
+      "Setup/Teardown (Suite/Test)",
+      "For Loops",
+      "Conditional Execution (IF/ELSE)",
+      "Variables (Scalar/List/Dictionary)",
+      "Robot Framework Syntax (RST/TSV/Plain Text)",
+      "Reports and Logs (HTML)",
+      "RIDE (Robot IDE, legacy)",
+      "VS Code Robot Framework Extension",
+      "Command Line Execution (robot command)",
+      "Pabot (Parallel Execution)",
+      "BDD Style Testing (Given/When/Then Keywords)",
+      "API Testing with RequestsLibrary",
+      "Continuous Integration Integration",
+      "Listener Interface",
+      "Library API (Python)",
+      "Test Case Templates",
+      "Documentation Generation (Libdoc)"
+    ],
+    "roles": [
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.9234,
+        "concepts": [
+          "Keyword-Driven Testing",
+          "Test Cases Section",
+          "Custom Keywords",
+          "SeleniumLibrary",
+          "Browser Library (Playwright-based)",
+          "Data-Driven Testing (Templates)",
+          "Tags",
+          "Reports and Logs (HTML)"
+        ]
+      },
+      {
+        "role": "Manual QA Tester (transitioning to automation)",
+        "importance": 0.8123,
+        "concepts": [
+          "Keyword-Driven Testing",
+          "Test Data Syntax (Tabular Format)",
+          "Built-In Keywords",
+          "Test Cases Section",
+          "Reports and Logs (HTML)"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.7423,
+        "concepts": [
+          "Custom Keywords",
+          "Library API (Python)",
+          "Pabot (Parallel Execution)",
+          "Listener Interface",
+          "BDD Style Testing (Given/When/Then Keywords)"
+        ]
+      },
+      {
+        "role": "Test Automation Architect",
+        "importance": 0.6912,
+        "concepts": [
+          "Resource Files",
+          "Library API (Python)",
+          "Pabot (Parallel Execution)",
+          "Continuous Integration Integration"
+        ]
+      },
+      {
+        "role": "API Test Engineer",
+        "importance": 0.5623,
+        "concepts": [
+          "RequestsLibrary",
+          "API Testing with RequestsLibrary",
+          "Variables (Scalar/List/Dictionary)",
+          "Data-Driven Testing (Templates)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Basic Programming Concepts",
+      "Python (for library extension)",
+      "Testing Fundamentals",
+      "Selenium Basics (for UI testing)",
+      "HTTP Basics",
+      "Command Line Interface",
+      "Git",
+      "Tabular Data Concepts"
+    ]
+  },
+  {
+    "id": 13,
+    "gid": 135,
+    "name": "TestNG",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Java Testing Framework",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Java Testing Frameworks"
+    },
+    "aliases": [
+      "TestNG",
+      "testng.org"
+    ],
+    "concepts": [
+      "@Test Annotation",
+      "Test Suites (testng.xml)",
+      "Test Groups",
+      "@BeforeMethod/@AfterMethod",
+      "@BeforeClass/@AfterClass",
+      "@BeforeSuite/@AfterSuite",
+      "@BeforeTest/@AfterTest",
+      "@BeforeGroups/@AfterGroups",
+      "Assertions (Assert class)",
+      "Soft Assertions",
+      "Data Providers (@DataProvider)",
+      "Parameterization (parameters in XML)",
+      "Dependency Testing (dependsOnMethods)",
+      "Priority (priority attribute)",
+      "Parallel Execution",
+      "Parallel Test Configuration (testng.xml)",
+      "Test Listeners",
+      "ITestListener",
+      "Retry Analyzer (IRetryAnalyzer)",
+      "Test Reporting (TestNG HTML Reports)",
+      "Selenium Integration",
+      "Cross-Browser Test Configuration",
+      "Test Grouping and Filtering",
+      "Expected Exceptions (expectedExceptions attribute)",
+      "Timeout Configuration",
+      "Factory Pattern (@Factory)",
+      "Invocation Count",
+      "Thread Pool Size",
+      "Suite XML Configuration",
+      "Includes/Excludes (Groups)",
+      "Emailable Reports",
+      "Custom Listeners",
+      "Annotation Transformers",
+      "Integration with Maven/Gradle",
+      "Integration with Jenkins",
+      "Integration with Allure/Extent Reports"
+    ],
+    "roles": [
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.9345,
+        "concepts": [
+          "@Test Annotation",
+          "Test Suites (testng.xml)",
+          "Test Groups",
+          "Data Providers (@DataProvider)",
+          "Parallel Execution",
+          "Assertions (Assert class)",
+          "Selenium Integration",
+          "Test Reporting (TestNG HTML Reports)"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.9123,
+        "concepts": [
+          "Data Providers (@DataProvider)",
+          "Dependency Testing (dependsOnMethods)",
+          "Factory Pattern (@Factory)",
+          "Test Listeners",
+          "Retry Analyzer (IRetryAnalyzer)",
+          "Custom Listeners"
+        ]
+      },
+      {
+        "role": "Java Developer",
+        "importance": 0.6523,
+        "concepts": [
+          "@Test Annotation",
+          "@BeforeMethod/@AfterMethod",
+          "Assertions (Assert class)",
+          "Data Providers (@DataProvider)"
+        ]
+      },
+      {
+        "role": "Test Automation Architect",
+        "importance": 0.8034,
+        "concepts": [
+          "Parallel Execution",
+          "Parallel Test Configuration (testng.xml)",
+          "Suite XML Configuration",
+          "Integration with Jenkins",
+          "Thread Pool Size"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.5123,
+        "concepts": [
+          "@Test Annotation",
+          "Assertions (Assert class)",
+          "@BeforeClass/@AfterClass",
+          "Selenium Integration"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Java",
+      "Object-Oriented Programming",
+      "Annotations (Java)",
+      "Maven or Gradle Basics",
+      "Selenium Basics (for UI testing)",
+      "XML Basics (for testng.xml)",
+      "Testing Fundamentals",
+      "Git",
+      "IDE Usage (IntelliJ/Eclipse)"
+    ]
+  },
+  {
+    "id": 14,
+    "gid": 136,
+    "name": "JMeter",
+    "entity_type": "Testing Framework",
+    "entity_subtype": "Performance and Load Testing Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Testing & QA",
+      "specialization": "Performance / Load Testing Tools"
+    },
+    "aliases": [
+      "JMeter",
+      "Apache JMeter",
+      "jmeter.apache.org"
+    ],
+    "concepts": [
+      "Test Plan",
+      "Thread Groups",
+      "Samplers (HTTP Request/JDBC Request/FTP Request)",
+      "Listeners",
+      "View Results Tree",
+      "Summary Report",
+      "Aggregate Report",
+      "Assertions (Response Assertion/Duration Assertion/JSON Assertion)",
+      "Config Elements (HTTP Request Defaults/CSV Data Set Config)",
+      "Pre-Processors",
+      "Post-Processors",
+      "Timers",
+      "Constant Timer",
+      "Uniform Random Timer",
+      "Controllers (Logic Controllers)",
+      "Loop Controller",
+      "If Controller",
+      "While Controller",
+      "Transaction Controller",
+      "Correlation (Extracting Dynamic Values)",
+      "Regular Expression Extractor",
+      "JSON Extractor",
+      "XPath Extractor",
+      "CSS/JQuery Extractor",
+      "Parameterization (CSV Data Set Config)",
+      "User Variables",
+      "Load Testing",
+      "Stress Testing",
+      "Spike Testing",
+      "Soak Testing",
+      "Distributed Testing (Master-Slave)",
+      "Non-GUI Mode (CLI Execution)",
+      "Command Line Test Execution",
+      "JMeter Plugins Manager",
+      "Backend Listener (InfluxDB/Grafana Integration)",
+      "Reporting (HTML Dashboard Report)",
+      "JDBC Connection Testing",
+      "REST API Load Testing",
+      "SOAP/XML Testing",
+      "Recording Test Scripts (HTTP(S) Test Script Recorder)",
+      "Proxy Server Recording",
+      "BeanShell/Groovy Scripting",
+      "JSR223 Sampler/PreProcessor/PostProcessor",
+      "Assertions for Performance SLAs",
+      "Ramp-Up Period",
+      "Think Time",
+      "Correlation of Session Tokens",
+      "CI/CD Integration (Jenkins Performance Plugin)"
+    ],
+    "roles": [
+      {
+        "role": "Performance Test Engineer",
+        "importance": 0.9812,
+        "concepts": [
+          "Test Plan",
+          "Thread Groups",
+          "Samplers (HTTP Request/JDBC Request/FTP Request)",
+          "Listeners",
+          "Assertions (Response Assertion/Duration Assertion/JSON Assertion)",
+          "Correlation (Extracting Dynamic Values)",
+          "Load Testing",
+          "Stress Testing",
+          "Distributed Testing (Master-Slave)",
+          "Non-GUI Mode (CLI Execution)",
+          "Reporting (HTML Dashboard Report)"
+        ]
+      },
+      {
+        "role": "QA Automation Engineer",
+        "importance": 0.6234,
+        "concepts": [
+          "Test Plan",
+          "Thread Groups",
+          "Samplers (HTTP Request/JDBC Request/FTP Request)",
+          "Assertions (Response Assertion/Duration Assertion/JSON Assertion)",
+          "Recording Test Scripts (HTTP(S) Test Script Recorder)"
+        ]
+      },
+      {
+        "role": "SDET (Software Development Engineer in Test)",
+        "importance": 0.6912,
+        "concepts": [
+          "JSR223 Sampler/PreProcessor/PostProcessor",
+          "BeanShell/Groovy Scripting",
+          "Correlation (Extracting Dynamic Values)",
+          "CI/CD Integration (Jenkins Performance Plugin)",
+          "Backend Listener (InfluxDB/Grafana Integration)"
+        ]
+      },
+      {
+        "role": "DevOps / SRE Engineer",
+        "importance": 0.5623,
+        "concepts": [
+          "Load Testing",
+          "Non-GUI Mode (CLI Execution)",
+          "Distributed Testing (Master-Slave)",
+          "Backend Listener (InfluxDB/Grafana Integration)",
+          "CI/CD Integration (Jenkins Performance Plugin)"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "importance": 0.3823,
+        "concepts": [
+          "Samplers (HTTP Request/JDBC Request/FTP Request)",
+          "Assertions (Response Assertion/Duration Assertion/JSON Assertion)",
+          "REST API Load Testing"
+        ]
+      },
+      {
+        "role": "Solutions Architect",
+        "importance": 0.4523,
+        "concepts": [
+          "Load Testing",
+          "Distributed Testing (Master-Slave)",
+          "Performance SLAs",
+          "Ramp-Up Period"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "HTTP Basics",
+      "REST APIs Concept",
+      "SQL Basics (for JDBC testing)",
+      "Performance Testing Concepts",
+      "Basic Scripting (Groovy/BeanShell)",
+      "Java Basics (JMeter runs on JVM)",
+      "Networking Basics",
+      "Command Line Interface",
+      "Git",
+      "Load Testing Terminology (Throughput/Latency/Concurrency)"
+    ]
+  },
+  {
+    "id": 15,
+    "gid": 200,
+    "name": "Load Testing Simulation (k6)",
+    "entity_type": "DevOps Tool",
+    "entity_subtype": "Load and Performance Testing Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Quality Engineering",
+      "sub_category": "Performance Testing",
+      "specialization": "Load Simulation Tools"
+    },
+    "aliases": [
+      "k6",
+      "Grafana k6",
+      "Load Testing Tool"
+    ],
+    "concepts": [
+      "Virtual Users",
+      "Load Scripts",
+      "Ramp-Up/Ramp-Down",
+      "Thresholds",
+      "Performance Baselines"
+    ],
+    "roles": [
+      {
+        "role": "QA Engineer",
+        "importance": 0.656,
+        "concepts": [
+          "Virtual Users",
+          "Load Scripts",
+          "Thresholds"
+        ]
+      },
+      {
+        "role": "Site Reliability Engineer",
+        "importance": 0.612,
+        "concepts": [
+          "Performance Baselines",
+          "Ramp-Up/Ramp-Down"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "HTTP",
+      "Performance Testing Basics"
+    ]
+  },
+  {
+    "id": 16,
+    "gid": 215,
+    "name": "Postman",
+    "entity_type": "Platform",
+    "entity_subtype": "API Development and Testing Tool",
+    "hierarchy": {
+      "domain": "Engineering",
+      "category": "Software Development",
+      "sub_category": "API Tools",
+      "specialization": "API Testing and Documentation"
+    },
+    "aliases": [
+      "Postman"
+    ],
+    "concepts": [
+      "Collections",
+      "Requests",
+      "Environments",
+      "Pre-request Scripts",
+      "Test Scripts",
+      "Mock Servers",
+      "Newman (CLI)"
+    ],
+    "roles": [
+      {
+        "role": "Backend Developer",
+        "importance": 0.834,
+        "concepts": [
+          "Collections",
+          "Requests",
+          "Environments"
+        ]
+      },
+      {
+        "role": "QA Engineer",
+        "importance": 0.879,
+        "concepts": [
+          "Test Scripts",
+          "Newman (CLI)"
+        ]
+      }
+    ],
+    "prerequisites": [
+      "HTTP",
+      "REST APIs",
+      "JSON"
+    ]
+  }
+]

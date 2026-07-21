@@ -1,0 +1,3260 @@
+{
+  "49": {
+    "source_name": "C++",
+    "relationships": [
+      {
+        "target_gid": 48,
+        "target_name": "C",
+        "relation": "EXTENDS",
+        "weight": 0.9
+      }
+    ]
+  },
+  "50": {
+    "source_name": "C#",
+    "relationships": [
+      {
+        "target_gid": 51,
+        "target_name": "Java",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.7
+      }
+    ]
+  },
+  "53": {
+    "source_name": "TypeScript",
+    "relationships": [
+      {
+        "target_gid": 52,
+        "target_name": "JavaScript",
+        "relation": "EXTENDS",
+        "weight": 0.95
+      }
+    ]
+  },
+  "58": {
+    "source_name": "Kotlin",
+    "relationships": [
+      {
+        "target_gid": 51,
+        "target_name": "Java",
+        "relation": "INTEROPERATES_WITH",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 51,
+        "target_name": "Java",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.75
+      }
+    ]
+  },
+  "61": {
+    "source_name": "Scala",
+    "relationships": [
+      {
+        "target_gid": 51,
+        "target_name": "Java",
+        "relation": "COMPATIBLE_WITH",
+        "weight": 0.8
+      }
+    ]
+  },
+  "59": {
+    "source_name": "PHP",
+    "relationships": [
+      {
+        "target_gid": 60,
+        "target_name": "Ruby",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "64": {
+    "source_name": "R",
+    "relationships": [
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "69": {
+    "source_name": "MATLAB",
+    "relationships": [
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 64,
+        "target_name": "R",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "66": {
+    "source_name": "Bash",
+    "relationships": [
+      {
+        "target_gid": 220,
+        "target_name": "Linux",
+        "relation": "RUNS_ON",
+        "weight": 0.85
+      }
+    ]
+  },
+  "67": {
+    "source_name": "PowerShell",
+    "relationships": [
+      {
+        "target_gid": 66,
+        "target_name": "Bash",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "151": {
+    "source_name": "GraphQL",
+    "relationships": [
+      {
+        "target_gid": 166,
+        "target_name": "RESTful API Design",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.7
+      }
+    ]
+  },
+  "144": {
+    "source_name": "HTML",
+    "relationships": [
+      {
+        "target_gid": 145,
+        "target_name": "CSS",
+        "relation": "USED_WITH",
+        "weight": 0.9
+      }
+    ]
+  },
+  "145": {
+    "source_name": "CSS",
+    "relationships": [
+      {
+        "target_gid": 144,
+        "target_name": "HTML",
+        "relation": "STYLES",
+        "weight": 0.9
+      }
+    ]
+  },
+  "65": {
+    "source_name": "SQL",
+    "relationships": [
+      {
+        "target_gid": 32,
+        "target_name": "PostgreSQL",
+        "relation": "QUERIES",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 33,
+        "target_name": "MySQL",
+        "relation": "QUERIES",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 34,
+        "target_name": "SQL Server",
+        "relation": "QUERIES",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 35,
+        "target_name": "Oracle Database",
+        "relation": "QUERIES",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 36,
+        "target_name": "SQLite",
+        "relation": "QUERIES",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 212,
+        "target_name": "MariaDB",
+        "relation": "QUERIES",
+        "weight": 0.8
+      }
+    ]
+  },
+  "57": {
+    "source_name": "Swift",
+    "relationships": [
+      {
+        "target_gid": 204,
+        "target_name": "Frontend Developer",
+        "relation": "USED_BY",
+        "weight": 0.3
+      }
+    ]
+  },
+  "62": {
+    "source_name": "Dart",
+    "relationships": [
+      {
+        "target_gid": 16,
+        "target_name": "Flutter",
+        "relation": "USED_BY",
+        "weight": 0.9
+      }
+    ]
+  },
+  "63": {
+    "source_name": "Lua",
+    "relationships": [
+      {
+        "target_gid": 49,
+        "target_name": "C++",
+        "relation": "USED_WITH",
+        "weight": 0.4
+      }
+    ]
+  },
+  "68": {
+    "source_name": "Perl",
+    "relationships": [
+      {
+        "target_gid": 66,
+        "target_name": "Bash",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.4
+      }
+    ]
+  },
+  "55": {
+    "source_name": "Go",
+    "relationships": [
+      {
+        "target_gid": 56,
+        "target_name": "Rust",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "56": {
+    "source_name": "Rust",
+    "relationships": [
+      {
+        "target_gid": 49,
+        "target_name": "C++",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "51": {
+    "source_name": "Java",
+    "relationships": [
+      {
+        "target_gid": 220,
+        "target_name": "Linux",
+        "relation": "RUNS_ON",
+        "weight": 0.5
+      }
+    ]
+  },
+  "54": {
+    "source_name": "Python",
+    "relationships": [
+      {
+        "target_gid": 220,
+        "target_name": "Linux",
+        "relation": "RUNS_ON",
+        "weight": 0.5
+      }
+    ]
+  },
+  "1": {
+    "source_name": "React",
+    "relationships": [
+      {
+        "target_gid": 52,
+        "target_name": "JavaScript",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 53,
+        "target_name": "TypeScript",
+        "relation": "SUPPORTS",
+        "weight": 0.7
+      }
+    ]
+  },
+  "2": {
+    "source_name": "Angular",
+    "relationships": [
+      {
+        "target_gid": 53,
+        "target_name": "TypeScript",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.9
+      }
+    ]
+  },
+  "3": {
+    "source_name": "Vue.js",
+    "relationships": [
+      {
+        "target_gid": 52,
+        "target_name": "JavaScript",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.9
+      }
+    ]
+  },
+  "4": {
+    "source_name": "Next.js",
+    "relationships": [
+      {
+        "target_gid": 1,
+        "target_name": "React",
+        "relation": "BUILT_ON",
+        "weight": 0.95
+      }
+    ]
+  },
+  "5": {
+    "source_name": "Spring Boot",
+    "relationships": [
+      {
+        "target_gid": 51,
+        "target_name": "Java",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.95
+      }
+    ]
+  },
+  "6": {
+    "source_name": "Django",
+    "relationships": [
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.95
+      }
+    ]
+  },
+  "7": {
+    "source_name": "Flask",
+    "relationships": [
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.95
+      }
+    ]
+  },
+  "8": {
+    "source_name": "FastAPI",
+    "relationships": [
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.95
+      },
+      {
+        "target_gid": 7,
+        "target_name": "Flask",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 6,
+        "target_name": "Django",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "9": {
+    "source_name": "Express.js",
+    "relationships": [
+      {
+        "target_gid": 52,
+        "target_name": "JavaScript",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.9
+      }
+    ]
+  },
+  "10": {
+    "source_name": "NestJS",
+    "relationships": [
+      {
+        "target_gid": 9,
+        "target_name": "Express.js",
+        "relation": "BUILT_ON",
+        "weight": 0.65
+      },
+      {
+        "target_gid": 53,
+        "target_name": "TypeScript",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.85
+      }
+    ]
+  },
+  "11": {
+    "source_name": "Laravel",
+    "relationships": [
+      {
+        "target_gid": 59,
+        "target_name": "PHP",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.95
+      }
+    ]
+  },
+  "12": {
+    "source_name": "ASP.NET Core",
+    "relationships": [
+      {
+        "target_gid": 50,
+        "target_name": "C#",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.95
+      }
+    ]
+  },
+  "13": {
+    "source_name": "TensorFlow",
+    "relationships": [
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.9
+      }
+    ]
+  },
+  "14": {
+    "source_name": "PyTorch",
+    "relationships": [
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.9
+      }
+    ]
+  },
+  "15": {
+    "source_name": "Keras",
+    "relationships": [
+      {
+        "target_gid": 13,
+        "target_name": "TensorFlow",
+        "relation": "BUILT_ON",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 14,
+        "target_name": "PyTorch",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "16": {
+    "source_name": "Flutter",
+    "relationships": [
+      {
+        "target_gid": 62,
+        "target_name": "Dart",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.95
+      }
+    ]
+  },
+  "17": {
+    "source_name": "React Native",
+    "relationships": [
+      {
+        "target_gid": 52,
+        "target_name": "JavaScript",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 16,
+        "target_name": "Flutter",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 1,
+        "target_name": "React",
+        "relation": "BUILT_ON",
+        "weight": 0.7
+      }
+    ]
+  },
+  "18": {
+    "source_name": "LangChain",
+    "relationships": [
+      {
+        "target_gid": 159,
+        "target_name": "Hugging Face Transformers",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 169,
+        "target_name": "Retrieval-Augmented Generation",
+        "relation": "ENABLES",
+        "weight": 0.8
+      }
+    ]
+  },
+  "19": {
+    "source_name": "LlamaIndex",
+    "relationships": [
+      {
+        "target_gid": 169,
+        "target_name": "Retrieval-Augmented Generation",
+        "relation": "ENABLES",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 18,
+        "target_name": "LangChain",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.8
+      }
+    ]
+  },
+  "89": {
+    "source_name": "MLflow",
+    "relationships": [
+      {
+        "target_gid": 155,
+        "target_name": "Weights & Biases",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 90,
+        "target_name": "Kubeflow",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 221,
+        "target_name": "Databricks",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.7
+      }
+    ]
+  },
+  "90": {
+    "source_name": "Kubeflow",
+    "relationships": [
+      {
+        "target_gid": 13,
+        "target_name": "TensorFlow",
+        "relation": "ORCHESTRATES",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 138,
+        "target_name": "Kubernetes",
+        "relation": "RUNS_ON",
+        "weight": 0.85
+      }
+    ]
+  },
+  "148": {
+    "source_name": "Tailwind CSS",
+    "relationships": [
+      {
+        "target_gid": 145,
+        "target_name": "CSS",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 1,
+        "target_name": "React",
+        "relation": "COMPATIBLE_WITH",
+        "weight": 0.7
+      }
+    ]
+  },
+  "149": {
+    "source_name": "Redux",
+    "relationships": [
+      {
+        "target_gid": 1,
+        "target_name": "React",
+        "relation": "USED_WITH",
+        "weight": 0.85
+      }
+    ]
+  },
+  "150": {
+    "source_name": "Svelte",
+    "relationships": [
+      {
+        "target_gid": 1,
+        "target_name": "React",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 3,
+        "target_name": "Vue.js",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "152": {
+    "source_name": "gRPC",
+    "relationships": [
+      {
+        "target_gid": 104,
+        "target_name": "HTTP",
+        "relation": "BUILT_ON",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 166,
+        "target_name": "RESTful API Design",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.7
+      }
+    ]
+  },
+  "153": {
+    "source_name": "Ruby on Rails",
+    "relationships": [
+      {
+        "target_gid": 60,
+        "target_name": "Ruby",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.95
+      }
+    ]
+  },
+  "154": {
+    "source_name": "DVC",
+    "relationships": [
+      {
+        "target_gid": 89,
+        "target_name": "MLflow",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 209,
+        "target_name": "Git",
+        "relation": "USED_WITH",
+        "weight": 0.7
+      }
+    ]
+  },
+  "155": {
+    "source_name": "Weights & Biases",
+    "relationships": [
+      {
+        "target_gid": 14,
+        "target_name": "PyTorch",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 13,
+        "target_name": "TensorFlow",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.6
+      }
+    ]
+  },
+  "156": {
+    "source_name": "TensorBoard",
+    "relationships": [
+      {
+        "target_gid": 13,
+        "target_name": "TensorFlow",
+        "relation": "USED_WITH",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 155,
+        "target_name": "Weights & Biases",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "157": {
+    "source_name": "BentoML",
+    "relationships": [
+      {
+        "target_gid": 14,
+        "target_name": "PyTorch",
+        "relation": "SERVES",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 158,
+        "target_name": "Scikit-learn",
+        "relation": "SERVES",
+        "weight": 0.5
+      }
+    ]
+  },
+  "158": {
+    "source_name": "Scikit-learn",
+    "relationships": [
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 160,
+        "target_name": "NumPy",
+        "relation": "USES_LIBRARY",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 163,
+        "target_name": "XGBoost",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "159": {
+    "source_name": "Hugging Face Transformers",
+    "relationships": [
+      {
+        "target_gid": 14,
+        "target_name": "PyTorch",
+        "relation": "BUILT_ON",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 13,
+        "target_name": "TensorFlow",
+        "relation": "COMPATIBLE_WITH",
+        "weight": 0.6
+      }
+    ]
+  },
+  "160": {
+    "source_name": "NumPy",
+    "relationships": [
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.9
+      }
+    ]
+  },
+  "161": {
+    "source_name": "Pandas",
+    "relationships": [
+      {
+        "target_gid": 160,
+        "target_name": "NumPy",
+        "relation": "USES_LIBRARY",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.9
+      }
+    ]
+  },
+  "162": {
+    "source_name": "OpenCV",
+    "relationships": [
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 49,
+        "target_name": "C++",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.8
+      }
+    ]
+  },
+  "163": {
+    "source_name": "XGBoost",
+    "relationships": [
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.8
+      }
+    ]
+  },
+  "31": {
+    "source_name": "Deep Learning",
+    "relationships": [
+      {
+        "target_gid": 13,
+        "target_name": "TensorFlow",
+        "relation": "IMPLEMENTED_BY",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 14,
+        "target_name": "PyTorch",
+        "relation": "IMPLEMENTED_BY",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 15,
+        "target_name": "Keras",
+        "relation": "IMPLEMENTED_BY",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 184,
+        "target_name": "GPU (Graphics Processing Unit)",
+        "relation": "REQUIRES",
+        "weight": 0.8
+      }
+    ]
+  },
+  "70": {
+    "source_name": "Pulumi",
+    "relationships": [
+      {
+        "target_gid": 139,
+        "target_name": "Terraform",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 171,
+        "target_name": "Infrastructure as Code",
+        "relation": "IMPLEMENTS",
+        "weight": 0.8
+      }
+    ]
+  },
+  "71": {
+    "source_name": "GitHub Actions",
+    "relationships": [
+      {
+        "target_gid": 72,
+        "target_name": "GitLab CI",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 73,
+        "target_name": "CircleCI",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 208,
+        "target_name": "GitHub",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 172,
+        "target_name": "Continuous Integration/Continuous Deployment",
+        "relation": "IMPLEMENTS",
+        "weight": 0.85
+      }
+    ]
+  },
+  "72": {
+    "source_name": "GitLab CI",
+    "relationships": [
+      {
+        "target_gid": 172,
+        "target_name": "Continuous Integration/Continuous Deployment",
+        "relation": "IMPLEMENTS",
+        "weight": 0.85
+      }
+    ]
+  },
+  "73": {
+    "source_name": "CircleCI",
+    "relationships": [
+      {
+        "target_gid": 172,
+        "target_name": "Continuous Integration/Continuous Deployment",
+        "relation": "IMPLEMENTS",
+        "weight": 0.8
+      }
+    ]
+  },
+  "140": {
+    "source_name": "Jenkins",
+    "relationships": [
+      {
+        "target_gid": 172,
+        "target_name": "Continuous Integration/Continuous Deployment",
+        "relation": "IMPLEMENTS",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 71,
+        "target_name": "GitHub Actions",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "74": {
+    "source_name": "Grafana Loki",
+    "relationships": [
+      {
+        "target_gid": 83,
+        "target_name": "Grafana",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 75,
+        "target_name": "ELK Stack",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "75": {
+    "source_name": "ELK Stack",
+    "relationships": [
+      {
+        "target_gid": 82,
+        "target_name": "Elasticsearch",
+        "relation": "USES",
+        "weight": 0.9
+      }
+    ]
+  },
+  "76": {
+    "source_name": "OpenTelemetry",
+    "relationships": [
+      {
+        "target_gid": 84,
+        "target_name": "Prometheus",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 83,
+        "target_name": "Grafana",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.5
+      }
+    ]
+  },
+  "77": {
+    "source_name": "Figma",
+    "relationships": [
+      {
+        "target_gid": 204,
+        "target_name": "Frontend Developer",
+        "relation": "USED_BY",
+        "weight": 0.5
+      }
+    ]
+  },
+  "78": {
+    "source_name": "Tableau",
+    "relationships": [
+      {
+        "target_gid": 79,
+        "target_name": "Power BI",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.8
+      }
+    ]
+  },
+  "79": {
+    "source_name": "Power BI",
+    "relationships": [
+      {
+        "target_gid": 21,
+        "target_name": "Microsoft Azure",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.5
+      }
+    ]
+  },
+  "80": {
+    "source_name": "Apache Kafka",
+    "relationships": [
+      {
+        "target_gid": 81,
+        "target_name": "RabbitMQ",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 196,
+        "target_name": "Message Queue",
+        "relation": "IMPLEMENTS",
+        "weight": 0.8
+      }
+    ]
+  },
+  "81": {
+    "source_name": "RabbitMQ",
+    "relationships": [
+      {
+        "target_gid": 117,
+        "target_name": "AMQP",
+        "relation": "USES_PROTOCOL",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 196,
+        "target_name": "Message Queue",
+        "relation": "IMPLEMENTS",
+        "weight": 0.8
+      }
+    ]
+  },
+  "82": {
+    "source_name": "Elasticsearch",
+    "relationships": [
+      {
+        "target_gid": 75,
+        "target_name": "ELK Stack",
+        "relation": "PART_OF",
+        "weight": 0.85
+      }
+    ]
+  },
+  "83": {
+    "source_name": "Grafana",
+    "relationships": [
+      {
+        "target_gid": 84,
+        "target_name": "Prometheus",
+        "relation": "VISUALIZES",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 74,
+        "target_name": "Grafana Loki",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.8
+      }
+    ]
+  },
+  "84": {
+    "source_name": "Prometheus",
+    "relationships": [
+      {
+        "target_gid": 138,
+        "target_name": "Kubernetes",
+        "relation": "MONITORS",
+        "weight": 0.7
+      }
+    ]
+  },
+  "85": {
+    "source_name": "SonarQube",
+    "relationships": [
+      {
+        "target_gid": 182,
+        "target_name": "Code Coverage",
+        "relation": "MEASURES",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 71,
+        "target_name": "GitHub Actions",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.4
+      }
+    ]
+  },
+  "86": {
+    "source_name": "Burp Suite",
+    "relationships": [
+      {
+        "target_gid": 216,
+        "target_name": "OWASP Top 10",
+        "relation": "TESTS_AGAINST",
+        "weight": 0.6
+      }
+    ]
+  },
+  "87": {
+    "source_name": "Wireshark",
+    "relationships": [
+      {
+        "target_gid": 106,
+        "target_name": "TCP/IP",
+        "relation": "ANALYZES",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 104,
+        "target_name": "HTTP",
+        "relation": "CAPTURES",
+        "weight": 0.5
+      }
+    ]
+  },
+  "88": {
+    "source_name": "Nmap",
+    "relationships": [
+      {
+        "target_gid": 106,
+        "target_name": "TCP/IP",
+        "relation": "USES_PROTOCOL",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 192,
+        "target_name": "Firewall",
+        "relation": "SCANS",
+        "weight": 0.4
+      }
+    ]
+  },
+  "91": {
+    "source_name": "Apache Airflow",
+    "relationships": [
+      {
+        "target_gid": 92,
+        "target_name": "Apache Spark",
+        "relation": "ORCHESTRATES",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 90,
+        "target_name": "Kubeflow",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.4
+      }
+    ]
+  },
+  "92": {
+    "source_name": "Apache Spark",
+    "relationships": [
+      {
+        "target_gid": 221,
+        "target_name": "Databricks",
+        "relation": "USED_BY",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 61,
+        "target_name": "Scala",
+        "relation": "USES_LANGUAGE",
+        "weight": 0.7
+      }
+    ]
+  },
+  "93": {
+    "source_name": "Helm",
+    "relationships": [
+      {
+        "target_gid": 138,
+        "target_name": "Kubernetes",
+        "relation": "DEPLOYS_TO",
+        "weight": 0.9
+      }
+    ]
+  },
+  "94": {
+    "source_name": "Istio",
+    "relationships": [
+      {
+        "target_gid": 138,
+        "target_name": "Kubernetes",
+        "relation": "RUNS_ON",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 217,
+        "target_name": "Zero Trust Architecture",
+        "relation": "IMPLEMENTS",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 189,
+        "target_name": "Load Balancer",
+        "relation": "PROVIDES",
+        "weight": 0.4
+      }
+    ]
+  },
+  "95": {
+    "source_name": "Argo CD",
+    "relationships": [
+      {
+        "target_gid": 176,
+        "target_name": "GitOps",
+        "relation": "IMPLEMENTS",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 138,
+        "target_name": "Kubernetes",
+        "relation": "DEPLOYS_TO",
+        "weight": 0.85
+      }
+    ]
+  },
+  "96": {
+    "source_name": "Flux CD",
+    "relationships": [
+      {
+        "target_gid": 176,
+        "target_name": "GitOps",
+        "relation": "IMPLEMENTS",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 95,
+        "target_name": "Argo CD",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.7
+      }
+    ]
+  },
+  "123": {
+    "source_name": "JUnit",
+    "relationships": [
+      {
+        "target_gid": 51,
+        "target_name": "Java",
+        "relation": "TESTS",
+        "weight": 0.9
+      }
+    ]
+  },
+  "124": {
+    "source_name": "Mockito",
+    "relationships": [
+      {
+        "target_gid": 123,
+        "target_name": "JUnit",
+        "relation": "USED_WITH",
+        "weight": 0.85
+      }
+    ]
+  },
+  "125": {
+    "source_name": "pytest",
+    "relationships": [
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "TESTS",
+        "weight": 0.9
+      }
+    ]
+  },
+  "126": {
+    "source_name": "Jest",
+    "relationships": [
+      {
+        "target_gid": 52,
+        "target_name": "JavaScript",
+        "relation": "TESTS",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 127,
+        "target_name": "Vitest",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 1,
+        "target_name": "React",
+        "relation": "USED_WITH",
+        "weight": 0.6
+      }
+    ]
+  },
+  "127": {
+    "source_name": "Vitest",
+    "relationships": [
+      {
+        "target_gid": 147,
+        "target_name": "Vite",
+        "relation": "USED_WITH",
+        "weight": 0.7
+      }
+    ]
+  },
+  "128": {
+    "source_name": "Mocha",
+    "relationships": [
+      {
+        "target_gid": 129,
+        "target_name": "Chai",
+        "relation": "USED_WITH",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 52,
+        "target_name": "JavaScript",
+        "relation": "TESTS",
+        "weight": 0.7
+      }
+    ]
+  },
+  "130": {
+    "source_name": "Selenium",
+    "relationships": [
+      {
+        "target_gid": 132,
+        "target_name": "Playwright",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 131,
+        "target_name": "Cypress",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "131": {
+    "source_name": "Cypress",
+    "relationships": [
+      {
+        "target_gid": 132,
+        "target_name": "Playwright",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 52,
+        "target_name": "JavaScript",
+        "relation": "TESTS",
+        "weight": 0.6
+      }
+    ]
+  },
+  "132": {
+    "source_name": "Playwright",
+    "relationships": [
+      {
+        "target_gid": 52,
+        "target_name": "JavaScript",
+        "relation": "TESTS",
+        "weight": 0.6
+      }
+    ]
+  },
+  "133": {
+    "source_name": "Appium",
+    "relationships": [
+      {
+        "target_gid": 130,
+        "target_name": "Selenium",
+        "relation": "BUILT_ON",
+        "weight": 0.6
+      }
+    ]
+  },
+  "134": {
+    "source_name": "Robot Framework",
+    "relationships": [
+      {
+        "target_gid": 130,
+        "target_name": "Selenium",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.4
+      }
+    ]
+  },
+  "135": {
+    "source_name": "TestNG",
+    "relationships": [
+      {
+        "target_gid": 123,
+        "target_name": "JUnit",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 51,
+        "target_name": "Java",
+        "relation": "TESTS",
+        "weight": 0.8
+      }
+    ]
+  },
+  "136": {
+    "source_name": "JMeter",
+    "relationships": [
+      {
+        "target_gid": 183,
+        "target_name": "Latency and Throughput",
+        "relation": "MEASURES",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 200,
+        "target_name": "Load Testing Simulation (k6)",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.7
+      }
+    ]
+  },
+  "137": {
+    "source_name": "Docker",
+    "relationships": [
+      {
+        "target_gid": 138,
+        "target_name": "Kubernetes",
+        "relation": "ORCHESTRATED_BY",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 211,
+        "target_name": "Docker Compose",
+        "relation": "USED_WITH",
+        "weight": 0.8
+      }
+    ]
+  },
+  "138": {
+    "source_name": "Kubernetes",
+    "relationships": [
+      {
+        "target_gid": 137,
+        "target_name": "Docker",
+        "relation": "ORCHESTRATES",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 20,
+        "target_name": "Amazon Web Services",
+        "relation": "RUNS_ON",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 21,
+        "target_name": "Microsoft Azure",
+        "relation": "RUNS_ON",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 22,
+        "target_name": "Google Cloud Platform",
+        "relation": "RUNS_ON",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 220,
+        "target_name": "Linux",
+        "relation": "RUNS_ON",
+        "weight": 0.7
+      }
+    ]
+  },
+  "139": {
+    "source_name": "Terraform",
+    "relationships": [
+      {
+        "target_gid": 171,
+        "target_name": "Infrastructure as Code",
+        "relation": "IMPLEMENTS",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 70,
+        "target_name": "Pulumi",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 20,
+        "target_name": "Amazon Web Services",
+        "relation": "PROVISIONS",
+        "weight": 0.6
+      }
+    ]
+  },
+  "141": {
+    "source_name": "Ansible",
+    "relationships": [
+      {
+        "target_gid": 171,
+        "target_name": "Infrastructure as Code",
+        "relation": "IMPLEMENTS",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 139,
+        "target_name": "Terraform",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "142": {
+    "source_name": "Nginx",
+    "relationships": [
+      {
+        "target_gid": 193,
+        "target_name": "Reverse Proxy",
+        "relation": "IMPLEMENTS",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 189,
+        "target_name": "Load Balancer",
+        "relation": "IMPLEMENTS",
+        "weight": 0.7
+      }
+    ]
+  },
+  "143": {
+    "source_name": "HashiCorp Vault",
+    "relationships": [
+      {
+        "target_gid": 138,
+        "target_name": "Kubernetes",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 217,
+        "target_name": "Zero Trust Architecture",
+        "relation": "IMPLEMENTS",
+        "weight": 0.5
+      }
+    ]
+  },
+  "146": {
+    "source_name": "Webpack",
+    "relationships": [
+      {
+        "target_gid": 147,
+        "target_name": "Vite",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 52,
+        "target_name": "JavaScript",
+        "relation": "BUNDLES",
+        "weight": 0.7
+      }
+    ]
+  },
+  "147": {
+    "source_name": "Vite",
+    "relationships": [
+      {
+        "target_gid": 146,
+        "target_name": "Webpack",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 3,
+        "target_name": "Vue.js",
+        "relation": "USED_WITH",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 1,
+        "target_name": "React",
+        "relation": "USED_WITH",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 150,
+        "target_name": "Svelte",
+        "relation": "USED_WITH",
+        "weight": 0.5
+      }
+    ]
+  },
+  "164": {
+    "source_name": "Jupyter Notebook",
+    "relationships": [
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "USED_WITH",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 161,
+        "target_name": "Pandas",
+        "relation": "USED_WITH",
+        "weight": 0.5
+      }
+    ]
+  },
+  "195": {
+    "source_name": "API Gateway",
+    "relationships": [
+      {
+        "target_gid": 165,
+        "target_name": "Microservices Architecture",
+        "relation": "PART_OF",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 189,
+        "target_name": "Load Balancer",
+        "relation": "ROUTES_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "200": {
+    "source_name": "Load Testing Simulation (k6)",
+    "relationships": [
+      {
+        "target_gid": 183,
+        "target_name": "Latency and Throughput",
+        "relation": "MEASURES",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 136,
+        "target_name": "JMeter",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.7
+      }
+    ]
+  },
+  "208": {
+    "source_name": "GitHub",
+    "relationships": [
+      {
+        "target_gid": 209,
+        "target_name": "Git",
+        "relation": "HOSTS",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 71,
+        "target_name": "GitHub Actions",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.9
+      }
+    ]
+  },
+  "209": {
+    "source_name": "Git",
+    "relationships": [
+      {
+        "target_gid": 208,
+        "target_name": "GitHub",
+        "relation": "USED_WITH",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 72,
+        "target_name": "GitLab CI",
+        "relation": "USED_WITH",
+        "weight": 0.6
+      }
+    ]
+  },
+  "210": {
+    "source_name": "npm",
+    "relationships": [
+      {
+        "target_gid": 52,
+        "target_name": "JavaScript",
+        "relation": "PACKAGE_MANAGER_FOR",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 53,
+        "target_name": "TypeScript",
+        "relation": "PACKAGE_MANAGER_FOR",
+        "weight": 0.6
+      }
+    ]
+  },
+  "211": {
+    "source_name": "Docker Compose",
+    "relationships": [
+      {
+        "target_gid": 137,
+        "target_name": "Docker",
+        "relation": "USED_WITH",
+        "weight": 0.9
+      }
+    ]
+  },
+  "215": {
+    "source_name": "Postman",
+    "relationships": [
+      {
+        "target_gid": 166,
+        "target_name": "RESTful API Design",
+        "relation": "TESTS",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 122,
+        "target_name": "OpenAPI",
+        "relation": "TESTS",
+        "weight": 0.5
+      }
+    ]
+  },
+  "219": {
+    "source_name": "Keycloak",
+    "relationships": [
+      {
+        "target_gid": 218,
+        "target_name": "Role-Based Access Control",
+        "relation": "IMPLEMENTS",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 118,
+        "target_name": "OAuth 2.0",
+        "relation": "USES_PROTOCOL",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 119,
+        "target_name": "OpenID Connect",
+        "relation": "USES_PROTOCOL",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 198,
+        "target_name": "Authentication & Authorization Module",
+        "relation": "IMPLEMENTS",
+        "weight": 0.7
+      }
+    ]
+  },
+  "221": {
+    "source_name": "Databricks",
+    "relationships": [
+      {
+        "target_gid": 92,
+        "target_name": "Apache Spark",
+        "relation": "RUNS",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 89,
+        "target_name": "MLflow",
+        "relation": "INTEGRATES_WITH",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 20,
+        "target_name": "Amazon Web Services",
+        "relation": "DEPLOYS_ON",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 21,
+        "target_name": "Microsoft Azure",
+        "relation": "DEPLOYS_ON",
+        "weight": 0.6
+      }
+    ]
+  },
+  "165": {
+    "source_name": "Microservices Architecture",
+    "relationships": [
+      {
+        "target_gid": 195,
+        "target_name": "API Gateway",
+        "relation": "USES",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 196,
+        "target_name": "Message Queue",
+        "relation": "USES",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 138,
+        "target_name": "Kubernetes",
+        "relation": "DEPLOYED_VIA",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 168,
+        "target_name": "CAP Theorem",
+        "relation": "RELATED_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "166": {
+    "source_name": "RESTful API Design",
+    "relationships": [
+      {
+        "target_gid": 104,
+        "target_name": "HTTP",
+        "relation": "USES_PROTOCOL",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 122,
+        "target_name": "OpenAPI",
+        "relation": "DOCUMENTED_BY",
+        "weight": 0.8
+      }
+    ]
+  },
+  "167": {
+    "source_name": "SOLID Principles",
+    "relationships": [
+      {
+        "target_gid": 51,
+        "target_name": "Java",
+        "relation": "APPLIES_TO",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 50,
+        "target_name": "C#",
+        "relation": "APPLIES_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "168": {
+    "source_name": "CAP Theorem",
+    "relationships": [
+      {
+        "target_gid": 39,
+        "target_name": "Apache Cassandra",
+        "relation": "APPLIES_TO",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 37,
+        "target_name": "MongoDB",
+        "relation": "APPLIES_TO",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 40,
+        "target_name": "Amazon DynamoDB",
+        "relation": "APPLIES_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "169": {
+    "source_name": "Retrieval-Augmented Generation",
+    "relationships": [
+      {
+        "target_gid": 42,
+        "target_name": "Pinecone",
+        "relation": "USES",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 43,
+        "target_name": "Weaviate",
+        "relation": "USES",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 46,
+        "target_name": "Chroma",
+        "relation": "USES",
+        "weight": 0.5
+      }
+    ]
+  },
+  "170": {
+    "source_name": "Prompt Engineering",
+    "relationships": [
+      {
+        "target_gid": 169,
+        "target_name": "Retrieval-Augmented Generation",
+        "relation": "APPLIES_TO",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 159,
+        "target_name": "Hugging Face Transformers",
+        "relation": "RELATED_TO",
+        "weight": 0.4
+      }
+    ]
+  },
+  "171": {
+    "source_name": "Infrastructure as Code",
+    "relationships": [
+      {
+        "target_gid": 139,
+        "target_name": "Terraform",
+        "relation": "IMPLEMENTED_BY",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 70,
+        "target_name": "Pulumi",
+        "relation": "IMPLEMENTED_BY",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 141,
+        "target_name": "Ansible",
+        "relation": "IMPLEMENTED_BY",
+        "weight": 0.7
+      }
+    ]
+  },
+  "217": {
+    "source_name": "Zero Trust Architecture",
+    "relationships": [
+      {
+        "target_gid": 218,
+        "target_name": "Role-Based Access Control",
+        "relation": "RELATED_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "218": {
+    "source_name": "Role-Based Access Control",
+    "relationships": [
+      {
+        "target_gid": 219,
+        "target_name": "Keycloak",
+        "relation": "IMPLEMENTED_BY",
+        "weight": 0.7
+      }
+    ]
+  },
+  "20": {
+    "source_name": "Amazon Web Services",
+    "relationships": [
+      {
+        "target_gid": 21,
+        "target_name": "Microsoft Azure",
+        "relation": "COMPETES_WITH",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 22,
+        "target_name": "Google Cloud Platform",
+        "relation": "COMPETES_WITH",
+        "weight": 0.8
+      }
+    ]
+  },
+  "21": {
+    "source_name": "Microsoft Azure",
+    "relationships": [
+      {
+        "target_gid": 22,
+        "target_name": "Google Cloud Platform",
+        "relation": "COMPETES_WITH",
+        "weight": 0.8
+      }
+    ]
+  },
+  "23": {
+    "source_name": "Oracle Cloud Infrastructure",
+    "relationships": [
+      {
+        "target_gid": 20,
+        "target_name": "Amazon Web Services",
+        "relation": "COMPETES_WITH",
+        "weight": 0.5
+      }
+    ]
+  },
+  "24": {
+    "source_name": "IBM Cloud",
+    "relationships": [
+      {
+        "target_gid": 20,
+        "target_name": "Amazon Web Services",
+        "relation": "COMPETES_WITH",
+        "weight": 0.4
+      }
+    ]
+  },
+  "25": {
+    "source_name": "DigitalOcean",
+    "relationships": [
+      {
+        "target_gid": 20,
+        "target_name": "Amazon Web Services",
+        "relation": "COMPETES_WITH",
+        "weight": 0.4
+      }
+    ]
+  },
+  "26": {
+    "source_name": "Heroku",
+    "relationships": [
+      {
+        "target_gid": 27,
+        "target_name": "Vercel",
+        "relation": "COMPETES_WITH",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 20,
+        "target_name": "Amazon Web Services",
+        "relation": "RUNS_ON",
+        "weight": 0.5
+      }
+    ]
+  },
+  "27": {
+    "source_name": "Vercel",
+    "relationships": [
+      {
+        "target_gid": 4,
+        "target_name": "Next.js",
+        "relation": "HOSTS",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 28,
+        "target_name": "Netlify",
+        "relation": "COMPETES_WITH",
+        "weight": 0.8
+      }
+    ]
+  },
+  "28": {
+    "source_name": "Netlify",
+    "relationships": [
+      {
+        "target_gid": 27,
+        "target_name": "Vercel",
+        "relation": "COMPETES_WITH",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 1,
+        "target_name": "React",
+        "relation": "HOSTS",
+        "weight": 0.5
+      }
+    ]
+  },
+  "29": {
+    "source_name": "Railway",
+    "relationships": [
+      {
+        "target_gid": 30,
+        "target_name": "Render",
+        "relation": "COMPETES_WITH",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 26,
+        "target_name": "Heroku",
+        "relation": "COMPETES_WITH",
+        "weight": 0.5
+      }
+    ]
+  },
+  "30": {
+    "source_name": "Render",
+    "relationships": [
+      {
+        "target_gid": 29,
+        "target_name": "Railway",
+        "relation": "COMPETES_WITH",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 26,
+        "target_name": "Heroku",
+        "relation": "COMPETES_WITH",
+        "weight": 0.5
+      }
+    ]
+  },
+  "32": {
+    "source_name": "PostgreSQL",
+    "relationships": [
+      {
+        "target_gid": 47,
+        "target_name": "pgvector",
+        "relation": "SUPPORTS_EXTENSION",
+        "weight": 0.9
+      }
+    ]
+  },
+  "47": {
+    "source_name": "pgvector",
+    "relationships": [
+      {
+        "target_gid": 32,
+        "target_name": "PostgreSQL",
+        "relation": "EXTENDS",
+        "weight": 0.9
+      }
+    ]
+  },
+  "33": {
+    "source_name": "MySQL",
+    "relationships": [
+      {
+        "target_gid": 32,
+        "target_name": "PostgreSQL",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.7
+      }
+    ]
+  },
+  "212": {
+    "source_name": "MariaDB",
+    "relationships": [
+      {
+        "target_gid": 33,
+        "target_name": "MySQL",
+        "relation": "FORKED_FROM",
+        "weight": 0.9
+      }
+    ]
+  },
+  "34": {
+    "source_name": "SQL Server",
+    "relationships": [
+      {
+        "target_gid": 35,
+        "target_name": "Oracle Database",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "36": {
+    "source_name": "SQLite",
+    "relationships": [
+      {
+        "target_gid": 32,
+        "target_name": "PostgreSQL",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.4
+      }
+    ]
+  },
+  "37": {
+    "source_name": "MongoDB",
+    "relationships": [
+      {
+        "target_gid": 32,
+        "target_name": "PostgreSQL",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "38": {
+    "source_name": "Redis",
+    "relationships": [
+      {
+        "target_gid": 197,
+        "target_name": "Caching Layer",
+        "relation": "IMPLEMENTS",
+        "weight": 0.85
+      }
+    ]
+  },
+  "39": {
+    "source_name": "Apache Cassandra",
+    "relationships": [
+      {
+        "target_gid": 37,
+        "target_name": "MongoDB",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "40": {
+    "source_name": "Amazon DynamoDB",
+    "relationships": [
+      {
+        "target_gid": 20,
+        "target_name": "Amazon Web Services",
+        "relation": "RUNS_ON",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 39,
+        "target_name": "Apache Cassandra",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "41": {
+    "source_name": "Neo4j",
+    "relationships": [
+      {
+        "target_gid": 37,
+        "target_name": "MongoDB",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.3
+      }
+    ]
+  },
+  "42": {
+    "source_name": "Pinecone",
+    "relationships": [
+      {
+        "target_gid": 43,
+        "target_name": "Weaviate",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.7
+      }
+    ]
+  },
+  "43": {
+    "source_name": "Weaviate",
+    "relationships": [
+      {
+        "target_gid": 44,
+        "target_name": "Milvus",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "44": {
+    "source_name": "Milvus",
+    "relationships": [
+      {
+        "target_gid": 45,
+        "target_name": "Qdrant",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "45": {
+    "source_name": "Qdrant",
+    "relationships": [
+      {
+        "target_gid": 43,
+        "target_name": "Weaviate",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "46": {
+    "source_name": "Chroma",
+    "relationships": [
+      {
+        "target_gid": 42,
+        "target_name": "Pinecone",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "213": {
+    "source_name": "ClickHouse",
+    "relationships": [
+      {
+        "target_gid": 214,
+        "target_name": "InfluxDB",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.4
+      }
+    ]
+  },
+  "214": {
+    "source_name": "InfluxDB",
+    "relationships": [
+      {
+        "target_gid": 84,
+        "target_name": "Prometheus",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "184": {
+    "source_name": "GPU (Graphics Processing Unit)",
+    "relationships": [
+      {
+        "target_gid": 13,
+        "target_name": "TensorFlow",
+        "relation": "ACCELERATES",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 14,
+        "target_name": "PyTorch",
+        "relation": "ACCELERATES",
+        "weight": 0.7
+      }
+    ]
+  },
+  "185": {
+    "source_name": "TPU (Tensor Processing Unit)",
+    "relationships": [
+      {
+        "target_gid": 13,
+        "target_name": "TensorFlow",
+        "relation": "ACCELERATES",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 184,
+        "target_name": "GPU (Graphics Processing Unit)",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "186": {
+    "source_name": "Server Hardware",
+    "relationships": [
+      {
+        "target_gid": 138,
+        "target_name": "Kubernetes",
+        "relation": "HOSTS",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 100,
+        "target_name": "Printed Circuit Board",
+        "relation": "CONTAINS",
+        "weight": 0.5
+      }
+    ]
+  },
+  "187": {
+    "source_name": "Network Switch",
+    "relationships": [
+      {
+        "target_gid": 192,
+        "target_name": "Firewall",
+        "relation": "CONNECTS_TO",
+        "weight": 0.4
+      },
+      {
+        "target_gid": 106,
+        "target_name": "TCP/IP",
+        "relation": "COMPATIBLE_WITH",
+        "weight": 0.5
+      }
+    ]
+  },
+  "188": {
+    "source_name": "SSD Storage",
+    "relationships": [
+      {
+        "target_gid": 186,
+        "target_name": "Server Hardware",
+        "relation": "USED_BY",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 103,
+        "target_name": "Semiconductors",
+        "relation": "MADE_FROM",
+        "weight": 0.6
+      }
+    ]
+  },
+  "192": {
+    "source_name": "Firewall",
+    "relationships": [
+      {
+        "target_gid": 187,
+        "target_name": "Network Switch",
+        "relation": "SECURES",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 217,
+        "target_name": "Zero Trust Architecture",
+        "relation": "IMPLEMENTS",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 106,
+        "target_name": "TCP/IP",
+        "relation": "FILTERS",
+        "weight": 0.5
+      }
+    ]
+  },
+  "105": {
+    "source_name": "HTTPS",
+    "relationships": [
+      {
+        "target_gid": 104,
+        "target_name": "HTTP",
+        "relation": "SECURES",
+        "weight": 0.9
+      },
+      {
+        "target_gid": 112,
+        "target_name": "TLS",
+        "relation": "USES_PROTOCOL",
+        "weight": 0.9
+      }
+    ]
+  },
+  "112": {
+    "source_name": "TLS",
+    "relationships": [
+      {
+        "target_gid": 113,
+        "target_name": "SSL",
+        "relation": "SUCCESSOR_OF",
+        "weight": 0.9
+      }
+    ]
+  },
+  "106": {
+    "source_name": "TCP/IP",
+    "relationships": [
+      {
+        "target_gid": 104,
+        "target_name": "HTTP",
+        "relation": "FOUNDATION_FOR",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 108,
+        "target_name": "DNS",
+        "relation": "FOUNDATION_FOR",
+        "weight": 0.5
+      }
+    ]
+  },
+  "108": {
+    "source_name": "DNS",
+    "relationships": [
+      {
+        "target_gid": 104,
+        "target_name": "HTTP",
+        "relation": "USED_BY",
+        "weight": 0.6
+      }
+    ]
+  },
+  "109": {
+    "source_name": "DHCP",
+    "relationships": [
+      {
+        "target_gid": 106,
+        "target_name": "TCP/IP",
+        "relation": "RELATED_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "107": {
+    "source_name": "UDP",
+    "relationships": [
+      {
+        "target_gid": 106,
+        "target_name": "TCP/IP",
+        "relation": "PART_OF",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 108,
+        "target_name": "DNS",
+        "relation": "USED_BY",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 116,
+        "target_name": "MQTT",
+        "relation": "USED_BY",
+        "weight": 0.4
+      }
+    ]
+  },
+  "110": {
+    "source_name": "FTP",
+    "relationships": [
+      {
+        "target_gid": 111,
+        "target_name": "SSH",
+        "relation": "SECURED_BY",
+        "weight": 0.5
+      }
+    ]
+  },
+  "111": {
+    "source_name": "SSH",
+    "relationships": [
+      {
+        "target_gid": 209,
+        "target_name": "Git",
+        "relation": "USED_BY",
+        "weight": 0.6
+      }
+    ]
+  },
+  "114": {
+    "source_name": "SMTP",
+    "relationships": [
+      {
+        "target_gid": 115,
+        "target_name": "IMAP",
+        "relation": "COMPLEMENTS",
+        "weight": 0.6
+      }
+    ]
+  },
+  "116": {
+    "source_name": "MQTT",
+    "relationships": [
+      {
+        "target_gid": 117,
+        "target_name": "AMQP",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "118": {
+    "source_name": "OAuth 2.0",
+    "relationships": [
+      {
+        "target_gid": 119,
+        "target_name": "OpenID Connect",
+        "relation": "USED_WITH",
+        "weight": 0.85
+      }
+    ]
+  },
+  "119": {
+    "source_name": "OpenID Connect",
+    "relationships": [
+      {
+        "target_gid": 118,
+        "target_name": "OAuth 2.0",
+        "relation": "BUILT_ON",
+        "weight": 0.9
+      }
+    ]
+  },
+  "120": {
+    "source_name": "JWT",
+    "relationships": [
+      {
+        "target_gid": 118,
+        "target_name": "OAuth 2.0",
+        "relation": "USED_BY",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 119,
+        "target_name": "OpenID Connect",
+        "relation": "USED_BY",
+        "weight": 0.6
+      }
+    ]
+  },
+  "121": {
+    "source_name": "SAML",
+    "relationships": [
+      {
+        "target_gid": 119,
+        "target_name": "OpenID Connect",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "122": {
+    "source_name": "OpenAPI",
+    "relationships": [
+      {
+        "target_gid": 166,
+        "target_name": "RESTful API Design",
+        "relation": "DOCUMENTS",
+        "weight": 0.8
+      }
+    ]
+  },
+  "194": {
+    "source_name": "WebSocket",
+    "relationships": [
+      {
+        "target_gid": 104,
+        "target_name": "HTTP",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "97": {
+    "source_name": "Silicon",
+    "relationships": [
+      {
+        "target_gid": 103,
+        "target_name": "Semiconductors",
+        "relation": "USED_IN",
+        "weight": 0.9
+      }
+    ]
+  },
+  "103": {
+    "source_name": "Semiconductors",
+    "relationships": [
+      {
+        "target_gid": 184,
+        "target_name": "GPU (Graphics Processing Unit)",
+        "relation": "USED_IN",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 185,
+        "target_name": "TPU (Tensor Processing Unit)",
+        "relation": "USED_IN",
+        "weight": 0.6
+      }
+    ]
+  },
+  "98": {
+    "source_name": "Copper",
+    "relationships": [
+      {
+        "target_gid": 100,
+        "target_name": "Printed Circuit Board",
+        "relation": "USED_IN",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 187,
+        "target_name": "Network Switch",
+        "relation": "USED_IN",
+        "weight": 0.5
+      }
+    ]
+  },
+  "99": {
+    "source_name": "Fiber Optic Cable",
+    "relationships": [
+      {
+        "target_gid": 190,
+        "target_name": "Content Delivery Network",
+        "relation": "USED_IN",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 98,
+        "target_name": "Copper",
+        "relation": "ALTERNATIVE_TO",
+        "weight": 0.6
+      }
+    ]
+  },
+  "100": {
+    "source_name": "Printed Circuit Board",
+    "relationships": [
+      {
+        "target_gid": 98,
+        "target_name": "Copper",
+        "relation": "CONTAINS",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 186,
+        "target_name": "Server Hardware",
+        "relation": "PART_OF",
+        "weight": 0.7
+      }
+    ]
+  },
+  "101": {
+    "source_name": "Lithium-ion Battery",
+    "relationships": [
+      {
+        "target_gid": 103,
+        "target_name": "Semiconductors",
+        "relation": "RELATED_TO",
+        "weight": 0.3
+      }
+    ]
+  },
+  "102": {
+    "source_name": "Carbon Fiber",
+    "relationships": [
+      {
+        "target_gid": 186,
+        "target_name": "Server Hardware",
+        "relation": "USED_IN",
+        "weight": 0.3
+      }
+    ]
+  },
+  "191": {
+    "source_name": "Virtual Private Network",
+    "relationships": [
+      {
+        "target_gid": 112,
+        "target_name": "TLS",
+        "relation": "USES_PROTOCOL",
+        "weight": 0.6
+      }
+    ]
+  },
+  "198": {
+    "source_name": "Authentication & Authorization Module",
+    "relationships": [
+      {
+        "target_gid": 218,
+        "target_name": "Role-Based Access Control",
+        "relation": "IMPLEMENTS",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 118,
+        "target_name": "OAuth 2.0",
+        "relation": "USES_PROTOCOL",
+        "weight": 0.7
+      }
+    ]
+  },
+  "216": {
+    "source_name": "OWASP Top 10",
+    "relationships": [
+      {
+        "target_gid": 86,
+        "target_name": "Burp Suite",
+        "relation": "GUIDES",
+        "weight": 0.5
+      }
+    ]
+  },
+  "189": {
+    "source_name": "Load Balancer",
+    "relationships": [
+      {
+        "target_gid": 186,
+        "target_name": "Server Hardware",
+        "relation": "DISTRIBUTES_TRAFFIC_TO",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 142,
+        "target_name": "Nginx",
+        "relation": "IMPLEMENTED_BY",
+        "weight": 0.7
+      }
+    ]
+  },
+  "190": {
+    "source_name": "Content Delivery Network",
+    "relationships": [
+      {
+        "target_gid": 189,
+        "target_name": "Load Balancer",
+        "relation": "RELATED_TO",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 27,
+        "target_name": "Vercel",
+        "relation": "USED_BY",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 28,
+        "target_name": "Netlify",
+        "relation": "USED_BY",
+        "weight": 0.5
+      }
+    ]
+  },
+  "193": {
+    "source_name": "Reverse Proxy",
+    "relationships": [
+      {
+        "target_gid": 142,
+        "target_name": "Nginx",
+        "relation": "IMPLEMENTED_BY",
+        "weight": 0.85
+      }
+    ]
+  },
+  "220": {
+    "source_name": "Linux",
+    "relationships": [
+      {
+        "target_gid": 137,
+        "target_name": "Docker",
+        "relation": "HOSTS",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 138,
+        "target_name": "Kubernetes",
+        "relation": "HOSTS",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 66,
+        "target_name": "Bash",
+        "relation": "RUNS",
+        "weight": 0.7
+      }
+    ]
+  },
+  "202": {
+    "source_name": "Full Stack Developer",
+    "relationships": [
+      {
+        "target_gid": 52,
+        "target_name": "JavaScript",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 1,
+        "target_name": "React",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 9,
+        "target_name": "Express.js",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.4
+      }
+    ]
+  },
+  "203": {
+    "source_name": "Backend Developer",
+    "relationships": [
+      {
+        "target_gid": 54,
+        "target_name": "Python",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.4
+      },
+      {
+        "target_gid": 51,
+        "target_name": "Java",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.4
+      },
+      {
+        "target_gid": 32,
+        "target_name": "PostgreSQL",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.4
+      }
+    ]
+  },
+  "204": {
+    "source_name": "Frontend Developer",
+    "relationships": [
+      {
+        "target_gid": 1,
+        "target_name": "React",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 145,
+        "target_name": "CSS",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 144,
+        "target_name": "HTML",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.5
+      }
+    ]
+  },
+  "205": {
+    "source_name": "DevOps Engineer",
+    "relationships": [
+      {
+        "target_gid": 138,
+        "target_name": "Kubernetes",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 137,
+        "target_name": "Docker",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 139,
+        "target_name": "Terraform",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 172,
+        "target_name": "Continuous Integration/Continuous Deployment",
+        "relation": "PRACTICES",
+        "weight": 0.6
+      }
+    ]
+  },
+  "206": {
+    "source_name": "MLOps Engineer",
+    "relationships": [
+      {
+        "target_gid": 89,
+        "target_name": "MLflow",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 90,
+        "target_name": "Kubeflow",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 155,
+        "target_name": "Weights & Biases",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.5
+      }
+    ]
+  },
+  "207": {
+    "source_name": "AI/ML Engineer",
+    "relationships": [
+      {
+        "target_gid": 13,
+        "target_name": "TensorFlow",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 14,
+        "target_name": "PyTorch",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 158,
+        "target_name": "Scikit-learn",
+        "relation": "USES_TECHNOLOGY",
+        "weight": 0.5
+      }
+    ]
+  },
+  "173": {
+    "source_name": "Agile Methodology",
+    "relationships": [
+      {
+        "target_gid": 174,
+        "target_name": "Scrum",
+        "relation": "RELATED_TO",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 175,
+        "target_name": "Kanban",
+        "relation": "RELATED_TO",
+        "weight": 0.7
+      }
+    ]
+  },
+  "174": {
+    "source_name": "Scrum",
+    "relationships": [
+      {
+        "target_gid": 173,
+        "target_name": "Agile Methodology",
+        "relation": "IMPLEMENTS",
+        "weight": 0.85
+      }
+    ]
+  },
+  "175": {
+    "source_name": "Kanban",
+    "relationships": [
+      {
+        "target_gid": 173,
+        "target_name": "Agile Methodology",
+        "relation": "IMPLEMENTS",
+        "weight": 0.7
+      }
+    ]
+  },
+  "176": {
+    "source_name": "GitOps",
+    "relationships": [
+      {
+        "target_gid": 171,
+        "target_name": "Infrastructure as Code",
+        "relation": "EXTENDS",
+        "weight": 0.6
+      }
+    ]
+  },
+  "177": {
+    "source_name": "DevSecOps",
+    "relationships": [
+      {
+        "target_gid": 172,
+        "target_name": "Continuous Integration/Continuous Deployment",
+        "relation": "EXTENDS",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 216,
+        "target_name": "OWASP Top 10",
+        "relation": "RELATED_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "178": {
+    "source_name": "Test-Driven Development",
+    "relationships": [
+      {
+        "target_gid": 123,
+        "target_name": "JUnit",
+        "relation": "PRACTICED_WITH",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 125,
+        "target_name": "pytest",
+        "relation": "PRACTICED_WITH",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 126,
+        "target_name": "Jest",
+        "relation": "PRACTICED_WITH",
+        "weight": 0.5
+      }
+    ]
+  },
+  "199": {
+    "source_name": "Chaos Engineering",
+    "relationships": [
+      {
+        "target_gid": 138,
+        "target_name": "Kubernetes",
+        "relation": "TESTS_RESILIENCE_OF",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 180,
+        "target_name": "SLA/SLO/SLI Framework",
+        "relation": "RELATED_TO",
+        "weight": 0.5
+      }
+    ]
+  },
+  "179": {
+    "source_name": "DORA Metrics",
+    "relationships": [
+      {
+        "target_gid": 172,
+        "target_name": "Continuous Integration/Continuous Deployment",
+        "relation": "MEASURES",
+        "weight": 0.7
+      }
+    ]
+  },
+  "180": {
+    "source_name": "SLA/SLO/SLI Framework",
+    "relationships": [
+      {
+        "target_gid": 183,
+        "target_name": "Latency and Throughput",
+        "relation": "MEASURES",
+        "weight": 0.6
+      }
+    ]
+  },
+  "181": {
+    "source_name": "Model Evaluation Metrics",
+    "relationships": [
+      {
+        "target_gid": 13,
+        "target_name": "TensorFlow",
+        "relation": "APPLIES_TO",
+        "weight": 0.4
+      },
+      {
+        "target_gid": 158,
+        "target_name": "Scikit-learn",
+        "relation": "APPLIES_TO",
+        "weight": 0.5
+      },
+      {
+        "target_gid": 14,
+        "target_name": "PyTorch",
+        "relation": "APPLIES_TO",
+        "weight": 0.4
+      }
+    ]
+  },
+  "182": {
+    "source_name": "Code Coverage",
+    "relationships": [
+      {
+        "target_gid": 85,
+        "target_name": "SonarQube",
+        "relation": "MEASURED_BY",
+        "weight": 0.7
+      },
+      {
+        "target_gid": 123,
+        "target_name": "JUnit",
+        "relation": "MEASURED_BY",
+        "weight": 0.4
+      },
+      {
+        "target_gid": 125,
+        "target_name": "pytest",
+        "relation": "MEASURED_BY",
+        "weight": 0.4
+      }
+    ]
+  },
+  "183": {
+    "source_name": "Latency and Throughput",
+    "relationships": [
+      {
+        "target_gid": 136,
+        "target_name": "JMeter",
+        "relation": "MEASURED_BY",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 200,
+        "target_name": "Load Testing Simulation (k6)",
+        "relation": "MEASURED_BY",
+        "weight": 0.6
+      },
+      {
+        "target_gid": 84,
+        "target_name": "Prometheus",
+        "relation": "MEASURED_BY",
+        "weight": 0.5
+      }
+    ]
+  },
+  "201": {
+    "source_name": "A/B Testing Framework",
+    "relationships": [
+      {
+        "target_gid": 181,
+        "target_name": "Model Evaluation Metrics",
+        "relation": "RELATED_TO",
+        "weight": 0.4
+      },
+      {
+        "target_gid": 207,
+        "target_name": "AI/ML Engineer",
+        "relation": "USED_BY",
+        "weight": 0.4
+      }
+    ]
+  },
+  "196": {
+    "source_name": "Message Queue",
+    "relationships": [
+      {
+        "target_gid": 80,
+        "target_name": "Apache Kafka",
+        "relation": "IMPLEMENTED_BY",
+        "weight": 0.8
+      },
+      {
+        "target_gid": 81,
+        "target_name": "RabbitMQ",
+        "relation": "IMPLEMENTED_BY",
+        "weight": 0.8
+      }
+    ]
+  },
+  "197": {
+    "source_name": "Caching Layer",
+    "relationships": [
+      {
+        "target_gid": 38,
+        "target_name": "Redis",
+        "relation": "IMPLEMENTED_BY",
+        "weight": 0.85
+      },
+      {
+        "target_gid": 183,
+        "target_name": "Latency and Throughput",
+        "relation": "IMPROVES",
+        "weight": 0.5
+      }
+    ]
+  }
+}
