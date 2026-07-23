@@ -12,10 +12,14 @@ Everything is inferred by GPT based on the job description content.
 
 import json
 import os
+import re
 import sys
 from typing import Dict, List, Any, Optional
 from openai import OpenAI
 from dotenv import load_dotenv
+
+from jd_indexer import load_dataset, build_name_index, resolve_name, load_relationships, tools_related_to_concept, build_detail
+from verb_priority_graph import load_verb_lookup, match_verb
 
 # Load environment variables from .env file
 load_dotenv()
@@ -237,6 +241,350 @@ def normalize_sentence_importance_locally(result: dict) -> None:
                     item["importance_percentage"] = sub_final
 
     sia["total_percentage"] = f"{sum(floors)}%"
+
+
+# =============================================================================
+# ENTITY (TOOL/CONCEPT) IMPORTANCE SCORING
+# =============================================================================
+# Distributes each sentence's already-normalized importance_percentage across
+# the tools/concepts it mentions, using updated_dataset (entity_type) as the
+# source of truth for TechnologyRoleWeight instead of a hardcoded guess table
+# or a dependency parser.
+
+DATASET_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "updated_dataset")
+
+# entity_type (from updated_dataset) -> role weight. Core languages/frameworks/
+# databases score highest, infra/platform/protocol are neutral, generic tools
+# score slightly lower, and Concepts get a boost (transferable knowledge).
+ENTITY_TYPE_ROLE_WEIGHT = {
+    # core technology
+    "Programming Language": 1.15,
+    "Query Language": 1.1,
+    "Scripting Language": 1.1,
+    "Markup Language": 1.0,
+    "Style Sheet Language": 1.0,
+    "Framework": 1.1,
+    "ML Framework": 1.15,
+    "AI Framework": 1.15,
+    "Testing Framework": 1.05,
+    "Database": 1.1,
+    "Database Extension": 0.95,
+    # infrastructure / platform
+    "Cloud Platform": 1.0,
+    "Platform": 1.0,
+    "Operating System": 0.95,
+    "DevOps Tool": 0.95,
+    "Container Technology": 1.0,
+    "Message Broker": 0.95,
+    "Infrastructure Component": 0.9,
+    "Protocol": 0.9,
+    "Protocol Suite": 0.9,
+    "Standard": 0.85,
+    "Specification": 0.85,
+    "Hardware": 0.85,
+    # utility / tool
+    "Security Tool": 0.95,
+    "Tool": 0.9,
+    "Material": 0.8,
+    "Material / Component": 0.8,
+    "Material Category": 0.75,
+    "Role": 0.8,
+    # concepts — transferable knowledge (rule: concepts > implementation tools)
+    "Concept": 1.2,
+    "Methodology": 1.15,
+}
+DEFAULT_ROLE_WEIGHT = 1.0  # unresolved entities — neutral, never silently zeroed
+
+VERBS_PRIORITY_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "verbs_priority_engg.json")
+
+# A sentence's governing verb (from responsibility_actions, priority 1-10 via
+# verbs_priority_engg.json) scales how much weight flows to that sentence's
+# entities — "Designed" (high priority/ownership) pushes its tools/concepts
+# higher than "Used" (low priority) would, for the SAME sentence importance.
+# Range chosen so an unmatched/absent verb (multiplier 1.0) sits in the middle.
+VERB_WEIGHT_MIN = 0.7   # priority 1
+VERB_WEIGHT_MAX = 1.3   # priority 10
+
+RELATIONSHIPS_PATH = os.path.join(DATASET_PATH, "relationships.json")
+
+_dataset_cache: dict = {}
+_verb_lookup_cache: dict = {}
+_relationships_cache: dict = {}
+
+
+def _get_dataset_index(dataset_path: str = DATASET_PATH):
+    """Loads updated_dataset once per process and caches the name index."""
+    if dataset_path not in _dataset_cache:
+        try:
+            entities_by_id = load_dataset(dataset_path)
+            name_index = build_name_index(entities_by_id)
+        except Exception as e:
+            print(f"⚠️  Could not load dataset at {dataset_path} for entity role-weighting: {e}")
+            entities_by_id, name_index = {}, {}
+        _dataset_cache[dataset_path] = (entities_by_id, name_index)
+    return _dataset_cache[dataset_path]
+
+
+def _get_relationships(relationships_path: str = RELATIONSHIPS_PATH) -> dict:
+    """Loads relationships.json once per process and caches it."""
+    if relationships_path not in _relationships_cache:
+        try:
+            relationships = load_relationships(relationships_path)
+        except Exception as e:
+            print(f"⚠️  Could not load relationships at {relationships_path} for graph expansion: {e}")
+            relationships = {}
+        _relationships_cache[relationships_path] = relationships
+    return _relationships_cache[relationships_path]
+
+
+def _get_verb_lookup(verbs_path: str = VERBS_PRIORITY_PATH) -> dict:
+    """Loads verbs_priority_engg.json once per process."""
+    if verbs_path not in _verb_lookup_cache:
+        try:
+            lookup = load_verb_lookup(verbs_path)
+        except Exception as e:
+            print(f"⚠️  Could not load verb priorities at {verbs_path} for VerbWeight: {e}")
+            lookup = {}
+        _verb_lookup_cache[verbs_path] = lookup
+    return _verb_lookup_cache[verbs_path]
+
+
+def _sentence_governing_verb(sentence_id, actions_by_sentence: dict, verb_lookup: dict) -> Optional[dict]:
+    """Picks the STRONGEST-ownership verb governing this sentence — the one
+    with the highest priority among all responsibility_actions verbs tied to
+    it (e.g. "Design and maintain" -> "Design" governs, per the ownership
+    hierarchy Designed > Built > Implemented > ... > Used > Learned).
+    Returns None if the sentence has no responsibility_actions or none of its
+    verbs matched verbs_priority_engg.json — never guesses a priority.
+    """
+    best = None
+    for act in actions_by_sentence.get(sentence_id, []):
+        for raw_verb in act.get("actions", []):
+            entry = match_verb(raw_verb, verb_lookup)
+            if entry and (best is None or entry["priority"] > best["priority"]):
+                best = {"verb": entry["verb"], "priority": entry["priority"], "category": entry["category"], "raw_verb": raw_verb}
+    return best
+
+
+def _verb_weight(governing_verb: Optional[dict]) -> float:
+    if not governing_verb or governing_verb.get("priority") is None:
+        return 1.0  # no matched governing verb — neutral, not a penalty
+    priority = governing_verb["priority"]
+    return round(VERB_WEIGHT_MIN + (priority / 10) * (VERB_WEIGHT_MAX - VERB_WEIGHT_MIN), 3)
+
+
+def _hunt_dataset_detail(
+    eid: Optional[int],
+    entities_by_id: dict,
+    relationships: dict,
+) -> dict:
+    """
+    Full, uncapped dataset lookup for one resolved entity, via the id->record
+    and id->relationships indexes (both O(1), see build_name_index /
+    load_relationships) — no truncation, no synthetic scoring:
+      - Tool    -> its COMPLETE dataset record: entity_type, entity_subtype,
+                   hierarchy, aliases, every sub_concept, every prerequisite,
+                   every relationships.json edge (jd_indexer.build_detail).
+      - Concept -> its own complete record, PLUS every tool that references
+                   this concept (jd_indexer.tools_related_to_concept — the
+                   two indexed channels: relationship edges + reverse
+                   sub-concept match), each of THOSE tools also expanded to
+                   its own complete record.
+
+    Returns {"resolved_in_dataset": bool, "dataset_detail": {...} | None,
+             "related_tools": [...] | None}. related_tools is only populated
+             for concepts; None for tools/unresolved entities.
+    """
+    if eid is None or eid not in entities_by_id:
+        return {"resolved_in_dataset": False, "dataset_detail": None, "related_tools": None}
+
+    detail = build_detail(eid, entities_by_id, relationships)
+    related_tools = None
+
+    if detail.get("entity_type") == "Concept":
+        related_tools = []
+        for t in tools_related_to_concept(eid, entities_by_id, relationships):
+            tool_detail = build_detail(t["id"], entities_by_id, relationships)
+            if tool_detail is not None:
+                tool_detail["matched_via"] = t["sources"]  # provenance: relationship_edge and/or subconcept_match
+                related_tools.append(tool_detail)
+
+    return {"resolved_in_dataset": True, "dataset_detail": detail, "related_tools": related_tools}
+
+
+def _largest_remainder_round(values: list, total: int = 100) -> list:
+    """Scales `values` (any non-negative floats) to integers summing to
+    exactly `total`, preserving relative order via largest-remainder rounding
+    — same technique normalize_sentence_importance_locally uses for
+    sentence percentages, applied here to the JD-wide entity pool."""
+    raw_total = sum(values)
+    if raw_total <= 0:
+        return [0] * len(values)
+    scaled = [(v / raw_total) * total for v in values]
+    floors = [int(x) for x in scaled]
+    remainder = total - sum(floors)
+    order = sorted(range(len(scaled)), key=lambda i: (scaled[i] - floors[i]), reverse=True)
+    for i in range(remainder):
+        floors[order[i % len(floors)]] += 1
+    return floors
+
+
+_OR_PATTERN = re.compile(r"\bor\b", re.IGNORECASE)
+
+
+def _sentence_relation(sentence: dict) -> str:
+    """AND (divide weight) or OR (equal share, each usable as an alternative).
+    Prefers the GPT-assigned compound_type; falls back to a plain 'or'/'/'
+    connector scan of the sentence text when the sentence isn't compound.
+    """
+    compound_type = sentence.get("compound_type")
+    if compound_type == "ANY_ONE":
+        return "OR"
+    if compound_type == "ALL_REQUIRED":
+        return "AND"
+    text = sentence.get("text", "")
+    if _OR_PATTERN.search(text) or "/" in text:
+        return "OR"
+    return "AND"
+
+
+def distribute_entity_importance_locally(
+    result: dict,
+    dataset_path: str = DATASET_PATH,
+    verbs_path: str = VERBS_PRIORITY_PATH,
+) -> None:
+    """
+    Full JD-wide scoring pass for tools/concepts. For each processed_sentence:
+      1. Look up its governing verb (highest-priority verb from
+         responsibility_actions tied to this sentence_id, via
+         verbs_priority_engg.json) and turn it into a VerbWeight multiplier
+         (rule: "Designed" outranks "Used" — see _verb_weight). Logged onto
+         the sentence as "governing_verb" for transparency.
+      2. effective_weight = TierWeight (CRITICAL/IMPORTANT/GENERIC, fixed
+         lookup — not an LLM-assigned score) x VerbWeight.
+      3. Split effective_weight across the sentence's entities:
+           - AND (default): divided proportional to each entity's
+             TechnologyRoleWeight (resolved against updated_dataset's
+             entity_type — Concepts > core languages/frameworks/DBs >
+             infra/platform > utility).
+           - OR (compound_type == ANY_ONE, or an "or"/"/" connector): same
+             proportional split, but tagged relation="OR" so a matching
+             engine can treat these as alternatives (max, not sum).
+
+    Then aggregates across the WHOLE JD: contributions per unique entity are
+    summed and divided by sqrt(frequency) (diminishing returns), and finally
+    ALL entities (tools + concepts together, one combined pool) are
+    normalized via largest-remainder rounding so their percentages sum to
+    EXACTLY 100% for the JD as a whole — not per sentence.
+
+    Mutates result in place:
+      - each processed_sentence gets "governing_verb" (or null)
+      - each entity gets "importance_percentage" (raw per-sentence
+        contribution, post-verb-weight), "relation", "role_weight"
+      - new top-level "entity_importance_summary": ranked list with the
+        JD-wide normalized "percentage" (ints, sums to 100), plus
+        "raw_score" and full "contributions" trace for auditability.
+
+    NOTE — node-centric scoring, not sentence-centric: the base weight per
+    sentence is its TIER_WEIGHT (a fixed, deterministic lookup —
+    CRITICAL=1.0/IMPORTANT=0.7/GENERIC=0.3 — NOT the GPT-assigned free-form
+    sentence_importance_analysis percentage). Tools/concepts inherit weight
+    from tier + governing verb + dataset role-type, never from an LLM's
+    opinion of "how much of the JD is this sentence." sentence_importance_
+    analysis is still computed (other consumers may want it) but is NOT
+    read here.
+    """
+    entities_by_id, name_index = _get_dataset_index(dataset_path)
+    verb_lookup = _get_verb_lookup(verbs_path)
+
+    actions_by_sentence: dict = {}
+    for act in result.get("responsibility_actions", []):
+        actions_by_sentence.setdefault(act.get("sentence_id"), []).append(act)
+
+    aggregate: dict = {}  # canonical lowercase name -> accumulator
+
+    for sentence in result.get("processed_sentences", []):
+        sid = sentence.get("id")
+
+        governing_verb = _sentence_governing_verb(sid, actions_by_sentence, verb_lookup)
+        verb_weight = _verb_weight(governing_verb)
+        sentence["governing_verb"] = governing_verb
+
+        entities = sentence.get("entities") or []
+        if not entities:
+            continue
+
+        tier_weight = TIER_WEIGHTS.get(sentence.get("tier"), 0.0) * 100
+        effective_pct = tier_weight * verb_weight
+        relation = _sentence_relation(sentence)
+
+        eids = []
+        weights = []
+        for ent in entities:
+            eid = None
+            if name_index:
+                eid = resolve_name(ent["entity"], name_index, entities_by_id, category_hint=ent.get("category"))
+            entity_type = entities_by_id[eid].get("entity_type") if eid is not None else None
+            eids.append(eid)
+            weights.append(ENTITY_TYPE_ROLE_WEIGHT.get(entity_type, DEFAULT_ROLE_WEIGHT))
+
+        total_weight = sum(weights) or len(entities) or 1
+
+        for ent, eid, w in zip(entities, eids, weights):
+            share = round(effective_pct * (w / total_weight), 3) if effective_pct else 0.0
+            ent["importance_percentage"] = share
+            ent["relation"] = relation
+            ent["role_weight"] = w
+
+            key = ent["entity"].strip().lower()
+            acc = aggregate.setdefault(key, {
+                "entity": ent["entity"],
+                "category": ent.get("category"),
+                "eid": eid,
+                "contributions": [],
+            })
+            if acc["eid"] is None and eid is not None:
+                acc["eid"] = eid
+            acc["contributions"].append({
+                "sentence_id": sid,
+                "importance_percentage": share,
+                "relation": relation,
+                "verb_weight": verb_weight,
+            })
+
+    raw_scores = []
+    for acc in aggregate.values():
+        contributions = acc["contributions"]
+        raw_sum = sum(c["importance_percentage"] for c in contributions)
+        frequency = len(contributions)
+        raw_score = raw_sum / (frequency ** 0.5) if frequency else 0.0
+        acc["raw_score"] = raw_score
+        acc["frequency"] = frequency
+        raw_scores.append(raw_score)
+
+    normalized_pcts = _largest_remainder_round(raw_scores, total=100)
+    relationships = _get_relationships()
+
+    summary = []
+    for acc, pct in zip(aggregate.values(), normalized_pcts):
+        contributions = acc["contributions"]
+        hunt = _hunt_dataset_detail(acc["eid"], entities_by_id, relationships)
+
+        summary.append({
+            "entity": acc["entity"],
+            "category": acc["category"],
+            "percentage": pct,
+            "raw_score": round(acc["raw_score"], 3),
+            "frequency": acc["frequency"],
+            "sentences": [c["sentence_id"] for c in contributions],
+            "contributions": contributions,
+            "resolved_in_dataset": hunt["resolved_in_dataset"],
+            "dataset_detail": hunt["dataset_detail"],
+            "related_tools": hunt["related_tools"],
+        })
+
+    summary.sort(key=lambda x: x["percentage"], reverse=True)
+    result["entity_importance_summary"] = summary
 
 
 def ensure_entities_field_locally(result: dict) -> None:
@@ -1013,6 +1361,9 @@ Return ONLY valid JSON, no additional text"""
             )
             normalize_sentence_importance_locally(result)
 
+            # Distribute each sentence's importance across its tools/concepts
+            distribute_entity_importance_locally(result)
+
             # Log role count (retry removed — prompt now enforces minimum 2)
             num_roles = len(result.get("job_roles", []))
             if num_roles < 2:
@@ -1245,6 +1596,7 @@ Return ONLY valid JSON, no additional text."""
                 result.get("structural_sentences", []),
             )
             normalize_sentence_importance_locally(result)
+            distribute_entity_importance_locally(result)
 
             self._validate_result(result)
             print("✓ Forced-role classification validated successfully")
@@ -1634,9 +1986,7 @@ def main():
     
     # Sample job description
     job_description = """
-About the job
-Job Title: Backend Engineer (Node.js & Cloud) Role Overview We are looking for a skilled Backend Engineer to design, scale, and maintain our core server-side logic and APIs. In this role, you will transition legacy components into microservices, optimize data workflows, and ensure our cloud infrastructure is secure and resilient. You will work closely with frontend, DevOps, and product teams to deliver high-quality, production-ready software. Core Responsibilities API & Service Development: Design, build, and maintain highly scalable backend services and robust RESTful/GraphQL APIs using Node.js. Architecture Evolution: Develop microservices and event-driven applications to support high-throughput, low-latency business logic. Data Management: Write optimized queries, design schemas, and manage data consistency across both relational (SQL) and non-relational (NoSQL) databases. Cloud & Security: Deploy and maintain applications in cloud environments, implementing secure authentication/authorization protocols (e.g., OAuth, JWT) and data encryption. Engineering Excellence: Drive application performance tuning, conduct rigorous code reviews, write automated tests, and support CI/CD pipeline automation. Sourcing & Screening Guide for TA1. Must-Have Technical Skills (Screening Criteria) Language/Framework: Deep production experience with Node.js (and frameworks like Express, NestJS, or Fastify). Database Proficiency: Hands-on experience with both relational (PostgreSQL, MySQL) and non-relational (MongoDB, DynamoDB, Redis) databases. Cloud Infrastructure: Proven experience deploying and monitoring applications in a major cloud environment (AWS, Azure, or GCP). Architectural Patterns: Clear understanding of microservices, event-driven architecture, and message brokers (e.g., Kafka, RabbitMQ, or AWS SQS). Testing & Quality: Experience writing unit/integration tests (using Jest, Mocha, or Chai) and participating in CI/CD workflows. 2. Nice-to-Have Skills (Sourcing Differentiators) Experience with TypeScript in a backend environment. Familiarity with containerization tools like Docker and orchestration via Kubernetes. Understanding of Infrastructure as Code (IaC) tools like Terraform.
-"""
+Job Title: Backend Engineer (Node.js & Cloud) Role Overview We are looking for a skilled Backend Engineer to design, scale, and maintain our core server-side logic and APIs. In this role, you will transition legacy components into microservices, optimize data workflows, and ensure our cloud infrastructure is secure and resilient. You will work closely with frontend, DevOps, and product teams to deliver high-quality, production-ready software. Core Responsibilities API & Service Development: Design, build, and maintain highly scalable backend services and robust RESTful/GraphQL APIs using Node.js. Architecture Evolution: Develop microservices and event-driven applications to support high-throughput, low-latency business logic. Data Management: Write optimized queries, design schemas, and manage data consistency across both relational (SQL) and non-relational (NoSQL) databases. Cloud & Security: Deploy and maintain applications in cloud environments, implementing secure authentication/authorization protocols (e.g., OAuth, JWT) and data encryption. Engineering Excellence: Drive application performance tuning, conduct rigorous code reviews, write automated tests, and support CI/CD pipeline automation. Sourcing & Screening Guide for TA1. Must-Have Technical Skills (Screening Criteria) Language/Framework: Deep production experience with Node.js (and frameworks like Express, NestJS, or Fastify). Database Proficiency: Hands-on experience with both relational (PostgreSQL, MySQL) and non-relational (MongoDB, DynamoDB, Redis) databases. Cloud Infrastructure: Proven experience deploying and monitoring applications in a major cloud environment (AWS, Azure, or GCP). Architectural Patterns: Clear understanding of microservices, event-driven architecture, and message brokers (e.g., Kafka, RabbitMQ, or AWS SQS). Testing & Quality: Experience writing unit/integration tests (using Jest, Mocha, or Chai) and participating in CI/CD workflows. 2. Nice-to-Have Skills (Sourcing Differentiators) Experience with TypeScript in a backend environment. Familiarity with containerization tools like Docker and orchestration via Kubernetes. Understanding of Infrastructure as Code (IaC) tools like Terraform."""
     
     # Get API key
     api_key = os.getenv("OPENAI_API_KEY")
@@ -1672,11 +2022,7 @@ Job Title: Backend Engineer (Node.js & Cloud) Role Overview We are looking for a
         
         # Print ChatGPT summary
         ResultAnalyzer.print_summary(result)
-        
-        # Export ChatGPT-only result
-        output_path = r"classification_result.json"
-        ResultAnalyzer.export_to_json(result, output_path)
-        
+
         # =====================================================================
         # STEP 2: Extract roles + processed description (No additional API call)
         # =====================================================================
@@ -1756,47 +2102,12 @@ Job Title: Backend Engineer (Node.js & Cloud) Role Overview We are looking for a
             print("\n⚠️  Could not build sentence-role matrix.")
 
         # =====================================================================
-        # Export combined_classification.json
-        # =====================================================================
-        combined_output_path = r"combined_classification.json"
-        with open(combined_output_path, 'w', encoding='utf-8') as f:
-            json_result = {
-                'chatgpt_roles': job_roles,
-                'processed_sentences': result.get('processed_sentences', []),
-                'structural_sentences': result.get('structural_sentences', []),
-                'non_matchable_sentences': result.get('non_matchable_sentences', []),
-                'tier_weights': result.get('tier_weights', {}),
-                'extracted_skills': result.get('extracted_skills', []),
-                'responsibility_actions': result.get('responsibility_actions', []),
-                'experience_requirements': result.get('experience_requirements', {'min': 0, 'max': 0}),
-                'depth_qualifier_map': result.get('depth_qualifier_map', {}),
-                'predicted_role': job_roles[0] if job_roles else None,
-                'job_role_domain': result.get('job_role_domain', None),
-                'role_similarity_matrix': similarity_result if similarity_result else None,
-                'sentence_role_matrix': {
-                    'roles': sentence_matrix['roles'],
-                    'sentence_breakdown': sentence_matrix['sentence_breakdown']
-                } if sentence_matrix else None,
-                'summary': result.get('summary', {}),
-                'testlify_analysis': result.get('testlify_analysis', None),
-                'sentence_importance_analysis': result.get('sentence_importance_analysis', None),
-                'job_logistics': result.get('job_logistics', None),
-                # NOTE: per-sentence "entities" (with "parent_relations") are already
-                # nested inside each object in 'processed_sentences' above — no
-                # separate export needed. generate_dependency_trees.py reads them
-                # straight from combined_classification.json's processed_sentences.
-            }
-            json.dump(json_result, f, indent=2, ensure_ascii=False)
-        print(f"\n✓ Combined results exported to: {combined_output_path}")
-        
-        # =====================================================================
-        # STEP 5: Soft Skill Extraction (Reuses processed sentences from Step 1)
+        # STEP 5: Soft Skill Summary (already computed in Step 1)
         # =====================================================================
         print("\n" + "=" * 80)
         print("STEP 5: Soft Skill Extraction (Using Step 1 Results)")
         print("=" * 80)
-        
-        # Soft skills were already extracted from GPT output in Step 1
+
         soft_skills = result.get('soft_skills', {})
 
         print("\nSOFT SKILLS EXTRACTION RESULTS")
@@ -1812,32 +2123,63 @@ Job Title: Backend Engineer (Node.js & Cloud) Role Overview We are looking for a
             print("\n⚠️  No soft skills found in the job description.")
         print("\n" + "=" * 80)
 
-        # Export complete results with soft skills
-        complete_output_path = r"complete_classification_with_skills.json"
-        try:
-            with open(complete_output_path, 'w', encoding='utf-8') as f:
-                json_result = {
-                    'chatgpt_roles': job_roles,
-                    'processed_description': processed_desc,
-                    'predicted_role': job_roles[0] if job_roles else None,
-                    'job_role_domain': result.get('job_role_domain', None),
-                    'soft_skills': soft_skills,
-                }
-                json.dump(json_result, f, indent=2, ensure_ascii=False)
-            print(f"\n✓ Complete results with soft skills exported to: {complete_output_path}")
-        except Exception as e:
-            print(f"\n⚠️  Error exporting results: {str(e)}")
-        
+        # =====================================================================
+        # SINGLE OUTPUT FILE — everything the pipeline produces, one file.
+        # =====================================================================
+        output_path = r"combined_classification.json"
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json_result = {
+                'chatgpt_roles': job_roles,
+                'job_role_domain': result.get('job_role_domain', None),
+                'predicted_role': job_roles[0] if job_roles else None,
+                'processed_sentences': result.get('processed_sentences', []),
+                'structural_sentences': result.get('structural_sentences', []),
+                'non_matchable_sentences': result.get('non_matchable_sentences', []),
+                'tier_weights': result.get('tier_weights', {}),
+                'extracted_skills': result.get('extracted_skills', []),
+                'responsibility_actions': result.get('responsibility_actions', []),
+                'experience_requirements': result.get('experience_requirements', {'min': 0, 'max': 0}),
+                'depth_qualifier_map': result.get('depth_qualifier_map', {}),
+                'role_similarity_matrix': similarity_result if similarity_result else None,
+                'sentence_role_matrix': {
+                    'roles': sentence_matrix['roles'],
+                    'sentence_breakdown': sentence_matrix['sentence_breakdown']
+                } if sentence_matrix else None,
+                'summary': result.get('summary', {}),
+                'soft_skills': soft_skills,
+                'testlify_analysis': result.get('testlify_analysis', None),
+                'sentence_importance_analysis': result.get('sentence_importance_analysis', None),
+                # JD-wide, normalized-to-100% ranking of every tool/concept —
+                # the headline output of the scoring engine. Verb weighting is
+                # already folded in per-sentence (see governing_verb on each
+                # processed_sentence above) rather than listed separately here.
+                'entity_importance_summary': result.get('entity_importance_summary', []),
+                'job_logistics': result.get('job_logistics', None),
+                # NOTE: per-sentence "entities" (scores + "governing_verb") are
+                # already nested inside 'processed_sentences' above — no
+                # separate export needed.
+            }
+            json.dump(json_result, f, indent=2, ensure_ascii=False)
+        print(f"\n✓ All results exported to: {output_path}")
+
         # =====================================================================
         # SUMMARY
         # =====================================================================
         print("\n" + "=" * 80)
         print("COMPLETE PIPELINE SUMMARY")
         print("=" * 80)
-        print("\n✅ ChatGPT API called: 1 time (Step 1 only)")
+        print("\n✅ ChatGPT API called: 1 time")
         print(f"✅ Roles identified: {len(job_roles)}")
         print(f"✅ Sentences processed: {len(processed_desc)}")
         print(f"✅ Entities extracted (with parent relations): {len(sentence_entities)}")
+        print(f"✅ Output file: {output_path}")
+
+        top_entities = result.get('entity_importance_summary', [])[:10]
+        if top_entities:
+            print("\n🏆 TOP TOOLS/CONCEPTS FOR THIS JD (normalized to 100% JD-wide):")
+            print("-" * 80)
+            for e in top_entities:
+                print(f"  {e['percentage']:>3}%  {e['entity']:<35} ({e['category']}, seen in {e['frequency']} sentence(s))")
         print("\n" + "=" * 80)
         
     except Exception as e:
