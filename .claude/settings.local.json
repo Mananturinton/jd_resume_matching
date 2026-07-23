@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(git -C /c/pipeline/jd_resume_matching fetch upstream)",
+      "Bash(git -C /c/pipeline/jd_resume_matching log --oneline -5 upstream/main)",
+      "Bash(git -C /c/pipeline/jd_resume_matching branch -vv)",
+      "Bash(git config *)",
+      "Bash(git -C /c/pipeline/jd_resume_matching config user.name)",
+      "Bash(git -C /c/pipeline/jd_resume_matching config user.email)"
     ]
   }
 }
